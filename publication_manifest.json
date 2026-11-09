@@ -1,8 +1,8 @@
 {
   "dataset_release": "0.3.0",
   "pair_count": 500,
-  "public_file_count": 3028,
-  "total_bytes": 81703288,
+  "public_file_count": 3026,
+  "total_bytes": 81814232,
   "source_policy": "Only reviewed pairs, public annotations, and source attribution are included. Full upstream corpora, answers, archives and authoring notebooks are excluded.",
   "files": [
     {
@@ -11,19 +11,9 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ANNOTATION_GUIDE.md",
-      "bytes": 2647,
-      "sha256": "1588b85a7a7b2aec054c333dfe02427fbbadcd065870a67563c0ea4403899c4e"
-    },
-    {
       "path": "annotations.json",
       "bytes": 1996957,
       "sha256": "28a9c3e5437bdf22dad5e99625036dcfa417e3b23ddbd7a8449ebb754bd8b046"
-    },
-    {
-      "path": "BENCHMARK_PROTOCOL.md",
-      "bytes": 2336,
-      "sha256": "381ecbfb45ae0ecb50ba7fa280177fb4000a43d01fcf182435d2473b62ad2f21"
     },
     {
       "path": "dataset_stats.json",
@@ -42,8 +32,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 853863,
-      "sha256": "666a6953317d6720618684f3c29a34823a27c1e3e3ef710953c63550d99e0ccf"
+      "bytes": 968587,
+      "sha256": "973ac6200cea71fa491b403ae54cd4a7c0f8e6a5ccc919a2c0af65086a9d9fb9"
     },
     {
       "path": "labels.jsonl",
@@ -15061,14 +15051,9 @@
       "sha256": "bf8d33e6e3720e4a41dac5acb9b1c45e46466a0cf1b680239964ba77a417afd1"
     },
     {
-      "path": "PROBLEM_STATEMENT.md",
-      "bytes": 1545,
-      "sha256": "dac97ce3e07613de086cb9d4d5ea9ff212bac38d05a2f6cb7ce7364f10431a6a"
-    },
-    {
       "path": "README.md",
-      "bytes": 8242,
-      "sha256": "9f759a4b4ee07fdf7caa414bfc385ab81611dae14297f042d745f55ba46d9f61"
+      "bytes": 1103,
+      "sha256": "8696f44a0ec7b7baa2d83ecb3c4a5e0d95a54212a6424962056ee987443573f9"
     },
     {
       "path": "review/exact_image_groups.json",
@@ -15076,14 +15061,19 @@
       "sha256": "94910d8f9a4b640f2e3f171a17633ab3698cdcfe5ec5ca8e5e5d18d6baa71386"
     },
     {
-      "path": "review/v03_review_log.md",
-      "bytes": 3497,
-      "sha256": "a9f11736de207fe2c74af7489519ea73d1d511316020de59f4da88fc47137373"
-    },
-    {
       "path": "review/validation_report.json",
       "bytes": 367,
       "sha256": "0b4c9d3bd2240a39d5f2d3fcebbf900d48285de4fce055dc2edf9ec8897528aa"
+    },
+    {
+      "path": "scripts/minimal_template.html",
+      "bytes": 10379,
+      "sha256": "d18e0f06647f8ccee488a0da6ccecbc30003245ce95fa655bef805a6c09a14ef"
+    },
+    {
+      "path": "scripts/render_minimal.py",
+      "bytes": 3005,
+      "sha256": "6c30f8347279aa941614f67a3c6e4c900a409fa08057226cd63efc6e188b3d98"
     },
     {
       "path": "scripts/validate_pages.py",
