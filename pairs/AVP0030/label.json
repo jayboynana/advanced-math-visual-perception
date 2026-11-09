@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small filled square at the intersection of two lines",
+  "mathematical_meanings": "Left image: It indicates that FG is perpendicular to the horizontal line through G. Right image: It indicates that BD is perpendicular to DC.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The pink and purple filled squares are both right-angle markers; the different orientations of the attached broken lines do not change their meaning."
+}

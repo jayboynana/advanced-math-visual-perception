@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0092",
+  "authoring_id": "GR17",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "geometric_position_vs_included_endpoint",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "528",
+    "sample_index": "2639",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_528.png",
+    "image_path": "pairs/AVP0092/left.png",
+    "sha256": "e6b197b10a3a48f311e1feb1a6b1e1c4ad12247d438de1859a4ecc70702b29a7",
+    "width": 269,
+    "height": 276,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "481",
+    "sample_index": "2404",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_481.png",
+    "image_path": "pairs/AVP0092/right.png",
+    "sha256": "2afd4c96b4fc5abc26c6b29504bc652174dfe01315fac2792629998713df9fde",
+    "width": 620,
+    "height": 471,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Filled circular marker",
+    "left_evidence": "The orange filled circular marker beside A at the rightmost point of the circle.",
+    "right_evidence": "The blue filled circular marker at the lower-right endpoint of the blue function curve.",
+    "left_meaning": "Names and locates a designated position on the complete circle.",
+    "right_meaning": "A closed-endpoint marker indicating that the function graph includes this boundary point.",
+    "same_meaning": false,
+    "reason": "The position marker on a complete circle does not indicate a domain cutoff, whereas the filled style at the function endpoint encodes inclusion of that endpoint."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Filled circular marker",
+    "mathematical_meanings": "Left image: Names and locates a designated position on the complete circle. Right image: A closed-endpoint marker indicating that the function graph includes this boundary point.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The position marker on a complete circle does not indicate a domain cutoff, whereas the filled style at the function endpoint encodes inclusion of that endpoint."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0092",
+    "condition": "condition/graphical_roles/AVP0092"
+  }
+}

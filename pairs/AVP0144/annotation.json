@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0144",
+  "authoring_id": "V03NR044",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "decimal_integer_coordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "217",
+    "sample_index": "217",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 202,
+      "img_width": 304,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/217.jpg",
+    "sha256": "c02166f228ed923f05e15c588a575dd5f18118522a2016b6388b48f4b4587827",
+    "width": 304,
+    "height": 202,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0144/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0144/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 3.000000 and 3.",
+    "left_evidence": "The X=3.000000 readout below the graph, next to Maximum.",
+    "right_evidence": "The tick label 3 below the vertical radius at the top of the semicircle.",
+    "left_meaning": "The marked maximum point has x-coordinate 3.",
+    "right_meaning": "The selected tick denotes x-coordinate value 3.",
+    "same_meaning": true,
+    "reason": "3.000000 equals 3. The calculator readout gives a point's x-coordinate and the axis tick denotes that same x-coordinate value."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 3.000000 and 3.",
+    "mathematical_meanings": "Left image: The marked maximum point has x-coordinate 3. Right image: The selected tick denotes x-coordinate value 3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "3.000000 equals 3. The calculator readout gives a point's x-coordinate and the axis tick denotes that same x-coordinate value."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0144",
+    "condition": "condition/numeric_representation/AVP0144"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The lowercase letter x at the right end of a horizontal axis",
+  "mathematical_meanings": "Left image: x names the horizontal coordinate axis and identifies the horizontal-coordinate direction. Right image: x names the horizontal coordinate axis and identifies the horizontal-coordinate direction.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected axis label retains its coordinate meaning across image types; the principal shapes need not match."
+}

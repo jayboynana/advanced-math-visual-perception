@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Matching chevron-shaped arrow marks drawn inside a pair of line segments.",
+  "mathematical_meanings": "Left image: The matching arrow marks state that SR and PQ are parallel. Right image: The matching double-arrow marks state that the upper and lower sides are parallel.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The arrow marks are repeated on two separate sides within each image, which is the geometric convention for parallel lines. Their purpose is a parallelism relation, irrespective of single versus double chevrons."
+}

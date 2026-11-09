@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 120° in both images.",
+  "mathematical_meanings": "Left image: The exterior angle at C measures 120 degrees. Right image: The interior angle at T measures 120 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both labels quantify an angle as 120 degrees. An exterior angle and an interior angle can have the same angle measure."
+}

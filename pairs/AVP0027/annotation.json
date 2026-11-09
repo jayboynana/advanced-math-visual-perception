@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0027",
+  "authoring_id": "GM02",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "equal_length_tick_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "392",
+    "sample_index": "1959",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_392.png",
+    "image_path": "pairs/AVP0027/left.png",
+    "sha256": "2ce5d5693a803dc5e0576dc6890d3ae027779ca40bb09f37950be7f098d45bfe",
+    "width": 297,
+    "height": 281,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "405",
+    "sample_index": "2024",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_405.png",
+    "image_path": "pairs/AVP0027/right.png",
+    "sha256": "f8363df33d14e574a17174cee671b3ad7108ad7e0c2041a3904e8c09d2c6b5bb",
+    "width": 798,
+    "height": 490,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A single short tick crossing a line segment",
+    "left_evidence": "A vertical tick crosses the middle of the lower horizontal radius; a matching single tick crosses the vertical radius on the right.",
+    "right_evidence": "A vertical tick crosses the middle of the lower horizontal radius; a matching single tick crosses the upper slanted radius.",
+    "left_meaning": "The horizontal radius belongs to the equal-length group identified by single ticks and has the same length as the radius on the right.",
+    "right_meaning": "The horizontal radius belongs to the equal-length group identified by single ticks and has the same length as the slanted radius.",
+    "same_meaning": true,
+    "reason": "Repeated single ticks encode equal lengths in both images; this item compares the meaning of the ticks, rather than the specific lengths."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A single short tick crossing a line segment",
+    "mathematical_meanings": "Left image: The horizontal radius belongs to the equal-length group identified by single ticks and has the same length as the radius on the right. Right image: The horizontal radius belongs to the equal-length group identified by single ticks and has the same length as the slanted radius.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Repeated single ticks encode equal lengths in both images; this item compares the meaning of the ticks, rather than the specific lengths."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The anchor is the tick on the lower radius; the other tick provides context for its meaning.",
+  "views": {
+    "type": "type/same type/AVP0027",
+    "condition": "condition/geometric_markers/AVP0027"
+  }
+}

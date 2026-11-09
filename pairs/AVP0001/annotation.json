@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0001",
+  "authoring_id": "NR01",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "radian_degree_same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "image_path": "pairs/AVP0001/left.png",
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
+    "width": 254,
+    "height": 259,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "331",
+    "sample_index": "1654",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_331.png",
+    "image_path": "pairs/AVP0001/right.png",
+    "sha256": "20bd417a3861bf0ca6766004ded8f763b9e225c64e62e4625d36055a353bd46f",
+    "width": 279,
+    "height": 350,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations π/4 and 45°",
+    "left_evidence": "The angle label π/4 at the origin in the lower-left corner.",
+    "right_evidence": "The label 45° inside the red sector, above vertex A.",
+    "left_meaning": "The marked angle at the origin measures π/4 radians.",
+    "right_meaning": "The marked angle at A measures 45 degrees.",
+    "same_meaning": true,
+    "reason": "π/4 radians equals 45 degrees; both labels specify an angle measure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations π/4 and 45°",
+    "mathematical_meanings": "Left image: The marked angle at the origin measures π/4 radians. Right image: The marked angle at A measures 45 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "π/4 radians equals 45 degrees; both labels specify an angle measure."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. In image 439, the angle vertex is the origin, not the point A marked on the arc.",
+  "views": {
+    "type": "type/same type/AVP0001",
+    "condition": "condition/numeric_representation/AVP0001"
+  }
+}

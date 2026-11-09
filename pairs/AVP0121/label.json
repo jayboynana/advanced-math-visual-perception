@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 10 in both images.",
+  "mathematical_meanings": "Left image: Segment MP has length value 10. Right image: The right side has length value 10.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected side labels specify length value 10."
+}

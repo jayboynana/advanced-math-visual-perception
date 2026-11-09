@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0121",
+  "authoring_id": "V03NR021",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "777",
+    "sample_index": "777",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 177,
+      "img_width": 337,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/777.jpg",
+    "sha256": "1cce41bf9992d2e99b0027ee1912ce54793b244695acc822c8a600ab8509a347",
+    "width": 337,
+    "height": 177,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0121/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "678",
+    "sample_index": "678",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 149,
+      "img_width": 267,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/678.jpg",
+    "sha256": "effb4ea95b2854ed88472f463d643441d834489b2f6f248a156d3c79f20a2602",
+    "width": 267,
+    "height": 149,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0121/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 10 in both images.",
+    "left_evidence": "The 10 beside the lower-right side MP of the parallelogram.",
+    "right_evidence": "The 10 beside the right side of the inverted right triangle.",
+    "left_meaning": "Segment MP has length value 10.",
+    "right_meaning": "The right side has length value 10.",
+    "same_meaning": true,
+    "reason": "Both selected side labels specify length value 10."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 10 in both images.",
+    "mathematical_meanings": "Left image: Segment MP has length value 10. Right image: The right side has length value 10.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected side labels specify length value 10."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0121",
+    "condition": "condition/numeric_representation/AVP0121"
+  }
+}

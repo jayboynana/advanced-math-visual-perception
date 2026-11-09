@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Parentheses in mathematical notation",
+  "mathematical_meanings": "Left image: The parentheses specify the input x of function g; g(x) denotes its output. Right image: The parentheses contain the marked point's ordered horizontal and vertical coordinates.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, attachment to (x) in g(x) beside the curve supports the meaning: The parentheses specify the input x of function g; g(x) denotes its output. On the right, the context is (3, −4) beside the marked point on the circle, where The parentheses contain the marked point's ordered horizontal and vertical coordinates. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+}

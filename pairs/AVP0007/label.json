@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Fractional and decimal notations for one real number: 1/5 and 0.2.",
+  "mathematical_meanings": "Left image: The radius length has numerical value 1/5, in cm. Right image: The marked point has x-coordinate 0.2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "1/5=0.2, but one value labels a radius length and the other an x-coordinate; their local mathematical roles differ."
+}

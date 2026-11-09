@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+  "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value 1. Right image: The selected tick denotes x-coordinate value 1.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected horizontal-axis ticks denote x-coordinate 1; the shaded area and the exponential base are outside this target."
+}

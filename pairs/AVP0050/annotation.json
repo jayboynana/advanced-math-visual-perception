@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0050",
+  "authoring_id": "GM25",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "coordinate_tick_same_role",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "449",
+    "sample_index": "2244",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_449.png",
+    "image_path": "pairs/AVP0050/left.png",
+    "sha256": "33d7cb3199b9d4544e78306041f1d9ff14ecc76d2ccaa026a2d7704ac5da92ac",
+    "width": 765,
+    "height": 598,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "533",
+    "sample_index": "2664",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_533.png",
+    "image_path": "pairs/AVP0050/right.png",
+    "sha256": "58e10e95e340b12bfcde739ee23e37afa23a7b28544b975dbeee4d9e4882933c",
+    "width": 396,
+    "height": 406,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short vertical stroke marking a reading position on the positive horizontal axis",
+    "left_evidence": "A short vertical stroke sits above the label 0.5 on the positive x-axis.",
+    "right_evidence": "A short vertical stroke sits above the label 4 on the positive x-axis.",
+    "left_meaning": "It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position.",
+    "right_meaning": "It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position.",
+    "same_meaning": true,
+    "reason": "This item concerns the reading function of a short tick, rather than the specific value at its position; the two ticks have the same local function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short vertical stroke marking a reading position on the positive horizontal axis",
+    "mathematical_meanings": "Left image: It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position. Right image: It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "This item concerns the reading function of a short tick, rather than the specific value at its position; the two ticks have the same local function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. same_meaning compares the meaning of the tick markers; it does not assert that 0.5 equals 4.",
+  "views": {
+    "type": "type/different type/AVP0050",
+    "condition": "condition/geometric_markers/AVP0050"
+  }
+}

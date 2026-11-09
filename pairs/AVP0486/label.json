@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight line segment inside a diagram",
+  "mathematical_meanings": "Left image: A diagonal connecting nonadjacent vertices of a geometric quadrilateral. Right image: A fixed-y horizontal comparison line across the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The geometric segment joins A to C as a diagonal, while the orange horizontal segment compares a function graph against a selected y-level."
+}

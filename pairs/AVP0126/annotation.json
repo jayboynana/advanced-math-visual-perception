@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0126",
+  "authoring_id": "V03NR026",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "441",
+    "sample_index": "441",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 241,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/441.jpg",
+    "sha256": "511ba49c3e6a515b3bb55a4bd53b95fb1de1f42a07c9e0c41de851907a8e163d",
+    "width": 258,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0126/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "606",
+    "sample_index": "606",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 209,
+      "img_width": 335,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/606.jpg",
+    "sha256": "813f0d8ff3201893df99613f62f405bbed3945674e3077662e28e4f58ed98c4c",
+    "width": 335,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0126/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3 cm in both images.",
+    "left_evidence": "The 3 cm beside the left side of the cyan triangle.",
+    "right_evidence": "The 3 cm above the top horizontal side of the purple rectangle.",
+    "left_meaning": "The left side has length 3 centimeters.",
+    "right_meaning": "The top side has length 3 centimeters.",
+    "same_meaning": true,
+    "reason": "Both complete quantity labels specify a side length of 3 centimeters. The numeral, unit, and quantity role all agree."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 3 cm in both images.",
+    "mathematical_meanings": "Left image: The left side has length 3 centimeters. Right image: The top side has length 3 centimeters.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both complete quantity labels specify a side length of 3 centimeters. The numeral, unit, and quantity role all agree."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0126",
+    "condition": "condition/numeric_representation/AVP0126"
+  }
+}

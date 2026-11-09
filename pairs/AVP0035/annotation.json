@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0035",
+  "authoring_id": "GM10",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "explicit_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "772",
+    "sample_index": "3859",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_772.png",
+    "image_path": "pairs/AVP0035/left.png",
+    "sha256": "cbffb5a67598e9f2df9691940a5bea2f61c3932c8e01bfa792b929a262c5a304",
+    "width": 701,
+    "height": 568,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "458",
+    "sample_index": "2289",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_458.png",
+    "image_path": "pairs/AVP0035/right.png",
+    "sha256": "0ca0ec80c288b3262042f6e702035bc46575b58fb1a08e5b911c08fe4cb58e5b",
+    "width": 801,
+    "height": 536,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square at the intersection of a horizontal and a vertical line",
+    "left_evidence": "A small unfilled square lies in the upper-right corner of the intersection of the upper horizontal line ℓ and the vertical line k.",
+    "right_evidence": "To the left of the origin, a small unfilled square lies in the lower-right corner where the downward vertical projection line meets the horizontal axis.",
+    "left_meaning": "It indicates that k is perpendicular to ℓ.",
+    "right_meaning": "It indicates that the vertical projection line from the point to the horizontal axis is perpendicular to that axis.",
+    "same_meaning": true,
+    "reason": "Both squares explicitly mark a right angle between two lines, regardless of which side of the intersection contains the square."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square at the intersection of a horizontal and a vertical line",
+    "mathematical_meanings": "Left image: It indicates that k is perpendicular to ℓ. Right image: It indicates that the vertical projection line from the point to the horizontal axis is perpendicular to that axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both squares explicitly mark a right angle between two lines, regardless of which side of the intersection contains the square."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. Image 458 is a standard-position angle diagram with an angle arc and a ray, classified as geometry.",
+  "views": {
+    "type": "type/same type/AVP0035",
+    "condition": "condition/geometric_markers/AVP0035"
+  }
+}

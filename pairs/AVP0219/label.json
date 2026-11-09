@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square or rotated-square angle marker where two lines meet.",
+  "mathematical_meanings": "Left image: BA is perpendicular to BE at B. Right image: AB is perpendicular to BC at B.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+}

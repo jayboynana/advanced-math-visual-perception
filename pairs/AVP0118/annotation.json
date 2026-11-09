@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0118",
+  "authoring_id": "V03NR018",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "781",
+    "sample_index": "781",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 540,
+      "img_width": 461,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/781.jpg",
+    "sha256": "97cabaec54a1e7bfa6b33f51156427605ff37344ed28b93f83dac526f5e11237",
+    "width": 461,
+    "height": 540,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0118/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "160",
+    "sample_index": "160",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 227,
+      "img_width": 270,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/160.jpg",
+    "sha256": "dc80c9abe9f04514ee8709f3bd1a861c57abfe09cb07142763d26540623e9dbc",
+    "width": 270,
+    "height": 227,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0118/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 9 in both images.",
+    "left_evidence": "The 9 beside the lower portion GD of the left side.",
+    "right_evidence": "The 9 beside the left side of the blue right triangle.",
+    "left_meaning": "Segment GD has length value 9.",
+    "right_meaning": "The left side has length value 9.",
+    "same_meaning": true,
+    "reason": "Both occurrences of 9 assign a length value to the adjacent selected segment."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 9 in both images.",
+    "mathematical_meanings": "Left image: Segment GD has length value 9. Right image: The left side has length value 9.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both occurrences of 9 assign a length value to the adjacent selected segment."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0118",
+    "condition": "condition/numeric_representation/AVP0118"
+  }
+}

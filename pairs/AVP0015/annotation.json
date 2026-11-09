@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0015",
+  "authoring_id": "NR15",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_radius_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "387",
+    "sample_index": "1934",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_387.png",
+    "image_path": "pairs/AVP0015/left.png",
+    "sha256": "684d11d051dfabf564d62f423997776f866becac0da91e5256cc77e920a5f0fb",
+    "width": 553,
+    "height": 334,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "538",
+    "sample_index": "2689",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_538.png",
+    "image_path": "pairs/AVP0015/right.png",
+    "sha256": "4a490d742dc160cc072dcf12c5b64a0e91eb0c8283a8ee778043eb9f72d720e7",
+    "width": 355,
+    "height": 364,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The number 8 in both images.",
+    "left_evidence": "The 8 in the label 8 cm beside the radius arrow.",
+    "right_evidence": "The second component, 8, of the left orange point's coordinate label ((3/5)π,8).",
+    "left_meaning": "The circle's radius has numerical length value 8, in cm.",
+    "right_meaning": "The left orange point has y-coordinate 8.",
+    "same_meaning": false,
+    "reason": "A circle's radius length and a function point's y-coordinate have different local mathematical roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The number 8 in both images.",
+    "mathematical_meanings": "Left image: The circle's radius has numerical length value 8, in cm. Right image: The left orange point has y-coordinate 8.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "A circle's radius length and a function point's y-coordinate have different local mathematical roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the left orange point's y-coordinate 8 is selected; multiple occurrences of 8 are not combined into separate targets.",
+  "views": {
+    "type": "type/different type/AVP0015",
+    "condition": "condition/numeric_representation/AVP0015"
+  }
+}

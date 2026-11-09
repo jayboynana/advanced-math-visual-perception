@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0411",
+  "authoring_id": "V03GR011",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "interior_position_vs_endpoint",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "23",
+    "sample_index": "23",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 393,
+      "img_width": 552,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/23.jpg",
+    "sha256": "a199c743b167cb244d413e0e356382abb4a077553de44fedf1f74eec15f8e23a",
+    "width": 552,
+    "height": 393,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0411/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "485",
+    "sample_index": "2424",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_485.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0411/right.png",
+    "width": 462,
+    "height": 466,
+    "sha256": "a41c9d6134507aebf1817590222f52260935475a66a8a35cc6a8baceb3bb226c"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled circular plotting marker",
+    "left_evidence": "The black filled dot at the bottom vertex of the blue V-shaped graph.",
+    "right_evidence": "The filled blue point where the curve ends on the positive horizontal axis.",
+    "left_meaning": "A designated location on the function graph, highlighting its bottom vertex rather than a domain endpoint.",
+    "right_meaning": "An included endpoint of the displayed function graph.",
+    "same_meaning": false,
+    "reason": "The bottom vertex is internal to an ongoing V-shaped graph, while the dot in the other image is where the curve terminates. Highlighting an interior vertex is different from encoding endpoint inclusion."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A filled circular plotting marker",
+    "mathematical_meanings": "Left image: A designated location on the function graph, highlighting its bottom vertex rather than a domain endpoint. Right image: An included endpoint of the displayed function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The bottom vertex is internal to an ongoing V-shaped graph, while the dot in the other image is where the curve terminates. Highlighting an interior vertex is different from encoding endpoint inclusion."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0411",
+    "condition": "condition/graphical_roles/AVP0411"
+  }
+}

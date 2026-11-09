@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0103",
+  "authoring_id": "V03NR003",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "234",
+    "sample_index": "234",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 378,
+      "img_width": 434,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/234.jpg",
+    "sha256": "dce96d797a9ad387ac98c698f241557c2c2b4507c3a06a52ee8f3df0e612a222",
+    "width": 434,
+    "height": 378,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0103/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "665",
+    "sample_index": "665",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 161,
+      "img_width": 275,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/665.jpg",
+    "sha256": "cd2c9b44e708791c4af3778cbf9725a51afef56e9d5ce5d98242237e5dd1d9e4",
+    "width": 275,
+    "height": 161,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0103/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 60° in both images.",
+    "left_evidence": "The 60° at vertex A of the triangle, above the printed question.",
+    "right_evidence": "The 60° beside the top-right vertex of the right triangle.",
+    "left_meaning": "The triangle angle at A measures 60 degrees.",
+    "right_meaning": "The upper-right interior angle measures 60 degrees.",
+    "same_meaning": true,
+    "reason": "Both selected labels state an interior angle measure of 60 degrees."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 60° in both images.",
+    "mathematical_meanings": "Left image: The triangle angle at A measures 60 degrees. Right image: The upper-right interior angle measures 60 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected labels state an interior angle measure of 60 degrees."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0103",
+    "condition": "condition/numeric_representation/AVP0103"
+  }
+}

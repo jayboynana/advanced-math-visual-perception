@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0120",
+  "authoring_id": "V03NR020",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "equivalent_length_units",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "56",
+    "sample_index": "56",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 295,
+      "img_width": 202,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/56.jpg",
+    "sha256": "8b60092f759bddfd1d69d4e001d98b0eb62900fe375491ca3f0409d9c3967cfb",
+    "width": 202,
+    "height": 295,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0120/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "71",
+    "sample_index": "71",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 292,
+      "img_width": 187,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/71.jpg",
+    "sha256": "825b5a7d54cd26d20e98ac18a6a36d60fc71dc3481f05963f82480fd0d16189c",
+    "width": 187,
+    "height": 292,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0120/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 1 yd and 3 ft.",
+    "left_evidence": "The 1 yd above the top side of the orange rectangle.",
+    "right_evidence": "The 3 ft above the top side of the yellow rectangle.",
+    "left_meaning": "The top side has length 1 yard.",
+    "right_meaning": "The top side has length 3 feet.",
+    "same_meaning": true,
+    "reason": "One yard equals three feet. Both labels give a side length and specify equal lengths after converting the displayed units."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 1 yd and 3 ft.",
+    "mathematical_meanings": "Left image: The top side has length 1 yard. Right image: The top side has length 3 feet.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "One yard equals three feet. Both labels give a side length and specify equal lengths after converting the displayed units."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0120",
+    "condition": "condition/numeric_representation/AVP0120"
+  }
+}

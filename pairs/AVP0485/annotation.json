@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0485",
+  "authoring_id": "V03GR085",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "diagonal_vs_level_reference",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "32",
+    "sample_index": "32",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 100,
+      "img_width": 168,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/32.jpg",
+    "sha256": "03e8b022e35a71f1a888cc29dfa4f4a9bb371e77f6fad806aea30f1851936cdd",
+    "width": 168,
+    "height": 100,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0485/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "137",
+    "sample_index": "137",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/137.jpg",
+    "sha256": "067c75c4e566c56b6ceb4c2486a962f7924274caf10b939ead86ca9d3b6a143f",
+    "width": 258,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0485/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight segment inside a diagram",
+    "left_evidence": "The straight segment from A to C inside quadrilateral ABCD.",
+    "right_evidence": "The upper orange horizontal line cutting the graph f(x)=x^2.",
+    "left_meaning": "A diagonal connecting nonadjacent vertices of a geometric quadrilateral.",
+    "right_meaning": "A fixed-y horizontal comparison line across the function graph.",
+    "same_meaning": false,
+    "reason": "The first segment connects opposite vertices of a finite quadrilateral. The second is a constant-y guide crossing a function curve; it is not a polygon diagonal."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight segment inside a diagram",
+    "mathematical_meanings": "Left image: A diagonal connecting nonadjacent vertices of a geometric quadrilateral. Right image: A fixed-y horizontal comparison line across the function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The first segment connects opposite vertices of a finite quadrilateral. The second is a constant-y guide crossing a function curve; it is not a polygon diagonal."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0485",
+    "condition": "condition/graphical_roles/AVP0485"
+  }
+}

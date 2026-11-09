@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded angle region bounded by an arc",
+  "mathematical_meanings": "Left image: The angle region identifies the angle being discussed between the two rays at A, annotated as 45°. Right image: The angle region identifies the angle being discussed between the two sides at D, annotated as 45°.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both regions bind the 45° annotation to a specific vertex angle; the different fill colors do not change this function."
+}

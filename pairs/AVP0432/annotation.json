@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0432",
+  "authoring_id": "V03GR032",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "area_vs_angle_highlight",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "67",
+    "sample_index": "67",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 292,
+      "img_width": 320,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/67.jpg",
+    "sha256": "27f145cb93291ba8e70d9458df4aa87788e5f59f499c3483872a15e8db066646",
+    "width": 320,
+    "height": 292,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0432/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "334",
+    "sample_index": "1669",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_334.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0432/right.png",
+    "width": 375,
+    "height": 379,
+    "sha256": "19217175a44c9c107adede704efd51918ae5bdd5e3490d3d67559d74c014a837"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A colored filled region",
+    "left_evidence": "The green interior of the square with 4 m side labels.",
+    "right_evidence": "The cyan angle region labeled 28 degrees at O.",
+    "left_meaning": "The interior area of the displayed geometric square.",
+    "right_meaning": "A colored annotation selecting the interior of an angle between a reference ray and OA.",
+    "same_meaning": false,
+    "reason": "Filling a whole square selects a two-dimensional geometric area, whereas filling a small wedge at O selects an angle relative to a bearing reference."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A colored filled region",
+    "mathematical_meanings": "Left image: The interior area of the displayed geometric square. Right image: A colored annotation selecting the interior of an angle between a reference ray and OA.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Filling a whole square selects a two-dimensional geometric area, whereas filling a small wedge at O selects an angle relative to a bearing reference."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0432",
+    "condition": "condition/graphical_roles/AVP0432"
+  }
+}

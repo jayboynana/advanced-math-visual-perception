@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An arrowhead on a sloping or curved trace",
+  "mathematical_meanings": "Left image: Continuation of the function curve beyond the plotted window. Right image: A spatial length annotation spanning a side of the triangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The function-branch arrow indicates continuation outside the display, while the arrow beside the triangle belongs to a bounded dimension line. It does not extend the triangle edge indefinitely."
+}

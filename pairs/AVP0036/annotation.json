@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0036",
+  "authoring_id": "GM11",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "parallel_arrow_vs_axis_arrow",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "417",
+    "sample_index": "2084",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_417.png",
+    "image_path": "pairs/AVP0036/left.png",
+    "sha256": "0ed686bb3761ceb1ea4df8c032d40645127442a9fe09c5dc4c82a40ef791a816",
+    "width": 798,
+    "height": 378,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "449",
+    "sample_index": "2244",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_449.png",
+    "image_path": "pairs/AVP0036/right.png",
+    "sha256": "33d7cb3199b9d4544e78306041f1d9ff14ecc76d2ccaa026a2d7704ac5da92ac",
+    "width": 765,
+    "height": 598,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead attached to a line",
+    "left_evidence": "A single arrowhead points along the middle of the parallelogram's right slanted side toward the upper right, near the text 19 cm; the left side has a matching single arrowhead.",
+    "right_evidence": "An upward arrowhead sits at the top of the vertical coordinate axis, above the 1.5 tick.",
+    "left_meaning": "It is a parallelism marker: the right slanted side belongs to the same parallel group as the left slanted side bearing the matching single arrowhead.",
+    "right_meaning": "It indicates the positive y direction and the direction in which the coordinate axis continues.",
+    "same_meaning": false,
+    "reason": "Both images contain arrowheads on lines, but one marks a parallel relationship between sides and the other indicates a coordinate direction."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead attached to a line",
+    "mathematical_meanings": "Left image: It is a parallelism marker: the right slanted side belongs to the same parallel group as the left slanted side bearing the matching single arrowhead. Right image: It indicates the positive y direction and the direction in which the coordinate axis continues.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both images contain arrowheads on lines, but one marks a parallel relationship between sides and the other indicates a coordinate direction."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The anchor is a single arrowhead; the matching arrowhead in the left image only supplies relational context.",
+  "views": {
+    "type": "type/same type/AVP0036",
+    "condition": "condition/geometric_markers/AVP0036"
+  }
+}

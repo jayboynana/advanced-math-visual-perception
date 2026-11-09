@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter f",
+  "mathematical_meanings": "Left image: f names the function represented by the indicated curve. Right image: f names the function represented by the indicated curve.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at f(x) in the piecewise formulas beside the two branches; the right occurrence is at f(x) at the start of the formula in the lower-right. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

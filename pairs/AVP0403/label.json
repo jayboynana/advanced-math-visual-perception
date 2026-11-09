@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A hollow circular marker on a plotted graph",
+  "mathematical_meanings": "Left image: The straight branch excludes that endpoint, consistent with the printed restriction x<1. Right image: An excluded endpoint of the displayed function segment.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The printed x<1 restriction supports endpoint exclusion on the left, and the hollow segment endpoint encodes exclusion on the right. Both use the same open-point convention."
+}

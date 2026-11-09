@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0084",
+  "authoring_id": "GR09",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "vertical_asymptote_line",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "489",
+    "sample_index": "2444",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_489.png",
+    "image_path": "pairs/AVP0084/left.png",
+    "sha256": "4fe681f63c0d93b39a562cd628beddcc4052fcffdd0a68ec430bf0118394212b",
+    "width": 481,
+    "height": 445,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "582",
+    "sample_index": "2909",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_582.png",
+    "image_path": "pairs/AVP0084/right.png",
+    "sha256": "3c433c2edb8940abc63e9c63b70121759c704d49a5ebce7ade23d0e935c7debd",
+    "width": 556,
+    "height": 500,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Vertical dashed line separate from the curve",
+    "left_evidence": "The orange vertical dashed line at horizontal coordinate 3, between the two blue curve branches.",
+    "right_evidence": "The gray vertical dashed line to the right of the vertical axis, between the two black curve branches.",
+    "left_meaning": "Marks the vertical asymptote approached by the two branches of the function graph.",
+    "right_meaning": "Marks the vertical asymptote approached by the two branches of the function graph.",
+    "same_meaning": true,
+    "reason": "Both separate vertical dashed lines serve as vertical-asymptote references for function graphs; their horizontal coordinates need not match, and no function formula is derived."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Vertical dashed line separate from the curve",
+    "mathematical_meanings": "Left image: Marks the vertical asymptote approached by the two branches of the function graph. Right image: Marks the vertical asymptote approached by the two branches of the function graph.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both separate vertical dashed lines serve as vertical-asymptote references for function graphs; their horizontal coordinates need not match, and no function formula is derived."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0084",
+    "condition": "condition/graphical_roles/AVP0084"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0307",
+  "authoring_id": "V03SR007",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_circle_center",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "119",
+    "sample_index": "119",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 165,
+      "img_width": 103,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/119.jpg",
+    "sha256": "0fcf0b3d8886c5127d426afe5bcaf6a835cd0dae5371504ef4b1ea932895dbca",
+    "width": 103,
+    "height": 165,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0307/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "150",
+    "sample_index": "150",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 144,
+      "img_width": 110,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/150.jpg",
+    "sha256": "8ccec702fd04dd9f64e4108c6bc48b32dede6b7571b31b8336f5306906fedbec",
+    "width": 110,
+    "height": 144,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0307/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O beside the center point in the circle",
+    "right_evidence": "O beside the interior point joined to A, B and C",
+    "left_meaning": "O names the center of the circle.",
+    "right_meaning": "O names the center of the circle.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at O beside the center point in the circle; the right occurrence is at O beside the interior point joined to A, B and C. Both use the selected notation for the same circle-center naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: O names the center of the circle. Right image: O names the center of the circle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at O beside the center point in the circle; the right occurrence is at O beside the interior point joined to A, B and C. Both use the selected notation for the same circle-center naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0307",
+    "condition": "condition/symbolic_roles/AVP0307"
+  }
+}

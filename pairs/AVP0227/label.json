@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square or similar rectangular outline formed by straight segments.",
+  "mathematical_meanings": "Left image: The two internal segments meeting at the marked intersection are perpendicular. Right image: It is a square lattice cell used as a reference in the drawing of triangles.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a square lattice cell used as a reference in the drawing of triangles. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
+}

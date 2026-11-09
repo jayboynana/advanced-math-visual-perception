@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0125",
+  "authoring_id": "V03NR025",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "920",
+    "sample_index": "920",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 310,
+      "img_width": 388,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/920.jpg",
+    "sha256": "97763be04afce323ab49b64b2f48e25ea1fe389b1760a4012c3aa5d5b4b29f55",
+    "width": 388,
+    "height": 310,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0125/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "372",
+    "sample_index": "1859",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_372.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0125/right.png",
+    "width": 297,
+    "height": 181,
+    "sha256": "6bf583f188c0ae7356cb9e591a00e69cbb68bc5718e6c83e69eb9658253d33ed"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 8√3 in both images.",
+    "left_evidence": "The 8√3 beside sloping side AC.",
+    "right_evidence": "The 8√3 above the upper sloping side of the right triangle.",
+    "left_meaning": "Segment AC has length 8√3.",
+    "right_meaning": "The upper sloping side has length 8√3.",
+    "same_meaning": true,
+    "reason": "The complete radical expression 8√3 agrees, and both occurrences give a geometric segment's length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 8√3 in both images.",
+    "mathematical_meanings": "Left image: Segment AC has length 8√3. Right image: The upper sloping side has length 8√3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The complete radical expression 8√3 agrees, and both occurrences give a geometric segment's length."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0125",
+    "condition": "condition/numeric_representation/AVP0125"
+  }
+}

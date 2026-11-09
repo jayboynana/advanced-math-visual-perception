@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0500",
+  "authoring_id": "V03GR100",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hidden_edge_vs_excluded_boundary",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "33",
+    "sample_index": "33",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 95,
+      "img_width": 331,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/33.jpg",
+    "sha256": "1135436e8aaf138c23a8fca633dbe44327a36f7c2edfa4f4444fe6a7f1b45885",
+    "width": 331,
+    "height": 95,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0500/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "511",
+    "sample_index": "2554",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_511.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0500/right.png",
+    "width": 656,
+    "height": 506,
+    "sha256": "109efb1e544885f2857b69fd2bd851fa40e597078fac7d12c41fd0892c1f95ce"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A broken or dashed line",
+    "left_evidence": "The dashed curved arc at the back of the cone base.",
+    "right_evidence": "The gray half-plane on one side of the rising dashed line.",
+    "left_meaning": "A hidden portion of the circular base edge in a three-dimensional cone drawing.",
+    "right_meaning": "A coordinate-plane solution region of a linear inequality; the dashed boundary is excluded.",
+    "same_meaning": false,
+    "reason": "The cone dashes represent an occluded rear edge of a three-dimensional object. The dashed straight boundary of the gray half-plane instead indicates exclusion from an inequality solution set."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A broken or dashed line",
+    "mathematical_meanings": "Left image: A hidden portion of the circular base edge in a three-dimensional cone drawing. Right image: A coordinate-plane solution region of a linear inequality; the dashed boundary is excluded.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The cone dashes represent an occluded rear edge of a three-dimensional object. The dashed straight boundary of the gray half-plane instead indicates exclusion from an inequality solution set."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0500",
+    "condition": "condition/graphical_roles/AVP0500"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0408",
+  "authoring_id": "V03GR008",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "closed_endpoint_inclusion",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0408/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "558",
+    "sample_index": "2789",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_558.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0408/right.png",
+    "width": 289,
+    "height": 291,
+    "sha256": "dbb9ec91a196cfc13cf15d674d4d36532132ef9ea3ddec83cbbad540820cce4c"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled circular endpoint marker",
+    "left_evidence": "The filled blue circle at the lower branch at x=1, beside the x>=1 branch.",
+    "right_evidence": "The filled cyan circle at the left endpoint of the piecewise-linear graph.",
+    "left_meaning": "An included endpoint of the curved function branch.",
+    "right_meaning": "An included endpoint of the displayed function graph.",
+    "same_meaning": true,
+    "reason": "The x>=1 annotation confirms inclusion on the left, and the filled endpoint supplies the same inclusion convention on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A filled circular endpoint marker",
+    "mathematical_meanings": "Left image: An included endpoint of the curved function branch. Right image: An included endpoint of the displayed function graph.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The x>=1 annotation confirms inclusion on the left, and the filled endpoint supplies the same inclusion convention on the right."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0408",
+    "condition": "condition/graphical_roles/AVP0408"
+  }
+}

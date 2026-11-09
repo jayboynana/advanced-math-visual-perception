@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0045",
+  "authoring_id": "GM20",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "auxiliary_dash_vs_function_graph_dash",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "433",
+    "sample_index": "2164",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_433.png",
+    "image_path": "pairs/AVP0045/left.png",
+    "sha256": "6d88e6d1823e2a53e9c7a7586cb1d9ee90bbdc70d0c5195b92f1654bec473bdd",
+    "width": 514,
+    "height": 294,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "557",
+    "sample_index": "2784",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_557.png",
+    "image_path": "pairs/AVP0045/right.png",
+    "sha256": "c51cc05671f48fa78e3a344f8cf5a0b7b169452c22561b86495cf0692d7a0a3d",
+    "width": 274,
+    "height": 280,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A slanted connection drawn with broken strokes",
+    "left_evidence": "A red dashed line inside the rectangle runs from the upper-left vertex (-6,5) to the lower-right vertex (10,-1).",
+    "right_evidence": "The magenta polyline near the text y=g(x) is dashed, with each slanted segment drawn using broken strokes.",
+    "left_meaning": "It represents an auxiliary diagonal of the rectangle.",
+    "right_meaning": "The dashed line itself forms the graph of function g, distinguishing it from the cyan solid graph of function f.",
+    "same_meaning": false,
+    "reason": "The broken strokes look similar but belong to a geometric auxiliary line and the plotted function itself, respectively."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A slanted connection drawn with broken strokes",
+    "mathematical_meanings": "Left image: It represents an auxiliary diagonal of the rectangle. Right image: The dashed line itself forms the graph of function g, distinguishing it from the cyan solid graph of function f.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The broken strokes look similar but belong to a geometric auxiliary line and the plotted function itself, respectively."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The interpretation of g in the right image is based on its visible label and the adjacent curve.",
+  "views": {
+    "type": "type/different type/AVP0045",
+    "condition": "condition/geometric_markers/AVP0045"
+  }
+}

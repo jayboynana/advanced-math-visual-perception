@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0425",
+  "authoring_id": "V03GR025",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "selected_geometric_subarea",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "635",
+    "sample_index": "635",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 86,
+      "img_width": 179,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/635.jpg",
+    "sha256": "068769da511065482a3948e0574945d0fef1f6c2991c534a35da408e71ac1bfb",
+    "width": 179,
+    "height": 86,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0425/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "421",
+    "sample_index": "2104",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_421.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0425/right.png",
+    "width": 615,
+    "height": 292,
+    "sha256": "3b5f8bd0982d0f7fb0ec2c694124c3f4f4b4952213bfb8d11bce3d2b8644ffa6"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled or hatched subregion of a larger polygon",
+    "left_evidence": "One of the two hatched triangular parts inside parallelogram ABCD.",
+    "right_evidence": "The orange rectangular part labeled 6 000 in the area model.",
+    "left_meaning": "A selected geometric subregion whose plane area is distinguished from the unhatched parts.",
+    "right_meaning": "A selected geometric subregion whose plane area is distinguished from the other rectangular part.",
+    "same_meaning": true,
+    "reason": "The fill separates a particular geometric area from neighboring unfilled or differently filled areas in both constructions. It is a region-selection cue rather than an angle annotation."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A filled or hatched subregion of a larger polygon",
+    "mathematical_meanings": "Left image: A selected geometric subregion whose plane area is distinguished from the unhatched parts. Right image: A selected geometric subregion whose plane area is distinguished from the other rectangular part.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The fill separates a particular geometric area from neighboring unfilled or differently filled areas in both constructions. It is a region-selection cue rather than an angle annotation."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0425",
+    "condition": "condition/graphical_roles/AVP0425"
+  }
+}

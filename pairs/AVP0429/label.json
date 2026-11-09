@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region on one side of a graph",
+  "mathematical_meanings": "Left image: The epigraph: the set of coordinate pairs on or above the function graph. Right image: A coordinate-plane solution region of a linear inequality; the dashed boundary is excluded.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The label epi f specifies a set of points above f, while half-plane shading identifies points satisfying a linear inequality. Both fills encode an inequality-defined coordinate set; their boundary-inclusion details need not match."
+}

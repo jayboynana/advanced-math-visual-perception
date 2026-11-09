@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Equivalent layouts for one real number: π/4 and (1/4)π.",
+  "mathematical_meanings": "Left image: The label gives the marked angle's measure in radians at the origin. Right image: The label gives the marked point's x-coordinate on the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 15 in both images.",
+  "mathematical_meanings": "Left image: The internal portion of the upper secant has length value 15. Right image: Segment PN has length value 15.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "An internal secant portion and a triangle leg are both segments whose displayed length value is 15."
+}

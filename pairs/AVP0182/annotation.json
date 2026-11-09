@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0182",
+  "authoring_id": "V03NR082",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "coordinate_vs_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "117",
+    "sample_index": "117",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 460,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/117.jpg",
+    "sha256": "53413b8e12249ddb8f4b19d0327957b4c8dd96d2669807ba6e5bac85ebe935ec",
+    "width": 460,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0182/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "441",
+    "sample_index": "441",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 241,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/441.jpg",
+    "sha256": "511ba49c3e6a515b3bb55a4bd53b95fb1de1f42a07c9e0c41de851907a8e163d",
+    "width": 258,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0182/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 3 and 3 cm.",
+    "left_evidence": "The first component 3 in the point label (3,2) at the right peak.",
+    "right_evidence": "The 3 cm beside the left side of the cyan triangle.",
+    "left_meaning": "The marked peak point has x-coordinate 3.",
+    "right_meaning": "The left side has length 3 centimeters.",
+    "same_meaning": false,
+    "reason": "The selected 3 is the first component of a point coordinate pair and gives an x-coordinate; 3 cm is a side length with a physical length unit."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 3 and 3 cm.",
+    "mathematical_meanings": "Left image: The marked peak point has x-coordinate 3. Right image: The left side has length 3 centimeters.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected 3 is the first component of a point coordinate pair and gives an x-coordinate; 3 cm is a side length with a physical length unit."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0182",
+    "condition": "condition/numeric_representation/AVP0182"
+  }
+}

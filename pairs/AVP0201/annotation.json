@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0201",
+  "authoring_id": "V03GM001",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1774",
+    "sample_index": "1774",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "1774",
+      "question": "The diagram shows four congruent right-angled triangles inside a rectangle. What is the total area, in $\\mathrm{cm}^{2}$, of the four triangles? <image1>",
+      "options": [],
+      "image": "images/1774.jpg",
+      "level": 2,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/1774.jpg",
+    "sha256": "7fd12c77e5e3f30197a2bc6a61cc3aba3d0b3ba2c17bb9d6ba8a46796c18aa1b",
+    "width": 562,
+    "height": 432,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0201/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2180",
+    "sample_index": "2180",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2180",
+      "question": "The area of $\\triangle EBD$ is one third of the area of $3-4-5$ $ \\triangle ABC$. Segment $DE$ is perpendicular to segment $AB$. What is $BD$?\n\n<image1>",
+      "options": [
+        "$\\frac{4}{3}$",
+        "$\\sqrt{5}$",
+        "$\\frac{9}{4}$",
+        "$\\frac{4\\sqrt{3}}{3}$",
+        "$\\frac{5}{2}$"
+      ],
+      "image": "images/2180.jpg",
+      "level": 4,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2180.jpg",
+    "sha256": "dbaa14d8d159c3252cb0398309bffc88ee9d2f755e47e42083f362587530d40d",
+    "width": 594,
+    "height": 348,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0201/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square or rotated-square angle marker where two lines meet.",
+    "left_evidence": "The lower of the two tiny square marks at the central crossing of the horizontal and vertical internal lines.",
+    "right_evidence": "The small square at D where ED meets the horizontal base AB.",
+    "left_meaning": "The intersecting horizontal and vertical internal lines are perpendicular.",
+    "right_meaning": "ED is perpendicular to AB at D.",
+    "same_meaning": true,
+    "reason": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square or rotated-square angle marker where two lines meet.",
+    "mathematical_meanings": "Left image: The intersecting horizontal and vertical internal lines are perpendicular. Right image: ED is perpendicular to AB at D.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0201",
+    "condition": "condition/geometric_markers/AVP0201"
+  }
+}

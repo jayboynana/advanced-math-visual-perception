@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upright double-headed arrow",
+  "mathematical_meanings": "Left image: A spatial length annotation spanning the circle diameter. Right image: A spatial length annotation spanning the vertical distance to the airport.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The centimeter diameter and meter height are both finite spatial dimensions. Units and scene differ, but the selected arrows share the length-annotation function."
+}

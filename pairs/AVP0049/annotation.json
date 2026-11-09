@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0049",
+  "authoring_id": "GM24",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "axis_direction_arrow_same_across_types",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "image_path": "pairs/AVP0049/left.png",
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
+    "width": 254,
+    "height": 259,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "482",
+    "sample_index": "2409",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_482.png",
+    "image_path": "pairs/AVP0049/right.png",
+    "sha256": "b3bab1894e3e80eee6d4130e9718c91679d76fc01f8f9d293c816bec0ee78b67",
+    "width": 462,
+    "height": 465,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward arrowhead at the top of a vertical coordinate axis",
+    "left_evidence": "A black upward arrowhead sits at the top of the vertical axis, below the letter y.",
+    "right_evidence": "A black upward arrowhead sits at the top of the vertical axis, below the letter y.",
+    "left_meaning": "It indicates the positive y direction and the vertical coordinate axis continuing upward.",
+    "right_meaning": "It indicates the positive y direction and the vertical coordinate axis continuing upward.",
+    "same_meaning": true,
+    "reason": "Although one image is a unit-circle diagram and the other a function graph, the axis-end arrowheads have the same coordinate-direction meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An upward arrowhead at the top of a vertical coordinate axis",
+    "mathematical_meanings": "Left image: It indicates the positive y direction and the vertical coordinate axis continuing upward. Right image: It indicates the positive y direction and the vertical coordinate axis continuing upward.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Although one image is a unit-circle diagram and the other a function graph, the axis-end arrowheads have the same coordinate-direction meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again.",
+  "views": {
+    "type": "type/different type/AVP0049",
+    "condition": "condition/geometric_markers/AVP0049"
+  }
+}

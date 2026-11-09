@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0011",
+  "authoring_id": "NR11",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_number_exponential_base_vs_constant",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "516",
+    "sample_index": "2579",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_516.png",
+    "image_path": "pairs/AVP0011/left.png",
+    "sha256": "b52f3a7ec85e87b5ed7eb86c9c217fba6634569371806f165e47fc124f59f851",
+    "width": 565,
+    "height": 494,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "626",
+    "sample_index": "3129",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_626.png",
+    "image_path": "pairs/AVP0011/right.png",
+    "sha256": "7f48e246f7eeeccb7a60e8e3ff8ff3565f4263ce773daa3cc6b22259fb45e5cf",
+    "width": 777,
+    "height": 748,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The number 4 in both images.",
+    "left_evidence": "The 4 in the equation y=4^x beside the curve.",
+    "right_evidence": "The 4 in the equation y=4−x beside the straight line.",
+    "left_meaning": "The exponential function has base 4.",
+    "right_meaning": "The linear function expression has constant term 4.",
+    "same_meaning": false,
+    "reason": "The same number serves as an exponential base in one expression and an additive constant in the other."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The number 4 in both images.",
+    "mathematical_meanings": "Left image: The exponential function has base 4. Right image: The linear function expression has constant term 4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The same number serves as an exponential base in one expression and an additive constant in the other."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review.",
+  "views": {
+    "type": "type/same type/AVP0011",
+    "condition": "condition/numeric_representation/AVP0011"
+  }
+}

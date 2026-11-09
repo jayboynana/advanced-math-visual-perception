@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0064",
+  "authoring_id": "SR14",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_vs_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "346",
+    "sample_index": "1729",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_346.png",
+    "image_path": "pairs/AVP0064/left.png",
+    "sha256": "20ed4793fb3b05c010971fac8cd6de870c2f5929d924ce129c8e341b339b3b2f",
+    "width": 294,
+    "height": 225,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "493",
+    "sample_index": "2464",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_493.png",
+    "image_path": "pairs/AVP0064/right.png",
+    "sha256": "2d2b8586bb1185d67f835db1ae4071e0378dc7e2dcb81e09dae968c00abfbb5d",
+    "width": 382,
+    "height": 391,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x",
+    "left_evidence": "x beside the angle arc near the horizontal base at C",
+    "right_evidence": "x at the right end of the horizontal axis of the V-shaped graph",
+    "left_meaning": "x denotes an unknown angle measure.",
+    "right_meaning": "x names the horizontal coordinate axis, which encodes horizontal position or the independent variable.",
+    "same_meaning": false,
+    "reason": "An angle variable and an axis name are distinct contextual uses of the same letter."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter x",
+    "mathematical_meanings": "Left image: x denotes an unknown angle measure. Right image: x names the horizontal coordinate axis, which encodes horizontal position or the independent variable.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "An angle variable and an axis name are distinct contextual uses of the same letter."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0064",
+    "condition": "condition/symbolic_roles/AVP0064"
+  }
+}

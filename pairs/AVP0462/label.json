@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A smooth curved line in a coordinate diagram",
+  "mathematical_meanings": "Left image: The circumference of a geometric circle represented in a coordinate plane. Right image: A function graph relating y to x.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The equation x^2+y^2=25 identifies a closed geometric circle. The other curve represents a single-valued function across x; similar curvature does not establish the same local role."
+}

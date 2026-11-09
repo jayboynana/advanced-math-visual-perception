@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0111",
+  "authoring_id": "V03NR011",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "160",
+    "sample_index": "160",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 227,
+      "img_width": 270,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/160.jpg",
+    "sha256": "dc80c9abe9f04514ee8709f3bd1a861c57abfe09cb07142763d26540623e9dbc",
+    "width": 270,
+    "height": 227,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0111/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "388",
+    "sample_index": "388",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 209,
+      "img_width": 342,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/388.jpg",
+    "sha256": "0d8adba525ddfa2f4c062be642d3ced1037511353428cfd964eed8770e85b177",
+    "width": 342,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0111/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 15 in both images.",
+    "left_evidence": "The 15 beside the upper sloping side of the blue right triangle.",
+    "right_evidence": "The 15 beside the left vertical side PN.",
+    "left_meaning": "The upper sloping side has length value 15.",
+    "right_meaning": "Segment PN has length value 15.",
+    "same_meaning": true,
+    "reason": "The complete value 15 and the role of a segment-length value agree in both diagrams; no unprinted unit is assumed."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 15 in both images.",
+    "mathematical_meanings": "Left image: The upper sloping side has length value 15. Right image: Segment PN has length value 15.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The complete value 15 and the role of a segment-length value agree in both diagrams; no unprinted unit is assumed."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0111",
+    "condition": "condition/numeric_representation/AVP0111"
+  }
+}

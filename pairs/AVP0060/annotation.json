@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0060",
+  "authoring_id": "SR10",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_function_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "519",
+    "sample_index": "2594",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_519.png",
+    "image_path": "pairs/AVP0060/left.png",
+    "sha256": "882ab1de0c3a84562e2b473bf15c4f7ff6efdedb31900d75c336c010315428c3",
+    "width": 1597,
+    "height": 1633,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "568",
+    "sample_index": "2839",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_568.png",
+    "image_path": "pairs/AVP0060/right.png",
+    "sha256": "1e3d232a22ba56d79145624e739075e15e878702f0840253466e0972869cea37",
+    "width": 276,
+    "height": 282,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter f beside a cyan curve",
+    "left_evidence": "f near the upper right of the downward-opening cyan curve",
+    "right_evidence": "f near the upward-opening cyan curve",
+    "left_meaning": "f is the name of the function represented by the cyan curve.",
+    "right_meaning": "f is the name of the function represented by the cyan curve.",
+    "same_meaning": true,
+    "reason": "The comparison concerns the function-naming role of f, without asserting that the two functions or curves are equal."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter f beside a cyan curve",
+    "mathematical_meanings": "Left image: f is the name of the function represented by the cyan curve. Right image: f is the name of the function represented by the cyan curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The comparison concerns the function-naming role of f, without asserting that the two functions or curves are equal."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0060",
+    "condition": "condition/symbolic_roles/AVP0060"
+  }
+}

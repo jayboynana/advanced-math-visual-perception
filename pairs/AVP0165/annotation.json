@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0165",
+  "authoring_id": "V03NR065",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "sign_change_and_role_change",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "375",
+    "sample_index": "375",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 293,
+      "img_width": 703,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/375.jpg",
+    "sha256": "8757bdafdb8e4f38b9ac6d6ebbe0d8ba0f4afe1c699244aecb99640dd620f424",
+    "width": 703,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0165/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "308",
+    "sample_index": "308",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 276,
+      "img_width": 482,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning",
+        "statistical reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/308.jpg",
+    "sha256": "28664997671a5c2be208009fc87d6f57bcab73cf2ec51a15eaec0f19c6c0b163",
+    "width": 482,
+    "height": 276,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0165/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations −0.5 and 0.5.",
+    "left_evidence": "The signed additive term −0.5 in 5x−0.5 on the right side.",
+    "right_evidence": "The tick label 0.5 halfway up the positive vertical scale.",
+    "left_meaning": "The length expression has additive constant negative one half.",
+    "right_meaning": "The selected tick denotes y-coordinate value 0.5.",
+    "same_meaning": false,
+    "reason": "The complete signed constant is −0.5 in the length expression, whereas the vertical coordinate label is positive 0.5. Both sign and local role differ."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations −0.5 and 0.5.",
+    "mathematical_meanings": "Left image: The length expression has additive constant negative one half. Right image: The selected tick denotes y-coordinate value 0.5.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The complete signed constant is −0.5 in the length expression, whereas the vertical coordinate label is positive 0.5. Both sign and local role differ."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0165",
+    "condition": "condition/numeric_representation/AVP0165"
+  }
+}

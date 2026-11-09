@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0075",
+  "authoring_id": "SR25",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_vertical_axis_name",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "528",
+    "sample_index": "2639",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_528.png",
+    "image_path": "pairs/AVP0075/left.png",
+    "sha256": "e6b197b10a3a48f311e1feb1a6b1e1c4ad12247d438de1859a4ecc70702b29a7",
+    "width": 269,
+    "height": 276,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "563",
+    "sample_index": "2814",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_563.png",
+    "image_path": "pairs/AVP0075/right.png",
+    "sha256": "5b5374f211f63351c0845a611a187f48a45e9ef52f28774dc86075cb7036fa53",
+    "width": 284,
+    "height": 285,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y at the top of a vertical axis",
+    "left_evidence": "y at the top of the vertical axis in the circle diagram",
+    "right_evidence": "y at the top of the vertical axis in the downward-opening parabola graph",
+    "left_meaning": "y names the vertical coordinate axis and identifies the vertical-coordinate direction.",
+    "right_meaning": "y names the vertical coordinate axis and identifies the vertical-coordinate direction.",
+    "same_meaning": true,
+    "reason": "The image types differ, but the selected labels encode the same kind of coordinate direction."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter y at the top of a vertical axis",
+    "mathematical_meanings": "Left image: y names the vertical coordinate axis and identifies the vertical-coordinate direction. Right image: y names the vertical coordinate axis and identifies the vertical-coordinate direction.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The image types differ, but the selected labels encode the same kind of coordinate direction."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0075",
+    "condition": "condition/symbolic_roles/AVP0075"
+  }
+}

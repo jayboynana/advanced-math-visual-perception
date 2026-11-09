@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0089",
+  "authoring_id": "GR14",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "perpendicular_projection_vs_asymptote",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "365",
+    "sample_index": "1824",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_365.png",
+    "image_path": "pairs/AVP0089/left.png",
+    "sha256": "2a02911745dec6a69c756a29d3d77a7c9d3848e08866c3bebd38223dc1b8b32c",
+    "width": 419,
+    "height": 210,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "582",
+    "sample_index": "2909",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_582.png",
+    "image_path": "pairs/AVP0089/right.png",
+    "sha256": "3c433c2edb8940abc63e9c63b70121759c704d49a5ebce7ade23d0e935c7debd",
+    "width": 556,
+    "height": 500,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Vertical dashed line",
+    "left_evidence": "The vertical dashed line below the airplane connecting its position to the horizontal ground line, labeled 10369 m.",
+    "right_evidence": "The gray vertical dashed line to the right of the vertical axis, between the two black curve branches.",
+    "left_meaning": "Represents the airplane's height projected onto horizontal ground, serving as a geometric height auxiliary line.",
+    "right_meaning": "A vertical-asymptote reference for the function graph.",
+    "same_meaning": false,
+    "reason": "The geometric projection line connects positions in a finite construction, whereas the function-diagram line marks asymptotic behavior; their roles differ."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Vertical dashed line",
+    "mathematical_meanings": "Left image: Represents the airplane's height projected onto horizontal ground, serving as a geometric height auxiliary line. Right image: A vertical-asymptote reference for the function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The geometric projection line connects positions in a finite construction, whereas the function-diagram line marks asymptotic behavior; their roles differ."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0089",
+    "condition": "condition/graphical_roles/AVP0089"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0170",
+  "authoring_id": "V03NR070",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_measure_vs_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "583",
+    "sample_index": "583",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 465,
+      "img_width": 319,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/583.jpg",
+    "sha256": "fa1e10229fd787741b33b87fbcd62fdcc5d78811b224158bbf5168acd44d0167",
+    "width": 319,
+    "height": 465,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0170/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "363",
+    "sample_index": "1814",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_363.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0170/right.png",
+    "width": 269,
+    "height": 184,
+    "sha256": "38697bbecfa94edd11a39de9f487ba590f4fd124f39326f12079aacf46555c51"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 21° and 21 m.",
+    "left_evidence": "The 21° at the narrow bottom vertex C.",
+    "right_evidence": "The 21 m below the quadrilateral's lower horizontal side.",
+    "left_meaning": "The triangle angle at C measures 21 degrees.",
+    "right_meaning": "The lower side has length 21 meters.",
+    "same_meaning": false,
+    "reason": "The numeral 21 is shared, but 21° measures an angle while 21 m measures a side length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 21° and 21 m.",
+    "mathematical_meanings": "Left image: The triangle angle at C measures 21 degrees. Right image: The lower side has length 21 meters.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The numeral 21 is shared, but 21° measures an angle while 21 m measures a side length."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0170",
+    "condition": "condition/numeric_representation/AVP0170"
+  }
+}

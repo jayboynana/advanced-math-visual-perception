@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0267",
+  "authoring_id": "V03GM067",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "parallel_arrow_vs_direction_or_span",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1741",
+    "sample_index": "1741",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1741",
+      "question": "In trapezium $P Q R S, \\angle R S P=2 \\times \\angle S P Q$ and $\\angle S P Q=2 \\times \\angle P Q R$. Also $\\angle Q R S=k \\times \\angle P Q R$. What is the value of $k$ ? <image1>",
+      "options": [],
+      "image": "images/1741.jpg",
+      "level": 3,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1741.jpg",
+    "sha256": "c9949dc6dff01b9a702976f39b1a6cc8e117b2caf4db7390006a1860bcb413e3",
+    "width": 574,
+    "height": 259,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0267/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "488",
+    "sample_index": "2439",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_488.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0267/right.png",
+    "width": 434,
+    "height": 436,
+    "sha256": "6f771f3081c82650b860bd72ba840686f359f80fcd8d69be8161ccd662240e1d"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-pointing chevron or arrowhead on a line.",
+    "left_evidence": "The right-pointing chevrons centered on SR and PQ, rather than at their endpoints.",
+    "right_evidence": "The arrowhead at the far-right end of the horizontal x-axis.",
+    "left_meaning": "The matching arrow marks state that SR and PQ are parallel.",
+    "right_meaning": "It indicates the positive x direction and continuation of the coordinate axis.",
+    "same_meaning": false,
+    "reason": "The left chevrons occur as a matching pair inside geometric sides and assert parallelism. The selected right arrowhead instead bounds a plotted interval or indicates continuation of an axis or function branch, as identified by its attachment to that element."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A right-pointing chevron or arrowhead on a line.",
+    "mathematical_meanings": "Left image: The matching arrow marks state that SR and PQ are parallel. Right image: It indicates the positive x direction and continuation of the coordinate axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left chevrons occur as a matching pair inside geometric sides and assert parallelism. The selected right arrowhead instead bounds a plotted interval or indicates continuation of an axis or function branch, as identified by its attachment to that element."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0267",
+    "condition": "condition/geometric_markers/AVP0267"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 5 in both images.",
+  "mathematical_meanings": "Left image: Segment SQ has length value 5. Right image: The numeral 5 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 5 quantifies the length of SQ; the standalone 5 at the line crossing is an angle index and gives no measured angle value."
+}

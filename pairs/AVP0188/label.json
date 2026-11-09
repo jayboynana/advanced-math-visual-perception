@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 3.000000 and 3.",
+  "mathematical_meanings": "Left image: The marked maximum point has x-coordinate 3. Right image: The selected tick denotes y-coordinate value 3.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "3.000000 equals 3, but the readout gives a maximum point's x-coordinate while the other label is a y-coordinate-scale value."
+}

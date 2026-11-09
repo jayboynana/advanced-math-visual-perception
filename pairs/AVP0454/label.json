@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dashed line in a geometric drawing",
+  "mathematical_meanings": "Left image: A hidden portion of the circular base edge in a three-dimensional cone drawing. Right image: A geometric height projection onto the horizontal ground.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "In the cone, dashes hide the rear base edge; in the airplane diagram, they construct a visible height projection. Both are geometric diagrams but the dash convention differs."
+}

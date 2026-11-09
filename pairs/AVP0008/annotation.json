@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0008",
+  "authoring_id": "NR08",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_decimal_abscissa_vs_ordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "531",
+    "sample_index": "2654",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_531.png",
+    "image_path": "pairs/AVP0008/left.png",
+    "sha256": "0d4da8413824162cfe5cf18f5030b4c24190d64b23918b968231c89126f665c7",
+    "width": 397,
+    "height": 405,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "535",
+    "sample_index": "2674",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_535.png",
+    "image_path": "pairs/AVP0008/right.png",
+    "sha256": "c1b5f6ca197551097ed92bda0bb3856d86a10077749374bfb2a2a5e5cf3971b2",
+    "width": 267,
+    "height": 275,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The decimal 1.2 in both images.",
+    "left_evidence": "The first component, 1.2, of the orange peak point's coordinate label (1.2,5.5).",
+    "right_evidence": "The second component, 1.2, of the orange point's coordinate label (2π/3,1.2).",
+    "left_meaning": "The orange peak point has x-coordinate 1.2.",
+    "right_meaning": "The corresponding orange point has y-coordinate 1.2.",
+    "same_meaning": false,
+    "reason": "The decimal values match, but one is an x-coordinate and the other a y-coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The decimal 1.2 in both images.",
+    "mathematical_meanings": "Left image: The orange peak point has x-coordinate 1.2. Right image: The corresponding orange point has y-coordinate 1.2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The decimal values match, but one is an x-coordinate and the other a y-coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review.",
+  "views": {
+    "type": "type/same type/AVP0008",
+    "condition": "condition/numeric_representation/AVP0008"
+  }
+}

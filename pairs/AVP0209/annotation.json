@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0209",
+  "authoring_id": "V03GM009",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2226",
+    "sample_index": "2226",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2226",
+      "question": "Triangle $AMC$ is isoceles with $AM = AC$. Medians $\\overline{MV}$ and $\\overline{CU}$ are perpendicular to each other, and $MV=CU=12$. What is the area of $\\triangle AMC?$\n<image1>",
+      "options": [],
+      "image": "images/2226.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2226.jpg",
+    "sha256": "39e777c8e7d7cea6ba427283497912fc59cff39511c9c208f4f9dfc9c0da7852",
+    "width": 422,
+    "height": 536,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0209/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2494",
+    "sample_index": "2494",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2494",
+      "question": "Let $ABCD$ be an isosceles trapezoid with $\\overline{BC}\\parallel \\overline{AD}$ and $AB=CD$. Points $X$ and $Y$ lie on diagonal $\\overline{AC}$ with  $X$ between $A$ and $Y$, as shown in the figure. Suppose $\\angle AXD = \\angle BYC = 90^\\circ$, $AX = 3$, $XY = 1$, and $YC = 2$. What is the area of $ABCD?$\n\n<image1>",
+      "options": [
+        "$15$",
+        "$5\\sqrt{11}$",
+        "$3\\sqrt{35}$",
+        "$18$",
+        "$7\\sqrt{7}$"
+      ],
+      "image": "images/2494.jpg",
+      "level": 5,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2494.jpg",
+    "sha256": "7e8c02fb2a9b8342651aff4e0ecd4f2cfdb2610f1bf993c9f3693eee3a78d19e",
+    "width": 616,
+    "height": 610,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0209/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square or rotated-square angle marker where two lines meet.",
+    "left_evidence": "The tilted small square where UC crosses MV inside the triangle.",
+    "right_evidence": "The small square at Y, immediately left of the vertical segment BY on CA.",
+    "left_meaning": "UC is perpendicular to MV at their intersection.",
+    "right_meaning": "BY is perpendicular to CA at Y.",
+    "same_meaning": true,
+    "reason": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square or rotated-square angle marker where two lines meet.",
+    "mathematical_meanings": "Left image: UC is perpendicular to MV at their intersection. Right image: BY is perpendicular to CA at Y.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0209",
+    "condition": "condition/geometric_markers/AVP0209"
+  }
+}

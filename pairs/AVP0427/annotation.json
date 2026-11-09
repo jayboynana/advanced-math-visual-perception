@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0427",
+  "authoring_id": "V03GR027",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "selected_graph_bounded_area",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "287",
+    "sample_index": "287",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 325,
+      "img_width": 370,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/287.jpg",
+    "sha256": "6329bfb39cfb3eb35295eac984373c43782051983f6136a6a28328877287003d",
+    "width": 370,
+    "height": 325,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0427/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "926",
+    "sample_index": "926",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/926.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0427/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region bounded by a function graph",
+    "left_evidence": "The gray region labeled R2, between the sine and cosine curves to the right of their upper intersection.",
+    "right_evidence": "The blue shaded region below the arch-shaped function graph, to the right of x=3.",
+    "left_meaning": "A selected area between the sine and cosine graphs in the region labeled R2.",
+    "right_meaning": "A selected area under a function graph over a restricted horizontal interval.",
+    "same_meaning": true,
+    "reason": "Both fills select regions for graph-based area measurement. The additional graph forms the other boundary on the left, while the axis forms it on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A shaded region bounded by a function graph",
+    "mathematical_meanings": "Left image: A selected area between the sine and cosine graphs in the region labeled R2. Right image: A selected area under a function graph over a restricted horizontal interval.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both fills select regions for graph-based area measurement. The additional graph forms the other boundary on the left, while the axis forms it on the right."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0427",
+    "condition": "condition/graphical_roles/AVP0427"
+  }
+}

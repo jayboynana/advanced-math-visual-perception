@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0101",
+  "authoring_id": "V03NR001",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "radian_degree_conversion",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "587",
+    "sample_index": "587",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 124,
+      "img_width": 144,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/587.jpg",
+    "sha256": "5996305bb3a93e8dc19fd315aa015d91f531fab50fd38524a442720698ceeb69",
+    "width": 144,
+    "height": 124,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0101/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0101/right.png",
+    "width": 254,
+    "height": 259,
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 45° and π/4.",
+    "left_evidence": "The 45° between the north-pointing ray and ray AM, at A.",
+    "right_evidence": "The π/4 beside the angle at the coordinate origin.",
+    "left_meaning": "The marked angle at A measures 45 degrees.",
+    "right_meaning": "The marked angle at the origin measures π/4 radians.",
+    "same_meaning": true,
+    "reason": "45 degrees equals π/4 radians. The selected labels both quantify the size of a marked angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 45° and π/4.",
+    "mathematical_meanings": "Left image: The marked angle at A measures 45 degrees. Right image: The marked angle at the origin measures π/4 radians.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "45 degrees equals π/4 radians. The selected labels both quantify the size of a marked angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0101",
+    "condition": "condition/numeric_representation/AVP0101"
+  }
+}

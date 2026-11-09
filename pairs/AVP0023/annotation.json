@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0023",
+  "authoring_id": "NR23",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_signed_value_same_abscissa",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "433",
+    "sample_index": "2164",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_433.png",
+    "image_path": "pairs/AVP0023/left.png",
+    "sha256": "6d88e6d1823e2a53e9c7a7586cb1d9ee90bbdc70d0c5195b92f1654bec473bdd",
+    "width": 514,
+    "height": 294,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "486",
+    "sample_index": "2429",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_486.png",
+    "image_path": "pairs/AVP0023/right.png",
+    "sha256": "0ab6dd2a10dc572c660593b9bd4cd95a0af40876ae810cf3f8485f36e83dfaa3",
+    "width": 461,
+    "height": 469,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The value −6 inside parentheses",
+    "left_evidence": "The first component, −6, of the rectangle's lower-left vertex label (−6,−1).",
+    "right_evidence": "The first component, −6, of the third-quadrant blue point's label (−6,−1/6).",
+    "left_meaning": "The rectangle's lower-left vertex has x-coordinate −6.",
+    "right_meaning": "The blue point on the curve has x-coordinate −6.",
+    "same_meaning": true,
+    "reason": "Both selected values are x-coordinates equal to −6; the different y-coordinates do not affect this single-component target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The value −6 inside parentheses",
+    "mathematical_meanings": "Left image: The rectangle's lower-left vertex has x-coordinate −6. Right image: The blue point on the curve has x-coordinate −6.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected values are x-coordinates equal to −6; the different y-coordinates do not affect this single-component target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. A shared coordinate component is not taken to imply equality of the complete coordinate pairs.",
+  "views": {
+    "type": "type/different type/AVP0023",
+    "condition": "condition/numeric_representation/AVP0023"
+  }
+}

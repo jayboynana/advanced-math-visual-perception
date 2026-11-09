@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter y",
+  "mathematical_meanings": "Left image: y denotes the unknown angle at the top vertex, in degrees. Right image: y denotes the unknown angle measure between BA and BC.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at y° near the top of the right triangle; the right occurrence is at y beside the angle arc between BA and BC at B. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

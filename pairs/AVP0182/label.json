@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 3 and 3 cm.",
+  "mathematical_meanings": "Left image: The marked peak point has x-coordinate 3. Right image: The left side has length 3 centimeters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 3 is the first component of a point coordinate pair and gives an x-coordinate; 3 cm is a side length with a physical length unit."
+}

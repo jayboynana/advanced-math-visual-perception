@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0266",
+  "authoring_id": "V03GM066",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "parallel_arrow_vs_direction_or_span",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1783",
+    "sample_index": "1783",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1783",
+      "question": "In the diagram, lines $Q T$ and $R S$ are parallel and $P Q$ and $Q T$ are equal. Angle $S T Q$ is $154^{\\circ}$. What is the size of angle $S R Q$ ? <image1>",
+      "options": [
+        "$120^{\\circ}$",
+        "$122^{\\circ}$",
+        "$124^{\\circ}$",
+        "$126^{\\circ}$",
+        "$128^{\\circ}$"
+      ],
+      "image": "images/1783.jpg",
+      "level": 3,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1783.jpg",
+    "sha256": "f168cab9214904a901473f4d4685ef4a17d126045ccec462144e6bbdffe65cbb",
+    "width": 308,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0266/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "544",
+    "sample_index": "2719",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_544.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0266/right.png",
+    "width": 344,
+    "height": 356,
+    "sha256": "b9c51556150d73c295728fb47b2df50830a2def5f02061cb463600aae616f8e3"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-pointing chevron or arrowhead on a line.",
+    "left_evidence": "The right-pointing chevrons inside QT and RS.",
+    "right_evidence": "The magenta arrowhead at the right end of the horizontal span joining the first two peaks.",
+    "left_meaning": "The matching arrow marks state that QT and RS are parallel.",
+    "right_meaning": "It bounds a horizontal-coordinate interval between adjacent peaks of the plotted wave.",
+    "same_meaning": false,
+    "reason": "The left chevrons occur as a matching pair inside geometric sides and assert parallelism. The selected right arrowhead instead bounds a plotted interval or indicates continuation of an axis or function branch, as identified by its attachment to that element."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A right-pointing chevron or arrowhead on a line.",
+    "mathematical_meanings": "Left image: The matching arrow marks state that QT and RS are parallel. Right image: It bounds a horizontal-coordinate interval between adjacent peaks of the plotted wave.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left chevrons occur as a matching pair inside geometric sides and assert parallelism. The selected right arrowhead instead bounds a plotted interval or indicates continuation of an axis or function branch, as identified by its attachment to that element."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0266",
+    "condition": "condition/geometric_markers/AVP0266"
+  }
+}

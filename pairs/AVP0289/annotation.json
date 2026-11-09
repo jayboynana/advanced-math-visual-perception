@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0289",
+  "authoring_id": "V03GM089",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_selection_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1424",
+    "sample_index": "1424",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "1424",
+      "question": "Two chords $A B$ and $A C$ are drawn into a circle with diameter $\\mathrm{AD}. \\angle B A C=60^{\\circ}$, $\\overline{A B}=24 \\mathrm{~cm}$, $\\mathrm{E}$ lies on $\\mathrm{AC}$ so that $\\overline{E C}=3 \\mathrm{~cm}$, and $\\mathrm{BE}$ is perpendicular to $\\mathrm{AC}$. How long is the chord $\\mathrm{BD}$?\n<image1>",
+      "options": [
+        "$\\sqrt{3} \\mathrm{~cm}$",
+        "$2 \\mathrm{~cm}$",
+        "$3 \\mathrm{~cm}$",
+        "$2 \\sqrt{3} \\mathrm{~cm}$",
+        "$3 \\sqrt{2} \\mathrm{~cm}$"
+      ],
+      "image": "images/1424.jpg",
+      "level": 4,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/1424.jpg",
+    "sha256": "ab5bf6282dcf5f34b74b039dd04391924ed2ab604764d12e3015feb26eebe70d",
+    "width": 552,
+    "height": 514,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0289/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2231",
+    "sample_index": "2231",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "2231",
+      "question": "As shown in the figure below, point $E$ lies on the opposite half-plane determined by line $CD$ from point $A$ so that $\\angle CDE = 110^\\circ$. Point $F$ lies on $\\overline{AD}$ so that $DE=DF$, and $ABCD$ is a square. What is the degree measure of $\\angle AFE?$\n<image1>",
+      "options": [],
+      "image": "images/2231.jpg",
+      "level": 2,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/2231.jpg",
+    "sha256": "ec69b9813e8d570c3c3c495812be3af4bdc7537ac729a4117d9f137b71abede4",
+    "width": 616,
+    "height": 550,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0289/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small circular arc placed between two rays at their common vertex.",
+    "left_evidence": "The small circular arc bounding the gray 60° region at A.",
+    "right_evidence": "The arc bounding the shaded 110° region at D.",
+    "left_meaning": "It selects the vertex angle at A to which the 60° label is attached.",
+    "right_meaning": "It selects the angle at D associated with the 110° label.",
+    "same_meaning": true,
+    "reason": "Each small arc selects a particular vertex angle and connects it to the nearby angle label or to the marked-angle relation. The target is that angle-selection convention, not equality of all labeled angle values."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small circular arc placed between two rays at their common vertex.",
+    "mathematical_meanings": "Left image: It selects the vertex angle at A to which the 60° label is attached. Right image: It selects the angle at D associated with the 110° label.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each small arc selects a particular vertex angle and connects it to the nearby angle label or to the marked-angle relation. The target is that angle-selection convention, not equality of all labeled angle values."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0289",
+    "condition": "condition/geometric_markers/AVP0289"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0104",
+  "authoring_id": "V03NR004",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "698",
+    "sample_index": "698",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 376,
+      "img_width": 615,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/698.jpg",
+    "sha256": "5160bbbfa16232a34eb8cf7cc04c9b50a3bf6a92dec798be7b8f7aba173cda17",
+    "width": 615,
+    "height": 376,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0104/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "815",
+    "sample_index": "815",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 279,
+      "img_width": 367,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/815.jpg",
+    "sha256": "41d7be0b46bfdb438f260e32a520fb959743dd76fe6fc920928bcb80e29ec2e0",
+    "width": 367,
+    "height": 279,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0104/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 60° in both images.",
+    "left_evidence": "The 60° at the upper-right vertex of the small triangle above the question.",
+    "right_evidence": "The 60° inside the circle, between radii CM and CN.",
+    "left_meaning": "The marked triangle angle measures 60 degrees.",
+    "right_meaning": "The central angle MCN measures 60 degrees.",
+    "same_meaning": true,
+    "reason": "Both labels quantify an angle as 60 degrees. One angle is at a triangle vertex and the other at a circle center; the numerical angle measure is the selected target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 60° in both images.",
+    "mathematical_meanings": "Left image: The marked triangle angle measures 60 degrees. Right image: The central angle MCN measures 60 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both labels quantify an angle as 60 degrees. One angle is at a triangle vertex and the other at a circle center; the numerical angle measure is the selected target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0104",
+    "condition": "condition/numeric_representation/AVP0104"
+  }
+}

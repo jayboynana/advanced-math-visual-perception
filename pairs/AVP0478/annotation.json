@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0478",
+  "authoring_id": "V03GR078",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "spatial_dimension_vs_period",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "523",
+    "sample_index": "523",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 179,
+      "img_width": 285,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/523.jpg",
+    "sha256": "2a6e9b87c4e152dda6c6a0aaca204867a8788f6e0fb1e890e2fa1c9ac22bfc74",
+    "width": 285,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0478/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "544",
+    "sample_index": "2719",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_544.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0478/right.png",
+    "width": 344,
+    "height": 356,
+    "sha256": "b9c51556150d73c295728fb47b2df50830a2def5f02061cb463600aae616f8e3"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal double-headed arrow",
+    "left_evidence": "The horizontal double-headed arrow below the ground segment between A and B, labeled 10 m.",
+    "right_evidence": "The magenta horizontal double-headed arrow between two adjacent waveform peaks.",
+    "left_meaning": "A spatial length annotation spanning two ground positions.",
+    "right_meaning": "One horizontal-coordinate repetition interval of the waveform, namely its period.",
+    "same_meaning": false,
+    "reason": "The 10 m arrow measures ground distance between A and B. The other spans adjacent peaks and identifies a repetition interval of the plotted waveform; it is not a geometric ground distance."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal double-headed arrow",
+    "mathematical_meanings": "Left image: A spatial length annotation spanning two ground positions. Right image: One horizontal-coordinate repetition interval of the waveform, namely its period.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The 10 m arrow measures ground distance between A and B. The other spans adjacent peaks and identifies a repetition interval of the plotted waveform; it is not a geometric ground distance."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0478",
+    "condition": "condition/graphical_roles/AVP0478"
+  }
+}

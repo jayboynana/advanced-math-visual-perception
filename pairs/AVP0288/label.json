@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: They represent rear edges of the folded three-dimensional bowl that are hidden from view. Right image: It is an auxiliary chord-like reference segment within the plane circle diagram.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashed AD segment is a planar reference across a circle, not the occluded boundary of a solid. The two stroke styles therefore encode different contextual functions."
+}

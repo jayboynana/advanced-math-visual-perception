@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: x denotes the unknown radius length MK. Right image: x denotes the unknown length of the lower leg.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at x next to radius MK; the right occurrence is at x below the lower sloping side of the right triangle. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

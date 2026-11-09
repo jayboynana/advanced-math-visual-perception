@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0039",
+  "authoring_id": "GM14",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "projection_square_vs_grid_cell",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "458",
+    "sample_index": "2289",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_458.png",
+    "image_path": "pairs/AVP0039/left.png",
+    "sha256": "0ca0ec80c288b3262042f6e702035bc46575b58fb1a08e5b911c08fe4cb58e5b",
+    "width": 801,
+    "height": 536,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "488",
+    "sample_index": "2439",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_488.png",
+    "image_path": "pairs/AVP0039/right.png",
+    "sha256": "6f771f3081c82650b860bd72ba840686f359f80fcd8d69be8161ccd662240e1d",
+    "width": 434,
+    "height": 436,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small unfilled square bounded by horizontal and vertical edges",
+    "left_evidence": "On the left side of the negative horizontal axis, a small unfilled right-angle square lies below and to the right of the top of the vertical projection line.",
+    "right_evidence": "In the first quadrant, a small light-gray grid cell lies between x=1 and 2 and y=1 and 2.",
+    "left_meaning": "It indicates that the projection line forms a right angle with the horizontal axis.",
+    "right_meaning": "It represents a cell in the plotting coordinate grid, used for locating positions and reading values.",
+    "same_meaning": false,
+    "reason": "The square outlines look similar, but a local right-angle marker and a background coordinate-grid cell serve different mathematical functions."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small unfilled square bounded by horizontal and vertical edges",
+    "mathematical_meanings": "Left image: It indicates that the projection line forms a right angle with the horizontal axis. Right image: It represents a cell in the plotting coordinate grid, used for locating positions and reading values.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square outlines look similar, but a local right-angle marker and a background coordinate-grid cell serve different mathematical functions."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again; an actual visible outline is specified on each side.",
+  "views": {
+    "type": "type/different type/AVP0039",
+    "condition": "condition/geometric_markers/AVP0039"
+  }
+}

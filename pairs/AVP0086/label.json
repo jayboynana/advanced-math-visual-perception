@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Magenta dashed line",
+  "mathematical_meanings": "Left image: An auxiliary reference line at a fixed vertical level, used to align and read the marked point's vertical coordinate. Right image: The graph of function g, expressing how the vertical coordinate varies with the horizontal coordinate.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left line assists coordinate reading, whereas the right line is the function graph being studied; matching color and dash style do not imply matching mathematical roles."
+}

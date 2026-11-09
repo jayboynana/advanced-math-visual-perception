@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square outline bounded by horizontal and vertical edges",
+  "mathematical_meanings": "Left image: It is a right-angle symbol indicating that the perpendicular line is perpendicular to the horizontal axis. Right image: It is a coordinate-grid cell providing a reference for horizontal and vertical readings.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Both images contain a definite square outline; one is an angle marker attached to the foot of a perpendicular, while the other is a background coordinate-grid cell."
+}

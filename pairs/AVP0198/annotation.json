@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0198",
+  "authoring_id": "V03NR098",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "abscissa_vs_ordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "963",
+    "sample_index": "963",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 397,
+      "img_width": 441,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/963.jpg",
+    "sha256": "7b2f340a36e965bf5722e272da4051ecf7ce606de61ed6ce9d1bc6a46096a757",
+    "width": 441,
+    "height": 397,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0198/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0198/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The tick label 4 on the vertical axis above 3 and below 5.",
+    "right_evidence": "The tick label 4 below the middle marked point of the logarithmic curve.",
+    "left_meaning": "The selected tick denotes y-coordinate value 4.",
+    "right_meaning": "The selected tick denotes x-coordinate value 4.",
+    "same_meaning": false,
+    "reason": "The number 4 is shared, but one selected label denotes a y-coordinate and the other an x-coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 4. Right image: The selected tick denotes x-coordinate value 4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The number 4 is shared, but one selected label denotes a y-coordinate and the other an x-coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0198",
+    "condition": "condition/numeric_representation/AVP0198"
+  }
+}

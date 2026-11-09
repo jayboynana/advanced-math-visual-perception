@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents the hidden rear bottom edge DC of the prism. Right image: It is a horizontal reference line through the wave, rather than the wave curve itself.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right horizontal dashes run across the wave as a plotting reference rather than tracing a hidden object boundary. The two stroke styles therefore encode different contextual functions."
+}

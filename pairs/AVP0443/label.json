@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal colored line crossing a function graph",
+  "mathematical_meanings": "Left image: A fixed-y horizontal comparison line across the function graph. Right image: A fixed-y horizontal comparison line across the function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The orange line and the line explicitly labeled y=4 provide constant-y comparison levels; their exact heights are not the selected target."
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0032",
+  "authoring_id": "GM07",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "filled_outline_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "1844",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_369.png",
+    "image_path": "pairs/AVP0032/left.png",
+    "sha256": "e5031eabb94610b56b4ea8fd9e381d24b62d547331026a258b0808a34b7ef148",
+    "width": 209,
+    "height": 235,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "371",
+    "sample_index": "1854",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_371.png",
+    "image_path": "pairs/AVP0032/right.png",
+    "sha256": "24baa2ce051de96d1ab18268bcdb27907ef4c18f20c50976cd4218c578b17809",
+    "width": 244,
+    "height": 136,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square angle marker inside a triangle vertex",
+    "left_evidence": "At B in the lower left, a small light-purple filled square lies between the vertical side AB and the base BC.",
+    "right_evidence": "A small blue unfilled square lies inside the upper-left vertex of the green triangle.",
+    "left_meaning": "It indicates that AB is perpendicular to BC, forming a right angle at B.",
+    "right_meaning": "It indicates that the left vertical side is perpendicular to the upper horizontal side, forming a right angle at the upper-left vertex.",
+    "same_meaning": true,
+    "reason": "Despite different fills and vertex locations, both squares explicitly mark a right angle in a triangle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square angle marker inside a triangle vertex",
+    "mathematical_meanings": "Left image: It indicates that AB is perpendicular to BC, forming a right angle at B. Right image: It indicates that the left vertical side is perpendicular to the upper horizontal side, forming a right angle at the upper-left vertex.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Despite different fills and vertex locations, both squares explicitly mark a right angle in a triangle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again.",
+  "views": {
+    "type": "type/same type/AVP0032",
+    "condition": "condition/geometric_markers/AVP0032"
+  }
+}

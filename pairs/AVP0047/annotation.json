@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0047",
+  "authoring_id": "GM22",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "axis_arrow_vs_interval_arrow",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "449",
+    "sample_index": "2244",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_449.png",
+    "image_path": "pairs/AVP0047/left.png",
+    "sha256": "33d7cb3199b9d4544e78306041f1d9ff14ecc76d2ccaa026a2d7704ac5da92ac",
+    "width": 765,
+    "height": 598,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "544",
+    "sample_index": "2719",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_544.png",
+    "image_path": "pairs/AVP0047/right.png",
+    "sha256": "b9c51556150d73c295728fb47b2df50830a2def5f02061cb463600aae616f8e3",
+    "width": 344,
+    "height": 356,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-pointing arrowhead at the end of a horizontal line",
+    "left_evidence": "A right-pointing arrowhead sits at the far-right end of the positive x-axis, to the right of the 1.5 tick.",
+    "right_evidence": "A right-pointing arrowhead sits at the right end of the magenta horizontal double-ended arrow, at the top of the second peak.",
+    "left_meaning": "It indicates the positive x direction and the coordinate axis continuing to the right.",
+    "right_meaning": "It is the right endpoint of a horizontal-distance marker, bounding the indicated span between two adjacent peaks.",
+    "same_meaning": false,
+    "reason": "The arrowheads have similar directions and shapes; one indicates an axis direction and the other bounds the distance between peaks."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A right-pointing arrowhead at the end of a horizontal line",
+    "mathematical_meanings": "Left image: It indicates the positive x direction and the coordinate axis continuing to the right. Right image: It is the right endpoint of a horizontal-distance marker, bounding the indicated span between two adjacent peaks.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The arrowheads have similar directions and shapes; one indicates an axis direction and the other bounds the distance between peaks."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The numerical period in the right image is not calculated.",
+  "views": {
+    "type": "type/different type/AVP0047",
+    "condition": "condition/geometric_markers/AVP0047"
+  }
+}

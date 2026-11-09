@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0031",
+  "authoring_id": "GM06",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "rotated_right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "420",
+    "sample_index": "2099",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_420.png",
+    "image_path": "pairs/AVP0031/left.png",
+    "sha256": "7e717784b30e2bd7185c6eca95758a3711d7a9e870e338140a7fef8edb71d23b",
+    "width": 686,
+    "height": 412,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "756",
+    "sample_index": "3779",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_756.png",
+    "image_path": "pairs/AVP0031/right.png",
+    "sha256": "3972eb6b11293a438e1a791bb026b73fd49be5788f31d90834fceda9d7812213",
+    "width": 397,
+    "height": 364,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled right-angle square rotated to follow two slanted lines",
+    "left_evidence": "Above the cyan quadrilateral, a tilted unfilled square sits at the vertex where two black dashed lines meet.",
+    "right_evidence": "At R on the right, a tilted unfilled square lies between the solid segments RQ and RS.",
+    "left_meaning": "It indicates that the two upper dashed lines are perpendicular at their shared endpoint.",
+    "right_meaning": "It indicates that RQ is perpendicular to RS, forming a right angle at R.",
+    "same_meaning": true,
+    "reason": "Both tilted squares indicate right angles; the symbol may rotate with the sides to which it is attached."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An unfilled right-angle square rotated to follow two slanted lines",
+    "mathematical_meanings": "Left image: It indicates that the two upper dashed lines are perpendicular at their shared endpoint. Right image: It indicates that RQ is perpendicular to RS, forming a right angle at R.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both tilted squares indicate right angles; the symbol may rotate with the sides to which it is attached."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. Image 756 is classified as geometry based on its visible two-dimensional quadrilateral; dashed QS is not identified as a hidden edge.",
+  "views": {
+    "type": "type/same type/AVP0031",
+    "condition": "condition/geometric_markers/AVP0031"
+  }
+}

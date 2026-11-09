@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Vertical dashed line",
+  "mathematical_meanings": "Left image: A geometric auxiliary line that projects a vertex perpendicularly onto the horizontal base. Right image: A geometric auxiliary line that projects the lower endpoint perpendicularly onto the horizontal reference line.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both dashed lines serve as auxiliary lines for perpendicular projection; the particular setting and endpoint names do not change this role."
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0019",
+  "authoring_id": "NR19",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "sign_change_length_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "373",
+    "sample_index": "1864",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_373.png",
+    "image_path": "pairs/AVP0019/left.png",
+    "sha256": "e27143dc5dd2b42ecffeaa6f506263275e05570344f05de17e6536aed8fee1e6",
+    "width": 202,
+    "height": 119,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "530",
+    "sample_index": "2649",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_530.png",
+    "image_path": "pairs/AVP0019/right.png",
+    "sha256": "ac12d4c4bd8d53c82fa7760943c76ce042f6858e5e4c1a6705d978871ae0fa4a",
+    "width": 397,
+    "height": 404,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Decimal notations differing only by a minus sign: 8.5 and −8.5.",
+    "left_evidence": "The label 8.5 beside the short side on the left of the triangle.",
+    "right_evidence": "The second component, −8.5, of the lower orange point's coordinate label ((3/4)π,−8.5).",
+    "left_meaning": "The corresponding triangle side has positive length value 8.5.",
+    "right_meaning": "The function's trough point has negative y-coordinate −8.5.",
+    "same_meaning": false,
+    "reason": "The minus sign changes the complete numerical value; a side length and a y-coordinate also serve different roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Decimal notations differing only by a minus sign: 8.5 and −8.5.",
+    "mathematical_meanings": "Left image: The corresponding triangle side has positive length value 8.5. Right image: The function's trough point has negative y-coordinate −8.5.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The minus sign changes the complete numerical value; a side length and a y-coordinate also serve different roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The similarity comes from the matching decimal digits with one minus-sign difference. This is not labeled as numerical equivalence.",
+  "views": {
+    "type": "type/different type/AVP0019",
+    "condition": "condition/numeric_representation/AVP0019"
+  }
+}

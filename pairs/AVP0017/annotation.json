@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0017",
+  "authoring_id": "NR17",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_side_length_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "image_path": "pairs/AVP0017/left.png",
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9",
+    "width": 162,
+    "height": 246,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "570",
+    "sample_index": "2849",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_570.png",
+    "image_path": "pairs/AVP0017/right.png",
+    "sha256": "4f7f3e815ac21a661ffefa632c4599f738d2247cd94a0d9cff061c84085704bc",
+    "width": 280,
+    "height": 284,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The number 3 in both images.",
+    "left_evidence": "The 3 beside segment AC at the bottom of the image.",
+    "right_evidence": "The second component, 3, of the magenta point's coordinate label (2,3).",
+    "left_meaning": "Segment AC has a length value of 3.",
+    "right_meaning": "The magenta point has y-coordinate 3.",
+    "same_meaning": false,
+    "reason": "A length label and a y-coordinate label have different mathematical roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The number 3 in both images.",
+    "mathematical_meanings": "Left image: Segment AC has a length value of 3. Right image: The magenta point has y-coordinate 3.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "A length label and a y-coordinate label have different mathematical roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review.",
+  "views": {
+    "type": "type/different type/AVP0017",
+    "condition": "condition/numeric_representation/AVP0017"
+  }
+}

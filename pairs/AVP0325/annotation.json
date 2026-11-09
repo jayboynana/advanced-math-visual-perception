@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0325",
+  "authoring_id": "V03SR025",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_length_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "206",
+    "sample_index": "206",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 611,
+      "img_width": 731,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/206.jpg",
+    "sha256": "614dd5581b7e1aef15d61f58ac72179121c80a6b0fea0614e0c3704cb4383f1e",
+    "width": 731,
+    "height": 611,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0325/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "238",
+    "sample_index": "238",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 250,
+      "img_width": 238,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/238.jpg",
+    "sha256": "7f47331d45c2fecdc4f618dddbeb3283f00e396bb3d514a976f8e4874e84d93f",
+    "width": 238,
+    "height": 250,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0325/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x above the dimension segment from Q-prime to Q",
+    "right_evidence": "x beside the left vertical segment TR",
+    "left_meaning": "x denotes the unknown length from Q-prime to Q.",
+    "right_meaning": "x denotes the unknown length of segment TR.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at x above the dimension segment from Q-prime to Q; the right occurrence is at x beside the left vertical segment TR. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown length from Q-prime to Q. Right image: x denotes the unknown length of segment TR.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at x above the dimension segment from Q-prime to Q; the right occurrence is at x beside the left vertical segment TR. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0325",
+    "condition": "condition/symbolic_roles/AVP0325"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0334",
+  "authoring_id": "V03SR034",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_function_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0334/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "568",
+    "sample_index": "2839",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_568.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0334/right.png",
+    "width": 276,
+    "height": 282,
+    "sha256": "1e3d232a22ba56d79145624e739075e15e878702f0840253466e0972869cea37"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter f",
+    "left_evidence": "f(x) = √(9 − (x − 3)²) above the semicircular graph",
+    "right_evidence": "f beside the solid upward parabola",
+    "left_meaning": "f names the function represented by the indicated curve.",
+    "right_meaning": "f names the function represented by the indicated curve.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at f(x) = √(9 − (x − 3)²) above the semicircular graph; the right occurrence is at f beside the solid upward parabola. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter f",
+    "mathematical_meanings": "Left image: f names the function represented by the indicated curve. Right image: f names the function represented by the indicated curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at f(x) = √(9 − (x − 3)²) above the semicircular graph; the right occurrence is at f beside the solid upward parabola. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0334",
+    "condition": "condition/symbolic_roles/AVP0334"
+  }
+}

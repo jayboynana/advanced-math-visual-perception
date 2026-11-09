@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0131",
+  "authoring_id": "V03NR031",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_logarithm_base",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0131/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "847",
+    "sample_index": "847",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 1294,
+      "img_width": 1706,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/847.jpg",
+    "sha256": "e096f119e88faeeea81680cd46c55cec3748e0a24e7268b5a5ca06f7bfaffde6",
+    "width": 1706,
+    "height": 1294,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0131/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The subscript 2 in y=log₂(x), beside the curve.",
+    "right_evidence": "The subscript 2 in the red label log₂x.",
+    "left_meaning": "The logarithm has base 2.",
+    "right_meaning": "The red logarithmic curve uses logarithm base 2.",
+    "same_meaning": true,
+    "reason": "Both selected subscripts give logarithm base 2, rather than a coordinate or a multiplier."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The logarithm has base 2. Right image: The red logarithmic curve uses logarithm base 2.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected subscripts give logarithm base 2, rather than a coordinate or a multiplier."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0131",
+    "condition": "condition/numeric_representation/AVP0131"
+  }
+}

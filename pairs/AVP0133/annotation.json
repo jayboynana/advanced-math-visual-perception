@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0133",
+  "authoring_id": "V03NR033",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coefficient_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "176",
+    "sample_index": "176",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 292,
+      "img_width": 305,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/176.jpg",
+    "sha256": "1ae00a0f7c88ea8e93d32757e5ba738207da909d2ffa3a31cb058b811a4feb8a",
+    "width": 305,
+    "height": 292,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0133/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "375",
+    "sample_index": "375",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 293,
+      "img_width": 703,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/375.jpg",
+    "sha256": "8757bdafdb8e4f38b9ac6d6ebbe0d8ba0f4afe1c699244aecb99640dd620f424",
+    "width": 703,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0133/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The coefficient 4 in the side-length expression 4x on RQ.",
+    "right_evidence": "The coefficient 4 in the left side-length expression 4x+1.",
+    "left_meaning": "The unknown x is multiplied by coefficient 4 in the length expression.",
+    "right_meaning": "The unknown x is multiplied by coefficient 4 in the length expression.",
+    "same_meaning": true,
+    "reason": "Both selected 4s are coefficients multiplying x inside side-length expressions. The additional constant in one expression is not selected."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The unknown x is multiplied by coefficient 4 in the length expression. Right image: The unknown x is multiplied by coefficient 4 in the length expression.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected 4s are coefficients multiplying x inside side-length expressions. The additional constant in one expression is not selected."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0133",
+    "condition": "condition/numeric_representation/AVP0133"
+  }
+}

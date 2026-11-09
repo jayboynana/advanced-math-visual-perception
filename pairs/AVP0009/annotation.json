@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0009",
+  "authoring_id": "NR09",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_pi_value_same_coordinate_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "532",
+    "sample_index": "2659",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_532.png",
+    "image_path": "pairs/AVP0009/left.png",
+    "sha256": "851ec5a1cada2d7b88176a8c971320da0fd5254654370206c9abd00ecb3bf12d",
+    "width": 360,
+    "height": 366,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "542",
+    "sample_index": "2709",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_542.png",
+    "image_path": "pairs/AVP0009/right.png",
+    "sha256": "f0f9ec9c7cd61312db09be704f35d7d35020405b0dd14261098cce063299baeb",
+    "width": 405,
+    "height": 412,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The negative expression −(1/2)π in both images.",
+    "left_evidence": "The first component of the lower-left orange point's coordinate label (−(1/2)π,2.4).",
+    "right_evidence": "The first component of the orange point's coordinate label (−(1/2)π,3.3), near the vertical axis.",
+    "left_meaning": "The marked point has x-coordinate −π/2.",
+    "right_meaning": "The marked point has x-coordinate −π/2.",
+    "same_meaning": true,
+    "reason": "The complete signed values match and both are x-coordinates; the different y-coordinates are outside the selected target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The negative expression −(1/2)π in both images.",
+    "mathematical_meanings": "Left image: The marked point has x-coordinate −π/2. Right image: The marked point has x-coordinate −π/2.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The complete signed values match and both are x-coordinates; the different y-coordinates are outside the selected target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the x-coordinate −π/2 is selected; the complete coordinate pairs are not treated as equal.",
+  "views": {
+    "type": "type/same type/AVP0009",
+    "condition": "condition/numeric_representation/AVP0009"
+  }
+}

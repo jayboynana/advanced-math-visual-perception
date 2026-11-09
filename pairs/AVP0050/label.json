@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A short vertical stroke marking a reading position on the positive horizontal axis",
+  "mathematical_meanings": "Left image: It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position. Right image: It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "This item concerns the reading function of a short tick, rather than the specific value at its position; the two ticks have the same local function."
+}

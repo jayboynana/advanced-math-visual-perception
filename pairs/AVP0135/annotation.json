@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0135",
+  "authoring_id": "V03NR035",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coordinate_component",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "117",
+    "sample_index": "117",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 460,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/117.jpg",
+    "sha256": "53413b8e12249ddb8f4b19d0327957b4c8dd96d2669807ba6e5bac85ebe935ec",
+    "width": 460,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0135/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "767",
+    "sample_index": "767",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 429,
+      "img_width": 483,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/767.jpg",
+    "sha256": "23b04858f8b5e053ed85f1b22514ab1eefae59a613b4e7d48c43a8eb1959e0c5",
+    "width": 483,
+    "height": 429,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0135/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3 in both images.",
+    "left_evidence": "The first component 3 in the point label (3,2) at the right peak.",
+    "right_evidence": "The first component 3 in the blue point's label (3,−4).",
+    "left_meaning": "The marked peak point has x-coordinate 3.",
+    "right_meaning": "The blue point on the circle has x-coordinate 3.",
+    "same_meaning": true,
+    "reason": "Both selected first coordinate components give x-coordinate 3, although one point is on a function graph and the other on a circle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+    "mathematical_meanings": "Left image: The marked peak point has x-coordinate 3. Right image: The blue point on the circle has x-coordinate 3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected first coordinate components give x-coordinate 3, although one point is on a function graph and the other on a circle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0135",
+    "condition": "condition/numeric_representation/AVP0135"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents a hidden rear edge of the rectangular prism. Right image: It is the vertical asymptote used as a reference for the plotted function.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right broken vertical reference is an asymptote beside a function curve, with no solid to supply an occluded edge. The two stroke styles therefore encode different contextual functions."
+}

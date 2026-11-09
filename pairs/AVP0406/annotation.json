@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0406",
+  "authoring_id": "V03GR006",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "circle_boundary_vs_open_point",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "82",
+    "sample_index": "82",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 202,
+      "img_width": 200,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/82.jpg",
+    "sha256": "955d298fcd837fd4fa8144e68fe413b1d015a3f48796eed670d41955abbaa9ae",
+    "width": 200,
+    "height": 202,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0406/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0406/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled circular outline",
+    "left_evidence": "The black circular outline surrounding the inscribed four-sided figure.",
+    "right_evidence": "The hollow circle at the upper end of the sloping straight branch, at x=1.",
+    "left_meaning": "The circumference of the surrounding geometric circle.",
+    "right_meaning": "The straight branch excludes that endpoint, consistent with the printed restriction x<1.",
+    "same_meaning": false,
+    "reason": "The enclosing circle is the boundary of a geometric figure, while the open symbol at x=1 encodes the strict domain restriction of a function branch."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An unfilled circular outline",
+    "mathematical_meanings": "Left image: The circumference of the surrounding geometric circle. Right image: The straight branch excludes that endpoint, consistent with the printed restriction x<1.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The enclosing circle is the boundary of a geometric figure, while the open symbol at x=1 encodes the strict domain restriction of a function branch."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0406",
+    "condition": "condition/graphical_roles/AVP0406"
+  }
+}

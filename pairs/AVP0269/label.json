@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A boundary or edge drawn with broken strokes in a three-dimensional solid view.",
+  "mathematical_meanings": "Left image: They represent rear edges of the solid that are hidden from this viewing direction. Right image: It represents the hidden rear bottom edge DC of the cube.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected broken lines belong to the rear, occluded part of the depicted solid. They use the hidden-edge convention, even when one boundary is curved or one drawing uses dots rather than longer dashes."
+}

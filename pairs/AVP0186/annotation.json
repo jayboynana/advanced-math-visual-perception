@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0186",
+  "authoring_id": "V03NR086",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "equation_constant_vs_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "767",
+    "sample_index": "767",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 429,
+      "img_width": 483,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/767.jpg",
+    "sha256": "23b04858f8b5e053ed85f1b22514ab1eefae59a613b4e7d48c43a8eb1959e0c5",
+    "width": 483,
+    "height": 429,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0186/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "238",
+    "sample_index": "238",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 250,
+      "img_width": 238,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/238.jpg",
+    "sha256": "7f47331d45c2fecdc4f618dddbeb3283f00e396bb3d514a976f8e4874e84d93f",
+    "width": 238,
+    "height": 250,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0186/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 25 in both images.",
+    "left_evidence": "The 25 on the right of the circle equation x²+y²=25.",
+    "right_evidence": "The 25 beside the outer hypotenuse PQ.",
+    "left_meaning": "The number 25 is the constant on the right-hand side of the circle equation.",
+    "right_meaning": "Segment PQ has length value 25.",
+    "same_meaning": false,
+    "reason": "25 is the constant on the right-hand side of the circle equation, whereas the other 25 gives hypotenuse PQ's length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 25 in both images.",
+    "mathematical_meanings": "Left image: The number 25 is the constant on the right-hand side of the circle equation. Right image: Segment PQ has length value 25.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "25 is the constant on the right-hand side of the circle equation, whereas the other 25 gives hypotenuse PQ's length."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0186",
+    "condition": "condition/numeric_representation/AVP0186"
+  }
+}

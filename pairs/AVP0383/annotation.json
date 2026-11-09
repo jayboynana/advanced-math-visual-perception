@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0383",
+  "authoring_id": "V03SR083",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_variable_vs_vertical_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "366",
+    "sample_index": "1829",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_366.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0383/left.png",
+    "width": 322,
+    "height": 296,
+    "sha256": "f1340605db234a42009b547cce8d64ff9476457a1f71b7ab8879f59625ae21e7"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0383/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y beside the longer vertical dimension at the right of the lighthouse",
+    "right_evidence": "y at the top of the vertical axis",
+    "left_meaning": "y denotes the unknown overall height shown by the longer dimension.",
+    "right_meaning": "y labels the vertical coordinate axis or function-value direction.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to y beside the longer vertical dimension at the right of the lighthouse supports the meaning: y denotes the unknown overall height shown by the longer dimension. On the right, the context is y at the top of the vertical axis, where y labels the vertical coordinate axis or function-value direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: y denotes the unknown overall height shown by the longer dimension. Right image: y labels the vertical coordinate axis or function-value direction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to y beside the longer vertical dimension at the right of the lighthouse supports the meaning: y denotes the unknown overall height shown by the longer dimension. On the right, the context is y at the top of the vertical axis, where y labels the vertical coordinate axis or function-value direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0383",
+    "condition": "condition/symbolic_roles/AVP0383"
+  }
+}

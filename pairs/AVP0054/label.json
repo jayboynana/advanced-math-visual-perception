@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The lowercase letter x",
+  "mathematical_meanings": "Left image: x denotes an unknown angle measure at C. Right image: x denotes an unknown angle measure at B.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both occurrences are angle variables. Neither unknown angle is calculated, and their numerical equality is not asserted."
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0090",
+  "authoring_id": "GR15",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_annotated_position",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "556",
+    "sample_index": "2779",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_556.png",
+    "image_path": "pairs/AVP0090/left.png",
+    "sha256": "84de7b1fcd4c9e5b7cc6e9e9d1384b501b13c3b4d637eea1f136075aef73fe55",
+    "width": 284,
+    "height": 295,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "535",
+    "sample_index": "2674",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_535.png",
+    "image_path": "pairs/AVP0090/right.png",
+    "sha256": "c1b5f6ca197551097ed92bda0bb3856d86a10077749374bfb2a2a5e5cf3971b2",
+    "width": 267,
+    "height": 275,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Filled circular marker with a coordinate annotation",
+    "left_evidence": "The black filled circular marker on the upper-right part of the circle, beside (0.2,0.98).",
+    "right_evidence": "The orange filled circular marker on a descending part of the waveform, beside (2π/3,1.2).",
+    "left_meaning": "Locates and marks a point with given coordinates on the circle.",
+    "right_meaning": "Locates and marks a point with given coordinates on the function graph.",
+    "same_meaning": true,
+    "reason": "The shared meaning concerns the role of identifying a designated point by its coordinates; the angle's terminal side on the left and the curve's trend on the right are outside this comparison."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Filled circular marker with a coordinate annotation",
+    "mathematical_meanings": "Left image: Locates and marks a point with given coordinates on the circle. Right image: Locates and marks a point with given coordinates on the function graph.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The shared meaning concerns the role of identifying a designated point by its coordinates; the angle's terminal side on the left and the curve's trend on the right are outside this comparison."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0090",
+    "condition": "condition/graphical_roles/AVP0090"
+  }
+}

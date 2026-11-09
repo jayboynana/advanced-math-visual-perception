@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0007",
+  "authoring_id": "NR07",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "fraction_decimal_length_vs_abscissa",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "398",
+    "sample_index": "1989",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_398.png",
+    "image_path": "pairs/AVP0007/left.png",
+    "sha256": "3304f6568a40b62f2c4c5f606eefdfb747b7425047b4bcea59f44e2d0d43f221",
+    "width": 511,
+    "height": 341,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "556",
+    "sample_index": "2779",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_556.png",
+    "image_path": "pairs/AVP0007/right.png",
+    "sha256": "84de7b1fcd4c9e5b7cc6e9e9d1384b501b13c3b4d637eea1f136075aef73fe55",
+    "width": 284,
+    "height": 295,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Fractional and decimal notations for one real number: 1/5 and 0.2.",
+    "left_evidence": "The numerical part 1/5 in the label 1/5 cm beside the radius arrow inside the circle.",
+    "right_evidence": "The first component, 0.2, of the black point's coordinate label (0.2,0.98) on the circle.",
+    "left_meaning": "The radius length has numerical value 1/5, in cm.",
+    "right_meaning": "The marked point has x-coordinate 0.2.",
+    "same_meaning": false,
+    "reason": "1/5=0.2, but one value labels a radius length and the other an x-coordinate; their local mathematical roles differ."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Fractional and decimal notations for one real number: 1/5 and 0.2.",
+    "mathematical_meanings": "Left image: The radius length has numerical value 1/5, in cm. Right image: The marked point has x-coordinate 0.2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "1/5=0.2, but one value labels a radius length and the other an x-coordinate; their local mathematical roles differ."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Problem 556 is classified as geometry based on its unit-circle image. The displayed coordinate 0.98 is not replaced with a derived value.",
+  "views": {
+    "type": "type/same type/AVP0007",
+    "condition": "condition/numeric_representation/AVP0007"
+  }
+}

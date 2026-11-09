@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0132",
+  "authoring_id": "V03NR032",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_exponent_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "302",
+    "sample_index": "302",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 300,
+      "img_width": 531,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/302.jpg",
+    "sha256": "1810a119329eb1421e8c35f3932c8d1c2b3d61adc747484b7d0aa76d5b9fabda",
+    "width": 531,
+    "height": 300,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0132/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0132/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The superscript 2 in the blue x² item of the graph heading.",
+    "right_evidence": "The superscript 2 on (x−3) inside the square-root formula.",
+    "left_meaning": "The variable x is squared; 2 is its exponent.",
+    "right_meaning": "The expression x−3 is squared; 2 is its exponent.",
+    "same_meaning": true,
+    "reason": "Both selected superscripts 2 denote squaring. The entire functions and bases are outside the selected exponent target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The variable x is squared; 2 is its exponent. Right image: The expression x−3 is squared; 2 is its exponent.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected superscripts 2 denote squaring. The entire functions and bases are outside the selected exponent target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0132",
+    "condition": "condition/numeric_representation/AVP0132"
+  }
+}

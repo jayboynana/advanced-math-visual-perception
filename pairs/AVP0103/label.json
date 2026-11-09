@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 60° in both images.",
+  "mathematical_meanings": "Left image: The triangle angle at A measures 60 degrees. Right image: The upper-right interior angle measures 60 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected labels state an interior angle measure of 60 degrees."
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0095",
+  "authoring_id": "GR20",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "circumference_trace_vs_graph_continuation",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "391",
+    "sample_index": "1954",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_391.png",
+    "image_path": "pairs/AVP0095/left.png",
+    "sha256": "3458cdf1a97e6423db55c15143f788d72e307e2d4a470e077a61178a6532f575",
+    "width": 530,
+    "height": 307,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "477",
+    "sample_index": "2384",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_477.png",
+    "image_path": "pairs/AVP0095/right.png",
+    "sha256": "a92289fc5d67a4fd3c9993b2475d45a7fc10309db37147e08114b5f90a691fb8",
+    "width": 459,
+    "height": 465,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Arrow at the end of a curved line",
+    "left_evidence": "The gray curved arrow following the outside of the green circle.",
+    "right_evidence": "The arrow at the upper-right end of the blue S-shaped function curve.",
+    "left_meaning": "Indicates the measured length around one complete circumference.",
+    "right_meaning": "Indicates that the open function curve continues beyond the displayed area.",
+    "same_meaning": false,
+    "reason": "The left arrow traces the extent around a closed circumference, whereas the right arrow shows that the function curve does not terminate at the plotting boundary."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Arrow at the end of a curved line",
+    "mathematical_meanings": "Left image: Indicates the measured length around one complete circumference. Right image: Indicates that the open function curve continues beyond the displayed area.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arrow traces the extent around a closed circumference, whereas the right arrow shows that the function curve does not terminate at the plotting boundary."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0095",
+    "condition": "condition/graphical_roles/AVP0095"
+  }
+}

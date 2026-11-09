@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter R",
+  "mathematical_meanings": "Left image: R names the indicated geometric point. Right image: R names the indicated geometric point.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at R at the top vertex of the triangle; the right occurrence is at R at the upper-right triangle vertex. Both use the selected notation for the same point-naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

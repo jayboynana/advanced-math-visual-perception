@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure. Right image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both standalone 2s identify angle regions near intersecting lines, rather than supplying numerical angle measures."
+}

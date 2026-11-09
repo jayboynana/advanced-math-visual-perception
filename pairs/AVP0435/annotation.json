@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0435",
+  "authoring_id": "V03GR035",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "graph_area_vs_angle_highlight",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0435/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "413",
+    "sample_index": "2064",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_413.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0435/right.png",
+    "width": 824,
+    "height": 490,
+    "sha256": "f0d8438a5e28df5102160e955da07f37a9850584b70fcbf5799baa85dbfbe9c6"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A colored filled region",
+    "left_evidence": "The shaded part below the curved graph and above the horizontal axis between x=3 and x=6.",
+    "right_evidence": "The purple angle region labeled 27 degrees at the lower-right corner.",
+    "left_meaning": "A selected area under a function graph over a restricted horizontal interval.",
+    "right_meaning": "A colored annotation selecting the interior of an angle.",
+    "same_meaning": false,
+    "reason": "The first fill is under a function graph on an x-interval; the second identifies a 27-degree angle at a vertex. The nearby axes versus rays establish distinct roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A colored filled region",
+    "mathematical_meanings": "Left image: A selected area under a function graph over a restricted horizontal interval. Right image: A colored annotation selecting the interior of an angle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The first fill is under a function graph on an x-interval; the second identifies a 27-degree angle at a vertex. The nearby axes versus rays establish distinct roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0435",
+    "condition": "condition/graphical_roles/AVP0435"
+  }
+}

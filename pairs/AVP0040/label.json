@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Broken straight-line strokes extending diagonally",
+  "mathematical_meanings": "Left image: It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle. Right image: It is the boundary line of the gray solution region.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
+}

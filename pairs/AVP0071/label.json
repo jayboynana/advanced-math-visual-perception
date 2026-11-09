@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Parentheses following a name: P(3/5, 4/5) and f(x)",
+  "mathematical_meanings": "Left image: The parentheses enclose the ordered coordinate pair of P, giving its horizontal and vertical coordinates in that order. Right image: The parentheses specify the input x to function f; f(x) denotes its value.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Ordered-pair notation and function-input notation use similar parentheses for different mathematical purposes."
+}

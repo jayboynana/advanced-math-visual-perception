@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0193",
+  "authoring_id": "V03NR093",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "abscissa_vs_ordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "409",
+    "sample_index": "409",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 358,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/409.jpg",
+    "sha256": "66ef4a559e6a91d48cc28ffb85ddba90038658af0c8f43a5c6d8e9fbacdd86bf",
+    "width": 358,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0193/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "767",
+    "sample_index": "767",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 429,
+      "img_width": 483,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/767.jpg",
+    "sha256": "23b04858f8b5e053ed85f1b22514ab1eefae59a613b4e7d48c43a8eb1959e0c5",
+    "width": 483,
+    "height": 429,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0193/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −4 in both images.",
+    "left_evidence": "The tick label −4 on the negative horizontal axis, beneath the circle.",
+    "right_evidence": "The second component −4 in the blue point's label (3,−4).",
+    "left_meaning": "The selected tick denotes x-coordinate value −4.",
+    "right_meaning": "The blue point on the circle has y-coordinate −4.",
+    "same_meaning": false,
+    "reason": "Both complete values are −4, but the first occurs as a horizontal-axis coordinate and the second as a point's y-coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation −4 in both images.",
+    "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value −4. Right image: The blue point on the circle has y-coordinate −4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both complete values are −4, but the first occurs as a horizontal-axis coordinate and the second as a point's y-coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0193",
+    "condition": "condition/numeric_representation/AVP0193"
+  }
+}

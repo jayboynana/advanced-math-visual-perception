@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An unfilled circular outline",
+  "mathematical_meanings": "Left image: The circumference of a geometric circle, rather than an excluded graph point. Right image: A hole: this marked position on the curve is excluded; the separate filled point supplies the function value at the same horizontal coordinate.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The circle through A and B bounds a complete geometric object; the small circle interrupting g marks a missing graph position. Size is not the basis: the surrounding construction determines their roles."
+}

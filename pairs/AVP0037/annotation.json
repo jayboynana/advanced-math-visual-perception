@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0037",
+  "authoring_id": "GM12",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "equality_tick_vs_axis_tick",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "392",
+    "sample_index": "1959",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_392.png",
+    "image_path": "pairs/AVP0037/left.png",
+    "sha256": "2ce5d5693a803dc5e0576dc6890d3ae027779ca40bb09f37950be7f098d45bfe",
+    "width": 297,
+    "height": 281,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "449",
+    "sample_index": "2244",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_449.png",
+    "image_path": "pairs/AVP0037/right.png",
+    "sha256": "33d7cb3199b9d4544e78306041f1d9ff14ecc76d2ccaa026a2d7704ac5da92ac",
+    "width": 765,
+    "height": 598,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short vertical tick crossing a horizontal line",
+    "left_evidence": "A vertical tick crosses the middle of the sector's lower horizontal radius; the radius on the right bears a matching single tick.",
+    "right_evidence": "A short vertical tick marks the position labeled 0.5 on the positive x-axis.",
+    "left_meaning": "It is an equal-length marker indicating that the lower radius has the same length as the radius on the right bearing the matching single tick.",
+    "right_meaning": "It is an axis tick marking the horizontal coordinate 0.5.",
+    "same_meaning": false,
+    "reason": "The similar short ticks encode an equal-length relationship between segments and a coordinate reading position, respectively."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short vertical tick crossing a horizontal line",
+    "mathematical_meanings": "Left image: It is an equal-length marker indicating that the lower radius has the same length as the radius on the right bearing the matching single tick. Right image: It is an axis tick marking the horizontal coordinate 0.5.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The similar short ticks encode an equal-length relationship between segments and a coordinate reading position, respectively."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again.",
+  "views": {
+    "type": "type/same type/AVP0037",
+    "condition": "condition/geometric_markers/AVP0037"
+  }
+}

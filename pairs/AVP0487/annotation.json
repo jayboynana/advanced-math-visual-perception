@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0487",
+  "authoring_id": "V03GR087",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "straight_function_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "962",
+    "sample_index": "962",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 301,
+      "img_width": 387,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/962.jpg",
+    "sha256": "928c1a6242822f7e9a785ef29bb4a7df3127704ed8d38eba679d65c411454a98",
+    "width": 387,
+    "height": 301,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0487/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "507",
+    "sample_index": "2534",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_507.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0487/right.png",
+    "width": 583,
+    "height": 504,
+    "sha256": "80428d02fc6a5585ce727e1d1717ccd3c4fea159c4f2139cd62a36052437f57e"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight line across a coordinate plot",
+    "left_evidence": "The straight increasing trace across the plotted x-y square.",
+    "right_evidence": "The straight rising black line across the coordinate grid.",
+    "left_meaning": "A straight-line graph representing a variable relationship.",
+    "right_meaning": "A straight-line graph representing a variable relationship.",
+    "same_meaning": true,
+    "reason": "Both traces encode an input-output relation by Cartesian positions. The comparison concerns their function-graph role, without asserting equal slopes or intercepts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight line across a coordinate plot",
+    "mathematical_meanings": "Left image: A straight-line graph representing a variable relationship. Right image: A straight-line graph representing a variable relationship.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both traces encode an input-output relation by Cartesian positions. The comparison concerns their function-graph role, without asserting equal slopes or intercepts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0487",
+    "condition": "condition/graphical_roles/AVP0487"
+  }
+}

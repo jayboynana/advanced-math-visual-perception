@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0498",
+  "authoring_id": "V03GR098",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "dimension_arrow_vs_axis_direction",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "310",
+    "sample_index": "310",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 218,
+      "img_width": 350,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/310.jpg",
+    "sha256": "c1dfd288f25137df89a827c4f04268ec86ea7d5a2396d141b23447449fd75fb0",
+    "width": 350,
+    "height": 218,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0498/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0498/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead on a line",
+    "left_evidence": "The sloping double-headed arrow outside and parallel to the triangle hypotenuse, labeled x.",
+    "right_evidence": "The horizontal x-axis under the logarithmic curve, with numbered ticks.",
+    "left_meaning": "A spatial length annotation spanning a side of the triangle.",
+    "right_meaning": "The horizontal coordinate axis that locates graph positions by input coordinate.",
+    "same_meaning": false,
+    "reason": "The arrowheads outside the triangle bound a finite side-length dimension; the arrow on the logarithmic plot belongs to the horizontal coordinate axis and indicates its orientation."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead on a line",
+    "mathematical_meanings": "Left image: A spatial length annotation spanning a side of the triangle. Right image: The horizontal coordinate axis that locates graph positions by input coordinate.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The arrowheads outside the triangle bound a finite side-length dimension; the arrow on the logarithmic plot belongs to the horizontal coordinate axis and indicates its orientation."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0498",
+    "condition": "condition/graphical_roles/AVP0498"
+  }
+}

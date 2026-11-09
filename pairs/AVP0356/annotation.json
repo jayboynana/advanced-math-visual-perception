@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0356",
+  "authoring_id": "V03SR056",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_name_vs_region_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "62",
+    "sample_index": "62",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 138,
+      "img_width": 160,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/62.jpg",
+    "sha256": "175d11c4aa94baabff69008bdceee4974a178722c121bbe1ae51f1e7d0ae7578",
+    "width": 160,
+    "height": 138,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0356/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "257",
+    "sample_index": "257",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 119,
+      "img_width": 109,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/257.jpg",
+    "sha256": "6c688516c42bdd78dbae1f66d8e0bc43837bd4d4b5114e6fd7062358016f2561",
+    "width": 109,
+    "height": 119,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0356/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A at the upper-left vertex of the quadrilateral",
+    "right_evidence": "A inside the right-hand square",
+    "left_meaning": "A names the indicated geometric point.",
+    "right_meaning": "A identifies the indicated square region rather than a vertex.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to A at the upper-left vertex of the quadrilateral supports the meaning: A names the indicated geometric point. On the right, the context is A inside the right-hand square, where A identifies the indicated square region rather than a vertex. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: A names the indicated geometric point. Right image: A identifies the indicated square region rather than a vertex.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to A at the upper-left vertex of the quadrilateral supports the meaning: A names the indicated geometric point. On the right, the context is A inside the right-hand square, where A identifies the indicated square region rather than a vertex. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0356",
+    "condition": "condition/symbolic_roles/AVP0356"
+  }
+}

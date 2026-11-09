@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular point marker",
+  "mathematical_meanings": "Left image: The center of the surrounding circle. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The first dot identifies a circle center inside a closed geometric figure, while the other closes the boundary of a function branch."
+}

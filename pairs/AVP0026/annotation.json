@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0026",
+  "authoring_id": "GM01",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "image_path": "pairs/AVP0026/left.png",
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
+    "width": 254,
+    "height": 259,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "354",
+    "sample_index": "1769",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_354.png",
+    "image_path": "pairs/AVP0026/right.png",
+    "sha256": "d6126f23fabcc04eca8a6f1083864088d987dd45349a849353ff4a2dded4f271",
+    "width": 316,
+    "height": 211,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square angle marker at the intersection of two lines",
+    "left_evidence": "A small magenta square is drawn directly below A, where the magenta vertical line meets the horizontal axis.",
+    "right_evidence": "A small black square is drawn at C on the base, where the dashed segment BC meets the base.",
+    "left_meaning": "It indicates that the vertical line from A to the horizontal axis is perpendicular to that axis, forming a right angle.",
+    "right_meaning": "It indicates that BC is perpendicular to the base AD, forming a right angle at C.",
+    "same_meaning": true,
+    "reason": "Both small squares are explicit right-angle symbols; their colors and the solid or dashed styles of the attached lines do not change this meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square angle marker at the intersection of two lines",
+    "mathematical_meanings": "Left image: It indicates that the vertical line from A to the horizontal axis is perpendicular to that axis, forming a right angle. Right image: It indicates that BC is perpendicular to the base AD, forming a right angle at C.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both small squares are explicit right-angle symbols; their colors and the solid or dashed styles of the attached lines do not change this meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. Image 439 is a unit-circle angle diagram, classified as geometry.",
+  "views": {
+    "type": "type/same type/AVP0026",
+    "condition": "condition/geometric_markers/AVP0026"
+  }
+}

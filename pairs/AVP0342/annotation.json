@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0342",
+  "authoring_id": "V03SR042",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_vertical_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "294",
+    "sample_index": "294",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "scientific figure",
+      "grade": "college",
+      "img_height": 293,
+      "img_width": 247,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning",
+        "scientific reasoning"
+      ],
+      "source": "SciBench",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/294.jpg",
+    "sha256": "58d689e9ddc3b5f8a59beb8fb3fa50f703314a746e43d0f845fe6bac82fb867f",
+    "width": 247,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0342/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "34",
+    "sample_index": "34",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 479,
+      "img_width": 479,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/34.jpg",
+    "sha256": "a1d40252df325857990c49d1e6c6787002ef9d202856c55ca1d51f9bb2d4d7ea",
+    "width": 479,
+    "height": 479,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0342/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y at the top of the vertical coordinate axis",
+    "right_evidence": "y at the top of the vertical axis",
+    "left_meaning": "y labels the vertical coordinate axis.",
+    "right_meaning": "y labels the vertical coordinate axis or function-value direction.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at y at the top of the vertical coordinate axis; the right occurrence is at y at the top of the vertical axis. Both use the selected notation for the same vertical coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: y labels the vertical coordinate axis. Right image: y labels the vertical coordinate axis or function-value direction.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at y at the top of the vertical coordinate axis; the right occurrence is at y at the top of the vertical axis. Both use the selected notation for the same vertical coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0342",
+    "condition": "condition/symbolic_roles/AVP0342"
+  }
+}

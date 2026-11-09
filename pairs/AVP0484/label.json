@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight segment through the interior of a quadrilateral",
+  "mathematical_meanings": "Left image: A diagonal connecting nonadjacent vertices of a geometric quadrilateral. Right image: A diagonal connecting nonadjacent vertices of a geometric quadrilateral.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In each image the segment connects nonadjacent vertices and intersects another diagonal; this is the same geometric diagonal role."
+}

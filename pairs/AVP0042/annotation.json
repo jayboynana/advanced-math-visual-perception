@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0042",
+  "authoring_id": "GM17",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "construction_dash_vs_asymptote",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "359",
+    "sample_index": "1794",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_359.png",
+    "image_path": "pairs/AVP0042/left.png",
+    "sha256": "318ad4b420718b97b23b96207bb1b6e36304b6c1c9d2197dab6eee0889d8abd8",
+    "width": 310,
+    "height": 262,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "489",
+    "sample_index": "2444",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_489.png",
+    "image_path": "pairs/AVP0042/right.png",
+    "sha256": "4fe681f63c0d93b39a562cd628beddcc4052fcffdd0a68ec430bf0118394212b",
+    "width": 481,
+    "height": 445,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed-line marker",
+    "left_evidence": "At the far right of the diagram, a black vertical dashed line runs from the upper horizontal dashed line to the foot on the base.",
+    "right_evidence": "Orange dashed strokes extend above and below the horizontal-axis tick 3; the dark-blue curve extends downward on both sides.",
+    "left_meaning": "It is a vertical auxiliary side in the right-hand right-triangle construction, projecting the upper reference position onto the base.",
+    "right_meaning": "It is the vertical asymptote at x=3.",
+    "same_meaning": false,
+    "reason": "The similar vertical broken lines belong to a finite geometric construction and the asymptotic structure of a function graph, respectively."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A vertical dashed-line marker",
+    "mathematical_meanings": "Left image: It is a vertical auxiliary side in the right-hand right-triangle construction, projecting the upper reference position onto the base. Right image: It is the vertical asymptote at x=3.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The similar vertical broken lines belong to a finite geometric construction and the asymptotic structure of a function graph, respectively."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again.",
+  "views": {
+    "type": "type/different type/AVP0042",
+    "condition": "condition/geometric_markers/AVP0042"
+  }
+}

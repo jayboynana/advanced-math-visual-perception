@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0332",
+  "authoring_id": "V03SR032",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_function_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0332/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "167",
+    "sample_index": "167",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 1920,
+      "img_width": 1920,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/167.jpg",
+    "sha256": "d4885cc59150610a34cf59f004974df22b755242fadf5e3a74b36c6fefe30916",
+    "width": 1920,
+    "height": 1920,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0332/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter f",
+    "left_evidence": "f(x) in the piecewise formulas beside the two branches",
+    "right_evidence": "f(x) at the start of the formula in the lower-right",
+    "left_meaning": "f names the function represented by the indicated curve.",
+    "right_meaning": "f names the function represented by the indicated curve.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at f(x) in the piecewise formulas beside the two branches; the right occurrence is at f(x) at the start of the formula in the lower-right. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter f",
+    "mathematical_meanings": "Left image: f names the function represented by the indicated curve. Right image: f names the function represented by the indicated curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at f(x) in the piecewise formulas beside the two branches; the right occurrence is at f(x) at the start of the formula in the lower-right. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0332",
+    "condition": "condition/symbolic_roles/AVP0332"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0397",
+  "authoring_id": "V03SR097",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_name_vs_matrix_name",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "94",
+    "sample_index": "94",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 74,
+      "img_width": 160,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/94.jpg",
+    "sha256": "baad71d91b9c615853adcfcfff467a765ae964b49f1bf219f186091ea5011960",
+    "width": 160,
+    "height": 74,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0397/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "577",
+    "sample_index": "577",
+    "problem_version": "original",
+    "image_type": "symbolic_expression",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "scientific figure",
+      "grade": "college",
+      "img_height": 142,
+      "img_width": 533,
+      "language": "english",
+      "skills": [
+        "scientific reasoning"
+      ],
+      "source": "SciBench",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/577.jpg",
+    "sha256": "324a02978bf716517fb11685c88c2ea858060daec523696f9162d55da97d6094",
+    "width": 533,
+    "height": 142,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0397/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A at the lower-left triangle vertex",
+    "right_evidence": "A immediately before the equals sign and its 3-by-3 array",
+    "left_meaning": "A names the indicated geometric point.",
+    "right_meaning": "A names a 3-by-3 matrix.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to A at the lower-left triangle vertex supports the meaning: A names the indicated geometric point. On the right, the context is A immediately before the equals sign and its 3-by-3 array, where A names a 3-by-3 matrix. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: A names the indicated geometric point. Right image: A names a 3-by-3 matrix.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to A at the lower-left triangle vertex supports the meaning: A names the indicated geometric point. On the right, the context is A immediately before the equals sign and its 3-by-3 array, where A names a 3-by-3 matrix. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0397",
+    "condition": "condition/symbolic_roles/AVP0397"
+  }
+}

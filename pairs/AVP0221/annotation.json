@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0221",
+  "authoring_id": "V03GM021",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_marker_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1774",
+    "sample_index": "1774",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "1774",
+      "question": "The diagram shows four congruent right-angled triangles inside a rectangle. What is the total area, in $\\mathrm{cm}^{2}$, of the four triangles? <image1>",
+      "options": [],
+      "image": "images/1774.jpg",
+      "level": 2,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/1774.jpg",
+    "sha256": "7fd12c77e5e3f30197a2bc6a61cc3aba3d0b3ba2c17bb9d6ba8a46796c18aa1b",
+    "width": 562,
+    "height": 432,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0221/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "23",
+    "sample_index": "23",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "combinatorial geometry",
+    "source_metadata": {
+      "id": "23",
+      "question": "Tom bought a chocolate heart (see the picture) to Mary on her birthday.\n<image1>\nHow many grams did the chocolate weigh, if each square weighs 10 grams?",
+      "options": [],
+      "image": "images/23.jpg",
+      "level": 1,
+      "subject": "combinatorial geometry"
+    },
+    "original_relative_path": "images/23.jpg",
+    "sha256": "2a084754033cfbd9ad691fe7448c3642032521a44a10ceda1610162fa9023c4a",
+    "width": 281,
+    "height": 334,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0221/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square or similar rectangular outline formed by straight segments.",
+    "left_evidence": "The lower of the two tiny square marks at the central crossing of the horizontal and vertical internal lines.",
+    "right_evidence": "The top-left complete square cell immediately beneath the left triangular roof.",
+    "left_meaning": "The intersecting horizontal and vertical internal lines are perpendicular.",
+    "right_meaning": "It is a square cell in a subdivision of the heart-shaped planar figure.",
+    "same_meaning": false,
+    "reason": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a square cell in a subdivision of the heart-shaped planar figure. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square or similar rectangular outline formed by straight segments.",
+    "mathematical_meanings": "Left image: The intersecting horizontal and vertical internal lines are perpendicular. Right image: It is a square cell in a subdivision of the heart-shaped planar figure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a square cell in a subdivision of the heart-shaped planar figure. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0221",
+    "condition": "condition/geometric_markers/AVP0221"
+  }
+}

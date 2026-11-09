@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 2 in and 2 cm.",
+  "mathematical_meanings": "Left image: The left side has length 2 inches. Right image: The left side has length 2 centimeters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The numeral 2 is shared, but inches and centimeters denote different lengths: 2 inches equals 5.08 centimeters."
+}

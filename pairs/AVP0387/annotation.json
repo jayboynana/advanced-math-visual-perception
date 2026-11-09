@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0387",
+  "authoring_id": "V03SR087",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_variable_vs_horizontal_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "359",
+    "sample_index": "1794",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_359.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0387/left.png",
+    "width": 310,
+    "height": 262,
+    "sha256": "318ad4b420718b97b23b96207bb1b6e36304b6c1c9d2197dab6eee0889d8abd8"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "550",
+    "sample_index": "2749",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_550.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0387/right.png",
+    "width": 325,
+    "height": 336,
+    "sha256": "e8fb83b9b103bebe532b4a633e190cef5c61df9fb4f569e6290cdcca6b566b44"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter w",
+    "left_evidence": "w beside the upper horizontal distance segment",
+    "right_evidence": "w at the right end of the horizontal axis",
+    "left_meaning": "w denotes the unknown length of the indicated horizontal segment.",
+    "right_meaning": "w labels the horizontal independent-variable axis.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to w beside the upper horizontal distance segment supports the meaning: w denotes the unknown length of the indicated horizontal segment. On the right, the context is w at the right end of the horizontal axis, where w labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter w",
+    "mathematical_meanings": "Left image: w denotes the unknown length of the indicated horizontal segment. Right image: w labels the horizontal independent-variable axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to w beside the upper horizontal distance segment supports the meaning: w denotes the unknown length of the indicated horizontal segment. On the right, the context is w at the right end of the horizontal axis, where w labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0387",
+    "condition": "condition/symbolic_roles/AVP0387"
+  }
+}

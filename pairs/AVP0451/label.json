@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A curved dashed line",
+  "mathematical_meanings": "Left image: A hidden portion of the circular base edge in a three-dimensional cone drawing. Right image: The graph of a second function, distinguished by dash style.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The rear arc of the cone base is dashed because it is hidden from view; the parabola is dashed to distinguish g from f. Occlusion and function identification are different conventions."
+}

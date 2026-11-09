@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0109",
+  "authoring_id": "V03NR009",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "48",
+    "sample_index": "48",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 426,
+      "img_width": 596,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/48.jpg",
+    "sha256": "b48106d7c1e86c800e8db8c10e51b1f78584cdaf80e0cec7ccd55d484e3e7d24",
+    "width": 596,
+    "height": 426,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0109/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "342",
+    "sample_index": "1709",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_342.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0109/right.png",
+    "width": 346,
+    "height": 232,
+    "sha256": "257cfbd729eed24a92addba4d20dd8a6e747698426283e1289dc8ff322f47d0e"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 38° in both images.",
+    "left_evidence": "The 38° at Y between diagonal YW and the bottom edge YX.",
+    "right_evidence": "The 38° in the small colored angle region at A.",
+    "left_meaning": "The angle WYX measures 38 degrees.",
+    "right_meaning": "The selected angle at A measures 38 degrees.",
+    "same_meaning": true,
+    "reason": "Both selected labels specify an angle of 38 degrees; the distinct reference rays do not alter the selected numerical angle-measure role."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 38° in both images.",
+    "mathematical_meanings": "Left image: The angle WYX measures 38 degrees. Right image: The selected angle at A measures 38 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected labels specify an angle of 38 degrees; the distinct reference rays do not alter the selected numerical angle-measure role."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0109",
+    "condition": "condition/numeric_representation/AVP0109"
+  }
+}

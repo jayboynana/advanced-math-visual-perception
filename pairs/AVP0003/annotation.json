@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0003",
+  "authoring_id": "NR03",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_degree_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "354",
+    "sample_index": "1769",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_354.png",
+    "image_path": "pairs/AVP0003/left.png",
+    "sha256": "d6126f23fabcc04eca8a6f1083864088d987dd45349a849353ff4a2dded4f271",
+    "width": 316,
+    "height": 211,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "375",
+    "sample_index": "1874",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_375.png",
+    "image_path": "pairs/AVP0003/right.png",
+    "sha256": "35e714d8dcc200f1acebdff51240b07c2e83d02d98f07156009ace6927dbb316",
+    "width": 242,
+    "height": 231,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Two 45° labels",
+    "left_evidence": "The label 45° at D, the right endpoint of the large triangle's base.",
+    "right_evidence": "The label 45° beside the upper-left angle of the single right triangle.",
+    "left_meaning": "The marked interior angle at D measures 45 degrees.",
+    "right_meaning": "The marked upper-left interior angle measures 45 degrees.",
+    "same_meaning": true,
+    "reason": "Both 45° labels give an interior angle measure, with matching numerical values and local roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Two 45° labels",
+    "mathematical_meanings": "Left image: The marked interior angle at D measures 45 degrees. Right image: The marked upper-left interior angle measures 45 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both 45° labels give an interior angle measure, with matching numerical values and local roles."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The angle at A in image 354 is 50°; this item selects only the 45° angle at D.",
+  "views": {
+    "type": "type/same type/AVP0003",
+    "condition": "condition/numeric_representation/AVP0003"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+  "mathematical_meanings": "Left image: The unknown x is multiplied by coefficient 4 in the length expression. Right image: The selected tick denotes y-coordinate value 4.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 4 multiplies an unknown in a side-length expression; the other 4 is a y-axis coordinate-scale value."
+}

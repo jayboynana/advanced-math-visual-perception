@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0004",
+  "authoring_id": "NR04",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_radical_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "1844",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_369.png",
+    "image_path": "pairs/AVP0004/left.png",
+    "sha256": "e5031eabb94610b56b4ea8fd9e381d24b62d547331026a258b0808a34b7ef148",
+    "width": 209,
+    "height": 235,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "755",
+    "sample_index": "3774",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_755.png",
+    "image_path": "pairs/AVP0004/right.png",
+    "sha256": "61b20e48410f4528bc8e57551a04ae3bb7b7f36b8abc94bfc0a0286db8e936af",
+    "width": 433,
+    "height": 448,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The radical value √3 in both images.",
+    "left_evidence": "The label √3 beside side AB on the left of the triangle.",
+    "right_evidence": "The label √3 beside the left sloping side of the small right triangle at the top of the composite figure.",
+    "left_meaning": "The corresponding segment has length √3.",
+    "right_meaning": "The corresponding segment has length √3.",
+    "same_meaning": true,
+    "reason": "The complete radical and its role as a segment length match; the segments need not be the identical geometric object."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The radical value √3 in both images.",
+    "mathematical_meanings": "Left image: The corresponding segment has length √3. Right image: The corresponding segment has length √3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The complete radical and its role as a segment length match; the segments need not be the identical geometric object."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the upper-left √3 label in image 755 is selected; multiple occurrences are not combined into separate targets.",
+  "views": {
+    "type": "type/same type/AVP0004",
+    "condition": "condition/numeric_representation/AVP0004"
+  }
+}

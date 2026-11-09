@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations −2 and 2.",
+  "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value −2. Right image: The selected tick denotes x-coordinate value 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The coordinate roles match, but the complete signed values −2 and 2 are unequal. Their common digit does not remove the minus sign."
+}

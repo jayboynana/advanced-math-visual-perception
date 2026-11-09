@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A vertical dashed segment within a geometric figure",
+  "mathematical_meanings": "Left image: A perpendicular height construction from a vertex to the opposite horizontal side. Right image: A perpendicular height construction from a vertex to the base.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each segment joins a vertex to a horizontal side with a right-angle box at the foot, establishing the same height construction."
+}

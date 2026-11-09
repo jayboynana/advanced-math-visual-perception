@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The variable x is squared; 2 is its exponent. Right image: The variable x is squared; 2 is its exponent.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In each selected formula the superscript 2 is the exponent of x and denotes squaring."
+}

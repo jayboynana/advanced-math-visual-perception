@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0370",
+  "authoring_id": "V03SR070",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_variable_vs_horizontal_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "206",
+    "sample_index": "206",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 611,
+      "img_width": 731,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/206.jpg",
+    "sha256": "614dd5581b7e1aef15d61f58ac72179121c80a6b0fea0614e0c3704cb4383f1e",
+    "width": 731,
+    "height": 611,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0370/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "619",
+    "sample_index": "619",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 666,
+      "img_width": 970,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/619.jpg",
+    "sha256": "377213543c756f666b334801ce334c2477dbe65ed81a7556a9839ccc8ee1726d",
+    "width": 970,
+    "height": 666,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0370/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x above the dimension segment from Q-prime to Q",
+    "right_evidence": "x at the right end of the horizontal axis",
+    "left_meaning": "x denotes the unknown length from Q-prime to Q.",
+    "right_meaning": "x labels the horizontal coordinate axis or independent-variable direction.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to x above the dimension segment from Q-prime to Q supports the meaning: x denotes the unknown length from Q-prime to Q. On the right, the context is x at the right end of the horizontal axis, where x labels the horizontal coordinate axis or independent-variable direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown length from Q-prime to Q. Right image: x labels the horizontal coordinate axis or independent-variable direction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to x above the dimension segment from Q-prime to Q supports the meaning: x denotes the unknown length from Q-prime to Q. On the right, the context is x at the right end of the horizontal axis, where x labels the horizontal coordinate axis or independent-variable direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0370",
+    "condition": "condition/symbolic_roles/AVP0370"
+  }
+}

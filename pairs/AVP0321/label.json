@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: x denotes the unknown angle measure at E, in degrees. Right image: x denotes the unknown angle between the line and a side of the square, in degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at x° at the left vertex E of the pentagon; the right occurrence is at x° immediately above the line to the left of P. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

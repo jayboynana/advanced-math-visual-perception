@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Multiples of π differing only by a minus sign: 2π and −2π.",
+  "mathematical_meanings": "Left image: Arc JK has numerical arc-length value 2π, in cm. Right image: The peak point has x-coordinate −2π.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "2π and −2π differ in value; one labels an arc length and the other an x-coordinate. The π in the arc-length expression is not an angular unit."
+}

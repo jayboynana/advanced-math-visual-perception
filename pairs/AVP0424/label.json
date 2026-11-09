@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled triangular interior",
+  "mathematical_meanings": "Left image: The interior area of the displayed plane triangle. Right image: The interior area of the displayed plane triangle.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each colored patch is the whole triangular region bounded by the three length-labeled sides; differences in units do not alter the fill role."
+}

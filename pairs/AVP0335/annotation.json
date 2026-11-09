@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0335",
+  "authoring_id": "V03SR035",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_function_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "559",
+    "sample_index": "2794",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_559.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0335/left.png",
+    "width": 291,
+    "height": 292,
+    "sha256": "20cdd7b0d3bcbba715b116a92a794e49997a894d30eb502a6a8c1b994b3910d0"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "950",
+    "sample_index": "950",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 744,
+      "img_width": 1114,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/950.jpg",
+    "sha256": "0c50af771e0867d3569342a97d78e146c74293497649bf572628a53cec6cf9bb",
+    "width": 1114,
+    "height": 744,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0335/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter g",
+    "left_evidence": "g beside the cyan curve",
+    "right_evidence": "g(x) = 0.5^x beside the green curve",
+    "left_meaning": "g names the function represented by the indicated curve.",
+    "right_meaning": "g names the function represented by the indicated curve.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at g beside the cyan curve; the right occurrence is at g(x) = 0.5^x beside the green curve. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter g",
+    "mathematical_meanings": "Left image: g names the function represented by the indicated curve. Right image: g names the function represented by the indicated curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at g beside the cyan curve; the right occurrence is at g(x) = 0.5^x beside the green curve. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0335",
+    "condition": "condition/symbolic_roles/AVP0335"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal dashed line near a function curve",
+  "mathematical_meanings": "Left image: A fixed vertical-level reference used to compare the curve with a selected height. Right image: A fixed vertical-level reference used for coordinate comparison.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The beta label and the marked-point guide identify fixed y-levels. The dashes provide reference heights rather than encode excluded graph boundaries."
+}

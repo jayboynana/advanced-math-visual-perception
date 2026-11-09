@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0378",
+  "authoring_id": "V03SR078",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_variable_vs_vertical_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "271",
+    "sample_index": "271",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 287,
+      "img_width": 448,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/271.jpg",
+    "sha256": "cc9e1905b9cb63196f29bdadef88e0c6f1f7727eb1e7686242e8f2ff33de44f8",
+    "width": 448,
+    "height": 287,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0378/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "34",
+    "sample_index": "34",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 479,
+      "img_width": 479,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/34.jpg",
+    "sha256": "a1d40252df325857990c49d1e6c6787002ef9d202856c55ca1d51f9bb2d4d7ea",
+    "width": 479,
+    "height": 479,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0378/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y beside the upper segment of the vertical transversal",
+    "right_evidence": "y at the top of the vertical axis",
+    "left_meaning": "y denotes the unknown length of the upper vertical segment.",
+    "right_meaning": "y labels the vertical coordinate axis or function-value direction.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to y beside the upper segment of the vertical transversal supports the meaning: y denotes the unknown length of the upper vertical segment. On the right, the context is y at the top of the vertical axis, where y labels the vertical coordinate axis or function-value direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: y denotes the unknown length of the upper vertical segment. Right image: y labels the vertical coordinate axis or function-value direction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to y beside the upper segment of the vertical transversal supports the meaning: y denotes the unknown length of the upper vertical segment. On the right, the context is y at the top of the vertical axis, where y labels the vertical coordinate axis or function-value direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0378",
+    "condition": "condition/symbolic_roles/AVP0378"
+  }
+}

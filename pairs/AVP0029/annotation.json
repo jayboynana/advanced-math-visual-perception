@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0029",
+  "authoring_id": "GM04",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "altitude_foot_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "358",
+    "sample_index": "1789",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_358.png",
+    "image_path": "pairs/AVP0029/left.png",
+    "sha256": "d1f3f04ff55352a0669c69d313ea380616babd052f8b5c9fe0ccd4870741b4d7",
+    "width": 324,
+    "height": 310,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "360",
+    "sample_index": "1799",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_360.png",
+    "image_path": "pairs/AVP0029/right.png",
+    "sha256": "c332f8ccc9df6649067c478708b53a2d2a48d16bff2d1c2c0325635457d083b8",
+    "width": 206,
+    "height": 211,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square where a vertical line meets a horizontal base",
+    "left_evidence": "The lower end of the central vertical dashed line meets the black base; a small unfilled square sits above and to the left of the intersection.",
+    "right_evidence": "CE meets AB at its lower endpoint E; a small light-purple filled square sits above and to the left of E.",
+    "left_meaning": "It marks the central vertical auxiliary line as perpendicular to the horizontal base.",
+    "right_meaning": "It marks CE as perpendicular to AB, with E as the foot of the perpendicular.",
+    "same_meaning": true,
+    "reason": "Both small squares directly mark the right angle formed where an auxiliary line meets the base."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square where a vertical line meets a horizontal base",
+    "mathematical_meanings": "Left image: It marks the central vertical auxiliary line as perpendicular to the horizontal base. Right image: It marks CE as perpendicular to AB, with E as the foot of the perpendicular.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both small squares directly mark the right angle formed where an auxiliary line meets the base."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again.",
+  "views": {
+    "type": "type/same type/AVP0029",
+    "condition": "condition/geometric_markers/AVP0029"
+  }
+}

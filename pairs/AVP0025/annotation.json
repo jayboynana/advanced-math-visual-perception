@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0025",
+  "authoring_id": "NR25",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_side_length_vs_reference_level",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "354",
+    "sample_index": "1769",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_354.png",
+    "image_path": "pairs/AVP0025/left.png",
+    "sha256": "d6126f23fabcc04eca8a6f1083864088d987dd45349a849353ff4a2dded4f271",
+    "width": 316,
+    "height": 211,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "548",
+    "sample_index": "2739",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_548.png",
+    "image_path": "pairs/AVP0025/right.png",
+    "sha256": "c4370ad4e74cb37b40f18c64f1f7ce984a58575c1dac3543db79415174212794",
+    "width": 291,
+    "height": 299,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The integer 35 in both images.",
+    "left_evidence": "The 35 beside the large triangle's right sloping side BD.",
+    "right_evidence": "The tick label 35 where the pink horizontal dashed line meets the vertical axis.",
+    "left_meaning": "Segment BD has a length value of 35.",
+    "right_meaning": "The horizontal dashed line marks the y-coordinate level 35.",
+    "same_meaning": false,
+    "reason": "One value labels a sloping side's length; the other marks a y-coordinate reference level."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The integer 35 in both images.",
+    "mathematical_meanings": "Left image: Segment BD has a length value of 35. Right image: The horizontal dashed line marks the y-coordinate level 35.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "One value labels a sloping side's length; the other marks a y-coordinate reference level."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The 35 in the right image is the level highlighted by the pink dashed line, not an arbitrarily selected ordinary tick. No physical quantity is inferred from the question text.",
+  "views": {
+    "type": "type/different type/AVP0025",
+    "condition": "condition/numeric_representation/AVP0025"
+  }
+}

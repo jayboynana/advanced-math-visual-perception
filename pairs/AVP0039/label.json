@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small unfilled square bounded by horizontal and vertical edges",
+  "mathematical_meanings": "Left image: It indicates that the projection line forms a right angle with the horizontal axis. Right image: It represents a cell in the plotting coordinate grid, used for locating positions and reading values.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The square outlines look similar, but a local right-angle marker and a background coordinate-grid cell serve different mathematical functions."
+}

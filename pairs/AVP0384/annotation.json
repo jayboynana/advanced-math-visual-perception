@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0384",
+  "authoring_id": "V03SR084",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_variable_vs_function_name",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "1844",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_369.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0384/left.png",
+    "width": 209,
+    "height": 235,
+    "sha256": "e5031eabb94610b56b4ea8fd9e381d24b62d547331026a258b0808a34b7ef148"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "558",
+    "sample_index": "2789",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_558.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0384/right.png",
+    "width": 289,
+    "height": 291,
+    "sha256": "dbb9ec91a196cfc13cf15d674d4d36532132ef9ea3ddec83cbbad540820cce4c"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter h",
+    "left_evidence": "h below the horizontal base BC",
+    "right_evidence": "h beside the cyan polyline",
+    "left_meaning": "h denotes the unknown length of side BC.",
+    "right_meaning": "h names the function represented by the indicated curve.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to h below the horizontal base BC supports the meaning: h denotes the unknown length of side BC. On the right, the context is h beside the cyan polyline, where h names the function represented by the indicated curve. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter h",
+    "mathematical_meanings": "Left image: h denotes the unknown length of side BC. Right image: h names the function represented by the indicated curve.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to h below the horizontal base BC supports the meaning: h denotes the unknown length of side BC. On the right, the context is h beside the cyan polyline, where h names the function represented by the indicated curve. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0384",
+    "condition": "condition/symbolic_roles/AVP0384"
+  }
+}

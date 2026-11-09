@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The value 3 inside parentheses",
+  "mathematical_meanings": "Left image: The marked hyperbola vertex has y-coordinate 3. Right image: The marked point on the parabola has y-coordinate 3.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected values specify that a marked point has y-coordinate 3."
+}

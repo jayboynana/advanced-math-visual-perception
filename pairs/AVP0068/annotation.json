@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0068",
+  "authoring_id": "SR18",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "side_length_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "1844",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_369.png",
+    "image_path": "pairs/AVP0068/left.png",
+    "sha256": "e5031eabb94610b56b4ea8fd9e381d24b62d547331026a258b0808a34b7ef148",
+    "width": 209,
+    "height": 235,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "549",
+    "sample_index": "2744",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_549.png",
+    "image_path": "pairs/AVP0068/right.png",
+    "sha256": "27fa375836d864afa7aa4bb6e8441eb4e62b6ca3f99bf0ed60b2be6f6c248ccc",
+    "width": 372,
+    "height": 371,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter h",
+    "left_evidence": "h below the horizontal base BC of the right triangle",
+    "right_evidence": "h at the top of the vertical axis in the wave graph",
+    "left_meaning": "h denotes the unknown length of base BC.",
+    "right_meaning": "h names the quantity encoded vertically in the wave graph.",
+    "same_meaning": false,
+    "reason": "One occurrence names a particular side length, while the other names the vertical-coordinate quantity. No unit is inferred for the right image."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter h",
+    "mathematical_meanings": "Left image: h denotes the unknown length of base BC. Right image: h names the quantity encoded vertically in the wave graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "One occurrence names a particular side length, while the other names the vertical-coordinate quantity. No unit is inferred for the right image."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0068",
+    "condition": "condition/symbolic_roles/AVP0068"
+  }
+}

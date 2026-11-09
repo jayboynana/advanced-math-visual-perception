@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0467",
+  "authoring_id": "V03GR067",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "409",
+    "sample_index": "409",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 358,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/409.jpg",
+    "sha256": "66ef4a559e6a91d48cc28ffb85ddba90038658af0c8f43a5c6d8e9fbacdd86bf",
+    "width": 358,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0467/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "493",
+    "sample_index": "2464",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_493.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0467/right.png",
+    "width": 382,
+    "height": 391,
+    "sha256": "2d2b8586bb1185d67f835db1ae4071e0378dc7e2dcb81e09dae968c00abfbb5d"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal axis with tick labels",
+    "left_evidence": "The horizontal black axis through the circle center, labeled x at the right.",
+    "right_evidence": "The horizontal black x-axis crossing the V-shaped graph.",
+    "left_meaning": "The horizontal coordinate axis that locates points by their x-coordinate.",
+    "right_meaning": "The horizontal coordinate axis used to read graph input coordinates.",
+    "same_meaning": true,
+    "reason": "Both lines establish the horizontal coordinate reference; a geometric circle on one and a V-shaped function on the other do not alter that axis role."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal axis with tick labels",
+    "mathematical_meanings": "Left image: The horizontal coordinate axis that locates points by their x-coordinate. Right image: The horizontal coordinate axis used to read graph input coordinates.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both lines establish the horizontal coordinate reference; a geometric circle on one and a V-shaped function on the other do not alter that axis role."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0467",
+    "condition": "condition/graphical_roles/AVP0467"
+  }
+}

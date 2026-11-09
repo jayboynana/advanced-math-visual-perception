@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A right-pointing chevron or arrowhead on a line.",
+  "mathematical_meanings": "Left image: The matching arrow marks state that SR and PQ are parallel. Right image: It bounds a horizontal-coordinate interval between adjacent peaks of the plotted wave.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left chevrons occur as a matching pair inside geometric sides and assert parallelism. The selected right arrowhead instead bounds a plotted interval or indicates continuation of an axis or function branch, as identified by its attachment to that element."
+}

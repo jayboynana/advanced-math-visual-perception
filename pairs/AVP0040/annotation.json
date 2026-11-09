@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0040",
+  "authoring_id": "GM15",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "diagonal_dash_vs_region_boundary_dash",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "433",
+    "sample_index": "2164",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_433.png",
+    "image_path": "pairs/AVP0040/left.png",
+    "sha256": "6d88e6d1823e2a53e9c7a7586cb1d9ee90bbdc70d0c5195b92f1654bec473bdd",
+    "width": 514,
+    "height": 294,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "511",
+    "sample_index": "2554",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_511.png",
+    "image_path": "pairs/AVP0040/right.png",
+    "sha256": "109efb1e544885f2857b69fd2bd851fa40e597078fac7d12c41fd0892c1f95ce",
+    "width": 656,
+    "height": 506,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Broken straight-line strokes extending diagonally",
+    "left_evidence": "A red dashed line inside the rectangle runs from the lower-left vertex (-6,-1) to the upper-right vertex (10,5).",
+    "right_evidence": "The left boundary of the gray region is a black dashed line extending from the lower left toward the upper right, with two filled points on it.",
+    "left_meaning": "It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle.",
+    "right_meaning": "It is the boundary line of the gray solution region.",
+    "same_meaning": false,
+    "reason": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Broken straight-line strokes extending diagonally",
+    "mathematical_meanings": "Left image: It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle. Right image: It is the boundary line of the gray solution region.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. Image 433 is classified as geometry based on the visible rectangle and its diagonals.",
+  "views": {
+    "type": "type/different type/AVP0040",
+    "condition": "condition/geometric_markers/AVP0040"
+  }
+}

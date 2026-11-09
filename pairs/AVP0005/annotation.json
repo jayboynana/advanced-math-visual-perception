@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0005",
+  "authoring_id": "NR05",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "decimal_integer_same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "9",
+    "sample_index": "44",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_9.png",
+    "image_path": "pairs/AVP0005/left.png",
+    "sha256": "ba57d6cdd945f4442a77e3d33af6fd08a0e7859ed5ae3a2bf455993ac5df924e",
+    "width": 395,
+    "height": 275,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "758",
+    "sample_index": "3789",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_758.png",
+    "image_path": "pairs/AVP0005/right.png",
+    "sha256": "80da398db3aac598c6471ecb9ace33213309c04da6d16f595c80427ef5047389",
+    "width": 480,
+    "height": 337,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 6.0 and 6",
+    "left_evidence": "The label 6.0 below the bracket spanning A and B at the bottom of the triangle.",
+    "right_evidence": "The label 6 beside the upper sloping side AB in the right image.",
+    "left_meaning": "Segment AB has a length value of 6.",
+    "right_meaning": "Segment AB has a length value of 6.",
+    "same_meaning": true,
+    "reason": "6.0 and 6 are exactly equal, and both labels give the length of the marked segment."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 6.0 and 6",
+    "mathematical_meanings": "Left image: Segment AB has a length value of 6. Right image: Segment AB has a length value of 6.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "6.0 and 6 are exactly equal, and both labels give the length of the marked segment."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Neither image explicitly states a unit beside this numerical label; no unit is supplied.",
+  "views": {
+    "type": "type/same type/AVP0005",
+    "condition": "condition/numeric_representation/AVP0005"
+  }
+}

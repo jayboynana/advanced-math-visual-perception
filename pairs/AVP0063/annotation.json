@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0063",
+  "authoring_id": "SR13",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "curve_name_vs_axis_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "558",
+    "sample_index": "2789",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_558.png",
+    "image_path": "pairs/AVP0063/left.png",
+    "sha256": "dbb9ec91a196cfc13cf15d674d4d36532132ef9ea3ddec83cbbad540820cce4c",
+    "width": 289,
+    "height": 291,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "549",
+    "sample_index": "2744",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_549.png",
+    "image_path": "pairs/AVP0063/right.png",
+    "sha256": "27fa375836d864afa7aa4bb6e8441eb4e62b6ca3f99bf0ed60b2be6f6c248ccc",
+    "width": 372,
+    "height": 371,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter h",
+    "left_evidence": "h beside the upper-right part of the polyline",
+    "right_evidence": "h at the top of the vertical axis",
+    "left_meaning": "h is the name of the function represented by the entire polyline.",
+    "right_meaning": "h names the quantity encoded by readings on the vertical axis.",
+    "same_meaning": false,
+    "reason": "The letter is attached to a curve in one image and a coordinate axis in the other."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter h",
+    "mathematical_meanings": "Left image: h is the name of the function represented by the entire polyline. Right image: h names the quantity encoded by readings on the vertical axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The letter is attached to a curve in one image and a coordinate axis in the other."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0063",
+    "condition": "condition/symbolic_roles/AVP0063"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0056",
+  "authoring_id": "SR06",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_vs_height",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "image_path": "pairs/AVP0056/left.png",
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9",
+    "width": 162,
+    "height": 246,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "366",
+    "sample_index": "1829",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_366.png",
+    "image_path": "pairs/AVP0056/right.png",
+    "sha256": "f1340605db234a42009b547cce8d64ff9476457a1f71b7ab8879f59625ae21e7",
+    "width": 322,
+    "height": 296,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y",
+    "left_evidence": "y beside the angle arc between the left vertical side and diagonal at B",
+    "right_evidence": "y beside the longer vertical dimension line on the right of the lighthouse diagram",
+    "left_meaning": "y denotes an unknown angle measure at B.",
+    "right_meaning": "y denotes the overall height indicated by the longer vertical dimension line.",
+    "same_meaning": false,
+    "reason": "The letter is attached to an angle arc on the left and a vertical height dimension on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter y",
+    "mathematical_meanings": "Left image: y denotes an unknown angle measure at B. Right image: y denotes the overall height indicated by the longer vertical dimension line.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The letter is attached to an angle arc on the left and a vertical height dimension on the right."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0056",
+    "condition": "condition/symbolic_roles/AVP0056"
+  }
+}

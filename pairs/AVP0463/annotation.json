@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0463",
+  "authoring_id": "V03GR063",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "circle_boundary_vs_function_graph",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "640",
+    "sample_index": "640",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 222,
+      "img_width": 309,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/640.jpg",
+    "sha256": "5e2651dc5b6a980428ec7ba715514b41ae3428feaae064e6d89c941367efeb32",
+    "width": 309,
+    "height": 222,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0463/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "154",
+    "sample_index": "154",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 744,
+      "img_width": 1114,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/154.jpg",
+    "sha256": "0c50af771e0867d3569342a97d78e146c74293497649bf572628a53cec6cf9bb",
+    "width": 1114,
+    "height": 744,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0463/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth colored curve",
+    "left_evidence": "The blue closed circular boundary around center I and points W and N.",
+    "right_evidence": "The green curve labeled g(x)=0.5^x.",
+    "left_meaning": "The circumference bounding the geometric circle.",
+    "right_meaning": "A function graph relating y to x.",
+    "same_meaning": false,
+    "reason": "The circle encloses a geometric object with labeled center and radii; the decaying curve is labeled g(x) and expresses an input-output relation."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth colored curve",
+    "mathematical_meanings": "Left image: The circumference bounding the geometric circle. Right image: A function graph relating y to x.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The circle encloses a geometric object with labeled center and radii; the decaying curve is labeled g(x) and expresses an input-output relation."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0463",
+    "condition": "condition/graphical_roles/AVP0463"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0114",
+  "authoring_id": "V03NR014",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "310",
+    "sample_index": "310",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 218,
+      "img_width": 350,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/310.jpg",
+    "sha256": "c1dfd288f25137df89a827c4f04268ec86ea7d5a2396d141b23447449fd75fb0",
+    "width": 350,
+    "height": 218,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0114/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "786",
+    "sample_index": "786",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 237,
+      "img_width": 317,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/786.jpg",
+    "sha256": "672b4103bcb5deaba637d62bb76a9e9be45e78f337386421e1c1d9e6453dc3c2",
+    "width": 317,
+    "height": 237,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0114/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 6 in both images.",
+    "left_evidence": "The 6 along the short upper-left portion of the hypotenuse.",
+    "right_evidence": "The 6 beside the left leg JM of the trapezoid.",
+    "left_meaning": "The short hypotenuse portion between the upper-left vertex and the altitude foot has length value 6.",
+    "right_meaning": "Segment JM has length value 6.",
+    "same_meaning": true,
+    "reason": "Both occurrences of 6 are segment-length values. The target does not assert that the entire geometric objects are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 6 in both images.",
+    "mathematical_meanings": "Left image: The short hypotenuse portion between the upper-left vertex and the altitude foot has length value 6. Right image: Segment JM has length value 6.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both occurrences of 6 are segment-length values. The target does not assert that the entire geometric objects are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0114",
+    "condition": "condition/numeric_representation/AVP0114"
+  }
+}

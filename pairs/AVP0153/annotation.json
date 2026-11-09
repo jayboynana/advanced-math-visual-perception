@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0153",
+  "authoring_id": "V03NR053",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_numeral_different_units",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "399",
+    "sample_index": "399",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 241,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/399.jpg",
+    "sha256": "1fcdd2ca23ba28706fcd8868f9369f78468df86b3299d38ec77eceb1881e7bed",
+    "width": 258,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0153/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "606",
+    "sample_index": "606",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 209,
+      "img_width": 335,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/606.jpg",
+    "sha256": "813f0d8ff3201893df99613f62f405bbed3945674e3077662e28e4f58ed98c4c",
+    "width": 335,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0153/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 2 in and 2 cm.",
+    "left_evidence": "The 2 in beside the left side of the purple triangle.",
+    "right_evidence": "The 2 cm beside the left side of the purple rectangle.",
+    "left_meaning": "The left side has length 2 inches.",
+    "right_meaning": "The left side has length 2 centimeters.",
+    "same_meaning": false,
+    "reason": "The numeral 2 is shared, but inches and centimeters denote different lengths: 2 inches equals 5.08 centimeters."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 2 in and 2 cm.",
+    "mathematical_meanings": "Left image: The left side has length 2 inches. Right image: The left side has length 2 centimeters.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The numeral 2 is shared, but inches and centimeters denote different lengths: 2 inches equals 5.08 centimeters."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0153",
+    "condition": "condition/numeric_representation/AVP0153"
+  }
+}

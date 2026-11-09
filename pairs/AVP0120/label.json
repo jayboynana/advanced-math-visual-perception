@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 1 yd and 3 ft.",
+  "mathematical_meanings": "Left image: The top side has length 1 yard. Right image: The top side has length 3 feet.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "One yard equals three feet. Both labels give a side length and specify equal lengths after converting the displayed units."
+}

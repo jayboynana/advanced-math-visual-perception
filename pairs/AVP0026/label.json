@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square angle marker at the intersection of two lines",
+  "mathematical_meanings": "Left image: It indicates that the vertical line from A to the horizontal axis is perpendicular to that axis, forming a right angle. Right image: It indicates that BC is perpendicular to the base AD, forming a right angle at C.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both small squares are explicit right-angle symbols; their colors and the solid or dashed styles of the attached lines do not change this meaning."
+}

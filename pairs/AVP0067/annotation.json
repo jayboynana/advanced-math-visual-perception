@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0067",
+  "authoring_id": "SR17",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "width_vs_function_output",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "358",
+    "sample_index": "1789",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_358.png",
+    "image_path": "pairs/AVP0067/left.png",
+    "sha256": "d1f3f04ff55352a0669c69d313ea380616babd052f8b5c9fe0ccd4870741b4d7",
+    "width": 324,
+    "height": 310,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "521",
+    "sample_index": "2604",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_521.png",
+    "image_path": "pairs/AVP0067/right.png",
+    "sha256": "e8c9dc0fa535cd66aff2ebb5d8adc4cbfad187603881f024736bf1df1bae6393",
+    "width": 1908,
+    "height": 1960,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y",
+    "left_evidence": "y on the longest horizontal dimension line below the geometric construction",
+    "right_evidence": "y on the left-hand side of the formula y = x³ − x² − x",
+    "left_meaning": "y denotes the unknown total horizontal width of the construction.",
+    "right_meaning": "y denotes the function output determined by x.",
+    "same_meaning": false,
+    "reason": "The selected uses are a length dimension and a function output variable."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter y",
+    "mathematical_meanings": "Left image: y denotes the unknown total horizontal width of the construction. Right image: y denotes the function output determined by x.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected uses are a length dimension and a function output variable."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0067",
+    "condition": "condition/symbolic_roles/AVP0067"
+  }
+}

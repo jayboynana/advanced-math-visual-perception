@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0066",
+  "authoring_id": "SR16",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "side_length_vs_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "375",
+    "sample_index": "1874",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_375.png",
+    "image_path": "pairs/AVP0066/left.png",
+    "sha256": "35e714d8dcc200f1acebdff51240b07c2e83d02d98f07156009ace6927dbb316",
+    "width": 242,
+    "height": 231,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "575",
+    "sample_index": "2874",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_575.png",
+    "image_path": "pairs/AVP0066/right.png",
+    "sha256": "c52a5718ed396260c7444683784c74a806811ec7c0789925b33670d6d39412c4",
+    "width": 274,
+    "height": 281,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x",
+    "left_evidence": "x beside the right sloping side of the triangle",
+    "right_evidence": "x at the right end of the horizontal axis in the parabola graph",
+    "left_meaning": "x denotes the unknown length of the hypotenuse.",
+    "right_meaning": "x names the horizontal axis, representing horizontal coordinates or the function independent variable.",
+    "same_meaning": false,
+    "reason": "The same character is attached to a geometric side and a coordinate axis, respectively."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown length of the hypotenuse. Right image: x names the horizontal axis, representing horizontal coordinates or the function independent variable.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The same character is attached to a geometric side and a coordinate axis, respectively."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0066",
+    "condition": "condition/symbolic_roles/AVP0066"
+  }
+}

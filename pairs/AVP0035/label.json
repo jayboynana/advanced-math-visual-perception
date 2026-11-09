@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square at the intersection of a horizontal and a vertical line",
+  "mathematical_meanings": "Left image: It indicates that k is perpendicular to ℓ. Right image: It indicates that the vertical projection line from the point to the horizontal axis is perpendicular to that axis.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both squares explicitly mark a right angle between two lines, regardless of which side of the intersection contains the square."
+}

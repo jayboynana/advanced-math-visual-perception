@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+  "mathematical_meanings": "Left image: Radius AB has length value 8. Right image: The numeral 8 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 8 gives radius AB's length value; the other 8 labels an angle region at the intersection of diagonals."
+}

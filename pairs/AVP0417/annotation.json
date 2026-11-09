@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0417",
+  "authoring_id": "V03GR017",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "designated_curve_position",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0417/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "536",
+    "sample_index": "2679",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_536.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0417/right.png",
+    "width": 269,
+    "height": 275,
+    "sha256": "605e51304fa63dc275c0ffa1e9a14a0d5b1ed2b3854ca3cbdd63046f521dbfdc"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled point on a coordinate plot",
+    "left_evidence": "The filled black dot on the logarithmic graph above the tick x=4.",
+    "right_evidence": "The filled orange circle at the upper marked peak, with a coordinate annotation.",
+    "left_meaning": "A designated coordinate position on the function graph.",
+    "right_meaning": "A designated coordinate position on the function graph.",
+    "same_meaning": true,
+    "reason": "Both dots pick out coordinate positions on the drawn function curves; logarithmic shape versus oscillation does not change the selected marker function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A filled point on a coordinate plot",
+    "mathematical_meanings": "Left image: A designated coordinate position on the function graph. Right image: A designated coordinate position on the function graph.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both dots pick out coordinate positions on the drawn function curves; logarithmic shape versus oscillation does not change the selected marker function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0417",
+    "condition": "condition/graphical_roles/AVP0417"
+  }
+}

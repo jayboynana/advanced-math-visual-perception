@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 100 in both images.",
+  "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 100. Right image: The indicated gray region is assigned finite area value 100.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The first 100 is a y-coordinate-scale value; the other 100 labels the area of a shaded region. Coordinate scale and area are distinct quantities."
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0155",
+  "authoring_id": "V03NR055",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "exponent_vs_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "137",
+    "sample_index": "137",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/137.jpg",
+    "sha256": "067c75c4e566c56b6ceb4c2486a962f7924274caf10b939ead86ca9d3b6a143f",
+    "width": 258,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0155/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "399",
+    "sample_index": "399",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 241,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/399.jpg",
+    "sha256": "1fcdd2ca23ba28706fcd8868f9369f78468df86b3299d38ec77eceb1881e7bed",
+    "width": 258,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0155/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 2 and 2 in.",
+    "left_evidence": "The superscript 2 in f(x)=x² at the upper right.",
+    "right_evidence": "The 2 in beside the left side of the purple triangle.",
+    "left_meaning": "The variable x is squared; 2 is its exponent.",
+    "right_meaning": "The left side has length 2 inches.",
+    "same_meaning": false,
+    "reason": "The selected 2 is a power in x² in the first image, whereas 2 in denotes a side length in the second."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 2 and 2 in.",
+    "mathematical_meanings": "Left image: The variable x is squared; 2 is its exponent. Right image: The left side has length 2 inches.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected 2 is a power in x² in the first image, whereas 2 in denotes a side length in the second."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0155",
+    "condition": "condition/numeric_representation/AVP0155"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The decimal 1.2 in both images.",
+  "mathematical_meanings": "Left image: The orange peak point has x-coordinate 1.2. Right image: The corresponding orange point has y-coordinate 1.2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The decimal values match, but one is an x-coordinate and the other a y-coordinate."
+}

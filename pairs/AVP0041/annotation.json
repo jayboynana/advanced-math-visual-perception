@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0041",
+  "authoring_id": "GM16",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "projection_dash_vs_vertical_asymptote",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "358",
+    "sample_index": "1789",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_358.png",
+    "image_path": "pairs/AVP0041/left.png",
+    "sha256": "d1f3f04ff55352a0669c69d313ea380616babd052f8b5c9fe0ccd4870741b4d7",
+    "width": 324,
+    "height": 310,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "582",
+    "sample_index": "2909",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_582.png",
+    "image_path": "pairs/AVP0041/right.png",
+    "sha256": "3c433c2edb8940abc63e9c63b70121759c704d49a5ebce7ade23d0e935c7debd",
+    "width": 556,
+    "height": 500,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Short dashed strokes arranged vertically",
+    "left_evidence": "A black vertical dashed line in the middle of the diagram runs from the upper endpoint of a slanted line to the lower horizontal edge.",
+    "right_evidence": "To the right of the y-axis, a gray vertical dashed line spans the top and bottom boundaries of the plotting area; the two black curve branches approach it from opposite sides.",
+    "left_meaning": "It is an auxiliary perpendicular projection line connecting the upper endpoint to the horizontal base.",
+    "right_meaning": "It is a vertical asymptote of the function graph.",
+    "same_meaning": false,
+    "reason": "Both images clearly use vertical dashed lines; a finite geometric projection line and a function asymptote have different mathematical roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Short dashed strokes arranged vertically",
+    "mathematical_meanings": "Left image: It is an auxiliary perpendicular projection line connecting the upper endpoint to the horizontal base. Right image: It is a vertical asymptote of the function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both images clearly use vertical dashed lines; a finite geometric projection line and a function asymptote have different mathematical roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. No asymptote equation is supplied from the question text.",
+  "views": {
+    "type": "type/different type/AVP0041",
+    "condition": "condition/geometric_markers/AVP0041"
+  }
+}

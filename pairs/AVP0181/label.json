@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 5 in both images.",
+  "mathematical_meanings": "Left image: Segment QC has length value 5. Right image: The selected tick denotes y-coordinate value 5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 5 quantifies segment QC's length, while the other 5 denotes a y-coordinate on the graph's vertical scale."
+}

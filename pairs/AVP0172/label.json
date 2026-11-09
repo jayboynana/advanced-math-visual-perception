@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 9 in both images.",
+  "mathematical_meanings": "Left image: Segment QM has length value 9. Right image: The numeral 9 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 9 gives the length value of QM; the other 9 identifies an angle region formed by crossing lines."
+}

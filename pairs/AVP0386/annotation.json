@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0386",
+  "authoring_id": "V03SR086",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_variable_vs_horizontal_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "379",
+    "sample_index": "1894",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_379.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0386/left.png",
+    "width": 386,
+    "height": 166,
+    "sha256": "e0f7cec9a4305dc73caac9b7f2f3fead953e6f058704be317f6099242884a5d4"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "546",
+    "sample_index": "2729",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_546.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0386/right.png",
+    "width": 292,
+    "height": 296,
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter t",
+    "left_evidence": "t below the double-headed dimension along the whole bottom",
+    "right_evidence": "t at the right end of the horizontal axis",
+    "left_meaning": "t denotes the unknown total horizontal length.",
+    "right_meaning": "t labels the horizontal independent-variable axis.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to t below the double-headed dimension along the whole bottom supports the meaning: t denotes the unknown total horizontal length. On the right, the context is t at the right end of the horizontal axis, where t labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter t",
+    "mathematical_meanings": "Left image: t denotes the unknown total horizontal length. Right image: t labels the horizontal independent-variable axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to t below the double-headed dimension along the whole bottom supports the meaning: t denotes the unknown total horizontal length. On the right, the context is t at the right end of the horizontal axis, where t labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0386",
+    "condition": "condition/symbolic_roles/AVP0386"
+  }
+}

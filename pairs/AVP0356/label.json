@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter A",
+  "mathematical_meanings": "Left image: A names the indicated geometric point. Right image: A identifies the indicated square region rather than a vertex.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, attachment to A at the upper-left vertex of the quadrilateral supports the meaning: A names the indicated geometric point. On the right, the context is A inside the right-hand square, where A identifies the indicated square region rather than a vertex. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+}

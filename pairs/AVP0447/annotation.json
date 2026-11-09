@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0447",
+  "authoring_id": "V03GR047",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "reference_vs_function_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "723",
+    "sample_index": "723",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 277,
+      "img_width": 468,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/723.jpg",
+    "sha256": "47fd4a49b9c2a046a72c067cbb7e2576062a51ffb42a79c1386313772e49c78f",
+    "width": 468,
+    "height": 277,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0447/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "568",
+    "sample_index": "2839",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_568.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0447/right.png",
+    "width": 276,
+    "height": 282,
+    "sha256": "1e3d232a22ba56d79145624e739075e15e878702f0840253466e0972869cea37"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed line in a coordinate plot",
+    "left_evidence": "The upper horizontal dashed line labeled beta.",
+    "right_evidence": "The magenta dashed U-shaped curve labeled g.",
+    "left_meaning": "A fixed vertical-level reference used to compare the curve with a selected height.",
+    "right_meaning": "The graph of a second function, distinguished by dash style.",
+    "same_meaning": false,
+    "reason": "The beta line marks one fixed ordinate for comparison, whereas the U-shaped line encodes varying values of a second function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dashed line in a coordinate plot",
+    "mathematical_meanings": "Left image: A fixed vertical-level reference used to compare the curve with a selected height. Right image: The graph of a second function, distinguished by dash style.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The beta line marks one fixed ordinate for comparison, whereas the U-shaped line encodes varying values of a second function."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0447",
+    "condition": "condition/graphical_roles/AVP0447"
+  }
+}

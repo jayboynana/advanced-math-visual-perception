@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0077",
+  "authoring_id": "GR02",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "dashed_perpendicular_projection",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "368",
+    "sample_index": "1839",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_368.png",
+    "image_path": "pairs/AVP0077/left.png",
+    "sha256": "91a2d312351bc19553ea2c8d0cce6511dea36968d60efd88bfcf4862f28f1abf",
+    "width": 434,
+    "height": 351,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "359",
+    "sample_index": "1794",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_359.png",
+    "image_path": "pairs/AVP0077/right.png",
+    "sha256": "318ad4b420718b97b23b96207bb1b6e36304b6c1c9d2197dab6eee0889d8abd8",
+    "width": 310,
+    "height": 262,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Vertical dotted or dashed line",
+    "left_evidence": "The blue vertical dotted line from the upper point F to the middle point G, with a right-angle box beside G.",
+    "right_evidence": "The interior vertical dashed line connecting the upper horizontal dashed line to the lower horizontal line, with a right-angle box at its lower end.",
+    "left_meaning": "A perpendicular auxiliary line projecting an upper point onto a lower horizontal line.",
+    "right_meaning": "A perpendicular auxiliary line projecting an upper position onto a lower horizontal line.",
+    "same_meaning": true,
+    "reason": "Both broken vertical lines construct perpendicular projections and primarily serve as geometric positioning aids."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Vertical dotted or dashed line",
+    "mathematical_meanings": "Left image: A perpendicular auxiliary line projecting an upper point onto a lower horizontal line. Right image: A perpendicular auxiliary line projecting an upper position onto a lower horizontal line.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both broken vertical lines construct perpendicular projections and primarily serve as geometric positioning aids."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0077",
+    "condition": "condition/graphical_roles/AVP0077"
+  }
+}

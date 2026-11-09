@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0136",
+  "authoring_id": "V03NR036",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coordinate_component",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "409",
+    "sample_index": "409",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 358,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/409.jpg",
+    "sha256": "66ef4a559e6a91d48cc28ffb85ddba90038658af0c8f43a5c6d8e9fbacdd86bf",
+    "width": 358,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0136/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "346",
+    "sample_index": "346",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 339,
+      "img_width": 341,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/346.jpg",
+    "sha256": "fb46b049fe563ad477af09d1c2ea91bbffba5c6b5e9fdd372c26469322e9bb2a",
+    "width": 341,
+    "height": 339,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0136/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The tick label 4 on the positive vertical axis, left of the circle.",
+    "right_evidence": "The tick label 4 on the vertical axis above the parabola's vertex.",
+    "left_meaning": "The selected tick denotes y-coordinate value 4.",
+    "right_meaning": "The selected tick denotes y-coordinate value 4.",
+    "same_meaning": true,
+    "reason": "Both selected vertical-axis ticks denote y-coordinate 4. A circle and a parabola supply different contexts for the same coordinate-scale value."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 4. Right image: The selected tick denotes y-coordinate value 4.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected vertical-axis ticks denote y-coordinate 4. A circle and a parabola supply different contexts for the same coordinate-scale value."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0136",
+    "condition": "condition/numeric_representation/AVP0136"
+  }
+}

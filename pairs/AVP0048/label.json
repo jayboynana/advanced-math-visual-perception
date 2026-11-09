@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A short tick crossing a horizontal coordinate axis",
+  "mathematical_meanings": "Left image: It is a horizontal-coordinate tick marking a reading position on the axis. Right image: It is a tick for the horizontal coordinate t, marking a reading position on the axis.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both short strokes serve as coordinate-axis ticks; this judgment does not require identical tick values or units."
+}

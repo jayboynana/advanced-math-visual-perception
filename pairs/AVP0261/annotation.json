@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0261",
+  "authoring_id": "V03GM061",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "parallel_arrow_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1741",
+    "sample_index": "1741",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1741",
+      "question": "In trapezium $P Q R S, \\angle R S P=2 \\times \\angle S P Q$ and $\\angle S P Q=2 \\times \\angle P Q R$. Also $\\angle Q R S=k \\times \\angle P Q R$. What is the value of $k$ ? <image1>",
+      "options": [],
+      "image": "images/1741.jpg",
+      "level": 3,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1741.jpg",
+    "sha256": "c9949dc6dff01b9a702976f39b1a6cc8e117b2caf4db7390006a1860bcb413e3",
+    "width": 574,
+    "height": 259,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0261/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1783",
+    "sample_index": "1783",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1783",
+      "question": "In the diagram, lines $Q T$ and $R S$ are parallel and $P Q$ and $Q T$ are equal. Angle $S T Q$ is $154^{\\circ}$. What is the size of angle $S R Q$ ? <image1>",
+      "options": [
+        "$120^{\\circ}$",
+        "$122^{\\circ}$",
+        "$124^{\\circ}$",
+        "$126^{\\circ}$",
+        "$128^{\\circ}$"
+      ],
+      "image": "images/1783.jpg",
+      "level": 3,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1783.jpg",
+    "sha256": "f168cab9214904a901473f4d4685ef4a17d126045ccec462144e6bbdffe65cbb",
+    "width": 308,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0261/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Matching chevron-shaped arrow marks drawn inside a pair of line segments.",
+    "left_evidence": "The right-pointing chevrons centered on SR and PQ, rather than at their endpoints.",
+    "right_evidence": "The right-pointing chevrons inside QT and RS.",
+    "left_meaning": "The matching arrow marks state that SR and PQ are parallel.",
+    "right_meaning": "The matching arrow marks state that QT and RS are parallel.",
+    "same_meaning": true,
+    "reason": "The arrow marks are repeated on two separate sides within each image, which is the geometric convention for parallel lines. Their purpose is a parallelism relation, irrespective of single versus double chevrons."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Matching chevron-shaped arrow marks drawn inside a pair of line segments.",
+    "mathematical_meanings": "Left image: The matching arrow marks state that SR and PQ are parallel. Right image: The matching arrow marks state that QT and RS are parallel.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The arrow marks are repeated on two separate sides within each image, which is the geometric convention for parallel lines. Their purpose is a parallelism relation, irrespective of single versus double chevrons."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0261",
+    "condition": "condition/geometric_markers/AVP0261"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0426",
+  "authoring_id": "V03GR026",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "area_under_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "260",
+    "sample_index": "260",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 368,
+      "img_width": 412,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/260.jpg",
+    "sha256": "f578c43bd93abcfec75532e25baf7c3efa6be6f3eb52c7cffd776335568a7707",
+    "width": 412,
+    "height": 368,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0426/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0426/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region between a function curve and the horizontal axis",
+    "left_evidence": "The light-blue fill between the function curve and the horizontal axis, to the right of its positive zero.",
+    "right_evidence": "The shaded part below the curved graph and above the horizontal axis between x=3 and x=6.",
+    "left_meaning": "A region between a function graph and the horizontal axis, selected as an area under the graph.",
+    "right_meaning": "A selected area under a function graph over a restricted horizontal interval.",
+    "same_meaning": true,
+    "reason": "Both patches are bounded vertically by the graph and horizontal axis over a selected interval; the fill represents graph-based area, even though the curve shapes differ."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A shaded region between a function curve and the horizontal axis",
+    "mathematical_meanings": "Left image: A region between a function graph and the horizontal axis, selected as an area under the graph. Right image: A selected area under a function graph over a restricted horizontal interval.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both patches are bounded vertically by the graph and horizontal axis over a selected interval; the fill represents graph-based area, even though the curve shapes differ."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0426",
+    "condition": "condition/graphical_roles/AVP0426"
+  }
+}

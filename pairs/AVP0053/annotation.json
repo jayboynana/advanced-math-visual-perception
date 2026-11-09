@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0053",
+  "authoring_id": "SR03",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_boundary_point_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "9",
+    "sample_index": "44",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_9.png",
+    "image_path": "pairs/AVP0053/left.png",
+    "sha256": "ba57d6cdd945f4442a77e3d33af6fd08a0e7859ed5ae3a2bf455993ac5df924e",
+    "width": 395,
+    "height": 275,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "10",
+    "sample_index": "49",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_10.png",
+    "image_path": "pairs/AVP0053/right.png",
+    "sha256": "9fcdddd9e9a3126c06b3ffa91320f04977457e159b1bc282736723cdd2a1b0b4",
+    "width": 257,
+    "height": 281,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter D on a sloping side",
+    "left_evidence": "D on the right sloping side of the main triangle",
+    "right_evidence": "D on the right sloping side of the main triangle",
+    "left_meaning": "D names a point on the right sloping side of the triangle.",
+    "right_meaning": "D names a point on the right sloping side of the triangle.",
+    "same_meaning": true,
+    "reason": "The selected letters identify points on sloping sides; their other auxiliary connections need not match."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The uppercase letter D on a sloping side",
+    "mathematical_meanings": "Left image: D names a point on the right sloping side of the triangle. Right image: D names a point on the right sloping side of the triangle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected letters identify points on sloping sides; their other auxiliary connections need not match."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0053",
+    "condition": "condition/symbolic_roles/AVP0053"
+  }
+}

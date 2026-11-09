@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0389",
+  "authoring_id": "V03SR089",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_variable_vs_exponential_base",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "342",
+    "sample_index": "342",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 299,
+      "img_width": 405,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/342.jpg",
+    "sha256": "93e5258b782c40f8859455c43566e9cd804312a9ac3b808b281de64eb96dc793",
+    "width": 405,
+    "height": 299,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0389/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "39",
+    "sample_index": "39",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 304,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/39.jpg",
+    "sha256": "db7ad4e314424f84b9e01e4da8f45b4aa27229686b8668eee1a386488b4bdf43",
+    "width": 433,
+    "height": 304,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0389/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter a",
+    "left_evidence": "a° below the base line at the lower-left crossing",
+    "right_evidence": "a in y = a^x, a > 1 to the left of the curve",
+    "left_meaning": "a denotes the unknown exterior angle measure at the lower-left crossing, in degrees.",
+    "right_meaning": "a is the fixed base parameter of the exponential function, constrained to exceed 1.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to a° below the base line at the lower-left crossing supports the meaning: a denotes the unknown exterior angle measure at the lower-left crossing, in degrees. On the right, the context is a in y = a^x, a > 1 to the left of the curve, where a is the fixed base parameter of the exponential function, constrained to exceed 1. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter a",
+    "mathematical_meanings": "Left image: a denotes the unknown exterior angle measure at the lower-left crossing, in degrees. Right image: a is the fixed base parameter of the exponential function, constrained to exceed 1.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to a° below the base line at the lower-left crossing supports the meaning: a denotes the unknown exterior angle measure at the lower-left crossing, in degrees. On the right, the context is a in y = a^x, a > 1 to the left of the curve, where a is the fixed base parameter of the exponential function, constrained to exceed 1. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0389",
+    "condition": "condition/symbolic_roles/AVP0389"
+  }
+}

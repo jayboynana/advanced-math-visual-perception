@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0245",
+  "authoring_id": "V03GM045",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "segment_equality_tick_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1775",
+    "sample_index": "1775",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1775",
+      "question": "The diagram shows three triangles which are formed by the five line segments $A C D F, B C G, G D E, A B$ and $E F$ so that $A C=B C=C D=G D=D F=E F$. Also $\\angle C A B=\\angle E F D$. What is the size, in degrees, of $\\angle C A B$ ? <image1>",
+      "options": [],
+      "image": "images/1775.jpg",
+      "level": 3,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1775.jpg",
+    "sha256": "059cefaea936f9c5d785100fdad599f323e65a4c7c19b1c0331e1db427cbdc15",
+    "width": 605,
+    "height": 434,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0245/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2038",
+    "sample_index": "2038",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2038",
+      "question": "The adjoining figure shows two intersecting chords in a circle, with $B$ on minor arc $AD$.  Suppose that the radius of the circle is 5, that $BC = 6$, and that $AD$ is bisected by $BC$.  Suppose further that $AD$ is the only chord starting at $A$ which is bisected by $BC$.  It follows that the sine of the minor arc $AB$ is a rational number.  If this fraction is expressed as a fraction $m/n$ in lowest terms, what is the product $mn$?\n<image1>",
+      "options": [],
+      "image": "images/2038.jpg",
+      "level": 5,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2038.jpg",
+    "sha256": "a2f64e7c9fa8089ef7de71f3bc767ca7b57d36bf18a521d7368a9cb8393528df",
+    "width": 718,
+    "height": 724,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0245/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Short transverse tick strokes repeated across line segments.",
+    "left_evidence": "The single tick across AC, matching the single ticks on CD and DF.",
+    "right_evidence": "The slash on the lower portion of chord AD, matched by a slash on its upper portion.",
+    "left_meaning": "It marks AC, CD and DF as segments in the same equal-length group.",
+    "right_meaning": "It marks the two pieces of chord AD cut by BC as equal in length.",
+    "same_meaning": true,
+    "reason": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Short transverse tick strokes repeated across line segments.",
+    "mathematical_meanings": "Left image: It marks AC, CD and DF as segments in the same equal-length group. Right image: It marks the two pieces of chord AD cut by BC as equal in length.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0245",
+    "condition": "condition/geometric_markers/AVP0245"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0495",
+  "authoring_id": "V03GR095",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "level_reference_vs_constant_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "137",
+    "sample_index": "137",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/137.jpg",
+    "sha256": "067c75c4e566c56b6ceb4c2486a962f7924274caf10b939ead86ca9d3b6a143f",
+    "width": 258,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0495/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "223",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 776,
+      "img_width": 1430,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/223.jpg",
+    "sha256": "358189e467fadeb5d60643a543fdb132b336c210204c23d4c6357ad0773b771c",
+    "width": 1430,
+    "height": 776,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0495/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal colored line in a function diagram",
+    "left_evidence": "The upper orange horizontal line cutting the graph f(x)=x^2.",
+    "right_evidence": "The purple horizontal trace labeled f(x)=c with arrows at both ends.",
+    "left_meaning": "A fixed-y horizontal comparison line across the function graph.",
+    "right_meaning": "A constant function graph: the output remains c as the horizontal input varies.",
+    "same_meaning": false,
+    "reason": "The orange stroke is one of several fixed-height guides cutting the parabola; the purple trace is explicitly labeled f(x)=c and is itself the function being plotted."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal colored line in a function diagram",
+    "mathematical_meanings": "Left image: A fixed-y horizontal comparison line across the function graph. Right image: A constant function graph: the output remains c as the horizontal input varies.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The orange stroke is one of several fixed-height guides cutting the parabola; the purple trace is explicitly labeled f(x)=c and is itself the function being plotted."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0495",
+    "condition": "condition/graphical_roles/AVP0495"
+  }
+}

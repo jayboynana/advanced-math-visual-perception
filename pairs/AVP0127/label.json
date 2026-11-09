@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The variable x is squared; 2 is its exponent. Right image: The expression x−2 is squared; 2 is the exponent.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected superscripts are exponent 2 and denote squaring of their respective bases. The bases x and x−2 need not be equal."
+}

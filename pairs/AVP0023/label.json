@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The value −6 inside parentheses",
+  "mathematical_meanings": "Left image: The rectangle's lower-left vertex has x-coordinate −6. Right image: The blue point on the curve has x-coordinate −6.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected values are x-coordinates equal to −6; the different y-coordinates do not affect this single-component target."
+}

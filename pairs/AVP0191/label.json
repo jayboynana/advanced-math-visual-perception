@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 1.0 and 1 ft.",
+  "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 1.0. Right image: The left side has length 1 foot.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "1.0 equals 1 numerically, but the first label denotes a y-coordinate and 1 ft denotes a side length."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A smooth curve in a coordinate system",
+  "mathematical_meanings": "Left image: A function graph relating y to x. Right image: A function graph relating y to x.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The printed g(x) and y expressions identify function graphs in both images; increasing versus decreasing behavior does not change the graph-representation role."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents a hidden rear bottom edge of the cube. Right image: The dashed curve is the plotted graph of function g, distinguished from the solid graph f.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The g label identifies the right magenta dashes as a plotted function, not an invisible edge. The two stroke styles therefore encode different contextual functions."
+}

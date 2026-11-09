@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_count": 500,
+  "target_count": 500,
+  "targets_per_pair": 1,
+  "preserved_pair_count": 100,
+  "added_pair_count": 400,
+  "unique_problem_count": 387,
+  "unique_image_hash_count": 383,
+  "unique_decoded_image_count": 383,
+  "source_image_counts": {
+    "MathVerse": 147,
+    "MathVista": 167,
+    "MathVision": 73
+  },
+  "source_pair_counts": {
+    "MathVerse": 252,
+    "MathVision": 100,
+    "MathVista": 293
+  },
+  "source_pair_combinations": {
+    "MathVerse / MathVerse": 107,
+    "MathVerse / MathVista": 112,
+    "MathVista / MathVista": 181,
+    "MathVision / MathVision": 67,
+    "MathVerse / MathVision": 33
+  },
+  "cross_dataset_pair_count": 145,
+  "type_counts": {
+    "same type": 302,
+    "different type": 198
+  },
+  "condition_counts": {
+    "numeric_representation": 125,
+    "geometric_markers": 125,
+    "symbolic_roles": 125,
+    "graphical_roles": 125
+  },
+  "condition_source_pair_counts": {
+    "numeric_representation": {
+      "MathVerse": 40,
+      "MathVision": 0,
+      "MathVista": 100
+    },
+    "geometric_markers": {
+      "MathVerse": 58,
+      "MathVision": 100,
+      "MathVista": 0
+    },
+    "symbolic_roles": {
+      "MathVerse": 58,
+      "MathVision": 0,
+      "MathVista": 94
+    },
+    "graphical_roles": {
+      "MathVerse": 96,
+      "MathVision": 0,
+      "MathVista": 99
+    }
+  },
+  "semantic_counts": {
+    "same_meaning": 249,
+    "different_meaning": 251
+  },
+  "joint_counts": {
+    "same type|same_meaning": 216,
+    "same type|different_meaning": 86,
+    "different type|different_meaning": 165,
+    "different type|same_meaning": 33
+  },
+  "condition_semantic_counts": {
+    "numeric_representation": {
+      "same_meaning": 61,
+      "different_meaning": 64
+    },
+    "geometric_markers": {
+      "same_meaning": 63,
+      "different_meaning": 62
+    },
+    "symbolic_roles": {
+      "same_meaning": 62,
+      "different_meaning": 63
+    },
+    "graphical_roles": {
+      "same_meaning": 63,
+      "different_meaning": 62
+    }
+  },
+  "max_problem_reuse": 11,
+  "max_decoded_image_reuse": 11,
+  "annotation_status": "ai_visually_reviewed_draft",
+  "split": "pilot_unsplit"
+}

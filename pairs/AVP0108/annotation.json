@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0108",
+  "authoring_id": "V03NR008",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "360",
+    "sample_index": "360",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 370,
+      "img_width": 721,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/360.jpg",
+    "sha256": "6387ed1337173466d6609810f205dd8b7e5f8a590898665c7e3531ed8160a076",
+    "width": 721,
+    "height": 370,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0108/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "407",
+    "sample_index": "2034",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_407.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0108/right.png",
+    "width": 616,
+    "height": 332,
+    "sha256": "8f296a7beb077c3e5a87e60fe1986df7ac85e83600e19fa3d59091ee2096c5a6"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 20° in both images.",
+    "left_evidence": "The 20° with a leader pointing to the small angle at Y.",
+    "right_evidence": "The 20° in the small angle region at the sector's right-hand vertex.",
+    "left_meaning": "The selected angle at Y measures 20 degrees.",
+    "right_meaning": "The marked central angle measures 20 degrees.",
+    "same_meaning": true,
+    "reason": "Both selected degree labels assign angle measure 20 degrees."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 20° in both images.",
+    "mathematical_meanings": "Left image: The selected angle at Y measures 20 degrees. Right image: The marked central angle measures 20 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected degree labels assign angle measure 20 degrees."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0108",
+    "condition": "condition/numeric_representation/AVP0108"
+  }
+}

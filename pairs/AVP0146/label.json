@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 6 in both images.",
+  "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value 6. Right image: The selected tick denotes x-coordinate value 6.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected horizontal-axis ticks denote x-coordinate 6."
+}

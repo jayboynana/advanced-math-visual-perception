@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Horizontal double-headed arrow",
+  "mathematical_meanings": "Left image: Indicates the horizontal distance from the tower column to the position on its right. Right image: Indicates the horizontal-coordinate interval between adjacent waveform peaks, representing one repetition period.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "A geometric distance dimension and a waveform period have different specific mathematical roles, although both use double-headed arrows to mark intervals."
+}

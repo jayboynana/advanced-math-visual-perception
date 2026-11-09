@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0022",
+  "authoring_id": "NR22",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_same_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "437",
+    "sample_index": "2184",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_437.png",
+    "image_path": "pairs/AVP0022/left.png",
+    "sha256": "3d91a2cf6769d1182d205fd7c6abe6ea825b8d64f93594e89e40e76d97146920",
+    "width": 500,
+    "height": 547,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "570",
+    "sample_index": "2849",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_570.png",
+    "image_path": "pairs/AVP0022/right.png",
+    "sha256": "4f7f3e815ac21a661ffefa632c4599f738d2247cd94a0d9cff061c84085704bc",
+    "width": 280,
+    "height": 284,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The value 3 inside parentheses",
+    "left_evidence": "The second component, 3, of the upper hyperbola vertex's label (−1,3).",
+    "right_evidence": "The second component, 3, of the magenta point's label (2,3).",
+    "left_meaning": "The marked hyperbola vertex has y-coordinate 3.",
+    "right_meaning": "The marked point on the parabola has y-coordinate 3.",
+    "same_meaning": true,
+    "reason": "Both selected values specify that a marked point has y-coordinate 3."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The value 3 inside parentheses",
+    "mathematical_meanings": "Left image: The marked hyperbola vertex has y-coordinate 3. Right image: The marked point on the parabola has y-coordinate 3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected values specify that a marked point has y-coordinate 3."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the number 3 in its y-coordinate role is selected; equality of the complete coordinate pairs is not assessed.",
+  "views": {
+    "type": "type/different type/AVP0022",
+    "condition": "condition/numeric_representation/AVP0022"
+  }
+}

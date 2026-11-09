@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0006",
+  "authoring_id": "NR06",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "decimal_integer_same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "8",
+    "sample_index": "39",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_8.png",
+    "image_path": "pairs/AVP0006/left.png",
+    "sha256": "492449f10c236ba2e07d1d8f3c1077ef4a0c6ec5808c28155bcb2f6f77b7a0ca",
+    "width": 413,
+    "height": 227,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "image_path": "pairs/AVP0006/right.png",
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9",
+    "width": 162,
+    "height": 246,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 5.0 and 5",
+    "left_evidence": "The label 5.0 below the left length bracket at the bottom of the image.",
+    "right_evidence": "The label 5 beside diagonal BC inside the rectangular configuration.",
+    "left_meaning": "The horizontal segment indicated by the lower bracket has a length value of 5.",
+    "right_meaning": "Diagonal BC has a length value of 5.",
+    "same_meaning": true,
+    "reason": "Removing the trailing zero gives the value 5; both labels specify a segment length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 5.0 and 5",
+    "mathematical_meanings": "Left image: The horizontal segment indicated by the lower bracket has a length value of 5. Right image: Diagonal BC has a length value of 5.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Removing the trailing zero gives the value 5; both labels specify a segment length."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The brackets in image 8 are closely spaced. Only the visible length label 5.0 is selected, without adding other numerical labels.",
+  "views": {
+    "type": "type/same type/AVP0006",
+    "condition": "condition/numeric_representation/AVP0006"
+  }
+}

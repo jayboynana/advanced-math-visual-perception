@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0465",
+  "authoring_id": "V03GR065",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "circle_boundary_vs_function_graph",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "28",
+    "sample_index": "28",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 431,
+      "img_width": 519,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/28.jpg",
+    "sha256": "eaf360b45dde5e9fbaf92c055760b3819279f310e18a8a4139326a570556b1a9",
+    "width": 519,
+    "height": 431,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0465/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "39",
+    "sample_index": "39",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 304,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/39.jpg",
+    "sha256": "db7ad4e314424f84b9e01e4da8f45b4aa27229686b8668eee1a386488b4bdf43",
+    "width": 433,
+    "height": 304,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0465/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth curved line",
+    "left_evidence": "The large unfilled circular outline surrounding A, B and C.",
+    "right_evidence": "The blue increasing curve next to the formula y=a^x, a>1.",
+    "left_meaning": "The circumference of a geometric circle, rather than an excluded graph point.",
+    "right_meaning": "A function graph relating y to x.",
+    "same_meaning": false,
+    "reason": "The curve through A and B is a full circle circumference associated with chords; the blue curve labeled y=a^x is a function graph."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth curved line",
+    "mathematical_meanings": "Left image: The circumference of a geometric circle, rather than an excluded graph point. Right image: A function graph relating y to x.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The curve through A and B is a full circle circumference associated with chords; the blue curve labeled y=a^x is a function graph."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0465",
+    "condition": "condition/graphical_roles/AVP0465"
+  }
+}

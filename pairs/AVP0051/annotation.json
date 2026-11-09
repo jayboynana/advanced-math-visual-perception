@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0051",
+  "authoring_id": "SR01",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "1",
+    "sample_index": "4",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_1.png",
+    "image_path": "pairs/AVP0051/left.png",
+    "sha256": "e2cad9a66c3697ac6831bc7203da182385a9e1f76473296bfdb8246bf018773e",
+    "width": 424,
+    "height": 289,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "3",
+    "sample_index": "14",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_3.png",
+    "image_path": "pairs/AVP0051/right.png",
+    "sha256": "44af9fe1594c4afc9fc0507f913a224cadd6acfcef2711c2aee31892525fcd46",
+    "width": 1138,
+    "height": 932,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A",
+    "left_evidence": "A at the top vertex of the triangle",
+    "right_evidence": "A at the upper endpoint of the slanted line on the right",
+    "left_meaning": "A names the upper vertex of the main triangle.",
+    "right_meaning": "A names the endpoint of the slanted line on the right.",
+    "same_meaning": true,
+    "reason": "The target is the use of a letter as a point name. Differences in position and connectivity do not change that naming function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The uppercase letter A",
+    "mathematical_meanings": "Left image: A names the upper vertex of the main triangle. Right image: A names the endpoint of the slanted line on the right.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The target is the use of a letter as a point name. Differences in position and connectivity do not change that naming function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0051",
+    "condition": "condition/symbolic_roles/AVP0051"
+  }
+}

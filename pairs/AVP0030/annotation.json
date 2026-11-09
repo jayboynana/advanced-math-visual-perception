@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0030",
+  "authoring_id": "GM05",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "colored_right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "368",
+    "sample_index": "1839",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_368.png",
+    "image_path": "pairs/AVP0030/left.png",
+    "sha256": "91a2d312351bc19553ea2c8d0cce6511dea36968d60efd88bfcf4862f28f1abf",
+    "width": 434,
+    "height": 351,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "image_path": "pairs/AVP0030/right.png",
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9",
+    "width": 162,
+    "height": 246,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small filled square at the intersection of two lines",
+    "left_evidence": "A small pink square sits above and to the right of G, where the blue vertical broken line FG meets the blue horizontal broken line.",
+    "right_evidence": "A small light-purple square sits below and to the left of D in the upper right, where the dotted horizontal line BD meets the vertical line DC.",
+    "left_meaning": "It indicates that FG is perpendicular to the horizontal line through G.",
+    "right_meaning": "It indicates that BD is perpendicular to DC.",
+    "same_meaning": true,
+    "reason": "The pink and purple filled squares are both right-angle markers; the different orientations of the attached broken lines do not change their meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small filled square at the intersection of two lines",
+    "mathematical_meanings": "Left image: It indicates that FG is perpendicular to the horizontal line through G. Right image: It indicates that BD is perpendicular to DC.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The pink and purple filled squares are both right-angle markers; the different orientations of the attached broken lines do not change their meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again.",
+  "views": {
+    "type": "type/same type/AVP0030",
+    "condition": "condition/geometric_markers/AVP0030"
+  }
+}

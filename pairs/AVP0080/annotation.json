@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0080",
+  "authoring_id": "GR05",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "dimension_span_arrows",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "352",
+    "sample_index": "1759",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_352.png",
+    "image_path": "pairs/AVP0080/left.png",
+    "sha256": "e962a15f39db87209d2306ad52bd71f335ea0bb103c4bee58506ae798f18b749",
+    "width": 362,
+    "height": 261,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "364",
+    "sample_index": "1819",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_364.png",
+    "image_path": "pairs/AVP0080/right.png",
+    "sha256": "e2f956256852eb826b29b31867007dd61f60b5a742c0401ecdd225f7cef01da9",
+    "width": 415,
+    "height": 296,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Horizontal line with arrowheads at both ends",
+    "left_evidence": "The horizontal double-headed arrow labeled y above the airplanes.",
+    "right_evidence": "The horizontal double-headed arrow labeled 65.9 m below the bridge.",
+    "left_meaning": "Indicates an unknown length between two horizontal positions.",
+    "right_meaning": "Indicates the given horizontal length between the tower column and the position on its right.",
+    "same_meaning": true,
+    "reason": "Both arrows annotate a length interval; differences in setting and whether the length is known do not change this role."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Horizontal line with arrowheads at both ends",
+    "mathematical_meanings": "Left image: Indicates an unknown length between two horizontal positions. Right image: Indicates the given horizontal length between the tower column and the position on its right.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both arrows annotate a length interval; differences in setting and whether the length is known do not change this role."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0080",
+    "condition": "condition/graphical_roles/AVP0080"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0010",
+  "authoring_id": "NR10",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "sign_change_same_coordinate_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "543",
+    "sample_index": "2714",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_543.png",
+    "image_path": "pairs/AVP0010/left.png",
+    "sha256": "065c507db3422cd8cdeff680948de5e9dc65e8d71a6e6a174731ee5f4d866dbe",
+    "width": 396,
+    "height": 404,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "571",
+    "sample_index": "2854",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_571.png",
+    "image_path": "pairs/AVP0010/right.png",
+    "sha256": "295b49adabe60d01c3ab452e58cf6b9f52e0e4a0362379c29b0cd1a1f3ffcd8f",
+    "width": 276,
+    "height": 281,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "X-coordinate notations differing only by a minus sign: −2 and 2.",
+    "left_evidence": "The first component, −2, of the upper orange point's coordinate label (−2,−3).",
+    "right_evidence": "The first component, 2, of the magenta point's coordinate label (2,−4).",
+    "left_meaning": "The marked point has x-coordinate negative two.",
+    "right_meaning": "The marked point has x-coordinate positive two.",
+    "same_meaning": false,
+    "reason": "The digit 2 is shared, but −2≠2; the x-coordinate values differ."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "X-coordinate notations differing only by a minus sign: −2 and 2.",
+    "mathematical_meanings": "Left image: The marked point has x-coordinate negative two. Right image: The marked point has x-coordinate positive two.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The digit 2 is shared, but −2≠2; the x-coordinate values differ."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The similarity is restricted to the sign difference. The complete numerical values are not claimed to be equal.",
+  "views": {
+    "type": "type/same type/AVP0010",
+    "condition": "condition/numeric_representation/AVP0010"
+  }
+}

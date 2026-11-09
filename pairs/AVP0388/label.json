@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter A",
+  "mathematical_meanings": "Left image: A names the indicated geometric point. Right image: A names the plotted area function, with output measured in square meters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, attachment to A at the upper-left endpoint of the crossing-triangle construction supports the meaning: A names the indicated geometric point. On the right, the context is A beside the curve whose vertical axis is labeled area (square meters), where A names the plotted area function, with output measured in square meters. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A short stroke crossing a longer line.",
+  "mathematical_meanings": "Left image: It marks AB and AC as equal in length. Right image: It is a coordinate-axis tick marking a position at which a horizontal coordinate can be read.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The matching strokes on the left encode equality of the marked segment lengths. On the right the short stroke lies on a coordinate axis and marks a reading position. Coordinate ticks do not assert that nearby graph segments have equal lengths."
+}

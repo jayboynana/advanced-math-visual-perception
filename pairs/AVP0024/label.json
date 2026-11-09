@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The integer 36 in both images.",
+  "mathematical_meanings": "Left image: The marked angle measures 36 degrees. Right image: The quadratic function expression has constant term 36.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The same integer specifies an angle's degree measure in one image and a function expression's constant term in the other."
+}

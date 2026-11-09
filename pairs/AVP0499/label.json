@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An arrowhead on a straight line",
+  "mathematical_meanings": "Left image: A spatial length annotation spanning the circle diameter. Right image: The horizontal coordinate axis used to read graph input coordinates.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The arrow beside x cm participates in a bounded diameter measurement. The coordinate-axis arrow sets a reference direction rather than specifying a finite length interval."
+}

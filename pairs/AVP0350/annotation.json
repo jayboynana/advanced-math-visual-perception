@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0350",
+  "authoring_id": "V03SR050",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_horizontal_axis",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "546",
+    "sample_index": "2729",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_546.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0350/left.png",
+    "width": 292,
+    "height": 296,
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "641",
+    "sample_index": "641",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "scientific figure",
+      "grade": "college",
+      "img_height": 420,
+      "img_width": 828,
+      "language": "english",
+      "skills": [
+        "scientific reasoning",
+        "statistical reasoning"
+      ],
+      "source": "SciBench",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/641.jpg",
+    "sha256": "8775266d5707b97e48dc169cb4bc4f73f3213cc0272491010ea54e1f3e8316c4",
+    "width": 828,
+    "height": 420,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0350/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter t",
+    "left_evidence": "t at the right end of the horizontal axis",
+    "right_evidence": "t (seconds) beside the horizontal axis",
+    "left_meaning": "t labels the horizontal independent-variable axis.",
+    "right_meaning": "t labels the horizontal independent-variable axis; its displayed unit is seconds.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at t at the right end of the horizontal axis; the right occurrence is at t (seconds) beside the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter t",
+    "mathematical_meanings": "Left image: t labels the horizontal independent-variable axis. Right image: t labels the horizontal independent-variable axis; its displayed unit is seconds.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at t at the right end of the horizontal axis; the right occurrence is at t (seconds) beside the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0350",
+    "condition": "condition/symbolic_roles/AVP0350"
+  }
+}

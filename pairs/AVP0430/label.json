@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled polygonal interior",
+  "mathematical_meanings": "Left image: The interior area of the displayed plane polygon. Right image: The interior area of the displayed plane polygon.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The blue diamond and green trapezoid each use fill for the entire interior plane region, with dimensions attached to the surrounding geometric construction."
+}

@@ -1,0 +1,39 @@
+{
+  "release": "0.3.0",
+  "acquired_date": "2026-11-09",
+  "date_timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "dataset": "MathVerse",
+      "repository": "AI4Math/MathVerse",
+      "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
+      "revision": "3bc86196678bad115a923d2851c6821dbe235939",
+      "config": "testmini",
+      "split": "testmini",
+      "image_version": "Vision Dominant",
+      "provenance_file": "sources/MathVerse/PROVENANCE.md"
+    },
+    {
+      "dataset": "MathVista",
+      "repository": "AI4Math/MathVista",
+      "url": "https://huggingface.co/datasets/AI4Math/MathVista",
+      "revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+      "config": "default",
+      "split": "testmini",
+      "provenance_file": "sources/MathVista/PROVENANCE.md"
+    },
+    {
+      "dataset": "MathVision",
+      "display_name": "MATH-VISION",
+      "repository": "MathLLMs/MathVision",
+      "url": "https://huggingface.co/datasets/MathLLMs/MathVision",
+      "revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+      "config": "default",
+      "split": "test",
+      "provenance_file": "sources/MathVision/PROVENANCE.md"
+    }
+  ],
+  "image_policy": "Original upstream image payloads are retained byte for byte. Only separate browsing previews are resized/composited.",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "source_image_groups": "review/exact_image_groups.json"
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The logarithm has base 2. Right image: The red logarithmic curve uses logarithm base 2.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected subscripts give logarithm base 2, rather than a coordinate or a multiplier."
+}

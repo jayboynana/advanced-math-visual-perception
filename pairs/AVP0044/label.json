@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square outline enclosed by horizontal and vertical lines",
+  "mathematical_meanings": "Left image: It is a right-angle marker indicating that the vertical auxiliary line at G is perpendicular to the horizontal auxiliary line. Right image: It is a grid cell used for coordinate readings.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The pink marker and gray grid cell both have square outlines; their mathematical functions are an explicit angle marker and a background reading reference, respectively."
+}

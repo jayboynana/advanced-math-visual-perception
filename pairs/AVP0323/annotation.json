@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0323",
+  "authoring_id": "V03SR023",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_angle_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "304",
+    "sample_index": "304",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 247,
+      "img_width": 431,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/304.jpg",
+    "sha256": "be420da175713cdce5e9f2065477688a16f5e5a7cd74baca54a990dd46aecde0",
+    "width": 431,
+    "height": 247,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0323/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "386",
+    "sample_index": "386",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 247,
+      "img_width": 164,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/386.jpg",
+    "sha256": "09520717c4c2b7d85b9fd820cea449b248424b70094030b30d76450c215e67f4",
+    "width": 164,
+    "height": 247,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0323/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y° between the two upward rays",
+    "right_evidence": "y° near the top of the right triangle",
+    "left_meaning": "y denotes the unknown angle measure between the upward rays, in degrees.",
+    "right_meaning": "y denotes the unknown angle at the top vertex, in degrees.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at y° between the two upward rays; the right occurrence is at y° near the top of the right triangle. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: y denotes the unknown angle measure between the upward rays, in degrees. Right image: y denotes the unknown angle at the top vertex, in degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at y° between the two upward rays; the right occurrence is at y° near the top of the right triangle. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0323",
+    "condition": "condition/symbolic_roles/AVP0323"
+  }
+}

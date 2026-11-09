@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0016",
+  "authoring_id": "NR16",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_side_length_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "363",
+    "sample_index": "1814",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_363.png",
+    "image_path": "pairs/AVP0016/left.png",
+    "sha256": "38697bbecfa94edd11a39de9f487ba590f4fd124f39326f12079aacf46555c51",
+    "width": 269,
+    "height": 184,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "532",
+    "sample_index": "2659",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_532.png",
+    "image_path": "pairs/AVP0016/right.png",
+    "sha256": "851ec5a1cada2d7b88176a8c971320da0fd5254654370206c9abd00ecb3bf12d",
+    "width": 360,
+    "height": 366,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The integer 13 in both images.",
+    "left_evidence": "The 13 in the label 13 m beside the quadrilateral's left vertical side.",
+    "right_evidence": "The second component, 13, of the upper orange point's coordinate label ((3/2)π,13).",
+    "left_meaning": "The quadrilateral's left side has numerical length value 13, in m.",
+    "right_meaning": "The function point has y-coordinate 13.",
+    "same_meaning": false,
+    "reason": "The integer values match, but one labels a side length and the other a y-coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The integer 13 in both images.",
+    "mathematical_meanings": "Left image: The quadrilateral's left side has numerical length value 13, in m. Right image: The function point has y-coordinate 13.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The integer values match, but one labels a side length and the other a y-coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review.",
+  "views": {
+    "type": "type/different type/AVP0016",
+    "condition": "condition/numeric_representation/AVP0016"
+  }
+}

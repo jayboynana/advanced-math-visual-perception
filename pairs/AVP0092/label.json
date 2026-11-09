@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Filled circular marker",
+  "mathematical_meanings": "Left image: Names and locates a designated position on the complete circle. Right image: A closed-endpoint marker indicating that the function graph includes this boundary point.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The position marker on a complete circle does not indicate a domain cutoff, whereas the filled style at the function endpoint encodes inclusion of that endpoint."
+}

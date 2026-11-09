@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+  "mathematical_meanings": "Left image: The variable x is cubed; 3 is its exponent. Right image: The variable x in the selected term is cubed; 3 is its exponent.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected superscripts 3 denote cubing of x; the complete functions are not asserted to coincide."
+}

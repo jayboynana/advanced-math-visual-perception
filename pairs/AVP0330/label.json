@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter g",
+  "mathematical_meanings": "Left image: g names the function represented by the indicated curve. Right image: g names the function represented by the indicated curve.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at g(x) beside the increasing curve; the right occurrence is at g(x) = 0.5^x beside the green curve. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

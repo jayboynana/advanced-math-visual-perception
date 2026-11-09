@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0069",
+  "authoring_id": "SR19",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_name_vs_function_name",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "331",
+    "sample_index": "1654",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_331.png",
+    "image_path": "pairs/AVP0069/left.png",
+    "sha256": "20bd417a3861bf0ca6766004ded8f763b9e225c64e62e4625d36055a353bd46f",
+    "width": 279,
+    "height": 350,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "574",
+    "sample_index": "2869",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_574.png",
+    "image_path": "pairs/AVP0069/right.png",
+    "sha256": "7b23788d3d9e9586e28536c99bdaa95082405c57a26fa8bf6c34034d55c57dad",
+    "width": 342,
+    "height": 325,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A",
+    "left_evidence": "A at the lower-right vertex where two lines meet",
+    "right_evidence": "A near the upper-right part of the area-versus-width curve",
+    "left_meaning": "A is the name of a geometric vertex.",
+    "right_meaning": "A is the name of the area function represented by the curve; the vertical axis is explicitly labeled area.",
+    "same_meaning": false,
+    "reason": "A geometric point name and an area-function name have distinct contextual roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The uppercase letter A",
+    "mathematical_meanings": "Left image: A is the name of a geometric vertex. Right image: A is the name of the area function represented by the curve; the vertical axis is explicitly labeled area.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "A geometric point name and an area-function name have distinct contextual roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0069",
+    "condition": "condition/symbolic_roles/AVP0069"
+  }
+}

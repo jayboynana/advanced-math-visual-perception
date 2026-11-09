@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 3 ft and 3 yd.",
+  "mathematical_meanings": "Left image: The top side has length 3 feet. Right image: The left side has length 3 yards.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The numeral 3 is shared, but feet and yards are different units: 3 yards equals 9 feet, not 3 feet."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Horizontal coordinate axis with tick marks",
+  "mathematical_meanings": "Left image: Provides a horizontal-coordinate reference through tick marks and orientation. Right image: Provides a horizontal-coordinate reference through tick marks and orientation.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both are horizontal coordinate axes; drawing a geometric construction on one and a function graph on the other does not change the role of the axis."
+}

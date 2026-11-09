@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The number 6 in both images.",
+  "mathematical_meanings": "Left image: The number is the numerical part of the radius length 6 cm. Right image: The upper blue point has y-coordinate 6.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The same numerical value is attached to a radius length in one image and a y-coordinate in the other."
+}

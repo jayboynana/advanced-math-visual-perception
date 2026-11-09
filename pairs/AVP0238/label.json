@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square or similar rectangular outline formed by straight segments.",
+  "mathematical_meanings": "Left image: BE is perpendicular to AD at E. Right image: It is a background coordinate-grid cell used as a spatial reference when reading the graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a background coordinate-grid cell used as a spatial reference when reading the graph. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
+}

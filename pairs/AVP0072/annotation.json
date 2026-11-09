@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0072",
+  "authoring_id": "SR22",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "coordinate_parentheses_vs_argument",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "437",
+    "sample_index": "2184",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_437.png",
+    "image_path": "pairs/AVP0072/left.png",
+    "sha256": "3d91a2cf6769d1182d205fd7c6abe6ea825b8d64f93594e89e40e76d97146920",
+    "width": 500,
+    "height": 547,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "564",
+    "sample_index": "2819",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_564.png",
+    "image_path": "pairs/AVP0072/right.png",
+    "sha256": "f48c10ce77cedc2ea480a32d540ddd3e2f1e1b5ba89623d45b120ae6e406a723",
+    "width": 272,
+    "height": 284,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Parentheses in (−1, 3) and g(x)",
+    "left_evidence": "The pair (−1, 3) beside the upper point indicated by the Vertices leader",
+    "right_evidence": "The parentheses in g(x) in the formula y = g(x) at the upper left",
+    "left_meaning": "The two numbers in parentheses form the ordered coordinate pair of the marked upper point.",
+    "right_meaning": "The x in parentheses is the input variable of function g.",
+    "same_meaning": false,
+    "reason": "A two-number coordinate pair differs from notation for a function with one input variable."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Parentheses in (−1, 3) and g(x)",
+    "mathematical_meanings": "Left image: The two numbers in parentheses form the ordered coordinate pair of the marked upper point. Right image: The x in parentheses is the input variable of function g.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "A two-number coordinate pair differs from notation for a function with one input variable."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0072",
+    "condition": "condition/symbolic_roles/AVP0072"
+  }
+}

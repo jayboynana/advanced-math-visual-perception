@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal straight segment",
+  "mathematical_meanings": "Left image: A boundary edge of a finite geometric triangle. Right image: A constant-output piece of a step-function graph over a horizontal input interval.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The blue segment closes a geometric triangle; the red segment is a constant-output portion of a step graph on Cartesian axes."
+}

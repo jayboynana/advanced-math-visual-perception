@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0097",
+  "authoring_id": "GR22",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "geometric_boundary_vs_function_graph",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "524",
+    "sample_index": "2619",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_524.png",
+    "image_path": "pairs/AVP0097/left.png",
+    "sha256": "386c6e2f22cf94163f2cab8e2094b6ebfc4d0380bc6028e895458dd000ffa9ff",
+    "width": 274,
+    "height": 274,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "541",
+    "sample_index": "2704",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_541.png",
+    "image_path": "pairs/AVP0097/right.png",
+    "sha256": "15c006430df05ce312290886902a41087f21eddbe39bc4017b7f0e3131e15dc9",
+    "width": 406,
+    "height": 411,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Cyan curve",
+    "left_evidence": "The complete cyan circle enclosing the coordinate origin and passing through A.",
+    "right_evidence": "The cyan curve that oscillates across the coordinate system and passes through the orange point.",
+    "left_meaning": "The circular boundary of the geometric object known as the unit circle.",
+    "right_meaning": "A function graph using horizontal and vertical positions to express a relationship between variables.",
+    "same_meaning": false,
+    "reason": "The anchor is the main cyan curve, which serves as a geometric boundary on the left and a function graph on the right; color or curved appearance is not used to establish function equivalence."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Cyan curve",
+    "mathematical_meanings": "Left image: The circular boundary of the geometric object known as the unit circle. Right image: A function graph using horizontal and vertical positions to express a relationship between variables.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The anchor is the main cyan curve, which serves as a geometric boundary on the left and a function graph on the right; color or curved appearance is not used to establish function equivalence."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0097",
+    "condition": "condition/graphical_roles/AVP0097"
+  }
+}

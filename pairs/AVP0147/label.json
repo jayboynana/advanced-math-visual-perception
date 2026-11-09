@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+  "mathematical_meanings": "Left image: The numeral 1 identifies the adjacent angle region; it is an angle index, not a degree measure. Right image: The numeral 1 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both standalone 1s serve as identifiers for angle regions. Neither is printed with a degree symbol or used as a measured angle value."
+}

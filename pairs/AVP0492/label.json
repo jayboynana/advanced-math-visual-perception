@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal plotted segment",
+  "mathematical_meanings": "Left image: A constant-output piece of a step-function graph over a horizontal input interval. Right image: A constant-output graph: the plotted count stays at the same level over the shown years.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both traces hold the output at one fixed level over the selected input span. Their measured variables and heights differ, but constant-output representation is shared."
+}

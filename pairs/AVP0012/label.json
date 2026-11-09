@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The superscript 2 in x² in both images.",
+  "mathematical_meanings": "Left image: This occurrence of x is raised to the second power, denoting squaring. Right image: This occurrence of x is raised to the second power, denoting squaring.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected 2 is the exponent of x in both expressions, with exponent value 2."
+}

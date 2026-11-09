@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents the hidden rear bottom edge DC of the cube. Right image: The dashed polyline is the plotted graph of function g, visually separated from solid graph f.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The visible y=g(x) label attaches the right dashes to the function curve itself. The two stroke styles therefore encode different contextual functions."
+}

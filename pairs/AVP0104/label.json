@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 60° in both images.",
+  "mathematical_meanings": "Left image: The marked triangle angle measures 60 degrees. Right image: The central angle MCN measures 60 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both labels quantify an angle as 60 degrees. One angle is at a triangle vertex and the other at a circle center; the numerical angle measure is the selected target."
+}

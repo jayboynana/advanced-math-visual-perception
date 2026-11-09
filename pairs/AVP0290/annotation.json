@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0290",
+  "authoring_id": "V03GM090",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_selection_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1458",
+    "sample_index": "1458",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1458",
+      "question": "The figure shows a semicircle with center $O$. Two of the angles are given. What is the size, in degrees, of the angle $\\alpha$?\n<image1>",
+      "options": [
+        "$9^{\\circ}$",
+        "$11^{\\circ}$",
+        "$16^{\\circ}$",
+        "$17.5^{\\circ}$",
+        "$18^{\\circ}$"
+      ],
+      "image": "images/1458.jpg",
+      "level": 2,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1458.jpg",
+    "sha256": "695f2e952134eb27f899b564e7c657605a7445c48c60f403bc755434dd818043",
+    "width": 484,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0290/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2276",
+    "sample_index": "2276",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "2276",
+      "question": "In this diagram $AB$ and $AC$ are the equal sides of an isosceles triangle $ABC$, in which is inscribed equilateral triangle $DEF$. Designate angle $BFD$ by $a$, angle $ADE$ by $b$, and angle $FEC$ by $c$. Then:\n<image1>",
+      "options": [
+        "$b=\\frac{a+c}{2}$",
+        "$b=\\frac{a-c}{2}$",
+        "$a=\\frac{b-c}{2}$",
+        "$a=\\frac{b+c}{2}$",
+        "$\\text{none of these}$"
+      ],
+      "image": "images/2276.jpg",
+      "level": 4,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/2276.jpg",
+    "sha256": "625d9e3fde47fdc2b74bbd39e43337e051eeabbb122be471223c04a9d3b1fff6",
+    "width": 429,
+    "height": 536,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0290/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small circular arc placed between two rays at their common vertex.",
+    "left_evidence": "The small arc bounding the 67° region at the lower-right end of the semicircle.",
+    "right_evidence": "The small arc beside b at D inside the triangle.",
+    "left_meaning": "It selects the vertex angle associated with the 67° label.",
+    "right_meaning": "It selects the angle at D associated with the variable b.",
+    "same_meaning": true,
+    "reason": "Each small arc selects a particular vertex angle and connects it to the nearby angle label or to the marked-angle relation. The target is that angle-selection convention, not equality of all labeled angle values."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small circular arc placed between two rays at their common vertex.",
+    "mathematical_meanings": "Left image: It selects the vertex angle associated with the 67° label. Right image: It selects the angle at D associated with the variable b.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each small arc selects a particular vertex angle and connects it to the nearby angle label or to the marked-angle relation. The target is that angle-selection convention, not equality of all labeled angle values."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0290",
+    "condition": "condition/geometric_markers/AVP0290"
+  }
+}

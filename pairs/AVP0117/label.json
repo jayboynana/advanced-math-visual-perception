@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 7 in both images.",
+  "mathematical_meanings": "Left image: Segment TR has length value 7. Right image: The left sloping side has length value 7.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The arrow-bracket label and the label next to a side both assign length value 7 to a selected segment."
+}

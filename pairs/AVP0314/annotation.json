@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0314",
+  "authoring_id": "V03SR014",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_circle_center",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "270",
+    "sample_index": "270",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 114,
+      "img_width": 102,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/270.jpg",
+    "sha256": "681205579f9792ec32780185b5e0abda7d2375d39c04d34f26e4e8945d4a291a",
+    "width": 102,
+    "height": 114,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0314/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "276",
+    "sample_index": "276",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 102,
+      "img_width": 102,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/276.jpg",
+    "sha256": "80f66f8b214d973f8399bdb2227b1526b6d00374665a8eebdfa9bc97e64d5832",
+    "width": 102,
+    "height": 102,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0314/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O beside the interior point from which segments extend to the circumference",
+    "right_evidence": "O beside the interior endpoint of the radius",
+    "left_meaning": "O names the center of the circle.",
+    "right_meaning": "O names the center of the circle.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at O beside the interior point from which segments extend to the circumference; the right occurrence is at O beside the interior endpoint of the radius. Both use the selected notation for the same circle-center naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: O names the center of the circle. Right image: O names the center of the circle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at O beside the interior point from which segments extend to the circumference; the right occurrence is at O beside the interior endpoint of the radius. Both use the selected notation for the same circle-center naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0314",
+    "condition": "condition/symbolic_roles/AVP0314"
+  }
+}

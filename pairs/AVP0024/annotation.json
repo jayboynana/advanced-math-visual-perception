@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0024",
+  "authoring_id": "NR24",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_angle_vs_constant",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "4",
+    "sample_index": "19",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_4.png",
+    "image_path": "pairs/AVP0024/left.png",
+    "sha256": "b6ac8b6724c9574d587e72c5a6414c1e35871f0afffab2911903bf2e7d989dca",
+    "width": 301,
+    "height": 231,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "600",
+    "sample_index": "2999",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_600.png",
+    "image_path": "pairs/AVP0024/right.png",
+    "sha256": "c8646403da405ab70b067bacb6471a061668d051e2c99d5ab8284e72b9602bc8",
+    "width": 1678,
+    "height": 1189,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The integer 36 in both images.",
+    "left_evidence": "The 36 in the angle label 36° at A in the lower-left part of the image.",
+    "right_evidence": "The 36 in the equation y=36−x² beside the parabola.",
+    "left_meaning": "The marked angle measures 36 degrees.",
+    "right_meaning": "The quadratic function expression has constant term 36.",
+    "same_meaning": false,
+    "reason": "The same integer specifies an angle's degree measure in one image and a function expression's constant term in the other."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The integer 36 in both images.",
+    "mathematical_meanings": "Left image: The marked angle measures 36 degrees. Right image: The quadratic function expression has constant term 36.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The same integer specifies an angle's degree measure in one image and a function expression's constant term in the other."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the displayed angle label and formula are used; the parabola is not solved.",
+  "views": {
+    "type": "type/different type/AVP0024",
+    "condition": "condition/numeric_representation/AVP0024"
+  }
+}

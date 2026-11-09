@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The integer 35 in both images.",
+  "mathematical_meanings": "Left image: Segment BD has a length value of 35. Right image: The horizontal dashed line marks the y-coordinate level 35.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "One value labels a sloping side's length; the other marks a y-coordinate reference level."
+}

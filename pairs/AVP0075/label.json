@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The lowercase letter y at the top of a vertical axis",
+  "mathematical_meanings": "Left image: y names the vertical coordinate axis and identifies the vertical-coordinate direction. Right image: y names the vertical coordinate axis and identifies the vertical-coordinate direction.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The image types differ, but the selected labels encode the same kind of coordinate direction."
+}

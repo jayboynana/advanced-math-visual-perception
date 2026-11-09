@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Decimal notations differing only by a minus sign: 8.5 and −8.5.",
+  "mathematical_meanings": "Left image: The corresponding triangle side has positive length value 8.5. Right image: The function's trough point has negative y-coordinate −8.5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The minus sign changes the complete numerical value; a side length and a y-coordinate also serve different roles."
+}

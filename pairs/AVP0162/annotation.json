@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0162",
+  "authoring_id": "V03NR062",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "constant_vs_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0162/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "236",
+    "sample_index": "236",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 423,
+      "img_width": 447,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/236.jpg",
+    "sha256": "9ea52f7fa1608f662c553380fb183adc4f5d133bfd84b3278ce71fcb097b3fbe",
+    "width": 447,
+    "height": 423,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0162/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 9 in both images.",
+    "left_evidence": "The 9 at the start of the radicand 9−(x−3)².",
+    "right_evidence": "The 9 beside the right side RT.",
+    "left_meaning": "The radicand has additive constant term 9.",
+    "right_meaning": "Segment RT has length value 9.",
+    "same_meaning": false,
+    "reason": "The selected 9 is an additive constant inside a function formula's radicand, while 9 beside RT specifies that segment's length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 9 in both images.",
+    "mathematical_meanings": "Left image: The radicand has additive constant term 9. Right image: Segment RT has length value 9.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected 9 is an additive constant inside a function formula's radicand, while 9 beside RT specifies that segment's length."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0162",
+    "condition": "condition/numeric_representation/AVP0162"
+  }
+}

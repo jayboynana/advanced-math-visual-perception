@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: x denotes the unknown length from Q-prime to Q. Right image: x denotes the unknown length of segment TR.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at x above the dimension segment from Q-prime to Q; the right occurrence is at x beside the left vertical segment TR. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

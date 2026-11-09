@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0212",
+  "authoring_id": "V03GM012",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2249",
+    "sample_index": "2249",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2249",
+      "question": "In rhombus $ABCD$, point $P$ lies on segment $\\overline{AD}$ such that $BP\\perp AD$, $AP = 3$, and $PD = 2$.  What is the area of $ABCD$?\n\n<image1>",
+      "options": [
+        "$3\\sqrt{5}$",
+        "$10$",
+        "$6\\sqrt{5}$",
+        "$20$",
+        "$25$"
+      ],
+      "image": "images/2249.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2249.jpg",
+    "sha256": "c4b849137376cae3b89e94443383bf7e6b7cd58e2ce2648d7c99ae0b93f32854",
+    "width": 653,
+    "height": 418,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0212/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2813",
+    "sample_index": "2813",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2813",
+      "question": "Consider the figure below, not drawn to scale.\\nIn this figure, assume that$AB \\perp BE$ and $AD  \\perp DE$. Also, let $AB = \\sqrt{6}$ and $\\angle BED =\\frac{\\pi}{6}$ . Find $AC$.\\n<image1>",
+      "options": [],
+      "image": "images/2813.jpg",
+      "level": 5,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2813.jpg",
+    "sha256": "9be13166c9fa201f1279045814ce87422902909e66126fb4f10de4f5f2d6529e",
+    "width": 243,
+    "height": 191,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0212/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square or rotated-square angle marker where two lines meet.",
+    "left_evidence": "The small square at P on the base AD, next to the vertical BP.",
+    "right_evidence": "The small outlined square at B between the vertical BA and horizontal BE.",
+    "left_meaning": "BP is perpendicular to AD at P.",
+    "right_meaning": "BA is perpendicular to BE at B.",
+    "same_meaning": true,
+    "reason": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square or rotated-square angle marker where two lines meet.",
+    "mathematical_meanings": "Left image: BP is perpendicular to AD at P. Right image: BA is perpendicular to BE at B.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0212",
+    "condition": "condition/geometric_markers/AVP0212"
+  }
+}

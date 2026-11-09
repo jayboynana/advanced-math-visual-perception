@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents an edge on the back of the cube, hidden in the solid view. Right image: It marks the partition of the square into the pieces used to form the rectangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes partition the square in a before-and-after piece rearrangement diagram. The two stroke styles therefore encode different contextual functions."
+}

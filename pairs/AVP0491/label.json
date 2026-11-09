@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal plotted trace",
+  "mathematical_meanings": "Left image: A constant function graph: the output remains c as the horizontal input varies. Right image: A constant-output part of the displayed piecewise function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected horizontal traces keep the function output constant across a horizontal interval; the first is a whole constant function and the second a piece of one."
+}

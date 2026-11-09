@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Hatching or color used to fill a selected region",
+  "mathematical_meanings": "Left image: A selected geometric subregion whose plane area is distinguished from the unhatched parts. Right image: A colored annotation selecting the interior of the angle between two rays.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The hatched triangle is a subarea inside a parallelogram. The red wedge is an angle marker between rays. The local boundaries show area-partition and angle-selection roles respectively."
+}

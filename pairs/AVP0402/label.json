@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A hollow circular marker on a plotted graph",
+  "mathematical_meanings": "Left image: A hole: this marked position on the curve is excluded; the separate filled point supplies the function value at the same horizontal coordinate. Right image: An excluded endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The first is an interior hole and the second an endpoint, but both hollow circles specifically exclude the marked position. No claim is made about excluding the entire corresponding y-value from the range."
+}

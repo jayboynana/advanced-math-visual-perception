@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 16 ft and 16.",
+  "mathematical_meanings": "Left image: The right side has length 16 feet. Right image: The numeral 16 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "16 ft specifies a side length, whereas the standalone 16 is a label identifying an angle region."
+}

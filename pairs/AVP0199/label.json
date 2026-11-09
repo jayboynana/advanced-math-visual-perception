@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 3 and 3 cm.",
+  "mathematical_meanings": "Left image: The unknown x is multiplied by coefficient 3 in an angle-measure expression. Right image: The left side has length 3 centimeters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 3 multiplies x in the angle expression 3x°; 3 cm specifies a side's length. A coefficient is not a measured side length."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An arrowhead at the right end of a horizontal line",
+  "mathematical_meanings": "Left image: It is an endpoint marker on a dimension line, defining the right boundary of the indicated length y. Right image: It indicates the positive t direction and the axis continuing to the right.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Both sides contain right-pointing arrowheads, but one bounds a finite dimension and the other indicates a coordinate-axis direction."
+}

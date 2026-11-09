@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The lowercase letter x in a horizontal distance annotation",
+  "mathematical_meanings": "Left image: x denotes the unknown length of the indicated horizontal distance. Right image: x denotes the unknown length of the indicated horizontal segment.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both are horizontal length variables; equality of the two unknown lengths is not asserted."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight line sloping upward or downward across a diagram",
+  "mathematical_meanings": "Left image: A boundary side of a geometric triangle, carrying a length annotation. Right image: A straight-line graph representing a variable relationship.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The length-labeled stroke bounds a finite triangle; the other stroke extends through Cartesian positions to express a variable relationship."
+}

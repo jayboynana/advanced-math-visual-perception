@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter O",
+  "mathematical_meanings": "Left image: O names the center of the circle. Right image: O names the center of the circle.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at O beside the center point in the circle; the right occurrence is at O beside the interior point joined to A, B and C. Both use the selected notation for the same circle-center naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

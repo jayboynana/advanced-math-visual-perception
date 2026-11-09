@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The expression kx² is divided by 2. Right image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The denominator 2 divides kx² in a formula; the standalone 2 in the other image identifies an angle region."
+}

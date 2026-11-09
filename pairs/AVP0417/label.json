@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled point on a coordinate plot",
+  "mathematical_meanings": "Left image: A designated coordinate position on the function graph. Right image: A designated coordinate position on the function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both dots pick out coordinate positions on the drawn function curves; logarithmic shape versus oscillation does not change the selected marker function."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents an edge on the hidden rear part of the icosahedron. Right image: It indicates a cut position through the folded wire.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The scissors and the vertical broken guide on the right explicitly identify a cutting position through the wire. The two stroke styles therefore encode different contextual functions."
+}

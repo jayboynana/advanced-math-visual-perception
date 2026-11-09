@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 10 in both images.",
+  "mathematical_meanings": "Left image: Segment RS has length value 10. Right image: The bottom side has length value 10.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both occurrences of 10 specify the length value of a bottom segment."
+}

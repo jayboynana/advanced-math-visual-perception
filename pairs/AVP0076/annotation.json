@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0076",
+  "authoring_id": "GR01",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "dashed_perpendicular_projection",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "354",
+    "sample_index": "1769",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_354.png",
+    "image_path": "pairs/AVP0076/left.png",
+    "sha256": "d6126f23fabcc04eca8a6f1083864088d987dd45349a849353ff4a2dded4f271",
+    "width": 316,
+    "height": 211,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "345",
+    "sample_index": "1724",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_345.png",
+    "image_path": "pairs/AVP0076/right.png",
+    "sha256": "586b4a377a1b5eb7eb394367ee1aa42f4f556f88707c0afbbe16233c3b10c5c3",
+    "width": 290,
+    "height": 316,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Vertical dashed line",
+    "left_evidence": "The black vertical dashed line from B down to C on the horizontal base, with a right-angle box beside C.",
+    "right_evidence": "The black vertical dashed line rising from the lower-left endpoint to the horizontal reference line, with a right-angle box beside its upper end.",
+    "left_meaning": "A geometric auxiliary line that projects a vertex perpendicularly onto the horizontal base.",
+    "right_meaning": "A geometric auxiliary line that projects the lower endpoint perpendicularly onto the horizontal reference line.",
+    "same_meaning": true,
+    "reason": "Both dashed lines serve as auxiliary lines for perpendicular projection; the particular setting and endpoint names do not change this role."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Vertical dashed line",
+    "mathematical_meanings": "Left image: A geometric auxiliary line that projects a vertex perpendicularly onto the horizontal base. Right image: A geometric auxiliary line that projects the lower endpoint perpendicularly onto the horizontal reference line.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both dashed lines serve as auxiliary lines for perpendicular projection; the particular setting and endpoint names do not change this role."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0076",
+    "condition": "condition/graphical_roles/AVP0076"
+  }
+}

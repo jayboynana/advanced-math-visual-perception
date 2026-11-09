@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A single short tick crossing a line segment",
+  "mathematical_meanings": "Left image: The horizontal radius belongs to the equal-length group identified by single ticks and has the same length as the radius on the right. Right image: The horizontal radius belongs to the equal-length group identified by single ticks and has the same length as the slanted radius.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Repeated single ticks encode equal lengths in both images; this item compares the meaning of the ticks, rather than the specific lengths."
+}

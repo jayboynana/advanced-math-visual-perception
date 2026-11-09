@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0318",
+  "authoring_id": "V03SR018",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "378",
+    "sample_index": "378",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 111,
+      "img_width": 118,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/378.jpg",
+    "sha256": "59a1bd47fbe4623cb1244054010980d649ad4a4a86df80a8b22fa76103d4f674",
+    "width": 118,
+    "height": 111,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0318/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "410",
+    "sample_index": "410",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 226,
+      "img_width": 405,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/410.jpg",
+    "sha256": "0efd43dc32ecb397b24661ccc727280a937c44f4812e77d75ec5758915f6bc75",
+    "width": 405,
+    "height": 226,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0318/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter C",
+    "left_evidence": "C at the right endpoint of the base",
+    "right_evidence": "C at the upper-right endpoint of the vertical side",
+    "left_meaning": "C names the indicated geometric point.",
+    "right_meaning": "C names the indicated geometric point.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at C at the right endpoint of the base; the right occurrence is at C at the upper-right endpoint of the vertical side. Both use the selected notation for the same point-naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter C",
+    "mathematical_meanings": "Left image: C names the indicated geometric point. Right image: C names the indicated geometric point.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at C at the right endpoint of the base; the right occurrence is at C at the upper-right endpoint of the vertical side. Both use the selected notation for the same point-naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0318",
+    "condition": "condition/symbolic_roles/AVP0318"
+  }
+}

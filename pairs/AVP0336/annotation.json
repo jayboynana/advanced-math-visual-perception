@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0336",
+  "authoring_id": "V03SR036",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_function_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "554",
+    "sample_index": "2769",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_554.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0336/left.png",
+    "width": 320,
+    "height": 331,
+    "sha256": "bb1df247e064c7c4bd43817630b5a3e6e15c694e826d359a83dfe091c8606afd"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "576",
+    "sample_index": "2879",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_576.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0336/right.png",
+    "width": 289,
+    "height": 296,
+    "sha256": "52b584c0d504209f19663da24c0d719174f0ebfb5e5900a40de731a4add78d5d"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter p",
+    "left_evidence": "p beside the right branch of the curve",
+    "right_evidence": "p beside the upper-right curve",
+    "left_meaning": "p names the function represented by the indicated curve.",
+    "right_meaning": "p names the function represented by the indicated curve.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at p beside the right branch of the curve; the right occurrence is at p beside the upper-right curve. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter p",
+    "mathematical_meanings": "Left image: p names the function represented by the indicated curve. Right image: p names the function represented by the indicated curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at p beside the right branch of the curve; the right occurrence is at p beside the upper-right curve. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0336",
+    "condition": "condition/symbolic_roles/AVP0336"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0149",
+  "authoring_id": "V03NR049",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_index_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "499",
+    "sample_index": "499",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 323,
+      "img_width": 559,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/499.jpg",
+    "sha256": "712f62f8fc16513e4248b629736560c07bef1c337804c20d154b417a4b326750",
+    "width": 559,
+    "height": 323,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0149/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "633",
+    "sample_index": "633",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 330,
+      "img_width": 361,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/633.jpg",
+    "sha256": "4d34a09cab2a38fe516766cc0b5bb23fb288e52f59946fe7d29c0e0254245b75",
+    "width": 361,
+    "height": 330,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0149/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 8 in both images.",
+    "left_evidence": "The standalone 8 inside the right-hand angle at the intersection of the rectangle's diagonals.",
+    "right_evidence": "The standalone 8 above the lower sloping line, to the left of the left vertical line.",
+    "left_meaning": "The numeral 8 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "right_meaning": "The numeral 8 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "same_meaning": true,
+    "reason": "Both standalone 8s are angle-region indices. They distinguish which angle is being referred to, without supplying its measure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+    "mathematical_meanings": "Left image: The numeral 8 identifies the adjacent angle region; it is an angle index, not a degree measure. Right image: The numeral 8 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both standalone 8s are angle-region indices. They distinguish which angle is being referred to, without supplying its measure."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0149",
+    "condition": "condition/numeric_representation/AVP0149"
+  }
+}

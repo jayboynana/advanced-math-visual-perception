@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0163",
+  "authoring_id": "V03NR063",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "coefficient_vs_angle_index",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "23",
+    "sample_index": "23",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 393,
+      "img_width": 552,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/23.jpg",
+    "sha256": "a199c743b167cb244d413e0e356382abb4a077553de44fedf1f74eec15f8e23a",
+    "width": 552,
+    "height": 393,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0163/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "633",
+    "sample_index": "633",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 330,
+      "img_width": 361,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/633.jpg",
+    "sha256": "4d34a09cab2a38fe516766cc0b5bb23fb288e52f59946fe7d29c0e0254245b75",
+    "width": 361,
+    "height": 330,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0163/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The coefficient 2 in f(x)=|2x−3|+1 beside the graph.",
+    "right_evidence": "The standalone 2 below the lower sloping line, to the right of the left vertical line.",
+    "left_meaning": "The variable x is multiplied by coefficient 2 within the absolute value.",
+    "right_meaning": "The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "same_meaning": false,
+    "reason": "The selected 2 multiplies x in the function expression, while the standalone 2 in the line diagram identifies an angle region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The variable x is multiplied by coefficient 2 within the absolute value. Right image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected 2 multiplies x in the function expression, while the standalone 2 in the line diagram identifies an angle region."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/different type/AVP0163",
+    "condition": "condition/numeric_representation/AVP0163"
+  }
+}

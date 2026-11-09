@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The integer 13 in both images.",
+  "mathematical_meanings": "Left image: The quadrilateral's left side has numerical length value 13, in m. Right image: The function point has y-coordinate 13.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The integer values match, but one labels a side length and the other a y-coordinate."
+}

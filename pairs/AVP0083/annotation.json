@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0083",
+  "authoring_id": "GR08",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "included_endpoint_vs_interior_position",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "483",
+    "sample_index": "2414",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_483.png",
+    "image_path": "pairs/AVP0083/left.png",
+    "sha256": "4dec5a0bc94723f8b5b08f8a391060539ae4c1a78ea26d2db1bb03419831d42a",
+    "width": 461,
+    "height": 462,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "531",
+    "sample_index": "2654",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_531.png",
+    "image_path": "pairs/AVP0083/right.png",
+    "sha256": "0d4da8413824162cfe5cf18f5030b4c24190d64b23918b968231c89126f665c7",
+    "width": 397,
+    "height": 405,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Filled circular marker on a curve",
+    "left_evidence": "The blue filled circular marker at the left endpoint of the arch-shaped curve, on the horizontal axis.",
+    "right_evidence": "The orange filled circular marker labeled (1.2,5.5) near a peak of the waveform.",
+    "left_meaning": "A closed-endpoint marker indicating that the left endpoint belongs to this segment of the function graph.",
+    "right_meaning": "A special-position marker identifying a peak of the waveform whose coordinates can be read.",
+    "same_meaning": false,
+    "reason": "The left marker encodes endpoint inclusion, whereas the right marker highlights an interior coordinate position; an interior marker should not be interpreted as a domain endpoint."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Filled circular marker on a curve",
+    "mathematical_meanings": "Left image: A closed-endpoint marker indicating that the left endpoint belongs to this segment of the function graph. Right image: A special-position marker identifying a peak of the waveform whose coordinates can be read.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left marker encodes endpoint inclusion, whereas the right marker highlights an interior coordinate position; an interior marker should not be interpreted as a domain endpoint."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0083",
+    "condition": "condition/graphical_roles/AVP0083"
+  }
+}

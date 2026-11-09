@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 3 and 3 cm.",
+  "mathematical_meanings": "Left image: The variable x is cubed; 3 is its exponent. Right image: The left side has length 3 centimeters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 3 is the exponent in x³ in the first image; 3 cm is a measured side length in the second."
+}

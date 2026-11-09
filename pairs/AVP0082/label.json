@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Hollow circle at a curve endpoint",
+  "mathematical_meanings": "Left image: The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint. Right image: The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both hollow endpoints indicate endpoint exclusion. This does not establish that the corresponding vertical-coordinate value is absent from the range of the entire function."
+}

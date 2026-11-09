@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0393",
+  "authoring_id": "V03SR093",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_variable_vs_length_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "342",
+    "sample_index": "342",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 299,
+      "img_width": 405,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/342.jpg",
+    "sha256": "93e5258b782c40f8859455c43566e9cd804312a9ac3b808b281de64eb96dc793",
+    "width": 405,
+    "height": 299,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0393/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "348",
+    "sample_index": "1739",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_348.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0393/right.png",
+    "width": 485,
+    "height": 387,
+    "sha256": "89518c8cde1c7be57f9eca83e6a4df31d17358f36fdf33b5007522e8cfa0ead9"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter d",
+    "left_evidence": "d° at the exterior angle above the top vertex",
+    "right_evidence": "d beside the sloping segment to the landing pad",
+    "left_meaning": "d denotes the unknown exterior angle measure at the top vertex, in degrees.",
+    "right_meaning": "d denotes the unknown sloping distance to the landing pad.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to d° at the exterior angle above the top vertex supports the meaning: d denotes the unknown exterior angle measure at the top vertex, in degrees. On the right, the context is d beside the sloping segment to the landing pad, where d denotes the unknown sloping distance to the landing pad. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter d",
+    "mathematical_meanings": "Left image: d denotes the unknown exterior angle measure at the top vertex, in degrees. Right image: d denotes the unknown sloping distance to the landing pad.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to d° at the exterior angle above the top vertex supports the meaning: d denotes the unknown exterior angle measure at the top vertex, in degrees. On the right, the context is d beside the sloping segment to the landing pad, where d denotes the unknown sloping distance to the landing pad. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0393",
+    "condition": "condition/symbolic_roles/AVP0393"
+  }
+}

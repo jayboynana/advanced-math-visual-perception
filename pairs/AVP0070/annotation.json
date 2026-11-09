@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0070",
+  "authoring_id": "SR20",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_vs_independent_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "379",
+    "sample_index": "1894",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_379.png",
+    "image_path": "pairs/AVP0070/left.png",
+    "sha256": "e0f7cec9a4305dc73caac9b7f2f3fead953e6f058704be317f6099242884a5d4",
+    "width": 386,
+    "height": 166,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "544",
+    "sample_index": "2719",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_544.png",
+    "image_path": "pairs/AVP0070/right.png",
+    "sha256": "b9c51556150d73c295728fb47b2df50830a2def5f02061cb463600aae616f8e3",
+    "width": 344,
+    "height": 356,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter t",
+    "left_evidence": "t beside the double-headed dimension line spanning the entire base",
+    "right_evidence": "t at the right end of the horizontal axis in the wave graph",
+    "left_meaning": "t denotes the unknown total horizontal length of the geometric figure.",
+    "right_meaning": "t names the independent variable on the horizontal axis.",
+    "same_meaning": false,
+    "reason": "A length-dimension label differs from an independent-variable axis label. The right image does not specify a unit, so no time unit is inferred."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter t",
+    "mathematical_meanings": "Left image: t denotes the unknown total horizontal length of the geometric figure. Right image: t names the independent variable on the horizontal axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "A length-dimension label differs from an independent-variable axis label. The right image does not specify a unit, so no time unit is inferred."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0070",
+    "condition": "condition/symbolic_roles/AVP0070"
+  }
+}

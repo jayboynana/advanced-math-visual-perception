@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upright coordinate axis",
+  "mathematical_meanings": "Left image: The vertical coordinate axis that locates positions by their y-coordinate. Right image: The vertical coordinate axis used to read graph output coordinates.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both upright lines are y-coordinate references; the circle construction and function graph use them to locate vertical positions."
+}

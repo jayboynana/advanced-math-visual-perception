@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 12 in both images.",
+  "mathematical_meanings": "Left image: Segment AB has length value 12. Right image: The numeral 12 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 12 quantifies side AB's length; the other 12 is an angle-region index with no degree unit."
+}

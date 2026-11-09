@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A tilted unfilled square angle marker",
+  "mathematical_meanings": "Left image: It indicates that the two slanted sides at the topmost vertex are perpendicular. Right image: It indicates that the slanted straight line at B is perpendicular to the radius BP.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both locations use the same type of right-angle square; its placement at a triangle vertex or near a circle does not change its meaning."
+}

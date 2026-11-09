@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0087",
+  "authoring_id": "GR12",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "fixed_height_reference_line",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "548",
+    "sample_index": "2739",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_548.png",
+    "image_path": "pairs/AVP0087/left.png",
+    "sha256": "c4370ad4e74cb37b40f18c64f1f7ce984a58575c1dac3543db79415174212794",
+    "width": 291,
+    "height": 299,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "542",
+    "sample_index": "2709",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_542.png",
+    "image_path": "pairs/AVP0087/right.png",
+    "sha256": "f0f9ec9c7cd61312db09be704f35d7d35020405b0dd14261098cce063299baeb",
+    "width": 405,
+    "height": 412,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Horizontal dashed line",
+    "left_evidence": "The magenta horizontal dashed line at an intermediate height of the cyan waveform, approximately y=35.",
+    "right_evidence": "The magenta horizontal dashed line passing through the orange point labeled (-π/2,3.3).",
+    "left_meaning": "Provides a horizontal comparison reference at a fixed vertical-coordinate level.",
+    "right_meaning": "Provides a horizontal comparison reference at a fixed vertical-coordinate level.",
+    "same_meaning": true,
+    "reason": "Both show a fixed vertical-coordinate level as a horizontal auxiliary reference; their numerical heights need not match, and no midline is calculated from them."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Horizontal dashed line",
+    "mathematical_meanings": "Left image: Provides a horizontal comparison reference at a fixed vertical-coordinate level. Right image: Provides a horizontal comparison reference at a fixed vertical-coordinate level.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both show a fixed vertical-coordinate level as a horizontal auxiliary reference; their numerical heights need not match, and no midline is calculated from them."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0087",
+    "condition": "condition/graphical_roles/AVP0087"
+  }
+}

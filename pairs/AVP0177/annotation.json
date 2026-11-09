@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0177",
+  "authoring_id": "V03NR077",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "length_vs_angle_index",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "757",
+    "sample_index": "757",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 165,
+      "img_width": 220,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/757.jpg",
+    "sha256": "102f0408f9c40acee5bf92aea7941e8cb28e0ab2a47110e4420fabc7e7614c57",
+    "width": 220,
+    "height": 165,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0177/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "938",
+    "sample_index": "938",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 278,
+      "img_width": 417,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/938.jpg",
+    "sha256": "1a8da0f8af8c4e5c7294235a208d4b11c2f7af038cf95277c19a55f538a5502a",
+    "width": 417,
+    "height": 278,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0177/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 12 in both images.",
+    "left_evidence": "The 12 on the lower secant portion inside the circle.",
+    "right_evidence": "The standalone 12 below transversal t, to the left of the rightmost vertical line n.",
+    "left_meaning": "The internal portion of the lower secant has length value 12.",
+    "right_meaning": "The numeral 12 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "same_meaning": false,
+    "reason": "The selected 12 gives an internal secant portion's length value; the other 12 merely identifies a particular angle region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 12 in both images.",
+    "mathematical_meanings": "Left image: The internal portion of the lower secant has length value 12. Right image: The numeral 12 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected 12 gives an internal secant portion's length value; the other 12 merely identifies a particular angle region."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0177",
+    "condition": "condition/numeric_representation/AVP0177"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 10 in both images.",
+  "mathematical_meanings": "Left image: The exterior secant segment has length value 10. Right image: The numeral 10 identifies the adjacent angle region; it is an angle index, not a degree measure.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 10 is a segment-length value on a secant; the other 10 names an angle region at a line crossing."
+}

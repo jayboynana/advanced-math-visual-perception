@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Parentheses in mathematical notation",
+  "mathematical_meanings": "Left image: The parentheses specify the input x of function f; f(x) denotes its output. Right image: The parentheses specify the input x of function f; f(x) denotes its output.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at (x) in f(x) = x + 3; the right occurrence is at (x) in f(x) = ln x. Both use the selected notation for the same function-input notation. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

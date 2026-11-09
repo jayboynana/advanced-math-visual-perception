@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal axis in a coordinate diagram",
+  "mathematical_meanings": "Left image: The horizontal coordinate axis that locates points by their x-coordinate. Right image: The horizontal coordinate axis used to read the graph independent variable.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected line is the horizontal coordinate reference in both diagrams. Time is the explicit variable on the right; no equality between the coordinate quantities is asserted."
+}

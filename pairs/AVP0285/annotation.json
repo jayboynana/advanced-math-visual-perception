@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0285",
+  "authoring_id": "V03GM085",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_dash_vs_non_occlusion_role",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2036",
+    "sample_index": "2036",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "id": "2036",
+      "question": "The solid shown has a square base of side length $s$.  The upper edge is parallel to the base and has length $2s$.  All other edges have length $s$.  Given that $s = 6 \\sqrt{2}$, what is the volume of the solid?\n<image1>",
+      "options": [],
+      "image": "images/2036.jpg",
+      "level": 3,
+      "subject": "solid geometry"
+    },
+    "original_relative_path": "images/2036.jpg",
+    "sha256": "1f17b2fe99949476220c5240ddd7d60f4fc60e46c8d310a01f1321cb2a8d9bd7",
+    "width": 616,
+    "height": 416,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0285/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2540",
+    "sample_index": "2540",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2540",
+      "question": "The area of this figure is $ 100\\text{ cm}^{2} $. Its perimeter is\n\n\n<image1>",
+      "options": [
+        "$\\text{20 cm}$",
+        "$\\text{25 cm}$",
+        "$\\text{30 cm}$",
+        "$\\text{40 cm}$",
+        "$\\text{50 cm}$"
+      ],
+      "image": "images/2540.jpg",
+      "level": 2,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2540.jpg",
+    "sha256": "f78ea808b1e149898a6bf27856e6466c56664ebc08a94cc6171f057c31f223c1",
+    "width": 545,
+    "height": 377,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0285/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A line or boundary made of separated short strokes.",
+    "left_evidence": "The dashed segments from the interior rear vertex toward the left and right base vertices.",
+    "right_evidence": "The dashed horizontal segment inside the two-rectangle planar figure.",
+    "left_meaning": "They represent rear edges of the solid that are hidden from this viewing direction.",
+    "right_meaning": "It marks an interior subdivision of the planar figure, rather than a hidden edge of a solid.",
+    "same_meaning": false,
+    "reason": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes subdivide the interior of a flat composite outline and are distinct from its outer perimeter. The two stroke styles therefore encode different contextual functions."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+    "mathematical_meanings": "Left image: They represent rear edges of the solid that are hidden from this viewing direction. Right image: It marks an interior subdivision of the planar figure, rather than a hidden edge of a solid.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes subdivide the interior of a flat composite outline and are distinct from its outer perimeter. The two stroke styles therefore encode different contextual functions."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0285",
+    "condition": "condition/geometric_markers/AVP0285"
+  }
+}

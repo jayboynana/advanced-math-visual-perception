@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations −2 and 2.",
+  "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value −2. Right image: The selected tick denotes y-coordinate value 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Both labels are on vertical coordinate scales, but −2 and 2 differ in sign and value."
+}

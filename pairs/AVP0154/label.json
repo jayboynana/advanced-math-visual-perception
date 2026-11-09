@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 4 and 4 m.",
+  "mathematical_meanings": "Left image: The numeral 4 identifies an angle region at T; it is an angle index, not a degree measure. Right image: The top side has length 4 meters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The standalone 4 numbers an angle region in the first image; 4 m quantifies a side length in the second. Angle indexing and length measurement are distinct roles."
+}

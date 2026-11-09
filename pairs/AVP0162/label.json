@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 9 in both images.",
+  "mathematical_meanings": "Left image: The radicand has additive constant term 9. Right image: Segment RT has length value 9.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 9 is an additive constant inside a function formula's radicand, while 9 beside RT specifies that segment's length."
+}

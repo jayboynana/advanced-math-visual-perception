@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0071",
+  "authoring_id": "SR21",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "coordinate_parentheses_vs_argument",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "441",
+    "sample_index": "2204",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_441.png",
+    "image_path": "pairs/AVP0071/left.png",
+    "sha256": "8ad5b1f578fbccf95fb94961e90a8ee238726223f52f2c759c718f3d0b42b21d",
+    "width": 1976,
+    "height": 1723,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "588",
+    "sample_index": "2939",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_588.png",
+    "image_path": "pairs/AVP0071/right.png",
+    "sha256": "85d433c2ba4b96954702618fb59510b833f74a1bbc2b8353fb330d48b3202cf4",
+    "width": 2324,
+    "height": 1929,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Parentheses following a name: P(3/5, 4/5) and f(x)",
+    "left_evidence": "The parentheses in P(3/5, 4/5) beside point P on the circle",
+    "right_evidence": "The parentheses in f(x) in the formula f(x) = ln x",
+    "left_meaning": "The parentheses enclose the ordered coordinate pair of P, giving its horizontal and vertical coordinates in that order.",
+    "right_meaning": "The parentheses specify the input x to function f; f(x) denotes its value.",
+    "same_meaning": false,
+    "reason": "Ordered-pair notation and function-input notation use similar parentheses for different mathematical purposes."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Parentheses following a name: P(3/5, 4/5) and f(x)",
+    "mathematical_meanings": "Left image: The parentheses enclose the ordered coordinate pair of P, giving its horizontal and vertical coordinates in that order. Right image: The parentheses specify the input x to function f; f(x) denotes its value.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Ordered-pair notation and function-input notation use similar parentheses for different mathematical purposes."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0071",
+    "condition": "condition/symbolic_roles/AVP0071"
+  }
+}

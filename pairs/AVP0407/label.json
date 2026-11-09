@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular endpoint marker",
+  "mathematical_meanings": "Left image: An included endpoint of the selected step of the function graph. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each dot closes the end of a plotted branch, indicating membership of that endpoint in the graph; the first graph has steps and the second a curved arc."
+}

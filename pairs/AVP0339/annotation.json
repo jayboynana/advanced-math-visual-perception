@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0339",
+  "authoring_id": "V03SR039",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_horizontal_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "409",
+    "sample_index": "409",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 358,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/409.jpg",
+    "sha256": "66ef4a559e6a91d48cc28ffb85ddba90038658af0c8f43a5c6d8e9fbacdd86bf",
+    "width": 358,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0339/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "39",
+    "sample_index": "39",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 304,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/39.jpg",
+    "sha256": "db7ad4e314424f84b9e01e4da8f45b4aa27229686b8668eee1a386488b4bdf43",
+    "width": 433,
+    "height": 304,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0339/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x at the right end of the horizontal coordinate axis",
+    "right_evidence": "x at the right end of the horizontal axis",
+    "left_meaning": "x labels the horizontal coordinate axis.",
+    "right_meaning": "x labels the horizontal coordinate axis or independent-variable direction.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at x at the right end of the horizontal coordinate axis; the right occurrence is at x at the right end of the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x labels the horizontal coordinate axis. Right image: x labels the horizontal coordinate axis or independent-variable direction.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at x at the right end of the horizontal coordinate axis; the right occurrence is at x at the right end of the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0339",
+    "condition": "condition/symbolic_roles/AVP0339"
+  }
+}

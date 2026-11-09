@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled polygonal interior",
+  "mathematical_meanings": "Left image: The interior area of the displayed plane polygon. Right image: The interior area of the displayed plane polygon.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The complete closed polygon is filled in both diagrams. The fill selects its plane area rather than a local angle or an unbounded solution set."
+}

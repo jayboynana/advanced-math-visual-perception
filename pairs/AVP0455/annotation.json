@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0455",
+  "authoring_id": "V03GR055",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "principal_function_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "39",
+    "sample_index": "39",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 304,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/39.jpg",
+    "sha256": "db7ad4e314424f84b9e01e4da8f45b4aa27229686b8668eee1a386488b4bdf43",
+    "width": 433,
+    "height": 304,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0455/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "516",
+    "sample_index": "2579",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_516.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0455/right.png",
+    "width": 565,
+    "height": 494,
+    "sha256": "b52f3a7ec85e87b5ed7eb86c9c217fba6634569371806f165e47fc124f59f851"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The principal smooth curve in a coordinate plot",
+    "left_evidence": "The blue increasing curve next to the formula y=a^x, a>1.",
+    "right_evidence": "The black increasing curve labeled y=4^x.",
+    "left_meaning": "A function graph relating y to x.",
+    "right_meaning": "A function graph relating y to x.",
+    "same_meaning": true,
+    "reason": "Both principal curves are explicitly labeled exponential y-expressions; their x and y positions encode corresponding input-output values."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The principal smooth curve in a coordinate plot",
+    "mathematical_meanings": "Left image: A function graph relating y to x. Right image: A function graph relating y to x.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both principal curves are explicitly labeled exponential y-expressions; their x and y positions encode corresponding input-output values."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0455",
+    "condition": "condition/graphical_roles/AVP0455"
+  }
+}

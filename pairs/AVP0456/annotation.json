@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0456",
+  "authoring_id": "V03GR056",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "principal_function_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "120",
+    "sample_index": "120",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 320,
+      "img_width": 312,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/120.jpg",
+    "sha256": "e4d8cab9a1dad270e328673a9180a980609d7fc6b8f44c5cfec9ce09dab46eca",
+    "width": 312,
+    "height": 320,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0456/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "477",
+    "sample_index": "2384",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_477.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0456/right.png",
+    "width": 459,
+    "height": 465,
+    "sha256": "a92289fc5d67a4fd3c9993b2475d45a7fc10309db37147e08114b5f90a691fb8"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An S-shaped curve crossing Cartesian axes",
+    "left_evidence": "The black S-shaped curve crossing the origin in the coordinate grid.",
+    "right_evidence": "The blue S-shaped graph with arrows at its ends.",
+    "left_meaning": "A function graph relating y to x.",
+    "right_meaning": "A function graph relating y to x.",
+    "same_meaning": true,
+    "reason": "Both curves are drawn as the principal y-versus-x graph. Their similar form is interpreted in the shared coordinate context, without claiming identical formulas."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An S-shaped curve crossing Cartesian axes",
+    "mathematical_meanings": "Left image: A function graph relating y to x. Right image: A function graph relating y to x.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both curves are drawn as the principal y-versus-x graph. Their similar form is interpreted in the shared coordinate context, without claiming identical formulas."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0456",
+    "condition": "condition/graphical_roles/AVP0456"
+  }
+}

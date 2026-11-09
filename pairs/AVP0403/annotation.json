@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0403",
+  "authoring_id": "V03GR003",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "open_point_exclusion",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0403/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "482",
+    "sample_index": "2409",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_482.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0403/right.png",
+    "width": 462,
+    "height": 465,
+    "sha256": "b3bab1894e3e80eee6d4130e9718c91679d76fc01f8f9d293c816bec0ee78b67"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A hollow circular marker on a plotted graph",
+    "left_evidence": "The hollow circle at the upper end of the sloping straight branch, at x=1.",
+    "right_evidence": "The hollow circle at the upper-left endpoint of the descending blue segment.",
+    "left_meaning": "The straight branch excludes that endpoint, consistent with the printed restriction x<1.",
+    "right_meaning": "An excluded endpoint of the displayed function segment.",
+    "same_meaning": true,
+    "reason": "The printed x<1 restriction supports endpoint exclusion on the left, and the hollow segment endpoint encodes exclusion on the right. Both use the same open-point convention."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A hollow circular marker on a plotted graph",
+    "mathematical_meanings": "Left image: The straight branch excludes that endpoint, consistent with the printed restriction x<1. Right image: An excluded endpoint of the displayed function segment.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The printed x<1 restriction supports endpoint exclusion on the left, and the hollow segment endpoint encodes exclusion on the right. Both use the same open-point convention."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0403",
+    "condition": "condition/graphical_roles/AVP0403"
+  }
+}

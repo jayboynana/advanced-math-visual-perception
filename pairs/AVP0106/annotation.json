@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0106",
+  "authoring_id": "V03NR006",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "523",
+    "sample_index": "523",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 179,
+      "img_width": 285,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/523.jpg",
+    "sha256": "2a6e9b87c4e152dda6c6a0aaca204867a8788f6e0fb1e890e2fa1c9ac22bfc74",
+    "width": 285,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0106/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "1844",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_369.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0106/right.png",
+    "width": 209,
+    "height": 235,
+    "sha256": "e5031eabb94610b56b4ea8fd9e381d24b62d547331026a258b0808a34b7ef148"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 30° in both images.",
+    "left_evidence": "The 30° beside A at the left end of the horizontal ground line.",
+    "right_evidence": "The 30° inside the triangle at A.",
+    "left_meaning": "The marked angle between the ground and AC measures 30 degrees.",
+    "right_meaning": "The interior angle at A measures 30 degrees.",
+    "same_meaning": true,
+    "reason": "Both selected labels give an angle measure of 30 degrees."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 30° in both images.",
+    "mathematical_meanings": "Left image: The marked angle between the ground and AC measures 30 degrees. Right image: The interior angle at A measures 30 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected labels give an angle measure of 30 degrees."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0106",
+    "condition": "condition/numeric_representation/AVP0106"
+  }
+}

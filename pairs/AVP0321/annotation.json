@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0321",
+  "authoring_id": "V03SR021",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_angle_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "5",
+    "sample_index": "5",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 245,
+      "img_width": 322,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/5.jpg",
+    "sha256": "fd1d37b4d06f0a6d5ce1329719f2353f3aa1a9281c36f3d61dfc612f259cb5d7",
+    "width": 322,
+    "height": 245,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0321/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "88",
+    "sample_index": "88",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 277,
+      "img_width": 442,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/88.jpg",
+    "sha256": "5588a8f994eabf4157bcc49b253164469641b7c991f3b7a838f14987449deac7",
+    "width": 442,
+    "height": 277,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0321/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x° at the left vertex E of the pentagon",
+    "right_evidence": "x° immediately above the line to the left of P",
+    "left_meaning": "x denotes the unknown angle measure at E, in degrees.",
+    "right_meaning": "x denotes the unknown angle between the line and a side of the square, in degrees.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at x° at the left vertex E of the pentagon; the right occurrence is at x° immediately above the line to the left of P. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown angle measure at E, in degrees. Right image: x denotes the unknown angle between the line and a side of the square, in degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at x° at the left vertex E of the pentagon; the right occurrence is at x° immediately above the line to the left of P. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0321",
+    "condition": "condition/symbolic_roles/AVP0321"
+  }
+}

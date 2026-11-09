@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Parentheses in mathematical notation",
+  "mathematical_meanings": "Left image: The parentheses specify the input x of function f; f(x) denotes its output. Right image: The parentheses give the ordered horizontal and vertical coordinates of point P.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, attachment to (x) in f(x) = 2^x supports the meaning: The parentheses specify the input x of function f; f(x) denotes its output. On the right, the context is P(3/5, 4/5) beside the point on the circle, where The parentheses give the ordered horizontal and vertical coordinates of point P. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+}

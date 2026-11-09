@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 45° and (1/4)π.",
+  "mathematical_meanings": "Left image: The marked angle at A measures 45 degrees. Right image: The marked upper point has x-coordinate π/4.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "45° and π/4 are numerically equivalent as an angle conversion, but the first is an angle measure and the second is a point's x-coordinate."
+}

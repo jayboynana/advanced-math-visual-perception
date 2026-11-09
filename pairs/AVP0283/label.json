@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents a hidden rear edge of the cube, behind the sphere in the drawing. Right image: It is an auxiliary perpendicular projection segment used to construct a right triangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashed projection ends at an explicit right-angle foot on the base, establishing a planar perpendicular construction. The two stroke styles therefore encode different contextual functions."
+}

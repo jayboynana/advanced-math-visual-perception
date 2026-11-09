@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0013",
+  "authoring_id": "NR13",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_pi_value_angle_vs_abscissa",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "image_path": "pairs/AVP0013/left.png",
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
+    "width": 254,
+    "height": 259,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "530",
+    "sample_index": "2649",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_530.png",
+    "image_path": "pairs/AVP0013/right.png",
+    "sha256": "ac12d4c4bd8d53c82fa7760943c76ce042f6858e5e4c1a6705d978871ae0fa4a",
+    "width": 397,
+    "height": 404,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Equivalent layouts for one real number: π/4 and (1/4)π.",
+    "left_evidence": "The angle label π/4 at the origin.",
+    "right_evidence": "The first component, (1/4)π, of the upper orange point's coordinate label ((1/4)π,−2.2).",
+    "left_meaning": "The label gives the marked angle's measure in radians at the origin.",
+    "right_meaning": "The label gives the marked point's x-coordinate on the function graph.",
+    "same_meaning": false,
+    "reason": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Equivalent layouts for one real number: π/4 and (1/4)π.",
+    "mathematical_meanings": "Left image: The label gives the marked angle's measure in radians at the origin. Right image: The label gives the marked point's x-coordinate on the function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The user's central example is retained; only the numerical target π/4 is selected.",
+  "views": {
+    "type": "type/different type/AVP0013",
+    "condition": "condition/numeric_representation/AVP0013"
+  }
+}

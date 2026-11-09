@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0468",
+  "authoring_id": "V03GR068",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "767",
+    "sample_index": "767",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 429,
+      "img_width": 483,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/767.jpg",
+    "sha256": "23b04858f8b5e053ed85f1b22514ab1eefae59a613b4e7d48c43a8eb1959e0c5",
+    "width": 483,
+    "height": 429,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0468/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "594",
+    "sample_index": "2969",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_594.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0468/right.png",
+    "width": 219,
+    "height": 216,
+    "sha256": "5f56913440d567c99b3c56c633320c096092489ca8ff5560ffb558fa0299b788"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal axis in a coordinate diagram",
+    "left_evidence": "The horizontal axis through the circle center, labeled x.",
+    "right_evidence": "The horizontal axis labeled Time (months).",
+    "left_meaning": "The horizontal coordinate axis that locates points by their x-coordinate.",
+    "right_meaning": "The horizontal coordinate axis used to read the graph independent variable.",
+    "same_meaning": true,
+    "reason": "The selected line is the horizontal coordinate reference in both diagrams. Time is the explicit variable on the right; no equality between the coordinate quantities is asserted."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal axis in a coordinate diagram",
+    "mathematical_meanings": "Left image: The horizontal coordinate axis that locates points by their x-coordinate. Right image: The horizontal coordinate axis used to read the graph independent variable.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected line is the horizontal coordinate reference in both diagrams. Time is the explicit variable on the right; no equality between the coordinate quantities is asserted."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0468",
+    "condition": "condition/graphical_roles/AVP0468"
+  }
+}

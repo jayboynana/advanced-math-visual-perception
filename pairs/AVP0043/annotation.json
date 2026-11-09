@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0043",
+  "authoring_id": "GM18",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dimension_arrow_vs_axis_arrow",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "359",
+    "sample_index": "1794",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_359.png",
+    "image_path": "pairs/AVP0043/left.png",
+    "sha256": "318ad4b420718b97b23b96207bb1b6e36304b6c1c9d2197dab6eee0889d8abd8",
+    "width": 310,
+    "height": 262,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "548",
+    "sample_index": "2739",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_548.png",
+    "image_path": "pairs/AVP0043/right.png",
+    "sha256": "c4370ad4e74cb37b40f18c64f1f7ce984a58575c1dac3543db79415174212794",
+    "width": 291,
+    "height": 299,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead at the right end of a horizontal line",
+    "left_evidence": "The uppermost horizontal double-ended dimension line labeled y has a right-pointing arrowhead at its far-right end.",
+    "right_evidence": "The bottom t-axis has a right-pointing arrowhead at its far-right end, to the right of the 90 tick.",
+    "left_meaning": "It is an endpoint marker on a dimension line, defining the right boundary of the indicated length y.",
+    "right_meaning": "It indicates the positive t direction and the axis continuing to the right.",
+    "same_meaning": false,
+    "reason": "Both sides contain right-pointing arrowheads, but one bounds a finite dimension and the other indicates a coordinate-axis direction."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead at the right end of a horizontal line",
+    "mathematical_meanings": "Left image: It is an endpoint marker on a dimension line, defining the right boundary of the indicated length y. Right image: It indicates the positive t direction and the axis continuing to the right.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both sides contain right-pointing arrowheads, but one bounds a finite dimension and the other indicates a coordinate-axis direction."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. Only the right-end arrowhead is compared; the entire dimension line is not treated as a second anchor.",
+  "views": {
+    "type": "type/different type/AVP0043",
+    "condition": "condition/geometric_markers/AVP0043"
+  }
+}

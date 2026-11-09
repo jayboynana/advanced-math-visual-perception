@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0034",
+  "authoring_id": "GM09",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "filled_acute_angle_arc_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "343",
+    "sample_index": "1714",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_343.png",
+    "image_path": "pairs/AVP0034/left.png",
+    "sha256": "4d9ef4aef05695fb26da16edf12c7e949c48805e540c625004a0754d273e0709",
+    "width": 250,
+    "height": 249,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "357",
+    "sample_index": "1784",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_357.png",
+    "image_path": "pairs/AVP0034/right.png",
+    "sha256": "25bb0ad82c4c7addf6269e2cfe791fe4bb517655518f10eb5589f80e6e4c3254",
+    "width": 316,
+    "height": 216,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A purple shaded acute-angle arc at a vertex",
+    "left_evidence": "A purple angle arc lies at O between the upward vertical direction and the slanted line extending toward the upper right, beside the annotation a°.",
+    "right_evidence": "A purple angle arc lies at B in the lower left between horizontal BA and BC extending toward the upper right, beside the annotation 35°.",
+    "left_meaning": "The shaded angle arc identifies the angle being discussed between the two sides at O.",
+    "right_meaning": "The shaded angle arc identifies the angle being discussed between the two sides at B.",
+    "same_meaning": true,
+    "reason": "This item concerns the arc's function of identifying an angle, rather than the numerical value in the adjacent annotation; it does not assert equal angle values."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A purple shaded acute-angle arc at a vertex",
+    "mathematical_meanings": "Left image: The shaded angle arc identifies the angle being discussed between the two sides at O. Right image: The shaded angle arc identifies the angle being discussed between the two sides at B.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "This item concerns the arc's function of identifying an angle, rather than the numerical value in the adjacent annotation; it does not assert equal angle values."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The angle-marker function is compared; a° is not assumed to equal 35°.",
+  "views": {
+    "type": "type/same type/AVP0034",
+    "condition": "condition/geometric_markers/AVP0034"
+  }
+}

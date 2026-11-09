@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0102",
+  "authoring_id": "V03NR002",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_value_same_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "866",
+    "sample_index": "866",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 169,
+      "img_width": 359,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/866.jpg",
+    "sha256": "ecb674a92979c6f789bd33ab3e873f4b1984af5d9b430d3b8c44a467dc4c3efe",
+    "width": 359,
+    "height": 169,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0102/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "331",
+    "sample_index": "1654",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_331.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0102/right.png",
+    "width": 279,
+    "height": 350,
+    "sha256": "20bd417a3861bf0ca6766004ded8f763b9e225c64e62e4625d36055a353bd46f"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 45° in both images.",
+    "left_evidence": "The 45° beside vertex R at the lower right of the trapezoid.",
+    "right_evidence": "The 45° in the red angle region at A.",
+    "left_meaning": "The marked interior angle at R measures 45 degrees.",
+    "right_meaning": "The marked angle at A measures 45 degrees.",
+    "same_meaning": true,
+    "reason": "Both degree labels assign the value 45 to a marked angle; their different vertices do not change the selected angle-measure role."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 45° in both images.",
+    "mathematical_meanings": "Left image: The marked interior angle at R measures 45 degrees. Right image: The marked angle at A measures 45 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both degree labels assign the value 45 to a marked angle; their different vertices do not change the selected angle-measure role."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0102",
+    "condition": "condition/numeric_representation/AVP0102"
+  }
+}

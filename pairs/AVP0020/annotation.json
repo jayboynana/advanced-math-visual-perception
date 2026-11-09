@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0020",
+  "authoring_id": "NR20",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "sign_change_arc_length_vs_abscissa",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "416",
+    "sample_index": "2079",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_416.png",
+    "image_path": "pairs/AVP0020/left.png",
+    "sha256": "af83e37554f9bccf575ba84c038064d79fd19b8b5eaf3339a00eea6b33eef130",
+    "width": 616,
+    "height": 618,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "542",
+    "sample_index": "2709",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_542.png",
+    "image_path": "pairs/AVP0020/right.png",
+    "sha256": "f0f9ec9c7cd61312db09be704f35d7d35020405b0dd14261098cce063299baeb",
+    "width": 405,
+    "height": 412,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Multiples of π differing only by a minus sign: 2π and −2π.",
+    "left_evidence": "The 2π in the label 2π cm above arc JK.",
+    "right_evidence": "The first component, −2π, of the upper-left peak point's coordinate label (−2π,9.8).",
+    "left_meaning": "Arc JK has numerical arc-length value 2π, in cm.",
+    "right_meaning": "The peak point has x-coordinate −2π.",
+    "same_meaning": false,
+    "reason": "2π and −2π differ in value; one labels an arc length and the other an x-coordinate. The π in the arc-length expression is not an angular unit."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Multiples of π differing only by a minus sign: 2π and −2π.",
+    "mathematical_meanings": "Left image: Arc JK has numerical arc-length value 2π, in cm. Right image: The peak point has x-coordinate −2π.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "2π and −2π differ in value; one labels an arc length and the other an x-coordinate. The π in the arc-length expression is not an angular unit."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review.",
+  "views": {
+    "type": "type/different type/AVP0020",
+    "condition": "condition/numeric_representation/AVP0020"
+  }
+}

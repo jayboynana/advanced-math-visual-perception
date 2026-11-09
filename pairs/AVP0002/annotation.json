@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0002",
+  "authoring_id": "NR02",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "radian_degree_same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "527",
+    "sample_index": "2634",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_527.png",
+    "image_path": "pairs/AVP0002/left.png",
+    "sha256": "b8ed656f5d23397031df45213b28c3198483bd4035965000c4c628d46455bcfe",
+    "width": 270,
+    "height": 282,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "4",
+    "sample_index": "19",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_4.png",
+    "image_path": "pairs/AVP0002/right.png",
+    "sha256": "b6ac8b6724c9574d587e72c5a6414c1e35871f0afffab2911903bf2e7d989dca",
+    "width": 301,
+    "height": 231,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations π/5 and 36°",
+    "left_evidence": "The angle label π/5 below and to the left of the origin, between the negative x-axis and the radius.",
+    "right_evidence": "The angle label 36° at A in the lower-left part of the image.",
+    "left_meaning": "The local angle at the circle's center measures π/5 radians.",
+    "right_meaning": "The local angle at A measures 36 degrees.",
+    "same_meaning": true,
+    "reason": "π/5 radians equals 36 degrees; both numerical labels specify the size of an angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations π/5 and 36°",
+    "mathematical_meanings": "Left image: The local angle at the circle's center measures π/5 radians. Right image: The local angle at A measures 36 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "π/5 radians equals 36 degrees; both numerical labels specify the size of an angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Although the source metadata classifies problem 527 as Functions, the image shows a unit circle and its visual type is geometry.",
+  "views": {
+    "type": "type/same type/AVP0002",
+    "condition": "condition/numeric_representation/AVP0002"
+  }
+}

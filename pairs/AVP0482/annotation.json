@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0482",
+  "authoring_id": "V03GR082",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "graph_continuation",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "686",
+    "sample_index": "686",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 442,
+      "img_width": 731,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/686.jpg",
+    "sha256": "346c34ec4b6312c71384e38c23693a358f31c77e1e9b850d0effcc21a0b0797e",
+    "width": 731,
+    "height": 442,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0482/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "495",
+    "sample_index": "2474",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_495.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0482/right.png",
+    "width": 391,
+    "height": 352,
+    "sha256": "cf4f8ee17cc8812392f67954d262144a39c8e93e3686fdf753f4be7f303f0b18"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead at the end of a plotted curve",
+    "left_evidence": "The arrowhead at the right end of the blue curve.",
+    "right_evidence": "The arrowhead at the lower-right end of the parabola.",
+    "left_meaning": "Continuation of the function curve beyond the plotted window.",
+    "right_meaning": "Continuation of the function curve beyond the plotted window.",
+    "same_meaning": true,
+    "reason": "Both arrowheads occur on the curve itself at the display boundary and signal continuation beyond the visible window, rather than endpoint inclusion or a length measurement."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead at the end of a plotted curve",
+    "mathematical_meanings": "Left image: Continuation of the function curve beyond the plotted window. Right image: Continuation of the function curve beyond the plotted window.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both arrowheads occur on the curve itself at the display boundary and signal continuation beyond the visible window, rather than endpoint inclusion or a length measurement."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0482",
+    "condition": "condition/graphical_roles/AVP0482"
+  }
+}

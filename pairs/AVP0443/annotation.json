@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0443",
+  "authoring_id": "V03GR043",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "fixed_height_reference",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "137",
+    "sample_index": "137",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/137.jpg",
+    "sha256": "067c75c4e566c56b6ceb4c2486a962f7924274caf10b939ead86ca9d3b6a143f",
+    "width": 258,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0443/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "622",
+    "sample_index": "3109",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_622.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0443/right.jpg",
+    "width": 741,
+    "height": 742,
+    "sha256": "6d50e793630a5dc3e1060c10b5b68f05197d5e9cfdd180317503572e9509b457"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal colored line crossing a function graph",
+    "left_evidence": "The upper orange horizontal line cutting the graph f(x)=x^2.",
+    "right_evidence": "The magenta horizontal line labeled y=4 crossing the cyan curve.",
+    "left_meaning": "A fixed-y horizontal comparison line across the function graph.",
+    "right_meaning": "A fixed-y horizontal comparison line across the function graph.",
+    "same_meaning": true,
+    "reason": "The orange line and the line explicitly labeled y=4 provide constant-y comparison levels; their exact heights are not the selected target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal colored line crossing a function graph",
+    "mathematical_meanings": "Left image: A fixed-y horizontal comparison line across the function graph. Right image: A fixed-y horizontal comparison line across the function graph.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The orange line and the line explicitly labeled y=4 provide constant-y comparison levels; their exact heights are not the selected target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0443",
+    "condition": "condition/graphical_roles/AVP0443"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 38° in both images.",
+  "mathematical_meanings": "Left image: The angle WYX measures 38 degrees. Right image: The selected angle at A measures 38 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected labels specify an angle of 38 degrees; the distinct reference rays do not alter the selected numerical angle-measure role."
+}

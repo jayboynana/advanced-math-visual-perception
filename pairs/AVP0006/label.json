@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations 5.0 and 5",
+  "mathematical_meanings": "Left image: The horizontal segment indicated by the lower bracket has a length value of 5. Right image: Diagonal BC has a length value of 5.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Removing the trailing zero gives the value 5; both labels specify a segment length."
+}

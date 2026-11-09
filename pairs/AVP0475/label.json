@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A double-headed dimension arrow",
+  "mathematical_meanings": "Left image: A spatial length annotation spanning the polygon width. Right image: A spatial length annotation spanning the pyramid base.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each arrow sits outside the geometric object and spans a pair of boundary positions with a length label; it is a spatial dimension annotation in both cases."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter t",
+  "mathematical_meanings": "Left image: t labels the horizontal independent-variable axis. Right image: t labels the horizontal independent-variable axis; its displayed unit is seconds.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at t at the right end of the horizontal axis; the right occurrence is at t (seconds) beside the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

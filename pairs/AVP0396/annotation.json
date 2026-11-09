@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0396",
+  "authoring_id": "V03SR096",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "function_argument_vs_coordinate_pair",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "23",
+    "sample_index": "23",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 393,
+      "img_width": 552,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/23.jpg",
+    "sha256": "a199c743b167cb244d413e0e356382abb4a077553de44fedf1f74eec15f8e23a",
+    "width": 552,
+    "height": 393,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0396/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "437",
+    "sample_index": "2184",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_437.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0396/right.png",
+    "width": 500,
+    "height": 547,
+    "sha256": "3d91a2cf6769d1182d205fd7c6abe6ea825b8d64f93594e89e40e76d97146920"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Parentheses in mathematical notation",
+    "left_evidence": "(x) in f(x) = |2x − 3| + 1",
+    "right_evidence": "(−1, 3) beside the upper hyperbola vertex",
+    "left_meaning": "The parentheses specify the input x of function f; f(x) denotes its output.",
+    "right_meaning": "The parentheses give the ordered horizontal and vertical coordinates of the upper vertex.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to (x) in f(x) = |2x − 3| + 1 supports the meaning: The parentheses specify the input x of function f; f(x) denotes its output. On the right, the context is (−1, 3) beside the upper hyperbola vertex, where The parentheses give the ordered horizontal and vertical coordinates of the upper vertex. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Parentheses in mathematical notation",
+    "mathematical_meanings": "Left image: The parentheses specify the input x of function f; f(x) denotes its output. Right image: The parentheses give the ordered horizontal and vertical coordinates of the upper vertex.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to (x) in f(x) = |2x − 3| + 1 supports the meaning: The parentheses specify the input x of function f; f(x) denotes its output. On the right, the context is (−1, 3) beside the upper hyperbola vertex, where The parentheses give the ordered horizontal and vertical coordinates of the upper vertex. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0396",
+    "condition": "condition/symbolic_roles/AVP0396"
+  }
+}

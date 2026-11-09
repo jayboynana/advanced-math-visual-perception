@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0454",
+  "authoring_id": "V03GR054",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hidden_edge_vs_height_auxiliary",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "33",
+    "sample_index": "33",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 95,
+      "img_width": 331,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/33.jpg",
+    "sha256": "1135436e8aaf138c23a8fca633dbe44327a36f7c2edfa4f4444fe6a7f1b45885",
+    "width": 331,
+    "height": 95,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0454/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "365",
+    "sample_index": "1824",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_365.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0454/right.png",
+    "width": 419,
+    "height": 210,
+    "sha256": "2a02911745dec6a69c756a29d3d77a7c9d3848e08866c3bebd38223dc1b8b32c"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed line in a geometric drawing",
+    "left_evidence": "The dashed curved arc at the back of the cone base.",
+    "right_evidence": "The vertical dashed segment between the airplane and the ground, labeled 10369 m.",
+    "left_meaning": "A hidden portion of the circular base edge in a three-dimensional cone drawing.",
+    "right_meaning": "A geometric height projection onto the horizontal ground.",
+    "same_meaning": false,
+    "reason": "In the cone, dashes hide the rear base edge; in the airplane diagram, they construct a visible height projection. Both are geometric diagrams but the dash convention differs."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dashed line in a geometric drawing",
+    "mathematical_meanings": "Left image: A hidden portion of the circular base edge in a three-dimensional cone drawing. Right image: A geometric height projection onto the horizontal ground.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the cone, dashes hide the rear base edge; in the airplane diagram, they construct a visible height projection. Both are geometric diagrams but the dash convention differs."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0454",
+    "condition": "condition/graphical_roles/AVP0454"
+  }
+}

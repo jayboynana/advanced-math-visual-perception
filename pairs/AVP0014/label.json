@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The decimal 1.5 in both images.",
+  "mathematical_meanings": "Left image: The indicated vertical height beside the person has numerical value 1.5. Right image: The orange point has y-coordinate 1.5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The values match, but one labels a height and the other a coordinate component."
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0028",
+  "authoring_id": "GM03",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "same_shaded_angle_marker",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "331",
+    "sample_index": "1654",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_331.png",
+    "image_path": "pairs/AVP0028/left.png",
+    "sha256": "20bd417a3861bf0ca6766004ded8f763b9e225c64e62e4625d36055a353bd46f",
+    "width": 279,
+    "height": 350,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "354",
+    "sample_index": "1769",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_354.png",
+    "image_path": "pairs/AVP0028/right.png",
+    "sha256": "d6126f23fabcc04eca8a6f1083864088d987dd45349a849353ff4a2dded4f271",
+    "width": 316,
+    "height": 211,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded angle region bounded by an arc",
+    "left_evidence": "At A in the lower right, a red angle region lies beside the 45° annotation.",
+    "right_evidence": "At D in the lower right, a purple angle region lies beside the 45° annotation.",
+    "left_meaning": "The angle region identifies the angle being discussed between the two rays at A, annotated as 45°.",
+    "right_meaning": "The angle region identifies the angle being discussed between the two sides at D, annotated as 45°.",
+    "same_meaning": true,
+    "reason": "Both regions bind the 45° annotation to a specific vertex angle; the different fill colors do not change this function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A shaded angle region bounded by an arc",
+    "mathematical_meanings": "Left image: The angle region identifies the angle being discussed between the two rays at A, annotated as 45°. Right image: The angle region identifies the angle being discussed between the two sides at D, annotated as 45°.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both regions bind the 45° annotation to a specific vertex angle; the different fill colors do not change this function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI review of original images 331 and 354; matching 45° angle markers replaced angle regions with different values to reduce ambiguity about semantic granularity.",
+  "views": {
+    "type": "type/same type/AVP0028",
+    "condition": "condition/geometric_markers/AVP0028"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0018",
+  "authoring_id": "NR18",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_integer_radius_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "393",
+    "sample_index": "1964",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_393.png",
+    "image_path": "pairs/AVP0018/left.png",
+    "sha256": "68a088616253cceee90ccc851e3e6cd79a911d24d48a8938c2595c314450e99c",
+    "width": 507,
+    "height": 349,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "486",
+    "sample_index": "2429",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_486.png",
+    "image_path": "pairs/AVP0018/right.png",
+    "sha256": "0ab6dd2a10dc572c660593b9bd4cd95a0af40876ae810cf3f8485f36e83dfaa3",
+    "width": 461,
+    "height": 469,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The number 6 in both images.",
+    "left_evidence": "The 6 in the label 6 cm beside the circle's radius arrow.",
+    "right_evidence": "The second component, 6, of the upper blue point's coordinate label (1/6,6).",
+    "left_meaning": "The number is the numerical part of the radius length 6 cm.",
+    "right_meaning": "The upper blue point has y-coordinate 6.",
+    "same_meaning": false,
+    "reason": "The same numerical value is attached to a radius length in one image and a y-coordinate in the other."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The number 6 in both images.",
+    "mathematical_meanings": "Left image: The number is the numerical part of the radius length 6 cm. Right image: The upper blue point has y-coordinate 6.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The same numerical value is attached to a radius length in one image and a y-coordinate in the other."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. In the right image, only the second coordinate component 6 is selected, not the denominator 6 or any occurrence of −6.",
+  "views": {
+    "type": "type/different type/AVP0018",
+    "condition": "condition/numeric_representation/AVP0018"
+  }
+}

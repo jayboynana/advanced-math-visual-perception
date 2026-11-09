@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0014",
+  "authoring_id": "NR14",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_decimal_height_vs_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "44",
+    "sample_index": "219",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_44.png",
+    "image_path": "pairs/AVP0014/left.png",
+    "sha256": "259dec62573f681aac460a683fbef32c3f8f00633dc2bb3ac4f21e0c0bcc65ce",
+    "width": 196,
+    "height": 223,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "541",
+    "sample_index": "2704",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_541.png",
+    "image_path": "pairs/AVP0014/right.png",
+    "sha256": "15c006430df05ce312290886902a41087f21eddbe39bc4017b7f0e3131e15dc9",
+    "width": 406,
+    "height": 411,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The decimal 1.5 in both images.",
+    "left_evidence": "The label 1.5 beside the vertical height bracket next to the person in the center.",
+    "right_evidence": "The second component, 1.5, of the orange trough point's coordinate label (1,1.5).",
+    "left_meaning": "The indicated vertical height beside the person has numerical value 1.5.",
+    "right_meaning": "The orange point has y-coordinate 1.5.",
+    "same_meaning": false,
+    "reason": "The values match, but one labels a height and the other a coordinate component."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The decimal 1.5 in both images.",
+    "mathematical_meanings": "Left image: The indicated vertical height beside the person has numerical value 1.5. Right image: The orange point has y-coordinate 1.5.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The values match, but one labels a height and the other a coordinate component."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. No length unit absent from image 44 is supplied.",
+  "views": {
+    "type": "type/different type/AVP0014",
+    "condition": "condition/numeric_representation/AVP0014"
+  }
+}

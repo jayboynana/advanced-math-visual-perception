@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A broken or dashed line",
+  "mathematical_meanings": "Left image: A hidden portion of the circular base edge in a three-dimensional cone drawing. Right image: A coordinate-plane solution region of a linear inequality; the dashed boundary is excluded.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The cone dashes represent an occluded rear edge of a three-dimensional object. The dashed straight boundary of the gray half-plane instead indicates exclusion from an inequality solution set."
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0166",
+  "authoring_id": "V03NR066",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "constant_vs_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "271",
+    "sample_index": "271",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 287,
+      "img_width": 448,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/271.jpg",
+    "sha256": "cc9e1905b9cb63196f29bdadef88e0c6f1f7727eb1e7686242e8f2ff33de44f8",
+    "width": 448,
+    "height": 287,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0166/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "990",
+    "sample_index": "990",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 452,
+      "img_width": 544,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/990.jpg",
+    "sha256": "66829087bc6279a08ce17a152aeeb020b406e8f5894407755dbcb9641f32242a",
+    "width": 544,
+    "height": 452,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0166/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 6 in both images.",
+    "left_evidence": "The additive 6 in the lower slanted-segment label 2x+6.",
+    "right_evidence": "The 6 beside chord portion TR to the right of the vertical diameter.",
+    "left_meaning": "The segment-length expression has additive constant 6.",
+    "right_meaning": "Segment TR has length value 6.",
+    "same_meaning": false,
+    "reason": "The selected 6 is an additive constant within 2x+6; the isolated 6 beside TR is the length value of the entire segment."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 6 in both images.",
+    "mathematical_meanings": "Left image: The segment-length expression has additive constant 6. Right image: Segment TR has length value 6.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected 6 is an additive constant within 2x+6; the isolated 6 beside TR is the length value of the entire segment."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0166",
+    "condition": "condition/numeric_representation/AVP0166"
+  }
+}

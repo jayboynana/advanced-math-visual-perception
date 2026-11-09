@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0082",
+  "authoring_id": "GR07",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "open_endpoint_exclusion",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "481",
+    "sample_index": "2404",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_481.png",
+    "image_path": "pairs/AVP0082/left.png",
+    "sha256": "2afd4c96b4fc5abc26c6b29504bc652174dfe01315fac2792629998713df9fde",
+    "width": 620,
+    "height": 471,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "484",
+    "sample_index": "2419",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_484.png",
+    "image_path": "pairs/AVP0082/right.png",
+    "sha256": "5844c98a000daf3806a1c699045613c63c06ebbe30edba41f4327d3f6d6af7e8",
+    "width": 461,
+    "height": 465,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Hollow circle at a curve endpoint",
+    "left_evidence": "The hollow circle at the left endpoint of the blue curve, on the horizontal axis near x=-3.",
+    "right_evidence": "The hollow circle at the right endpoint of the blue curve, near (3,2).",
+    "left_meaning": "The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint.",
+    "right_meaning": "The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint.",
+    "same_meaning": true,
+    "reason": "Both hollow endpoints indicate endpoint exclusion. This does not establish that the corresponding vertical-coordinate value is absent from the range of the entire function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Hollow circle at a curve endpoint",
+    "mathematical_meanings": "Left image: The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint. Right image: The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both hollow endpoints indicate endpoint exclusion. This does not establish that the corresponding vertical-coordinate value is absent from the range of the entire function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0082",
+    "condition": "condition/graphical_roles/AVP0082"
+  }
+}

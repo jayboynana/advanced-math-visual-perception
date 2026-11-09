@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0469",
+  "authoring_id": "V03GR069",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "23",
+    "sample_index": "23",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 393,
+      "img_width": 552,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/23.jpg",
+    "sha256": "a199c743b167cb244d413e0e356382abb4a077553de44fedf1f74eec15f8e23a",
+    "width": 552,
+    "height": 393,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0469/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "458",
+    "sample_index": "2289",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_458.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0469/right.png",
+    "width": 801,
+    "height": 536,
+    "sha256": "0ca0ec80c288b3262042f6e702035bc46575b58fb1a08e5b911c08fe4cb58e5b"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal coordinate axis",
+    "left_evidence": "The horizontal axis below the V-shaped graph, with numbered ticks.",
+    "right_evidence": "The horizontal axis through the origin in the geometric angle construction.",
+    "left_meaning": "The horizontal coordinate axis that locates graph positions by input coordinate.",
+    "right_meaning": "The horizontal coordinate axis that locates positions by x-coordinate.",
+    "same_meaning": true,
+    "reason": "The function plot and angle construction both locate points with the horizontal axis through the origin. This reference role is separate from the principal graph or ray."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal coordinate axis",
+    "mathematical_meanings": "Left image: The horizontal coordinate axis that locates graph positions by input coordinate. Right image: The horizontal coordinate axis that locates positions by x-coordinate.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The function plot and angle construction both locate points with the horizontal axis through the origin. This reference role is separate from the principal graph or ray."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0469",
+    "condition": "condition/graphical_roles/AVP0469"
+  }
+}

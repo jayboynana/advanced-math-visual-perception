@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0227",
+  "authoring_id": "V03GM027",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_marker_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2176",
+    "sample_index": "2176",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2176",
+      "question": "A cubical cake with edge length $ 2$ inches is iced on the sides and the top. It is cut vertically into three pieces as shown in this top view, where $ M$ is the midpoint of a top edge. The piece whose top is triangle $ B$ contains $ c$ cubic inches of cake and $ s$ square inches of icing. What is $ c+s$?\n<image1>",
+      "options": [
+        "$\\frac{24}{5}$",
+        "$\\frac{32}{5}$",
+        "$8+\\sqrt{5}$",
+        "$5+\\frac{16\\sqrt{5}}{5}$",
+        "$10+5\\sqrt{5}$"
+      ],
+      "image": "images/2176.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2176.jpg",
+    "sha256": "2a290a311f67fb586b50ee1c93beb58f70b2850d462815ae84b0cb07bc054b2e",
+    "width": 256,
+    "height": 215,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0227/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2523",
+    "sample_index": "2523",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "combinatorial geometry",
+    "source_metadata": {
+      "id": "2523",
+      "question": "An isosceles triangle is a triangle with two sides of equal length. How many of the five triangles on the square grid below are isosceles?\n\n<image1>",
+      "options": [],
+      "image": "images/2523.jpg",
+      "level": 4,
+      "subject": "combinatorial geometry"
+    },
+    "original_relative_path": "images/2523.jpg",
+    "sha256": "da6209ec37924c40e96de715cef10829a40018ef6585ee20dcab6cb8c24e1ed5",
+    "width": 545,
+    "height": 317,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0227/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square or similar rectangular outline formed by straight segments.",
+    "left_evidence": "The rotated small square where the internal descending segment meets the rising segment from M.",
+    "right_evidence": "An uncut square grid cell along the bottom edge near the center, beneath the sloping triangle strokes.",
+    "left_meaning": "The two internal segments meeting at the marked intersection are perpendicular.",
+    "right_meaning": "It is a square lattice cell used as a reference in the drawing of triangles.",
+    "same_meaning": false,
+    "reason": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a square lattice cell used as a reference in the drawing of triangles. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square or similar rectangular outline formed by straight segments.",
+    "mathematical_meanings": "Left image: The two internal segments meeting at the marked intersection are perpendicular. Right image: It is a square lattice cell used as a reference in the drawing of triangles.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a square lattice cell used as a reference in the drawing of triangles. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0227",
+    "condition": "condition/geometric_markers/AVP0227"
+  }
+}

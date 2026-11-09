@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0476",
+  "authoring_id": "V03GR076",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "geometric_dimension_arrow",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "310",
+    "sample_index": "310",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 218,
+      "img_width": 350,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/310.jpg",
+    "sha256": "c1dfd288f25137df89a827c4f04268ec86ea7d5a2396d141b23447449fd75fb0",
+    "width": 350,
+    "height": 218,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0476/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "364",
+    "sample_index": "1819",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_364.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0476/right.png",
+    "width": 415,
+    "height": 296,
+    "sha256": "e2f956256852eb826b29b31867007dd61f60b5a742c0401ecdd225f7cef01da9"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A double-headed dimension arrow",
+    "left_evidence": "The sloping double-headed arrow outside and parallel to the triangle hypotenuse, labeled x.",
+    "right_evidence": "The horizontal double-headed arrow below the bridge, labeled 65.9 m.",
+    "left_meaning": "A spatial length annotation spanning a side of the triangle.",
+    "right_meaning": "A spatial length annotation spanning two horizontal positions.",
+    "same_meaning": true,
+    "reason": "The arrows accompany geometric distance labels and indicate a finite spatial length, whether sloping along a triangle side or horizontal beneath a bridge."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A double-headed dimension arrow",
+    "mathematical_meanings": "Left image: A spatial length annotation spanning a side of the triangle. Right image: A spatial length annotation spanning two horizontal positions.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The arrows accompany geometric distance labels and indicate a finite spatial length, whether sloping along a triangle side or horizontal beneath a bridge."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0476",
+    "condition": "condition/graphical_roles/AVP0476"
+  }
+}

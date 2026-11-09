@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: They represent rear edges of the solid that are hidden from this viewing direction. Right image: It marks an interior subdivision of the planar figure, rather than a hidden edge of a solid.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes subdivide the interior of a flat composite outline and are distinct from its outer perimeter. The two stroke styles therefore encode different contextual functions."
+}

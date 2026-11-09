@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0038",
+  "authoring_id": "GM13",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_vs_grid_cell",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "image_path": "pairs/AVP0038/left.png",
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
+    "width": 254,
+    "height": 259,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "493",
+    "sample_index": "2464",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_493.png",
+    "image_path": "pairs/AVP0038/right.png",
+    "sha256": "2d2b8586bb1185d67f835db1ae4071e0378dc7e2dcb81e09dae968c00abfbb5d",
+    "width": 382,
+    "height": 391,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square outline bounded by horizontal and vertical edges",
+    "left_evidence": "At the foot of the perpendicular below A, the magenta angle marker, horizontal axis, and vertical line enclose a small square.",
+    "right_evidence": "In the first quadrant, light-gray horizontal and vertical grid lines enclose a square cell between x=1 and 2 and y=1 and 2.",
+    "left_meaning": "It is a right-angle symbol indicating that the perpendicular line is perpendicular to the horizontal axis.",
+    "right_meaning": "It is a coordinate-grid cell providing a reference for horizontal and vertical readings.",
+    "same_meaning": false,
+    "reason": "Both images contain a definite square outline; one is an angle marker attached to the foot of a perpendicular, while the other is a background coordinate-grid cell."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square outline bounded by horizontal and vertical edges",
+    "mathematical_meanings": "Left image: It is a right-angle symbol indicating that the perpendicular line is perpendicular to the horizontal axis. Right image: It is a coordinate-grid cell providing a reference for horizontal and vertical readings.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both images contain a definite square outline; one is an angle marker attached to the foot of a perpendicular, while the other is a background coordinate-grid cell."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The right anchor in this negative pair is a specific, visible grid cell, rather than an absent angle marker.",
+  "views": {
+    "type": "type/different type/AVP0038",
+    "condition": "condition/geometric_markers/AVP0038"
+  }
+}

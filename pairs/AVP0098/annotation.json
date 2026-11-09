@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0098",
+  "authoring_id": "GR23",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "458",
+    "sample_index": "2289",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_458.png",
+    "image_path": "pairs/AVP0098/left.png",
+    "sha256": "0ca0ec80c288b3262042f6e702035bc46575b58fb1a08e5b911c08fe4cb58e5b",
+    "width": 801,
+    "height": 536,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "493",
+    "sample_index": "2464",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_493.png",
+    "image_path": "pairs/AVP0098/right.png",
+    "sha256": "2d2b8586bb1185d67f835db1ae4071e0378dc7e2dcb81e09dae968c00abfbb5d",
+    "width": 382,
+    "height": 391,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Horizontal coordinate axis with tick marks",
+    "left_evidence": "The horizontal axis through the origin labeled 0 and the tick labeled -4; its positive half is drawn as a blue line with an arrow.",
+    "right_evidence": "The black horizontal axis labeled x, with ticks and arrows, crossing the V-shaped function graph.",
+    "left_meaning": "Provides a horizontal-coordinate reference through tick marks and orientation.",
+    "right_meaning": "Provides a horizontal-coordinate reference through tick marks and orientation.",
+    "same_meaning": true,
+    "reason": "Both are horizontal coordinate axes; drawing a geometric construction on one and a function graph on the other does not change the role of the axis."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Horizontal coordinate axis with tick marks",
+    "mathematical_meanings": "Left image: Provides a horizontal-coordinate reference through tick marks and orientation. Right image: Provides a horizontal-coordinate reference through tick marks and orientation.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both are horizontal coordinate axes; drawing a geometric construction on one and a function graph on the other does not change the role of the axis."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0098",
+    "condition": "condition/graphical_roles/AVP0098"
+  }
+}

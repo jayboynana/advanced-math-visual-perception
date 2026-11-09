@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0058",
+  "authoring_id": "SR08",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_distance_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "351",
+    "sample_index": "1754",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_351.png",
+    "image_path": "pairs/AVP0058/left.png",
+    "sha256": "3251a6ac940771d0bc0ec4b686ed3bdb42b3f58a4c7451950800bacfd8afa2b1",
+    "width": 1280,
+    "height": 1150,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "359",
+    "sample_index": "1794",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_359.png",
+    "image_path": "pairs/AVP0058/right.png",
+    "sha256": "318ad4b420718b97b23b96207bb1b6e36304b6c1c9d2197dab6eee0889d8abd8",
+    "width": 310,
+    "height": 262,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x in a horizontal distance annotation",
+    "left_evidence": "x marking the horizontal distance from A to B at the bottom",
+    "right_evidence": "x beside part of the horizontal base at the lower right",
+    "left_meaning": "x denotes the unknown length of the indicated horizontal distance.",
+    "right_meaning": "x denotes the unknown length of the indicated horizontal segment.",
+    "same_meaning": true,
+    "reason": "Both are horizontal length variables; equality of the two unknown lengths is not asserted."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter x in a horizontal distance annotation",
+    "mathematical_meanings": "Left image: x denotes the unknown length of the indicated horizontal distance. Right image: x denotes the unknown length of the indicated horizontal segment.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both are horizontal length variables; equality of the two unknown lengths is not asserted."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0058",
+    "condition": "condition/symbolic_roles/AVP0058"
+  }
+}

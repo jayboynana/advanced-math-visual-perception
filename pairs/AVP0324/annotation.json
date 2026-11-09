@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0324",
+  "authoring_id": "V03SR024",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_length_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "114",
+    "sample_index": "114",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 273,
+      "img_width": 347,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/114.jpg",
+    "sha256": "bfcd7a02296aa64ee692e5387c507540d3b6b34574835571a45bfb8cb1b52eec",
+    "width": 347,
+    "height": 273,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0324/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "160",
+    "sample_index": "160",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 227,
+      "img_width": 270,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/160.jpg",
+    "sha256": "dc80c9abe9f04514ee8709f3bd1a861c57abfe09cb07142763d26540623e9dbc",
+    "width": 270,
+    "height": 227,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0324/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x next to radius MK",
+    "right_evidence": "x below the lower sloping side of the right triangle",
+    "left_meaning": "x denotes the unknown radius length MK.",
+    "right_meaning": "x denotes the unknown length of the lower leg.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at x next to radius MK; the right occurrence is at x below the lower sloping side of the right triangle. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown radius length MK. Right image: x denotes the unknown length of the lower leg.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at x next to radius MK; the right occurrence is at x below the lower sloping side of the right triangle. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0324",
+    "condition": "condition/symbolic_roles/AVP0324"
+  }
+}

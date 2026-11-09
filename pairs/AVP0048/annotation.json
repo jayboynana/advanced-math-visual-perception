@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0048",
+  "authoring_id": "GM23",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "axis_tick_same_across_types",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "458",
+    "sample_index": "2289",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_458.png",
+    "image_path": "pairs/AVP0048/left.png",
+    "sha256": "0ca0ec80c288b3262042f6e702035bc46575b58fb1a08e5b911c08fe4cb58e5b",
+    "width": 801,
+    "height": 536,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "546",
+    "sample_index": "2729",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_546.png",
+    "image_path": "pairs/AVP0048/right.png",
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe",
+    "width": 292,
+    "height": 296,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short tick crossing a horizontal coordinate axis",
+    "left_evidence": "The first thin vertical tick to the right of the origin lies on the blue positive horizontal axis.",
+    "right_evidence": "A vertical tick lies at the position labeled 1 on the horizontal t-axis.",
+    "left_meaning": "It is a horizontal-coordinate tick marking a reading position on the axis.",
+    "right_meaning": "It is a tick for the horizontal coordinate t, marking a reading position on the axis.",
+    "same_meaning": true,
+    "reason": "Both short strokes serve as coordinate-axis ticks; this judgment does not require identical tick values or units."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short tick crossing a horizontal coordinate axis",
+    "mathematical_meanings": "Left image: It is a horizontal-coordinate tick marking a reading position on the axis. Right image: It is a tick for the horizontal coordinate t, marking a reading position on the axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both short strokes serve as coordinate-axis ticks; this judgment does not require identical tick values or units."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. The sparse ticks in image 458 are visible; no unlabeled numerical value is added.",
+  "views": {
+    "type": "type/different type/AVP0048",
+    "condition": "condition/geometric_markers/AVP0048"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0292",
+  "authoring_id": "V03GM092",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_selection_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2501",
+    "sample_index": "2501",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "2501",
+      "question": "Usain is walking for exercise by zigzagging across a $100$-meter by $30$-meter rectangular field, beginning at point $A$ and ending on the segment $\\overline{BC}$. He wants to increase the distance walked by zigzagging as shown in the figure below $(APQRS)$. What angle $\\theta=\\angle PAB=\\angle QPC=\\angle RQB=\\cdots$ will produce in a length that is $120$ meters? (Do not assume the zigzag path has exactly four segments as shown; there could be more or fewer.)\n\n<image1>",
+      "options": [
+        "$\\arccos\\frac{5}{6}$",
+        "$\\arccos\\frac{4}{5}$",
+        "$\\arccos\\frac{3}{10}$",
+        "$\\arcsin\\frac{4}{5}$",
+        "$\\arcsin\\frac{5}{6}$"
+      ],
+      "image": "images/2501.jpg",
+      "level": 4,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/2501.jpg",
+    "sha256": "dd22e4303fa1814d424cc7bb491b5c35b3aedadfebabfb96e9157b2d15f892a7",
+    "width": 545,
+    "height": 264,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0292/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2260",
+    "sample_index": "2260",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "2260",
+      "question": "Given triangle $ PQR$ with $ \\overline{RS}$ bisecting $ \\angle R$, $ PQ$ extended to $ D$ and $ \\angle n$ a right angle, then:\n<image1>",
+      "options": [
+        "$\\angle m = \\frac{1}{2}(\\angle p - \\angle q)$",
+        "$\\angle m = \\frac{1}{2}(\\angle p + \\angle q)$",
+        "$\\angle d = \\frac{1}{2} (\\angle q + \\angle p)$",
+        "$\\angle d = \\frac{1}{2}\\angle m$",
+        "$\\text{none of these is correct}$"
+      ],
+      "image": "images/2260.jpg",
+      "level": 4,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/2260.jpg",
+    "sha256": "b99d7c5ca4f56588b59dc80153ffc7c809b2d7f791a3197a6909c3abadeea04a",
+    "width": 1024,
+    "height": 430,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0292/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small circular arc placed between two rays at their common vertex.",
+    "left_evidence": "The small arc beside theta at A, between AP and the lower horizontal side.",
+    "right_evidence": "The small arc beside p at the left base vertex P.",
+    "left_meaning": "It singles out the angle at A denoted by theta.",
+    "right_meaning": "It selects the vertex angle at P denoted by p.",
+    "same_meaning": true,
+    "reason": "Each small arc selects a particular vertex angle and connects it to the nearby angle label or to the marked-angle relation. The target is that angle-selection convention, not equality of all labeled angle values."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small circular arc placed between two rays at their common vertex.",
+    "mathematical_meanings": "Left image: It singles out the angle at A denoted by theta. Right image: It selects the vertex angle at P denoted by p.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each small arc selects a particular vertex angle and connects it to the nearby angle label or to the marked-angle relation. The target is that angle-selection convention, not equality of all labeled angle values."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0292",
+    "condition": "condition/geometric_markers/AVP0292"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0326",
+  "authoring_id": "V03SR026",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_length_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "273",
+    "sample_index": "273",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 237,
+      "img_width": 347,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/273.jpg",
+    "sha256": "b4d4552279a272dc459c1f5f60c014c973fb2a978f2e784139d19331852d6418",
+    "width": 347,
+    "height": 237,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0326/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "408",
+    "sample_index": "408",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 238,
+      "img_width": 362,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/408.jpg",
+    "sha256": "f01f4efccceedf972c2c0ea5242d5881406e87c1af760b46639c91d325a88958",
+    "width": 362,
+    "height": 238,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0326/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x beside the vertical double-headed dimension line",
+    "right_evidence": "x beside the interior perpendicular segment",
+    "left_meaning": "x denotes the unknown vertical diagonal length of the diamond.",
+    "right_meaning": "x denotes the unknown altitude length to the hypotenuse.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at x beside the vertical double-headed dimension line; the right occurrence is at x beside the interior perpendicular segment. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown vertical diagonal length of the diamond. Right image: x denotes the unknown altitude length to the hypotenuse.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at x beside the vertical double-headed dimension line; the right occurrence is at x beside the interior perpendicular segment. Both use the selected notation for the same unknown-length variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0326",
+    "condition": "condition/symbolic_roles/AVP0326"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations −0.5 and 0.5.",
+  "mathematical_meanings": "Left image: The length expression has additive constant negative one half. Right image: The selected tick denotes y-coordinate value 0.5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The complete signed constant is −0.5 in the length expression, whereas the vertical coordinate label is positive 0.5. Both sign and local role differ."
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0491",
+  "authoring_id": "V03GR091",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "constant_output_trace",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "223",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 776,
+      "img_width": 1430,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/223.jpg",
+    "sha256": "358189e467fadeb5d60643a543fdb132b336c210204c23d4c6357ad0773b771c",
+    "width": 1430,
+    "height": 776,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0491/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "501",
+    "sample_index": "2504",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_501.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0491/right.png",
+    "width": 464,
+    "height": 472,
+    "sha256": "346d47ff93813feda0b29e8ec3d63713618ed4ca8e12d2cb00cc6155e6902e9e"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal plotted trace",
+    "left_evidence": "The purple horizontal trace labeled f(x)=c with arrows at both ends.",
+    "right_evidence": "The upper horizontal dark-blue ray at y=4.",
+    "left_meaning": "A constant function graph: the output remains c as the horizontal input varies.",
+    "right_meaning": "A constant-output part of the displayed piecewise function graph.",
+    "same_meaning": true,
+    "reason": "Both selected horizontal traces keep the function output constant across a horizontal interval; the first is a whole constant function and the second a piece of one."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal plotted trace",
+    "mathematical_meanings": "Left image: A constant function graph: the output remains c as the horizontal input varies. Right image: A constant-output part of the displayed piecewise function graph.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected horizontal traces keep the function output constant across a horizontal interval; the first is a whole constant function and the second a piece of one."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0491",
+    "condition": "condition/graphical_roles/AVP0491"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0449",
+  "authoring_id": "V03GR049",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "side_extension_vs_asymptote",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "708",
+    "sample_index": "708",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 110,
+      "img_width": 156,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/708.jpg",
+    "sha256": "36b86bf98873d0317b5f66c6b8745e3cbfaee51d40a9e6ff81caa8e1f589a846",
+    "width": 156,
+    "height": 110,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0449/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "582",
+    "sample_index": "2909",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_582.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0449/right.png",
+    "width": 556,
+    "height": 500,
+    "sha256": "3c433c2edb8940abc63e9c63b70121759c704d49a5ebce7ade23d0e935c7debd"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed construction line",
+    "left_evidence": "The dashed sloping line from the top vertex P through A toward C.",
+    "right_evidence": "The gray vertical dashed line between the two branches to the right of the vertical axis.",
+    "left_meaning": "A geometric side extension making the larger triangle construction visible.",
+    "right_meaning": "A vertical asymptote approached by the function graph.",
+    "same_meaning": false,
+    "reason": "The sloping dashed line extends a finite triangle side; the vertical dashed line in the function plot marks limiting behavior of branches. The shared dash style does not make these roles equivalent."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dashed construction line",
+    "mathematical_meanings": "Left image: A geometric side extension making the larger triangle construction visible. Right image: A vertical asymptote approached by the function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The sloping dashed line extends a finite triangle side; the vertical dashed line in the function plot marks limiting behavior of branches. The shared dash style does not make these roles equivalent."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0449",
+    "condition": "condition/graphical_roles/AVP0449"
+  }
+}

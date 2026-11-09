@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0046",
+  "authoring_id": "GM21",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "circle_arc_dash_vs_function_curve_dash",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "787",
+    "sample_index": "3934",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_787.png",
+    "image_path": "pairs/AVP0046/left.png",
+    "sha256": "168a44e7cf5e1a3890975967d770e90c259a63e5b7aeccee04027e740a8be3be",
+    "width": 387,
+    "height": 365,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "568",
+    "sample_index": "2839",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_568.png",
+    "image_path": "pairs/AVP0046/right.png",
+    "sha256": "1e3d232a22ba56d79145624e739075e15e878702f0840253466e0972869cea37",
+    "width": 276,
+    "height": 282,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Broken strokes following a curved path",
+    "left_evidence": "The lower semicircle of the inner circle on the left, running from A through the bottom to B, is drawn with black dashes.",
+    "right_evidence": "The upward-opening curve g on the left is drawn with magenta dashes, with its lowest point in the lower-left quadrant.",
+    "left_meaning": "It represents a portion of an inner circle's circumference in the composite circular diagram.",
+    "right_meaning": "It represents the graph of function g, distinguishing it from the cyan solid graph of function f.",
+    "same_meaning": false,
+    "reason": "Both sides contain curved dashed lines, but one belongs to a circular boundary and the other to a function graph."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Broken strokes following a curved path",
+    "mathematical_meanings": "Left image: It represents a portion of an inner circle's circumference in the composite circular diagram. Right image: It represents the graph of function g, distinguishing it from the cyan solid graph of function f.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both sides contain curved dashed lines, but one belongs to a circular boundary and the other to a function graph."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. No hidden-edge, folding, or occlusion meaning is assumed for the dashes in the left image.",
+  "views": {
+    "type": "type/different type/AVP0046",
+    "condition": "condition/geometric_markers/AVP0046"
+  }
+}

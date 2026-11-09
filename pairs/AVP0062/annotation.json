@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0062",
+  "authoring_id": "SR12",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_curve_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "546",
+    "sample_index": "2729",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_546.png",
+    "image_path": "pairs/AVP0062/left.png",
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe",
+    "width": 292,
+    "height": 296,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "548",
+    "sample_index": "2739",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_548.png",
+    "image_path": "pairs/AVP0062/right.png",
+    "sha256": "c4370ad4e74cb37b40f18c64f1f7ce984a58575c1dac3543db79415174212794",
+    "width": 291,
+    "height": 299,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter H beside a wave-shaped curve",
+    "left_evidence": "H near the cyan curve at the upper right",
+    "right_evidence": "H near the cyan curve at the upper right",
+    "left_meaning": "H is the name of the function represented by the wave-shaped curve.",
+    "right_meaning": "H is the name of the function represented by the wave-shaped curve.",
+    "same_meaning": true,
+    "reason": "Only the naming role of H is compared; amplitudes, periods and numerical function values are outside this target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The uppercase letter H beside a wave-shaped curve",
+    "mathematical_meanings": "Left image: H is the name of the function represented by the wave-shaped curve. Right image: H is the name of the function represented by the wave-shaped curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Only the naming role of H is compared; amplitudes, periods and numerical function values are outside this target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0062",
+    "condition": "condition/symbolic_roles/AVP0062"
+  }
+}

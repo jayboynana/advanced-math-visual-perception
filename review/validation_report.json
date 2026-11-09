@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_count": 500,
+  "checks": 52821,
+  "error_count": 0,
+  "errors": [],
+  "status": "passed",
+  "scope": "structure, single-target label alignment, original-100 preservation, fixed provenance, native image integrity and exact decoded-pair deduplication; not independent human semantic certification"
+}

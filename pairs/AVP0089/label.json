@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Vertical dashed line",
+  "mathematical_meanings": "Left image: Represents the airplane's height projected onto horizontal ground, serving as a geometric height auxiliary line. Right image: A vertical-asymptote reference for the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The geometric projection line connects positions in a finite construction, whereas the function-diagram line marks asymptotic behavior; their roles differ."
+}

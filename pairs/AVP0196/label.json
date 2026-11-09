@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Numerical notations −5 and 5.",
+  "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value −5. Right image: The selected tick denotes x-coordinate value 5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected horizontal coordinate labels share digit 5 but give −5 and 5, which are different real coordinates."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Short transverse tick strokes repeated across line segments.",
+  "mathematical_meanings": "Left image: It marks PQ and PR as belonging to the same equal-length group. Right image: It marks AC, CD and DF as segments in the same equal-length group.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
+}

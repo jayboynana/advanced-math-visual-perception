@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0154",
+  "authoring_id": "V03NR054",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_index_vs_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "48",
+    "sample_index": "48",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 426,
+      "img_width": 596,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/48.jpg",
+    "sha256": "b48106d7c1e86c800e8db8c10e51b1f78584cdaf80e0cec7ccd55d484e3e7d24",
+    "width": 596,
+    "height": 426,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0154/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "67",
+    "sample_index": "67",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 292,
+      "img_width": 320,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/67.jpg",
+    "sha256": "27f145cb93291ba8e70d9458df4aa87788e5f59f499c3483872a15e8db066646",
+    "width": 320,
+    "height": 292,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0154/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 4 and 4 m.",
+    "left_evidence": "The standalone 4 inside the angle at T, above segment TZ.",
+    "right_evidence": "The 4 m above the top side of the green square.",
+    "left_meaning": "The numeral 4 identifies an angle region at T; it is an angle index, not a degree measure.",
+    "right_meaning": "The top side has length 4 meters.",
+    "same_meaning": false,
+    "reason": "The standalone 4 numbers an angle region in the first image; 4 m quantifies a side length in the second. Angle indexing and length measurement are distinct roles."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 4 and 4 m.",
+    "mathematical_meanings": "Left image: The numeral 4 identifies an angle region at T; it is an angle index, not a degree measure. Right image: The top side has length 4 meters.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The standalone 4 numbers an angle region in the first image; 4 m quantifies a side length in the second. Angle indexing and length measurement are distinct roles."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0154",
+    "condition": "condition/numeric_representation/AVP0154"
+  }
+}

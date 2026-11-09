@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0012",
+  "authoring_id": "NR12",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_number_same_exponent_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "597",
+    "sample_index": "2984",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_597.png",
+    "image_path": "pairs/AVP0012/left.png",
+    "sha256": "a9906be62d450c42b02691b02ff94a09b02a6ba57ad83fe0620cfc0be2a1aa87",
+    "width": 424,
+    "height": 558,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "521",
+    "sample_index": "2604",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_521.png",
+    "image_path": "pairs/AVP0012/right.png",
+    "sha256": "e8c9dc0fa535cd66aff2ebb5d8adc4cbfad187603881f024736bf1df1bae6393",
+    "width": 1908,
+    "height": 1960,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The superscript 2 in x² in both images.",
+    "left_evidence": "The 2 above and to the right of x in y=x²−4, the second equation below the plot.",
+    "right_evidence": "The 2 in x² in the equation y=x³−x²−x below the curve.",
+    "left_meaning": "This occurrence of x is raised to the second power, denoting squaring.",
+    "right_meaning": "This occurrence of x is raised to the second power, denoting squaring.",
+    "same_meaning": true,
+    "reason": "The selected 2 is the exponent of x in both expressions, with exponent value 2."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The superscript 2 in x² in both images.",
+    "mathematical_meanings": "Left image: This occurrence of x is raised to the second power, denoting squaring. Right image: This occurrence of x is raised to the second power, denoting squaring.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected 2 is the exponent of x in both expressions, with exponent value 2."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the exponent 2 is interpreted; no equivalence is claimed for the entire functions or for the coefficients or signs of their x² terms.",
+  "views": {
+    "type": "type/same type/AVP0012",
+    "condition": "condition/numeric_representation/AVP0012"
+  }
+}

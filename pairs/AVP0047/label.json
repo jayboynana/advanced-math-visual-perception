@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A right-pointing arrowhead at the end of a horizontal line",
+  "mathematical_meanings": "Left image: It indicates the positive x direction and the coordinate axis continuing to the right. Right image: It is the right endpoint of a horizontal-distance marker, bounding the indicated span between two adjacent peaks.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The arrowheads have similar directions and shapes; one indicates an axis direction and the other bounds the distance between peaks."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+  "mathematical_meanings": "Left image: It represents the rear curved base boundary that is hidden from this viewing direction. Right image: It is a horizontal auxiliary construction line through the upper vertex of the plane diagram.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes extend a horizontal reference from the top vertex in a plane trigonometric construction. The two stroke styles therefore encode different contextual functions."
+}

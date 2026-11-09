@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled region next to a function curve",
+  "mathematical_meanings": "Left image: An unbounded-horizontal-interval region under the function graph, annotated as an infinite area. Right image: A selected bounded region between a function curve and a horizontal level.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both use fill to identify a region whose area is bounded vertically by a function curve and a reference line. Bounded versus unbounded horizontal extent changes the area problem, not the region-selecting role."
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0130",
+  "authoring_id": "V03NR030",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_exponent_role",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "369",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 331,
+      "img_width": 266,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/369.jpg",
+    "sha256": "9e8c48d50de0ddf0ebef050612e9a73d9ce81d3d54ace53fd5b9fa83a9d55f18",
+    "width": 266,
+    "height": 331,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0130/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "521",
+    "sample_index": "2604",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_521.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0130/right.png",
+    "width": 1908,
+    "height": 1960,
+    "sha256": "e8c9dc0fa535cd66aff2ebb5d8adc4cbfad187603881f024736bf1df1bae6393"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3 in both images.",
+    "left_evidence": "The superscript 3 in f(x)=x³ at the upper right.",
+    "right_evidence": "The superscript 3 in y=x³−x²−x below the curve.",
+    "left_meaning": "The variable x is cubed; 3 is its exponent.",
+    "right_meaning": "The variable x in the selected term is cubed; 3 is its exponent.",
+    "same_meaning": true,
+    "reason": "Both selected superscripts 3 denote cubing of x; the complete functions are not asserted to coincide."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+    "mathematical_meanings": "Left image: The variable x is cubed; 3 is its exponent. Right image: The variable x in the selected term is cubed; 3 is its exponent.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected superscripts 3 denote cubing of x; the complete functions are not asserted to coincide."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0130",
+    "condition": "condition/numeric_representation/AVP0130"
+  }
+}

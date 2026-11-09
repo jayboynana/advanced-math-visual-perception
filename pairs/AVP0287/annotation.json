@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0287",
+  "authoring_id": "V03GM087",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_dash_vs_non_occlusion_role",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2090",
+    "sample_index": "2090",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "id": "2090",
+      "question": "A regular icosahedron is a $20$-faced solid where each face is an equilateral triangle and five triangles meet at every vertex. The regular icosahedron shown below has one vertex at the top, one vertex at the bottom, an upper pentagon of five vertices all adjacent to the top vertex and all in the same horizontal plane, and a lower pentagon of five vertices all adjacent to the bottom vertex and all in another horizontal plane. Find the number of paths from the top vertex to the bottom vertex such that each part of a path goes downward or horizontally along an edge of the icosahedron, and no vertex is repeated.<image1>",
+      "options": [],
+      "image": "images/2090.jpg",
+      "level": 3,
+      "subject": "solid geometry"
+    },
+    "original_relative_path": "images/2090.jpg",
+    "sha256": "3ab3a5ce017d21ec8e243510ad5778953c6e7978e82b416e116ebdd5f8f864c6",
+    "width": 249,
+    "height": 308,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0287/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "855",
+    "sample_index": "855",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "transformation geometry",
+    "source_metadata": {
+      "id": "855",
+      "question": "$A 10 \\mathrm{~cm}$ long piece if wire is folded so that every part is equally long (see diagram). The wire is then cut through in the two positions marked. How long are the three pieces created in this way?\n<image1>",
+      "options": [
+        "$2 \\mathrm{~cm}, 3 \\mathrm{~cm}, 5 \\mathrm{~cm}$",
+        "$2 \\mathrm{~cm}, 2 \\mathrm{~cm}, 6 \\mathrm{~cm}$",
+        "$1 \\mathrm{~cm}, 4 \\mathrm{~cm}, 5 \\mathrm{~cm}$",
+        "$1 \\mathrm{~cm}, 3 \\mathrm{~cm}, 6 \\mathrm{~cm}$",
+        "$3 \\mathrm{~cm}, 3 \\mathrm{~cm}, 4 \\mathrm{~cm}$"
+      ],
+      "image": "images/855.jpg",
+      "level": 1,
+      "subject": "transformation geometry"
+    },
+    "original_relative_path": "images/855.jpg",
+    "sha256": "127bbf51df93832009f8737334760ce2e8a0843a5f500c6cb8ff2428c2dba19a",
+    "width": 375,
+    "height": 316,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0287/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A line or boundary made of separated short strokes.",
+    "left_evidence": "A dashed edge of the rear pentagonal ring inside the wireframe icosahedron.",
+    "right_evidence": "The vertical broken line rising from the scissors through the zigzag wire.",
+    "left_meaning": "It represents an edge on the hidden rear part of the icosahedron.",
+    "right_meaning": "It indicates a cut position through the folded wire.",
+    "same_meaning": false,
+    "reason": "The left dashes convey occlusion in a three-dimensional wireframe. The scissors and the vertical broken guide on the right explicitly identify a cutting position through the wire. The two stroke styles therefore encode different contextual functions."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
+    "mathematical_meanings": "Left image: It represents an edge on the hidden rear part of the icosahedron. Right image: It indicates a cut position through the folded wire.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The scissors and the vertical broken guide on the right explicitly identify a cutting position through the wire. The two stroke styles therefore encode different contextual functions."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0287",
+    "condition": "condition/geometric_markers/AVP0287"
+  }
+}

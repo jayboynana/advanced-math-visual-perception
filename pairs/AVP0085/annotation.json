@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0085",
+  "authoring_id": "GR10",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "excluded_boundary_vs_function_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "511",
+    "sample_index": "2554",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_511.png",
+    "image_path": "pairs/AVP0085/left.png",
+    "sha256": "109efb1e544885f2857b69fd2bd851fa40e597078fac7d12c41fd0892c1f95ce",
+    "width": 656,
+    "height": 506,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "568",
+    "sample_index": "2839",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_568.png",
+    "image_path": "pairs/AVP0085/right.png",
+    "sha256": "1e3d232a22ba56d79145624e739075e15e878702f0840253466e0972869cea37",
+    "width": 276,
+    "height": 282,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Dashed plotted line",
+    "left_evidence": "The black dashed line rising to the right along the boundary of the gray half-plane.",
+    "right_evidence": "The magenta dashed U-shaped curve labeled g.",
+    "left_meaning": "The boundary of an inequality region; the dashes indicate that this boundary is excluded from the displayed solution set.",
+    "right_meaning": "The graph of a second function g, distinguished from the cyan graph of f.",
+    "same_meaning": false,
+    "reason": "The left dashes encode exclusion of a solution-set boundary, whereas the right dashes are a drawing style used to distinguish function graphs."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Dashed plotted line",
+    "mathematical_meanings": "Left image: The boundary of an inequality region; the dashes indicate that this boundary is excluded from the displayed solution set. Right image: The graph of a second function g, distinguished from the cyan graph of f.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes encode exclusion of a solution-set boundary, whereas the right dashes are a drawing style used to distinguish function graphs."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/same type/AVP0085",
+    "condition": "condition/graphical_roles/AVP0085"
+  }
+}

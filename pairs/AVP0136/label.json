@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+  "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 4. Right image: The selected tick denotes y-coordinate value 4.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected vertical-axis ticks denote y-coordinate 4. A circle and a parabola supply different contexts for the same coordinate-scale value."
+}

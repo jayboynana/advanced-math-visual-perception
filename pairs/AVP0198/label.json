@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+  "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 4. Right image: The selected tick denotes x-coordinate value 4.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The number 4 is shared, but one selected label denotes a y-coordinate and the other an x-coordinate."
+}

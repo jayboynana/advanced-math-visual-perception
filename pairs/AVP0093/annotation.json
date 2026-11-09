@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0093",
+  "authoring_id": "GR18",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "dimension_span_vs_period",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "402",
+    "sample_index": "2009",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_402.png",
+    "image_path": "pairs/AVP0093/left.png",
+    "sha256": "9697e90cfeb653f6e4c21db03483e29fcf9e42d3edf41bb6bab729c4c588dc9f",
+    "width": 667,
+    "height": 354,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "544",
+    "sample_index": "2719",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_544.png",
+    "image_path": "pairs/AVP0093/right.png",
+    "sha256": "b9c51556150d73c295728fb47b2df50830a2def5f02061cb463600aae616f8e3",
+    "width": 344,
+    "height": 356,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Horizontal double-headed arrow",
+    "left_evidence": "The horizontal double-headed arrow below the semicircle and above 52.72 cm.",
+    "right_evidence": "The magenta horizontal double-headed arrow between two adjacent peaks of the waveform.",
+    "left_meaning": "Indicates a spatial-length interval between two horizontal positions.",
+    "right_meaning": "Indicates the interval between two adjacent peaks along the horizontal independent-variable axis, representing one repetition period of the displayed waveform.",
+    "same_meaning": false,
+    "reason": "The left arrow measures spatial length, whereas the right arrow marks a waveform repetition interval. Their specific mathematical roles differ; a time unit is not inferred merely because the horizontal axis is labeled t."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Horizontal double-headed arrow",
+    "mathematical_meanings": "Left image: Indicates a spatial-length interval between two horizontal positions. Right image: Indicates the interval between two adjacent peaks along the horizontal independent-variable axis, representing one repetition period of the displayed waveform.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arrow measures spatial length, whereas the right arrow marks a waveform repetition interval. Their specific mathematical roles differ; a time unit is not inferred merely because the horizontal axis is labeled t."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review: reviewed contact sheets and pairwise previews of the original images; interprets only the specified visual anchor, without exhaustively describing the images or using solutions to the original problems; not independently double-annotated by humans.",
+  "views": {
+    "type": "type/different type/AVP0093",
+    "condition": "condition/graphical_roles/AVP0093"
+  }
+}

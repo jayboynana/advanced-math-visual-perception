@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal axis with tick labels",
+  "mathematical_meanings": "Left image: The horizontal coordinate axis that locates points by their x-coordinate. Right image: The horizontal coordinate axis used to read graph input coordinates.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both lines establish the horizontal coordinate reference; a geometric circle on one and a V-shaped function on the other do not alter that axis role."
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0458",
+  "authoring_id": "V03GR058",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "principal_function_graph",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "167",
+    "sample_index": "167",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 1920,
+      "img_width": 1920,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/167.jpg",
+    "sha256": "d4885cc59150610a34cf59f004974df22b755242fadf5e3a74b36c6fefe30916",
+    "width": 1920,
+    "height": 1920,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0458/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "479",
+    "sample_index": "2394",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_479.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0458/right.png",
+    "width": 459,
+    "height": 467,
+    "sha256": "44af2f8e86144fb31bba9807b5c7a50e781c3887480bda083eaaf642762afc47"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth principal curve on Cartesian axes",
+    "left_evidence": "The purple curve with a local maximum and minimum across the Cartesian axes.",
+    "right_evidence": "The increasing blue S-shaped curve across the Cartesian grid.",
+    "left_meaning": "A function graph relating y to x.",
+    "right_meaning": "A function graph relating y to x.",
+    "same_meaning": true,
+    "reason": "Each curve uses horizontal input and vertical output positions to represent a function. Similar roles do not require the curves to be the same function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth principal curve on Cartesian axes",
+    "mathematical_meanings": "Left image: A function graph relating y to x. Right image: A function graph relating y to x.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each curve uses horizontal input and vertical output positions to represent a function. Similar roles do not require the curves to be the same function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/same type/AVP0458",
+    "condition": "condition/graphical_roles/AVP0458"
+  }
+}

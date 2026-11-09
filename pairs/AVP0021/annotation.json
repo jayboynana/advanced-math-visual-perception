@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0021",
+  "authoring_id": "NR21",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_signed_value_same_ordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "437",
+    "sample_index": "2184",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_437.png",
+    "image_path": "pairs/AVP0021/left.png",
+    "sha256": "3d91a2cf6769d1182d205fd7c6abe6ea825b8d64f93594e89e40e76d97146920",
+    "width": 500,
+    "height": 547,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "543",
+    "sample_index": "2714",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_543.png",
+    "image_path": "pairs/AVP0021/right.png",
+    "sha256": "065c507db3422cd8cdeff680948de5e9dc65e8d71a6e6a174731ee5f4d866dbe",
+    "width": 396,
+    "height": 404,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The value −3 inside parentheses",
+    "left_evidence": "The second component, −3, of the lower hyperbola vertex's label (−1,−3).",
+    "right_evidence": "The second component, −3, of the upper orange point's label (−2,−3).",
+    "left_meaning": "The marked hyperbola vertex has y-coordinate −3.",
+    "right_meaning": "The orange point on the oscillating curve has y-coordinate −3.",
+    "same_meaning": true,
+    "reason": "The complete signed values and their y-coordinate roles match; x-coordinates and object identities are outside the selected target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The value −3 inside parentheses",
+    "mathematical_meanings": "Left image: The marked hyperbola vertex has y-coordinate −3. Right image: The orange point on the oscillating curve has y-coordinate −3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The complete signed values and their y-coordinate roles match; x-coordinates and object identities are outside the selected target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The hyperbola diagram is classified as geometry. Only the lower vertex's y-coordinate is selected.",
+  "views": {
+    "type": "type/different type/AVP0021",
+    "condition": "condition/numeric_representation/AVP0021"
+  }
+}

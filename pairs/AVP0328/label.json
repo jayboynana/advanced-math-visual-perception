@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: x denotes the unknown angle measure at B, in degrees. Right image: x denotes the unknown angle measure at C.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at x° at the top triangle vertex B; the right occurrence is at x beside the lower angle arc at C. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

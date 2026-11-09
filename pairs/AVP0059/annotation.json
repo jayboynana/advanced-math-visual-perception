@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0059",
+  "authoring_id": "SR09",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_circle_point_name",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "439",
+    "sample_index": "2194",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_439.png",
+    "image_path": "pairs/AVP0059/left.png",
+    "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
+    "width": 254,
+    "height": 259,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "525",
+    "sample_index": "2624",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_525.png",
+    "image_path": "pairs/AVP0059/right.png",
+    "sha256": "bc5d514fae47e0306fdf2dfbcb802aaa66336903c5b4c7083b6d1f4d2f72e814",
+    "width": 271,
+    "height": 281,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A beside a circular arc or circumference",
+    "left_evidence": "A beside the magenta point in the first quadrant",
+    "right_evidence": "A beside the orange point in the first quadrant",
+    "left_meaning": "A names the highlighted point on the circular arc.",
+    "right_meaning": "A names the highlighted point on the circumference.",
+    "same_meaning": true,
+    "reason": "Both occurrences name a designated point on a circle; other auxiliary structures are outside this target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The uppercase letter A beside a circular arc or circumference",
+    "mathematical_meanings": "Left image: A names the highlighted point on the circular arc. Right image: A names the highlighted point on the circumference.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both occurrences name a designated point on a circle; other auxiliary structures are outside this target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/same type/AVP0059",
+    "condition": "condition/symbolic_roles/AVP0059"
+  }
+}

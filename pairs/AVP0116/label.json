@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+  "mathematical_meanings": "Left image: The top-right segment has length value 8. Right image: The short upper-left segment has length value 8.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both occurrences of 8 specify the length value of a top segment."
+}

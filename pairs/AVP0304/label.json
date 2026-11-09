@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter C",
+  "mathematical_meanings": "Left image: C names the indicated geometric point. Right image: C names the indicated geometric point.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at C beside the intersection of chords inside the circle; the right occurrence is at C at the angle vertex on the upper horizontal line. Both use the selected notation for the same point-naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

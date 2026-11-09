@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A short vertical tick crossing a horizontal line",
+  "mathematical_meanings": "Left image: It is an equal-length marker indicating that the lower radius has the same length as the radius on the right bearing the matching single tick. Right image: It is an axis tick marking the horizontal coordinate 0.5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The similar short ticks encode an equal-length relationship between segments and a coordinate reading position, respectively."
+}

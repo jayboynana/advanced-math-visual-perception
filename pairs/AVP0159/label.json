@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The logarithm has base 2. Right image: The marked peak point has y-coordinate 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected 2 is a logarithm base in one image and the second component of a point's coordinate pair in the other."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 25 in both images.",
+  "mathematical_meanings": "Left image: The number 25 is the constant on the right-hand side of the circle equation. Right image: Segment PQ has length value 25.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "25 is the constant on the right-hand side of the circle equation, whereas the other 25 gives hypotenuse PQ's length."
+}

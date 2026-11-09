@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0044",
+  "authoring_id": "GM19",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "colored_angle_square_vs_grid_cell",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "368",
+    "sample_index": "1839",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_368.png",
+    "image_path": "pairs/AVP0044/left.png",
+    "sha256": "91a2d312351bc19553ea2c8d0cce6511dea36968d60efd88bfcf4862f28f1abf",
+    "width": 434,
+    "height": 351,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "535",
+    "sample_index": "2674",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_535.png",
+    "image_path": "pairs/AVP0044/right.png",
+    "sha256": "c1b5f6ca197551097ed92bda0bb3856d86a10077749374bfb2a2a5e5cf3971b2",
+    "width": 267,
+    "height": 275,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square outline enclosed by horizontal and vertical lines",
+    "left_evidence": "A small pink square sits above and to the right of G, adjoining the blue vertical and horizontal broken lines.",
+    "right_evidence": "In the first quadrant, a small light-gray grid cell lies between x=4 and 5 and y=4 and 5.",
+    "left_meaning": "It is a right-angle marker indicating that the vertical auxiliary line at G is perpendicular to the horizontal auxiliary line.",
+    "right_meaning": "It is a grid cell used for coordinate readings.",
+    "same_meaning": false,
+    "reason": "The pink marker and gray grid cell both have square outlines; their mathematical functions are an explicit angle marker and a background reading reference, respectively."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square outline enclosed by horizontal and vertical lines",
+    "mathematical_meanings": "Left image: It is a right-angle marker indicating that the vertical auxiliary line at G is perpendicular to the horizontal auxiliary line. Right image: It is a grid cell used for coordinate readings.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The pink marker and gray grid cell both have square outlines; their mathematical functions are an explicit angle marker and a background reading reference, respectively."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again; a specific visible square is identified on each side of this negative pair.",
+  "views": {
+    "type": "type/different type/AVP0044",
+    "condition": "condition/geometric_markers/AVP0044"
+  }
+}

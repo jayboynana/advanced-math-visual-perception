@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0190",
+  "authoring_id": "V03NR090",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "coordinate_vs_area",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "962",
+    "sample_index": "962",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 301,
+      "img_width": 387,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/962.jpg",
+    "sha256": "928c1a6242822f7e9a785ef29bb4a7df3127704ed8d38eba679d65c411454a98",
+    "width": 387,
+    "height": 301,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0190/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "717",
+    "sample_index": "717",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 350,
+      "img_width": 314,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/717.jpg",
+    "sha256": "b2058bb82a7444e368d69d600360966e828025a779cd1f80fc87c22657c86cc3",
+    "width": 314,
+    "height": 350,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0190/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 100 in both images.",
+    "left_evidence": "The tick label 100 at the top-left of the square graph frame.",
+    "right_evidence": "The 100 in the annotation area=100 pointing to the gray region.",
+    "left_meaning": "The selected tick denotes y-coordinate value 100.",
+    "right_meaning": "The indicated gray region is assigned finite area value 100.",
+    "same_meaning": false,
+    "reason": "The first 100 is a y-coordinate-scale value; the other 100 labels the area of a shaded region. Coordinate scale and area are distinct quantities."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 100 in both images.",
+    "mathematical_meanings": "Left image: The selected tick denotes y-coordinate value 100. Right image: The indicated gray region is assigned finite area value 100.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The first 100 is a y-coordinate-scale value; the other 100 labels the area of a shaded region. Coordinate scale and area are distinct quantities."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0190",
+    "condition": "condition/numeric_representation/AVP0190"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0298",
+  "authoring_id": "V03GM098",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_marker_vs_circle_boundary",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2281",
+    "sample_index": "2281",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2281",
+      "question": "In this figure $\\angle RFS = \\angle FDR$, $FD = 4$ inches, $DR = 6$ inches, $FR = 5$ inches, $FS = 7\\frac{1}{2}$ inches. The length of $RS$, in inches, is:\n\n<image1>",
+      "options": [
+        "$\\text{undetermined}$",
+        "$4$",
+        "$5\\frac{1}{2}$",
+        "$6$",
+        "$6\\frac{1}{4}$"
+      ],
+      "image": "images/2281.jpg",
+      "level": 5,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2281.jpg",
+    "sha256": "9a95ee6a99b33faa9248edc819f44cb71ac583d825f96d21cd1b6a772cdc814d",
+    "width": 545,
+    "height": 310,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0298/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2200",
+    "sample_index": "2200",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2200",
+      "question": "Eight semicircles line the inside of a square with side length 2 as shown. What is the radius of the circle tangent to all of these semicircles?\n\n<image1>",
+      "options": [
+        "$\\frac{1+\\sqrt{2}}4$",
+        "$\\frac{\\sqrt{5}-1}2$",
+        "$\\frac{\\sqrt{3}+1}4$",
+        "$\\frac{2\\sqrt{3}}5$",
+        "$\\frac{\\sqrt{5}}3$"
+      ],
+      "image": "images/2200.jpg",
+      "level": 4,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2200.jpg",
+    "sha256": "0474f8324fdf331f2cc5eebffcd9a7c921dd586c3ee380837f0c4e7e5cbc2f64",
+    "width": 545,
+    "height": 544,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0298/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A circular arc-shaped stroke.",
+    "left_evidence": "The small arc at D between DR and DF.",
+    "right_evidence": "A circular arc inside the upper-left corner of the outer square.",
+    "left_meaning": "It singles out the angle formed by DR and DF at D.",
+    "right_meaning": "It forms part of a circular boundary in the composite circle-and-square figure.",
+    "same_meaning": false,
+    "reason": "The left arc is a small angle marker placed at a vertex. The right arc is part of the actual circumference of a circle or semicircle in the geometric object. One selects an angle; the other supplies a geometric boundary."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A circular arc-shaped stroke.",
+    "mathematical_meanings": "Left image: It singles out the angle formed by DR and DF at D. Right image: It forms part of a circular boundary in the composite circle-and-square figure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arc is a small angle marker placed at a vertex. The right arc is part of the actual circumference of a circle or semicircle in the geometric object. One selects an angle; the other supplies a geometric boundary."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0298",
+    "condition": "condition/geometric_markers/AVP0298"
+  }
+}

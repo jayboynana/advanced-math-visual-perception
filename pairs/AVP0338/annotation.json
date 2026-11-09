@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0338",
+  "authoring_id": "V03SR038",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_angle_variable",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "370",
+    "sample_index": "1849",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_370.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0338/left.png",
+    "width": 194,
+    "height": 179,
+    "sha256": "9de1f6bf495ddcb8874afa9f6240151b7d84fb939c3b32f7eed94fe23fc88868"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "555",
+    "sample_index": "2774",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_555.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0338/right.png",
+    "width": 285,
+    "height": 292,
+    "sha256": "56dc575fd767556d81f11419f4f9a27b2a3291b198854bff8669c3399bfd77fa"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter θ",
+    "left_evidence": "θ beside the angle at the lower-right triangle vertex",
+    "right_evidence": "θ beside the angle from the positive horizontal axis to the radius",
+    "left_meaning": "θ denotes the unknown angle at the lower-right vertex.",
+    "right_meaning": "θ denotes the angle between the radius and the positive horizontal axis.",
+    "same_meaning": true,
+    "reason": "The left occurrence is located at θ beside the angle at the lower-right triangle vertex; the right occurrence is at θ beside the angle from the positive horizontal axis to the radius. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter θ",
+    "mathematical_meanings": "Left image: θ denotes the unknown angle at the lower-right vertex. Right image: θ denotes the angle between the radius and the positive horizontal axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is located at θ beside the angle at the lower-right triangle vertex; the right occurrence is at θ beside the angle from the positive horizontal axis to the radius. Both use the selected notation for the same unknown-angle variable role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0338",
+    "condition": "condition/symbolic_roles/AVP0338"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upward arrowhead at the top of a vertical coordinate axis",
+  "mathematical_meanings": "Left image: It indicates the positive y direction and the vertical coordinate axis continuing upward. Right image: It indicates the positive y direction and the vertical coordinate axis continuing upward.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Although one image is a unit-circle diagram and the other a function graph, the axis-end arrowheads have the same coordinate-direction meaning."
+}

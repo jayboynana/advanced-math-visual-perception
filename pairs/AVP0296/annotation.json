@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0296",
+  "authoring_id": "V03GM096",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_marker_vs_circle_boundary",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1458",
+    "sample_index": "1458",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "1458",
+      "question": "The figure shows a semicircle with center $O$. Two of the angles are given. What is the size, in degrees, of the angle $\\alpha$?\n<image1>",
+      "options": [
+        "$9^{\\circ}$",
+        "$11^{\\circ}$",
+        "$16^{\\circ}$",
+        "$17.5^{\\circ}$",
+        "$18^{\\circ}$"
+      ],
+      "image": "images/1458.jpg",
+      "level": 2,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/1458.jpg",
+    "sha256": "695f2e952134eb27f899b564e7c657605a7445c48c60f403bc755434dd818043",
+    "width": 484,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0296/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1472",
+    "sample_index": "1472",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "1472",
+      "question": "The diagram shows three big circles of equal size and four small circles. Each small circle touches two big circles and has radius 1. How big is the shaded area?\n<image1>",
+      "options": [
+        "$\\pi$",
+        "$2 \\pi$",
+        "$3 \\pi$",
+        "$4 \\pi$",
+        "$6 \\pi$"
+      ],
+      "image": "images/1472.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/1472.jpg",
+    "sha256": "c071ded5c6dc5634da90bf7d8d5c1b37cfa9e8513e43df864239b01f8b97be55",
+    "width": 401,
+    "height": 230,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0296/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A circular arc-shaped stroke.",
+    "left_evidence": "The small arc bounding the 67° region at the lower-right end of the semicircle.",
+    "right_evidence": "The upper circular arc surrounding the left pair of inner circles.",
+    "left_meaning": "It selects the vertex angle associated with the 67° label.",
+    "right_meaning": "It is part of a circle boundary in the overlapping-circle diagram.",
+    "same_meaning": false,
+    "reason": "The left arc is a small angle marker placed at a vertex. The right arc is part of the actual circumference of a circle or semicircle in the geometric object. One selects an angle; the other supplies a geometric boundary."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A circular arc-shaped stroke.",
+    "mathematical_meanings": "Left image: It selects the vertex angle associated with the 67° label. Right image: It is part of a circle boundary in the overlapping-circle diagram.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arc is a small angle marker placed at a vertex. The right arc is part of the actual circumference of a circle or semicircle in the geometric object. One selects an angle; the other supplies a geometric boundary."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0296",
+    "condition": "condition/geometric_markers/AVP0296"
+  }
+}

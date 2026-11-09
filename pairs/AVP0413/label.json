@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular point marker",
+  "mathematical_meanings": "Left image: The center of the geometric circle. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "A dot at the middle of a circle diameter identifies a center; a dot at the end of the plotted polyline indicates an included endpoint."
+}

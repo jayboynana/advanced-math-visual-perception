@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter B",
+  "mathematical_meanings": "Left image: B names the indicated geometric point. Right image: B names the indicated geometric point.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at B above the right endpoint of the horizontal segment; the right occurrence is at B at the right endpoint of the diameter. Both use the selected notation for the same point-naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

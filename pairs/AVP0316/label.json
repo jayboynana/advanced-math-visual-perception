@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter X",
+  "mathematical_meanings": "Left image: X names the indicated geometric point. Right image: X names the indicated geometric point.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at X at the upper-left vertex of the right triangle; the right occurrence is at X at the left exterior point of the circle construction. Both use the selected notation for the same point-naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

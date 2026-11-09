@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0479",
+  "authoring_id": "V03GR079",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "spatial_dimension_vs_period",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "273",
+    "sample_index": "273",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 237,
+      "img_width": 347,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/273.jpg",
+    "sha256": "b4d4552279a272dc459c1f5f60c014c973fb2a978f2e784139d19331852d6418",
+    "width": 347,
+    "height": 237,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0479/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "546",
+    "sample_index": "2729",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_546.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0479/right.png",
+    "width": 292,
+    "height": 296,
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal double-headed arrow",
+    "left_evidence": "The horizontal double-headed dimension line below the blue diamond, labeled 2x.",
+    "right_evidence": "The magenta horizontal double-headed arrow above adjacent peaks.",
+    "left_meaning": "A spatial length annotation spanning the polygon width.",
+    "right_meaning": "One horizontal-coordinate repetition interval of the waveform, namely its period.",
+    "same_meaning": false,
+    "reason": "The diamond arrow measures polygon width, whereas the waveform arrow marks one period along its independent-variable axis. Similar span notation does not identify the measured quantity."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal double-headed arrow",
+    "mathematical_meanings": "Left image: A spatial length annotation spanning the polygon width. Right image: One horizontal-coordinate repetition interval of the waveform, namely its period.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The diamond arrow measures polygon width, whereas the waveform arrow marks one period along its independent-variable axis. Similar span notation does not identify the measured quantity."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual-review draft: inspected source-image contact sheets and original selected images. Only the specified target is interpreted; no original problem is solved. Pending independent human double annotation.",
+  "views": {
+    "type": "type/different type/AVP0479",
+    "condition": "condition/graphical_roles/AVP0479"
+  }
+}

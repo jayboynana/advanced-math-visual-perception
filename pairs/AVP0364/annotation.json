@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0364",
+  "authoring_id": "V03SR064",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_variable_vs_horizontal_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0364/left.png",
+    "width": 162,
+    "height": 246,
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "167",
+    "sample_index": "167",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 1920,
+      "img_width": 1920,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/167.jpg",
+    "sha256": "d4885cc59150610a34cf59f004974df22b755242fadf5e3a74b36c6fefe30916",
+    "width": 1920,
+    "height": 1920,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0364/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x beside the angle arc between BD and BC at B",
+    "right_evidence": "x at the right end of the horizontal axis",
+    "left_meaning": "x denotes the unknown angle measure between BD and BC.",
+    "right_meaning": "x labels the horizontal coordinate axis or independent-variable direction.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to x beside the angle arc between BD and BC at B supports the meaning: x denotes the unknown angle measure between BD and BC. On the right, the context is x at the right end of the horizontal axis, where x labels the horizontal coordinate axis or independent-variable direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: x denotes the unknown angle measure between BD and BC. Right image: x labels the horizontal coordinate axis or independent-variable direction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to x beside the angle arc between BD and BC at B supports the meaning: x denotes the unknown angle measure between BD and BC. On the right, the context is x at the right end of the horizontal axis, where x labels the horizontal coordinate axis or independent-variable direction. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0364",
+    "condition": "condition/symbolic_roles/AVP0364"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Parentheses in mathematical notation",
+  "mathematical_meanings": "Left image: The parentheses contain an ordered pair giving the point coordinates: horizontal coordinate first and vertical coordinate second. Right image: The parentheses contain the highlighted point's ordered horizontal and vertical coordinates.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is located at (3, 2) beside the upper vertex of the right-hand triangular part; the right occurrence is at (¼π, −2.2) beside the highlighted upper point on the wave. Both use the selected notation for the same ordered-coordinate-pair notation. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+}

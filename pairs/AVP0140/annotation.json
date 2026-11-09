@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0140",
+  "authoring_id": "V03NR040",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coordinate_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "717",
+    "sample_index": "717",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 350,
+      "img_width": 314,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/717.jpg",
+    "sha256": "b2058bb82a7444e368d69d600360966e828025a779cd1f80fc87c22657c86cc3",
+    "width": 314,
+    "height": 350,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0140/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "619",
+    "sample_index": "619",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 666,
+      "img_width": 970,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/619.jpg",
+    "sha256": "377213543c756f666b334801ce334c2477dbe65ed81a7556a9839ccc8ee1726d",
+    "width": 970,
+    "height": 666,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0140/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 1 in both images.",
+    "left_evidence": "The tick label 1 below the marked point's vertical guide.",
+    "right_evidence": "The tick label 1 at the first positive integer on the horizontal axis.",
+    "left_meaning": "The selected tick denotes x-coordinate value 1.",
+    "right_meaning": "The selected tick denotes x-coordinate value 1.",
+    "same_meaning": true,
+    "reason": "Both selected horizontal-axis ticks denote x-coordinate 1; the shaded area and the exponential base are outside this target."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+    "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value 1. Right image: The selected tick denotes x-coordinate value 1.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both selected horizontal-axis ticks denote x-coordinate 1; the shaded area and the exponential base are outside this target."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0140",
+    "condition": "condition/numeric_representation/AVP0140"
+  }
+}

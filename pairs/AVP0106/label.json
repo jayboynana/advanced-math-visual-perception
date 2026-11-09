@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 30° in both images.",
+  "mathematical_meanings": "Left image: The marked angle between the ground and AC measures 30 degrees. Right image: The interior angle at A measures 30 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both selected labels give an angle measure of 30 degrees."
+}

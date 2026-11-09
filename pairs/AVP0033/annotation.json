@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0033",
+  "authoring_id": "GM08",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "rotated_square_across_contexts_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "755",
+    "sample_index": "3774",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_755.png",
+    "image_path": "pairs/AVP0033/left.png",
+    "sha256": "61b20e48410f4528bc8e57551a04ae3bb7b7f36b8abc94bfc0a0286db8e936af",
+    "width": 433,
+    "height": 448,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "760",
+    "sample_index": "3799",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_760.png",
+    "image_path": "pairs/AVP0033/right.png",
+    "sha256": "b0543d287a93a5d339061cd68cbe337ad6b0f64039162885df2f021d354b035d",
+    "width": 505,
+    "height": 333,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A tilted unfilled square angle marker",
+    "left_evidence": "A tilted square sits inside the topmost vertex, between two slanted sides each labeled √3.",
+    "right_evidence": "A tilted square lies at B near the upper-left part of the circle, between the slanted straight line and the segment toward P.",
+    "left_meaning": "It indicates that the two slanted sides at the topmost vertex are perpendicular.",
+    "right_meaning": "It indicates that the slanted straight line at B is perpendicular to the radius BP.",
+    "same_meaning": true,
+    "reason": "Both locations use the same type of right-angle square; its placement at a triangle vertex or near a circle does not change its meaning."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A tilted unfilled square angle marker",
+    "mathematical_meanings": "Left image: It indicates that the two slanted sides at the topmost vertex are perpendicular. Right image: It indicates that the slanted straight line at B is perpendicular to the radius BP.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both locations use the same type of right-angle square; its placement at a triangle vertex or near a circle does not change its meaning."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review; both original images were reviewed again. Only the square actually drawn at B is interpreted; no additional right angle is inferred from the apparent tangency.",
+  "views": {
+    "type": "type/same type/AVP0033",
+    "condition": "condition/geometric_markers/AVP0033"
+  }
+}

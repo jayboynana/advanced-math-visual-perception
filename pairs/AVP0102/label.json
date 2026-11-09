@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 45° in both images.",
+  "mathematical_meanings": "Left image: The marked interior angle at R measures 45 degrees. Right image: The marked angle at A measures 45 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both degree labels assign the value 45 to a marked angle; their different vertices do not change the selected angle-measure role."
+}

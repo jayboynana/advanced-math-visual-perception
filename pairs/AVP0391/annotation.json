@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0391",
+  "authoring_id": "V03SR091",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_variable_vs_constant_output",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "342",
+    "sample_index": "342",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 299,
+      "img_width": 405,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/342.jpg",
+    "sha256": "93e5258b782c40f8859455c43566e9cd804312a9ac3b808b281de64eb96dc793",
+    "width": 405,
+    "height": 299,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0391/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "223",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 776,
+      "img_width": 1430,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/223.jpg",
+    "sha256": "358189e467fadeb5d60643a543fdb132b336c210204c23d4c6357ad0773b771c",
+    "width": 1430,
+    "height": 776,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0391/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter c",
+    "left_evidence": "c° at the top interior angle",
+    "right_evidence": "c in f(x) = c and at the height of the horizontal graph",
+    "left_meaning": "c denotes the unknown top interior angle measure, in degrees.",
+    "right_meaning": "c is the constant output value of the horizontal function.",
+    "same_meaning": false,
+    "reason": "On the left, attachment to c° at the top interior angle supports the meaning: c denotes the unknown top interior angle measure, in degrees. On the right, the context is c in f(x) = c and at the height of the horizontal graph, where c is the constant output value of the horizontal function. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter c",
+    "mathematical_meanings": "Left image: c denotes the unknown top interior angle measure, in degrees. Right image: c is the constant output value of the horizontal function.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, attachment to c° at the top interior angle supports the meaning: c denotes the unknown top interior angle measure, in degrees. On the right, the context is c in f(x) = c and at the height of the horizontal graph, where c is the constant output value of the horizontal function. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0391",
+    "condition": "condition/symbolic_roles/AVP0391"
+  }
+}

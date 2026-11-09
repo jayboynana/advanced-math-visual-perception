@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0178",
+  "authoring_id": "V03NR078",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "length_vs_angle_measure",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "388",
+    "sample_index": "388",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 209,
+      "img_width": 342,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/388.jpg",
+    "sha256": "0d8adba525ddfa2f4c062be642d3ced1037511353428cfd964eed8770e85b177",
+    "width": 342,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0178/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "4",
+    "sample_index": "19",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_4.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0178/right.png",
+    "width": 301,
+    "height": 231,
+    "sha256": "b6ac8b6724c9574d587e72c5a6414c1e35871f0afffab2911903bf2e7d989dca"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Numerical notations 36 and 36°.",
+    "left_evidence": "The 36 above the top side PM.",
+    "right_evidence": "The 36° at the lower-left vertex A.",
+    "left_meaning": "Segment PM has length value 36.",
+    "right_meaning": "The marked triangle angle at A measures 36 degrees.",
+    "same_meaning": false,
+    "reason": "The same numeral 36 denotes a segment-length value in the first image and an angle's degree measure in the second."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Numerical notations 36 and 36°.",
+    "mathematical_meanings": "Left image: Segment PM has length value 36. Right image: The marked triangle angle at A measures 36 degrees.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The same numeral 36 denotes a segment-length value in the first image and an angle's degree measure in the second."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
+  "views": {
+    "type": "type/same type/AVP0178",
+    "condition": "condition/numeric_representation/AVP0178"
+  }
+}

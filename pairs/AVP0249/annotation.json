@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0249",
+  "authoring_id": "V03GM049",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "segment_equality_tick_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2809",
+    "sample_index": "2809",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2809",
+      "question": "Sohom constructs a square $BERK$ of side length $10$. Darlnim adds points $T$, $O$, $W$, and $N$, which are the midpoints of $\\overline{BE}$, $\\overline{ER}$, $\\overline{RK}$, and $\\overline{KB}$, respectively. Lastly, Sylvia constructs square $CALI$ whose edges contain the vertices of $BERK$, such that $\\overline{CA}$ is parallel to $\\overline{BO}$. Compute  the area of $CALI$.\\n<image1>",
+      "options": [],
+      "image": "images/2809.jpg",
+      "level": 5,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2809.jpg",
+    "sha256": "a9fe411ba25eb90c37b44b859aaad1780d964a4775289d76178c7f081cd492cc",
+    "width": 341,
+    "height": 340,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0249/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2953",
+    "sample_index": "2953",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2953",
+      "question": "A square is divided, as shown. What fraction of the area of the square is shaded? Express your answer as a fraction. <image1>",
+      "options": [],
+      "image": "images/2953.jpg",
+      "level": 1,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2953.jpg",
+    "sha256": "a0918ac70586e88bdf587cccc7df432f25cde714753b9f320db0da7057918865",
+    "width": 2520,
+    "height": 2520,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0249/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Short transverse tick strokes repeated across line segments.",
+    "left_evidence": "The short tick on BT, with a matching tick on TE along the top of the inner square.",
+    "right_evidence": "The pair of short ticks crossing each of the two bottom-edge portions.",
+    "left_meaning": "It marks BT and TE as equal-length pieces of the segment BE.",
+    "right_meaning": "It marks the two bottom-edge portions as equal in length.",
+    "same_meaning": true,
+    "reason": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Short transverse tick strokes repeated across line segments.",
+    "mathematical_meanings": "Left image: It marks BT and TE as equal-length pieces of the segment BE. Right image: It marks the two bottom-edge portions as equal in length.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original images and enlarged feature-bank contact sheets; one selected cue; independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0249",
+    "condition": "condition/geometric_markers/AVP0249"
+  }
+}

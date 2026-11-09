@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "language": "en",
+  "pair_id": "AVP0065",
+  "authoring_id": "SR15",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_vs_dependent_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "image_type": "geometry",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "image_path": "pairs/AVP0065/left.png",
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9",
+    "width": 162,
+    "height": 246,
+    "original_image_modified": false
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "521",
+    "sample_index": "2604",
+    "problem_version": "Vision Dominant",
+    "image_type": "function",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_521.png",
+    "image_path": "pairs/AVP0065/right.png",
+    "sha256": "e8c9dc0fa535cd66aff2ebb5d8adc4cbfad187603881f024736bf1df1bae6393",
+    "width": 1908,
+    "height": 1960,
+    "original_image_modified": false
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y",
+    "left_evidence": "y between the left vertical side and diagonal at B",
+    "right_evidence": "y at the top of the vertical axis in the function graph",
+    "left_meaning": "y denotes the unknown measure of the indicated angle.",
+    "right_meaning": "y names the vertical coordinate axis, which encodes function values.",
+    "same_meaning": false,
+    "reason": "The selected letter denotes an angle on the left and a vertical-coordinate or function-value axis on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lowercase letter y",
+    "mathematical_meanings": "Left image: y denotes the unknown measure of the indicated angle. Right image: y names the vertical coordinate axis, which encodes function values.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected letter denotes an angle on the left and a vertical-coordinate or function-value axis on the right."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
+  "views": {
+    "type": "type/different type/AVP0065",
+    "condition": "condition/symbolic_roles/AVP0065"
+  }
+}
