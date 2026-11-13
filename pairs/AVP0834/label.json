@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter B",
+  "mathematical_meanings": "Left image: The symbol \"B\" names the matrix whose entries follow in brackets. Right image: The symbol \"B\" names a specific geometric point at the indicated location.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is B before the second bracketed array. The right occurrence is B at the right endpoint of the horizontal triangle leg. The left placement shows that the symbol names the matrix whose entries follow in brackets, while the right placement shows that it names a specific geometric point at the indicated location."
+}

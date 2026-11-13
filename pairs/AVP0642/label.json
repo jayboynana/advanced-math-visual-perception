@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+  "mathematical_meanings": "Left image: CA is perpendicular to CB at C. Right image: It is one square component of the strip.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one square component of the strip."
+}

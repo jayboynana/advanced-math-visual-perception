@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0685",
+  "authoring_id": "V04GM060",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "north_direction_arrow_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1403",
+    "sample_index": "1403",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_158",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "158-2.png",
+    "sha256": "0bc4e120af9a8eefdb020d455afa4bd92b3d91e221238c5930b3300523143b95",
+    "width": 532,
+    "height": 446,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0685/left.jpg"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "411",
+    "sample_index": "411",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Determining the Positions of Objects Based on Direction, Angle, and Distance",
+    "source_metadata": {
+      "upstream_group_id": "2steps_51",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "51-2.png",
+    "sha256": "58814b20b46818103f7c405861b2402f4084328589d5fb34438c704952927bf4",
+    "width": 365,
+    "height": 235,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0685/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward arrow labeled North.",
+    "left_evidence": "The upright arrow labeled North in the upper-left.",
+    "right_evidence": "The arrow labeled North to the left of the crossing routes.",
+    "left_meaning": "It sets north as the upward direction in the route construction.",
+    "right_meaning": "It gives the compass direction north.",
+    "same_meaning": true,
+    "reason": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An upward arrow labeled North.",
+    "mathematical_meanings": "Left image: It sets north as the upward direction in the route construction. Right image: It gives the compass direction north.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0685",
+    "condition": "condition/geometric_markers/AVP0685"
+  }
+}

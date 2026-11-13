@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Broken strokes along the rear portion of a solid boundary.",
+  "mathematical_meanings": "Left image: It represents the hidden rear bottom edge of the cuboid. Right image: It represents an occluded lower edge of the box.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+}

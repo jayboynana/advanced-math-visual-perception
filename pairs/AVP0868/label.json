@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter b",
+  "mathematical_meanings": "Left image: The symbol \"b\" denotes the horizontal coordinate of the indicated interval endpoint. Right image: The symbol \"b\" denotes the coefficient of the input in the trigonometric argument.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is b below the right dashed projection from the curve. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
+}

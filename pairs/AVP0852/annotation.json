@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0852",
+  "authoring_id": "V04SR102",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "axis_versus_system_unknown",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "963_1",
+    "sample_index": "963_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 963,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_01846c8e63bedc6d99ceg_0040_1.jpg",
+    "sha256": "658c59cf7c7e9d15bece1fe5c080c028e639df6dc9b80fc4906e5bd83ffc556e",
+    "width": 154,
+    "height": 157,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0852/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "492",
+    "sample_index": "492",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image492.png",
+    "sha256": "8d7da64fd2bdfb58fb11626c48407868c77d8c29a56541f880f2996184015bd1",
+    "width": 400,
+    "height": 200,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0852/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x beside the horizontal arrow over the lower-right branch",
+    "right_evidence": "x in the leading term of each of the two simultaneous equations",
+    "left_meaning": "The symbol \"x\" labels the indicated coordinate axis.",
+    "right_meaning": "The symbol \"x\" denotes one of the unknown numbers constrained by the equations.",
+    "same_meaning": false,
+    "reason": "The left occurrence is x beside the horizontal arrow over the lower-right branch. The right occurrence is x in the leading term of each of the two simultaneous equations. The left placement shows that the symbol labels the indicated coordinate axis, while the right placement shows that it denotes one of the unknown numbers constrained by the equations."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: The symbol \"x\" labels the indicated coordinate axis. Right image: The symbol \"x\" denotes one of the unknown numbers constrained by the equations.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is x beside the horizontal arrow over the lower-right branch. The right occurrence is x in the leading term of each of the two simultaneous equations. The left placement shows that the symbol labels the indicated coordinate axis, while the right placement shows that it denotes one of the unknown numbers constrained by the equations."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0852",
+    "condition": "condition/symbolic_roles/AVP0852"
+  }
+}

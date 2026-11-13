@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0596",
+  "authoring_id": "V04NR096",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_domain_cut",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "88",
+    "sample_index": "88",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image88.png",
+    "sha256": "293fe5f778d5ef3e50a14bb267d2d8d5bb685d35002eb4d2b56f9948ccf6950e",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0596/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "87",
+    "sample_index": "87",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image87.png",
+    "sha256": "13f15dd21b8e6c93063ba920b69ade0146aeb43e6269c20e442fbbe4a6164f65",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0596/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 1 in both images.",
+    "left_evidence": "The 1 in the restriction x < 1 in the upper formula.",
+    "right_evidence": "The 1 in the restriction x < 1 on the first branch formula.",
+    "left_meaning": "The first branch is restricted to x-values strictly below the threshold 1.",
+    "right_meaning": "The first branch uses the input threshold 1 as its excluded right boundary.",
+    "same_meaning": true,
+    "reason": "Each occurrence is the value 1 in x < 1, which specifies the excluded right boundary for the selected branch."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+    "mathematical_meanings": "Left image: The first branch is restricted to x-values strictly below the threshold 1. Right image: The first branch uses the input threshold 1 as its excluded right boundary.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each occurrence is the value 1 in x < 1, which specifies the excluded right boundary for the selected branch."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0596",
+    "condition": "condition/numeric_representation/AVP0596"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0859",
+  "authoring_id": "V04SR109",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "axis_versus_system_unknown",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "493",
+    "sample_index": "493",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image493.png",
+    "sha256": "1208ad2e41ac0592ecdf81e69410968badc1efdb5343aec32e47041052a35d69",
+    "width": 400,
+    "height": 200,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0859/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "610_1",
+    "sample_index": "610_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 610,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch6-2024_06_14_d6212742b424b34c5ef2g_0001_1.jpg",
+    "sha256": "780234e63bd17eca31d355744c3be4979fdc016db0a6508cd88c87a7044abe0d",
+    "width": 260,
+    "height": 226,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0859/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y in the second term of the simultaneous equations",
+    "right_evidence": "y beside the large upward arrow above the open circle",
+    "left_meaning": "The symbol \"y\" denotes one of the unknown numbers constrained by the equations.",
+    "right_meaning": "The symbol \"y\" labels the indicated coordinate axis.",
+    "same_meaning": false,
+    "reason": "The left occurrence is y in the second term of the simultaneous equations. The right occurrence is y beside the large upward arrow above the open circle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it labels the indicated coordinate axis."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: The symbol \"y\" denotes one of the unknown numbers constrained by the equations. Right image: The symbol \"y\" labels the indicated coordinate axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is y in the second term of the simultaneous equations. The right occurrence is y beside the large upward arrow above the open circle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it labels the indicated coordinate axis."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0859",
+    "condition": "condition/symbolic_roles/AVP0859"
+  }
+}

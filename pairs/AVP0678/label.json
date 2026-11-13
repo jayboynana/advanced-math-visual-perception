@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An arrow with a head at each end of a measured span.",
+  "mathematical_meanings": "Left image: It measures the length of BC. Right image: It measures an edge length of the cuboid.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+}

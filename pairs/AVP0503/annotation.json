@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0503",
+  "authoring_id": "V04NR003",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1905_2",
+    "sample_index": "1905_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1905,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "High",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_51d595e10fe1a51588ebg_0012_2.jpg",
+    "sha256": "99d891916205ff0dc621253f292385d0033846e6b57872392fc8dd6b524889e4",
+    "width": 757,
+    "height": 528,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0503/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "341",
+    "sample_index": "1704",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_341.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0503/right.png",
+    "width": 341,
+    "height": 232,
+    "sha256": "14ea01d383047b3a77dcea6c93ef106e85448eb80dcd479677bc051edd45fd0e"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 53° in both images.",
+    "left_evidence": "The 53° at C on the left side of sloping segment CA.",
+    "right_evidence": "The 53° in the purple angle region at B.",
+    "left_meaning": "The angle between CB and CA at C measures 53 degrees.",
+    "right_meaning": "The marked angle at B measures 53 degrees.",
+    "same_meaning": true,
+    "reason": "Both labels are attached to marked angle regions and give the same measure of 53°."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 53° in both images.",
+    "mathematical_meanings": "Left image: The angle between CB and CA at C measures 53 degrees. Right image: The marked angle at B measures 53 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both labels are attached to marked angle regions and give the same measure of 53°."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0503",
+    "condition": "condition/numeric_representation/AVP0503"
+  }
+}

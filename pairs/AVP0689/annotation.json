@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0689",
+  "authoring_id": "V04GM064",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dimension_arrow_vs_north",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1097",
+    "sample_index": "1097",
+    "problem_version": "3steps_1",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_17",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "17-1.png",
+    "sha256": "610561159544bece4881b869e17a2a91cf265d2e0126b5cce6d70c1d2922bf74",
+    "width": 301,
+    "height": 216,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0689/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1251",
+    "sample_index": "1251",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_6",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "6-2.png",
+    "sha256": "f50c015137ea89c074886a973952b15b98b032ebfcd806f1fec8570b0d5a16dc",
+    "width": 305,
+    "height": 152,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0689/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upright arrowhead drawn on a straight shaft.",
+    "left_evidence": "The upright double-ended arrow labeled 12 cm to the left of the triangle.",
+    "right_evidence": "The isolated vertical arrow labeled North to the right of the triangle.",
+    "left_meaning": "It measures the triangle height.",
+    "right_meaning": "It gives the north direction for interpreting bearings in the diagram.",
+    "same_meaning": false,
+    "reason": "The left shaft ends at the levels of a finite measured height. The North label on the right sets a compass orientation for the diagram."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An upright arrowhead drawn on a straight shaft.",
+    "mathematical_meanings": "Left image: It measures the triangle height. Right image: It gives the north direction for interpreting bearings in the diagram.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left shaft ends at the levels of a finite measured height. The North label on the right sets a compass orientation for the diagram."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0689",
+    "condition": "condition/geometric_markers/AVP0689"
+  }
+}

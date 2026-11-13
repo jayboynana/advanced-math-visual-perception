@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 500 and 500 m.",
+  "mathematical_meanings": "Left image: The displayed November stock price is 500. Right image: The scale bar represents 500 meters of actual distance.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of stock price, while the right context gives it the role of actual distance indicated by a map scale."
+}

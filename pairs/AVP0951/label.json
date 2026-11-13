@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A sloping straight trace on a coordinate system.",
+  "mathematical_meanings": "Left image: A sloping straight graph encoding a constant rate of change of output with input. Right image: A sloping straight graph encoding a constant rate of change of output with input.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each straight trace plots output against input with constant slope. The visible axes separate this plotted role from a straight edge of an object."
+}

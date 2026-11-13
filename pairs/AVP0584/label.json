@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The parabola's vertex has y-coordinate 2. Right image: The tick marks y-coordinate 2.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both cues identify the same vertical coordinate value, 2. The evidence is the selected axis position or coordinate component in each image."
+}

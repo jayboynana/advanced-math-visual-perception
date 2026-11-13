@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0659",
+  "authoring_id": "V04GM034",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_selection_arc_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1146",
+    "sample_index": "1146",
+    "problem_version": "3steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Triangular Rulers",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_66",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "66-1.png",
+    "sha256": "c0847d3b42d91cd9e3174a55ca9ec847c689aefe1372b4e4561457ef332dac10",
+    "width": 212,
+    "height": 144,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0659/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "240",
+    "sample_index": "240",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Other Polygons",
+    "source_metadata": {
+      "upstream_group_id": "2steps_240",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "240-1.png",
+    "sha256": "474988a54c64a5b720e7d1c1a181084f6c98047e9fa25c7665f59668f2af9a73",
+    "width": 254,
+    "height": 279,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0659/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "left_evidence": "The small arc just below the top vertex of the orange-edged triangle.",
+    "right_evidence": "The arc beside the numeral 2 at the top vertex of the pentagon.",
+    "left_meaning": "It identifies angle 1 at the top vertex.",
+    "right_meaning": "It identifies the interior angle labeled 2 at the top vertex.",
+    "same_meaning": true,
+    "reason": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "mathematical_meanings": "Left image: It identifies angle 1 at the top vertex. Right image: It identifies the interior angle labeled 2 at the top vertex.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0659",
+    "condition": "condition/geometric_markers/AVP0659"
+  }
+}

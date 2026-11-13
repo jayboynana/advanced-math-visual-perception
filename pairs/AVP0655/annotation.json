@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0655",
+  "authoring_id": "V04GM030",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_selection_arc_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1306",
+    "sample_index": "1306",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_61",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "61-2.png",
+    "sha256": "68456c654def1b141b20a4ecbb859d1b80786a2392f8c7ef05ebe08708581da6",
+    "width": 362,
+    "height": 216,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0655/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1364",
+    "sample_index": "1364",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Calculation and Comparison of Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_119",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "119-2.png",
+    "sha256": "adeab8aceeca588d208deae7bb3e4f4033ac62e5523bf230826f31f1d2af96e8",
+    "width": 702,
+    "height": 348,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0655/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "left_evidence": "The arc at the top vertex beside the 45-degree label.",
+    "right_evidence": "The small arc beside the 30-degree label where the folded polygon meets the lower side at C.",
+    "left_meaning": "It identifies the apex angle with measure 45 degrees.",
+    "right_meaning": "It identifies the 30-degree angle between CF and the rightward base ray.",
+    "same_meaning": true,
+    "reason": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "mathematical_meanings": "Left image: It identifies the apex angle with measure 45 degrees. Right image: It identifies the 30-degree angle between CF and the rightward base ray.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0655",
+    "condition": "condition/geometric_markers/AVP0655"
+  }
+}

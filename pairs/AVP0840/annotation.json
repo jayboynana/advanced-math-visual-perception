@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0840",
+  "authoring_id": "V04SR090",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_versus_region",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "85",
+    "sample_index": "85",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image85.png",
+    "sha256": "c9e3d76b5f4ba5c87d0a17af718af61356da0c837e9bd95127383639c6f01529",
+    "width": 1181,
+    "height": 1331,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0840/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "13",
+    "sample_index": "13",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image13.png",
+    "sha256": "2676247997574b5dd239a7eb167c17efee45e90d3830e17ad41c0a7278725e8f",
+    "width": 240,
+    "height": 166,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0840/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter C",
+    "left_evidence": "C inside the large lower square",
+    "right_evidence": "C at the right endpoint of the base",
+    "left_meaning": "The symbol \"C\" names the indicated square region.",
+    "right_meaning": "The symbol \"C\" names a specific geometric point at the indicated location.",
+    "same_meaning": false,
+    "reason": "The left occurrence is C inside the large lower square. The right occurrence is C at the right endpoint of the base. The left placement shows that the symbol names the indicated square region, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter C",
+    "mathematical_meanings": "Left image: The symbol \"C\" names the indicated square region. Right image: The symbol \"C\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is C inside the large lower square. The right occurrence is C at the right endpoint of the base. The left placement shows that the symbol names the indicated square region, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0840",
+    "condition": "condition/symbolic_roles/AVP0840"
+  }
+}

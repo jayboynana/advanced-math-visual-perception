@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0556",
+  "authoring_id": "V04NR056",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "output_value_vs_x_coordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "108",
+    "sample_index": "108",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image108.png",
+    "sha256": "1172bd945482b79675475e1f867a5a89a0e8a14a6992a13b4cf12a100911f705",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "table",
+    "image_path": "pairs/AVP0556/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "969_1",
+    "sample_index": "969_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 969,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch8-2024_06_14_e35fe70123f4447b467cg_0014_1.jpg",
+    "sha256": "bc7b943688bd6cd02c830c2b48cf32feaf793d2ebebf42838eb7599f2c1afda0",
+    "width": 303,
+    "height": 280,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0556/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3 in both images.",
+    "left_evidence": "The 3 in the f(x) column in the first data row.",
+    "right_evidence": "The 3 beneath the positive horizontal-axis crossing of the parabola.",
+    "left_meaning": "The table gives function output 3 at input x = 0.",
+    "right_meaning": "The positive intercept on the horizontal axis has x-coordinate 3.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of tabulated function output, while the right context gives it the role of horizontal coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+    "mathematical_meanings": "Left image: The table gives function output 3 at input x = 0. Right image: The positive intercept on the horizontal axis has x-coordinate 3.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of tabulated function output, while the right context gives it the role of horizontal coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0556",
+    "condition": "condition/numeric_representation/AVP0556"
+  }
+}

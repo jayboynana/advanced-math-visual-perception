@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal line drawn near a plotted curve.",
+  "mathematical_meanings": "Left image: A horizontal line extending from a plotted position to indicate its vertical level. Right image: A portion of the plotted trace with constant output over a horizontal input interval.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The plateau is part of the data-bearing graph over an interval. The dashed line projects a height to the vertical scale as an auxiliary reference."
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0530",
+  "authoring_id": "V04NR030",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coefficient",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "88",
+    "sample_index": "88",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image88.png",
+    "sha256": "293fe5f778d5ef3e50a14bb267d2d8d5bb685d35002eb4d2b56f9948ccf6950e",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0530/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "527_1",
+    "sample_index": "527_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 527,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch32-2024_06_14_3faf974290235a6e5797g_0062_1.jpg",
+    "sha256": "94470bfa30027b3b5525abfff63d06f70c741907640d05ab6b60e1025c0849e8",
+    "width": 351,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0530/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 immediately preceding x in the first term of 2x^2 + 2x − 2.",
+    "right_evidence": "The 2 in the length expression 2a beneath the right-hand base segment.",
+    "left_meaning": "The quadratic term has coefficient 2.",
+    "right_meaning": "The 2 multiplies a in the expression for the right-hand base segment length.",
+    "same_meaning": true,
+    "reason": "In both expressions, the 2 immediately before the selected term is the multiplier of that term."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The quadratic term has coefficient 2. Right image: The 2 multiplies a in the expression for the right-hand base segment length.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both expressions, the 2 immediately before the selected term is the multiplier of that term."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0530",
+    "condition": "condition/numeric_representation/AVP0530"
+  }
+}

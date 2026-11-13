@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0541",
+  "authoring_id": "V04NR041",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "length_m_vs_attendance",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "846_1",
+    "sample_index": "846_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 846,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch34-2024_06_17_8eb738655a589357df09g_0002_1.jpg",
+    "sha256": "cf26f4cc075e7b76e0b69e5a6536f67fddac995a9459f2421a78de6ebce640ce",
+    "width": 626,
+    "height": 311,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0541/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "452",
+    "sample_index": "452",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image452.png",
+    "sha256": "193a133f1be69dd0f8144f42194318cec5856ecc78bc0a3defded9c4440f0ff0",
+    "width": 778,
+    "height": 542,
+    "original_image_modified": false,
+    "image_type": "statistical_chart",
+    "image_path": "pairs/AVP0541/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numeral 400, with a meter unit on the left and a bare value on the right.",
+    "left_evidence": "400 followed by the Chinese unit for meters, beside the left horizontal arrow extending from the mobile phone base station.",
+    "right_evidence": "The 400 printed in the Branch C, January cell of the attendance heatmap.",
+    "left_meaning": "The distance from the station to the left limit shown by the arrow is 400 meters.",
+    "right_meaning": "The heatmap reports attendance 400 for Branch C in January.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of attendance count."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numeral 400, with a meter unit on the left and a bare value on the right.",
+    "mathematical_meanings": "Left image: The distance from the station to the left limit shown by the arrow is 400 meters. Right image: The heatmap reports attendance 400 for Branch C in January.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of attendance count."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0541",
+    "condition": "condition/numeric_representation/AVP0541"
+  }
+}

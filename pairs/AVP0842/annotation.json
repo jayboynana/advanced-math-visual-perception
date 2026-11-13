@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0842",
+  "authoring_id": "V04SR092",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "matrix_versus_point",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "207",
+    "sample_index": "207",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image207.png",
+    "sha256": "99ebfe42a767204a4b29b8aa6e41b12aa49efa68de670ad740d8fd005abf42d7",
+    "width": 356,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0842/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "478",
+    "sample_index": "478",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image478.png",
+    "sha256": "b7aa87d8021db131acdf853a92bd077012e4d641647de2559485285aad87c0e7",
+    "width": 772,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0842/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter C",
+    "left_evidence": "C next to the lower-left vertex with the 44° angle",
+    "right_evidence": "C before the rightmost 2 by 2 matrix",
+    "left_meaning": "The symbol \"C\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"C\" names the matrix whose entries follow in brackets.",
+    "same_meaning": false,
+    "reason": "The left occurrence is C next to the lower-left vertex with the 44° angle. The right occurrence is C before the rightmost 2 by 2 matrix. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter C",
+    "mathematical_meanings": "Left image: The symbol \"C\" names a specific geometric point at the indicated location. Right image: The symbol \"C\" names the matrix whose entries follow in brackets.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is C next to the lower-left vertex with the 44° angle. The right occurrence is C before the rightmost 2 by 2 matrix. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0842",
+    "condition": "condition/symbolic_roles/AVP0842"
+  }
+}

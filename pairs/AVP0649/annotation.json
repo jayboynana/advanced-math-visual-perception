@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0649",
+  "authoring_id": "V04GM024",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1345",
+    "sample_index": "1345",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_100",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "100-2.png",
+    "sha256": "cac87ba40dde91326a4dce04d53aab098bad6c484bb9950f0e19315c2c2b0559",
+    "width": 404,
+    "height": 233,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0649/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "379",
+    "sample_index": "379",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Expanded View of Cubes",
+    "source_metadata": {
+      "upstream_group_id": "2steps_19",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "19-2.png",
+    "sha256": "8dcdde66e608f8a73841809c70e02cb7fe15d8c734c204bbafa42b0d9d418b51",
+    "width": 228,
+    "height": 270,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0649/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The square at A between the bottom horizontal side and the vertical diagonal AD.",
+    "right_evidence": "The outlined square labeled D at the center of the cube net.",
+    "left_meaning": "AD is perpendicular to AB at A.",
+    "right_meaning": "It is a square face in the unfolded cube net.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a square face in the unfolded cube net."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: AD is perpendicular to AB at A. Right image: It is a square face in the unfolded cube net.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a square face in the unfolded cube net."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0649",
+    "condition": "condition/geometric_markers/AVP0649"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0656",
+  "authoring_id": "V04GM031",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_selection_arc_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1307",
+    "sample_index": "1307",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_62",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "62-2.png",
+    "sha256": "2ba1585f4343f471d042b2d105ab352ae24e4a1ccc5e3c040e598f7dd8d695f1",
+    "width": 346,
+    "height": 207,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0656/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1477",
+    "sample_index": "1477",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Understanding and Representing Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_67",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "67-3.png",
+    "sha256": "526e2451109438b63e3e98178e17220841a016456d9e13bc2d700e18af412538",
+    "width": 299,
+    "height": 159,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0656/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "left_evidence": "The small arc at B beside the 50-degree label.",
+    "right_evidence": "The small arc beside the 50-degree label along the base of the rectangle.",
+    "left_meaning": "It identifies the angle at B assigned the 50-degree measure.",
+    "right_meaning": "It identifies the 50-degree angle between the sloping side and the rightward base ray.",
+    "same_meaning": true,
+    "reason": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "mathematical_meanings": "Left image: It identifies the angle at B assigned the 50-degree measure. Right image: It identifies the 50-degree angle between the sloping side and the rightward base ray.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0656",
+    "condition": "condition/geometric_markers/AVP0656"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0987",
+  "authoring_id": "V04GR112",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_direction_vs_view_direction",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "532_A",
+    "sample_index": "532",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 532,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/532_A.jpg",
+    "sha256": "0001bc64577c155d03177012088b70b216b15dca3eaf0996f98a4d65f543aa09",
+    "width": 213,
+    "height": 150,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/532_A.jpg",
+      "start": 13282129,
+      "length": 3096,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "223_A",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 223,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/223_A.jpg",
+    "sha256": "103e1e1b609e0221789211cb3da5c4e1672911beee1099b75ee42e639ffeafdf",
+    "width": 173,
+    "height": 174,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/223_A.jpg",
+      "start": 10085717,
+      "length": 2627,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A pointed arrow on a straight stroke.",
+    "left_evidence": "The sloping arrow pointing toward the cube beside the Chinese front-view direction label.",
+    "right_evidence": "The dark arrowhead at the right end of the x-axis.",
+    "left_meaning": "An arrow showing the direction from which the solid is viewed.",
+    "right_meaning": "The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_meaning": false,
+    "reason": "An axis arrow gives the orientation of a coordinate scale. The arrow pointing toward a solid gives the observer’s viewing direction for a projection."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A pointed arrow on a straight stroke.",
+    "mathematical_meanings": "Left image: An arrow showing the direction from which the solid is viewed. Right image: The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "An axis arrow gives the orientation of a coordinate scale. The arrow pointing toward a solid gives the observer’s viewing direction for a projection."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0987",
+    "condition": "condition/graphical_roles/AVP0987"
+  }
+}

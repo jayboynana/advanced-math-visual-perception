@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A vertical dashed segment joining a plotted trace to the horizontal axis.",
+  "mathematical_meanings": "Left image: A guide projecting a selected position on the graph down to its horizontal input coordinate. Right image: A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each broken segment aligns a chosen position on a graph with its horizontal input. The guide is separate from the solid trace that carries the plotted values."
+}

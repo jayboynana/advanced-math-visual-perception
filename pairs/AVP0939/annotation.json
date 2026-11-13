@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0939",
+  "authoring_id": "V04GR064",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "function_trace",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "23_A",
+    "sample_index": "23",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 23,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/23_A.jpg",
+    "sha256": "338483ddd0474b0b5ce8e6790fea4ecb4a7312be8ea5a25ac300ce6359928ef1",
+    "width": 167,
+    "height": 109,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/23_A.jpg",
+      "start": 10163042,
+      "length": 2642,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1159_A",
+    "sample_index": "1159",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1159,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1159_A.jpg",
+    "sha256": "c8537287287ba1063a7f6a1e1a7798ffde80759d5047351dc3692ac7f98b0b8e",
+    "width": 124,
+    "height": 101,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1159_A.jpg",
+      "start": 1542730,
+      "length": 1755,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth main trace plotted against horizontal and vertical axes.",
+    "left_evidence": "The curve touching the horizontal axis near -2 and descending past the origin.",
+    "right_evidence": "The U-shaped trace above the horizontal t-axis.",
+    "left_meaning": "A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "right_meaning": "A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "same_meaning": true,
+    "reason": "Both traces use horizontal positions as inputs and vertical positions as outputs. The displayed function role is shared across different curve shapes and scales."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth main trace plotted against horizontal and vertical axes.",
+    "mathematical_meanings": "Left image: A plotted trace whose height gives an output for each horizontal input on the shown part. Right image: A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both traces use horizontal positions as inputs and vertical positions as outputs. The displayed function role is shared across different curve shapes and scales."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0939",
+    "condition": "condition/graphical_roles/AVP0939"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 8 m in both images.",
+  "mathematical_meanings": "Left image: The shorter pole is shown with height eight meters. Right image: The outer rectangle's bottom edge measures eight meters.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 8 m."
+}

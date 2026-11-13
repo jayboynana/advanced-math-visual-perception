@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0614",
+  "authoring_id": "V04NR114",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "set_element_vs_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "470",
+    "sample_index": "470",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image470.png",
+    "sha256": "794b7c723d24aae5d0a35f4ddd13b5fd9869f4da72d5712133fc1223daa2178b",
+    "width": 407,
+    "height": 333,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP0614/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "147_1",
+    "sample_index": "147_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 147,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch14-2024_06_15_a76a212ead7e23c003beg_0007_1.jpg",
+    "sha256": "4abc21b09904c310f2a00cae6a4525196b9a64248b2116c20dec319a075b6e39",
+    "width": 646,
+    "height": 300,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0614/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 at the top of the overlapping portion of the circles A and B.",
+    "right_evidence": "The 2 beside the short bottom segment of the right panel.",
+    "left_meaning": "The number 2 is listed as an element of the intersection of the two sets.",
+    "right_meaning": "The bottom segment from the lower-left corner to the vertical segment has length value 2.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of listed set element, while the right context gives it the role of geometric length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The number 2 is listed as an element of the intersection of the two sets. Right image: The bottom segment from the lower-left corner to the vertical segment has length value 2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of listed set element, while the right context gives it the role of geometric length."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0614",
+    "condition": "condition/numeric_representation/AVP0614"
+  }
+}

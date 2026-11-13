@@ -1,5 +1,5 @@
 {
-  "release": "0.3.0",
+  "release": "0.4.0",
   "acquired_date": "2026-11-09",
   "date_timezone": "Asia/Shanghai",
   "sources": [
@@ -31,9 +31,51 @@
       "config": "default",
       "split": "test",
       "provenance_file": "sources/MathVision/PROVENANCE.md"
+    },
+    {
+      "dataset": "MV-MATH",
+      "repository": "PeijieWang/MV-MATH",
+      "url": "https://huggingface.co/datasets/PeijieWang/MV-MATH",
+      "revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+      "config": "official_json",
+      "split": "benchmark",
+      "provenance_file": "sources/MV-MATH/PROVENANCE.md",
+      "declared_license": "MIT"
+    },
+    {
+      "dataset": "VisioMath",
+      "repository": "Nefefilibata/VisioMath",
+      "url": "https://github.com/Nefefilibata/VisioMath",
+      "revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+      "config": "default",
+      "split": "benchmark",
+      "provenance_file": "sources/VisioMath/PROVENANCE.md",
+      "declared_license": null,
+      "website_image_delivery": "Official archive fetched by the visitor. Images are stored locally in the full dataset."
+    },
+    {
+      "dataset": "DynaMath",
+      "repository": "DynaMath/DynaMath_Sample",
+      "url": "https://huggingface.co/datasets/DynaMath/DynaMath_Sample",
+      "revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+      "config": "default",
+      "split": "sample_variant1",
+      "provenance_file": "sources/DynaMath/PROVENANCE.md",
+      "declared_license": "Apache-2.0"
+    },
+    {
+      "dataset": "We-Math",
+      "repository": "We-Math/We-Math",
+      "url": "https://huggingface.co/datasets/We-Math/We-Math",
+      "revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+      "config": "default",
+      "split": "testmini",
+      "provenance_file": "sources/We-Math/PROVENANCE.md",
+      "declared_license": "CC BY-NC 4.0"
     }
   ],
   "image_policy": "Original upstream image payloads are retained byte for byte. Only separate browsing previews are resized/composited.",
   "annotation_status": "ai_visually_reviewed_draft",
-  "source_image_groups": "review/exact_image_groups.json"
+  "source_image_groups": "review/exact_image_groups.json",
+  "expanded_date": "2026-11-13"
 }

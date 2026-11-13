@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0524",
+  "authoring_id": "V04NR024",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_y_coordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "363",
+    "sample_index": "363",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image363.png",
+    "sha256": "cd2f0519a0cbe55defc8bfdd520317d613085cd99fd2afc068dff19e2b845858",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0524/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1999_1",
+    "sample_index": "1999_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1999,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "multi-step",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch6-2024_06_14_54c8b3c3e1f0939737abg_0056_1.jpg",
+    "sha256": "6a5490c5c342bbcd0836472bf703d8890e3c657e6d9f83ccbe8cfc25b2760e92",
+    "width": 374,
+    "height": 400,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0524/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The 4 beside the end of the horizontal dashed guide from the blue point.",
+    "right_evidence": "The 4 beside the top labeled vertical-axis tick where the line segment begins.",
+    "left_meaning": "The selected blue point has y-coordinate 4.",
+    "right_meaning": "The sloping segment meets the vertical axis at y-coordinate 4.",
+    "same_meaning": true,
+    "reason": "Both cues identify the same vertical coordinate value, 4. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The selected blue point has y-coordinate 4. Right image: The sloping segment meets the vertical axis at y-coordinate 4.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both cues identify the same vertical coordinate value, 4. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0524",
+    "condition": "condition/numeric_representation/AVP0524"
+  }
+}

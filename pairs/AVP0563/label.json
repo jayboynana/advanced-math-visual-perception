@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 12 in both images.",
+  "mathematical_meanings": "Left image: The top edge of the shaded rectangle has length value 12. Right image: The indicated triangle side has length value 12.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 12."
+}

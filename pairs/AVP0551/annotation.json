@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0551",
+  "authoring_id": "V04NR051",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_index_vs_log_base",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "465_1",
+    "sample_index": "465_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 465,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_17194f2d3b6db9da2c2cg_0017_1.jpg",
+    "sha256": "3d0c812f5638bd4d9ae306b6b924638bf3a091c0fb16bbe93f3bf9ad7ff2c66a",
+    "width": 283,
+    "height": 197,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0551/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0551/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The standalone 2 in the arc-marked region between the two upward rays.",
+    "right_evidence": "The subscript 2 in y = log₂(x) beside the blue curve.",
+    "left_meaning": "The numeral 2 identifies the selected angle region.",
+    "right_meaning": "The logarithm in the curve's equation has base 2.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of logarithm base."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The numeral 2 identifies the selected angle region. Right image: The logarithm in the curve's equation has base 2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of logarithm base."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0551",
+    "condition": "condition/numeric_representation/AVP0551"
+  }
+}

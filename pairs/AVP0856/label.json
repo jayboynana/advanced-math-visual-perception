@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes a length or a variable in the indicated length expression.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is x atop the column with inputs 0 through 3. The right occurrence is x under the left part of the triangle base. The left placement shows that the symbol denotes the independent input to the function, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+}

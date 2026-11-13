@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0625",
+  "authoring_id": "V04NR125",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_index_vs_coefficient",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "500_1",
+    "sample_index": "500_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 500,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch30-2024_06_17_f66b39c27dd26482c43dg_0011_1.jpg",
+    "sha256": "b3fbcbb92c99cf66ca238ac912b46bbb6b27b32d2f0d7e03765adeb94c7e4ae0",
+    "width": 231,
+    "height": 149,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0625/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "88",
+    "sample_index": "88",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image88.png",
+    "sha256": "293fe5f778d5ef3e50a14bb267d2d8d5bb685d35002eb4d2b56f9948ccf6950e",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0625/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The standalone 2 above the arc marking the upper angle at the crossing.",
+    "right_evidence": "The 2 immediately preceding x in the first term of 2x^2 + 2x − 2.",
+    "left_meaning": "The numeral 2 identifies the upper angle region.",
+    "right_meaning": "The quadratic term has coefficient 2.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of multiplicative coefficient."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The numeral 2 identifies the upper angle region. Right image: The quadratic term has coefficient 2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of multiplicative coefficient."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0625",
+    "condition": "condition/numeric_representation/AVP0625"
+  }
+}

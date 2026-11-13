@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 150 and 150°.",
+  "mathematical_meanings": "Left image: The displayed December stock price is 150. Right image: The indicated angle at A measures 150 degrees.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of stock price, while the right context gives it the role of angle measure."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The 2 is an additive constant in the bottom edge's length expression. Right image: The tick marks y-coordinate 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of additive constant, while the right context gives it the role of vertical coordinate."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A broken stroke used for a line or curve in the diagram.",
+  "mathematical_meanings": "Left image: It marks the mirror line for reflecting the triangle. Right image: It projects the curve endpoint to its horizontal coordinate b.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left stroke derives its role from the geometric construction. It marks the mirror line for reflecting the triangle. The right stroke is interpreted from the coordinate plot. It projects the curve endpoint to its horizontal coordinate b."
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0903",
+  "authoring_id": "V04GR028",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hidden_rim_vs_planar_construction",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "149_A",
+    "sample_index": "149",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 149,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/149_A.jpg",
+    "sha256": "100f21e9306ce42df5d89df1aee90d89ebc470ee9b851f538a953e019a27f510",
+    "width": 151,
+    "height": 127,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/149_A.jpg",
+      "start": 5501690,
+      "length": 2725,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "616_A",
+    "sample_index": "616",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 616,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/616_A.jpg",
+    "sha256": "561feb3454a646c66336542790fef90e25af4dd53d7b9c56fb9de20436e0bccf",
+    "width": 74,
+    "height": 89,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/616_A.jpg",
+      "start": 14096261,
+      "length": 1783,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A curved auxiliary stroke rendered with dashes or as a compass arc.",
+    "left_evidence": "The broken compass arc near the upper-right construction mark above side AB.",
+    "right_evidence": "The fine dashed arc at the back of the lower cylinder rim.",
+    "left_meaning": "A construction arc used to mark or locate a point within a planar geometric construction.",
+    "right_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
+    "same_meaning": false,
+    "reason": "The rear rim continues a three-dimensional circular edge behind the near surface. The compass-style arc belongs to a planar construction and locates a geometric position."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A curved auxiliary stroke rendered with dashes or as a compass arc.",
+    "mathematical_meanings": "Left image: A construction arc used to mark or locate a point within a planar geometric construction. Right image: The occluded rear portion of a circular base rim in a solid drawing.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The rear rim continues a three-dimensional circular edge behind the near surface. The compass-style arc belongs to a planar construction and locates a geometric position."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0903",
+    "condition": "condition/graphical_roles/AVP0903"
+  }
+}

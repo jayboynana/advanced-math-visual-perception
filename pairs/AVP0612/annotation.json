@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0612",
+  "authoring_id": "V04NR112",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "y_coordinate_vs_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "96",
+    "sample_index": "96",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image96.png",
+    "sha256": "d5c0f569afec1eaa3222eadb061f4cc73c8a39271e4e3ae8f5776df0acb3179b",
+    "width": 533,
+    "height": 407,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0612/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "552_1",
+    "sample_index": "552_1",
+    "problem_version": "original",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "problem_id": 552,
+      "subject": "Solid Geometry",
+      "grade": "Junior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "solid_geometry",
+    "original_relative_path": "images/batch33-2024_06_14_b54d0ec2e6cec62ab166g_0090_1.jpg",
+    "sha256": "c6c28a688470db49c296f5c274a15bc0615614643dc5709264f840e2c6dc226d",
+    "width": 186,
+    "height": 228,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0612/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The 4 beside the blue point where the line meets the vertical axis.",
+    "right_evidence": "The 4 to the right of the rectangle in the cylinder net.",
+    "left_meaning": "The indicated vertical-axis intercept has y-coordinate 4.",
+    "right_meaning": "The rectangle's short side has length value 4.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of geometric length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The indicated vertical-axis intercept has y-coordinate 4. Right image: The rectangle's short side has length value 4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of geometric length."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0612",
+    "condition": "condition/numeric_representation/AVP0612"
+  }
+}

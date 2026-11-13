@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 45 and 45°.",
+  "mathematical_meanings": "Left image: The apex has height 45 meters. Right image: The angle between BA and BH at B measures 45 degrees.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of angle measure."
+}

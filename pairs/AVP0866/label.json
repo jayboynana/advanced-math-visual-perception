@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter a",
+  "mathematical_meanings": "Left image: The symbol \"a\" denotes the multiplier that controls the wave amplitude. Right image: The symbol \"a\" denotes one of the unknown numbers constrained by the equations.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is a immediately before the multiplication sign and cosine. The right occurrence is a in the equations a + b = 10 and a - b = -6. The left placement shows that the symbol denotes the multiplier that controls the wave amplitude, while the right placement shows that it denotes one of the unknown numbers constrained by the equations."
+}

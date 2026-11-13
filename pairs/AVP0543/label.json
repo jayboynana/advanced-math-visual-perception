@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 1 m and 1 ft.",
+  "mathematical_meanings": "Left image: The lower edge of the inner square measures one meter. Right image: The indicated triangle side measures one foot.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The labels share a numeral, and the displayed units give different physical lengths of 1 meters and 0.3048 meters."
+}

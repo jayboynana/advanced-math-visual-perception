@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0976",
+  "authoring_id": "V04GR101",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_axis_direction",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "0_A",
+    "sample_index": "0",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 0,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/0_A.jpg",
+    "sha256": "725ca88f16a4c4bf3208d6ded8e16c58eb4e732eeb5fb51dede1a32ae7c0215c",
+    "width": 97,
+    "height": 122,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/0_A.jpg",
+      "start": 44,
+      "length": 2384,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "55",
+    "sample_index": "55",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image55.png",
+    "sha256": "0eaf1a22a43a6761967f8a6ac91ca843205be7f632cb50ee0e00923cd356b43c",
+    "width": 1424,
+    "height": 1349,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0976/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead at the positive end of a coordinate axis.",
+    "left_evidence": "The arrowhead at the right end of the horizontal x-axis.",
+    "right_evidence": "The arrowhead at the right end of the x-axis extending beyond the circle.",
+    "left_meaning": "The arrowhead orienting the positive direction of a coordinate axis.",
+    "right_meaning": "The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_meaning": true,
+    "reason": "In both diagrams the arrowhead belongs to a coordinate axis and orients that reference scale. The curve or geometric figure plotted on the axes is a separate element."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead at the positive end of a coordinate axis.",
+    "mathematical_meanings": "Left image: The arrowhead orienting the positive direction of a coordinate axis. Right image: The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both diagrams the arrowhead belongs to a coordinate axis and orients that reference scale. The curve or geometric figure plotted on the axes is a separate element."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0976",
+    "condition": "condition/graphical_roles/AVP0976"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 100 in both images.",
+  "mathematical_meanings": "Left image: The selected tick marks cumulative percentage 100. Right image: The finite gray region is assigned area value 100.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of percentage scale value, while the right context gives it the role of area of a shaded region."
+}

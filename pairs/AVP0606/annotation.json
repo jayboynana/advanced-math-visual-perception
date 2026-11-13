@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0606",
+  "authoring_id": "V04NR106",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "length_vs_time_s",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "990",
+    "sample_index": "990",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 452,
+      "img_width": 544,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/990.jpg",
+    "sha256": "66829087bc6279a08ce17a152aeeb020b406e8f5894407755dbcb9641f32242a",
+    "width": 544,
+    "height": 452,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0606/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "624_1",
+    "sample_index": "624_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 624,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch8-2024_06_14_39f616e1ffa2dea341d7g_0005_1.jpg",
+    "sha256": "1ff681577ca43b541486c805cb6d0804fef421ad2cba9997815ba605e7af7380",
+    "width": 271,
+    "height": 277,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0606/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 6 in both images.",
+    "left_evidence": "The 6 beside chord portion TR to the right of the vertical diameter.",
+    "right_evidence": "The 6 on the t/s axis beneath the curve's positive horizontal-axis crossing.",
+    "left_meaning": "Segment TR has length value 6.",
+    "right_meaning": "The curve crosses back to zero height at time six seconds.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of geometric length, while the right context gives it the role of time in seconds."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 6 in both images.",
+    "mathematical_meanings": "Left image: Segment TR has length value 6. Right image: The curve crosses back to zero height at time six seconds.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of geometric length, while the right context gives it the role of time in seconds."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0606",
+    "condition": "condition/numeric_representation/AVP0606"
+  }
+}

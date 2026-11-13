@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Browse 500 mathematical image pairs, their English labels, and original source images.">
+<meta name="description" content="Browse PAIR_COUNT mathematical image pairs, their English labels, and original source images.">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <title>Mathematical Visual Perception · Dataset</title>
@@ -19,26 +19,27 @@
 </head>
 <body>
 <header class="wrap">
-  <div><h1>Mathematical Visual Perception</h1><p class="dataset-meta">500 image pairs · 4 conditions · v0.3.0</p></div>
+  <div><h1>Mathematical Visual Perception</h1><p class="dataset-meta">PAIR_COUNT image pairs · 4 conditions · vRELEASE_VERSION</p></div>
   <nav class="downloads" aria-label="Dataset downloads"><a href="annotations.json" download>Annotations</a><a href="labels.jsonl" download>Labels</a><a href="pairs_summary.csv" download>CSV</a><a href="https://github.com/jayboynana/advanced-math-visual-perception" target="_blank" rel="noopener">GitHub ↗</a></nav>
 </header>
 <main class="wrap" id="dataset">
 <form class="filter-panel" aria-label="Dataset filters" onsubmit="return false">
   <select id="type" aria-label="Image type"><option value="">All image types</option><option value="same type">Same type</option><option value="different type">Different types</option></select>
-  <select id="dataset-source" aria-label="Source dataset"><option value="">All sources</option><option value="MathVerse">MathVerse</option><option value="MathVista">MathVista</option><option value="MathVision">MATH-VISION</option></select>
+  <select id="dataset-source" aria-label="Source dataset"><option value="">All sources</option><!-- SOURCE OPTIONS --></select>
   <select id="condition" aria-label="Condition"><option value="">All conditions</option><option value="numeric_representation">Numeric representation</option><option value="geometric_markers">Geometric markers</option><option value="symbolic_roles">Symbolic roles</option><option value="graphical_roles">Graphical roles</option></select>
   <select id="semantic" aria-label="Semantic judgment"><option value="">All meanings</option><option value="same_meaning">Same meaning</option><option value="different_meaning">Different meanings</option></select>
   <input type="search" id="search" placeholder="Search pairs or labels" aria-label="Search pairs or annotations">
 </form>
-<div class="result-bar"><span id="count" role="status" aria-live="polite">500 pairs</span><nav class="pager" aria-label="Page navigation"><button type="button" data-page="previous" aria-label="Previous page">Previous</button><span id="page-status" aria-live="polite">1 / 21</span><button type="button" data-page="next" aria-label="Next page">Next</button></nav></div>
-<noscript><p class="noscript">All 500 pairs are listed below. Enable JavaScript to use search, filters, and pagination.</p></noscript>
+<div class="result-bar"><span id="count" role="status" aria-live="polite">PAIR_COUNT pairs</span><nav class="pager" aria-label="Page navigation"><button type="button" data-page="previous" aria-label="Previous page">Previous</button><span id="page-status" aria-live="polite">1 / PAGE_COUNT</span><button type="button" data-page="next" aria-label="Next page">Next</button></nav></div>
+<noscript><p class="noscript">All PAIR_COUNT pairs are listed below. Enable JavaScript for filtering, pagination, and images served from source archives.</p></noscript>
 <div id="pair-list" class="gallery">
 <!-- PAIRS -->
 </div>
 <p id="empty" hidden>No matching pairs.</p>
-<nav class="pager bottom-pager" aria-label="More pages"><button type="button" data-page="previous" aria-label="Previous page">Previous</button><span id="page-status-bottom">1 / 21</span><button type="button" data-page="next" aria-label="Next page">Next</button></nav>
+<nav class="pager bottom-pager" aria-label="More pages"><button type="button" data-page="previous" aria-label="Previous page">Previous</button><span id="page-status-bottom">1 / PAGE_COUNT</span><button type="button" data-page="next" aria-label="Next page">Next</button></nav>
 </main>
-<footer><div class="wrap"><span>Sources: <a href="https://huggingface.co/datasets/AI4Math/MathVerse">MathVerse</a> · <a href="https://huggingface.co/datasets/AI4Math/MathVista">MathVista</a> · <a href="https://huggingface.co/datasets/MathLLMs/MathVision">MATH-VISION</a></span><span>Annotation draft · <a href="sources/SOURCE_REGISTRY.json">Source records</a></span></div></footer>
+<footer><div class="wrap"><span><!-- SOURCE LINKS --></span><span>Annotation draft · <a href="sources/SOURCE_REGISTRY.json">Source records</a></span></div></footer>
+<script src="scripts/archive_images.js"></script>
 <script>
 const cards=[...document.querySelectorAll('article')];
 const perPage=24;
@@ -50,7 +51,10 @@ function render(){
   const pages=Math.max(1,Math.ceil(matches.length/perPage));
   page=Math.min(Math.max(1,page),pages);
   const visible=new Set(matches.slice((page-1)*perPage,page*perPage));
-  cards.forEach(card=>{card.hidden=!visible.has(card);});
+  cards.forEach(card=>{
+    card.hidden=!visible.has(card);
+    if(!card.hidden)loadArchiveImages(card);
+  });
   document.getElementById('count').textContent=matches.length===cards.length?cards.length+' pairs':matches.length+' / '+cards.length+' pairs';
   document.getElementById('page-status').textContent=page+' / '+pages;
   document.getElementById('page-status-bottom').textContent=page+' / '+pages;

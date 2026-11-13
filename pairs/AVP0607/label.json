@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 2 and 2 cm.",
+  "mathematical_meanings": "Left image: The tick marks x-coordinate 2. Right image: The indicated rectangle side measures two centimeters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of length with a specified unit."
+}

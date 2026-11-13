@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 10 mm and 10.",
+  "mathematical_meanings": "Left image: The selected radius measures ten millimeters. Right image: The number 10 is a listed element of the intersection.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of listed set element."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0723",
+  "authoring_id": "V04GM098",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "geometric_dashes_vs_plot_dashes",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "497",
+    "sample_index": "497",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Parallelograms",
+    "source_metadata": {
+      "upstream_group_id": "2steps_137",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "137-2.png",
+    "sha256": "6aacd9327119294d8928814b0c38be3589cca1ea9c3750c7ccdf26d8008a762a",
+    "width": 266,
+    "height": 161,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0723/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "535",
+    "sample_index": "2674",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_535.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0723/right.png",
+    "width": 267,
+    "height": 275,
+    "sha256": "c1b5f6ca197551097ed92bda0bb3856d86a10077749374bfb2a2a5e5cf3971b2"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A broken stroke used for a line or curve in the diagram.",
+    "left_evidence": "The dashed line EF connecting the horizontal sides of the parallelogram.",
+    "right_evidence": "The horizontal magenta dashed line through the curve at height 1.2.",
+    "left_meaning": "It constructs the perpendicular separation between the parallel sides.",
+    "right_meaning": "It marks a fixed ordinate used to locate a graph point.",
+    "same_meaning": false,
+    "reason": "The left stroke derives its role from the geometric construction. It constructs the perpendicular separation between the parallel sides. The right stroke is interpreted from the coordinate plot. It marks a fixed ordinate used to locate a graph point."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A broken stroke used for a line or curve in the diagram.",
+    "mathematical_meanings": "Left image: It constructs the perpendicular separation between the parallel sides. Right image: It marks a fixed ordinate used to locate a graph point.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left stroke derives its role from the geometric construction. It constructs the perpendicular separation between the parallel sides. The right stroke is interpreted from the coordinate plot. It marks a fixed ordinate used to locate a graph point."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0723",
+    "condition": "condition/geometric_markers/AVP0723"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0546",
+  "authoring_id": "V04NR046",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_numeral_different_length_units",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "347",
+    "sample_index": "1734",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_347.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0546/left.png",
+    "width": 342,
+    "height": 259,
+    "sha256": "165268d2ba732b91111d8c94ca54fab8374e196e9e2a533e4bd11e595cb326ab"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "34",
+    "sample_index": "34",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image34.png",
+    "sha256": "50774309f337210a965a79e7c8652396434234b8028801eb69c7b1e35e6e5004",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0546/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 20 m and 20 ft.",
+    "left_evidence": "The 20m beneath the horizontal base of the tree-height construction.",
+    "right_evidence": "The 20ft above the top horizontal edge of the slanted quadrilateral.",
+    "left_meaning": "The horizontal base distance measures twenty meters.",
+    "right_meaning": "The top side measures twenty feet.",
+    "same_meaning": false,
+    "reason": "The labels share a numeral, and the displayed units give different physical lengths of 20 meters and 6.096 meters."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 20 m and 20 ft.",
+    "mathematical_meanings": "Left image: The horizontal base distance measures twenty meters. Right image: The top side measures twenty feet.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The labels share a numeral, and the displayed units give different physical lengths of 20 meters and 6.096 meters."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0546",
+    "condition": "condition/numeric_representation/AVP0546"
+  }
+}

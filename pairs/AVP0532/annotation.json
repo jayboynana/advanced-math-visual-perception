@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0532",
+  "authoring_id": "V04NR032",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_set_element",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "470",
+    "sample_index": "470",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image470.png",
+    "sha256": "794b7c723d24aae5d0a35f4ddd13b5fd9869f4da72d5712133fc1223daa2178b",
+    "width": 407,
+    "height": 333,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP0532/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "469",
+    "sample_index": "469",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image469.png",
+    "sha256": "2b8863315a9098dae7ffcbb20d92183d58a70f44e7af6ea5fe7fe89294b2cbdc",
+    "width": 407,
+    "height": 324,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP0532/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 at the top of the overlapping portion of the circles A and B.",
+    "right_evidence": "The 2 printed in the overlap of the sets A and B.",
+    "left_meaning": "The number 2 is listed as an element of the intersection of the two sets.",
+    "right_meaning": "The number 2 is a listed member of both sets.",
+    "same_meaning": true,
+    "reason": "The number 2 is printed inside the overlapping portions of the two sets in both diagrams, indicating membership in both sets."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The number 2 is listed as an element of the intersection of the two sets. Right image: The number 2 is a listed member of both sets.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The number 2 is printed inside the overlapping portions of the two sets in both diagrams, indicating membership in both sets."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0532",
+    "condition": "condition/numeric_representation/AVP0532"
+  }
+}

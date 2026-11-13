@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0843",
+  "authoring_id": "V04SR093",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "center_versus_origin",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "8",
+    "sample_index": "8",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image8.png",
+    "sha256": "a4b9bb067e47002fd1242c0d22b2bad2b50b1c5cc445a9b5fd68fe697b2a7f5c",
+    "width": 561,
+    "height": 766,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0843/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "338",
+    "sample_index": "338",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image338.png",
+    "sha256": "eb5719a4b5c62176a0c1d0629665cb94695aef0fc92f02ceafe812cc3190b04c",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0843/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O at the internal junction of the dashed height and base radius",
+    "right_evidence": "O where the real and imaginary axes cross",
+    "left_meaning": "The symbol \"O\" marks the center of the indicated circle.",
+    "right_meaning": "The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
+    "same_meaning": false,
+    "reason": "The left occurrence is O at the internal junction of the dashed height and base radius. The right occurrence is O where the real and imaginary axes cross. The left placement shows that the symbol marks the center of the indicated circle, while the right placement shows that it marks the origin at the intersection of the coordinate axes."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: The symbol \"O\" marks the center of the indicated circle. Right image: The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is O at the internal junction of the dashed height and base radius. The right occurrence is O where the real and imaginary axes cross. The left placement shows that the symbol marks the center of the indicated circle, while the right placement shows that it marks the origin at the intersection of the coordinate axes."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0843",
+    "condition": "condition/symbolic_roles/AVP0843"
+  }
+}

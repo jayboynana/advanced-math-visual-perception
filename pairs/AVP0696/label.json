@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal double-ended arrow.",
+  "mathematical_meanings": "Left image: It measures the full horizontal span from D to C. Right image: It marks the horizontal repetition interval of the waveform.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upward arrow labeled North.",
+  "mathematical_meanings": "Left image: It provides the north reference direction for the map. Right image: It supplies the north reference direction for the rays from A.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+}

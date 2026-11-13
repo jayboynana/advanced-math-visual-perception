@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0763",
+  "authoring_id": "V04SR013",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "49",
+    "sample_index": "49",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image49.png",
+    "sha256": "ba077398ffcbabc4f88d50ce56c09bbff16f3b96922692e80a6392516a62a32d",
+    "width": 1229,
+    "height": 461,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0763/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "8",
+    "sample_index": "8",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image8.png",
+    "sha256": "a4b9bb067e47002fd1242c0d22b2bad2b50b1c5cc445a9b5fd68fe697b2a7f5c",
+    "width": 561,
+    "height": 766,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0763/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter B",
+    "left_evidence": "B at the lower-left parallelogram corner",
+    "right_evidence": "B at the marked point on the cone's base rim",
+    "left_meaning": "The symbol \"B\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"B\" names a specific geometric point at the indicated location.",
+    "same_meaning": true,
+    "reason": "The left occurrence is B at the lower-left parallelogram corner. The right occurrence is B at the marked point on the cone's base rim. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter B",
+    "mathematical_meanings": "Left image: The symbol \"B\" names a specific geometric point at the indicated location. Right image: The symbol \"B\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is B at the lower-left parallelogram corner. The right occurrence is B at the marked point on the cone's base rim. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0763",
+    "condition": "condition/symbolic_roles/AVP0763"
+  }
+}

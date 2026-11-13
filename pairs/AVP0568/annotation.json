@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0568",
+  "authoring_id": "V04NR068",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "53",
+    "sample_index": "53",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image53.png",
+    "sha256": "76d8c41502b05aaf32f04a3892fa35cce13538ce460a36c5c91e9e1281741864",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0568/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "208_2",
+    "sample_index": "208_2",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 208,
+      "subject": "Metric Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_77dd29084539ddc516d5g_0028_2.jpg",
+    "sha256": "8af4e01a2bbcb89c0f8caba6a8c1fc183dab74e1ce250cf223f2d028a35daa64",
+    "width": 288,
+    "height": 294,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0568/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 5 in both images.",
+    "left_evidence": "The 5 in r = 5 near the center of the smaller circle.",
+    "right_evidence": "The 5 beside dashed segment AO running from the circle edge to O.",
+    "left_meaning": "The inner circle radius has length value 5.",
+    "right_meaning": "Radius AO has length value 5.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 5."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 5 in both images.",
+    "mathematical_meanings": "Left image: The inner circle radius has length value 5. Right image: Radius AO has length value 5.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 5."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0568",
+    "condition": "condition/numeric_representation/AVP0568"
+  }
+}

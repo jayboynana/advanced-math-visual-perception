@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter a",
+  "mathematical_meanings": "Left image: The symbol \"a\" denotes one of the unknown numbers constrained by the equations. Right image: The symbol \"a\" denotes a length or a variable in the indicated length expression.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is a in the equations a + b = 10 and a - b = -6. The right occurrence is a beside the left side of the triangle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+}

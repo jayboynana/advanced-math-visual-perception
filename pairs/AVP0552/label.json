@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The upper branch formula raises x to the second power. Right image: The numeral 2 identifies the lower angle region.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of exponent, while the right context gives it the role of identifier of a marked angle."
+}

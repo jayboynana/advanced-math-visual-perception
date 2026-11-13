@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0788",
+  "authoring_id": "V04SR038",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_angle_vertex",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "563_1",
+    "sample_index": "563_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 563,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch35-2024_06_17_8ac35b52de720b07595ag_0074_1.jpg",
+    "sha256": "44312e2df14b616687e2ea17a52e77d736dee3c7855caeea5dafeb825489225b",
+    "width": 377,
+    "height": 274,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0788/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "11",
+    "sample_index": "11",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image11.png",
+    "sha256": "dcce64ce8d875a9ee3bc6fd4384daa8072ba29684d469219b659b7629973c9a3",
+    "width": 1211,
+    "height": 831,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0788/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O at the left endpoint of the two rays enclosing the small arc",
+    "right_evidence": "O where the horizontal line and oblique rays meet",
+    "left_meaning": "The symbol \"O\" names the common point of the rays that form an angle.",
+    "right_meaning": "The symbol \"O\" names the common point of the rays that form an angle.",
+    "same_meaning": true,
+    "reason": "The left occurrence is O at the left endpoint of the two rays enclosing the small arc. The right occurrence is O where the horizontal line and oblique rays meet. The placement in each image shows that the symbol names the common point of the rays that form an angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: The symbol \"O\" names the common point of the rays that form an angle. Right image: The symbol \"O\" names the common point of the rays that form an angle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is O at the left endpoint of the two rays enclosing the small arc. The right occurrence is O where the horizontal line and oblique rays meet. The placement in each image shows that the symbol names the common point of the rays that form an angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0788",
+    "condition": "condition/symbolic_roles/AVP0788"
+  }
+}

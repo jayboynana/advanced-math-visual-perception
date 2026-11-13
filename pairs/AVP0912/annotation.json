@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0912",
+  "authoring_id": "V04GR037",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "open_graph_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1452_A",
+    "sample_index": "1452",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1452,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1452_A.jpg",
+    "sha256": "6dd803bfe0fd108dbf3e9cd4e9fb400348e04727f7267c06d96d6ff33a0a4df0",
+    "width": 87,
+    "height": 85,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1452_A.jpg",
+      "start": 5081041,
+      "length": 1550,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "482",
+    "sample_index": "2409",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_482.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0912/right.png",
+    "width": 462,
+    "height": 465,
+    "sha256": "b3bab1894e3e80eee6d4130e9718c91679d76fc01f8f9d293c816bec0ee78b67"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A hollow circular marker interrupting or ending a graph trace.",
+    "left_evidence": "The hollow circle at the right endpoint of the broken line.",
+    "right_evidence": "The hollow endpoint on the upper left of the blue segment.",
+    "left_meaning": "An open point excluded from the displayed curve or branch.",
+    "right_meaning": "An open point excluded from the displayed curve or branch.",
+    "same_meaning": true,
+    "reason": "Each hollow mark excludes its indicated point from the drawn branch. This conclusion concerns the individual point, so it does not require the same horizontal or vertical coordinates across the diagrams."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A hollow circular marker interrupting or ending a graph trace.",
+    "mathematical_meanings": "Left image: An open point excluded from the displayed curve or branch. Right image: An open point excluded from the displayed curve or branch.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each hollow mark excludes its indicated point from the drawn branch. This conclusion concerns the individual point, so it does not require the same horizontal or vertical coordinates across the diagrams."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0912",
+    "condition": "condition/graphical_roles/AVP0912"
+  }
+}

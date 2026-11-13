@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0712",
+  "authoring_id": "V04GM087",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "reflection_axis_dashes_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "117",
+    "sample_index": "117",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Axial Symmetry",
+    "source_metadata": {
+      "upstream_group_id": "2steps_117",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "117-1.png",
+    "sha256": "040170c75d10fa3e4f0f8ec7a20d5f537d769a9907cfd91da86df80e99042eb6",
+    "width": 374,
+    "height": 215,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0712/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "392",
+    "sample_index": "392",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Axial Symmetry",
+    "source_metadata": {
+      "upstream_group_id": "2steps_32",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "32-2.png",
+    "sha256": "904f873e9cd161704b3ee0322c5c700e6fa14ae613c5dc1269406026d268a7d6",
+    "width": 829,
+    "height": 441,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0712/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical line drawn as a sequence of short broken strokes.",
+    "left_evidence": "The dashed vertical line crossing the two bases at H and G.",
+    "right_evidence": "The dotted vertical line labeled l beside the triangle in the square lattice.",
+    "left_meaning": "It marks the reflection axis of the symmetric trapezoid.",
+    "right_meaning": "It marks the mirror line for reflecting the triangle.",
+    "same_meaning": true,
+    "reason": "The vertical line locates the mirror axis in each reflection construction. The displayed figure may already include both halves or show the original figure beside the line."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A vertical line drawn as a sequence of short broken strokes.",
+    "mathematical_meanings": "Left image: It marks the reflection axis of the symmetric trapezoid. Right image: It marks the mirror line for reflecting the triangle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The vertical line locates the mirror axis in each reflection construction. The displayed figure may already include both halves or show the original figure beside the line."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0712",
+    "condition": "condition/geometric_markers/AVP0712"
+  }
+}

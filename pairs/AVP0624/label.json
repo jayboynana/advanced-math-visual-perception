@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 6 ft and 6.",
+  "mathematical_meanings": "Left image: The left side measures six feet. Right image: The curve crosses back to zero height at time six seconds.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of time in seconds."
+}

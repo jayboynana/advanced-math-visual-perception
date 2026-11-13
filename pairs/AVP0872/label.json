@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The question mark (?)",
+  "mathematical_meanings": "Left image: The symbol \"?\" stands for the arithmetic operation to insert between two operands. Right image: The symbol \"?\" stands for the missing numerical output or result.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is ? between 2 and 5 in the expression. The right occurrence is ? in the last output cell, corresponding to x = 4. The left placement shows that the symbol stands for the arithmetic operation to insert between two operands, while the right placement shows that it stands for the missing numerical output or result."
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0573",
+  "authoring_id": "V04NR073",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "174",
+    "sample_index": "174",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image174.png",
+    "sha256": "c27a527a98768aac3b2eeecaa92159d6ff26219573ecfa70bba06472a2305f70",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0573/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "129",
+    "sample_index": "129",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image129.png",
+    "sha256": "981d5a5c3e46508736a7a555471ea198870a9882ff7e3abff8e91430b6aebb58",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0573/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 7 in both images.",
+    "left_evidence": "The 7 beneath the bottom edge of the right square in the two-square diagram.",
+    "right_evidence": "The 7 in h=7 next to the interior altitude of the pyramid.",
+    "left_meaning": "The bottom side of the right square has length value 7.",
+    "right_meaning": "The height of the pyramid has length value 7.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 7."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 7 in both images.",
+    "mathematical_meanings": "Left image: The bottom side of the right square has length value 7. Right image: The height of the pyramid has length value 7.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 7."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0573",
+    "condition": "condition/numeric_representation/AVP0573"
+  }
+}

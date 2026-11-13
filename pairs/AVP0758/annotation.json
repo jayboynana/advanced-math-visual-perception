@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0758",
+  "authoring_id": "V04SR008",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "167",
+    "sample_index": "167",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image167.png",
+    "sha256": "7a75b2c3dfbf8c9d8a30ec8304ff39b0382d5d6c801f3e26ea370ea19a31acd6",
+    "width": 1299,
+    "height": 1066,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0758/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "635_1",
+    "sample_index": "635_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 635,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "High",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch8-2024_06_14_be77b09795d7e25ae1bag_0010_1.jpg",
+    "sha256": "f014a3b0e3eb0e96fd70dbacbc0b22f805e3005bb780235dbef274b871418cc5",
+    "width": 348,
+    "height": 286,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0758/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A at the common endpoint of the three slanted segments",
+    "right_evidence": "A below the lower-left corner of rectangle ABCD",
+    "left_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_meaning": true,
+    "reason": "The left occurrence is A at the common endpoint of the three slanted segments. The right occurrence is A below the lower-left corner of rectangle ABCD. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is A at the common endpoint of the three slanted segments. The right occurrence is A below the lower-left corner of rectangle ABCD. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0758",
+    "condition": "condition/symbolic_roles/AVP0758"
+  }
+}

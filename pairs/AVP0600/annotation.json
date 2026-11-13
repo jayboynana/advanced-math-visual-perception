@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0600",
+  "authoring_id": "V04NR100",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "matrix_entry_vs_x_coordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "488",
+    "sample_index": "488",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image488.png",
+    "sha256": "62e7462a05c0b72878e9f97616e088840768248cf8aa65432b188c8541ca0966",
+    "width": 610,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0600/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "198",
+    "sample_index": "198",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image198.png",
+    "sha256": "fb633225ffc9a0cdbaad89ceb41701478be78965316a8356d705c6bc0b6c73b8",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0600/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −4 in both images.",
+    "left_evidence": "The −4 in the top-left position of matrix A.",
+    "right_evidence": "The −4 below the left endpoint of the red curve on the horizontal axis.",
+    "left_meaning": "Matrix A has entry negative four at row 1, column 1.",
+    "right_meaning": "The red curve begins at x-coordinate negative four.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of matrix entry, while the right context gives it the role of horizontal coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation −4 in both images.",
+    "mathematical_meanings": "Left image: Matrix A has entry negative four at row 1, column 1. Right image: The red curve begins at x-coordinate negative four.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of matrix entry, while the right context gives it the role of horizontal coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0600",
+    "condition": "condition/numeric_representation/AVP0600"
+  }
+}

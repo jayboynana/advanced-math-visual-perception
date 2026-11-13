@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 11 in both images.",
+  "mathematical_meanings": "Left image: The square's top side has length value 11. Right image: The left vertical side has length value 11.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 11."
+}

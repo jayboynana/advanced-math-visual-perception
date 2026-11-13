@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upright arrow pointing toward the top of the diagram.",
+  "mathematical_meanings": "Left image: It sets the upward reference direction as north. Right image: It gives the positive vertical coordinate direction.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The compass label makes the left arrow a bearing reference. The right arrow sits at the end of the y-axis, where it indicates the direction of increasing ordinate."
+}

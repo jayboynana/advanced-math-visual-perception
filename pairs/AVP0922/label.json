@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A bounded geometric patch selected with shading or hatching.",
+  "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A selected plane region distinguished by shading within a geometric construction.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
+}

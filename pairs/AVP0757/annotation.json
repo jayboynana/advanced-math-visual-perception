@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0757",
+  "authoring_id": "V04SR007",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "448_1",
+    "sample_index": "448_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 448,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch26-2024_06_17_d232904ecb09bec2020eg_0015_1.jpg",
+    "sha256": "dd1af1fe1cf99075e12659f76b3b23b70d08c63d0ec0b87a14a416c854cd2a77",
+    "width": 617,
+    "height": 80,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0757/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "145",
+    "sample_index": "145",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image145.png",
+    "sha256": "73c5492a270056cb98d00d9185262d7508c60e8bfcad61d8e891c1080cddabac",
+    "width": 1174,
+    "height": 1114,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0757/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A above the middle black point on the horizontal ray",
+    "right_evidence": "A at the upper-left endpoint of diagonal AC",
+    "left_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_meaning": true,
+    "reason": "The left occurrence is A above the middle black point on the horizontal ray. The right occurrence is A at the upper-left endpoint of diagonal AC. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is A above the middle black point on the horizontal ray. The right occurrence is A at the upper-left endpoint of diagonal AC. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0757",
+    "condition": "condition/symbolic_roles/AVP0757"
+  }
+}

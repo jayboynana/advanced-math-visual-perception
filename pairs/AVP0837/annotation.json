@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0837",
+  "authoring_id": "V04SR087",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_versus_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "55",
+    "sample_index": "55",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image55.png",
+    "sha256": "0eaf1a22a43a6761967f8a6ac91ca843205be7f632cb50ee0e00923cd356b43c",
+    "width": 1424,
+    "height": 1349,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0837/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "182",
+    "sample_index": "182",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image182.png",
+    "sha256": "1a46d62cc9c807b8648f9dca403c2f0322108371c547530642e7e01defe53c1a",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0837/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter B",
+    "left_evidence": "B at the right intersection of the circle and horizontal axis",
+    "right_evidence": "B beside the arc above the lower parallel line",
+    "left_meaning": "The symbol \"B\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"B\" names the angle singled out by the arc.",
+    "same_meaning": false,
+    "reason": "The left occurrence is B at the right intersection of the circle and horizontal axis. The right occurrence is B beside the arc above the lower parallel line. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the angle singled out by the arc."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter B",
+    "mathematical_meanings": "Left image: The symbol \"B\" names a specific geometric point at the indicated location. Right image: The symbol \"B\" names the angle singled out by the arc.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is B at the right intersection of the circle and horizontal axis. The right occurrence is B beside the arc above the lower parallel line. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the angle singled out by the arc."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0837",
+    "condition": "condition/symbolic_roles/AVP0837"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0673",
+  "authoring_id": "V04GM048",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_selection_arc_vs_protractor_rim",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1305",
+    "sample_index": "1305",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Calculation and Comparison of Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_60",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "60-2.png",
+    "sha256": "3cec7063c04f06c43be5fb0b55dcb501a1138a2ef8111ab17df036102fed0a6a",
+    "width": 293,
+    "height": 181,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0673/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "348",
+    "sample_index": "348",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Angles (Using a Protractor)",
+    "source_metadata": {
+      "upstream_group_id": "2steps_348",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "348-1.png",
+    "sha256": "3e070ff6040012e851ccd92c1b808786c2751867f33b724668852f8faa9c279b",
+    "width": 794,
+    "height": 428,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0673/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arc curved around an angle vertex or center.",
+    "left_evidence": "The arc beside the 110-degree label where the two diagonals cross.",
+    "right_evidence": "The gray semicircular rim behind the blue quadrilateral.",
+    "left_meaning": "It identifies the angle at the crossing assigned the 110-degree measure.",
+    "right_meaning": "It is the graduated edge of the protractor used to read ray directions.",
+    "same_meaning": false,
+    "reason": "The left arc isolates one selected vertex angle. The right arc carries many scale graduations, so it provides an instrument for reading different angular positions."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arc curved around an angle vertex or center.",
+    "mathematical_meanings": "Left image: It identifies the angle at the crossing assigned the 110-degree measure. Right image: It is the graduated edge of the protractor used to read ray directions.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arc isolates one selected vertex angle. The right arc carries many scale graduations, so it provides an instrument for reading different angular positions."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0673",
+    "condition": "condition/geometric_markers/AVP0673"
+  }
+}

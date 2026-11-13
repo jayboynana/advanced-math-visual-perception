@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+  "mathematical_meanings": "Left image: The blue point's first coordinate is 3. Right image: The numeral 3 is the outcome label of that sector on the spinner.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of identifier of a spinner outcome."
+}

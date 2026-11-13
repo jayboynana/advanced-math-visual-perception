@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0865",
+  "authoring_id": "V04SR115",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "side_length_versus_system_unknown",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "495",
+    "sample_index": "495",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image495.png",
+    "sha256": "45667836bbd9cfa3053a998c982147f79ed3da3405e3a82f164a7e42b190c1d2",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0865/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "973_1",
+    "sample_index": "973_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 973,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_234bba88fa4a56aa2b46g_0049_1.jpg",
+    "sha256": "35ac6ce62075c8b4f6814b3f8f58e08b9330e72a644820caaf0d16d066820f7d",
+    "width": 254,
+    "height": 271,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0865/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter a",
+    "left_evidence": "a in the equations a + b = 10 and a - b = -6",
+    "right_evidence": "a beside the left side of the triangle",
+    "left_meaning": "The symbol \"a\" denotes one of the unknown numbers constrained by the equations.",
+    "right_meaning": "The symbol \"a\" denotes a length or a variable in the indicated length expression.",
+    "same_meaning": false,
+    "reason": "The left occurrence is a in the equations a + b = 10 and a - b = -6. The right occurrence is a beside the left side of the triangle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter a",
+    "mathematical_meanings": "Left image: The symbol \"a\" denotes one of the unknown numbers constrained by the equations. Right image: The symbol \"a\" denotes a length or a variable in the indicated length expression.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is a in the equations a + b = 10 and a - b = -6. The right occurrence is a beside the left side of the triangle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0865",
+    "condition": "condition/symbolic_roles/AVP0865"
+  }
+}

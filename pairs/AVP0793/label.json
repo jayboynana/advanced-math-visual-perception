@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes the independent input to the function.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is x atop the column with inputs 0 through 3. The right occurrence is x inside arctan(x) above the curve. The placement in each image shows that the symbol denotes the independent input to the function."
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0718",
+  "authoring_id": "V04GM093",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_vs_construction_dashes",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "267",
+    "sample_index": "267",
+    "problem_version": "2steps_1",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties and Understanding of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "2steps_267",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "267-1.png",
+    "sha256": "009c3b9702edfc29c9cba41639187a150727e9dd29caaaf18f45e8326ff871d9",
+    "width": 321,
+    "height": 176,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0718/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1009",
+    "sample_index": "1009",
+    "problem_version": "2steps_multi",
+    "image_type": "solid_geometry",
+    "source_subject": "Expanded View of Rectangular Cuboids;Area of Rectangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_289",
+      "step_variant": "2steps_multi"
+    },
+    "original_relative_path": "289-multi.png",
+    "sha256": "71751d9973abb46ae61c1b127ba05d4cee0a9ab3c7816aa623fb78e3f03940ed",
+    "width": 125,
+    "height": 210,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0718/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight line made of separated strokes.",
+    "left_evidence": "The dashed line along the rear side of the shaded bottom face.",
+    "right_evidence": "The horizontal dashed seam immediately below the top rectangle of the cuboid net.",
+    "left_meaning": "It represents an occluded lower edge of the cuboid.",
+    "right_meaning": "It separates neighboring face panels in the unfolded net.",
+    "same_meaning": false,
+    "reason": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It separates neighboring face panels in the unfolded net."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight line made of separated strokes.",
+    "mathematical_meanings": "Left image: It represents an occluded lower edge of the cuboid. Right image: It separates neighboring face panels in the unfolded net.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It separates neighboring face panels in the unfolded net."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0718",
+    "condition": "condition/geometric_markers/AVP0718"
+  }
+}

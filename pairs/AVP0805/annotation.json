@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0805",
+  "authoring_id": "V04SR055",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_output",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "90",
+    "sample_index": "90",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image90.png",
+    "sha256": "f809062dd5a537c89aa61961456c3fcf7aca4fb78b6642c3d865cccf1e430c25",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "mapping_diagram",
+    "image_path": "pairs/AVP0805/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "138",
+    "sample_index": "138",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image138.png",
+    "sha256": "1f0883403e17804a9732434ccf4ee0c7b6b3fb42215f45d4ea79d9e962638c12",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0805/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The notation f(x)",
+    "left_evidence": "f(x) above the target oval of the arrows from the four inputs",
+    "right_evidence": "f(x) adjacent to the descending part of the blue V-shaped graph",
+    "left_meaning": "The symbol \"f(x)\" denotes the value of the function at input x.",
+    "right_meaning": "The symbol \"f(x)\" denotes the value of the function at input x.",
+    "same_meaning": true,
+    "reason": "The left occurrence is f(x) above the target oval of the arrows from the four inputs. The right occurrence is f(x) adjacent to the descending part of the blue V-shaped graph. The placement in each image shows that the symbol denotes the value of the function at input x."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The notation f(x)",
+    "mathematical_meanings": "Left image: The symbol \"f(x)\" denotes the value of the function at input x. Right image: The symbol \"f(x)\" denotes the value of the function at input x.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is f(x) above the target oval of the arrows from the four inputs. The right occurrence is f(x) adjacent to the descending part of the blue V-shaped graph. The placement in each image shows that the symbol denotes the value of the function at input x."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0805",
+    "condition": "condition/symbolic_roles/AVP0805"
+  }
+}

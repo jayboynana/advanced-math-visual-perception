@@ -1,94 +1,133 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "language": "en",
-  "pair_count": 500,
-  "target_count": 500,
+  "pair_count": 1000,
+  "target_count": 1000,
   "targets_per_pair": 1,
-  "preserved_pair_count": 100,
-  "added_pair_count": 400,
-  "unique_problem_count": 387,
-  "unique_image_hash_count": 383,
-  "unique_decoded_image_count": 383,
+  "preserved_pair_count": 500,
+  "added_pair_count": 500,
+  "unique_problem_count": 880,
+  "unique_image_hash_count": 876,
+  "unique_decoded_image_count": 876,
   "source_image_counts": {
-    "MathVerse": 147,
+    "MathVerse": 152,
     "MathVista": 167,
-    "MathVision": 73
+    "MathVision": 73,
+    "MV-MATH": 74,
+    "DynaMath": 151,
+    "We-Math": 124,
+    "VisioMath": 139
   },
   "source_pair_counts": {
-    "MathVerse": 252,
-    "MathVision": 100,
-    "MathVista": 293
+    "DynaMath": 260,
+    "MV-MATH": 129,
+    "MathVerse": 303,
+    "MathVision": 101,
+    "MathVista": 332,
+    "VisioMath": 124,
+    "We-Math": 125
   },
   "source_pair_combinations": {
     "MathVerse / MathVerse": 107,
     "MathVerse / MathVista": 112,
-    "MathVista / MathVista": 181,
+    "MathVista / MathVista": 182,
     "MathVision / MathVision": 67,
-    "MathVerse / MathVision": 33
+    "MathVerse / MathVision": 33,
+    "MV-MATH / MathVerse": 11,
+    "MV-MATH / MathVista": 8,
+    "MV-MATH / MV-MATH": 23,
+    "DynaMath / MathVista": 17,
+    "DynaMath / DynaMath": 95,
+    "DynaMath / MV-MATH": 87,
+    "DynaMath / MathVerse": 9,
+    "We-Math / We-Math": 105,
+    "DynaMath / We-Math": 3,
+    "MathVerse / We-Math": 16,
+    "MathVision / We-Math": 1,
+    "DynaMath / VisioMath": 49,
+    "VisioMath / VisioMath": 47,
+    "MathVista / VisioMath": 13,
+    "MathVerse / VisioMath": 15
   },
-  "cross_dataset_pair_count": 145,
+  "cross_dataset_pair_count": 374,
   "type_counts": {
-    "same type": 302,
-    "different type": 198
+    "same type": 573,
+    "different type": 427
   },
   "condition_counts": {
-    "numeric_representation": 125,
-    "geometric_markers": 125,
-    "symbolic_roles": 125,
-    "graphical_roles": 125
+    "numeric_representation": 250,
+    "geometric_markers": 250,
+    "symbolic_roles": 250,
+    "graphical_roles": 250
   },
   "condition_source_pair_counts": {
     "numeric_representation": {
-      "MathVerse": 40,
+      "DynaMath": 91,
+      "MV-MATH": 82,
+      "MathVerse": 60,
       "MathVision": 0,
-      "MathVista": 100
+      "MathVista": 125,
+      "VisioMath": 0,
+      "We-Math": 0
     },
     "geometric_markers": {
-      "MathVerse": 58,
-      "MathVision": 100,
-      "MathVista": 0
+      "DynaMath": 3,
+      "MV-MATH": 0,
+      "MathVerse": 74,
+      "MathVision": 101,
+      "MathVista": 0,
+      "VisioMath": 0,
+      "We-Math": 125
     },
     "symbolic_roles": {
+      "DynaMath": 116,
+      "MV-MATH": 47,
       "MathVerse": 58,
       "MathVision": 0,
-      "MathVista": 94
+      "MathVista": 94,
+      "VisioMath": 0,
+      "We-Math": 0
     },
     "graphical_roles": {
-      "MathVerse": 96,
+      "DynaMath": 50,
+      "MV-MATH": 0,
+      "MathVerse": 111,
       "MathVision": 0,
-      "MathVista": 99
+      "MathVista": 113,
+      "VisioMath": 124,
+      "We-Math": 0
     }
   },
   "semantic_counts": {
-    "same_meaning": 249,
-    "different_meaning": 251
+    "same_meaning": 499,
+    "different_meaning": 501
   },
   "joint_counts": {
-    "same type|same_meaning": 216,
-    "same type|different_meaning": 86,
-    "different type|different_meaning": 165,
-    "different type|same_meaning": 33
+    "same type|same_meaning": 419,
+    "same type|different_meaning": 154,
+    "different type|different_meaning": 347,
+    "different type|same_meaning": 80
   },
   "condition_semantic_counts": {
     "numeric_representation": {
-      "same_meaning": 61,
-      "different_meaning": 64
+      "same_meaning": 123,
+      "different_meaning": 127
     },
     "geometric_markers": {
-      "same_meaning": 63,
-      "different_meaning": 62
+      "same_meaning": 126,
+      "different_meaning": 124
     },
     "symbolic_roles": {
-      "same_meaning": 62,
-      "different_meaning": 63
+      "same_meaning": 125,
+      "different_meaning": 125
     },
     "graphical_roles": {
-      "same_meaning": 63,
-      "different_meaning": 62
+      "same_meaning": 125,
+      "different_meaning": 125
     }
   },
-  "max_problem_reuse": 11,
-  "max_decoded_image_reuse": 11,
+  "max_problem_reuse": 14,
+  "max_decoded_image_reuse": 14,
   "annotation_status": "ai_visually_reviewed_draft",
   "split": "pilot_unsplit"
 }

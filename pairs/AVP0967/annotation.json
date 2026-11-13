@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0967",
+  "authoring_id": "V04GR092",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "constant_output_segment",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1703_A",
+    "sample_index": "1703",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1703,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1703_A.jpg",
+    "sha256": "e69536301353195c474dfb71c7dac1a72662c3614d81350bbdfc58c308532366",
+    "width": 510,
+    "height": 354,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1703_A.jpg",
+      "start": 8370041,
+      "length": 10394,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1655_A",
+    "sample_index": "1655",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1655,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1655_A.jpg",
+    "sha256": "ad97b140b07d680bc9118fe26c0bef86acbb7844ce377f1d569377e1999166ec",
+    "width": 255,
+    "height": 188,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1655_A.jpg",
+      "start": 7837667,
+      "length": 3762,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal part of a plotted graph.",
+    "left_evidence": "The flat upper trace between the dashed guides at x=4 and x=10.",
+    "right_evidence": "The horizontal top between the vertical guides at 13 and 18.",
+    "left_meaning": "A portion of the plotted trace with constant output over a horizontal input interval.",
+    "right_meaning": "A portion of the plotted trace with constant output over a horizontal input interval.",
+    "same_meaning": true,
+    "reason": "Both horizontal portions belong to the plotted trace itself. Their unchanging height shows that output stays constant across that portion of the horizontal input scale."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal part of a plotted graph.",
+    "mathematical_meanings": "Left image: A portion of the plotted trace with constant output over a horizontal input interval. Right image: A portion of the plotted trace with constant output over a horizontal input interval.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both horizontal portions belong to the plotted trace itself. Their unchanging height shows that output stays constant across that portion of the horizontal input scale."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0967",
+    "condition": "condition/graphical_roles/AVP0967"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square placed where two segments meet.",
+  "mathematical_meanings": "Left image: BF is perpendicular to the horizontal base at F. Right image: AB and AC meet at a right angle at A.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0888",
+  "authoring_id": "V04GR013",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_projection_vs_plane_altitude",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1655_A",
+    "sample_index": "1655",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1655,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1655_A.jpg",
+    "sha256": "ad97b140b07d680bc9118fe26c0bef86acbb7844ce377f1d569377e1999166ec",
+    "width": 255,
+    "height": 188,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1655_A.jpg",
+      "start": 7837667,
+      "length": 3762,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "737",
+    "sample_index": "737",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 179,
+      "img_width": 352,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/737.jpg",
+    "sha256": "2cead9367fe92a4c54a4ac4966488db4c1468f9b4d2036a219d22e7b25f8ac68",
+    "width": 352,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0888/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed segment meeting a horizontal baseline.",
+    "left_evidence": "The dashed vertical guide under the right end of the plateau at 18.",
+    "right_evidence": "The magenta dashed height from the parallelogram vertex to a right-angle foot on its base.",
+    "left_meaning": "A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "right_meaning": "An auxiliary segment dropping perpendicularly to a geometric baseline.",
+    "same_meaning": false,
+    "reason": "The plotted guide reads a horizontal input coordinate. The square at the foot of the other segment identifies a perpendicular construction in a finite geometric figure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A vertical dashed segment meeting a horizontal baseline.",
+    "mathematical_meanings": "Left image: A guide projecting a selected position on the graph down to its horizontal input coordinate. Right image: An auxiliary segment dropping perpendicularly to a geometric baseline.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The plotted guide reads a horizontal input coordinate. The square at the foot of the other segment identifies a perpendicular construction in a finite geometric figure."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0888",
+    "condition": "condition/graphical_roles/AVP0888"
+  }
+}

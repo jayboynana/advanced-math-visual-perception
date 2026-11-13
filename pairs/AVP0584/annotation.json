@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0584",
+  "authoring_id": "V04NR084",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_y_coordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "105",
+    "sample_index": "105",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image105.png",
+    "sha256": "eaf880783ee8268bbe568e8bf76fe0ece1a7c32c7c2682389ae0e5ccf38a6700",
+    "width": 515,
+    "height": 389,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0584/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "955_1",
+    "sample_index": "955_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 955,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_ed8d337c98b0b4f63d74g_0046_1.jpg",
+    "sha256": "91695acf018aed53b5dcc06b3180d18b0c76bcda5137b1b7cc0b7dfd74ec9b99",
+    "width": 257,
+    "height": 280,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0584/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 on the vertical axis where the blue parabola has its bottom point.",
+    "right_evidence": "The 2 at the positive labeled tick on the vertical axis.",
+    "left_meaning": "The parabola's vertex has y-coordinate 2.",
+    "right_meaning": "The tick marks y-coordinate 2.",
+    "same_meaning": true,
+    "reason": "Both cues identify the same vertical coordinate value, 2. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The parabola's vertex has y-coordinate 2. Right image: The tick marks y-coordinate 2.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both cues identify the same vertical coordinate value, 2. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0584",
+    "condition": "condition/numeric_representation/AVP0584"
+  }
+}

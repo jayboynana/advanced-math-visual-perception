@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+  "mathematical_meanings": "Left image: The right sloping side has length value 8. Right image: The marked line endpoint has x-coordinate 8.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of geometric length, while the right context gives it the role of horizontal coordinate."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: The symbol \"x\" denotes a length or a variable in the indicated length expression. Right image: The symbol \"x\" denotes the independent input to the function.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is x in the expression x + 2 under the green rectangle. The right occurrence is x in the sine argument in the first function definition above the graph. The left placement shows that the symbol denotes a length or a variable in the indicated length expression, while the right placement shows that it denotes the independent input to the function."
+}

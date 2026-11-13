@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0652",
+  "authoring_id": "V04GM027",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_selection_arc_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1301",
+    "sample_index": "1301",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_56",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "56-2.png",
+    "sha256": "735900cc4a43970c089fefe9a0368d32127b0e729c157ce533a301847ba861f2",
+    "width": 247,
+    "height": 115,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0652/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1574",
+    "sample_index": "1574",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Understanding and Representing Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_164",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "164-3.png",
+    "sha256": "15e10e5e59a10190425848b5d4cbe238ee51bfdf063f81700eff0343881cc865",
+    "width": 462,
+    "height": 286,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0652/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "left_evidence": "The arc next to the 30-degree label at the right base vertex.",
+    "right_evidence": "The arc on the left of the dashed reference at C, beside the 45-degree label.",
+    "left_meaning": "It identifies the vertex angle assigned the 30-degree measure.",
+    "right_meaning": "It identifies the angle between CA and the dashed reference ray at C.",
+    "same_meaning": true,
+    "reason": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A short circular arc drawn between rays near their common vertex.",
+    "mathematical_meanings": "Left image: It identifies the vertex angle assigned the 30-degree measure. Right image: It identifies the angle between CA and the dashed reference ray at C.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0652",
+    "condition": "condition/geometric_markers/AVP0652"
+  }
+}

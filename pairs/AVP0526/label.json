@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation −π/2 in both images.",
+  "mathematical_meanings": "Left image: The selected horizontal tick denotes coordinate −π/2. Right image: The tick denotes horizontal coordinate negative π/2.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both cues identify the same horizontal coordinate value, −π/2. The evidence is the selected axis position or coordinate component in each image."
+}

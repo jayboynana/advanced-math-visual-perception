@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0506",
+  "authoring_id": "V04NR006",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "359_1",
+    "sample_index": "359_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 359,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch24-2024_06_15_6f2e89da18aeebe3371eg_0097_1.jpg",
+    "sha256": "d841c9d97c78428eac4b20e30bd9d82cc2e0208647a12a7f4611a96540e41dd9",
+    "width": 366,
+    "height": 377,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0506/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1874_2",
+    "sample_index": "1874_2",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 1874,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_2b988f01d3dfec88a9c4g_0038_2.jpg",
+    "sha256": "a0a7b348674a37e175eac3f4f810fd1c28b1b697aab5dc845499bb0c72a22b40",
+    "width": 551,
+    "height": 337,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0506/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 30° in both images.",
+    "left_evidence": "The 30° inside the angle below the leftward horizontal ray from School.",
+    "right_evidence": "The 30° next to the arc at the leftmost point A.",
+    "left_meaning": "The marked angle between the westward reference ray and the route toward Mall measures 30 degrees.",
+    "right_meaning": "The angle between AH and AB at A measures 30 degrees.",
+    "same_meaning": true,
+    "reason": "Both labels are attached to marked angle regions and give the same measure of 30°."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 30° in both images.",
+    "mathematical_meanings": "Left image: The marked angle between the westward reference ray and the route toward Mall measures 30 degrees. Right image: The angle between AH and AB at A measures 30 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both labels are attached to marked angle regions and give the same measure of 30°."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0506",
+    "condition": "condition/numeric_representation/AVP0506"
+  }
+}

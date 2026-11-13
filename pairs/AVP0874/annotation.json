@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0874",
+  "authoring_id": "V04SR124",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "unknown_operator_versus_unknown_result",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "501",
+    "sample_index": "501",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "elementary school"
+    },
+    "original_relative_path": "image/image501.png",
+    "sha256": "19f1ebd7173ca3463a366ec74a42daa5ded919b13a4b66e6acff0824b333a45a",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0874/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "498",
+    "sample_index": "498",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image498.png",
+    "sha256": "ebf8ef8616818ce1fdea72aa06f81707682973cf1e60ed5f482b4e0af826049e",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0874/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The question mark (?)",
+    "left_evidence": "? between 2 and 5 in the expression",
+    "right_evidence": "? after the equals sign in m * n - o = ?",
+    "left_meaning": "The symbol \"?\" stands for the arithmetic operation to insert between two operands.",
+    "right_meaning": "The symbol \"?\" stands for the missing numerical output or result.",
+    "same_meaning": false,
+    "reason": "The left occurrence is ? between 2 and 5 in the expression. The right occurrence is ? after the equals sign in m * n - o = ?. The left placement shows that the symbol stands for the arithmetic operation to insert between two operands, while the right placement shows that it stands for the missing numerical output or result."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The question mark (?)",
+    "mathematical_meanings": "Left image: The symbol \"?\" stands for the arithmetic operation to insert between two operands. Right image: The symbol \"?\" stands for the missing numerical output or result.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is ? between 2 and 5 in the expression. The right occurrence is ? after the equals sign in m * n - o = ?. The left placement shows that the symbol stands for the arithmetic operation to insert between two operands, while the right placement shows that it stands for the missing numerical output or result."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0874",
+    "condition": "condition/symbolic_roles/AVP0874"
+  }
+}

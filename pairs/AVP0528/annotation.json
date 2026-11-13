@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0528",
+  "authoring_id": "V04NR028",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_exponent",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "137",
+    "sample_index": "137",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/137.jpg",
+    "sha256": "067c75c4e566c56b6ceb4c2486a962f7924274caf10b939ead86ca9d3b6a143f",
+    "width": 258,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0528/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "499",
+    "sample_index": "499",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image499.png",
+    "sha256": "0bcdf491496cf0b48981a89ea4418e3a131da3abcc66bfba2b0d40021b06062f",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0528/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The superscript 2 on x in the parabola's label f(x) = x².",
+    "right_evidence": "The 2 after the caret on a in the equation a^2 + c = ?.",
+    "left_meaning": "The formula uses the second power of x.",
+    "right_meaning": "The expression raises a to the second power.",
+    "same_meaning": true,
+    "reason": "The raised numeral or caret gives the power to which the preceding variable is raised. Both powers are 2."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The formula uses the second power of x. Right image: The expression raises a to the second power.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The raised numeral or caret gives the power to which the preceding variable is raised. Both powers are 2."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0528",
+    "condition": "condition/numeric_representation/AVP0528"
+  }
+}

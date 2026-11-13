@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+  "mathematical_meanings": "Left image: The right sloping side has length value 8. Right image: The displayed diameter D has length value 8.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 8."
+}

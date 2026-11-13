@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0815",
+  "authoring_id": "V04SR065",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_versus_state",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "72",
+    "sample_index": "72",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image72.png",
+    "sha256": "174cabc1dbcad56950e31d3908e52e3197d7153fce95ada9716029cfea6aa14d",
+    "width": 562,
+    "height": 559,
+    "original_image_modified": false,
+    "image_type": "network_diagram",
+    "image_path": "pairs/AVP0815/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "32",
+    "sample_index": "32",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image32.png",
+    "sha256": "cfe1e4cfd77a48907cb370c03aac594a1aa7247493bd2a668e9a26f8e72eea1d",
+    "width": 1151,
+    "height": 1099,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0815/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A inside the blue node with a self-loop labeled 0.9",
+    "right_evidence": "A at the top vertex of the inscribed quadrilateral",
+    "left_meaning": "The symbol \"A\" names a state with directed probability transitions.",
+    "right_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_meaning": false,
+    "reason": "The left occurrence is A inside the blue node with a self-loop labeled 0.9. The right occurrence is A at the top vertex of the inscribed quadrilateral. The left placement shows that the symbol names a state with directed probability transitions, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names a state with directed probability transitions. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is A inside the blue node with a self-loop labeled 0.9. The right occurrence is A at the top vertex of the inscribed quadrilateral. The left placement shows that the symbol names a state with directed probability transitions, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0815",
+    "condition": "condition/symbolic_roles/AVP0815"
+  }
+}

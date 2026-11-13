@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0507",
+  "authoring_id": "V04NR007",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1902_2",
+    "sample_index": "1902_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1902,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_4ecac8fbaa93a129c835g_0003_2.jpg",
+    "sha256": "da170fc4cdf83cc1dcf52ce31b476ee55e9b9da0e6ae6e23380633ae823a98ef",
+    "width": 574,
+    "height": 351,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0507/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "484_1",
+    "sample_index": "484_1",
+    "problem_version": "original",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "problem_id": 484,
+      "subject": "Solid Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_b9af2d17c1bfa2bebf76g_0006_1.jpg",
+    "sha256": "d6d6ffe08378c6874a4e7481a4acc5333182cbda7c0bf9f38496ed8a758f07e4",
+    "width": 312,
+    "height": 192,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0507/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 60° in both images.",
+    "left_evidence": "The 60° to the right of D beside sloping segment DC.",
+    "right_evidence": "The 60° beside the angle arc at the left end of the bottom edge.",
+    "left_meaning": "The marked angle between DC and DH measures 60 degrees.",
+    "right_meaning": "The marked triangle angle measures 60 degrees.",
+    "same_meaning": true,
+    "reason": "Both labels are attached to marked angle regions and give the same measure of 60°."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 60° in both images.",
+    "mathematical_meanings": "Left image: The marked angle between DC and DH measures 60 degrees. Right image: The marked triangle angle measures 60 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both labels are attached to marked angle regions and give the same measure of 60°."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0507",
+    "condition": "condition/numeric_representation/AVP0507"
+  }
+}

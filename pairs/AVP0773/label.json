@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter A",
+  "mathematical_meanings": "Left image: The symbol \"A\" names the matrix whose entries follow in brackets. Right image: The symbol \"A\" names the matrix whose entries follow in brackets.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is A before the 4 by 4 array beginning with -9.0. The right occurrence is A before the first of two bracketed matrices. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
+}

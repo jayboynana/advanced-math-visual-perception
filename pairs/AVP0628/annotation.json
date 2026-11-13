@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0628",
+  "authoring_id": "V04GM003",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1426",
+    "sample_index": "1426",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_16",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "16-3.png",
+    "sha256": "2e6f2d4490133322e6be9bd5126adac8d8c36653d4b278c96adc0c3b020c2d4d",
+    "width": 326,
+    "height": 223,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0628/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "179",
+    "sample_index": "179",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_179",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "179-1.png",
+    "sha256": "364982b8409210b438c224cb4d12e9154b0408d289abd7a8ed6f03f773b86510",
+    "width": 442,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0628/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square placed where two segments meet.",
+    "left_evidence": "The square where the dashed altitude meets the triangle base.",
+    "right_evidence": "The tilted square between the two oblique segments where they meet the base.",
+    "left_meaning": "The dashed altitude is perpendicular to the base.",
+    "right_meaning": "The two oblique segments meet at a right angle at their common base point.",
+    "same_meaning": true,
+    "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square placed where two segments meet.",
+    "mathematical_meanings": "Left image: The dashed altitude is perpendicular to the base. Right image: The two oblique segments meet at a right angle at their common base point.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0628",
+    "condition": "condition/geometric_markers/AVP0628"
+  }
+}

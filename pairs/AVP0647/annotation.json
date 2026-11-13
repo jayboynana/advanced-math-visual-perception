@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0647",
+  "authoring_id": "V04GM022",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1400",
+    "sample_index": "1400",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_155",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "155-2.png",
+    "sha256": "25c6d1a7b3a5d0ba2c1caf6a341d691f1f77e5bf018ded3d3f1f140797609978",
+    "width": 402,
+    "height": 302,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0647/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "244",
+    "sample_index": "244",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Other Polygons",
+    "source_metadata": {
+      "upstream_group_id": "2steps_244",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "244-1.png",
+    "sha256": "c9a86db03553be19e33377d0def56579fed480ae35b8b831f0bfdeb6db9328d9",
+    "width": 1694,
+    "height": 682,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0647/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The square at C, at the upper end of the dashed segment from O.",
+    "right_evidence": "The square outline on the right of the row of three polygons.",
+    "left_meaning": "CO is perpendicular to chord AB at C.",
+    "right_meaning": "It is the boundary of the third polygon in the row.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is the boundary of the third polygon in the row."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: CO is perpendicular to chord AB at C. Right image: It is the boundary of the third polygon in the row.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is the boundary of the third polygon in the row."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0647",
+    "condition": "condition/geometric_markers/AVP0647"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter B",
+  "mathematical_meanings": "Left image: The symbol \"B\" names a state with directed probability transitions. Right image: The symbol \"B\" names a specific geometric point at the indicated location.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is B inside the red node with a self-loop labeled 0.8. The right occurrence is B at the lower-left parallelogram corner. The left placement shows that the symbol names a state with directed probability transitions, while the right placement shows that it names a specific geometric point at the indicated location."
+}

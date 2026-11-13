@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0540",
+  "authoring_id": "V04NR040",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "stock_price_vs_scale_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "382",
+    "sample_index": "382",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image382.png",
+    "sha256": "d2f5ff9cbda8d22134d4f099411c2b74d19b3d7a25d8a30e123ddb8970b606f6",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "statistical_chart",
+    "image_path": "pairs/AVP0540/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "359_1",
+    "sample_index": "359_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 359,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch24-2024_06_15_6f2e89da18aeebe3371eg_0097_1.jpg",
+    "sha256": "d841c9d97c78428eac4b20e30bd9d82cc2e0208647a12a7f4611a96540e41dd9",
+    "width": 366,
+    "height": 377,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0540/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 500 and 500 m.",
+    "left_evidence": "The 500 printed above the November point in the line chart.",
+    "right_evidence": "The 500 m above the short scale bar at the upper right.",
+    "left_meaning": "The displayed November stock price is 500.",
+    "right_meaning": "The scale bar represents 500 meters of actual distance.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of stock price, while the right context gives it the role of actual distance indicated by a map scale."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 500 and 500 m.",
+    "mathematical_meanings": "Left image: The displayed November stock price is 500. Right image: The scale bar represents 500 meters of actual distance.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of stock price, while the right context gives it the role of actual distance indicated by a map scale."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0540",
+    "condition": "condition/numeric_representation/AVP0540"
+  }
+}

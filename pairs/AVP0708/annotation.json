@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0708",
+  "authoring_id": "V04GM083",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "perpendicular_height_dashes_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1097",
+    "sample_index": "1097",
+    "problem_version": "3steps_1",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_17",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "17-1.png",
+    "sha256": "610561159544bece4881b869e17a2a91cf265d2e0126b5cce6d70c1d2922bf74",
+    "width": 301,
+    "height": 216,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0708/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "223",
+    "sample_index": "223",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_223",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "223-1.png",
+    "sha256": "4ddfed36c84af0009a7d28cf918c01e087e7031c27dc5f863601a5f8efae0744",
+    "width": 395,
+    "height": 239,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0708/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed segment ending at a right-angle box.",
+    "left_evidence": "The dashed segment AD ending at the right-angle box on BC.",
+    "right_evidence": "The left dashed segment AE ending at the square on BC.",
+    "left_meaning": "It constructs the perpendicular height from A to BC.",
+    "right_meaning": "It constructs the perpendicular separation from A to BC.",
+    "same_meaning": true,
+    "reason": "Each dashed construction joins a vertex to a base or side and reaches it at a marked right angle. The dashes identify an auxiliary perpendicular height."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dashed segment ending at a right-angle box.",
+    "mathematical_meanings": "Left image: It constructs the perpendicular height from A to BC. Right image: It constructs the perpendicular separation from A to BC.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each dashed construction joins a vertex to a base or side and reaches it at a marked right angle. The dashes identify an auxiliary perpendicular height."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0708",
+    "condition": "condition/geometric_markers/AVP0708"
+  }
+}

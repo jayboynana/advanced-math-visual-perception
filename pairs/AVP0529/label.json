@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+  "mathematical_meanings": "Left image: Matrix A has entry 1 at row 1, column 1. Right image: Matrix A has entry 1 at row 1, column 1.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The value 1 occupies the corresponding indicated matrix entry in both arrays."
+}

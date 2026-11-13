@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square placed where two segments meet.",
+  "mathematical_meanings": "Left image: DC is perpendicular to the line through D and A. Right image: CO is perpendicular to chord AB at C.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+}

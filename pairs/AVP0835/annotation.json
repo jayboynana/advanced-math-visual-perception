@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0835",
+  "authoring_id": "V04SR085",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_versus_region",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "45",
+    "sample_index": "45",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image45.png",
+    "sha256": "c53c766322369e2f3720af2fa6c1e24547e0ab05ad39b1042d54499b6741c0b4",
+    "width": 1214,
+    "height": 749,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0835/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "85",
+    "sample_index": "85",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image85.png",
+    "sha256": "c9e3d76b5f4ba5c87d0a17af718af61356da0c837e9bd95127383639c6f01529",
+    "width": 1181,
+    "height": 1331,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0835/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter B",
+    "left_evidence": "B at the left endpoint of the triangle base",
+    "right_evidence": "B inside the smaller tilted square on the triangle's right side",
+    "left_meaning": "The symbol \"B\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"B\" names the indicated square region.",
+    "same_meaning": false,
+    "reason": "The left occurrence is B at the left endpoint of the triangle base. The right occurrence is B inside the smaller tilted square on the triangle's right side. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the indicated square region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter B",
+    "mathematical_meanings": "Left image: The symbol \"B\" names a specific geometric point at the indicated location. Right image: The symbol \"B\" names the indicated square region.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is B at the left endpoint of the triangle base. The right occurrence is B inside the smaller tilted square on the triangle's right side. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the indicated square region."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0835",
+    "condition": "condition/symbolic_roles/AVP0835"
+  }
+}

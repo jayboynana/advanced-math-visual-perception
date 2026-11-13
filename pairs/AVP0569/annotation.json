@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0569",
+  "authoring_id": "V04NR069",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "147_1",
+    "sample_index": "147_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 147,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch14-2024_06_15_a76a212ead7e23c003beg_0007_1.jpg",
+    "sha256": "4abc21b09904c310f2a00cae6a4525196b9a64248b2116c20dec319a075b6e39",
+    "width": 646,
+    "height": 300,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0569/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "97",
+    "sample_index": "97",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image97.png",
+    "sha256": "65a9368756e6fb5d7afbceddfb144a9bdd133c25999921839c30894a52abdc98",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0569/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 beside the short bottom segment of the right panel.",
+    "right_evidence": "The 2 in r = 2 beneath the horizontal radius.",
+    "left_meaning": "The bottom segment from the lower-left corner to the vertical segment has length value 2.",
+    "right_meaning": "The circle radius has length value 2.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 2."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The bottom segment from the lower-left corner to the vertical segment has length value 2. Right image: The circle radius has length value 2.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 2."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0569",
+    "condition": "condition/numeric_representation/AVP0569"
+  }
+}

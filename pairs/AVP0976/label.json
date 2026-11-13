@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An arrowhead at the positive end of a coordinate axis.",
+  "mathematical_meanings": "Left image: The arrowhead orienting the positive direction of a coordinate axis. Right image: The arrowhead orienting the positive direction of a coordinate axis.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both diagrams the arrowhead belongs to a coordinate axis and orients that reference scale. The curve or geometric figure plotted on the axes is a separate element."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The question mark (?)",
+  "mathematical_meanings": "Left image: The symbol \"?\" stands for the missing numerical output or result. Right image: The symbol \"?\" stands for the arithmetic operation to insert between two operands.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is ? after the equals sign in the equation containing a squared. The right occurrence is ? between 6 and 2 on the left of the equals sign. The left placement shows that the symbol stands for the missing numerical output or result, while the right placement shows that it stands for the arithmetic operation to insert between two operands."
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0504",
+  "authoring_id": "V04NR004",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "408",
+    "sample_index": "2039",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_408.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0504/left.png",
+    "width": 618,
+    "height": 266,
+    "sha256": "b9a5aed3e214b69dabfcb2e244620f0825c33556eeae63cd8a948951cd5e8647"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1830_2",
+    "sample_index": "1830_2",
+    "problem_version": "original",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "problem_id": 1830,
+      "subject": "Solid Geometry",
+      "grade": "Senior",
+      "difficulty": "High",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch28-2024_06_17_e04d978f06aca8cfd83cg_0064_2.jpg",
+    "sha256": "e98a2f05871b01ce826f39d8a7d2fe535a1bdda0926913e9c51ad2bdff646066",
+    "width": 554,
+    "height": 385,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0504/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 40° in both images.",
+    "left_evidence": "The 40° beside the arc at the lower-left vertex of the sector.",
+    "right_evidence": "The 40° inside the small triangular region at O.",
+    "left_meaning": "The indicated central angle measures 40 degrees.",
+    "right_meaning": "The angle between OD and OC at O measures 40 degrees.",
+    "same_meaning": true,
+    "reason": "Both labels are attached to marked angle regions and give the same measure of 40°."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 40° in both images.",
+    "mathematical_meanings": "Left image: The indicated central angle measures 40 degrees. Right image: The angle between OD and OC at O measures 40 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both labels are attached to marked angle regions and give the same measure of 40°."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0504",
+    "condition": "condition/numeric_representation/AVP0504"
+  }
+}

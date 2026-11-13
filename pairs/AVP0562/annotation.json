@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0562",
+  "authoring_id": "V04NR062",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "opposite_signed_values",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "154",
+    "sample_index": "154",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 744,
+      "img_width": 1114,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/154.jpg",
+    "sha256": "0c50af771e0867d3569342a97d78e146c74293497649bf572628a53cec6cf9bb",
+    "width": 1114,
+    "height": 744,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0562/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "474",
+    "sample_index": "474",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image474.png",
+    "sha256": "71fbdebc67e7b853d419723f6a638ed2b3acd0c6bd0f48d3792cee5677b9180d",
+    "width": 481,
+    "height": 150,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0562/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 0.5 and −0.5.",
+    "left_evidence": "The decimal 0.5 in the base position of the equation beside the green curve.",
+    "right_evidence": "The −0.5 in the top-left position of matrix A.",
+    "left_meaning": "The exponential function has base one half.",
+    "right_meaning": "Matrix A has entry negative one half at row 1, column 1.",
+    "same_meaning": false,
+    "reason": "The expressions 0.5 and −0.5 have opposite signs, so their complete numerical values differ. The left context gives it the role of exponential base, while the right context gives it the role of matrix entry."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 0.5 and −0.5.",
+    "mathematical_meanings": "Left image: The exponential function has base one half. Right image: Matrix A has entry negative one half at row 1, column 1.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The expressions 0.5 and −0.5 have opposite signs, so their complete numerical values differ. The left context gives it the role of exponential base, while the right context gives it the role of matrix entry."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0562",
+    "condition": "condition/numeric_representation/AVP0562"
+  }
+}

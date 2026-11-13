@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0778",
+  "authoring_id": "V04SR028",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_set",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "468",
+    "sample_index": "468",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image468.png",
+    "sha256": "a723785636208a894c9d41d20304c410261f2f424708fcf444bb3eae56def379",
+    "width": 407,
+    "height": 348,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP0778/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "473",
+    "sample_index": "473",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image473.png",
+    "sha256": "ae181702e47d697562b6a4c929588b96fd4197c977dbd76d9865199afc547635",
+    "width": 407,
+    "height": 327,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP0778/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter B",
+    "left_evidence": "B below the green set circle",
+    "right_evidence": "B below the circle with 3 and 7 in its right-only part",
+    "left_meaning": "The symbol \"B\" names the set represented by the indicated circle.",
+    "right_meaning": "The symbol \"B\" names the set represented by the indicated circle.",
+    "same_meaning": true,
+    "reason": "The left occurrence is B below the green set circle. The right occurrence is B below the circle with 3 and 7 in its right-only part. The placement in each image shows that the symbol names the set represented by the indicated circle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter B",
+    "mathematical_meanings": "Left image: The symbol \"B\" names the set represented by the indicated circle. Right image: The symbol \"B\" names the set represented by the indicated circle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is B below the green set circle. The right occurrence is B below the circle with 3 and 7 in its right-only part. The placement in each image shows that the symbol names the set represented by the indicated circle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0778",
+    "condition": "condition/symbolic_roles/AVP0778"
+  }
+}

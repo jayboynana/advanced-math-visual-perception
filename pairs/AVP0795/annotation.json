@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0795",
+  "authoring_id": "V04SR045",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_input",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "144",
+    "sample_index": "144",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image144.png",
+    "sha256": "19cbf59d952a42c0e23aa313298f08c2de9ecf2e50f750e7494a358881a87e35",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0795/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "90",
+    "sample_index": "90",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image90.png",
+    "sha256": "f809062dd5a537c89aa61961456c3fcf7aca4fb78b6642c3d865cccf1e430c25",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "mapping_diagram",
+    "image_path": "pairs/AVP0795/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x in the sine argument in the first function definition above the graph",
+    "right_evidence": "x above the oval containing 1, 2, 3 and 4",
+    "left_meaning": "The symbol \"x\" denotes the independent input to the function.",
+    "right_meaning": "The symbol \"x\" denotes the independent input to the function.",
+    "same_meaning": true,
+    "reason": "The left occurrence is x in the sine argument in the first function definition above the graph. The right occurrence is x above the oval containing 1, 2, 3 and 4. The placement in each image shows that the symbol denotes the independent input to the function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes the independent input to the function.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is x in the sine argument in the first function definition above the graph. The right occurrence is x above the oval containing 1, 2, 3 and 4. The placement in each image shows that the symbol denotes the independent input to the function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0795",
+    "condition": "condition/symbolic_roles/AVP0795"
+  }
+}

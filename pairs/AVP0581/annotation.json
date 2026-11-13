@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0581",
+  "authoring_id": "V04NR081",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "y_coordinate_vs_matrix_entry",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "117",
+    "sample_index": "117",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 460,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/117.jpg",
+    "sha256": "53413b8e12249ddb8f4b19d0327957b4c8dd96d2669807ba6e5bac85ebe935ec",
+    "width": 460,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0581/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "577",
+    "sample_index": "577",
+    "problem_version": "original",
+    "image_type": "symbolic_expression",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "scientific figure",
+      "grade": "college",
+      "img_height": 142,
+      "img_width": 533,
+      "language": "english",
+      "skills": [
+        "scientific reasoning"
+      ],
+      "source": "SciBench",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/577.jpg",
+    "sha256": "324a02978bf716517fb11685c88c2ea858060daec523696f9162d55da97d6094",
+    "width": 533,
+    "height": 142,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0581/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The second component 2 in the point label (3,2) at the right peak.",
+    "right_evidence": "The 2 in the first row and second column of matrix A.",
+    "left_meaning": "The marked peak point has y-coordinate 2.",
+    "right_meaning": "Matrix A has entry 2 at row 1, column 2.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of matrix entry."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The marked peak point has y-coordinate 2. Right image: Matrix A has entry 2 at row 1, column 2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of matrix entry."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0581",
+    "condition": "condition/numeric_representation/AVP0581"
+  }
+}

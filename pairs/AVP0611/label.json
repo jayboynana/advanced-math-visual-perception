@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 1 m and 1.",
+  "mathematical_meanings": "Left image: The sloping strip spans one meter along AB on the top boundary. Right image: The left-hand marked zero of the curve has x-coordinate 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of horizontal coordinate."
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0861",
+  "authoring_id": "V04SR111",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "dependent_versus_system_unknown",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "16",
+    "sample_index": "16",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image16.png",
+    "sha256": "0481396a11358dd5986970f4dbe11349870dcef174eefd7573a58a4ad10bf2eb",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0861/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "86",
+    "sample_index": "86",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image86.png",
+    "sha256": "05b8883ab0bdaeb2fb83bddb8e251e5ec174758c5aed1061c8f510e51bba8479",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0861/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y repeated in the second equation of the printed system",
+    "right_evidence": "y at the start of each expression defining the two plotted branches",
+    "left_meaning": "The symbol \"y\" denotes one of the unknown numbers constrained by the equations.",
+    "right_meaning": "The symbol \"y\" denotes the dependent value defined by the displayed equation.",
+    "same_meaning": false,
+    "reason": "The left occurrence is y repeated in the second equation of the printed system. The right occurrence is y at the start of each expression defining the two plotted branches. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it denotes the dependent value defined by the displayed equation."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: The symbol \"y\" denotes one of the unknown numbers constrained by the equations. Right image: The symbol \"y\" denotes the dependent value defined by the displayed equation.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is y repeated in the second equation of the printed system. The right occurrence is y at the start of each expression defining the two plotted branches. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it denotes the dependent value defined by the displayed equation."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0861",
+    "condition": "condition/symbolic_roles/AVP0861"
+  }
+}

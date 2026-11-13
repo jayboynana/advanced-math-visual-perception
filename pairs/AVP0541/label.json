@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numeral 400, with a meter unit on the left and a bare value on the right.",
+  "mathematical_meanings": "Left image: The distance from the station to the left limit shown by the arrow is 400 meters. Right image: The heatmap reports attendance 400 for Branch C in January.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of attendance count."
+}

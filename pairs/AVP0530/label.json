@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The quadratic term has coefficient 2. Right image: The 2 multiplies a in the expression for the right-hand base segment length.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both expressions, the 2 immediately before the selected term is the multiplier of that term."
+}

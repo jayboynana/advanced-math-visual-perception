@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0664",
+  "authoring_id": "V04GM039",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_vs_geometric_arc",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1300",
+    "sample_index": "1300",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_55",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "55-2.png",
+    "sha256": "96f86c593b9a779d60ddac51fd2a089f33057c5423b21b2a46a2ad03bada38ff",
+    "width": 376,
+    "height": 155,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0664/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "94",
+    "sample_index": "94",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Rotation",
+    "source_metadata": {
+      "upstream_group_id": "2steps_94",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "94-1.png",
+    "sha256": "4ed2a5900502db2563aa7b1d3f8e46b6ed2964abf50571e5a3ba9ca669f8c9c1",
+    "width": 296,
+    "height": 302,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0664/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A curved arc-shaped stroke.",
+    "left_evidence": "The small arc beside the 35-degree label at the left end of the jagged figure.",
+    "right_evidence": "The outer curve of the upper-right dark region labeled B.",
+    "left_meaning": "It identifies the vertex angle assigned the 35-degree measure.",
+    "right_meaning": "It is the outer circular boundary of a quarter-annular region.",
+    "same_meaning": false,
+    "reason": "The short arc on the left singles out a wedge between incident rays. The curve on the right is part of the depicted shape or path. It is the outer circular boundary of a quarter-annular region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A curved arc-shaped stroke.",
+    "mathematical_meanings": "Left image: It identifies the vertex angle assigned the 35-degree measure. Right image: It is the outer circular boundary of a quarter-annular region.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The short arc on the left singles out a wedge between incident rays. The curve on the right is part of the depicted shape or path. It is the outer circular boundary of a quarter-annular region."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0664",
+    "condition": "condition/geometric_markers/AVP0664"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0558",
+  "authoring_id": "V04NR058",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "x_coordinate_vs_y_coordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "96",
+    "sample_index": "96",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image96.png",
+    "sha256": "d5c0f569afec1eaa3222eadb061f4cc73c8a39271e4e3ae8f5776df0acb3179b",
+    "width": 533,
+    "height": 407,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0558/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "96_1",
+    "sample_index": "96_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 96,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_6232eddd3fe50c545eddg_0069_1.jpg",
+    "sha256": "dc3efa71a8127910c42bbd2b11572c3a79ca97f1fe388ca8212f7a3d910b3034",
+    "width": 326,
+    "height": 269,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0558/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The 4 below the marked point where the blue line meets the horizontal axis.",
+    "right_evidence": "The 4 at the upper horizontal guide meeting the vertical axis.",
+    "left_meaning": "The indicated horizontal-axis intercept has x-coordinate 4.",
+    "right_meaning": "The left segment endpoint has vertical coordinate 4.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The indicated horizontal-axis intercept has x-coordinate 4. Right image: The left segment endpoint has vertical coordinate 4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0558",
+    "condition": "condition/numeric_representation/AVP0558"
+  }
+}

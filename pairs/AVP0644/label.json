@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+  "mathematical_meanings": "Left image: AB and AC meet at a right angle at A. Right image: It is one cell of the coordinate grid used to position the rotated figures.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one cell of the coordinate grid used to position the rotated figures."
+}

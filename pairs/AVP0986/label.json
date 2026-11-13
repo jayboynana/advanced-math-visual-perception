@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A pointed arrow on a straight stroke.",
+  "mathematical_meanings": "Left image: The arrowhead orienting the positive direction of a coordinate axis. Right image: An arrow showing the direction from which the solid is viewed.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "An axis arrow gives the orientation of a coordinate scale. The arrow pointing toward a solid gives the observer’s viewing direction for a projection."
+}

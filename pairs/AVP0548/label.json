@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 73 in both images.",
+  "mathematical_meanings": "Left image: The pie chart reports 73 students in Grade 3. Right image: The table records Student A's science score as 73.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of number of students, while the right context gives it the role of score."
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0807",
+  "authoring_id": "V04SR057",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_radius",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "26",
+    "sample_index": "26",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image26.png",
+    "sha256": "50dc1aa193d648f9cfa3e95a6ea5fab9bfac1114494ca24622f27481e3188b6b",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0807/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "359",
+    "sample_index": "359",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image359.png",
+    "sha256": "6063bd8317ad5637ff0fece2bf04844ecbbe3c82c46a51f6289070f8112a25d8",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0807/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter r",
+    "left_evidence": "r in r = 3 beside the horizontal sector radius",
+    "right_evidence": "r in r = 47 along the segment on the cylinder top",
+    "left_meaning": "The symbol \"r\" denotes the radius of the indicated circle or circular face.",
+    "right_meaning": "The symbol \"r\" denotes the radius of the indicated circle or circular face.",
+    "same_meaning": true,
+    "reason": "The left occurrence is r in r = 3 beside the horizontal sector radius. The right occurrence is r in r = 47 along the segment on the cylinder top. The placement in each image shows that the symbol denotes the radius of the indicated circle or circular face."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter r",
+    "mathematical_meanings": "Left image: The symbol \"r\" denotes the radius of the indicated circle or circular face. Right image: The symbol \"r\" denotes the radius of the indicated circle or circular face.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is r in r = 3 beside the horizontal sector radius. The right occurrence is r in r = 47 along the segment on the cylinder top. The placement in each image shows that the symbol denotes the radius of the indicated circle or circular face."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0807",
+    "condition": "condition/symbolic_roles/AVP0807"
+  }
+}

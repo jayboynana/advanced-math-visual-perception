@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0760",
+  "authoring_id": "V04SR010",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "195",
+    "sample_index": "195",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image195.png",
+    "sha256": "40ee06ce1d0126daa2bab1feacbea06b9a7cc3f16990a66aed9c77d8181a7428",
+    "width": 1464,
+    "height": 1044,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0760/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "206",
+    "sample_index": "206",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image206.png",
+    "sha256": "e5ed14c5dcae61a8b071383279afc51812ed41c4c15e7528d4bfac4139a7e92c",
+    "width": 356,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0760/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A at the upper-left endpoint of segment AP",
+    "right_evidence": "A above the triangle apex between the sides labeled 8 and 11",
+    "left_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_meaning": true,
+    "reason": "The left occurrence is A at the upper-left endpoint of segment AP. The right occurrence is A above the triangle apex between the sides labeled 8 and 11. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is A at the upper-left endpoint of segment AP. The right occurrence is A above the triangle apex between the sides labeled 8 and 11. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0760",
+    "condition": "condition/symbolic_roles/AVP0760"
+  }
+}

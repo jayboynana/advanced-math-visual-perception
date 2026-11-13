@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0566",
+  "authoring_id": "V04NR066",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "194",
+    "sample_index": "194",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image194.png",
+    "sha256": "e1c6ba7658b6f36d74fafbf18cc0e39bb2fcfd59640ae4a083834a7e6e23e397",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0566/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "934_1",
+    "sample_index": "934_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 934,
+      "subject": "Metric Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch14-2024_06_15_67b9e2592a4ca695d018g_0057_1.jpg",
+    "sha256": "d107175d76e78760cfc5dc0326e6640a788c8d810302869f5c870e2f394d3438",
+    "width": 319,
+    "height": 257,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0566/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 6 in both images.",
+    "left_evidence": "The 6 next to the right-hand vertical side of the overlapping-rectangle diagram.",
+    "right_evidence": "The 6 beside the left edge of the shaded rectangle.",
+    "left_meaning": "The right-hand vertical side has length value 6.",
+    "right_meaning": "The left edge of the shaded rectangle has length value 6.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 6."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 6 in both images.",
+    "mathematical_meanings": "Left image: The right-hand vertical side has length value 6. Right image: The left edge of the shaded rectangle has length value 6.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 6."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0566",
+    "condition": "condition/numeric_representation/AVP0566"
+  }
+}

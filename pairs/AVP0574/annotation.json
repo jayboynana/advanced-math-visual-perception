@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0574",
+  "authoring_id": "V04NR074",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "377",
+    "sample_index": "1884",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_377.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0574/left.png",
+    "width": 226,
+    "height": 126,
+    "sha256": "90f505913a083f6127a3613cdc440993734dd1bd4dc483056455923a8ded3baf"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "153",
+    "sample_index": "153",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image153.png",
+    "sha256": "8432a4a7e0424a6531da371f8ae7dec234e9fba8793aed49870f3715ea741061",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0574/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 9 in both images.",
+    "left_evidence": "The 9 beneath the horizontal base of the right triangle.",
+    "right_evidence": "The 9 above the top side of the square framing four arcs.",
+    "left_meaning": "The base side has length value 9.",
+    "right_meaning": "The top side of the square has length value 9.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 9."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 9 in both images.",
+    "mathematical_meanings": "Left image: The base side has length value 9. Right image: The top side of the square has length value 9.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 9."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0574",
+    "condition": "condition/numeric_representation/AVP0574"
+  }
+}

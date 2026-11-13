@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0684",
+  "authoring_id": "V04GM059",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "north_direction_arrow_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1251",
+    "sample_index": "1251",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_6",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "6-2.png",
+    "sha256": "f50c015137ea89c074886a973952b15b98b032ebfcd806f1fec8570b0d5a16dc",
+    "width": 305,
+    "height": 152,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0684/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "406",
+    "sample_index": "406",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Perimeter of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_46",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "46-2.png",
+    "sha256": "49ec318773add9bb8eca2ac2442c056ddf206b6a733038ad936532a054d1bec2",
+    "width": 1152,
+    "height": 942,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0684/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward arrow labeled North.",
+    "left_evidence": "The isolated vertical arrow labeled North to the right of the triangle.",
+    "right_evidence": "The upward arrow labeled North above the route on the left.",
+    "left_meaning": "It gives the north direction for interpreting bearings in the diagram.",
+    "right_meaning": "It provides the north reference direction for interpreting the route.",
+    "same_meaning": true,
+    "reason": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An upward arrow labeled North.",
+    "mathematical_meanings": "Left image: It gives the north direction for interpreting bearings in the diagram. Right image: It provides the north reference direction for interpreting the route.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0684",
+    "condition": "condition/geometric_markers/AVP0684"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0848",
+  "authoring_id": "V04SR098",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_vertex_versus_origin",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "994_1",
+    "sample_index": "994_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 994,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_58474443df6e195863d8g_0048_1.jpg",
+    "sha256": "30e92c86c8d83d7945ddfab3c4c90372205250b002f403b40ef7e58305ccf023",
+    "width": 262,
+    "height": 234,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0848/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "197",
+    "sample_index": "197",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image197.png",
+    "sha256": "a5a737d984e5fb8cc73a7374a047609bbb2162d4b6a4642babf61f080a7b5e7d",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0848/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O just left of the vertical axis at the horizontal axis",
+    "right_evidence": "O at the crossing of AB and DE beside the angle marker",
+    "left_meaning": "The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
+    "right_meaning": "The symbol \"O\" names the common point of the rays that form an angle.",
+    "same_meaning": false,
+    "reason": "The left occurrence is O just left of the vertical axis at the horizontal axis. The right occurrence is O at the crossing of AB and DE beside the angle marker. The left placement shows that the symbol marks the origin at the intersection of the coordinate axes, while the right placement shows that it names the common point of the rays that form an angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: The symbol \"O\" marks the origin at the intersection of the coordinate axes. Right image: The symbol \"O\" names the common point of the rays that form an angle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is O just left of the vertical axis at the horizontal axis. The right occurrence is O at the crossing of AB and DE beside the angle marker. The left placement shows that the symbol marks the origin at the intersection of the coordinate axes, while the right placement shows that it names the common point of the rays that form an angle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0848",
+    "condition": "condition/symbolic_roles/AVP0848"
+  }
+}

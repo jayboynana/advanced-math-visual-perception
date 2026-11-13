@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation −6 in both images.",
+  "mathematical_meanings": "Left image: The selected blue point has x-coordinate negative six. Right image: The indicated rectangle vertex has x-coordinate negative six.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both cues identify the same horizontal coordinate value, −6. The evidence is the selected axis position or coordinate component in each image."
+}

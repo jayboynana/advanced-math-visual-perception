@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: The symbol \"x\" labels the indicated coordinate axis. Right image: The symbol \"x\" denotes one of the unknown numbers constrained by the equations.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is x to the right of the horizontal arrow beneath the two branches. The right occurrence is x in the first term of all three equations. The left placement shows that the symbol labels the indicated coordinate axis, while the right placement shows that it denotes one of the unknown numbers constrained by the equations."
+}

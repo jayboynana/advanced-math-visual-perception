@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0821",
+  "authoring_id": "V04SR071",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_versus_set",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "469",
+    "sample_index": "469",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image469.png",
+    "sha256": "2b8863315a9098dae7ffcbb20d92183d58a70f44e7af6ea5fe7fe89294b2cbdc",
+    "width": 407,
+    "height": 324,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP0821/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "93",
+    "sample_index": "93",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image93.png",
+    "sha256": "a9c41346ed52c81a74e9cb326306f7c9e6549b37ab91c2f2e12ff0879e61a329",
+    "width": 1186,
+    "height": 549,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0821/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A below the left circle with 9 at its upper edge",
+    "right_evidence": "A at the top vertex of the outer triangle",
+    "left_meaning": "The symbol \"A\" names the set represented by the indicated circle.",
+    "right_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_meaning": false,
+    "reason": "The left occurrence is A below the left circle with 9 at its upper edge. The right occurrence is A at the top vertex of the outer triangle. The left placement shows that the symbol names the set represented by the indicated circle, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names the set represented by the indicated circle. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is A below the left circle with 9 at its upper edge. The right occurrence is A at the top vertex of the outer triangle. The left placement shows that the symbol names the set represented by the indicated circle, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0821",
+    "condition": "condition/symbolic_roles/AVP0821"
+  }
+}

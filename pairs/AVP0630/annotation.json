@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0630",
+  "authoring_id": "V04GM005",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1271",
+    "sample_index": "1271",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_26",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "26-2.png",
+    "sha256": "eaf6680087c0de03eb0a8da82898dd56c7ef56dd3f401c9e3a3a45d736acb286",
+    "width": 708,
+    "height": 346,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0630/left.jpg"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "229",
+    "sample_index": "229",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Sum of Interior Angles of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_229",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "229-1.png",
+    "sha256": "ab401a0af3496f006a218de7b9867bd0b823ab71fed44d10934084242adbee76",
+    "width": 1264,
+    "height": 1074,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0630/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square placed where two segments meet.",
+    "left_evidence": "The square at E beside the vertical segment BE.",
+    "right_evidence": "The tilted square at A, between OA and AB.",
+    "left_meaning": "BE is perpendicular to DC at E.",
+    "right_meaning": "OA is perpendicular to AB at A.",
+    "same_meaning": true,
+    "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square placed where two segments meet.",
+    "mathematical_meanings": "Left image: BE is perpendicular to DC at E. Right image: OA is perpendicular to AB at A.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0630",
+    "condition": "condition/geometric_markers/AVP0630"
+  }
+}

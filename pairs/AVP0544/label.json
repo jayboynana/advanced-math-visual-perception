@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 2 cm and 2 m.",
+  "mathematical_meanings": "Left image: The marked radius measures two centimeters. Right image: The opening's width measured by that arrow is two meters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The labels share a numeral, and the displayed units give different physical lengths of 0.02 meters and 2 meters."
+}

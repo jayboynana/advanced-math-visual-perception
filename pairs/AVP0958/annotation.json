@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0958",
+  "authoring_id": "V04GR083",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "linear_function_trace_vs_polygon_side",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "610_A",
+    "sample_index": "610",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 610,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/610_A.jpg",
+    "sha256": "a3d3538406bfa7cca7e9f1da9d96964ded4fc394a0e74ed2a4788054e60876eb",
+    "width": 110,
+    "height": 114,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/610_A.jpg",
+      "start": 14043613,
+      "length": 1808,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1095_A",
+    "sample_index": "1095",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Descriptive Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1095,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1095_A.jpg",
+    "sha256": "8ac5a6b92158bf14d386a078139ba6c07467a9d1b0d83c7f4210a7a3e754fd5e",
+    "width": 104,
+    "height": 99,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1095_A.jpg",
+      "start": 918007,
+      "length": 1466,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid sloping line.",
+    "left_evidence": "The rising line crossing both axes, with its vertical intercept below O.",
+    "right_evidence": "The sloping side joining the lower-left and upper-right triangle corners.",
+    "left_meaning": "A sloping straight graph encoding a constant rate of change of output with input.",
+    "right_meaning": "A sloping outer side of a finite geometric figure.",
+    "same_meaning": false,
+    "reason": "The straight trace crosses coordinate axes to give a relationship between variables. The finite side joins vertices of a closed geometric figure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A solid sloping line.",
+    "mathematical_meanings": "Left image: A sloping straight graph encoding a constant rate of change of output with input. Right image: A sloping outer side of a finite geometric figure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The straight trace crosses coordinate axes to give a relationship between variables. The finite side joins vertices of a closed geometric figure."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0958",
+    "condition": "condition/graphical_roles/AVP0958"
+  }
+}

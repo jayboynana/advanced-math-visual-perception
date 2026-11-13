@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0535",
+  "authoring_id": "V04NR035",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_vs_length_m",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1889_2",
+    "sample_index": "1889_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1889,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "High",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_4379ad893b2f21a86d58g_0078_2.jpg",
+    "sha256": "7b33f90cddbc7144934478dcc6214fffd3063fffd46085c28ad8993e29079b8e",
+    "width": 631,
+    "height": 334,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0535/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "628_2",
+    "sample_index": "628_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 628,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch8-2024_06_14_abd5efc71c86223e46b3g_0004_2.jpg",
+    "sha256": "25306f3721051513815e4a2df50e04987f1261da620641fc8cd8718a4dcff375",
+    "width": 335,
+    "height": 362,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0535/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 150° and 150 m.",
+    "left_evidence": "The 150° beside the larger marked angle at A.",
+    "right_evidence": "The 150 m beside the central vertical arrow from the baseline up to CD.",
+    "left_meaning": "The indicated angle at A measures 150 degrees.",
+    "right_meaning": "The vertical distance from the baseline to chord CD is 150 meters.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 150° and 150 m.",
+    "mathematical_meanings": "Left image: The indicated angle at A measures 150 degrees. Right image: The vertical distance from the baseline to chord CD is 150 meters.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0535",
+    "condition": "condition/numeric_representation/AVP0535"
+  }
+}

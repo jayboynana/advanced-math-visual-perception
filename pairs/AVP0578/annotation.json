@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0578",
+  "authoring_id": "V04NR078",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "379",
+    "sample_index": "1894",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_379.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0578/left.png",
+    "width": 386,
+    "height": 166,
+    "sha256": "e0f7cec9a4305dc73caac9b7f2f3fead953e6f058704be317f6099242884a5d4"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "190",
+    "sample_index": "190",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image190.png",
+    "sha256": "845271d53dfdbd4a76fd926b2e0fdc314effe02f93c32ca8cbb4d07c09f6d648",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0578/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 8 in both images.",
+    "left_evidence": "The 8 beside the right sloping edge of the compound outline.",
+    "right_evidence": "The 8 in D = 8 on the left part of the horizontal diameter line.",
+    "left_meaning": "The right sloping side has length value 8.",
+    "right_meaning": "The displayed diameter D has length value 8.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 8."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+    "mathematical_meanings": "Left image: The right sloping side has length value 8. Right image: The displayed diameter D has length value 8.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 8."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0578",
+    "condition": "condition/numeric_representation/AVP0578"
+  }
+}

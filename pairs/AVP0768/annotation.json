@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0768",
+  "authoring_id": "V04SR018",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "207",
+    "sample_index": "207",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image207.png",
+    "sha256": "99ebfe42a767204a4b29b8aa6e41b12aa49efa68de670ad740d8fd005abf42d7",
+    "width": 356,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0768/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "586_1",
+    "sample_index": "586_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 586,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "High",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch5-2024_06_14_50e1bab738255386ff18g_0095_1.jpg",
+    "sha256": "ef77a13701ca9469aba84923a17eb23ccddf915f0dbe7567aa7905a3c7a6a537",
+    "width": 302,
+    "height": 211,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0768/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter C",
+    "left_evidence": "C next to the lower-left vertex with the 44° angle",
+    "right_evidence": "C at the triangle apex on the dashed line EF",
+    "left_meaning": "The symbol \"C\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"C\" names a specific geometric point at the indicated location.",
+    "same_meaning": true,
+    "reason": "The left occurrence is C next to the lower-left vertex with the 44° angle. The right occurrence is C at the triangle apex on the dashed line EF. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter C",
+    "mathematical_meanings": "Left image: The symbol \"C\" names a specific geometric point at the indicated location. Right image: The symbol \"C\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is C next to the lower-left vertex with the 44° angle. The right occurrence is C at the triangle apex on the dashed line EF. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0768",
+    "condition": "condition/symbolic_roles/AVP0768"
+  }
+}

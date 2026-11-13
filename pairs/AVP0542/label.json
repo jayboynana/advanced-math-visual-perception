@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 80 and 80 m.",
+  "mathematical_meanings": "Left image: Player 2's plotted performance score at G5 is 80. Right image: The total horizontal width at the arch base is 80 meters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of score, while the right context gives it the role of length with a specified unit."
+}

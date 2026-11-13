@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The sloping segment meets the horizontal axis at x-coordinate 2. Right image: The tick marks y-coordinate 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate."
+}

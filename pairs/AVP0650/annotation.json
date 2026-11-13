@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0650",
+  "authoring_id": "V04GM025",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "179",
+    "sample_index": "179",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_179",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "179-1.png",
+    "sha256": "364982b8409210b438c224cb4d12e9154b0408d289abd7a8ed6f03f773b86510",
+    "width": 442,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0650/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "530",
+    "sample_index": "2649",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_530.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0650/right.png",
+    "width": 397,
+    "height": 404,
+    "sha256": "ac12d4c4bd8d53c82fa7760943c76ce042f6858e5e4c1a6705d978871ae0fa4a"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The tilted square between the two oblique segments where they meet the base.",
+    "right_evidence": "The light-gray grid cell just to the right of the y-axis and below the x-axis.",
+    "left_meaning": "The two oblique segments meet at a right angle at their common base point.",
+    "right_meaning": "It is a cell of the coordinate grid used to read locations on the wave plot.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a cell of the coordinate grid used to read locations on the wave plot."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: The two oblique segments meet at a right angle at their common base point. Right image: It is a cell of the coordinate grid used to read locations on the wave plot.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a cell of the coordinate grid used to read locations on the wave plot."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0650",
+    "condition": "condition/geometric_markers/AVP0650"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: The symbol \"x\" denotes a length or a variable in the indicated length expression. Right image: The symbol \"x\" denotes a length or a variable in the indicated length expression.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is x under the left part of the triangle base. The right occurrence is x in the expression x + 2 under the green rectangle. The placement in each image shows that the symbol denotes a length or a variable in the indicated length expression."
+}

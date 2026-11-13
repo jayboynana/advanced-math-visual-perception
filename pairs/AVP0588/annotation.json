@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0588",
+  "authoring_id": "V04NR088",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_index",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1015_1",
+    "sample_index": "1015_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 1015,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_fd61d246744e8785fd79g_0043_1.jpg",
+    "sha256": "e691f44d118e0ec69e024163b3998f590e66d501127449f5ed9ec31f3a4ddda3",
+    "width": 260,
+    "height": 138,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0588/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "761_1",
+    "sample_index": "761_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 761,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch30-2024_06_17_94cae917628bb2f1b9fbg_0047_1.jpg",
+    "sha256": "1ccff6e727a0d282957c58a39237f4bc36bc85fa994d17dcae858925de3822f5",
+    "width": 146,
+    "height": 180,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0588/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The standalone 2 above the arc extending from the slanted ray toward the rightward horizontal ray.",
+    "right_evidence": "The standalone 2 above the arc at the lower intersection.",
+    "left_meaning": "The numeral 2 identifies the right-hand angle region.",
+    "right_meaning": "The numeral 2 identifies the selected lower-intersection angle.",
+    "same_meaning": true,
+    "reason": "The numeral 2 appears next to an angle arc in both diagrams and identifies the marked angle region in each."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The numeral 2 identifies the right-hand angle region. Right image: The numeral 2 identifies the selected lower-intersection angle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The numeral 2 appears next to an angle arc in both diagrams and identifies the marked angle region in each."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0588",
+    "condition": "condition/numeric_representation/AVP0588"
+  }
+}

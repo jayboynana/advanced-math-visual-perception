@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0595",
+  "authoring_id": "V04NR095",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_exponent",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "87",
+    "sample_index": "87",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image87.png",
+    "sha256": "13f15dd21b8e6c93063ba920b69ade0146aeb43e6269c20e442fbbe4a6164f65",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0595/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "499",
+    "sample_index": "499",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image499.png",
+    "sha256": "0bcdf491496cf0b48981a89ea4418e3a131da3abcc66bfba2b0d40021b06062f",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0595/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 immediately following the caret on x in the first formula.",
+    "right_evidence": "The 2 after the caret on a in the equation a^2 + c = ?.",
+    "left_meaning": "The first branch formula uses the square of x in its quadratic term.",
+    "right_meaning": "The expression raises a to the second power.",
+    "same_meaning": true,
+    "reason": "The raised numeral or caret gives the power to which the preceding variable is raised. Both powers are 2."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The first branch formula uses the square of x in its quadratic term. Right image: The expression raises a to the second power.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The raised numeral or caret gives the power to which the preceding variable is raised. Both powers are 2."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0595",
+    "condition": "condition/numeric_representation/AVP0595"
+  }
+}

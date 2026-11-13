@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0943",
+  "authoring_id": "V04GR068",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "function_trace_vs_geometric_boundary",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1529_A",
+    "sample_index": "1529",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1529,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1529_A.jpg",
+    "sha256": "d0acec5b2e1c2eec7d4a10abd725cc68490e8f1deb22610408c7958ed7d87c2d",
+    "width": 193,
+    "height": 202,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1529_A.jpg",
+      "start": 6013584,
+      "length": 5006,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "36_A",
+    "sample_index": "36",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 36,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/36_A.jpg",
+    "sha256": "4ad4f0102e42b3f79789a894feab983363fe819dd16bac70116ae19d682731fd",
+    "width": 189,
+    "height": 199,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/36_A.jpg",
+      "start": 11654860,
+      "length": 2896,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth curved stroke.",
+    "left_evidence": "The curved outer edge of the upper-left blade.",
+    "right_evidence": "The smooth curve with a trough left of the vertical axis and a peak to the right.",
+    "left_meaning": "A curved boundary of a finite geometric figure.",
+    "right_meaning": "A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "same_meaning": false,
+    "reason": "The plotted trace gives outputs along a horizontal scale. The curved boundary encloses or delimits a finite geometric figure, as shown by the surrounding construction."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth curved stroke.",
+    "mathematical_meanings": "Left image: A curved boundary of a finite geometric figure. Right image: A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The plotted trace gives outputs along a horizontal scale. The curved boundary encloses or delimits a finite geometric figure, as shown by the surrounding construction."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0943",
+    "condition": "condition/graphical_roles/AVP0943"
+  }
+}

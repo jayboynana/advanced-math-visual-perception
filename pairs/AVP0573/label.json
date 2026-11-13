@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 7 in both images.",
+  "mathematical_meanings": "Left image: The bottom side of the right square has length value 7. Right image: The height of the pyramid has length value 7.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 7."
+}

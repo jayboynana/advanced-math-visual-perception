@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0683",
+  "authoring_id": "V04GM058",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dimension_arrow_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "123",
+    "sample_index": "123",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Circles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_123",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "123-1.png",
+    "sha256": "583ce7168ce172e9b046db01f127e53e7eac7dcbaa55b449e26637cbf4ee1cfa",
+    "width": 908,
+    "height": 592,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0683/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "94",
+    "sample_index": "94",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Rotation",
+    "source_metadata": {
+      "upstream_group_id": "2steps_94",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "94-1.png",
+    "sha256": "4ed2a5900502db2563aa7b1d3f8e46b6ed2964abf50571e5a3ba9ca669f8c9c1",
+    "width": 296,
+    "height": 302,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0683/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrow with a head at each end of a measured span.",
+    "left_evidence": "The horizontal double-ended arrow labeled 12 cm below the two overlapping circles.",
+    "right_evidence": "The horizontal dimension arrow labeled r = 4 dm to the left of O.",
+    "left_meaning": "It measures the span from A to B.",
+    "right_meaning": "It measures the outer radius from O to the outer boundary of the region.",
+    "same_meaning": true,
+    "reason": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrow with a head at each end of a measured span.",
+    "mathematical_meanings": "Left image: It measures the span from A to B. Right image: It measures the outer radius from O to the outer boundary of the region.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0683",
+    "condition": "condition/geometric_markers/AVP0683"
+  }
+}

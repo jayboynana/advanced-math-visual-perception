@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0518",
+  "authoring_id": "V04NR018",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length_m",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "36",
+    "sample_index": "36",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image36.png",
+    "sha256": "46f48fdd3dc6a2905b2d7a4dafadf6c0a831714c3d2f81dfc0838e74a7920a94",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0518/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "17",
+    "sample_index": "17",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "elementary school"
+    },
+    "original_relative_path": "image/image17.png",
+    "sha256": "df9e10c368e1da78081cb7619e5c5d090eb5011a15fa5ab6ec5f2fbce97cedb8",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0518/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 8 ft in both images.",
+    "left_evidence": "The 8ft below the front bottom edge of the pale blue rectangular prism.",
+    "right_evidence": "The 8ft below the bottom side of the pale blue square.",
+    "left_meaning": "The front bottom edge measures eight feet.",
+    "right_meaning": "The square's bottom side measures eight feet.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 8 ft."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 8 ft in both images.",
+    "mathematical_meanings": "Left image: The front bottom edge measures eight feet. Right image: The square's bottom side measures eight feet.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 8 ft."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0518",
+    "condition": "condition/numeric_representation/AVP0518"
+  }
+}

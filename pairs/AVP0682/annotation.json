@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0682",
+  "authoring_id": "V04GM057",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dimension_arrow_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1542",
+    "sample_index": "1542",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_132",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "132-3.png",
+    "sha256": "79776ef6fc8a376b80ed8d9ee8d66ff2354e8318ba759a5ff393225f040214f5",
+    "width": 273,
+    "height": 224,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0682/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "119",
+    "sample_index": "119",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Circles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_119",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "119-1.png",
+    "sha256": "a0aa7f5d108889ef62fe7411c90fc82a79222cec1233ff9f03c749a1ebf8c044",
+    "width": 284,
+    "height": 168,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0682/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrow with a head at each end of a measured span.",
+    "left_evidence": "The top double-ended arrow labeled 3 cm above the diamond.",
+    "right_evidence": "The horizontal double-ended arrow labeled 40 m beneath the shaded semicircle.",
+    "left_meaning": "It measures the horizontal span from B to D.",
+    "right_meaning": "It measures the diameter of the inner semicircle.",
+    "same_meaning": true,
+    "reason": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrow with a head at each end of a measured span.",
+    "mathematical_meanings": "Left image: It measures the horizontal span from B to D. Right image: It measures the diameter of the inner semicircle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0682",
+    "condition": "condition/geometric_markers/AVP0682"
+  }
+}

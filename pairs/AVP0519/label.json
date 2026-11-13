@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 12/5 and 2.4.",
+  "mathematical_meanings": "Left image: The vertical coordinate of the right segment endpoint is 12/5. Right image: The selected orange point has y-coordinate 2.4.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The fraction 12/5 is exactly 2.4. Each expression gives the vertical coordinate of a marked point."
+}

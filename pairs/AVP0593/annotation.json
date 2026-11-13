@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0593",
+  "authoring_id": "V04NR093",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_x_coordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "615_1",
+    "sample_index": "615_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 615,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch7-2024_06_14_d4fdecbc0b558904fe1ag_0014_1.jpg",
+    "sha256": "06531ee9cc478ee68e1ea8977ee19733abbf2cda9746d96974c763b526a2e155",
+    "width": 308,
+    "height": 308,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0593/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "109",
+    "sample_index": "109",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image109.png",
+    "sha256": "2d10e7bf90980e84cdc8032c8600eb2a46b3dce9316167c61d48d8f55fb6790a",
+    "width": 533,
+    "height": 407,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0593/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −1 in both images.",
+    "left_evidence": "The −1 beneath the negative tick on the horizontal axis to the left of the origin.",
+    "right_evidence": "The −1 beside the yellow point on the horizontal axis.",
+    "left_meaning": "The selected horizontal-axis tick marks x-coordinate negative one.",
+    "right_meaning": "The marked intercept of the green line has x-coordinate negative one.",
+    "same_meaning": true,
+    "reason": "Both cues identify the same horizontal coordinate value, −1. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation −1 in both images.",
+    "mathematical_meanings": "Left image: The selected horizontal-axis tick marks x-coordinate negative one. Right image: The marked intercept of the green line has x-coordinate negative one.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both cues identify the same horizontal coordinate value, −1. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0593",
+    "condition": "condition/numeric_representation/AVP0593"
+  }
+}

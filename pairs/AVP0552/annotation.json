@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0552",
+  "authoring_id": "V04NR052",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "exponent_vs_angle_index",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "86",
+    "sample_index": "86",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image86.png",
+    "sha256": "05b8883ab0bdaeb2fb83bddb8e251e5ec174758c5aed1061c8f510e51bba8479",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0552/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1012_1",
+    "sample_index": "1012_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 1012,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_fd61d246744e8785fd79g_0014_1.jpg",
+    "sha256": "db6a1afdeea440a26af7564bf36bc7820efcec237cfe2e8496af840658940b98",
+    "width": 146,
+    "height": 200,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0552/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The 2 immediately following the caret in the upper formula y = −x^2.",
+    "right_evidence": "The standalone 2 beneath the marked angle at the crossing of the diagonal lines.",
+    "left_meaning": "The upper branch formula raises x to the second power.",
+    "right_meaning": "The numeral 2 identifies the lower angle region.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of exponent, while the right context gives it the role of identifier of a marked angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The upper branch formula raises x to the second power. Right image: The numeral 2 identifies the lower angle region.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of exponent, while the right context gives it the role of identifier of a marked angle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0552",
+    "condition": "condition/numeric_representation/AVP0552"
+  }
+}

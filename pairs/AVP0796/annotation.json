@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0796",
+  "authoring_id": "V04SR046",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_input",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "950_1",
+    "sample_index": "950_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 950,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_21a6ea375ed11b43aa92g_0008_1.jpg",
+    "sha256": "4be0ced70756c89b9f209e5f75a60710668f1084ad1153461008abcde9233b2e",
+    "width": 371,
+    "height": 288,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0796/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "346",
+    "sample_index": "346",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image346.png",
+    "sha256": "8532b17eafd0cf1d66a94256cfcb57c9815bbb7b28d909b830c128e4dba24904",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0796/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x inside the term kx of the displayed straight-line equation",
+    "right_evidence": "x inside the cosine argument over the plotted green curve",
+    "left_meaning": "The symbol \"x\" denotes the independent input to the function.",
+    "right_meaning": "The symbol \"x\" denotes the independent input to the function.",
+    "same_meaning": true,
+    "reason": "The left occurrence is x inside the term kx of the displayed straight-line equation. The right occurrence is x inside the cosine argument over the plotted green curve. The placement in each image shows that the symbol denotes the independent input to the function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes the independent input to the function.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is x inside the term kx of the displayed straight-line equation. The right occurrence is x inside the cosine argument over the plotted green curve. The placement in each image shows that the symbol denotes the independent input to the function."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0796",
+    "condition": "condition/symbolic_roles/AVP0796"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 5 and 5 ft.",
+  "mathematical_meanings": "Left image: The two end positions shown by the graph have vertical-coordinate value 5. Right image: The left vertical edge measures five feet.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of length with a specified unit."
+}

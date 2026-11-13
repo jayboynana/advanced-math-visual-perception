@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0554",
+  "authoring_id": "V04NR054",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "x_coordinate_vs_outcome_label",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "318",
+    "sample_index": "318",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image318.png",
+    "sha256": "1d631f6b08caa309863323602e840313431a69a9b4600805de380980f40c5f05",
+    "width": 1920,
+    "height": 1440,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0554/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "510_1",
+    "sample_index": "510_1",
+    "problem_version": "original",
+    "source_subject": "Statistics",
+    "source_metadata": {
+      "problem_id": 510,
+      "subject": "Statistics",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "statistical_chart",
+    "original_relative_path": "images/batch32-2024_06_14_1c0b16b6a4661c2e717dg_0005_1.jpg",
+    "sha256": "e6b3996d96691d41d500bfc205ddd664bca537092715134549348a3dd2658d1a",
+    "width": 348,
+    "height": 343,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0554/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3 in both images.",
+    "left_evidence": "The initial 3 in the blue point label (3, 10, 7).",
+    "right_evidence": "The 3 printed inside the right-hand sector toward which the spinner arrow points.",
+    "left_meaning": "The blue point's first coordinate is 3.",
+    "right_meaning": "The numeral 3 is the outcome label of that sector on the spinner.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of identifier of a spinner outcome."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+    "mathematical_meanings": "Left image: The blue point's first coordinate is 3. Right image: The numeral 3 is the outcome label of that sector on the spinner.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of identifier of a spinner outcome."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0554",
+    "condition": "condition/numeric_representation/AVP0554"
+  }
+}

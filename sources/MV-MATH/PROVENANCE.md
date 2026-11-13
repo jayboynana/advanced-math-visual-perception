@@ -1,0 +1,7 @@
+# MV-MATH source provenance
+
+The [official dataset release](https://huggingface.co/datasets/PeijieWang/MV-MATH/tree/b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674) was acquired at revision `b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674` on 2026-11-13. The [official repository](https://github.com/eternal8080/MV-MATH) and the [CVPR 2025 paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MV-MATH_Evaluating_Multimodal_Math_Reasoning_in_Multi-Visual_Contexts_CVPR_2025_paper.html) identify the dataset and document its construction. The Hugging Face dataset card declares MIT.
+
+The archive and problem metadata are retained as `images.zip` and `MV-MATH.json`. `catalog.json` identifies each of the 6,061 image occurrences across the 2,009 released problems by `<problem_id>_<one-based image index>`. It records the original archive member, source problem ID, image position, subject, release revision, dimensions, and SHA-256. A file shared by multiple problems may have multiple occurrence IDs. The catalog calls the unpartitioned JSON release `official_json` / `benchmark`.
+
+Each model input image is the exact byte payload of its original archive member. Local filenames use the occurrence ID and the actual image encoding. `acquisition_hashes.json` records release file hashes. Contact sheets are browsing aids. The pair labels interpret individually visible cues, including when an upstream question used several images to ask about a separate concept.

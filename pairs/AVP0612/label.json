@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+  "mathematical_meanings": "Left image: The indicated vertical-axis intercept has y-coordinate 4. Right image: The rectangle's short side has length value 4.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of geometric length."
+}

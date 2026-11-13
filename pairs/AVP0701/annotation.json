@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0701",
+  "authoring_id": "V04GM076",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_dashes_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1087",
+    "sample_index": "1087",
+    "problem_version": "3steps_1",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties of Cones",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_7",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "7-1.png",
+    "sha256": "ebd9dc9258582c5f4c40d15cf2a610a3938e56c846516304b77f0bb3b8c8eb48",
+    "width": 298,
+    "height": 205,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0701/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1422",
+    "sample_index": "1422",
+    "problem_version": "3steps_3",
+    "image_type": "solid_geometry",
+    "source_subject": "Surface Area of Cylinders",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_12",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "12-3.png",
+    "sha256": "5f1a256ae0180fb6dd7508b9774546d4de65ba1af07d3cbeabfa6cb266396458",
+    "width": 264,
+    "height": 208,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0701/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Broken strokes along the rear portion of a solid boundary.",
+    "left_evidence": "The black dashed arc behind the cone base, just above the solid front rim.",
+    "right_evidence": "The dashed back half of the ellipse at the shaded cylinder base.",
+    "left_meaning": "It represents the hidden rear part of the circular base edge.",
+    "right_meaning": "It represents the rear base edge concealed by the cylinder wall.",
+    "same_meaning": true,
+    "reason": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Broken strokes along the rear portion of a solid boundary.",
+    "mathematical_meanings": "Left image: It represents the hidden rear part of the circular base edge. Right image: It represents the rear base edge concealed by the cylinder wall.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0701",
+    "condition": "condition/geometric_markers/AVP0701"
+  }
+}

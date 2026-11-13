@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0615",
+  "authoring_id": "V04NR115",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "y_coordinate_vs_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1999_1",
+    "sample_index": "1999_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1999,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "multi-step",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch6-2024_06_14_54c8b3c3e1f0939737abg_0056_1.jpg",
+    "sha256": "6a5490c5c342bbcd0836472bf703d8890e3c657e6d9f83ccbe8cfc25b2760e92",
+    "width": 374,
+    "height": 400,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0615/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "113",
+    "sample_index": "113",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image113.png",
+    "sha256": "057a64b39e4a6c22789771a11b777ab9d7478fb4076f62ba4a6219c317179a67",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0615/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4 in both images.",
+    "left_evidence": "The 4 beside the top labeled vertical-axis tick where the line segment begins.",
+    "right_evidence": "The 4 in r = 4 near the center of the annulus.",
+    "left_meaning": "The sloping segment meets the vertical axis at y-coordinate 4.",
+    "right_meaning": "The inner circle radius has length value 4.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of geometric length."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 4 in both images.",
+    "mathematical_meanings": "Left image: The sloping segment meets the vertical axis at y-coordinate 4. Right image: The inner circle radius has length value 4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of geometric length."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0615",
+    "condition": "condition/numeric_representation/AVP0615"
+  }
+}

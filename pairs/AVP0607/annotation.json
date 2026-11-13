@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0607",
+  "authoring_id": "V04NR107",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "x_coordinate_vs_length_m",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "955_1",
+    "sample_index": "955_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 955,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_ed8d337c98b0b4f63d74g_0046_1.jpg",
+    "sha256": "91695acf018aed53b5dcc06b3180d18b0c76bcda5137b1b7cc0b7dfd74ec9b99",
+    "width": 257,
+    "height": 280,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0607/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "606",
+    "sample_index": "606",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 209,
+      "img_width": 335,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/606.jpg",
+    "sha256": "813f0d8ff3201893df99613f62f405bbed3945674e3077662e28e4f58ed98c4c",
+    "width": 335,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0607/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 2 and 2 cm.",
+    "left_evidence": "The 2 under the positive labeled tick on the horizontal axis.",
+    "right_evidence": "The 2 cm beside the left side of the purple rectangle.",
+    "left_meaning": "The tick marks x-coordinate 2.",
+    "right_meaning": "The indicated rectangle side measures two centimeters.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of length with a specified unit."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 2 and 2 cm.",
+    "mathematical_meanings": "Left image: The tick marks x-coordinate 2. Right image: The indicated rectangle side measures two centimeters.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of length with a specified unit."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0607",
+    "condition": "condition/numeric_representation/AVP0607"
+  }
+}

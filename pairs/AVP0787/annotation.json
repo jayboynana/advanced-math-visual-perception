@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0787",
+  "authoring_id": "V04SR037",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_center",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "81",
+    "sample_index": "81",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image81.png",
+    "sha256": "adbfff3d2a82ffd4ad1243618b4e9db94e100ee0966d55814f42f2ba6ad5002e",
+    "width": 911,
+    "height": 886,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0787/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "227_1",
+    "sample_index": "227_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 227,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_ce4c68b4e78efc164f53g_0017_1.jpg",
+    "sha256": "ccbdaccbe0b561325456e5a08687691f761a44c51bb77320e684081959c2eb49",
+    "width": 366,
+    "height": 303,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0787/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O beside the black dot on the diameter through A and B",
+    "right_evidence": "O beneath the dot at the center, above the horizontal chord",
+    "left_meaning": "The symbol \"O\" marks the center of the indicated circle.",
+    "right_meaning": "The symbol \"O\" marks the center of the indicated circle.",
+    "same_meaning": true,
+    "reason": "The left occurrence is O beside the black dot on the diameter through A and B. The right occurrence is O beneath the dot at the center, above the horizontal chord. The placement in each image shows that the symbol marks the center of the indicated circle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: The symbol \"O\" marks the center of the indicated circle. Right image: The symbol \"O\" marks the center of the indicated circle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is O beside the black dot on the diameter through A and B. The right occurrence is O beneath the dot at the center, above the horizontal chord. The placement in each image shows that the symbol marks the center of the indicated circle."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0787",
+    "condition": "condition/symbolic_roles/AVP0787"
+  }
+}

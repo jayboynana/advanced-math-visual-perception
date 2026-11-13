@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0905",
+  "authoring_id": "V04GR030",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hidden_rim_vs_function_trace",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "571",
+    "sample_index": "2854",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_571.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0905/left.png",
+    "width": 276,
+    "height": 281,
+    "sha256": "295b49adabe60d01c3ab452e58cf6b9f52e0e4a0362379c29b0cd1a1f3ffcd8f"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1531_A",
+    "sample_index": "1531",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1531,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1531_A.jpg",
+    "sha256": "33b42a094e2b94a25ad7ed28032ae918274c1b6bbb70c8335acca6ece3425bea",
+    "width": 56,
+    "height": 81,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1531_A.jpg",
+      "start": 6055895,
+      "length": 1513,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A curved dashed stroke.",
+    "left_evidence": "The magenta dashed downward-opening graph labeled g.",
+    "right_evidence": "The rear dashed arc of the bottom elliptical outline.",
+    "left_meaning": "A function trace drawn with dashes to distinguish it from a second trace.",
+    "right_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
+    "same_meaning": false,
+    "reason": "The ellipse uses dashes for the hidden part of a solid rim. The named graph uses a dashed stroke as the visible trace of a function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A curved dashed stroke.",
+    "mathematical_meanings": "Left image: A function trace drawn with dashes to distinguish it from a second trace. Right image: The occluded rear portion of a circular base rim in a solid drawing.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The ellipse uses dashes for the hidden part of a solid rim. The named graph uses a dashed stroke as the visible trace of a function."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0905",
+    "condition": "condition/graphical_roles/AVP0905"
+  }
+}

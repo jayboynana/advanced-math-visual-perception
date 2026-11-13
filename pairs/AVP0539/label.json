@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 65° and 65.",
+  "mathematical_meanings": "Left image: The marked angle between DH and DC measures 65 degrees. Right image: The table records Student C's mathematics score as 65.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of score."
+}

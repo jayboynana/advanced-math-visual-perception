@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter x",
+  "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes the independent input to the function.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is x in the sine argument in the first function definition above the graph. The right occurrence is x above the oval containing 1, 2, 3 and 4. The placement in each image shows that the symbol denotes the independent input to the function."
+}

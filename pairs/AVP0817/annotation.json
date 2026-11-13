@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0817",
+  "authoring_id": "V04SR067",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_versus_point",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "181",
+    "sample_index": "181",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image181.png",
+    "sha256": "69ca3e5c26bdd1aea4338af622943c9b05a93aa000fa307227a72d855a132371",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0817/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "45",
+    "sample_index": "45",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image45.png",
+    "sha256": "c53c766322369e2f3720af2fa6c1e24547e0ab05ad39b1042d54499b6741c0b4",
+    "width": 1214,
+    "height": 749,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0817/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A beside the lower-left arc at the top crossing",
+    "right_evidence": "A at the apex above segment AD",
+    "left_meaning": "The symbol \"A\" names the angle singled out by the arc.",
+    "right_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_meaning": false,
+    "reason": "The left occurrence is A beside the lower-left arc at the top crossing. The right occurrence is A at the apex above segment AD. The left placement shows that the symbol names the angle singled out by the arc, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names the angle singled out by the arc. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is A beside the lower-left arc at the top crossing. The right occurrence is A at the apex above segment AD. The left placement shows that the symbol names the angle singled out by the arc, while the right placement shows that it names a specific geometric point at the indicated location."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0817",
+    "condition": "condition/symbolic_roles/AVP0817"
+  }
+}

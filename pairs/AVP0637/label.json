@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square cell inside a regular coordinate grid.",
+  "mathematical_meanings": "Left image: It is a grid cell that gives coordinate positions a common spatial scale. Right image: It is a coordinate-grid cell used to locate the arctangent trace.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected square is one cell of the repeated grid on each side. Its edges align with neighboring grid lines and support reading or comparing coordinates."
+}

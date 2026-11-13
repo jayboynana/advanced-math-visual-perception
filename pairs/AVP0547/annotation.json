@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0547",
+  "authoring_id": "V04NR047",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "percentage_scale_vs_area",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "459",
+    "sample_index": "459",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image459.png",
+    "sha256": "3d1ca7f4a4c835f142250ce7d6d0df264be01889d3bd8e5246c9041b2c5fc38f",
+    "width": 683,
+    "height": 487,
+    "original_image_modified": false,
+    "image_type": "statistical_chart",
+    "image_path": "pairs/AVP0547/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "717",
+    "sample_index": "717",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 350,
+      "img_width": 314,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/717.jpg",
+    "sha256": "b2058bb82a7444e368d69d600360966e828025a779cd1f80fc87c22657c86cc3",
+    "width": 314,
+    "height": 350,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0547/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 100 in both images.",
+    "left_evidence": "The 100 at the top of the right-side Cumulative Percentage axis.",
+    "right_evidence": "The 100 in the label area = 100 pointing to the finite gray region.",
+    "left_meaning": "The selected tick marks cumulative percentage 100.",
+    "right_meaning": "The finite gray region is assigned area value 100.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of percentage scale value, while the right context gives it the role of area of a shaded region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 100 in both images.",
+    "mathematical_meanings": "Left image: The selected tick marks cumulative percentage 100. Right image: The finite gray region is assigned area value 100.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of percentage scale value, while the right context gives it the role of area of a shaded region."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0547",
+    "condition": "condition/numeric_representation/AVP0547"
+  }
+}

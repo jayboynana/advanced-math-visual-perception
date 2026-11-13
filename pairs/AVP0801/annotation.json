@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0801",
+  "authoring_id": "V04SR051",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_dependent",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "64",
+    "sample_index": "64",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image64.png",
+    "sha256": "3a14100689fc3139e95c2e82378ce178651afe838c73bd1c531fb93e3d988916",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0801/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "86",
+    "sample_index": "86",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image86.png",
+    "sha256": "05b8883ab0bdaeb2fb83bddb8e251e5ec174758c5aed1061c8f510e51bba8479",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0801/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter y",
+    "left_evidence": "y before the equals sign in the equation above the shaded plot",
+    "right_evidence": "y at the start of each expression defining the two plotted branches",
+    "left_meaning": "The symbol \"y\" denotes the dependent value defined by the displayed equation.",
+    "right_meaning": "The symbol \"y\" denotes the dependent value defined by the displayed equation.",
+    "same_meaning": true,
+    "reason": "The left occurrence is y before the equals sign in the equation above the shaded plot. The right occurrence is y at the start of each expression defining the two plotted branches. The placement in each image shows that the symbol denotes the dependent value defined by the displayed equation."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter y",
+    "mathematical_meanings": "Left image: The symbol \"y\" denotes the dependent value defined by the displayed equation. Right image: The symbol \"y\" denotes the dependent value defined by the displayed equation.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is y before the equals sign in the equation above the shaded plot. The right occurrence is y at the start of each expression defining the two plotted branches. The placement in each image shows that the symbol denotes the dependent value defined by the displayed equation."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0801",
+    "condition": "condition/symbolic_roles/AVP0801"
+  }
+}

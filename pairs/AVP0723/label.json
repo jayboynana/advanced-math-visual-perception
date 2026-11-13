@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A broken stroke used for a line or curve in the diagram.",
+  "mathematical_meanings": "Left image: It constructs the perpendicular separation between the parallel sides. Right image: It marks a fixed ordinate used to locate a graph point.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left stroke derives its role from the geometric construction. It constructs the perpendicular separation between the parallel sides. The right stroke is interpreted from the coordinate plot. It marks a fixed ordinate used to locate a graph point."
+}

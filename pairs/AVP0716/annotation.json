@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0716",
+  "authoring_id": "V04GM091",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_vs_construction_dashes",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "265",
+    "sample_index": "265",
+    "problem_version": "2steps_1",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties and Understanding of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "2steps_265",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "265-1.png",
+    "sha256": "0579e5f760e7b622a3b479499af353c1880335de6473dcac031f5e7cbc8accef",
+    "width": 123,
+    "height": 90,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0716/left.jpg"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "776",
+    "sample_index": "776",
+    "problem_version": "2steps_multi",
+    "image_type": "geometry",
+    "source_subject": "Folding Problems of Figures;Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_56",
+      "step_variant": "2steps_multi"
+    },
+    "original_relative_path": "56-multi.png",
+    "sha256": "69d94886d86763197c5541baba614ab5dc248f8d8054b51e14cf919b126482da",
+    "width": 100,
+    "height": 88,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0716/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight line made of separated strokes.",
+    "left_evidence": "The dashed rear bottom edge bordering the shaded base.",
+    "right_evidence": "The dashed segment from the left base vertex to the opposite sloping side.",
+    "left_meaning": "It represents an occluded lower edge of the box.",
+    "right_meaning": "It marks a crease for folding the triangle.",
+    "same_meaning": false,
+    "reason": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It marks a crease for folding the triangle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight line made of separated strokes.",
+    "mathematical_meanings": "Left image: It represents an occluded lower edge of the box. Right image: It marks a crease for folding the triangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It marks a crease for folding the triangle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0716",
+    "condition": "condition/geometric_markers/AVP0716"
+  }
+}

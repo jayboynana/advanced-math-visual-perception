@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0877",
+  "authoring_id": "V04GR002",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_input_projection",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "204",
+    "sample_index": "204",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image204.png",
+    "sha256": "4eafa85bc919447db896304fa81087694082aab3e114466d3ef89c020e734dff",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0877/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "181_A",
+    "sample_index": "181",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 181,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/181_A.jpg",
+    "sha256": "599c74a51614234877482a63662663d2aa75afeb39a9a7c6d307a16d0c73e016",
+    "width": 150,
+    "height": 135,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/181_A.jpg",
+      "start": 9635819,
+      "length": 3810,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed segment joining a plotted trace to the horizontal axis.",
+    "left_evidence": "The vertical dashed guide from the curve down to the position labeled b.",
+    "right_evidence": "The vertical dashed segment below the curve peak at x=1.",
+    "left_meaning": "A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "right_meaning": "A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "same_meaning": true,
+    "reason": "Each broken segment aligns a chosen position on a graph with its horizontal input. The guide is separate from the solid trace that carries the plotted values."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A vertical dashed segment joining a plotted trace to the horizontal axis.",
+    "mathematical_meanings": "Left image: A guide projecting a selected position on the graph down to its horizontal input coordinate. Right image: A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each broken segment aligns a chosen position on a graph with its horizontal input. The guide is separate from the solid trace that carries the plotted values."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0877",
+    "condition": "condition/graphical_roles/AVP0877"
+  }
+}

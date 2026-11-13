@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0642",
+  "authoring_id": "V04GM017",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1535",
+    "sample_index": "1535",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_125",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "125-3.png",
+    "sha256": "e31b6229f014d9c4960f3259c9f83263df3787ce5003e527c12e75681787ec61",
+    "width": 1326,
+    "height": 892,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0642/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "373",
+    "sample_index": "373",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Observing Figures",
+    "source_metadata": {
+      "upstream_group_id": "2steps_13",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "13-2.png",
+    "sha256": "5b5c11acfc03ac0fc38a8e42872b6920d1e74060dbb565de0fb174157d05217f",
+    "width": 1482,
+    "height": 340,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0642/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The square at C in the lower-right corner of the outer triangle.",
+    "right_evidence": "The square labeled A in the row of six equal boxes.",
+    "left_meaning": "CA is perpendicular to CB at C.",
+    "right_meaning": "It is one square component of the strip.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one square component of the strip."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: CA is perpendicular to CB at C. Right image: It is one square component of the strip.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one square component of the strip."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0642",
+    "condition": "condition/geometric_markers/AVP0642"
+  }
+}

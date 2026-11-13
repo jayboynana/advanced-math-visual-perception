@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0868",
+  "authoring_id": "V04SR118",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "endpoint_value_versus_frequency_parameter",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "204",
+    "sample_index": "204",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image204.png",
+    "sha256": "4eafa85bc919447db896304fa81087694082aab3e114466d3ef89c020e734dff",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0868/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "346",
+    "sample_index": "346",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image346.png",
+    "sha256": "8532b17eafd0cf1d66a94256cfcb57c9815bbb7b28d909b830c128e4dba24904",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0868/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter b",
+    "left_evidence": "b below the right dashed projection from the curve",
+    "right_evidence": "b multiplying x inside the cosine argument",
+    "left_meaning": "The symbol \"b\" denotes the horizontal coordinate of the indicated interval endpoint.",
+    "right_meaning": "The symbol \"b\" denotes the coefficient of the input in the trigonometric argument.",
+    "same_meaning": false,
+    "reason": "The left occurrence is b below the right dashed projection from the curve. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter b",
+    "mathematical_meanings": "Left image: The symbol \"b\" denotes the horizontal coordinate of the indicated interval endpoint. Right image: The symbol \"b\" denotes the coefficient of the input in the trigonometric argument.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is b below the right dashed projection from the curve. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0868",
+    "condition": "condition/symbolic_roles/AVP0868"
+  }
+}

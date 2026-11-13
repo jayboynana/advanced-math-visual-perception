@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0641",
+  "authoring_id": "V04GM016",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1532",
+    "sample_index": "1532",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Perimeter of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_122",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "122-3.png",
+    "sha256": "fc811e0ecd87c8c56dcb5a2f6a8667eed26262072ee3dd8d3ac470c2d314675b",
+    "width": 355,
+    "height": 216,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0641/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1374",
+    "sample_index": "1374",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Translation",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_129",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "129-2.png",
+    "sha256": "7e392fe34d6c82942ec2f84c4080f284294863e19228bc9c0269d3d0b8436902",
+    "width": 1072,
+    "height": 722,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0641/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The square at P between the horizontal top side and dashed PC.",
+    "right_evidence": "The outlined square containing the circled 1 near the upper-left of the diagram.",
+    "left_meaning": "PC is perpendicular to AD at P.",
+    "right_meaning": "It is a square component of the numbered planar arrangement.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a square component of the numbered planar arrangement."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: PC is perpendicular to AD at P. Right image: It is a square component of the numbered planar arrangement.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a square component of the numbered planar arrangement."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0641",
+    "condition": "condition/geometric_markers/AVP0641"
+  }
+}

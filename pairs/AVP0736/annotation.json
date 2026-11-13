@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0736",
+  "authoring_id": "V04GM111",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "linear_ruler_graduations_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1055",
+    "sample_index": "1055",
+    "problem_version": "2steps_multi",
+    "image_type": "geometry",
+    "source_subject": "Understanding Length (Using a Ruler);Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_335",
+      "step_variant": "2steps_multi"
+    },
+    "original_relative_path": "335-multi.png",
+    "sha256": "295fbfccdaabf09aa6731ea6e7ba5c2ff274cc0976fb29599c0a4382a82ad117",
+    "width": 634,
+    "height": 502,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0736/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1633",
+    "sample_index": "1633",
+    "problem_version": "3steps_multi",
+    "image_type": "geometry",
+    "source_subject": "Understanding Length (Using a Ruler);Sum of Interior Angles of Triangles;Calculation and Comparison of Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_58",
+      "step_variant": "3steps_multi"
+    },
+    "original_relative_path": "58-multi.png",
+    "sha256": "be399e5fad6d5065bcb57dc4841b20a4c3a56b316b2a61917c390a497c4317c2",
+    "width": 509,
+    "height": 197,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0736/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Short repeated graduations along a straight ruler edge.",
+    "left_evidence": "A short graduation along the horizontal ruler directly beneath the triangle base.",
+    "right_evidence": "A short graduation on the slanted ruler aligned with BA.",
+    "left_meaning": "It marks a position on the ruler’s linear centimeter scale.",
+    "right_meaning": "It marks a linear reading position on a physical length scale.",
+    "same_meaning": true,
+    "reason": "The evenly spaced short marks give linear reading positions along the ruler edge in both images. Ruler orientation does not alter the measured quantity."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Short repeated graduations along a straight ruler edge.",
+    "mathematical_meanings": "Left image: It marks a position on the ruler’s linear centimeter scale. Right image: It marks a linear reading position on a physical length scale.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The evenly spaced short marks give linear reading positions along the ruler edge in both images. Ruler orientation does not alter the measured quantity."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0736",
+    "condition": "condition/geometric_markers/AVP0736"
+  }
+}

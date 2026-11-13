@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation −2 in both images.",
+  "mathematical_meanings": "Left image: The left endpoint of the purple curve has x-coordinate negative two. Right image: The output of sin(x) is multiplied by −2 in f(x).",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of multiplicative coefficient."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter b",
+  "mathematical_meanings": "Left image: The symbol \"b\" denotes the constant term and vertical intercept of the straight line. Right image: The symbol \"b\" denotes the horizontal coordinate of the indicated interval endpoint.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is b as the standalone term in y = kx + b. The right occurrence is b under the right dashed projection to the axis. The left placement shows that the symbol denotes the constant term and vertical intercept of the straight line, while the right placement shows that it denotes the horizontal coordinate of the indicated interval endpoint."
+}

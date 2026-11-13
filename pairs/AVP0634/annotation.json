@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0634",
+  "authoring_id": "V04GM009",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "178",
+    "sample_index": "178",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_178",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "178-1.png",
+    "sha256": "58a70842818c673a58fc00bc0cd4332abfe644ffbe57a10b4d624d1ea7a28396",
+    "width": 321,
+    "height": 212,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0634/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1217",
+    "sample_index": "1217",
+    "problem_version": "3steps_1",
+    "image_type": "geometry",
+    "source_subject": "Translation",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_137",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "137-1.png",
+    "sha256": "61789026001787050f0083dabb5c750bb3ad111f26e0dedbb2ea8d8f1915f861",
+    "width": 376,
+    "height": 227,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0634/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square placed where two segments meet.",
+    "left_evidence": "The square just below AB and to the right of AC at A.",
+    "right_evidence": "The rotated square at F, between CF and the sloping side DE.",
+    "left_meaning": "AB is perpendicular to AC at A.",
+    "right_meaning": "CF is perpendicular to DE at F.",
+    "same_meaning": true,
+    "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square placed where two segments meet.",
+    "mathematical_meanings": "Left image: AB is perpendicular to AC at A. Right image: CF is perpendicular to DE at F.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0634",
+    "condition": "condition/geometric_markers/AVP0634"
+  }
+}

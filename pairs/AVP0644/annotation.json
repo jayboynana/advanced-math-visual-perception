@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0644",
+  "authoring_id": "V04GM019",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "365",
+    "sample_index": "365",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_5",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "5-2.png",
+    "sha256": "fd712fea648ff670d1f78fa70b1c3ae6e44297e58bc50521e16d34d5a3b17857",
+    "width": 192,
+    "height": 150,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0644/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "397",
+    "sample_index": "397",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Rotation",
+    "source_metadata": {
+      "upstream_group_id": "2steps_37",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "37-2.png",
+    "sha256": "379fd86d3d7e73c90909aa8bf15dde66ee9e10dfb7d0ad7e5cebc53765c88589",
+    "width": 389,
+    "height": 325,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0644/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The tilted square between AB and AC inside the circle.",
+    "right_evidence": "A dashed square lattice cell in the lower-left portion of the grid.",
+    "left_meaning": "AB and AC meet at a right angle at A.",
+    "right_meaning": "It is one cell of the coordinate grid used to position the rotated figures.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one cell of the coordinate grid used to position the rotated figures."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: AB and AC meet at a right angle at A. Right image: It is one cell of the coordinate grid used to position the rotated figures.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one cell of the coordinate grid used to position the rotated figures."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0644",
+    "condition": "condition/geometric_markers/AVP0644"
+  }
+}

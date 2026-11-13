@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0700",
+  "authoring_id": "V04GM075",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "operation_arrow_vs_parallel_marks",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "301",
+    "sample_index": "301",
+    "problem_version": "2steps_1",
+    "image_type": "solid_geometry",
+    "source_subject": "Volume and Capacity of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "2steps_301",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "301-1.png",
+    "sha256": "7b64db0cdcef05297285c72ee92c61c79650786d8d2cd733ef766a96c623b9e8",
+    "width": 1241,
+    "height": 243,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0700/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "417",
+    "sample_index": "2084",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_417.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0700/right.png",
+    "width": 798,
+    "height": 378,
+    "sha256": "0ed686bb3761ceb1ea4df8c032d40645127442a9fe09c5dc4c82a40ef791a816"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-pointing arrow or chevron along a horizontal direction.",
+    "left_evidence": "The right-pointing arrow between a stack and a side-by-side arrangement of slabs.",
+    "right_evidence": "The matching double chevrons across the upper and lower sides.",
+    "left_meaning": "It shows the geometric rearrangement of the same pieces.",
+    "right_meaning": "The paired chevrons mark the upper and lower sides as parallel.",
+    "same_meaning": false,
+    "reason": "The left arrow separates an initial construction from a changed arrangement. The repeated right chevrons sit within two geometric sides and encode their parallelism."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A right-pointing arrow or chevron along a horizontal direction.",
+    "mathematical_meanings": "Left image: It shows the geometric rearrangement of the same pieces. Right image: The paired chevrons mark the upper and lower sides as parallel.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arrow separates an initial construction from a changed arrangement. The repeated right chevrons sit within two geometric sides and encode their parallelism."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0700",
+    "condition": "condition/geometric_markers/AVP0700"
+  }
+}

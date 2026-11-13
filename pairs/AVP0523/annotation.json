@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0523",
+  "authoring_id": "V04NR023",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_x_coordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "363",
+    "sample_index": "363",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image363.png",
+    "sha256": "cd2f0519a0cbe55defc8bfdd520317d613085cd99fd2afc068dff19e2b845858",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0523/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "433",
+    "sample_index": "2164",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_433.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0523/right.png",
+    "width": 514,
+    "height": 294,
+    "sha256": "6d88e6d1823e2a53e9c7a7586cb1d9ee90bbdc70d0c5195b92f1654bec473bdd"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −6 in both images.",
+    "left_evidence": "The −6 below the dashed vertical guide from the blue point.",
+    "right_evidence": "The initial −6 in the lower-left rectangle vertex label (−6,−1).",
+    "left_meaning": "The selected blue point has x-coordinate negative six.",
+    "right_meaning": "The indicated rectangle vertex has x-coordinate negative six.",
+    "same_meaning": true,
+    "reason": "Both cues identify the same horizontal coordinate value, −6. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation −6 in both images.",
+    "mathematical_meanings": "Left image: The selected blue point has x-coordinate negative six. Right image: The indicated rectangle vertex has x-coordinate negative six.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both cues identify the same horizontal coordinate value, −6. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0523",
+    "condition": "condition/numeric_representation/AVP0523"
+  }
+}

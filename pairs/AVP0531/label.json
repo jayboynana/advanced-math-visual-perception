@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+  "mathematical_meanings": "Left image: The upper formula applies on the side of the input threshold 1 with x strictly less than it. Right image: The first branch uses the input threshold 1 as its excluded right boundary.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each occurrence is the value 1 in x < 1, which specifies the excluded right boundary for the selected branch."
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0705",
+  "authoring_id": "V04GM080",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_dashes_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "623",
+    "sample_index": "623",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Surface Area of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "2steps_263",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "263-2.png",
+    "sha256": "e7b35186a3e0967bc68908c7c54060cae29b2785de4f1c068fffc09f55348b04",
+    "width": 724,
+    "height": 222,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0705/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "265",
+    "sample_index": "265",
+    "problem_version": "2steps_1",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties and Understanding of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "2steps_265",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "265-1.png",
+    "sha256": "0579e5f760e7b622a3b479499af353c1880335de6473dcac031f5e7cbc8accef",
+    "width": 123,
+    "height": 90,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0705/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Broken strokes along the rear portion of a solid boundary.",
+    "left_evidence": "The dashed segment along the far side of the gray bottom face.",
+    "right_evidence": "The dashed rear bottom edge bordering the shaded base.",
+    "left_meaning": "It represents the hidden rear bottom edge of the cuboid.",
+    "right_meaning": "It represents an occluded lower edge of the box.",
+    "same_meaning": true,
+    "reason": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Broken strokes along the rear portion of a solid boundary.",
+    "mathematical_meanings": "Left image: It represents the hidden rear bottom edge of the cuboid. Right image: It represents an occluded lower edge of the box.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0705",
+    "condition": "condition/geometric_markers/AVP0705"
+  }
+}

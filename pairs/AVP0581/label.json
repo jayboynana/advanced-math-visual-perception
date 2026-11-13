@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The marked peak point has y-coordinate 2. Right image: Matrix A has entry 2 at row 1, column 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of matrix entry."
+}

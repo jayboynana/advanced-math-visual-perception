@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0857",
+  "authoring_id": "V04SR107",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "input_versus_system_unknown",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "118",
+    "sample_index": "118",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image118.png",
+    "sha256": "25127f14a6130b7bc6f13cf2d8304d1d594f92da67195f9436784b49db6c117a",
+    "width": 533,
+    "height": 423,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0857/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "493",
+    "sample_index": "493",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image493.png",
+    "sha256": "1208ad2e41ac0592ecdf81e69410968badc1efdb5343aec32e47041052a35d69",
+    "width": 400,
+    "height": 200,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0857/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x inside arctan(x) above the curve",
+    "right_evidence": "x in the first term of all three equations",
+    "left_meaning": "The symbol \"x\" denotes the independent input to the function.",
+    "right_meaning": "The symbol \"x\" denotes one of the unknown numbers constrained by the equations.",
+    "same_meaning": false,
+    "reason": "The left occurrence is x inside arctan(x) above the curve. The right occurrence is x in the first term of all three equations. The left placement shows that the symbol denotes the independent input to the function, while the right placement shows that it denotes one of the unknown numbers constrained by the equations."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes one of the unknown numbers constrained by the equations.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is x inside arctan(x) above the curve. The right occurrence is x in the first term of all three equations. The left placement shows that the symbol denotes the independent input to the function, while the right placement shows that it denotes one of the unknown numbers constrained by the equations."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0857",
+    "condition": "condition/symbolic_roles/AVP0857"
+  }
+}

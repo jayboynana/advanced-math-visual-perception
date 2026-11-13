@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter B",
+  "mathematical_meanings": "Left image: The symbol \"B\" names a specific geometric point at the indicated location. Right image: The symbol \"B\" names the indicated square region.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is B at the left endpoint of the triangle base. The right occurrence is B inside the smaller tilted square on the triangle's right side. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the indicated square region."
+}

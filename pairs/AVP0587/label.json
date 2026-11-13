@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+  "mathematical_meanings": "Left image: The dashed vertical guide selects x-coordinate 1. Right image: The left-hand marked zero of the curve has x-coordinate 1.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both cues identify the same horizontal coordinate value, 1. The evidence is the selected axis position or coordinate component in each image."
+}

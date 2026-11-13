@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0576",
+  "authoring_id": "V04NR076",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "333",
+    "sample_index": "333",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 149,
+      "img_width": 297,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/333.jpg",
+    "sha256": "524151cc378a4a8c07bbe7036630c6eb243b8a84ad5887895c65f995f64622e5",
+    "width": 297,
+    "height": 149,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0576/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "57",
+    "sample_index": "57",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image57.png",
+    "sha256": "15660a9ffc3def3e1ca3c729001ca61b4417949fbd061959109fe1df02a310cc",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0576/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 13 in both images.",
+    "left_evidence": "The 13 beside the hypotenuse of the right triangle.",
+    "right_evidence": "The 13 above the right portion of the top side of the rectangular tiling.",
+    "left_meaning": "The hypotenuse has length value 13.",
+    "right_meaning": "The upper-right rectangle's top edge has length value 13.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 13."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 13 in both images.",
+    "mathematical_meanings": "Left image: The hypotenuse has length value 13. Right image: The upper-right rectangle's top edge has length value 13.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 13."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0576",
+    "condition": "condition/numeric_representation/AVP0576"
+  }
+}

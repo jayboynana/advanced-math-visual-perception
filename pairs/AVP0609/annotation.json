@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0609",
+  "authoring_id": "V04NR109",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "matrix_entry_vs_y_coordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "475",
+    "sample_index": "475",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image475.png",
+    "sha256": "618a70c80b5155b9a6407545c9f04e2d163f00d04d72e46f94ff397cf8bad1dd",
+    "width": 624,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0609/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "767",
+    "sample_index": "767",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 429,
+      "img_width": 483,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/767.jpg",
+    "sha256": "23b04858f8b5e053ed85f1b22514ab1eefae59a613b4e7d48c43a8eb1959e0c5",
+    "width": 483,
+    "height": 429,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0609/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −4 in both images.",
+    "left_evidence": "The −4 in the top-left position of matrix A.",
+    "right_evidence": "The second component −4 in the blue point label (3,−4).",
+    "left_meaning": "Matrix A has entry negative four at row 1, column 1.",
+    "right_meaning": "The blue point on the circle has y-coordinate negative four.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of matrix entry, while the right context gives it the role of vertical coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation −4 in both images.",
+    "mathematical_meanings": "Left image: Matrix A has entry negative four at row 1, column 1. Right image: The blue point on the circle has y-coordinate negative four.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of matrix entry, while the right context gives it the role of vertical coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0609",
+    "condition": "condition/numeric_representation/AVP0609"
+  }
+}

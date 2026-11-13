@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter A",
+  "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names a specific geometric point at the indicated location.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is A at the top vertex of triangle ABC. The right occurrence is A beside the lower-left endpoint of the plotted line segment. The placement in each image shows that the symbol names a specific geometric point at the indicated location."
+}

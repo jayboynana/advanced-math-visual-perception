@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An unfilled circular outline.",
+  "mathematical_meanings": "Left image: An open point excluded from the displayed curve or branch. Right image: The actual circumference of a circle within a finite geometric construction.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The little outline at the graph boundary identifies one omitted coordinate pair. The larger circle is itself a geometric boundary made up of positions on a circumference."
+}

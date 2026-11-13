@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0572",
+  "authoring_id": "V04NR072",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "804",
+    "sample_index": "804",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 524,
+      "img_width": 493,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/804.jpg",
+    "sha256": "d7e316bdcba3cdc48f692d1fd9eb9230923e01dd82eea942ce8882428e86e3d8",
+    "width": 493,
+    "height": 524,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0572/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "129",
+    "sample_index": "129",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image129.png",
+    "sha256": "981d5a5c3e46508736a7a555471ea198870a9882ff7e3abff8e91430b6aebb58",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0572/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 8 in both images.",
+    "left_evidence": "The 8 beside the radius AB in the upper part of the circle.",
+    "right_evidence": "The 8 beside the front-left edge of the pyramid's base.",
+    "left_meaning": "Radius AB has length value 8.",
+    "right_meaning": "That pyramid base edge has length value 8.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 8."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 8 in both images.",
+    "mathematical_meanings": "Left image: Radius AB has length value 8. Right image: That pyramid base edge has length value 8.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 8."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0572",
+    "condition": "condition/numeric_representation/AVP0572"
+  }
+}

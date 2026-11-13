@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The numeral 2 identifies the selected angle region. Right image: The logarithm in the curve's equation has base 2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of logarithm base."
+}

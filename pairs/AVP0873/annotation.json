@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0873",
+  "authoring_id": "V04SR123",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "unknown_operator_versus_unknown_result",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "496",
+    "sample_index": "496",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image496.png",
+    "sha256": "a5c46c9e77bb6ff6c71a64bc607f1127887ad9ca6184231d88c836df6682e4c4",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0873/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "500",
+    "sample_index": "500",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "elementary school"
+    },
+    "original_relative_path": "image/image500.png",
+    "sha256": "807e406280551fea8ed620a25558aed27aae07542acd84ded6731de34cb2aed5",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0873/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The question mark (?)",
+    "left_evidence": "? after the equals sign on the line with (e - f) / g",
+    "right_evidence": "? between 6 and 2 on the left of the equals sign",
+    "left_meaning": "The symbol \"?\" stands for the missing numerical output or result.",
+    "right_meaning": "The symbol \"?\" stands for the arithmetic operation to insert between two operands.",
+    "same_meaning": false,
+    "reason": "The left occurrence is ? after the equals sign on the line with (e - f) / g. The right occurrence is ? between 6 and 2 on the left of the equals sign. The left placement shows that the symbol stands for the missing numerical output or result, while the right placement shows that it stands for the arithmetic operation to insert between two operands."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The question mark (?)",
+    "mathematical_meanings": "Left image: The symbol \"?\" stands for the missing numerical output or result. Right image: The symbol \"?\" stands for the arithmetic operation to insert between two operands.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is ? after the equals sign on the line with (e - f) / g. The right occurrence is ? between 6 and 2 on the left of the equals sign. The left placement shows that the symbol stands for the missing numerical output or result, while the right placement shows that it stands for the arithmetic operation to insert between two operands."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0873",
+    "condition": "condition/symbolic_roles/AVP0873"
+  }
+}

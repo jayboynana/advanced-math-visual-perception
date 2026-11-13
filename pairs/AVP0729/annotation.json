@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0729",
+  "authoring_id": "V04GM104",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "protractor_graduations_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "352",
+    "sample_index": "352",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Angles (Using a Protractor)",
+    "source_metadata": {
+      "upstream_group_id": "2steps_352",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "352-1.png",
+    "sha256": "8913ae10b40a9b6d4e29992d7962d8ab9124119ac0d4fc802a0c1d5aa0194b2e",
+    "width": 668,
+    "height": 324,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0729/left.jpg"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "356",
+    "sample_index": "356",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Angles (Using a Protractor)",
+    "source_metadata": {
+      "upstream_group_id": "2steps_356",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "356-1.png",
+    "sha256": "88d88d6761a349d990c0ae3bf679d415e58b95e7dd3ae7a86869c839359e48b7",
+    "width": 1356,
+    "height": 730,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0729/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Short ticks repeated along the curved rim of a protractor.",
+    "left_evidence": "A short radial graduation near the top of the gray protractor at D.",
+    "right_evidence": "A short radial tick near the upper edge of the protractor.",
+    "left_meaning": "It gives an angular reading position about D.",
+    "right_meaning": "It marks an angular reading position on the protractor.",
+    "same_meaning": true,
+    "reason": "Both sets of radial graduations divide an angular scale. Their positions on a protractor rim let the reader measure the direction of a ray relative to the baseline."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Short ticks repeated along the curved rim of a protractor.",
+    "mathematical_meanings": "Left image: It gives an angular reading position about D. Right image: It marks an angular reading position on the protractor.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both sets of radial graduations divide an angular scale. Their positions on a protractor rim let the reader measure the direction of a ray relative to the baseline."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0729",
+    "condition": "condition/geometric_markers/AVP0729"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0553",
+  "authoring_id": "V04NR053",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_index_vs_constant",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "221_1",
+    "sample_index": "221_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 221,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_b3eaff0bd129c384e98bg_0086_1.jpg",
+    "sha256": "dac76daa76232f620b42946ae0c19a25021293b4a636600a46625ec60a79f730",
+    "width": 280,
+    "height": 268,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0553/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "65",
+    "sample_index": "65",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image65.png",
+    "sha256": "6354f05ff0864451c6262bee18e87552f1a2b879d3301c700295ee30a75ed6b6",
+    "width": 484,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0553/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The standalone 2 inside the upper-right angle where two chords cross.",
+    "right_evidence": "The positive 2 added in x + 2 beneath the rectangle's bottom edge.",
+    "left_meaning": "The numeral 2 identifies the upper-right angle region at the chord crossing.",
+    "right_meaning": "The 2 is an additive constant in the bottom edge's length expression.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of additive constant."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The numeral 2 identifies the upper-right angle region at the chord crossing. Right image: The 2 is an additive constant in the bottom edge's length expression.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of additive constant."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0553",
+    "condition": "condition/numeric_representation/AVP0553"
+  }
+}

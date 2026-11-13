@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0548",
+  "authoring_id": "V04NR048",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "student_count_vs_score",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "428",
+    "sample_index": "428",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "elementary school"
+    },
+    "original_relative_path": "image/image428.png",
+    "sha256": "83352b0b5d56bd9198ccec3f58fde2e58ce7cede4183d6b2cb18d64718adb98c",
+    "width": 404,
+    "height": 427,
+    "original_image_modified": false,
+    "image_type": "statistical_chart",
+    "image_path": "pairs/AVP0548/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "426",
+    "sample_index": "426",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image426.png",
+    "sha256": "a02ac0d0eec0783198a28eac4d659f388a840fcaa92f42af98a5c049ecd748c6",
+    "width": 950,
+    "height": 270,
+    "original_image_modified": false,
+    "image_type": "table",
+    "image_path": "pairs/AVP0548/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 73 in both images.",
+    "left_evidence": "The 73 inside the green Grade 3 slice of the pie chart.",
+    "right_evidence": "The 73 in Student A's Science cell.",
+    "left_meaning": "The pie chart reports 73 students in Grade 3.",
+    "right_meaning": "The table records Student A's science score as 73.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of number of students, while the right context gives it the role of score."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 73 in both images.",
+    "mathematical_meanings": "Left image: The pie chart reports 73 students in Grade 3. Right image: The table records Student A's science score as 73.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of number of students, while the right context gives it the role of score."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0548",
+    "condition": "condition/numeric_representation/AVP0548"
+  }
+}

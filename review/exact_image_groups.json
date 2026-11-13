@@ -14,7 +14,8 @@
         "AVP0049",
         "AVP0059",
         "AVP0074",
-        "AVP0101"
+        "AVP0101",
+        "AVP0501"
       ]
     },
     {
@@ -65,7 +66,8 @@
         "AVP0028",
         "AVP0076",
         "AVP0088",
-        "AVP0444"
+        "AVP0444",
+        "AVP0887"
       ]
     },
     {
@@ -164,7 +166,8 @@
       "pair_ids": [
         "AVP0007",
         "AVP0090",
-        "AVP0419"
+        "AVP0419",
+        "AVP0549"
       ]
     },
     {
@@ -193,7 +196,11 @@
         "AVP0258",
         "AVP0282",
         "AVP0416",
-        "AVP0441"
+        "AVP0441",
+        "AVP0695",
+        "AVP0698",
+        "AVP0723",
+        "AVP0750"
       ]
     },
     {
@@ -203,7 +210,8 @@
       ],
       "pair_ids": [
         "AVP0009",
-        "AVP0016"
+        "AVP0016",
+        "AVP0519"
       ]
     },
     {
@@ -236,7 +244,8 @@
       "pair_ids": [
         "AVP0010",
         "AVP0337",
-        "AVP0451"
+        "AVP0451",
+        "AVP0905"
       ]
     },
     {
@@ -291,7 +300,9 @@
         "AVP0019",
         "AVP0184",
         "AVP0236",
-        "AVP0256"
+        "AVP0256",
+        "AVP0533",
+        "AVP0650"
       ]
     },
     {
@@ -350,7 +361,8 @@
       ],
       "pair_ids": [
         "AVP0017",
-        "AVP0022"
+        "AVP0022",
+        "AVP0599"
       ]
     },
     {
@@ -401,7 +413,9 @@
         "AVP0072",
         "AVP0343",
         "AVP0396",
-        "AVP0470"
+        "AVP0470",
+        "AVP0527",
+        "AVP0980"
       ]
     },
     {
@@ -412,7 +426,8 @@
       "pair_ids": [
         "AVP0023",
         "AVP0040",
-        "AVP0045"
+        "AVP0045",
+        "AVP0523"
       ]
     },
     {
@@ -446,7 +461,8 @@
       ],
       "pair_ids": [
         "AVP0027",
-        "AVP0037"
+        "AVP0037",
+        "AVP0608"
       ]
     },
     {
@@ -488,7 +504,9 @@
       "pair_ids": [
         "AVP0030",
         "AVP0044",
-        "AVP0077"
+        "AVP0077",
+        "AVP0511",
+        "AVP0513"
       ]
     },
     {
@@ -515,7 +533,8 @@
         "MathVerse:371"
       ],
       "pair_ids": [
-        "AVP0032"
+        "AVP0032",
+        "AVP0575"
       ]
     },
     {
@@ -577,7 +596,8 @@
       "pair_ids": [
         "AVP0036",
         "AVP0262",
-        "AVP0263"
+        "AVP0263",
+        "AVP0700"
       ]
     },
     {
@@ -605,7 +625,8 @@
         "AVP0233",
         "AVP0253",
         "AVP0467",
-        "AVP0499"
+        "AVP0499",
+        "AVP0694"
       ]
     },
     {
@@ -617,7 +638,9 @@
         "AVP0039",
         "AVP0232",
         "AVP0252",
-        "AVP0267"
+        "AVP0267",
+        "AVP0693",
+        "AVP0747"
       ]
     },
     {
@@ -683,7 +706,8 @@
         "AVP0240",
         "AVP0260",
         "AVP0279",
-        "AVP0446"
+        "AVP0446",
+        "AVP0721"
       ]
     },
     {
@@ -707,7 +731,9 @@
         "AVP0088",
         "AVP0280",
         "AVP0334",
-        "AVP0447"
+        "AVP0447",
+        "AVP0720",
+        "AVP0904"
       ]
     },
     {
@@ -721,7 +747,8 @@
         "AVP0070",
         "AVP0093",
         "AVP0266",
-        "AVP0478"
+        "AVP0478",
+        "AVP0696"
       ]
     },
     {
@@ -736,7 +763,9 @@
         "AVP0265",
         "AVP0350",
         "AVP0386",
-        "AVP0479"
+        "AVP0479",
+        "AVP0697",
+        "AVP0749"
       ]
     },
     {
@@ -748,7 +777,9 @@
         "AVP0049",
         "AVP0231",
         "AVP0251",
-        "AVP0403"
+        "AVP0403",
+        "AVP0692",
+        "AVP0912"
       ]
     },
     {
@@ -759,7 +790,8 @@
       "pair_ids": [
         "AVP0050",
         "AVP0237",
-        "AVP0257"
+        "AVP0257",
+        "AVP0748"
       ]
     },
     {
@@ -848,7 +880,8 @@
       ],
       "pair_ids": [
         "AVP0058",
-        "AVP0073"
+        "AVP0073",
+        "AVP0512"
       ]
     },
     {
@@ -859,7 +892,8 @@
       "pair_ids": [
         "AVP0059",
         "AVP0091",
-        "AVP0473"
+        "AVP0473",
+        "AVP0979"
       ]
     },
     {
@@ -932,7 +966,8 @@
       ],
       "pair_ids": [
         "AVP0070",
-        "AVP0386"
+        "AVP0386",
+        "AVP0578"
       ]
     },
     {
@@ -1012,7 +1047,8 @@
       "pair_ids": [
         "AVP0078",
         "AVP0080",
-        "AVP0477"
+        "AVP0477",
+        "AVP0984"
       ]
     },
     {
@@ -1031,7 +1067,8 @@
         "MathVerse:337"
       ],
       "pair_ids": [
-        "AVP0079"
+        "AVP0079",
+        "AVP0502"
       ]
     },
     {
@@ -1041,7 +1078,8 @@
       ],
       "pair_ids": [
         "AVP0079",
-        "AVP0432"
+        "AVP0432",
+        "AVP0928"
       ]
     },
     {
@@ -1052,7 +1090,8 @@
       "pair_ids": [
         "AVP0080",
         "AVP0094",
-        "AVP0476"
+        "AVP0476",
+        "AVP0985"
       ]
     },
     {
@@ -1063,7 +1102,8 @@
       "pair_ids": [
         "AVP0081",
         "AVP0431",
-        "AVP0438"
+        "AVP0438",
+        "AVP0927"
       ]
     },
     {
@@ -1084,7 +1124,8 @@
       "pair_ids": [
         "AVP0082",
         "AVP0092",
-        "AVP0401"
+        "AVP0401",
+        "AVP0911"
       ]
     },
     {
@@ -1094,7 +1135,8 @@
       ],
       "pair_ids": [
         "AVP0082",
-        "AVP0402"
+        "AVP0402",
+        "AVP0917"
       ]
     },
     {
@@ -1252,7 +1294,8 @@
         "AVP0105",
         "AVP0175",
         "AVP0444",
-        "AVP0453"
+        "AVP0453",
+        "AVP0888"
       ]
     },
     {
@@ -1263,7 +1306,8 @@
       "pair_ids": [
         "AVP0105",
         "AVP0176",
-        "AVP0445"
+        "AVP0445",
+        "AVP0889"
       ]
     },
     {
@@ -1274,7 +1318,8 @@
       "pair_ids": [
         "AVP0106",
         "AVP0179",
-        "AVP0478"
+        "AVP0478",
+        "AVP0505"
       ]
     },
     {
@@ -1347,7 +1392,8 @@
       "pair_ids": [
         "AVP0110",
         "AVP0328",
-        "AVP0362"
+        "AVP0362",
+        "AVP0508"
       ]
     },
     {
@@ -1475,7 +1521,9 @@
       "pair_ids": [
         "AVP0115",
         "AVP0117",
-        "AVP0490"
+        "AVP0490",
+        "AVP0563",
+        "AVP0567"
       ]
     },
     {
@@ -1484,7 +1532,8 @@
         "MathVista:713"
       ],
       "pair_ids": [
-        "AVP0116"
+        "AVP0116",
+        "AVP0597"
       ]
     },
     {
@@ -1534,7 +1583,8 @@
         "AVP0151",
         "AVP0161",
         "AVP0421",
-        "AVP0431"
+        "AVP0431",
+        "AVP0514"
       ]
     },
     {
@@ -1545,7 +1595,8 @@
       "pair_ids": [
         "AVP0120",
         "AVP0152",
-        "AVP0422"
+        "AVP0422",
+        "AVP0516"
       ]
     },
     {
@@ -1574,7 +1625,8 @@
       ],
       "pair_ids": [
         "AVP0122",
-        "AVP0166"
+        "AVP0166",
+        "AVP0606"
       ]
     },
     {
@@ -1585,7 +1637,9 @@
       "pair_ids": [
         "AVP0123",
         "AVP0192",
-        "AVP0316"
+        "AVP0316",
+        "AVP0576",
+        "AVP0577"
       ]
     },
     {
@@ -1627,7 +1681,8 @@
         "AVP0182",
         "AVP0199",
         "AVP0424",
-        "AVP0437"
+        "AVP0437",
+        "AVP0545"
       ]
     },
     {
@@ -1639,7 +1694,8 @@
         "AVP0126",
         "AVP0153",
         "AVP0422",
-        "AVP0434"
+        "AVP0434",
+        "AVP0607"
       ]
     },
     {
@@ -1658,7 +1714,8 @@
         "AVP0443",
         "AVP0473",
         "AVP0485",
-        "AVP0495"
+        "AVP0495",
+        "AVP0528"
       ]
     },
     {
@@ -1674,7 +1731,8 @@
         "AVP0383",
         "AVP0403",
         "AVP0406",
-        "AVP0408"
+        "AVP0408",
+        "AVP0910"
       ]
     },
     {
@@ -1693,7 +1751,10 @@
         "AVP0416",
         "AVP0462",
         "AVP0468",
-        "AVP0472"
+        "AVP0472",
+        "AVP0589",
+        "AVP0609",
+        "AVP0978"
       ]
     },
     {
@@ -1736,7 +1797,8 @@
         "AVP0377",
         "AVP0417",
         "AVP0470",
-        "AVP0498"
+        "AVP0498",
+        "AVP0551"
       ]
     },
     {
@@ -1835,7 +1897,8 @@
         "AVP0182",
         "AVP0194",
         "AVP0345",
-        "AVP0357"
+        "AVP0357",
+        "AVP0581"
       ]
     },
     {
@@ -1851,7 +1914,9 @@
         "AVP0369",
         "AVP0461",
         "AVP0467",
-        "AVP0471"
+        "AVP0471",
+        "AVP0594",
+        "AVP0977"
       ]
     },
     {
@@ -1934,7 +1999,8 @@
       "pair_ids": [
         "AVP0140",
         "AVP0190",
-        "AVP0428"
+        "AVP0428",
+        "AVP0547"
       ]
     },
     {
@@ -1964,7 +2030,8 @@
         "AVP0381",
         "AVP0439",
         "AVP0446",
-        "AVP0497"
+        "AVP0497",
+        "AVP0525"
       ]
     },
     {
@@ -1974,7 +2041,8 @@
       ],
       "pair_ids": [
         "AVP0141",
-        "AVP0481"
+        "AVP0481",
+        "AVP0526"
       ]
     },
     {
@@ -1985,7 +2053,8 @@
       "pair_ids": [
         "AVP0143",
         "AVP0191",
-        "AVP0404"
+        "AVP0404",
+        "AVP0913"
       ]
     },
     {
@@ -2019,7 +2088,8 @@
       "pair_ids": [
         "AVP0146",
         "AVP0426",
-        "AVP0436"
+        "AVP0436",
+        "AVP0933"
       ]
     },
     {
@@ -2108,7 +2178,8 @@
       ],
       "pair_ids": [
         "AVP0151",
-        "AVP0191"
+        "AVP0191",
+        "AVP0543"
       ]
     },
     {
@@ -2154,7 +2225,8 @@
         "AVP0330",
         "AVP0335",
         "AVP0457",
-        "AVP0463"
+        "AVP0463",
+        "AVP0562"
       ]
     },
     {
@@ -2245,7 +2317,8 @@
       "pair_ids": [
         "AVP0173",
         "AVP0200",
-        "AVP0464"
+        "AVP0464",
+        "AVP0572"
       ]
     },
     {
@@ -2808,7 +2881,8 @@
         "AVP0261",
         "AVP0262",
         "AVP0265",
-        "AVP0267"
+        "AVP0267",
+        "AVP0699"
       ]
     },
     {
@@ -3490,7 +3564,8 @@
         "AVP0433",
         "AVP0448",
         "AVP0475",
-        "AVP0479"
+        "AVP0479",
+        "AVP0982"
       ]
     },
     {
@@ -3506,7 +3581,8 @@
         "AVP0395",
         "AVP0402",
         "AVP0405",
-        "AVP0410"
+        "AVP0410",
+        "AVP0908"
       ]
     },
     {
@@ -3556,7 +3632,8 @@
         "MathVerse:370"
       ],
       "pair_ids": [
-        "AVP0338"
+        "AVP0338",
+        "AVP0571"
       ]
     },
     {
@@ -3619,7 +3696,8 @@
       ],
       "pair_ids": [
         "AVP0344",
-        "AVP0474"
+        "AVP0474",
+        "AVP0981"
       ]
     },
     {
@@ -3676,7 +3754,9 @@
       ],
       "pair_ids": [
         "AVP0354",
-        "AVP0397"
+        "AVP0397",
+        "AVP0529",
+        "AVP0581"
       ]
     },
     {
@@ -3698,7 +3778,8 @@
         "AVP0391",
         "AVP0491",
         "AVP0493",
-        "AVP0495"
+        "AVP0495",
+        "AVP0963"
       ]
     },
     {
@@ -3710,7 +3791,8 @@
         "AVP0372",
         "AVP0477",
         "AVP0480",
-        "AVP0499"
+        "AVP0499",
+        "AVP0983"
       ]
     },
     {
@@ -3854,7 +3936,8 @@
         "MathVerse:335"
       ],
       "pair_ids": [
-        "AVP0433"
+        "AVP0433",
+        "AVP0929"
       ]
     },
     {
@@ -3919,7 +4002,9 @@
       "pair_ids": [
         "AVP0451",
         "AVP0454",
-        "AVP0500"
+        "AVP0500",
+        "AVP0886",
+        "AVP0893"
       ]
     },
     {
@@ -4037,7 +4122,8 @@
         "MathVista:585"
       ],
       "pair_ids": [
-        "AVP0484"
+        "AVP0484",
+        "AVP0954"
       ]
     },
     {
@@ -4056,7 +4142,8 @@
       ],
       "pair_ids": [
         "AVP0491",
-        "AVP0496"
+        "AVP0496",
+        "AVP0962"
       ]
     },
     {
@@ -4067,6 +4154,4863 @@
       "pair_ids": [
         "AVP0492",
         "AVP0497"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "635ac9d1ca02b14685a83242f238eb7df237d7b37780628dbe10568387b3cc5f",
+      "source_keys": [
+        "MV-MATH:1854_2"
+      ],
+      "pair_ids": [
+        "AVP0501",
+        "AVP0533",
+        "AVP0534",
+        "AVP0539"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a463d678c5e7defb3f9ab0792cca0712f8a1657092b67535f7b3eabeebca284d",
+      "source_keys": [
+        "MV-MATH:973_1"
+      ],
+      "pair_ids": [
+        "AVP0502",
+        "AVP0806",
+        "AVP0865"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d06a8239048ac681eaea7765abf78a64847c61e1527fc209dc62175463197dec",
+      "source_keys": [
+        "MV-MATH:1905_2"
+      ],
+      "pair_ids": [
+        "AVP0503"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5fcffb47cee6ddea42f882590a31a17cc17baf5f28cfa87696791ed3a1452849",
+      "source_keys": [
+        "MathVerse:341"
+      ],
+      "pair_ids": [
+        "AVP0503"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e6a42e6f908761b971d3a6afaad25e04f385b25f8b71f2efb6d596ac33ab3ed5",
+      "source_keys": [
+        "MathVerse:408"
+      ],
+      "pair_ids": [
+        "AVP0504"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c257ad58303441c3344839b92513dddb4276158521b9d778f68ae7e3ea8ac9f2",
+      "source_keys": [
+        "MV-MATH:1830_2"
+      ],
+      "pair_ids": [
+        "AVP0504",
+        "AVP0537"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a600140fef7fdaa3e600901716b20f55fdcd1f24410258155729a4efaf6d96e1",
+      "source_keys": [
+        "MV-MATH:847_2"
+      ],
+      "pair_ids": [
+        "AVP0505"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d1da88c4fab3fc82819b67e3c1187977849e92c1d93a389b2514dd8cad6f0324",
+      "source_keys": [
+        "MV-MATH:359_1"
+      ],
+      "pair_ids": [
+        "AVP0506",
+        "AVP0540"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "184240f833581c6d5131119501f457735305c70816e0e0f7e6be8037ecc96532",
+      "source_keys": [
+        "MV-MATH:1874_2"
+      ],
+      "pair_ids": [
+        "AVP0506"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "425b94008806852bb063d6f8f288318aa50d662df40c9d45e812c311a56b14a9",
+      "source_keys": [
+        "MV-MATH:1902_2"
+      ],
+      "pair_ids": [
+        "AVP0507"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "bcd49f89d11d23c57c9fe2a83ff29e5a302e72ef237e484dab9112c225c60aa3",
+      "source_keys": [
+        "MV-MATH:484_1"
+      ],
+      "pair_ids": [
+        "AVP0507",
+        "AVP0570"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7023f8b3ebb1c48be24f85e304370e4d22d2bb4021fec37f14a632535fda97a8",
+      "source_keys": [
+        "DynaMath:123"
+      ],
+      "pair_ids": [
+        "AVP0508",
+        "AVP0509",
+        "AVP0810"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "aecab7c05646fabea932872aeba16aa12012eca3053a85be0e45e3566d152087",
+      "source_keys": [
+        "DynaMath:26"
+      ],
+      "pair_ids": [
+        "AVP0509",
+        "AVP0807"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "022d7ebd7a87cc8acf3cb3fa3cf1adf697898c1ffb014d18c77b7705d5233b20",
+      "source_keys": [
+        "MV-MATH:79_1"
+      ],
+      "pair_ids": [
+        "AVP0510"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2910ed9399fc6810f6bca432ebaa3167a94be5bfd630069058619f9a717de7f2",
+      "source_keys": [
+        "MV-MATH:406_2"
+      ],
+      "pair_ids": [
+        "AVP0510",
+        "AVP0512",
+        "AVP0543"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0b90f2f88e5827d62bfe1d947a98bd4acf2da5a4580a3a95f80cbfff7ac2c071",
+      "source_keys": [
+        "MV-MATH:916_1"
+      ],
+      "pair_ids": [
+        "AVP0511",
+        "AVP0611"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7f3388d8bb51d9d60bee3ce451814c606e0f5fc9d72690073853d1e95ed6c691",
+      "source_keys": [
+        "MV-MATH:1203_2"
+      ],
+      "pair_ids": [
+        "AVP0513",
+        "AVP0544"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "01996f96c999ef3ad572ba44105f6cc4d9a1c969839e1c26fa942815287d86f5",
+      "source_keys": [
+        "DynaMath:18"
+      ],
+      "pair_ids": [
+        "AVP0514",
+        "AVP0545"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2e923fc74df9fa70667a87c7c8f712960514f77d0ba3ef57ae13d716803266c3",
+      "source_keys": [
+        "DynaMath:34"
+      ],
+      "pair_ids": [
+        "AVP0515",
+        "AVP0546"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0d214486b26bd431bcbea60167d35b3149916f7e78ccf225117f6aa1172f66af",
+      "source_keys": [
+        "DynaMath:74"
+      ],
+      "pair_ids": [
+        "AVP0515",
+        "AVP0516"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fbb09ac682bea0d4f5fe54c488b72e978a9f6223e31d944817a5c479a9beeaab",
+      "source_keys": [
+        "DynaMath:189"
+      ],
+      "pair_ids": [
+        "AVP0517"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "03abb7456d3a115977eb295d74991c23727b6c3433339b40747e9f909290dcc6",
+      "source_keys": [
+        "DynaMath:41"
+      ],
+      "pair_ids": [
+        "AVP0517",
+        "AVP0624"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "040e464dcd505f1c6266e7dbb5ce401e15c18b47a155531f706489d6136e0650",
+      "source_keys": [
+        "DynaMath:36"
+      ],
+      "pair_ids": [
+        "AVP0518"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ed9697b1ffc5d89a11bc7d55904acf5bf7286c9204cfb3625bb8907ced1ff958",
+      "source_keys": [
+        "DynaMath:17"
+      ],
+      "pair_ids": [
+        "AVP0518"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "710a76654c1e7b6bf4e89bcef2c9dfd7d8285231bcac5c05d4a50fafbecb9f5b",
+      "source_keys": [
+        "MV-MATH:96_1"
+      ],
+      "pair_ids": [
+        "AVP0519",
+        "AVP0520",
+        "AVP0521",
+        "AVP0558"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1929ff4f5db36b7e861872b1e7b4401a9768b0c60d2bb20f289d58130c904054",
+      "source_keys": [
+        "DynaMath:318"
+      ],
+      "pair_ids": [
+        "AVP0520",
+        "AVP0522",
+        "AVP0554"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4475b674665702843fbb50a84fbb832280954916d1616099d0304a85b7cd02b4",
+      "source_keys": [
+        "DynaMath:320"
+      ],
+      "pair_ids": [
+        "AVP0521",
+        "AVP0522"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "815a51406956f11a7d7b2e2baa68e5c3379e2015e7291f2c8d42156ee7788f86",
+      "source_keys": [
+        "DynaMath:363"
+      ],
+      "pair_ids": [
+        "AVP0523",
+        "AVP0524"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9d0a26b1037ee891d2930408e30bb9a04b9fc5961ec5265efae1561134911c41",
+      "source_keys": [
+        "MV-MATH:1999_1"
+      ],
+      "pair_ids": [
+        "AVP0524",
+        "AVP0557",
+        "AVP0615"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c7468ee5b1bfc90c9322b8cbab79f202039feef63a41e94079c2a1feb92cf0a9",
+      "source_keys": [
+        "DynaMath:14"
+      ],
+      "pair_ids": [
+        "AVP0525",
+        "AVP0561"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b382feb74bab9c97afe359e5524afa69608cfd54b1833c30ad45fbf90e1fcb85",
+      "source_keys": [
+        "DynaMath:12"
+      ],
+      "pair_ids": [
+        "AVP0526",
+        "AVP0561"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d463586e3507defb0e9957808335869445247c872b7b999cba5e4d0909773353",
+      "source_keys": [
+        "DynaMath:69"
+      ],
+      "pair_ids": [
+        "AVP0527"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a37f4d48d4765bd08ca095af14fbab1d943daf52d2a0c9c1d6bf3ccafdf636cd",
+      "source_keys": [
+        "DynaMath:499"
+      ],
+      "pair_ids": [
+        "AVP0528",
+        "AVP0595",
+        "AVP0813",
+        "AVP0864",
+        "AVP0875"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a8fa2ebb3c94a4aa337073920a64830621901be32b6008ffe4e573f163df91eb",
+      "source_keys": [
+        "DynaMath:485"
+      ],
+      "pair_ids": [
+        "AVP0529",
+        "AVP0620",
+        "AVP0775",
+        "AVP0825"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b02d21b48e83561ef3db73cfb37d6f7b2e418764322b5dcdf25cd33f48758a26",
+      "source_keys": [
+        "DynaMath:88"
+      ],
+      "pair_ids": [
+        "AVP0530",
+        "AVP0596",
+        "AVP0625"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4b18baac80fc9ff9b308c2933573fb6ab7f18a829c285e0e029ed1db9deec6d7",
+      "source_keys": [
+        "MV-MATH:527_1"
+      ],
+      "pair_ids": [
+        "AVP0530",
+        "AVP0797",
+        "AVP0856",
+        "AVP0869"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "883ccf1564e3ddc270ba074932521fdbd995ad1d430a4cf808f1e3c58210c640",
+      "source_keys": [
+        "DynaMath:86"
+      ],
+      "pair_ids": [
+        "AVP0531",
+        "AVP0552",
+        "AVP0638",
+        "AVP0801",
+        "AVP0861"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a76569d3c99cc4ce72bcefe67adb7763cef28571f7e4efac39b660d235a13085",
+      "source_keys": [
+        "DynaMath:87"
+      ],
+      "pair_ids": [
+        "AVP0531",
+        "AVP0595",
+        "AVP0596",
+        "AVP0906"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "84e0ad97aa653d8fa0797aa8b6cdade74410b4a4c526c49c9c63c14f5f9e376c",
+      "source_keys": [
+        "DynaMath:470"
+      ],
+      "pair_ids": [
+        "AVP0532",
+        "AVP0614",
+        "AVP0828"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "42fb174783193b832c5c1f405a74d70439231c112f46a55a7806b57c75a02e17",
+      "source_keys": [
+        "DynaMath:469"
+      ],
+      "pair_ids": [
+        "AVP0532",
+        "AVP0619",
+        "AVP0771",
+        "AVP0821"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e8f34924fb90d1d794ee5f009356e47770033a6ee9cd4369b8a64bb25f6b36fa",
+      "source_keys": [
+        "MV-MATH:624_1"
+      ],
+      "pair_ids": [
+        "AVP0534",
+        "AVP0550",
+        "AVP0606",
+        "AVP0624"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c103cfb434cfd2e82ab1fd119510ad350ae8e4e8eb2586b51718eec8c9b1ee47",
+      "source_keys": [
+        "MV-MATH:1889_2"
+      ],
+      "pair_ids": [
+        "AVP0535",
+        "AVP0536"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "efbac9b853b9470b0e1ddfc480b870af2301c0db2aa24e87aaffa1f48ac93465",
+      "source_keys": [
+        "MV-MATH:628_2"
+      ],
+      "pair_ids": [
+        "AVP0535",
+        "AVP0542",
+        "AVP0622"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "956ca598435f4f3b8a61bf656b4b6b5ab0a6bf8dc90e8001442d5cecd1fcd99f",
+      "source_keys": [
+        "DynaMath:382"
+      ],
+      "pair_ids": [
+        "AVP0536",
+        "AVP0540",
+        "AVP0622"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "717bc2e2ff76339cbd19a15a572f3508da4a90389ad1743a7a33b33ee230c087",
+      "source_keys": [
+        "DynaMath:380"
+      ],
+      "pair_ids": [
+        "AVP0537",
+        "AVP0603"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fa79880871485e18baaa1275df33879cccb5274030d8d2a5366b12e6aefa817b",
+      "source_keys": [
+        "DynaMath:424"
+      ],
+      "pair_ids": [
+        "AVP0538",
+        "AVP0539"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d47703511eaffdda0f8b46aea81835184519f9edc750ebb8ff6ce50373bcc136",
+      "source_keys": [
+        "MV-MATH:526_1"
+      ],
+      "pair_ids": [
+        "AVP0538",
+        "AVP0759"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "86664bc44f760836750394f8c426c7f897ba885ef9e3b7a6d60c1eee60d9da9d",
+      "source_keys": [
+        "MV-MATH:846_1"
+      ],
+      "pair_ids": [
+        "AVP0541"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2f31656ade46a353c53700629dfd7df89bbc6c62ceecc940013a6cae6d936db5",
+      "source_keys": [
+        "DynaMath:452"
+      ],
+      "pair_ids": [
+        "AVP0541"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "43ac7d0c429cf42b0a0cd197a15204b70d42039ae5e070202fba5b68625e7bd0",
+      "source_keys": [
+        "DynaMath:386"
+      ],
+      "pair_ids": [
+        "AVP0542"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f1be65abacca16ddeaa031830a3407254d953d695439b01105f19095b164a9ea",
+      "source_keys": [
+        "MathVerse:394"
+      ],
+      "pair_ids": [
+        "AVP0544"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2676ce87d602d7dc5152c1ebd5d6787ffa8551aae3af0ab74f018744530127ec",
+      "source_keys": [
+        "MathVerse:347"
+      ],
+      "pair_ids": [
+        "AVP0546"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a5af6aed9498f3b06ebbf6daa1760427e3ecfeeb56f78d1f9056faba69a47664",
+      "source_keys": [
+        "DynaMath:459"
+      ],
+      "pair_ids": [
+        "AVP0547"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "261a20fb9d7cec226f1686fd80c353f1743a585db4cb0d4073b007cddadfa478",
+      "source_keys": [
+        "DynaMath:428"
+      ],
+      "pair_ids": [
+        "AVP0548"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "aa81416d5060d55a883e9bf9d1a5aa35e7a28b914c362b390193ae43c27dd520",
+      "source_keys": [
+        "DynaMath:426"
+      ],
+      "pair_ids": [
+        "AVP0548"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a9a5fc80cc5c1941576c0ee0defc2b3a8f88ac5903bbac1412dce519d7f1204f",
+      "source_keys": [
+        "DynaMath:72"
+      ],
+      "pair_ids": [
+        "AVP0549",
+        "AVP0815",
+        "AVP0831",
+        "AVP0836"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "99df0ffad268811f75e53077510a6393eae4044720f97c8f40bd9d4b0a6e526c",
+      "source_keys": [
+        "MV-MATH:552_1"
+      ],
+      "pair_ids": [
+        "AVP0550",
+        "AVP0571",
+        "AVP0612"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3d4e7068db188cc944f3cafabe9e9f954df833fe0c7b22d7e586eea21540f5de",
+      "source_keys": [
+        "MV-MATH:465_1"
+      ],
+      "pair_ids": [
+        "AVP0551",
+        "AVP0592"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fc2e46e13d05ac1a4eafc7992c9c87ae412beaf9e3f958a340a5f8acea30dede",
+      "source_keys": [
+        "MV-MATH:1012_1"
+      ],
+      "pair_ids": [
+        "AVP0552",
+        "AVP0616"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c539dcd932aabf8313548138b871727e9f7575721c772ad7878cae8b74aa762a",
+      "source_keys": [
+        "MV-MATH:221_1"
+      ],
+      "pair_ids": [
+        "AVP0553",
+        "AVP0619"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b50e8eb19d05673ed9d3c3bc1cd28650d43d73ec40aa9409fff16b54d83ca397",
+      "source_keys": [
+        "DynaMath:65"
+      ],
+      "pair_ids": [
+        "AVP0553",
+        "AVP0618",
+        "AVP0797",
+        "AVP0858"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7f5f16642e3b3ca4a9494733d6eac166fde9e137f39c93382b2b7641a1d53db1",
+      "source_keys": [
+        "MV-MATH:510_1"
+      ],
+      "pair_ids": [
+        "AVP0554",
+        "AVP0555",
+        "AVP0605"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d2923d256228be3b9212f545c8bb26187a688402e5fde9af246272006dc0d2ea",
+      "source_keys": [
+        "DynaMath:473"
+      ],
+      "pair_ids": [
+        "AVP0555",
+        "AVP0608",
+        "AVP0771",
+        "AVP0778",
+        "AVP0823"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "01753ed865672928558f52175296639b34551af00e69ad865822ed469f4e3080",
+      "source_keys": [
+        "DynaMath:108"
+      ],
+      "pair_ids": [
+        "AVP0556",
+        "AVP0794",
+        "AVP0803",
+        "AVP0812",
+        "AVP0872"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "58358df16d381ce769ee568f2d534e16719383cc0e69cfa468389bc04fdd6b98",
+      "source_keys": [
+        "MV-MATH:969_1"
+      ],
+      "pair_ids": [
+        "AVP0556",
+        "AVP0617"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "768ee46621e5c53342405554e6bf18985f2162d63b9944016a8c9b8d31e98856",
+      "source_keys": [
+        "MV-MATH:94_1"
+      ],
+      "pair_ids": [
+        "AVP0557",
+        "AVP0618"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4df3413f2c872362737659ad1833148b26763f4e69d50246400989207ec87df8",
+      "source_keys": [
+        "DynaMath:96"
+      ],
+      "pair_ids": [
+        "AVP0558",
+        "AVP0612"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4a0031d2153653a61cd2f1d67b714b78dfe3faddeceb1abb40252049a6c63cad",
+      "source_keys": [
+        "MV-MATH:615_1"
+      ],
+      "pair_ids": [
+        "AVP0559",
+        "AVP0593"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b964abc8b4c546ae9b78b32473e57451ce4e2d03331a25ab557f90efe798efc9",
+      "source_keys": [
+        "DynaMath:78"
+      ],
+      "pair_ids": [
+        "AVP0559",
+        "AVP0613"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5680e19a4d9cd3f1eaf3f659a4836b717bdcf628f3adf252657898c038a678c7",
+      "source_keys": [
+        "DynaMath:143"
+      ],
+      "pair_ids": [
+        "AVP0560",
+        "AVP0591",
+        "AVP0907"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "765ba2cc6378d278be6f9931786ba0f6f49372cc60efa83b1b1f46fb46e39128",
+      "source_keys": [
+        "MV-MATH:85_1"
+      ],
+      "pair_ids": [
+        "AVP0560",
+        "AVP0783",
+        "AVP0849"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f8c09931a5fa1a0eee7d14228fa0a5c1f1cdf3270da67ee9488b70909b979049",
+      "source_keys": [
+        "DynaMath:474"
+      ],
+      "pair_ids": [
+        "AVP0562",
+        "AVP0772",
+        "AVP0819"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e9ce9af8f0ea462245b0702a8920f574035dabb4fdb66f8944f6817307c22884",
+      "source_keys": [
+        "MV-MATH:934_1"
+      ],
+      "pair_ids": [
+        "AVP0563",
+        "AVP0566"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9c2c351f36be869233dda9be5ccd37b420646f5acf63c7e76838485589a9a131",
+      "source_keys": [
+        "DynaMath:112"
+      ],
+      "pair_ids": [
+        "AVP0564",
+        "AVP0923"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e1d8bd5c3f4eb194d5327910d90bff7aec422dc40be8c067c16b715b2041da64",
+      "source_keys": [
+        "MV-MATH:59_1"
+      ],
+      "pair_ids": [
+        "AVP0564",
+        "AVP0565",
+        "AVP0579"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "15abe8d7eedf7d75374b68d46509fb786274838dcabdb9d710599cac2c9b4f54",
+      "source_keys": [
+        "DynaMath:113"
+      ],
+      "pair_ids": [
+        "AVP0565",
+        "AVP0615",
+        "AVP0810"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d243a416f79ae0b7dddb8f4dd15c1f4deebe08d7344bbd4808d88af9f00ab3c7",
+      "source_keys": [
+        "DynaMath:194"
+      ],
+      "pair_ids": [
+        "AVP0566",
+        "AVP0570"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4a9eec51e6f5cf2b0ebb70fd314947a79348722f99db3df2990c267d94e8c66d",
+      "source_keys": [
+        "MV-MATH:10_3"
+      ],
+      "pair_ids": [
+        "AVP0567",
+        "AVP0621"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b6be41dffccfbdc83857ca098559d614dc4cd8189bf1d7bdaf5f008b2d6cafb9",
+      "source_keys": [
+        "DynaMath:53"
+      ],
+      "pair_ids": [
+        "AVP0568",
+        "AVP0808",
+        "AVP0920"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e7cb1aec18a2384b997e9bfe1ea3c32e88f2fc5b5d580d9e903fac8a282631af",
+      "source_keys": [
+        "MV-MATH:208_2"
+      ],
+      "pair_ids": [
+        "AVP0568",
+        "AVP0604",
+        "AVP0623"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7d94f18a8b1c44dd00d92c7b4aa384f62c241258008d9816d4a4dcfbe4503c27",
+      "source_keys": [
+        "MV-MATH:147_1"
+      ],
+      "pair_ids": [
+        "AVP0569",
+        "AVP0614"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9c9eb93bc9948bffe5c5637cc7500cf2fe6e4a9767a3ffd5a377307b20f81056",
+      "source_keys": [
+        "DynaMath:97"
+      ],
+      "pair_ids": [
+        "AVP0569",
+        "AVP0809",
+        "AVP0922"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "11f7a37223dc82d20a71b2fc78d9f785788b4a4270e4800a7c7b30ef80dd171a",
+      "source_keys": [
+        "DynaMath:129"
+      ],
+      "pair_ids": [
+        "AVP0572",
+        "AVP0573",
+        "AVP0885"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "792a905cb2d24054e2f31dd7e2a88586fe1ca95fdb8d56894064f299043d8f88",
+      "source_keys": [
+        "DynaMath:174"
+      ],
+      "pair_ids": [
+        "AVP0573"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "31c79b46626dd8e058f149d2c5b27b2c68d576ef6af8e44e8e870ec44c6a7c92",
+      "source_keys": [
+        "MathVerse:377"
+      ],
+      "pair_ids": [
+        "AVP0574"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "09c90ad8cb66e373e9491e0af3433103cf85c23d3a9a61c749e974e6da7fafa8",
+      "source_keys": [
+        "DynaMath:153"
+      ],
+      "pair_ids": [
+        "AVP0574",
+        "AVP0925"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "92457fd696130e73146a9e24349c9cbf76673f44aacb6424808c924c78d57d46",
+      "source_keys": [
+        "DynaMath:154"
+      ],
+      "pair_ids": [
+        "AVP0575",
+        "AVP0926"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1c71911d1fbd2ca0f927c75e8cce8164e88bbec3da5356bd7b060d8f577146b6",
+      "source_keys": [
+        "DynaMath:57"
+      ],
+      "pair_ids": [
+        "AVP0576",
+        "AVP0921"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2d2d17790a06c51a21b3bdb2b6f7317cf95e56ba27cc36d653bd837b38673f7e",
+      "source_keys": [
+        "DynaMath:122"
+      ],
+      "pair_ids": [
+        "AVP0577",
+        "AVP0924"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8a3311a847d733226892f54e6f832f2eea9742c4f3cbebf66144983fe9c72b67",
+      "source_keys": [
+        "DynaMath:190"
+      ],
+      "pair_ids": [
+        "AVP0578",
+        "AVP0610"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "030ae966712455d8caf27478d9653e485f1c162a8b6cc5654bbf81c4751eb3a9",
+      "source_keys": [
+        "MV-MATH:103_1"
+      ],
+      "pair_ids": [
+        "AVP0579",
+        "AVP0610"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d61c60dcacc59fbb165db28fa9b1efc82ffc2332a5b6e391b23fbe2cc6cbab1f",
+      "source_keys": [
+        "MV-MATH:471_1"
+      ],
+      "pair_ids": [
+        "AVP0580",
+        "AVP0613"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c50c13d2568299939219f67a88723616fe6f9b1509b13c665d17e3afaa2f502d",
+      "source_keys": [
+        "MV-MATH:91_1"
+      ],
+      "pair_ids": [
+        "AVP0580",
+        "AVP0791",
+        "AVP0800",
+        "AVP0829"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "da0f1c8800fbb52dd6388778b859d312d855c0b5ee7df1404822df274356005f",
+      "source_keys": [
+        "DynaMath:492"
+      ],
+      "pair_ids": [
+        "AVP0582",
+        "AVP0617",
+        "AVP0799",
+        "AVP0852"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "acb6bf0da7091cd78a43668c7ef49d3d3f78c81b8ca1fc2143953545bb0ef7c6",
+      "source_keys": [
+        "DynaMath:119"
+      ],
+      "pair_ids": [
+        "AVP0582",
+        "AVP0623"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f1e08bba815c048870dd13b0fedc683d1e46fa16be8b983482797a47ba0e2d48",
+      "source_keys": [
+        "MV-MATH:1027_1"
+      ],
+      "pair_ids": [
+        "AVP0583",
+        "AVP0620"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3885b29500211c410cd5e797a9c0408e8cfb56ce34bc9cd899c2978c872e4126",
+      "source_keys": [
+        "MV-MATH:214_1"
+      ],
+      "pair_ids": [
+        "AVP0583"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6ccf03aa924b5b9e73f0e8f65083c5b2ec2224224ae7de38cab04b2d99d7c407",
+      "source_keys": [
+        "DynaMath:105"
+      ],
+      "pair_ids": [
+        "AVP0584",
+        "AVP0616",
+        "AVP1000"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b35b47898b890f65a60f588019de15f9020f8d219e737c16c0c5d5086258ace2",
+      "source_keys": [
+        "MV-MATH:955_1"
+      ],
+      "pair_ids": [
+        "AVP0584",
+        "AVP0607"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0206eb04a39ce226f3ea495d3d63523e6fd16dde8362a445c589eac413cfae05",
+      "source_keys": [
+        "MV-MATH:500_1"
+      ],
+      "pair_ids": [
+        "AVP0585",
+        "AVP0625"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "01f64aed1b2db62f8296731e27087b8682a1e0f3591693185959f7753f5b2aca",
+      "source_keys": [
+        "MV-MATH:1086_1"
+      ],
+      "pair_ids": [
+        "AVP0585"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dbd65ffdbe610d3de1bfbba13a524805ad4cd1c72551a8385f8ceb47c16f7737",
+      "source_keys": [
+        "MV-MATH:951_1"
+      ],
+      "pair_ids": [
+        "AVP0586"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9f50c3fa8b54ac7f130d3cefcf36bbb92104e74bd641e791994c276a08d1a271",
+      "source_keys": [
+        "MV-MATH:481_1"
+      ],
+      "pair_ids": [
+        "AVP0586"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "359d8b04b2598e8bebf1690234b227d6a6e3346d8c9f48a49c7eaca489253bca",
+      "source_keys": [
+        "MV-MATH:952_1"
+      ],
+      "pair_ids": [
+        "AVP0587",
+        "AVP0594"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "18ca968eb56f6c0b82bc94426a273fdaf102cfbb282ec075b5baad5084521342",
+      "source_keys": [
+        "DynaMath:193"
+      ],
+      "pair_ids": [
+        "AVP0587",
+        "AVP0611"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6c4041e96c45467267b4f9597f75b016c5747eb9d8a6ce863928417cac933299",
+      "source_keys": [
+        "MV-MATH:1015_1"
+      ],
+      "pair_ids": [
+        "AVP0588"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4930a55aad6fe2bebdb033c2516265b086473fa7bf81d2718085caae37531d7c",
+      "source_keys": [
+        "MV-MATH:761_1"
+      ],
+      "pair_ids": [
+        "AVP0588"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5f2da852f5aa44e0631cc04e248c311077934a795810dd43bf13ebd700b75ec6",
+      "source_keys": [
+        "DynaMath:160"
+      ],
+      "pair_ids": [
+        "AVP0589"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f0081c46c5dd2acd90c1665f04e9d8ad28ff92e6cfcb90d6420baa939806bf18",
+      "source_keys": [
+        "DynaMath:110"
+      ],
+      "pair_ids": [
+        "AVP0590"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9e61e9aeddc843a489067e761b97ccb0ebbcf6a974f9384dd86a91e8dcd0d5ef",
+      "source_keys": [
+        "DynaMath:101"
+      ],
+      "pair_ids": [
+        "AVP0590"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f1efcd0e409d44c513cb2e34b8ff2246002631da5499234fb09a68c02500a3cd",
+      "source_keys": [
+        "MV-MATH:101_1"
+      ],
+      "pair_ids": [
+        "AVP0591",
+        "AVP0601"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1b0ccb25a9f9b15b3994c4a0a2894c560f76f47b8c950e866910fdaf9a1bffbe",
+      "source_keys": [
+        "MV-MATH:464_1"
+      ],
+      "pair_ids": [
+        "AVP0592"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c4f269850357439156473479b43f7cb3dee48eddd383259a6c3b9ba7a15fc8af",
+      "source_keys": [
+        "DynaMath:109"
+      ],
+      "pair_ids": [
+        "AVP0593",
+        "AVP0950",
+        "AVP0961"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "681daddd82d60bda62440f57b9293310864f29573ea40a8e38cd0ec9293ded71",
+      "source_keys": [
+        "DynaMath:489"
+      ],
+      "pair_ids": [
+        "AVP0597",
+        "AVP0621"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3e1eac623a92687a1aff66e230f3398111ea2406018cae2cd7ee1d55c597c3de",
+      "source_keys": [
+        "DynaMath:487"
+      ],
+      "pair_ids": [
+        "AVP0598"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a93f9ec3394477bf5ce67de3823f7a95c0613a635335415956b1b5f276ca02b4",
+      "source_keys": [
+        "DynaMath:70"
+      ],
+      "pair_ids": [
+        "AVP0598"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dfc146c3a40d4f0f9f6a7a8cf76bce14f45ec0913df819ea94d30b53610280a5",
+      "source_keys": [
+        "DynaMath:9"
+      ],
+      "pair_ids": [
+        "AVP0599"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "aa1b5b13f95402c595575a6dd94ba03668d1a2b264023c74b9e7694735c213d6",
+      "source_keys": [
+        "DynaMath:488"
+      ],
+      "pair_ids": [
+        "AVP0600",
+        "AVP0779",
+        "AVP0838"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c015c5e5ecea97e7a1b7743d79cfc0643d5f7bbe33bdfbdd03bb7b5e8f2698cd",
+      "source_keys": [
+        "DynaMath:198"
+      ],
+      "pair_ids": [
+        "AVP0600",
+        "AVP0934"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a20fd345743f38ac4e0a7ac9315fc4bfa314f195122fbfc95919469db893fe7c",
+      "source_keys": [
+        "DynaMath:60"
+      ],
+      "pair_ids": [
+        "AVP0601"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "96f56b7897c1dc1723d11c5a19bd5ad29fb3ab94ab946c5403e937933603738e",
+      "source_keys": [
+        "DynaMath:199"
+      ],
+      "pair_ids": [
+        "AVP0602"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ddb2f20693417fb4e59de0a47bb1b837576146465d503b9f0d54aef2dcb40753",
+      "source_keys": [
+        "DynaMath:144"
+      ],
+      "pair_ids": [
+        "AVP0602",
+        "AVP0795",
+        "AVP0804",
+        "AVP0858"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6f4a22734ac78cfaa94977e26922b01728b1165ac7768f211da207c61d746e8a",
+      "source_keys": [
+        "MV-MATH:1855_2"
+      ],
+      "pair_ids": [
+        "AVP0603"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3391904c3ea4286c2bd33500e0008ac1a946136b47d7892dae93463051f2e7af",
+      "source_keys": [
+        "DynaMath:478"
+      ],
+      "pair_ids": [
+        "AVP0604",
+        "AVP0774",
+        "AVP0780",
+        "AVP0824",
+        "AVP0842"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "264d1d563a6a19b7922abf4d07fae9877771161fc3e1c530b011c6d2eba86be7",
+      "source_keys": [
+        "DynaMath:80"
+      ],
+      "pair_ids": [
+        "AVP0605",
+        "AVP0755",
+        "AVP0762",
+        "AVP0819",
+        "AVP0952"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7689e2daafe7c59485bd90d8b2d5fe21d40a22b84f706c26f8113b96c6ad0153",
+      "source_keys": [
+        "DynaMath:475"
+      ],
+      "pair_ids": [
+        "AVP0609",
+        "AVP0773",
+        "AVP0779",
+        "AVP0834"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e21b3b0fad95685c1e8ee9b66d66303fc9c5ce0197b0bd5dca678f6dc6800059",
+      "source_keys": [
+        "We-Math:1415"
+      ],
+      "pair_ids": [
+        "AVP0626",
+        "AVP0643",
+        "AVP0676",
+        "AVP0696"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "bd6166132c6ca60df61c1e080fb5c9fc4d6424ead8aa14ec53ae241856bf1fec",
+      "source_keys": [
+        "We-Math:365"
+      ],
+      "pair_ids": [
+        "AVP0626",
+        "AVP0644"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "eab4f9df8baa3a9c133b027cbd101a79aa49a3c514bec9f89d3a9e72b07dcc92",
+      "source_keys": [
+        "We-Math:1251"
+      ],
+      "pair_ids": [
+        "AVP0627",
+        "AVP0648",
+        "AVP0684",
+        "AVP0689"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5ee639fb791c634555055582389502ce6d6b792d4262f920b08a9ea1ec7ef149",
+      "source_keys": [
+        "We-Math:223"
+      ],
+      "pair_ids": [
+        "AVP0627",
+        "AVP0708",
+        "AVP0725"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "eb1b0f5547ddbd649aba46bfb34878e5bee716d19c49c8317737647b705d1181",
+      "source_keys": [
+        "We-Math:1426"
+      ],
+      "pair_ids": [
+        "AVP0628",
+        "AVP0645",
+        "AVP0707"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "95cfa65908a72e5f72423a88536ecada10365e8281e4563aff71bfd502bd7356",
+      "source_keys": [
+        "We-Math:179"
+      ],
+      "pair_ids": [
+        "AVP0628",
+        "AVP0650"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3faab190b62079ab8d3870a4f574a702e13c1b3928c0329628cfb072b58786ca",
+      "source_keys": [
+        "We-Math:1097"
+      ],
+      "pair_ids": [
+        "AVP0629",
+        "AVP0677",
+        "AVP0689",
+        "AVP0708"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4d75e95d44ca40962ea3ca72055342171de4d76961c7d66e75327459bc898053",
+      "source_keys": [
+        "We-Math:224"
+      ],
+      "pair_ids": [
+        "AVP0629",
+        "AVP0646"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3ae7d68b132cc7140ad8429e40c1d63145261b5e776673f6d493777ff9825ddd",
+      "source_keys": [
+        "We-Math:1271"
+      ],
+      "pair_ids": [
+        "AVP0630"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7f9a3da4bb3d7b5323151afcb0d8c6cc637c280456c59d272ffb4bd8eb641eec",
+      "source_keys": [
+        "We-Math:229"
+      ],
+      "pair_ids": [
+        "AVP0630"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9658f5d64c42b850ed061b6eb1ef8beefbaec40746298d3c7f27b7821bab010f",
+      "source_keys": [
+        "We-Math:1447"
+      ],
+      "pair_ids": [
+        "AVP0631",
+        "AVP0709"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3ebff44dd764ed073f1fdecb7a1b35beb03b95bb318a9f92c51fd977dd0c562d",
+      "source_keys": [
+        "We-Math:1181"
+      ],
+      "pair_ids": [
+        "AVP0631"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9de3fa958c84bde23d7689310774c7cdb03a90d52aa628e43ea74e721ba3f26c",
+      "source_keys": [
+        "We-Math:1125"
+      ],
+      "pair_ids": [
+        "AVP0632"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7a9ab78fe6e3e9e874038ff9be17b470e15176046b2cadf65ad730f708e6939a",
+      "source_keys": [
+        "We-Math:703"
+      ],
+      "pair_ids": [
+        "AVP0632"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "980bd2dc87ccee786a1e16775a62ce8347d2a803b33075e832df9dae03d0a822",
+      "source_keys": [
+        "We-Math:1403"
+      ],
+      "pair_ids": [
+        "AVP0633",
+        "AVP0685",
+        "AVP0690"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "34324168426e7e4379c50271f9f4058c8d6e1bb9ef168b65d327578651c07c17",
+      "source_keys": [
+        "We-Math:1304"
+      ],
+      "pair_ids": [
+        "AVP0633"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3717a69a7c19f0f7107ccd8b6c2c713d992dc23ffbaf376090f4dec92151960a",
+      "source_keys": [
+        "We-Math:178"
+      ],
+      "pair_ids": [
+        "AVP0634"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "db3cf6fc30925c2cbc813a3456242f0f045815f1441c247b330820d383f3b5a0",
+      "source_keys": [
+        "We-Math:1217"
+      ],
+      "pair_ids": [
+        "AVP0634"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2d3cd6b68eb6b5c644afd3487e85bf96c82659e1c6debcc9d9e16e7d134607bb",
+      "source_keys": [
+        "We-Math:180"
+      ],
+      "pair_ids": [
+        "AVP0635"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7b17db88ed8b77e652fab527ddfbc2f01bb5135ab5dfee0d779984a4e5c006a4",
+      "source_keys": [
+        "We-Math:1345"
+      ],
+      "pair_ids": [
+        "AVP0635",
+        "AVP0649"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ea5f7c4668f6867bdc1e032843d9b8d967daaa651ca4ababc95908832c6550ab",
+      "source_keys": [
+        "We-Math:185"
+      ],
+      "pair_ids": [
+        "AVP0636"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ca2f0316e4a98362676c352724bf623d49c9767e12ffae0d283c4f498ae9de6d",
+      "source_keys": [
+        "We-Math:1400"
+      ],
+      "pair_ids": [
+        "AVP0636",
+        "AVP0647"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "494367aeaf478928c6780ced54c27b2da7652759aaeec4277df76f7059f457ca",
+      "source_keys": [
+        "We-Math:1295"
+      ],
+      "pair_ids": [
+        "AVP0637",
+        "AVP0640"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7699ef80762c141105df67fd81024771b4bea360f4a822ebbcc9add950652858",
+      "source_keys": [
+        "DynaMath:118"
+      ],
+      "pair_ids": [
+        "AVP0637",
+        "AVP0793",
+        "AVP0857"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0bbdbf38ee05f66d4ea3fd385b495157db4e6570c61df798e8ec3c0afad644f9",
+      "source_keys": [
+        "We-Math:397"
+      ],
+      "pair_ids": [
+        "AVP0638",
+        "AVP0644"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f3b7f5df6b7b010fca7ce87eac494976daf0d82696e89d4993f49bc50fba0d72",
+      "source_keys": [
+        "We-Math:497"
+      ],
+      "pair_ids": [
+        "AVP0639",
+        "AVP0723"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1ee7808ec8afeb51b3ceff5d806250ae868823c27e0431c20f3182c5afb67ba6",
+      "source_keys": [
+        "We-Math:1178"
+      ],
+      "pair_ids": [
+        "AVP0639"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5eacb098b7c29c348939fc1394ef55fc7ec72c3afe11cabd00c66722d6ac41b0",
+      "source_keys": [
+        "We-Math:498"
+      ],
+      "pair_ids": [
+        "AVP0640"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b6e54018451e05b493ae536999410804204b239d810b764c56c9ae35188844bd",
+      "source_keys": [
+        "We-Math:1532"
+      ],
+      "pair_ids": [
+        "AVP0641",
+        "AVP0707",
+        "AVP0724"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7d10ec261dab4f3bf31bbfd0f107645bfb7bc76049cb516050049c5850fbc7af",
+      "source_keys": [
+        "We-Math:1374"
+      ],
+      "pair_ids": [
+        "AVP0641"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "03183ce99f71ae278d5e23ebb2bd2db2e1504e5b956f1a9f71e49a201d7fe5a8",
+      "source_keys": [
+        "We-Math:1535"
+      ],
+      "pair_ids": [
+        "AVP0642"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "297365219c0c85201e93e69ceb8291a66c25e89854a19f95219e77bdcc7fea7e",
+      "source_keys": [
+        "We-Math:373"
+      ],
+      "pair_ids": [
+        "AVP0642"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "70edf2b647780314b8d7c24c023a1c12091b15dc6edb0ee8a2f89aa0c0a09a40",
+      "source_keys": [
+        "We-Math:392"
+      ],
+      "pair_ids": [
+        "AVP0643",
+        "AVP0710",
+        "AVP0712",
+        "AVP0722"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "44ce052a593fd4b17f373e90bac6e107fe2c7b0936118273d1c7de92a71c4502",
+      "source_keys": [
+        "We-Math:112"
+      ],
+      "pair_ids": [
+        "AVP0645"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ea00733f4f7e53d42b81cfffe2395928284f66813587675abb87711ad0425084",
+      "source_keys": [
+        "We-Math:995"
+      ],
+      "pair_ids": [
+        "AVP0646"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a89b5e484582f044fb90f1b6cab506701ca37e764b4ea16c1a0e96aa7584bc7f",
+      "source_keys": [
+        "We-Math:244"
+      ],
+      "pair_ids": [
+        "AVP0647"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a63d58af648ac4371d6a6203580919ced6a39230bdcb23aa5be3738b645c9fab",
+      "source_keys": [
+        "We-Math:371"
+      ],
+      "pair_ids": [
+        "AVP0648"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b00e2a1a6684ff4c65c31611412da501cf76c8ed17141fa5e666839c3ea46c11",
+      "source_keys": [
+        "We-Math:379"
+      ],
+      "pair_ids": [
+        "AVP0649"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0842b78575ccfb234cf97c165f765961519b25e0288bb428ee3346b14e6a8b2d",
+      "source_keys": [
+        "We-Math:1300"
+      ],
+      "pair_ids": [
+        "AVP0651",
+        "AVP0664"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ff5c00adc70e6c28779ca32028b5415c43b3c5fcf2527903480b85cfbb1d8c8a",
+      "source_keys": [
+        "We-Math:1170"
+      ],
+      "pair_ids": [
+        "AVP0651",
+        "AVP0669"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1240ed3244bcb6f27dc73a26da8e018c38ec6ffe4b34aabd99c8694700998400",
+      "source_keys": [
+        "We-Math:1301"
+      ],
+      "pair_ids": [
+        "AVP0652",
+        "AVP0672"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9fea6477cbf5f1821447c8cf5e13cab4b825985838804f561a40c3ce58cc3aa1",
+      "source_keys": [
+        "We-Math:1574"
+      ],
+      "pair_ids": [
+        "AVP0652",
+        "AVP0675",
+        "AVP0686",
+        "AVP0698"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "517563551115cedba8506757a8717b262043b208e11236bb52c83b26a23545df",
+      "source_keys": [
+        "We-Math:1303"
+      ],
+      "pair_ids": [
+        "AVP0653",
+        "AVP0665"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7fd6849ef9eccfbf583bc81ec80f6697cc5838fd00ba731aa681b0107ebb867a",
+      "source_keys": [
+        "We-Math:1308"
+      ],
+      "pair_ids": [
+        "AVP0653",
+        "AVP0667"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "917bb446cd8218699cedd4b976577f32b38b049b3cdbd722cf7d037ac4989ec8",
+      "source_keys": [
+        "We-Math:1305"
+      ],
+      "pair_ids": [
+        "AVP0654",
+        "AVP0673"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "641880fc813f42c64fed4cab219fe17ec3059a659ffe1cdfcd0db36b0eda9277",
+      "source_keys": [
+        "We-Math:174"
+      ],
+      "pair_ids": [
+        "AVP0654"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "07d58d65ba31e2dcb1212025014e414a8936890c60ca82451f96e3e8661d4615",
+      "source_keys": [
+        "We-Math:1306"
+      ],
+      "pair_ids": [
+        "AVP0655",
+        "AVP0666"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b51732fb1e3cef049b77b4790c8ade8d1be2ba582b24807dda70aa97a9fe9840",
+      "source_keys": [
+        "We-Math:1364"
+      ],
+      "pair_ids": [
+        "AVP0655",
+        "AVP0671"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7d6a4e78fe9d292a37374663cf5804be180b2fbc87c33175f886f9c2b0f260d1",
+      "source_keys": [
+        "We-Math:1307"
+      ],
+      "pair_ids": [
+        "AVP0656",
+        "AVP0674"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8d330f871f8c535e69ba0ced66e70a2d76d14710c7228d4c08872831b2f44f0b",
+      "source_keys": [
+        "We-Math:1477"
+      ],
+      "pair_ids": [
+        "AVP0656"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9bfd404bb9d34e4e1c10efced46fe6c1b0f4e46b585d1bb1686bbb7f22573951",
+      "source_keys": [
+        "We-Math:239"
+      ],
+      "pair_ids": [
+        "AVP0657"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3b8e05e944d410383faf2a17fd15be02bf4955cd43f3add2455ce593841bc1bc",
+      "source_keys": [
+        "We-Math:404"
+      ],
+      "pair_ids": [
+        "AVP0657",
+        "AVP0688",
+        "AVP0691"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d873a0bd2a5f89804be3c0dbc7e1d14f252e82d38755e4b34d03dc16a2d58299",
+      "source_keys": [
+        "We-Math:1310"
+      ],
+      "pair_ids": [
+        "AVP0658",
+        "AVP0668"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "34e48fe049a1e69b7b957fcb372c13a880d3c629203eb392299161da41ea5bd1",
+      "source_keys": [
+        "We-Math:175"
+      ],
+      "pair_ids": [
+        "AVP0658"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ef34190865f7e225c1ac3c881dd300a27cc35a8d0e5a8f57990a50998a9844e3",
+      "source_keys": [
+        "We-Math:1146"
+      ],
+      "pair_ids": [
+        "AVP0659"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "76f48abec54aebc503fa85aeca32687b84d38ba6caf02ded7eb745ec052009bf",
+      "source_keys": [
+        "We-Math:240"
+      ],
+      "pair_ids": [
+        "AVP0659"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f52d2cf8727dc5988446131550de1e1bcf1dba13210c294b1157124772bb86be",
+      "source_keys": [
+        "We-Math:1179"
+      ],
+      "pair_ids": [
+        "AVP0660",
+        "AVP0670"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7c15246db0ab5bab3eb15ace0a46700148c70f0d2ae13aeac097dc58ede5f40a",
+      "source_keys": [
+        "We-Math:1363"
+      ],
+      "pair_ids": [
+        "AVP0660"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "124d36d6d3aaf198acdc1abb6c71957ce3ea7c4cb7081df0c0d73e087d8478b7",
+      "source_keys": [
+        "We-Math:1186"
+      ],
+      "pair_ids": [
+        "AVP0661"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "204ca85a0b3d7e1b2228e305132be6940ba0d1f82cd934d4c451a848e77880dc",
+      "source_keys": [
+        "We-Math:177"
+      ],
+      "pair_ids": [
+        "AVP0661"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "aa83c0fef2ba96e3fe9722ac96c172b4d43d878cc712f9ba093f54f24bfa6d06",
+      "source_keys": [
+        "We-Math:43"
+      ],
+      "pair_ids": [
+        "AVP0662",
+        "AVP0687"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dbd5412923f1a480c872083617f81f831a3ace6ceed420efc8c64fffb5e56be5",
+      "source_keys": [
+        "We-Math:228"
+      ],
+      "pair_ids": [
+        "AVP0662"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f13ba09f65447f0ae994be4874861662a2f4c155891a18fb113c878a660becfa",
+      "source_keys": [
+        "We-Math:412"
+      ],
+      "pair_ids": [
+        "AVP0663"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0c406956f48ef0119cb6e3fef3288898fc8e73690d727be0733f82a2436d93da",
+      "source_keys": [
+        "We-Math:415"
+      ],
+      "pair_ids": [
+        "AVP0663"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b41e7109a4444df2653e0b089e2825dfaca170aa64e0386572defbab728256d1",
+      "source_keys": [
+        "We-Math:94"
+      ],
+      "pair_ids": [
+        "AVP0664",
+        "AVP0683"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5e549ce284073f26446026ecb58948d5214d7ef8ae87c4d8571ad6e89752b7db",
+      "source_keys": [
+        "We-Math:119"
+      ],
+      "pair_ids": [
+        "AVP0665",
+        "AVP0682"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b367152f4f595a8551aebe23e3e9a4d177fadc74c61068585be4e0a914374995",
+      "source_keys": [
+        "We-Math:123"
+      ],
+      "pair_ids": [
+        "AVP0666",
+        "AVP0683",
+        "AVP0694"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4513ae0b530ef6a91cf17f9176a0695b9f7a9bb397e1ff98ddb1e65e7e61d97d",
+      "source_keys": [
+        "We-Math:1385"
+      ],
+      "pair_ids": [
+        "AVP0667"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f19c18129f741e1e233e6c02ad6d49bea740faab125653f7e8588885a8724f66",
+      "source_keys": [
+        "We-Math:110"
+      ],
+      "pair_ids": [
+        "AVP0668"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "bc29d6a9cba8fe799b622740303591555ca7e3328383766c3cf119a9fb64beb7",
+      "source_keys": [
+        "We-Math:101"
+      ],
+      "pair_ids": [
+        "AVP0669"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "758989c03b716838bdc281816b4f1ea33cf93fa5afb4643c1cd3e52bb48dfc7e",
+      "source_keys": [
+        "We-Math:122"
+      ],
+      "pair_ids": [
+        "AVP0670",
+        "AVP0699"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "003b8af998f06faa9c6731fce0f1934efa63aba6b9ba18e5190e045a00508d86",
+      "source_keys": [
+        "We-Math:512"
+      ],
+      "pair_ids": [
+        "AVP0671"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "203017a4276f0377c3f7df4b04bcbef19b46ee0d354a02c69c5e9e3bd2031a2b",
+      "source_keys": [
+        "We-Math:347"
+      ],
+      "pair_ids": [
+        "AVP0672",
+        "AVP0726",
+        "AVP0732",
+        "AVP0738"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c7f44704a32488fdc8fbd9c0f3ada9f96c50fa6e6cd7d700f4b704f5843ee0ea",
+      "source_keys": [
+        "We-Math:348"
+      ],
+      "pair_ids": [
+        "AVP0673",
+        "AVP0727",
+        "AVP0739"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3a39d84adeaff24dc183f88c1973e9298bf1008ef8eb5af77994b01e3e60608c",
+      "source_keys": [
+        "We-Math:350"
+      ],
+      "pair_ids": [
+        "AVP0674",
+        "AVP0726",
+        "AVP0734",
+        "AVP0741"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6c8c05d6eb163a7f6558c8550875f891a077e98b8e383a72d5ddcabe5bca8727",
+      "source_keys": [
+        "We-Math:356"
+      ],
+      "pair_ids": [
+        "AVP0675",
+        "AVP0729",
+        "AVP0746"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e0946f30459beb2b6d9ab45b6fd2ff58af16df42bb7d8c2dd711ea8611c8b553",
+      "source_keys": [
+        "We-Math:1261"
+      ],
+      "pair_ids": [
+        "AVP0676",
+        "AVP0692",
+        "AVP0702"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7bebc15df2f79abcacd70bcd4716f21e5d019fa5f18f1c3fbe986adf0fe55599",
+      "source_keys": [
+        "We-Math:442"
+      ],
+      "pair_ids": [
+        "AVP0677",
+        "AVP0690",
+        "AVP0704",
+        "AVP0721"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a759688c6946512e7a489159b3d8f0b8dcb384dc289046fa910880541adcd83d",
+      "source_keys": [
+        "We-Math:1248"
+      ],
+      "pair_ids": [
+        "AVP0678"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "109ac1db6ac61b6cd71d44cdac61f27e7c84752887acce97d111bd7f3ed34f5c",
+      "source_keys": [
+        "We-Math:448"
+      ],
+      "pair_ids": [
+        "AVP0678",
+        "AVP0693",
+        "AVP0703",
+        "AVP0714"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7974491ca49242dae981be69d09afa31caf63af26ebaf0d0d666ffa39911b534",
+      "source_keys": [
+        "We-Math:1377"
+      ],
+      "pair_ids": [
+        "AVP0679"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5bbf7782a546164c90132fa280eb7051f261acf4333e70b978b402b22d9f405e",
+      "source_keys": [
+        "We-Math:653"
+      ],
+      "pair_ids": [
+        "AVP0679",
+        "AVP0697"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e1831ea6b19d96fc1a06bd9302b13bf96d60d16227f751696f05b9b02a5faf02",
+      "source_keys": [
+        "We-Math:1521"
+      ],
+      "pair_ids": [
+        "AVP0680",
+        "AVP0695"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "74db3832e2cf09c39b9f2000b3b8c64a83c4155a526b756c8a5d80e8d6a7fcfd",
+      "source_keys": [
+        "We-Math:666"
+      ],
+      "pair_ids": [
+        "AVP0680",
+        "AVP0691",
+        "AVP0706",
+        "AVP0715"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d849b0338d504bf8575c7b3482bb2c5d54eac09d91ce5ad0def1a77b63d8d7c6",
+      "source_keys": [
+        "We-Math:1524"
+      ],
+      "pair_ids": [
+        "AVP0681"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5e7e324305c8732166047071446cd5eb2740685347527357b0062546e9e8f0dd",
+      "source_keys": [
+        "We-Math:654"
+      ],
+      "pair_ids": [
+        "AVP0681"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c097e51376f6e47a13d54f1dcb4ff5948db78e757a0e74be4dfd6f295bbac59b",
+      "source_keys": [
+        "We-Math:1542"
+      ],
+      "pair_ids": [
+        "AVP0682"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "44649db62aed5b9191fae3cc4921980670d5be358ccf20e3b9533a7cedb72823",
+      "source_keys": [
+        "We-Math:406"
+      ],
+      "pair_ids": [
+        "AVP0684"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7bc53e30f638fe002ae70995b503552a012a8a76047c2c1cdda90f409e265b46",
+      "source_keys": [
+        "We-Math:411"
+      ],
+      "pair_ids": [
+        "AVP0685"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "77c98761f9835f39f815d4d4b01907a0d20208602d7199aa94c68b6e6c76480b",
+      "source_keys": [
+        "We-Math:768"
+      ],
+      "pair_ids": [
+        "AVP0686"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "da6237aee01b0cc966971fff29988ff1d82273bc9753de51a66a58dbc2d909f3",
+      "source_keys": [
+        "We-Math:1407"
+      ],
+      "pair_ids": [
+        "AVP0687"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fa951f23dc20a10748ff827858042aa0fa9c958bdc2e67a19bf0ecfd12cdfa5b",
+      "source_keys": [
+        "We-Math:1562"
+      ],
+      "pair_ids": [
+        "AVP0688"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a9ceeb8dc2d05325e718553d42a8c594387d53b88d15516acf59f851a37247a3",
+      "source_keys": [
+        "We-Math:301"
+      ],
+      "pair_ids": [
+        "AVP0700"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b8a614e2e7e96adad11ebe1133b5f3d5598cba9d5de286906de9859e5b9612eb",
+      "source_keys": [
+        "We-Math:1087"
+      ],
+      "pair_ids": [
+        "AVP0701"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "790eaf3eaf6a06876650208bd46b4e281fc84f71df43b681fd53c650bb3ee821",
+      "source_keys": [
+        "We-Math:1422"
+      ],
+      "pair_ids": [
+        "AVP0701"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2b127799c2a047fe6a7fb95763fe2584f6bbedb3a620bec277338a6a0e8dba35",
+      "source_keys": [
+        "We-Math:1259"
+      ],
+      "pair_ids": [
+        "AVP0702",
+        "AVP0713"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8b37c35c1785dcba8aa3b493627fe7e8a9e98ff97c938fe6daf3d7022e77d149",
+      "source_keys": [
+        "We-Math:366"
+      ],
+      "pair_ids": [
+        "AVP0703",
+        "AVP0720"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cefc0c00de594d56282ce2f1072c09789936077e1aa492ecb7411882b4878b66",
+      "source_keys": [
+        "We-Math:84"
+      ],
+      "pair_ids": [
+        "AVP0704",
+        "AVP0717"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "33f051c57375d461bf3932bf6c0703511b50784a99a178f4eed506bcd52a9ad8",
+      "source_keys": [
+        "We-Math:623"
+      ],
+      "pair_ids": [
+        "AVP0705",
+        "AVP0719"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d2651dd99585198061aaac8449f0a637765a7f64a0f9bd246a7cd7e9a2c0f63d",
+      "source_keys": [
+        "We-Math:265"
+      ],
+      "pair_ids": [
+        "AVP0705",
+        "AVP0716"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5f44fc3b0aefa52cdf49fe0ebc15ec54bfc3085b26980dbd20fd80458d003466",
+      "source_keys": [
+        "We-Math:267"
+      ],
+      "pair_ids": [
+        "AVP0706",
+        "AVP0718"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e8bc6b28faed7ac2953f98176d7bc1c089e344b17c23c0978b7af8cc07ae33d5",
+      "source_keys": [
+        "We-Math:225"
+      ],
+      "pair_ids": [
+        "AVP0709"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8177ab38d237012fe7fdf996642ab8d8f71c7cad88594d5868763f39b17c497f",
+      "source_keys": [
+        "We-Math:115"
+      ],
+      "pair_ids": [
+        "AVP0710",
+        "AVP0724"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "760944ebf03b046aedd747742ba15597f69e4fc5cb6f0e0a79b6ac33d09df3b6",
+      "source_keys": [
+        "We-Math:116"
+      ],
+      "pair_ids": [
+        "AVP0711"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d1fcdd6c17b409095a0502908c74213f9bc7e0f55041b1c7a912618c6bbc1fee",
+      "source_keys": [
+        "We-Math:118"
+      ],
+      "pair_ids": [
+        "AVP0711"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "293875e7f1e2fb511d24e8c8ca855319b5a0dd2f44d0e10a2dbdd6407d7e333b",
+      "source_keys": [
+        "We-Math:117"
+      ],
+      "pair_ids": [
+        "AVP0712",
+        "AVP0725"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "16f3eb6a4b8cb87aab356b96e901f8ef0c57c29a8a22a9db2e0dcd37bf853640",
+      "source_keys": [
+        "We-Math:792"
+      ],
+      "pair_ids": [
+        "AVP0713"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dc282e62e7b5543454eaf5b2eeb785700a17739810923dcffabd136db44e060a",
+      "source_keys": [
+        "We-Math:1204"
+      ],
+      "pair_ids": [
+        "AVP0714"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b7b1a0e17709faf4580d1be2574eb0e63db5007b2edf1752dafff3f25d80d303",
+      "source_keys": [
+        "We-Math:1223"
+      ],
+      "pair_ids": [
+        "AVP0715"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d69b8df6f4562382debec012e095bd0cca3fb9ad6a3b01a1f957751b8e23d159",
+      "source_keys": [
+        "We-Math:776"
+      ],
+      "pair_ids": [
+        "AVP0716"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "869a2115a825e181e9eb90bf020c08aeaa2bc63e20f6602c8b806c675c3ff07c",
+      "source_keys": [
+        "We-Math:86"
+      ],
+      "pair_ids": [
+        "AVP0717"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e0a1c32cffd3c479455d9e6c21075905d1a6b7963c18323dbb0e05fe57d48147",
+      "source_keys": [
+        "We-Math:1009"
+      ],
+      "pair_ids": [
+        "AVP0718"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8242c70007c0338810aec2b3e1dad027ab0fe63f9558b3aa7ccaa6dde6b4ce08",
+      "source_keys": [
+        "We-Math:1734"
+      ],
+      "pair_ids": [
+        "AVP0719"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fab5fc7a2ed8363153bd4a6332f92cbc317855d40c20582660554727b1ba3fd9",
+      "source_keys": [
+        "DynaMath:204"
+      ],
+      "pair_ids": [
+        "AVP0722",
+        "AVP0863",
+        "AVP0868",
+        "AVP0877"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "54f09d73c5abb9d8dd243ef443e49de00a922f191b6c7a77f2e36be59d925cb1",
+      "source_keys": [
+        "We-Math:349"
+      ],
+      "pair_ids": [
+        "AVP0727",
+        "AVP0733",
+        "AVP0740"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "edfa00ef90767c5ebe8f4ebcea7a59ba1951d00fee71bd90b406051dbd117f94",
+      "source_keys": [
+        "We-Math:351"
+      ],
+      "pair_ids": [
+        "AVP0728",
+        "AVP0733",
+        "AVP0742"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e735a4901c7c5ec97f7fc812e705a4889aa415ed8f23ca43f43b686846277138",
+      "source_keys": [
+        "We-Math:353"
+      ],
+      "pair_ids": [
+        "AVP0728",
+        "AVP0744",
+        "AVP0750"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "58e79bd79e03fa3a7b95317e4e61c4b88b0752b17f1c01835396f7ade9bf8755",
+      "source_keys": [
+        "We-Math:352"
+      ],
+      "pair_ids": [
+        "AVP0729",
+        "AVP0734",
+        "AVP0743"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ecdaf78845d8e0309a58dd22faedc1e862acbf6126e3d345523f90f229ed5d2a",
+      "source_keys": [
+        "We-Math:354"
+      ],
+      "pair_ids": [
+        "AVP0730",
+        "AVP0732",
+        "AVP0745"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "17f80d75220c131d51d0504bca548be5d56584e1405b4bd20d9e9dc591f49736",
+      "source_keys": [
+        "We-Math:1147"
+      ],
+      "pair_ids": [
+        "AVP0730",
+        "AVP0747"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "11d134ec959d4d6850c22a95defe7182092634019e25cea670a22229304cf824",
+      "source_keys": [
+        "We-Math:1141"
+      ],
+      "pair_ids": [
+        "AVP0731",
+        "AVP0748"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f25fbc0994e1f3118dc6995638c1bc62afefa99754efdacf409a2fd0d6f80e52",
+      "source_keys": [
+        "We-Math:1142"
+      ],
+      "pair_ids": [
+        "AVP0731",
+        "AVP0749"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7b0d32c262f90efa67c61644a463e89a79a6de37930bfb7d747a6a71e6e29300",
+      "source_keys": [
+        "We-Math:1055"
+      ],
+      "pair_ids": [
+        "AVP0735",
+        "AVP0736",
+        "AVP0738",
+        "AVP0741"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c17fd0bce5495774913c014871962afdeb7523180441984a8ae8f10a0f2dea96",
+      "source_keys": [
+        "We-Math:1057"
+      ],
+      "pair_ids": [
+        "AVP0735",
+        "AVP0737",
+        "AVP0739",
+        "AVP0742",
+        "AVP0745"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ed7c12fe1ee205575b0634977f6c3e4dc2ecfff51b9a1aabdf58395b99e6a1fc",
+      "source_keys": [
+        "We-Math:1633"
+      ],
+      "pair_ids": [
+        "AVP0736",
+        "AVP0740",
+        "AVP0743"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3b5a6745b6e3b5f5bbb537b43958366cf870929ffff78a40778d879ff0bbb54e",
+      "source_keys": [
+        "We-Math:1054"
+      ],
+      "pair_ids": [
+        "AVP0737",
+        "AVP0744",
+        "AVP0746"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0b1620b714e38f651bbe8ab6d35518c606cfffaac0d24e52c69087942b227c43",
+      "source_keys": [
+        "DynaMath:13"
+      ],
+      "pair_ids": [
+        "AVP0751",
+        "AVP0765",
+        "AVP0840"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fa02b9cd3a2bf8fc976c279b820e5f8b05a205194ac806ec566be5a7d825b9e8",
+      "source_keys": [
+        "DynaMath:135"
+      ],
+      "pair_ids": [
+        "AVP0751",
+        "AVP0830",
+        "AVP0839"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "69d70690cc8d06bb4452a13b19fb49ef2d03298fcf9bd5259b3ec8d0cbeb27a9",
+      "source_keys": [
+        "DynaMath:32"
+      ],
+      "pair_ids": [
+        "AVP0752",
+        "AVP0767",
+        "AVP0815"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "14697b140690606535a8ff7748a97a72df0bdaf115b5e854da99e9346c0dc7d1",
+      "source_keys": [
+        "DynaMath:281"
+      ],
+      "pair_ids": [
+        "AVP0752",
+        "AVP0828"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9e7817084da2ecddd4ece240d43b2065a0fb8e83263684db666aeb3a9bdd2d27",
+      "source_keys": [
+        "MV-MATH:563_1"
+      ],
+      "pair_ids": [
+        "AVP0753",
+        "AVP0788"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "29448e0f38a03ae1b4c45428a9dfe44cb1207971a90035b6932bdbddfda842d7",
+      "source_keys": [
+        "DynaMath:49"
+      ],
+      "pair_ids": [
+        "AVP0753",
+        "AVP0763",
+        "AVP0836",
+        "AVP0972"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cdfd3c237419e30c8ae776fd52f09db0bedc03785621ce6874f78d9c3e6e5972",
+      "source_keys": [
+        "DynaMath:62"
+      ],
+      "pair_ids": [
+        "AVP0754",
+        "AVP0767",
+        "AVP0973"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "effe86d7ff66311edf2382be328336d67650aa917d730b37a5dfe5ebce7762c3",
+      "source_keys": [
+        "DynaMath:139"
+      ],
+      "pair_ids": [
+        "AVP0754",
+        "AVP0831"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2399357c1d8507d6419455a4e51e3e02a1e9f2e365bfb13d582847188d3d5746",
+      "source_keys": [
+        "DynaMath:93"
+      ],
+      "pair_ids": [
+        "AVP0755",
+        "AVP0821"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cdd73da9dd81e7665a08a6da4691ae1dc570eda07c432b0d931b907c88f86330",
+      "source_keys": [
+        "DynaMath:81"
+      ],
+      "pair_ids": [
+        "AVP0756",
+        "AVP0787",
+        "AVP0820",
+        "AVP0849"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "97bb79dd4f38fe2042e1d148f76e679014dab851809e84800414a01afea0db67",
+      "source_keys": [
+        "DynaMath:200"
+      ],
+      "pair_ids": [
+        "AVP0756",
+        "AVP0826"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7f894987062be84676fe8e9e757cdd89def0689e69a257cb2fa407b42eb90176",
+      "source_keys": [
+        "MV-MATH:448_1"
+      ],
+      "pair_ids": [
+        "AVP0757"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8f5959af39d0962d784065bcfd280ea4af15be4508b73d60c9377142a0188816",
+      "source_keys": [
+        "DynaMath:145"
+      ],
+      "pair_ids": [
+        "AVP0757",
+        "AVP0822",
+        "AVP0838",
+        "AVP0953"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "19af533d2d8b1a4fdb96d0c1a772cdd1191a15263c12cfee7bfa16f4e5488f08",
+      "source_keys": [
+        "DynaMath:167"
+      ],
+      "pair_ids": [
+        "AVP0758",
+        "AVP0766",
+        "AVP0823",
+        "AVP0954"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "020e415ee2c3080abcc0abc65b5579348d5a0d137f01a39d1fdb09fc68b2cb9a",
+      "source_keys": [
+        "MV-MATH:635_1"
+      ],
+      "pair_ids": [
+        "AVP0758"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8e9347baa398737eed8d16629633ba2bdaf6e498c1c3f32187783cd32841bcc1",
+      "source_keys": [
+        "DynaMath:178"
+      ],
+      "pair_ids": [
+        "AVP0759",
+        "AVP0824"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "df15f7eb53ff935837d1ecc604a2fa985886573c8f574b9f37546a4097ed7523",
+      "source_keys": [
+        "DynaMath:195"
+      ],
+      "pair_ids": [
+        "AVP0760",
+        "AVP0825"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a26acd717501440fdf623995c908e18887cb00d9d06d3ada55ab4dfa57186a15",
+      "source_keys": [
+        "DynaMath:206"
+      ],
+      "pair_ids": [
+        "AVP0760",
+        "AVP0827",
+        "AVP0959"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2547a98cea04bfdaea04f10ec4244d68de33500047a64c7a604d8f4161c6cb05",
+      "source_keys": [
+        "DynaMath:38"
+      ],
+      "pair_ids": [
+        "AVP0761",
+        "AVP0816",
+        "AVP0834"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "59d3bfd5ccc84157a3744db95868915c63cfc483de20c07caeea09c93d78a9e4",
+      "source_keys": [
+        "MV-MATH:1914_1"
+      ],
+      "pair_ids": [
+        "AVP0761"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cb48b994f65becd46af3b489bcac00d01ba8bd6451da22300ba3e4ede3ed5909",
+      "source_keys": [
+        "DynaMath:45"
+      ],
+      "pair_ids": [
+        "AVP0762",
+        "AVP0817",
+        "AVP0835"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "36d1033e8572476a406aba4975f1a24290f70c9c4d8e7b6eb07bdcec6440b273",
+      "source_keys": [
+        "DynaMath:8"
+      ],
+      "pair_ids": [
+        "AVP0763",
+        "AVP0785",
+        "AVP0843",
+        "AVP0884",
+        "AVP0892"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "38b66d656ff4c82f5e8465bc96da05452e5cc13042ac3fab6b303544341bf032",
+      "source_keys": [
+        "MV-MATH:1056_1"
+      ],
+      "pair_ids": [
+        "AVP0764"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "903093852e9df470060f973ee27ee85b49b1d1314cb3214866d182a848c514b6",
+      "source_keys": [
+        "DynaMath:55"
+      ],
+      "pair_ids": [
+        "AVP0764",
+        "AVP0781",
+        "AVP0790",
+        "AVP0818",
+        "AVP0837",
+        "AVP0944",
+        "AVP0976"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "46624ecb8433b89a47279b5f89ab6847ec4e11a8d399f03f18a79c7044e867d4",
+      "source_keys": [
+        "MV-MATH:1933_1"
+      ],
+      "pair_ids": [
+        "AVP0765"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c18c57c254cbab216828e397378ae6e95e4944205492b54af709e82a7082442c",
+      "source_keys": [
+        "DynaMath:24"
+      ],
+      "pair_ids": [
+        "AVP0766",
+        "AVP0814",
+        "AVP0841"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5f9a3d8cc0c5e5a063c4d571d2e1d868fb3cd76d2d1021f00ccf65256697d115",
+      "source_keys": [
+        "DynaMath:207"
+      ],
+      "pair_ids": [
+        "AVP0768",
+        "AVP0842"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "016bf035fbdfbc50548bd5d9f32d66c667e4a8991fa6b79651e217b8fef77679",
+      "source_keys": [
+        "MV-MATH:586_1"
+      ],
+      "pair_ids": [
+        "AVP0768"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a7631f0f01f57f960b7db1d84e966df4a43f4b69350e5d5fba5fd06949599046",
+      "source_keys": [
+        "DynaMath:184"
+      ],
+      "pair_ids": [
+        "AVP0769",
+        "AVP0777",
+        "AVP0827",
+        "AVP0839"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b12e1b28aeb9c28b1dc5f8c57bf1888022196729070dc6a765c448b00c20b42c",
+      "source_keys": [
+        "DynaMath:181"
+      ],
+      "pair_ids": [
+        "AVP0769",
+        "AVP0817"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "82cc2eb94bbdd2d470ab5d05ea8aecbf326c6714485f167ee6f5696f538d1b68",
+      "source_keys": [
+        "DynaMath:121"
+      ],
+      "pair_ids": [
+        "AVP0770",
+        "AVP0814",
+        "AVP0830"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "effe75bcebf3405c9123f48c0477708370582c7681480082d530f6b35842c3dc",
+      "source_keys": [
+        "DynaMath:468"
+      ],
+      "pair_ids": [
+        "AVP0770",
+        "AVP0778",
+        "AVP0832"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "31547ad56ebf1c2e14e70417ac153c157ab3f193a03cc2ab30753c2344803a76",
+      "source_keys": [
+        "DynaMath:481"
+      ],
+      "pair_ids": [
+        "AVP0772",
+        "AVP0822"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0118d28b2fb03d9d6a93365d5b96113b794b1d2a188a676a667a5bfdaf459184",
+      "source_keys": [
+        "DynaMath:477"
+      ],
+      "pair_ids": [
+        "AVP0773",
+        "AVP0833"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e84d5597b0565d56e8ca68a3b9ec08f1da288ec4dd25db69cfaf4b49db695e9c",
+      "source_keys": [
+        "DynaMath:484"
+      ],
+      "pair_ids": [
+        "AVP0774",
+        "AVP0829"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "870745d52f2a7b458ab75bb753ea2a9c3a52fd3bb2b336357ccc04ab4103f086",
+      "source_keys": [
+        "DynaMath:490"
+      ],
+      "pair_ids": [
+        "AVP0775",
+        "AVP0820"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7f8b39ceb5a74b362a2a96a810c8c6c914436c157e32ba924598c6af00c76b06",
+      "source_keys": [
+        "DynaMath:89"
+      ],
+      "pair_ids": [
+        "AVP0776",
+        "AVP0804",
+        "AVP0816"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8cf7b69ffbba99a1296814ad17dd0b124e90ce625080e9441e429e3a18540d5b",
+      "source_keys": [
+        "DynaMath:90"
+      ],
+      "pair_ids": [
+        "AVP0776",
+        "AVP0795",
+        "AVP0805",
+        "AVP0826"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "73b996934c6d80d4e6ff750b372a8ae89903d350aeb2bd0314410549edfa8b2d",
+      "source_keys": [
+        "DynaMath:182"
+      ],
+      "pair_ids": [
+        "AVP0777",
+        "AVP0837"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2c94e53257e985b189e6e1aef170237e67c344a6c372e94487dace2355a79788",
+      "source_keys": [
+        "DynaMath:491"
+      ],
+      "pair_ids": [
+        "AVP0780",
+        "AVP0841"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "df9cde42cd4614b883f42be2d98f2ea6858b0bdd5151281ec413400a336737d6",
+      "source_keys": [
+        "MV-MATH:963_1"
+      ],
+      "pair_ids": [
+        "AVP0781",
+        "AVP0846",
+        "AVP0852"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ca12a0153c8132680d9e02d1e9ca0fcf9f6e9159b18bd19215b74a897753d67c",
+      "source_keys": [
+        "DynaMath:338"
+      ],
+      "pair_ids": [
+        "AVP0782",
+        "AVP0843"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "abe19aa8728d4016a60d9c3bba76d65ae68a9610fcd48d39f50cea7270b9dab8",
+      "source_keys": [
+        "MV-MATH:634_1"
+      ],
+      "pair_ids": [
+        "AVP0782",
+        "AVP0847",
+        "AVP0853"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "75ea9cfe9e92fbfed3f888321f678372666b75bab565fb11a9306465c76cb513",
+      "source_keys": [
+        "DynaMath:339"
+      ],
+      "pair_ids": [
+        "AVP0783",
+        "AVP0844"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3bc2fe5948f26408a581af8af62f02abd4c63fe9552bc9f28ce94c0c0f61e59a",
+      "source_keys": [
+        "MV-MATH:1047_1"
+      ],
+      "pair_ids": [
+        "AVP0784",
+        "AVP0845",
+        "AVP0851"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0c24e8c8456a3539513087f9276e0ba7a0144f821cae1864893870cf2867445d",
+      "source_keys": [
+        "MV-MATH:1063_1"
+      ],
+      "pair_ids": [
+        "AVP0784",
+        "AVP0850"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1208534879f71e750b88554e591cbac110616672d588662509d6fe122202399a",
+      "source_keys": [
+        "MV-MATH:219_1"
+      ],
+      "pair_ids": [
+        "AVP0785",
+        "AVP0847"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f568c24a6f00973668f1593314d0f2235d6bb207e39d2ea66b9896043236d917",
+      "source_keys": [
+        "MV-MATH:210_1"
+      ],
+      "pair_ids": [
+        "AVP0786",
+        "AVP0844"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "831fb50a2fc5784a9a9db314a1a0e60c4bb1bce73eaa91711cbadf10ec77b2d8",
+      "source_keys": [
+        "DynaMath:76"
+      ],
+      "pair_ids": [
+        "AVP0786",
+        "AVP0845",
+        "AVP0902"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4808708bdac222406b2aa52968acc136025493066fb01b68e5fdc90a6b4316ed",
+      "source_keys": [
+        "MV-MATH:227_1"
+      ],
+      "pair_ids": [
+        "AVP0787",
+        "AVP0850"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e2fa75f1d3629df3f6691b98fec5bc76a964b381052cd188da43a58f9c7f5541",
+      "source_keys": [
+        "DynaMath:11"
+      ],
+      "pair_ids": [
+        "AVP0788"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0029d9605a32d581d35e76066f405b7a591a1d7545e46135e24398d05602774d",
+      "source_keys": [
+        "DynaMath:83"
+      ],
+      "pair_ids": [
+        "AVP0789",
+        "AVP0846"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "aa2fcb8de8b1f27d08891dc8cf76f381573841ae4c78f5f7658433eceaea2d2f",
+      "source_keys": [
+        "DynaMath:197"
+      ],
+      "pair_ids": [
+        "AVP0789",
+        "AVP0848"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7247ae0d43293633309a9faf6421c90441da9ce4c4454992151cb788e5ff5c57",
+      "source_keys": [
+        "MV-MATH:996_1"
+      ],
+      "pair_ids": [
+        "AVP0790",
+        "AVP0854"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "037c10ae9bbefafd207859ec1022ccb3b34fc6172813c6a0416a91fe6511ddb0",
+      "source_keys": [
+        "MV-MATH:78_1"
+      ],
+      "pair_ids": [
+        "AVP0791",
+        "AVP0855"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e25c73cb7d8d6949a670df2b8e5ba985c501782fff8781e43f08ea8bc73bf356",
+      "source_keys": [
+        "MV-MATH:95_1"
+      ],
+      "pair_ids": [
+        "AVP0792"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ee66c47db13d3ef5eab740d1092302c1e182eeb70f903f63c5d20b1f82f41e8c",
+      "source_keys": [
+        "MV-MATH:994_1"
+      ],
+      "pair_ids": [
+        "AVP0792",
+        "AVP0848"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "98c6ff704bbefcc291d0af597ffab5798754b20a967e36c941eca2007950fa98",
+      "source_keys": [
+        "DynaMath:63"
+      ],
+      "pair_ids": [
+        "AVP0793",
+        "AVP0802",
+        "AVP0811",
+        "AVP0856"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cae064da3a163461a0c777c68fd0dd780f5ee00f07da570be1f6ef09a879f761",
+      "source_keys": [
+        "DynaMath:345"
+      ],
+      "pair_ids": [
+        "AVP0794",
+        "AVP0863",
+        "AVP0869"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9eb986bfe52f316a2e5a913a44c3c828423ac62e701286806d6ba6b8c999d4b3",
+      "source_keys": [
+        "MV-MATH:950_1"
+      ],
+      "pair_ids": [
+        "AVP0796",
+        "AVP0867",
+        "AVP0871"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "df6f15e469c50da3c68447a1ff3794fb056d94f2957723fe5f9f250787014f27",
+      "source_keys": [
+        "DynaMath:346"
+      ],
+      "pair_ids": [
+        "AVP0796",
+        "AVP0866",
+        "AVP0868",
+        "AVP0870"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5ccc4ec994eb905df17852271f43a9b69ba66a91a3029b2744d12fd6ac84b447",
+      "source_keys": [
+        "DynaMath:66"
+      ],
+      "pair_ids": [
+        "AVP0798",
+        "AVP0851"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7d6e2ee9d3b12208c193b3e9731320d515306cca89c1260dbb8697398634df1b",
+      "source_keys": [
+        "MV-MATH:505_1"
+      ],
+      "pair_ids": [
+        "AVP0798",
+        "AVP0855",
+        "AVP0864",
+        "AVP0871"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cc865948b8d174f9772abc142330241ca63e9eea0d44cf5c8f4f7c25fa163e58",
+      "source_keys": [
+        "DynaMath:16"
+      ],
+      "pair_ids": [
+        "AVP0799",
+        "AVP0813",
+        "AVP0853",
+        "AVP0861"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c799d64c0e8c3d018563a7f0fa94ecfabce76eda120802ae91782714c4c8f857",
+      "source_keys": [
+        "MV-MATH:1080_1"
+      ],
+      "pair_ids": [
+        "AVP0800",
+        "AVP0860"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d90338273028995c159ad9026615551608f888298627b161fae5515a7b4556e0",
+      "source_keys": [
+        "DynaMath:64"
+      ],
+      "pair_ids": [
+        "AVP0801"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "966615e007649e4415565f6f72cfa494f62ba340974f570e3ed07764d78cbfe4",
+      "source_keys": [
+        "DynaMath:138"
+      ],
+      "pair_ids": [
+        "AVP0802",
+        "AVP0805"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ad639e720c89b80158fd5c0c218d6fe5997d5b4de58e3999a4acc2f0289186a1",
+      "source_keys": [
+        "DynaMath:77"
+      ],
+      "pair_ids": [
+        "AVP0803",
+        "AVP0932"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6a0d66af2c8ac00362fb31b9884401e950e29a1720a8089e2d72b508e82233b7",
+      "source_keys": [
+        "MV-MATH:68_1"
+      ],
+      "pair_ids": [
+        "AVP0806",
+        "AVP0862",
+        "AVP0870"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f924a2f39476cd2971d9aa7b80fe669ed79a29f083931b665a56d8eab962bd03",
+      "source_keys": [
+        "DynaMath:359"
+      ],
+      "pair_ids": [
+        "AVP0807"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "276b78591f7ad84476f5e179d36b0be148265cc983f0de93a652301769f9def0",
+      "source_keys": [
+        "DynaMath:27"
+      ],
+      "pair_ids": [
+        "AVP0808"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7085085baf93d78763d3857d979c7c1a48d17f9573918ec34e9538fe91fa2cc3",
+      "source_keys": [
+        "DynaMath:360"
+      ],
+      "pair_ids": [
+        "AVP0809"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "16ba6f31c7b9fd027019be444e2432ac9ff266385a9bf0b3a386f20fb16774cb",
+      "source_keys": [
+        "DynaMath:498"
+      ],
+      "pair_ids": [
+        "AVP0811",
+        "AVP0874"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ae903b5a7ce288ec52f7d9cd4100390b0cc9c82ebed9b410294663723cc5b167",
+      "source_keys": [
+        "DynaMath:496"
+      ],
+      "pair_ids": [
+        "AVP0812",
+        "AVP0873"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c4394c4367d6bb79a78f7dfa886af0856399a0df405d34fe6b953eefa84242c1",
+      "source_keys": [
+        "DynaMath:183"
+      ],
+      "pair_ids": [
+        "AVP0818",
+        "AVP0833"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5d707ababb1965ce7a366d5a69f6ff958d3f01986ec85db68c60792c9ad45418",
+      "source_keys": [
+        "DynaMath:85"
+      ],
+      "pair_ids": [
+        "AVP0832",
+        "AVP0835",
+        "AVP0840"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8cc72680fca29776bde5e3248ac78fac3cb0b0ac3e950519ff0fc6e8668a0ca7",
+      "source_keys": [
+        "DynaMath:493"
+      ],
+      "pair_ids": [
+        "AVP0854",
+        "AVP0857",
+        "AVP0859"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b3467f4526cb7267b7a4ad59f576676d812aea0e74d4bd3e2c7f1e7b9cc2e811",
+      "source_keys": [
+        "MV-MATH:610_1"
+      ],
+      "pair_ids": [
+        "AVP0859"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "989bb7658b4d054f04800c9deba66856a86fdb6ea8728d55bfaae5b255453a96",
+      "source_keys": [
+        "DynaMath:494"
+      ],
+      "pair_ids": [
+        "AVP0860"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "93a85bca19dd54cdde0466eb4cb38cd91dba38952d80f4d50324c0b9467478f3",
+      "source_keys": [
+        "DynaMath:203"
+      ],
+      "pair_ids": [
+        "AVP0862",
+        "AVP0867",
+        "AVP0876"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2b4a8d090a8689bbed1e5ebe29d146d44687d95b17e89f858d1cb25e1a43f116",
+      "source_keys": [
+        "DynaMath:495"
+      ],
+      "pair_ids": [
+        "AVP0865",
+        "AVP0866"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6bf544a61da6446b2297cb95522e7868671876e168e26f4af2d73c61f4351c6e",
+      "source_keys": [
+        "DynaMath:501"
+      ],
+      "pair_ids": [
+        "AVP0872",
+        "AVP0874"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6f9d12e69ddf827c9af1cb22d41053bdb9bd37c053735ef3fffe679e4628b0a5",
+      "source_keys": [
+        "DynaMath:500"
+      ],
+      "pair_ids": [
+        "AVP0873",
+        "AVP0875"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e31952b49a50037e018208228ffd2e4b4e49591efc544d4bd588ead7ea514a98",
+      "source_keys": [
+        "VisioMath:131_A"
+      ],
+      "pair_ids": [
+        "AVP0876",
+        "AVP0907"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8b34160996c29f707f321cc0de6159bbf62d0e9a624f923270f2f02d45cb33cb",
+      "source_keys": [
+        "VisioMath:181_A"
+      ],
+      "pair_ids": [
+        "AVP0877"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0a63292ad5bb1d8bd062be3719ac6cecb91e5246a13364bb6c3c6f4159d12595",
+      "source_keys": [
+        "VisioMath:348_A"
+      ],
+      "pair_ids": [
+        "AVP0878"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fa20e7f213bbefe99935fe74eda5b1d10fec7025eb3ac5c2271ceea96f76562c",
+      "source_keys": [
+        "VisioMath:446_A"
+      ],
+      "pair_ids": [
+        "AVP0878"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b507c52c0e1ec5d9da91e49692d4228ffc79cdaff363629b8af349097d4a7b5d",
+      "source_keys": [
+        "VisioMath:639_A"
+      ],
+      "pair_ids": [
+        "AVP0879",
+        "AVP0965"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "398b6e778a6d35edf285d025c353d485e3aca6a5b01ca467c62190ac68bd9a2e",
+      "source_keys": [
+        "VisioMath:591_A"
+      ],
+      "pair_ids": [
+        "AVP0879",
+        "AVP0909"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e019c9233ee91bdb8bb72fa4d6784ef007d89dfc604b4035d14105953eeee9f8",
+      "source_keys": [
+        "VisioMath:1093_A"
+      ],
+      "pair_ids": [
+        "AVP0880"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0386813dd48137edd43f12155021521dd0a2ec8afc6589825765079d4fcf597b",
+      "source_keys": [
+        "VisioMath:1115_A"
+      ],
+      "pair_ids": [
+        "AVP0880",
+        "AVP0910",
+        "AVP0918"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4583943b115c6530eef6161b8bab12f6fda8fb017c69b0364017c9cf5f029259",
+      "source_keys": [
+        "VisioMath:1291_A"
+      ],
+      "pair_ids": [
+        "AVP0881"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e14022914baf255a1542749b927b6e914bd8369d73e65bd41b223ea0eb4edf69",
+      "source_keys": [
+        "VisioMath:1232_A"
+      ],
+      "pair_ids": [
+        "AVP0881"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "55daaec2e63eaefd8d5033eb20724ff314267ba6644290511a541283943e6f3d",
+      "source_keys": [
+        "VisioMath:1367_A"
+      ],
+      "pair_ids": [
+        "AVP0882"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3823969f82e6a084fa0e7197ee7f4c75b4e38dc4dd27197911e6411121a12c23",
+      "source_keys": [
+        "VisioMath:1400_A"
+      ],
+      "pair_ids": [
+        "AVP0882"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "49ece85c1027540ebced63691c96961f029f3458a61271dbf5c4acac74169a36",
+      "source_keys": [
+        "VisioMath:1571_A"
+      ],
+      "pair_ids": [
+        "AVP0883"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "69a6714a288f22698b27cbff93bd6effcd3702efecb7f0af261bdc8eff083475",
+      "source_keys": [
+        "VisioMath:1485_A"
+      ],
+      "pair_ids": [
+        "AVP0883"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "403c4df77f1ed2ba863e204b5a65079f380c90d3564e07b5f1b8a49b81e1f4a4",
+      "source_keys": [
+        "VisioMath:626_A"
+      ],
+      "pair_ids": [
+        "AVP0884"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d2d0fbcfce054c85ee100c0e3c2de3d30e2aaa5eb59ccfffad39af46e8473aa1",
+      "source_keys": [
+        "VisioMath:1300_A"
+      ],
+      "pair_ids": [
+        "AVP0885"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "018498bc5069388861cd89eb56c047a0177eac183ee0b1d5393a7db63fc674df",
+      "source_keys": [
+        "VisioMath:1482_A"
+      ],
+      "pair_ids": [
+        "AVP0886"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3c3544de4e78cbd989361aa2b8bba04d6335093c32e056f6ac6a2670b791fc42",
+      "source_keys": [
+        "VisioMath:1654_A"
+      ],
+      "pair_ids": [
+        "AVP0887",
+        "AVP0966"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "df1d301ab44dfc7a35e8fba76a4d8d80de9862e7e2e838ba7b640eac2dc6fc74",
+      "source_keys": [
+        "VisioMath:1655_A"
+      ],
+      "pair_ids": [
+        "AVP0888",
+        "AVP0967"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7de974f0d2d502c3c4f08142f842edce1717c2f6c03b435f956cf47c1d4b3fc6",
+      "source_keys": [
+        "VisioMath:1703_A"
+      ],
+      "pair_ids": [
+        "AVP0889",
+        "AVP0967"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "992d65194d2df441ac9e55aa7d9a014d78be301433c129d8473128a665919102",
+      "source_keys": [
+        "VisioMath:55_A"
+      ],
+      "pair_ids": [
+        "AVP0890"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "23d61815b9316a65db999de8889efb4edcc09ed29999e9de12a478c8447edb5b",
+      "source_keys": [
+        "VisioMath:505_A"
+      ],
+      "pair_ids": [
+        "AVP0890"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "55873af9a2ce02a6b50ff52fcb91ca1019082a20985340dd4875a5bf841a025f",
+      "source_keys": [
+        "VisioMath:1338_A"
+      ],
+      "pair_ids": [
+        "AVP0891"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fde2da4e033e1a642cb7ccc4557c91a44cc2183cdd6ba88434092fb40bcd0c06",
+      "source_keys": [
+        "VisioMath:577_A"
+      ],
+      "pair_ids": [
+        "AVP0891"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dea495395103314dcaf99a80ac266461c8d4b3a2cae6e9c848a626b9b1035e1f",
+      "source_keys": [
+        "VisioMath:56_A"
+      ],
+      "pair_ids": [
+        "AVP0892",
+        "AVP0988"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7fa8b862ad46c62c66064e7d9a1315c47a2f13c03455fec200a24944ba8f8947",
+      "source_keys": [
+        "VisioMath:59_A"
+      ],
+      "pair_ids": [
+        "AVP0893"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5e926b91d968d13b4dfa6801eb28611cab40169c5594327bfcae94ccafafa679",
+      "source_keys": [
+        "VisioMath:111_A"
+      ],
+      "pair_ids": [
+        "AVP0894"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "083d83c6ba57dbbf9ea768988467ba9f896cb8543209050c9c94a9033f5ded30",
+      "source_keys": [
+        "VisioMath:302_A"
+      ],
+      "pair_ids": [
+        "AVP0894"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f7fe1ed0f086fee7f160987196abc352202c3401e8fd5ba059b13c090c2a6fe8",
+      "source_keys": [
+        "VisioMath:452_A"
+      ],
+      "pair_ids": [
+        "AVP0895"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "720041768d22ab79e473a25500e4112c39e346def2515cb7738235b7520798ca",
+      "source_keys": [
+        "VisioMath:349_A"
+      ],
+      "pair_ids": [
+        "AVP0895",
+        "AVP0902"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ea6b6543ab9c6258e9558d29444b1a7abf76688124da2fa08dea2aa17f7ed097",
+      "source_keys": [
+        "VisioMath:607_A"
+      ],
+      "pair_ids": [
+        "AVP0896"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b30a3a3f0bc5951bfb2cfef26b845ca5e71671b2061548e2fc0433b4bf5366f8",
+      "source_keys": [
+        "VisioMath:616_A"
+      ],
+      "pair_ids": [
+        "AVP0896",
+        "AVP0903"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "eabe326912609c0598e0ec5c4c45a12c7e44e2794a2e9432993ef5e7db177e05",
+      "source_keys": [
+        "VisioMath:1068_A"
+      ],
+      "pair_ids": [
+        "AVP0897",
+        "AVP0901",
+        "AVP0994"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "916906dabeb6b78ef3c03c54852275966233646491867ae3e504e1b28df1d6aa",
+      "source_keys": [
+        "VisioMath:1029_A"
+      ],
+      "pair_ids": [
+        "AVP0897"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8c7d5e6e222a171b97a7ef57833060419b7cffc50f48af0d42fc5debacbeecd2",
+      "source_keys": [
+        "VisioMath:1218_A"
+      ],
+      "pair_ids": [
+        "AVP0898",
+        "AVP0995"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0e8a15bddb1533ea68b7f518fc95934c550495a3c37175e07e21f556d5f536ae",
+      "source_keys": [
+        "VisioMath:1226_A"
+      ],
+      "pair_ids": [
+        "AVP0898"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b0e25bd9489749bfbde1949f5cb28221186bc80740d849782d6d13e4aacd7279",
+      "source_keys": [
+        "VisioMath:345_A"
+      ],
+      "pair_ids": [
+        "AVP0899"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ed9cdd345c33618a611825b9b3af6ebe4ea31b26318a2e6bf1d9034b74b00b48",
+      "source_keys": [
+        "VisioMath:1414_A"
+      ],
+      "pair_ids": [
+        "AVP0899",
+        "AVP0904",
+        "AVP0996"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e2e3f91db1f2b4b6d255413389be4f0b305f38263d8375e00675216888c885f4",
+      "source_keys": [
+        "VisioMath:1531_A"
+      ],
+      "pair_ids": [
+        "AVP0900",
+        "AVP0905"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "33bdb7cec0ffcb21a99ab1093fce1debead668976052666af07d13b4273827cf",
+      "source_keys": [
+        "VisioMath:380_A"
+      ],
+      "pair_ids": [
+        "AVP0900"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4b7aa59b52467a16abae798d2a2f127a0985e0f2542803806ee1acb3bee11738",
+      "source_keys": [
+        "VisioMath:406_A"
+      ],
+      "pair_ids": [
+        "AVP0901"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "deb095ff2c91187c50a412d35ccb34418601de380cc40088e5f65458c159f811",
+      "source_keys": [
+        "VisioMath:149_A"
+      ],
+      "pair_ids": [
+        "AVP0903"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2d5ed5605bd402b186488a4152053f026158d67209b9a89c1d449443c5c53dfb",
+      "source_keys": [
+        "VisioMath:12_A"
+      ],
+      "pair_ids": [
+        "AVP0906"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cb75d56c3e195e3f38407308c31c809358dd4857387ffeaf0b515ecefe21b48f",
+      "source_keys": [
+        "VisioMath:210_A"
+      ],
+      "pair_ids": [
+        "AVP0908"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7a81a1d3322789cad2850babf6f9f0681eaaec91235d2cf129c3a8e57638028b",
+      "source_keys": [
+        "DynaMath:148"
+      ],
+      "pair_ids": [
+        "AVP0909"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0551ca22984c9f97c541efe5e33320acdd353b4f78846dadf56477c1a7fef4e3",
+      "source_keys": [
+        "VisioMath:1411_A"
+      ],
+      "pair_ids": [
+        "AVP0911"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b915d9126de00b36b6e9854dca35e9a10c410eb567061d66e2696fb2961b394f",
+      "source_keys": [
+        "VisioMath:1452_A"
+      ],
+      "pair_ids": [
+        "AVP0912",
+        "AVP0919"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "14a63b140506ab67e712b4078f1ad9647ea4db2e5ebca413eb1f5720d785784e",
+      "source_keys": [
+        "VisioMath:1563_A"
+      ],
+      "pair_ids": [
+        "AVP0913"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4295fc6f16db21a240af573a922423499243aab30ad8be00de5bf8209cebe66b",
+      "source_keys": [
+        "VisioMath:1567_A"
+      ],
+      "pair_ids": [
+        "AVP0914"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d03ae5ddc9bbae7fa76ecca53d7ae69b745d357c147dbcaa1a42803a8f34521a",
+      "source_keys": [
+        "VisioMath:211_A"
+      ],
+      "pair_ids": [
+        "AVP0914"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5861f133f9d7ab883abf02e14c597842ded6c54fa6c898625f96468c80ba87c3",
+      "source_keys": [
+        "VisioMath:510_A"
+      ],
+      "pair_ids": [
+        "AVP0915"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8d1acebd3a3d993fe815e8a42d81d2888b92b45ae9f4d9536fc989055e0d5527",
+      "source_keys": [
+        "VisioMath:1590_A"
+      ],
+      "pair_ids": [
+        "AVP0915"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "67a393fcb181f9be76d55129afc2c79ecbde69721be4eaeb297bcdd48703b6fa",
+      "source_keys": [
+        "DynaMath:102"
+      ],
+      "pair_ids": [
+        "AVP0916"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "caec70b1c5adee44cc2a30a300b42f4784b5f2e5529a696ecebe18fb15c086d7",
+      "source_keys": [
+        "VisioMath:311_A"
+      ],
+      "pair_ids": [
+        "AVP0916",
+        "AVP0925",
+        "AVP0931"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "65e9519f9666359fa7435d8a682dccc1fff69ffa1ae02fd4bbedaada9d36e92d",
+      "source_keys": [
+        "VisioMath:335_A"
+      ],
+      "pair_ids": [
+        "AVP0917",
+        "AVP0926"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dc7080682ac7dcffbfaf8a8a1b9fbf41bbc903df34f85240623889d1ae8ed8c9",
+      "source_keys": [
+        "VisioMath:1706_A"
+      ],
+      "pair_ids": [
+        "AVP0918"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1756e49d5e9da7b936e5ba49454c9c37d2c2c7995bfb08aff34867177058e96b",
+      "source_keys": [
+        "DynaMath:107"
+      ],
+      "pair_ids": [
+        "AVP0919"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "efd41be27260393dcd431605511d88e2e37efbadf77068649c51a379120ca51f",
+      "source_keys": [
+        "VisioMath:246_A"
+      ],
+      "pair_ids": [
+        "AVP0920"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d84ccaba3829b9ff3dfffe6f0ef12cae0ef2e4fea711d2b309f27b62cb89586b",
+      "source_keys": [
+        "VisioMath:413_A"
+      ],
+      "pair_ids": [
+        "AVP0921"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "87e215fa96b94b667450bf9774c832b3121a0b10d1252fa503cd3f80cf1c4cc8",
+      "source_keys": [
+        "VisioMath:612_A"
+      ],
+      "pair_ids": [
+        "AVP0922"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5594477a63e06a261ab7bcc399135b88b95471d686f5c95f7e5a2eba01c2a055",
+      "source_keys": [
+        "VisioMath:174_A"
+      ],
+      "pair_ids": [
+        "AVP0923"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "9c724630d0a839c489d45f48e0b2eed97594b353a00b9b00fa15f9b94dee62d7",
+      "source_keys": [
+        "VisioMath:241_A"
+      ],
+      "pair_ids": [
+        "AVP0924"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e1c037f70c08fa96c823e3fcd674e81bcd4b3b00b1fbd3607b8e6ea1ee2eeb9d",
+      "source_keys": [
+        "VisioMath:485_A"
+      ],
+      "pair_ids": [
+        "AVP0927"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "25bc58a9860a23ece6eeb4895ab4f0d6379eb871925abd480c3db09ba671ad59",
+      "source_keys": [
+        "VisioMath:539_A"
+      ],
+      "pair_ids": [
+        "AVP0928"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fa4c80cd7506bbf5ae1d96c0d26c2c5470c0cfd1d89d235883fe92d5c87745d3",
+      "source_keys": [
+        "VisioMath:1275_A"
+      ],
+      "pair_ids": [
+        "AVP0929"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5658dc3cf2316a52782c695cf1709f10be965d7409225bed157b18085acabe29",
+      "source_keys": [
+        "VisioMath:598_A"
+      ],
+      "pair_ids": [
+        "AVP0930"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "830e74251c4e3111591da5fd094e6965e8263438d332aaeb5d62481c1bda5409",
+      "source_keys": [
+        "DynaMath:5"
+      ],
+      "pair_ids": [
+        "AVP0930"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a5d96621db66027db009eb2afab4254d7b3d76df4a56a21fd36ba50cb9e708f6",
+      "source_keys": [
+        "DynaMath:30"
+      ],
+      "pair_ids": [
+        "AVP0931"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d17688748b2da53a131b6339b9106411c67bc52cd76519cd6d639978d9424998",
+      "source_keys": [
+        "VisioMath:1405_A"
+      ],
+      "pair_ids": [
+        "AVP0932"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "41806e2af512bb954c95d9d1b029191696c9a87e2abb986dd480baf60eb276e2",
+      "source_keys": [
+        "VisioMath:1506_A"
+      ],
+      "pair_ids": [
+        "AVP0933"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c32b15cc1c62d63163b76a020f022faddeffa1c3cc8f2f7da90a7ff1745c1007",
+      "source_keys": [
+        "VisioMath:2_A"
+      ],
+      "pair_ids": [
+        "AVP0934",
+        "AVP0977"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "54d19b2be712ee0ba85fbff14643986c9376fadbf71ee7312d750e532f2b9f7c",
+      "source_keys": [
+        "DynaMath:52"
+      ],
+      "pair_ids": [
+        "AVP0935"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "fbf9f707f750e9e99e28ac2bdb8f8c3f50c5a40ea37b5b8774b521972dc039da",
+      "source_keys": [
+        "VisioMath:5_A"
+      ],
+      "pair_ids": [
+        "AVP0935"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e1d712a86c1f3b3abe661ece60e55f9bdbe883c0d24d34dc0fcd4cb788de5f69",
+      "source_keys": [
+        "VisioMath:10_A"
+      ],
+      "pair_ids": [
+        "AVP0936",
+        "AVP0978"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "897b41fa92aefec96d5e69bf30ea08b31c8ed736a1a3e7d5e18e18200a08c898",
+      "source_keys": [
+        "DynaMath:23"
+      ],
+      "pair_ids": [
+        "AVP0936",
+        "AVP0997"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "39e74213cd9698c11554d340e86616b7360f362f2b5855b8d2967293e6fd44b1",
+      "source_keys": [
+        "DynaMath:46"
+      ],
+      "pair_ids": [
+        "AVP0937",
+        "AVP0998"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "941ee814ceee6de537d3ebdaf3a693efb3f81a8d06f97b3ffa9436693ae99e14",
+      "source_keys": [
+        "VisioMath:16_A"
+      ],
+      "pair_ids": [
+        "AVP0937"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6de1ab248458877026b0f7d47709ae29a1d36378b7ece85da17b900fa9d6ef4c",
+      "source_keys": [
+        "VisioMath:20_A"
+      ],
+      "pair_ids": [
+        "AVP0938"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0e7b2a2a112f3a646e38d86aec8280ead08f3b1a1cedb24a7d3234de68af75ea",
+      "source_keys": [
+        "DynaMath:1"
+      ],
+      "pair_ids": [
+        "AVP0938"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d5ecb48b6705724d695784cb52e702a343a1806efc3d3ba14f35d38dd723a710",
+      "source_keys": [
+        "VisioMath:23_A"
+      ],
+      "pair_ids": [
+        "AVP0939"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1068abebe0919e3aab4ed67e61e2898e9969de6aed31b95d883dcf88daa08e68",
+      "source_keys": [
+        "VisioMath:1159_A"
+      ],
+      "pair_ids": [
+        "AVP0939"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e92bf2a118651d1b7a39fbae268cf680eeaa063ade05f1a83488c7a8a5fa80d5",
+      "source_keys": [
+        "VisioMath:1164_A"
+      ],
+      "pair_ids": [
+        "AVP0940"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0e661b2a8d68308745b0f6356a2fec0ce6e1f56bfddf0a20163784d362e29a54",
+      "source_keys": [
+        "DynaMath:54"
+      ],
+      "pair_ids": [
+        "AVP0940"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e4c08766818c7210140ce4615f051318a19407f2e0944fa3c6165e7d37fb0421",
+      "source_keys": [
+        "DynaMath:47"
+      ],
+      "pair_ids": [
+        "AVP0941"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "59ece423fe4ca815f37b9c4744db7eccd1d0322150a890172572484cd712f5a5",
+      "source_keys": [
+        "VisioMath:26_A"
+      ],
+      "pair_ids": [
+        "AVP0941"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6b095313e5abee334b357d3d1422eb78067fd0dcfa096cab71d7a3613c144e66",
+      "source_keys": [
+        "VisioMath:32_A"
+      ],
+      "pair_ids": [
+        "AVP0942"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "35311d6294abc9dc6258b233312ca78df8254b9283bd5ea71da4916179adf386",
+      "source_keys": [
+        "VisioMath:215_A"
+      ],
+      "pair_ids": [
+        "AVP0942"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "766a9edadaed95ff45ca077566f1dae8ac56d5f0f33f196f48230f2c07fd66dd",
+      "source_keys": [
+        "VisioMath:1529_A"
+      ],
+      "pair_ids": [
+        "AVP0943"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "14a61f7f7b9e3ac1891b6e8438318efc6498842dd4b53125aae20ab176e4cc02",
+      "source_keys": [
+        "VisioMath:36_A"
+      ],
+      "pair_ids": [
+        "AVP0943",
+        "AVP0980"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6b8c1a2a287bb1d07a4a2a8d358dad5740b384ec1d061276716afedccc4f271a",
+      "source_keys": [
+        "VisioMath:1169_A"
+      ],
+      "pair_ids": [
+        "AVP0944"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d7aa6d623e2adc3325adc3dc43a5fc802e082dc5637b1227621a28b115ea36df",
+      "source_keys": [
+        "DynaMath:175"
+      ],
+      "pair_ids": [
+        "AVP0945",
+        "AVP0994"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e2f480ddd1512e651923f73b96a74b8c073cc9da091dc0baf99bdef7e07219d9",
+      "source_keys": [
+        "VisioMath:1187_A"
+      ],
+      "pair_ids": [
+        "AVP0945"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "d0ed34ea7032757e3c23bd418f009e0ae63253ef26111f55dfc22156510427b5",
+      "source_keys": [
+        "VisioMath:1190_A"
+      ],
+      "pair_ids": [
+        "AVP0946"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "88dd5ac69c337634dc66aa3080e7f315c233af5fdad0289c8a69f26f7e52aa7c",
+      "source_keys": [
+        "DynaMath:213"
+      ],
+      "pair_ids": [
+        "AVP0946"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4102820bb41165d8aa1ce5c9e8e6b06849417cfb9db80f5fe614077d2038fff9",
+      "source_keys": [
+        "VisioMath:1339_A"
+      ],
+      "pair_ids": [
+        "AVP0947"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7eb5551109d7de58402a7d1770c530ec4aa25f1d0caf6ba5adb69f5c74b5b3c0",
+      "source_keys": [
+        "VisioMath:1434_A"
+      ],
+      "pair_ids": [
+        "AVP0947"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "20b7996dc20a5846956c828af06f8e094ea79c8979cc9943f4f04ed2a818aa5e",
+      "source_keys": [
+        "VisioMath:107_A"
+      ],
+      "pair_ids": [
+        "AVP0948",
+        "AVP0982"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "29b802e9fb81e57fcf3545035c90b50874c14be1cb0e2b6c51480e570ea7bd14",
+      "source_keys": [
+        "DynaMath:15"
+      ],
+      "pair_ids": [
+        "AVP0948"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "01dfc695a0e1a1f8fd2c83de9516ff326fbc52a80702d505ff49583dac2101bc",
+      "source_keys": [
+        "DynaMath:106"
+      ],
+      "pair_ids": [
+        "AVP0949"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2c544e4f4035735c4d17b20e304905f6bf434cae866dbdea7e1b91c2c8ff4d93",
+      "source_keys": [
+        "VisioMath:223_A"
+      ],
+      "pair_ids": [
+        "AVP0949",
+        "AVP0987"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "18156708334dbb43a4e4de43f0c940b41a1a9e659d88faa1b27e0b11bf329a04",
+      "source_keys": [
+        "VisioMath:265_A"
+      ],
+      "pair_ids": [
+        "AVP0950"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f1257936a85e396d0071cdffeedf0fb9b3de6c0ba16dadfb5271e6045584a989",
+      "source_keys": [
+        "VisioMath:457_A"
+      ],
+      "pair_ids": [
+        "AVP0951"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4c9e848191cb01cba2b0708ffc9d64954944a99873d2e54a2d218ba94d863759",
+      "source_keys": [
+        "VisioMath:277_A"
+      ],
+      "pair_ids": [
+        "AVP0951"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8b88baaf182d01703170ace30220ded89dc5ba80bf9a93575fc931bdda9b335a",
+      "source_keys": [
+        "VisioMath:1336_A"
+      ],
+      "pair_ids": [
+        "AVP0952",
+        "AVP0960"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0af060b9435b8c7f7ee35fa3bc8a365edbf8fe08cff08e00e72c3284fb20f62d",
+      "source_keys": [
+        "VisioMath:1168_A"
+      ],
+      "pair_ids": [
+        "AVP0953",
+        "AVP0961"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4e292b55d84916c73cd66a4ab134910de881079c9a151b6a53f81c6aed95ccc4",
+      "source_keys": [
+        "VisioMath:435_A"
+      ],
+      "pair_ids": [
+        "AVP0955",
+        "AVP0969"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "72bd9ce786056d8c86ea267492b557d2eb31585640effe99a98aa21b97efbb5d",
+      "source_keys": [
+        "VisioMath:483_A"
+      ],
+      "pair_ids": [
+        "AVP0955"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "7c4e2433081218cf7cb26fdf48c367637aa73f1bab3219fc4462a75939068d3b",
+      "source_keys": [
+        "VisioMath:492_A"
+      ],
+      "pair_ids": [
+        "AVP0956"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4eeff8927f6f8831565f5fd66c68d4f0a482bb633697fc438b3adbce7ec4cbb5",
+      "source_keys": [
+        "VisioMath:603_A"
+      ],
+      "pair_ids": [
+        "AVP0956"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "da2cff806d16d0d1ba9467051e01c7ad4d59acb1fad65606892e3c7bdc60941d",
+      "source_keys": [
+        "VisioMath:502_A"
+      ],
+      "pair_ids": [
+        "AVP0957"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "34c124552936bdc8a9e08e6595914603f6f9023b542f5d3604b2951298c6d5fc",
+      "source_keys": [
+        "VisioMath:538_A"
+      ],
+      "pair_ids": [
+        "AVP0957"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "978fa14b64128be59d7356c41cfeb860ae9945d341ff872e4eae422d858a713c",
+      "source_keys": [
+        "VisioMath:610_A"
+      ],
+      "pair_ids": [
+        "AVP0958"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c4cc2b33362b88412fdd13d56113315685d95898b8901617846d2a7408f54b24",
+      "source_keys": [
+        "VisioMath:1095_A"
+      ],
+      "pair_ids": [
+        "AVP0958"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "aeda3551493b48df33ba2d81cf760f512620e20b3d434d5d73aa5da4dbe6a723",
+      "source_keys": [
+        "VisioMath:643_A"
+      ],
+      "pair_ids": [
+        "AVP0959"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "87f747ad6359669bf05552ee6792c5849e297c889ba7178947db1400b583f12f",
+      "source_keys": [
+        "VisioMath:1022_A"
+      ],
+      "pair_ids": [
+        "AVP0960"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "4bc69520e556acad4ac14a767393d7abcf9975d23c01e0fdeea663e1ef10b185",
+      "source_keys": [
+        "VisioMath:30_A"
+      ],
+      "pair_ids": [
+        "AVP0962"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0330413e90b0b9fb5976c664fc29dfb5575228c3ba3a9db8afe8b38d34026004",
+      "source_keys": [
+        "VisioMath:162_A"
+      ],
+      "pair_ids": [
+        "AVP0963",
+        "AVP0984"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c4143077c492b0ccefd923faa49d8a8ac2d8dc9bbb01e0693c092ddf1c326302",
+      "source_keys": [
+        "VisioMath:478_A"
+      ],
+      "pair_ids": [
+        "AVP0964"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8591be095e0476bf1a1d7ef09cfcdc6339e06879d2c5861cb24fbd72cb6a0cfe",
+      "source_keys": [
+        "VisioMath:132_A"
+      ],
+      "pair_ids": [
+        "AVP0964"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5370b55774bc6415f2444c61c9ce9e3b06daa89964b722cab790c10d49658bbe",
+      "source_keys": [
+        "VisioMath:1256_A"
+      ],
+      "pair_ids": [
+        "AVP0965"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "38aebd900247a8f5add0fd9c650ec02814de7b05f04f7775a82dcf98adaf39a4",
+      "source_keys": [
+        "VisioMath:1237_A"
+      ],
+      "pair_ids": [
+        "AVP0966"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "8543b7ee9606c0b25b75d8053b08080a7fbe2737cbe4c0161afbebb83c733e84",
+      "source_keys": [
+        "VisioMath:109_A"
+      ],
+      "pair_ids": [
+        "AVP0968"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a4defd12059180f55128c21bbfdcd77c67e8dd70611973c9541be8d2785b6ce6",
+      "source_keys": [
+        "VisioMath:289_A"
+      ],
+      "pair_ids": [
+        "AVP0968"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5f3ca7d42014f751c84c9cb39857c63e57d9f28c6e274dca409086be58b3444a",
+      "source_keys": [
+        "VisioMath:364_A"
+      ],
+      "pair_ids": [
+        "AVP0969"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "0fc8dfb2ccf20715f4e27d45660c1483aa79fb3a48a36349f4bb3bcae3b3ce48",
+      "source_keys": [
+        "VisioMath:504_A"
+      ],
+      "pair_ids": [
+        "AVP0970"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "c8189a6229394ea7ab554db5a22fa2691c047d6366f5f6fa1832e7ef40ffdc11",
+      "source_keys": [
+        "VisioMath:496_A"
+      ],
+      "pair_ids": [
+        "AVP0970"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dbfb00c03bc83908acb843d7ffb38670c6a65e2764eb96e8d4a421e6fad0013a",
+      "source_keys": [
+        "VisioMath:589_A"
+      ],
+      "pair_ids": [
+        "AVP0971"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "a9ae2bff787f5ad13be9a91fa8f38aad315fe8296a9bd8a1de96fa6668285e13",
+      "source_keys": [
+        "VisioMath:540_A"
+      ],
+      "pair_ids": [
+        "AVP0971"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "92d4ee75e45d55c87fbdd2e6ba888ee26d200245cca86a8461500160acfc230f",
+      "source_keys": [
+        "VisioMath:1114_A"
+      ],
+      "pair_ids": [
+        "AVP0972"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "152f3160251f299c5de57f66f3acacba17b5d97642925a37353c2e44b3ebf2fe",
+      "source_keys": [
+        "VisioMath:1296_A"
+      ],
+      "pair_ids": [
+        "AVP0973"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "435a9bd87e173abb74208a40354e89a369fddacd5761f42fe8d16fe07dab0a8b",
+      "source_keys": [
+        "VisioMath:1415_A"
+      ],
+      "pair_ids": [
+        "AVP0974"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "2383e57258f16e381991238383b52a7e0528063bd7d73f5d30c18a30c2ae544b",
+      "source_keys": [
+        "VisioMath:297_A"
+      ],
+      "pair_ids": [
+        "AVP0974"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1825ba8afc489152a45be62cbfa6edce74dd575bcb7be984c70cb625e982ec0e",
+      "source_keys": [
+        "VisioMath:1646_A"
+      ],
+      "pair_ids": [
+        "AVP0975"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "20855cc061438dbae0f28f97a2a8889eb2f71ce686d6a558bce10e329031e940",
+      "source_keys": [
+        "VisioMath:1464_A"
+      ],
+      "pair_ids": [
+        "AVP0975"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "1c931006474d47d317ed0708576a4a84d776d829465b993c5610c57813a50679",
+      "source_keys": [
+        "VisioMath:0_A"
+      ],
+      "pair_ids": [
+        "AVP0976"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "e20beeb465b32fc54add0d1e7231f6e4f1f05e52bb47b65004090e08e0e016f3",
+      "source_keys": [
+        "VisioMath:28_A"
+      ],
+      "pair_ids": [
+        "AVP0979"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ceb4b726ccef338029a4b320864cfd3940474fd99201f5a38467029fc88c298e",
+      "source_keys": [
+        "VisioMath:57_A"
+      ],
+      "pair_ids": [
+        "AVP0981"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "36b848dbabf6d4b142c511f44feda58330757862449057e95954aeac70336822",
+      "source_keys": [
+        "VisioMath:119_A"
+      ],
+      "pair_ids": [
+        "AVP0983"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "dec011c09e2df134157b3afed077333bdd25631228bb205a1e47159d003f0d42",
+      "source_keys": [
+        "VisioMath:186_A"
+      ],
+      "pair_ids": [
+        "AVP0985"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "34b98e020dda635f145e4f89ec5a207df8b4543bc4b7dfb8753776b43c94b595",
+      "source_keys": [
+        "VisioMath:201_A"
+      ],
+      "pair_ids": [
+        "AVP0986"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "41238c16f82ed945b8c4a286fc8757a898041de764a073fda717952f29f072a3",
+      "source_keys": [
+        "VisioMath:1078_A"
+      ],
+      "pair_ids": [
+        "AVP0986"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5b9d29e5cb74e46fc2be48bb69c52ca85f2cf1aaf87d690a0735f95d5333d378",
+      "source_keys": [
+        "VisioMath:532_A"
+      ],
+      "pair_ids": [
+        "AVP0987"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f35aa35a157fbe091ca087fd5fdef47952fa8da0bb8e67056a768c268e8b594d",
+      "source_keys": [
+        "DynaMath:126"
+      ],
+      "pair_ids": [
+        "AVP0988"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "6d737864ec1378b79e7978227a4555c5ec4fbebe2224dfde97668fb0318c279a",
+      "source_keys": [
+        "VisioMath:306_A"
+      ],
+      "pair_ids": [
+        "AVP0989"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "ee1ac70ed314b277d65c6362ece6c05013f61f5c095ceda8eb050ae40bb4d4b0",
+      "source_keys": [
+        "VisioMath:285_A"
+      ],
+      "pair_ids": [
+        "AVP0989"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "38ea06d47232103ff22b893bf2c9cd44f8e3c3e6fefd1b0ec3e72be0b087bf8d",
+      "source_keys": [
+        "VisioMath:288_A"
+      ],
+      "pair_ids": [
+        "AVP0990"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "5f5e22e9d7f9071b0472f5c995c93d18964162f3be50c96e99e099f75872d7a0",
+      "source_keys": [
+        "VisioMath:322_A"
+      ],
+      "pair_ids": [
+        "AVP0990"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "55f62fe3b49be0cfe712d74d1075e8b612b43d7fd34d8b6a8f8a1204c446bb5c",
+      "source_keys": [
+        "VisioMath:1341_A"
+      ],
+      "pair_ids": [
+        "AVP0991"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "36b4e114c0fd3ad9e917f14776b094cd1e17e8841e98743753bb6a07b2c562f5",
+      "source_keys": [
+        "VisioMath:497_A"
+      ],
+      "pair_ids": [
+        "AVP0991"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cbf6bf23529c4d1137e186665a66a73fdcbcae39ecb3dade47505b9cb583db83",
+      "source_keys": [
+        "VisioMath:147_A"
+      ],
+      "pair_ids": [
+        "AVP0992",
+        "AVP0997"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "f0715ba72dc3e4bf278ff5aa2c575a1dc2bf8852c58df12b9314c647088dec37",
+      "source_keys": [
+        "VisioMath:212_A"
+      ],
+      "pair_ids": [
+        "AVP0992"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b664dbceb0c07d4505dc6dacfe9fb11e86eb1d1aecd78fa00c17e1c0c3b55ab5",
+      "source_keys": [
+        "VisioMath:247_A"
+      ],
+      "pair_ids": [
+        "AVP0993"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "855e30cb64c666255c0c059bd2f693df66f2943e26cd681246bc9be27f8a6f1d",
+      "source_keys": [
+        "VisioMath:233_A"
+      ],
+      "pair_ids": [
+        "AVP0993",
+        "AVP0998"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "b82c3dc3da3d9496853a152e9dc3767adac0f89143fd22a0bb5eacd9fd8bd26b",
+      "source_keys": [
+        "DynaMath:176"
+      ],
+      "pair_ids": [
+        "AVP0995"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "cb2e3d0828a1c74e46fe12d058c5bb47f9530c04da4a9efb427b91bb2a23f659",
+      "source_keys": [
+        "DynaMath:177"
+      ],
+      "pair_ids": [
+        "AVP0996"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "381fb48ed71f6ef202f224a97fdd7e41af981f135f216dc0f2253812498e7325",
+      "source_keys": [
+        "DynaMath:61"
+      ],
+      "pair_ids": [
+        "AVP0999"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "04642be3160f6b067dc599aa6f932e4bd6f748321e4f9177f32a1f938b646fd2",
+      "source_keys": [
+        "VisioMath:401_A"
+      ],
+      "pair_ids": [
+        "AVP0999"
+      ]
+    },
+    {
+      "decoded_pixel_sha256": "3a4714f1b42b0020c286fa93b42a5b0b74a83dab0fbdc0d9f02a3f8c089c7467",
+      "source_keys": [
+        "VisioMath:1074_A"
+      ],
+      "pair_ids": [
+        "AVP1000"
       ]
     }
   ],

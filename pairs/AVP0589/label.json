@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation −4 in both images.",
+  "mathematical_meanings": "Left image: The blue parabola's vertex has y-coordinate negative four. Right image: The blue point on the circle has y-coordinate negative four.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both cues identify the same vertical coordinate value, −4. The evidence is the selected axis position or coordinate component in each image."
+}

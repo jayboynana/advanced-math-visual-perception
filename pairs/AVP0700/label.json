@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A right-pointing arrow or chevron along a horizontal direction.",
+  "mathematical_meanings": "Left image: It shows the geometric rearrangement of the same pieces. Right image: The paired chevrons mark the upper and lower sides as parallel.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left arrow separates an initial construction from a changed arrangement. The repeated right chevrons sit within two geometric sides and encode their parallelism."
+}

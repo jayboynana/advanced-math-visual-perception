@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0536",
+  "authoring_id": "V04NR036",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "stock_price_vs_angle",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "382",
+    "sample_index": "382",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image382.png",
+    "sha256": "d2f5ff9cbda8d22134d4f099411c2b74d19b3d7a25d8a30e123ddb8970b606f6",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "statistical_chart",
+    "image_path": "pairs/AVP0536/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1889_2",
+    "sample_index": "1889_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1889,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "High",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_4379ad893b2f21a86d58g_0078_2.jpg",
+    "sha256": "7b33f90cddbc7144934478dcc6214fffd3063fffd46085c28ad8993e29079b8e",
+    "width": 631,
+    "height": 334,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0536/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 150 and 150°.",
+    "left_evidence": "The 150 printed beside the December point in the line chart.",
+    "right_evidence": "The 150° beside the larger marked angle at A.",
+    "left_meaning": "The displayed December stock price is 150.",
+    "right_meaning": "The indicated angle at A measures 150 degrees.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of stock price, while the right context gives it the role of angle measure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 150 and 150°.",
+    "mathematical_meanings": "Left image: The displayed December stock price is 150. Right image: The indicated angle at A measures 150 degrees.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of stock price, while the right context gives it the role of angle measure."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0536",
+    "condition": "condition/numeric_representation/AVP0536"
+  }
+}

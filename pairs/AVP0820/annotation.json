@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0820",
+  "authoring_id": "V04SR070",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "matrix_versus_point",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "81",
+    "sample_index": "81",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image81.png",
+    "sha256": "adbfff3d2a82ffd4ad1243618b4e9db94e100ee0966d55814f42f2ba6ad5002e",
+    "width": 911,
+    "height": 886,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0820/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "490",
+    "sample_index": "490",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image490.png",
+    "sha256": "abf3f6d4284ef39ac027e175a5eb344df27ce6bc55a942eea4bb8925eea7d197",
+    "width": 992,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0820/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A at the upper endpoint of the line through O",
+    "right_evidence": "A before the first array, whose first row is -3, -7",
+    "left_meaning": "The symbol \"A\" names a specific geometric point at the indicated location.",
+    "right_meaning": "The symbol \"A\" names the matrix whose entries follow in brackets.",
+    "same_meaning": false,
+    "reason": "The left occurrence is A at the upper endpoint of the line through O. The right occurrence is A before the first array, whose first row is -3, -7. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names the matrix whose entries follow in brackets.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is A at the upper endpoint of the line through O. The right occurrence is A before the first array, whose first row is -3, -7. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0820",
+    "condition": "condition/symbolic_roles/AVP0820"
+  }
+}

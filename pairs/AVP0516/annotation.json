@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0516",
+  "authoring_id": "V04NR016",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length_m",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "71",
+    "sample_index": "71",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 292,
+      "img_width": 187,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/71.jpg",
+    "sha256": "825b5a7d54cd26d20e98ac18a6a36d60fc71dc3481f05963f82480fd0d16189c",
+    "width": 187,
+    "height": 292,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0516/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "74",
+    "sample_index": "74",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image74.png",
+    "sha256": "f70e12c3d682c3b038527309dd78b285c6ba7fbe38b209978353cd274e95643a",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0516/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 6 ft in both images.",
+    "left_evidence": "The 6 ft beside the left side of the yellow rectangle.",
+    "right_evidence": "The 6ft beneath the front bottom edge of the pink rectangular prism.",
+    "left_meaning": "The indicated rectangle side measures six feet.",
+    "right_meaning": "The front bottom edge measures six feet.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 6 ft."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 6 ft in both images.",
+    "mathematical_meanings": "Left image: The indicated rectangle side measures six feet. Right image: The front bottom edge measures six feet.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 6 ft."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0516",
+    "condition": "condition/numeric_representation/AVP0516"
+  }
+}

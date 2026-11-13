@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A vertical dashed segment crossing or reaching a figure base.",
+  "mathematical_meanings": "Left image: It marks the reflection axis of the symmetric triangle. Right image: It constructs the perpendicular distance from C to AD.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes locate the line about which the figure reflects. The right dashes join an off-center vertex to a marked perpendicular foot, giving an altitude construction."
+}

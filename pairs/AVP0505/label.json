@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 30° in both images.",
+  "mathematical_meanings": "Left image: The angle between the left vertical direction and CA at C measures 30 degrees. Right image: The angle between AC and the ground ray at A measures 30 degrees.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both labels are attached to marked angle regions and give the same measure of 30°."
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0862",
+  "authoring_id": "V04SR112",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "endpoint_value_versus_side_length",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "203",
+    "sample_index": "203",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image203.png",
+    "sha256": "e2a922afe3e6304dbadc420931026235f38e4955d7f0b47534705c316cd3aaf3",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0862/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "68_1",
+    "sample_index": "68_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 68,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "High",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch12-2024_06_15_8bdff7ea2d5b14de969fg_0039_1.jpg",
+    "sha256": "fb03ffbbf260e2075a03954797df0595fb7b5b2dc66a1256ae65a71023946001",
+    "width": 279,
+    "height": 288,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0862/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter a",
+    "left_evidence": "a beneath the left dashed drop to the horizontal axis",
+    "right_evidence": "a above the shorter left part of the top edge",
+    "left_meaning": "The symbol \"a\" denotes the horizontal coordinate of the indicated interval endpoint.",
+    "right_meaning": "The symbol \"a\" denotes a length or a variable in the indicated length expression.",
+    "same_meaning": false,
+    "reason": "The left occurrence is a beneath the left dashed drop to the horizontal axis. The right occurrence is a above the shorter left part of the top edge. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter a",
+    "mathematical_meanings": "Left image: The symbol \"a\" denotes the horizontal coordinate of the indicated interval endpoint. Right image: The symbol \"a\" denotes a length or a variable in the indicated length expression.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is a beneath the left dashed drop to the horizontal axis. The right occurrence is a above the shorter left part of the top edge. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0862",
+    "condition": "condition/symbolic_roles/AVP0862"
+  }
+}

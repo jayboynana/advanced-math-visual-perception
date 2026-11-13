@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 150° and 150 m.",
+  "mathematical_meanings": "Left image: The indicated angle at A measures 150 degrees. Right image: The vertical distance from the baseline to chord CD is 150 meters.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit."
+}

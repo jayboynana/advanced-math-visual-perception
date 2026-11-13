@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 3 ft and 3.",
+  "mathematical_meanings": "Left image: The square's bottom side measures three feet. Right image: The marked point has y-coordinate 3.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of vertical coordinate."
+}

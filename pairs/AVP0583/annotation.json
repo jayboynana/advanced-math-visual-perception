@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0583",
+  "authoring_id": "V04NR083",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_index",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1027_1",
+    "sample_index": "1027_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 1027,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_da259e8c8bb047f1aad6g_0031_1.jpg",
+    "sha256": "029bf99c9b4c4a380dd3ffcb3ed7c613024a2072a4d03b8fcb7103c9066a211a",
+    "width": 169,
+    "height": 105,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0583/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "214_1",
+    "sample_index": "214_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 214,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_ab879b02decac11d39c7g_0014_1.jpg",
+    "sha256": "8ff718776c3a8a8e565b80ddb1ed20ad57e4a20672eed2eae877b0b57eb7b1b7",
+    "width": 491,
+    "height": 269,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0583/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 1 in both images.",
+    "left_evidence": "The standalone 1 just below the marked upper-left corner of the parallelogram.",
+    "right_evidence": "The standalone 1 inside the left angle at the crossing of the diagonals.",
+    "left_meaning": "The numeral 1 identifies the upper-left angle region.",
+    "right_meaning": "The numeral 1 identifies the left-hand angle region.",
+    "same_meaning": true,
+    "reason": "The numeral 1 appears next to an angle arc in both diagrams and identifies the marked angle region in each."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+    "mathematical_meanings": "Left image: The numeral 1 identifies the upper-left angle region. Right image: The numeral 1 identifies the left-hand angle region.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The numeral 1 appears next to an angle arc in both diagrams and identifies the marked angle region in each."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0583",
+    "condition": "condition/numeric_representation/AVP0583"
+  }
+}

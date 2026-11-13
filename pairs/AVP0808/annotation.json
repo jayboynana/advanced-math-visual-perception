@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0808",
+  "authoring_id": "V04SR058",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_radius",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "53",
+    "sample_index": "53",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image53.png",
+    "sha256": "76d8c41502b05aaf32f04a3892fa35cce13538ce460a36c5c91e9e1281741864",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0808/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "27",
+    "sample_index": "27",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image27.png",
+    "sha256": "5db16135a67cc98007be27e5a3a5888d0a5fe907a4f7988f470c0f33aaf7b231",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0808/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter r",
+    "left_evidence": "lowercase r in r = 5 beside the inner-circle radius",
+    "right_evidence": "r in r = 8 below the horizontal radius",
+    "left_meaning": "The symbol \"r\" denotes the radius of the indicated circle or circular face.",
+    "right_meaning": "The symbol \"r\" denotes the radius of the indicated circle or circular face.",
+    "same_meaning": true,
+    "reason": "The left occurrence is lowercase r in r = 5 beside the inner-circle radius. The right occurrence is r in r = 8 below the horizontal radius. The placement in each image shows that the symbol denotes the radius of the indicated circle or circular face."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter r",
+    "mathematical_meanings": "Left image: The symbol \"r\" denotes the radius of the indicated circle or circular face. Right image: The symbol \"r\" denotes the radius of the indicated circle or circular face.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is lowercase r in r = 5 beside the inner-circle radius. The right occurrence is r in r = 8 below the horizontal radius. The placement in each image shows that the symbol denotes the radius of the indicated circle or circular face."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0808",
+    "condition": "condition/symbolic_roles/AVP0808"
+  }
+}

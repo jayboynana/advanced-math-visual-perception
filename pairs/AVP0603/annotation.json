@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0603",
+  "authoring_id": "V04NR103",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "angle_vs_temperature_scale",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1855_2",
+    "sample_index": "1855_2",
+    "problem_version": "original",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "problem_id": 1855,
+      "subject": "Solid Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_198169e355ab3da4787bg_0097_2.jpg",
+    "sha256": "a741273f0f7754cab254edd36dff0ef4ec70d5604d3b6b3e103ff718d588133d",
+    "width": 431,
+    "height": 343,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0603/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "380",
+    "sample_index": "380",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image380.png",
+    "sha256": "efe9b1f4a8910f8c11d02fa32c92b5cb68ac5c51e908d0e1c26379c40f045641",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "statistical_chart",
+    "image_path": "pairs/AVP0603/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 40° and 40.",
+    "left_evidence": "The 40° inside the large triangle at A.",
+    "right_evidence": "The 40 at the top of the vertical axis labeled Temperature.",
+    "left_meaning": "The angle between AH and AB at A measures 40 degrees.",
+    "right_meaning": "The selected tick marks a temperature value of 40 on the chart's vertical scale.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of angle measure, while the right context gives it the role of temperature scale value."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 40° and 40.",
+    "mathematical_meanings": "Left image: The angle between AH and AB at A measures 40 degrees. Right image: The selected tick marks a temperature value of 40 on the chart's vertical scale.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of temperature scale value."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0603",
+    "condition": "condition/numeric_representation/AVP0603"
+  }
+}

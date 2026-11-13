@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0713",
+  "authoring_id": "V04GM088",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_vs_construction_dashes",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1259",
+    "sample_index": "1259",
+    "problem_version": "3steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Volume and Capacity of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_14",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "14-2.png",
+    "sha256": "bb1b74e84182dea4aebfa9b69ebde999a4871ed53e974989a46aa7071c3b41f9",
+    "width": 296,
+    "height": 208,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0713/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "792",
+    "sample_index": "792",
+    "problem_version": "2steps_multi",
+    "image_type": "geometry",
+    "source_subject": "Division of Plane Figures;Understanding and Representing Angles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_72",
+      "step_variant": "2steps_multi"
+    },
+    "original_relative_path": "72-multi.png",
+    "sha256": "8924d78cd9f397ede5ab50c3d6b929e114e0c552f7ef172ccab1e00700199ebf",
+    "width": 1038,
+    "height": 1070,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0713/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight line made of separated strokes.",
+    "left_evidence": "The dashed horizontal edge from B to C inside the box projection.",
+    "right_evidence": "The dashed horizontal line joining the two sloping sides of the triangle.",
+    "left_meaning": "It represents a hidden rear bottom edge of the box.",
+    "right_meaning": "It partitions the plane triangle into an upper triangle and a lower region.",
+    "same_meaning": false,
+    "reason": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It partitions the plane triangle into an upper triangle and a lower region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight line made of separated strokes.",
+    "mathematical_meanings": "Left image: It represents a hidden rear bottom edge of the box. Right image: It partitions the plane triangle into an upper triangle and a lower region.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It partitions the plane triangle into an upper triangle and a lower region."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0713",
+    "condition": "condition/geometric_markers/AVP0713"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0715",
+  "authoring_id": "V04GM090",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_vs_construction_dashes",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "666",
+    "sample_index": "666",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Volume and Capacity of Cubes",
+    "source_metadata": {
+      "upstream_group_id": "2steps_306",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "306-2.png",
+    "sha256": "b311ce1c0cb4b0bd4fcb32b99f4414d10005ec2cd5f858028ce6b068c62841eb",
+    "width": 275,
+    "height": 123,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0715/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1223",
+    "sample_index": "1223",
+    "problem_version": "3steps_1",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_143",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "143-1.png",
+    "sha256": "3365369474feea99a9743904108b0ba6a11df2e2c230ce547b57b317bbf0bced",
+    "width": 314,
+    "height": 384,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0715/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight line made of separated strokes.",
+    "left_evidence": "The horizontal dashed edge on the far side of the lower face.",
+    "right_evidence": "The dashed oblique line from O to A above the top base of the trapezoid.",
+    "left_meaning": "It represents the hidden rear bottom edge of the cube.",
+    "right_meaning": "It extends the oblique side to the apex of a larger triangle.",
+    "same_meaning": false,
+    "reason": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It extends the oblique side to the apex of a larger triangle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight line made of separated strokes.",
+    "mathematical_meanings": "Left image: It represents the hidden rear bottom edge of the cube. Right image: It extends the oblique side to the apex of a larger triangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It extends the oblique side to the apex of a larger triangle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0715",
+    "condition": "condition/geometric_markers/AVP0715"
+  }
+}

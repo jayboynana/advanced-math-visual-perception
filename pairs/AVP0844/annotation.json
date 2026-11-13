@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0844",
+  "authoring_id": "V04SR094",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "center_versus_origin",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "339",
+    "sample_index": "339",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image339.png",
+    "sha256": "8be9f654ae44bfc006610dabd0d144cb6750ea25138477ef17559f23eec155d2",
+    "width": 600,
+    "height": 600,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0844/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "210_1",
+    "sample_index": "210_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 210,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_8204df6bb88539a906dfg_0013_1.jpg",
+    "sha256": "bb85207559c0ffea34f791f22dfc5613a93247b7cb00bcd271553caf6ffee2ca",
+    "width": 257,
+    "height": 242,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0844/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O at the common start of the dotted rays on the complex plane",
+    "right_evidence": "O next to the interior point from which the radius OA extends",
+    "left_meaning": "The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
+    "right_meaning": "The symbol \"O\" marks the center of the indicated circle.",
+    "same_meaning": false,
+    "reason": "The left occurrence is O at the common start of the dotted rays on the complex plane. The right occurrence is O next to the interior point from which the radius OA extends. The left placement shows that the symbol marks the origin at the intersection of the coordinate axes, while the right placement shows that it marks the center of the indicated circle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: The symbol \"O\" marks the origin at the intersection of the coordinate axes. Right image: The symbol \"O\" marks the center of the indicated circle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is O at the common start of the dotted rays on the complex plane. The right occurrence is O next to the interior point from which the radius OA extends. The left placement shows that the symbol marks the origin at the intersection of the coordinate axes, while the right placement shows that it marks the center of the indicated circle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0844",
+    "condition": "condition/symbolic_roles/AVP0844"
+  }
+}

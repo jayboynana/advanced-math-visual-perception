@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0618",
+  "authoring_id": "V04NR118",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "constant_vs_y_coordinate",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "65",
+    "sample_index": "65",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image65.png",
+    "sha256": "6354f05ff0864451c6262bee18e87552f1a2b879d3301c700295ee30a75ed6b6",
+    "width": 484,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0618/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "94_1",
+    "sample_index": "94_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 94,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_58474443df6e195863d8g_0094_1.jpg",
+    "sha256": "088d00fe8e78d41a3e4536ed8feee1807e7befb15b7403cd64476368b68f8495",
+    "width": 294,
+    "height": 314,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0618/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2 in both images.",
+    "left_evidence": "The positive 2 added in x + 2 beneath the rectangle's bottom edge.",
+    "right_evidence": "The 2 beside the upper labeled tick on the vertical axis.",
+    "left_meaning": "The 2 is an additive constant in the bottom edge's length expression.",
+    "right_meaning": "The tick marks y-coordinate 2.",
+    "same_meaning": false,
+    "reason": "The left context gives the number the role of additive constant, while the right context gives it the role of vertical coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+    "mathematical_meanings": "Left image: The 2 is an additive constant in the bottom edge's length expression. Right image: The tick marks y-coordinate 2.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left context gives the number the role of additive constant, while the right context gives it the role of vertical coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0618",
+    "condition": "condition/numeric_representation/AVP0618"
+  }
+}

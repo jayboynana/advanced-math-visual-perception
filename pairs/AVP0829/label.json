@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter A",
+  "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names the matrix whose entries follow in brackets.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is A at the intersection of the horizontal axis and vertical segment AB. The right occurrence is A before the 5 by 5 array beginning with 3.32. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
+}

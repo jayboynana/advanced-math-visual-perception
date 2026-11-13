@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 0.2 in both images.",
+  "mathematical_meanings": "Left image: The directed connection from B to A is labeled with weight 0.2. Right image: The marked point has x-coordinate 0.2.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of weight on a directed edge, while the right context gives it the role of horizontal coordinate."
+}

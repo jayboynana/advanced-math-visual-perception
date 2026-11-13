@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+  "mathematical_meanings": "Left image: The table gives function output 3 at input x = 0. Right image: The positive intercept on the horizontal axis has x-coordinate 3.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of tabulated function output, while the right context gives it the role of horizontal coordinate."
+}

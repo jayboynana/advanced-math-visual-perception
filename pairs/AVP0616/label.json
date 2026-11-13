@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The parabola's vertex has y-coordinate 2. Right image: The numeral 2 identifies the lower angle region.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of identifier of a marked angle."
+}

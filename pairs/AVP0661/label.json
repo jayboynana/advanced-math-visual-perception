@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A short circular arc drawn between rays near their common vertex.",
+  "mathematical_meanings": "Left image: It identifies the selected angle labeled 1 at that polygon vertex. Right image: It identifies the angle between the low sloping side and the bottom horizontal ray.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0570",
+  "authoring_id": "V04NR070",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "194",
+    "sample_index": "194",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image194.png",
+    "sha256": "e1c6ba7658b6f36d74fafbf18cc0e39bb2fcfd59640ae4a083834a7e6e23e397",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0570/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "484_1",
+    "sample_index": "484_1",
+    "problem_version": "original",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "problem_id": 484,
+      "subject": "Solid Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_b9af2d17c1bfa2bebf76g_0006_1.jpg",
+    "sha256": "d6d6ffe08378c6874a4e7481a4acc5333182cbda7c0bf9f38496ed8a758f07e4",
+    "width": 312,
+    "height": 192,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0570/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3 in both images.",
+    "left_evidence": "The 3 beside the shorter left vertical side.",
+    "right_evidence": "The 3 below the horizontal base of the right triangle.",
+    "left_meaning": "The left vertical side has length value 3.",
+    "right_meaning": "The base, opposite the right-angle marker, has length value 3.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 3."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+    "mathematical_meanings": "Left image: The left vertical side has length value 3. Right image: The base, opposite the right-angle marker, has length value 3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 3."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0570",
+    "condition": "condition/numeric_representation/AVP0570"
+  }
+}

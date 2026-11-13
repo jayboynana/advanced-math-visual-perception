@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0575",
+  "authoring_id": "V04NR075",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "154",
+    "sample_index": "154",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image154.png",
+    "sha256": "4a25a23f55a10c0b6453697273ac57b243875fae1831887adb1441c44622036f",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0575/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "371",
+    "sample_index": "1854",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_371.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0575/right.png",
+    "width": 244,
+    "height": 136,
+    "sha256": "24baa2ce051de96d1ab18268bcdb27907ef4c18f20c50976cd4218c578b17809"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 11 in both images.",
+    "left_evidence": "The 11 above the top side of the square framing the curved shape.",
+    "right_evidence": "The 11 beside the left vertical side of the outlined triangle.",
+    "left_meaning": "The square's top side has length value 11.",
+    "right_meaning": "The left vertical side has length value 11.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 11."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 11 in both images.",
+    "mathematical_meanings": "Left image: The square's top side has length value 11. Right image: The left vertical side has length value 11.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 11."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0575",
+    "condition": "condition/numeric_representation/AVP0575"
+  }
+}

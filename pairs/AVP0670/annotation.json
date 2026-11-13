@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0670",
+  "authoring_id": "V04GM045",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "angle_arc_vs_geometric_arc",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1179",
+    "sample_index": "1179",
+    "problem_version": "3steps_1",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_99",
+      "step_variant": "3steps_1"
+    },
+    "original_relative_path": "99-1.png",
+    "sha256": "2b35d389b40af678fd4d10344c36e90d74ddcf4ca19093903301d660fb28d1b0",
+    "width": 288,
+    "height": 205,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0670/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "122",
+    "sample_index": "122",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Understanding Circles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_122",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "122-1.png",
+    "sha256": "d2693d8dc2f2ed78e2a63dfea4c48e71d6bc54286b2abbf75b17a4a264c82afd",
+    "width": 367,
+    "height": 198,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0670/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A curved arc-shaped stroke.",
+    "left_evidence": "The arc labeled 3 in the lower-left corner of the rectangle.",
+    "right_evidence": "The dashed curved stroke at the right of the rotated compass.",
+    "left_meaning": "It identifies the angle between the triangle sides meeting at the lower-left corner.",
+    "right_meaning": "It shows a circular trace drawn by rotating the compass.",
+    "same_meaning": false,
+    "reason": "The short arc on the left singles out a wedge between incident rays. The curve on the right is part of the depicted shape or path. It shows a circular trace drawn by rotating the compass."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A curved arc-shaped stroke.",
+    "mathematical_meanings": "Left image: It identifies the angle between the triangle sides meeting at the lower-left corner. Right image: It shows a circular trace drawn by rotating the compass.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The short arc on the left singles out a wedge between incident rays. The curve on the right is part of the depicted shape or path. It shows a circular trace drawn by rotating the compass."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0670",
+    "condition": "condition/geometric_markers/AVP0670"
+  }
+}

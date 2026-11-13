@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight segment joining opposite corners of a four-sided figure.",
+  "mathematical_meanings": "Left image: A diagonal connecting opposite vertices inside a quadrilateral. Right image: A diagonal connecting opposite vertices inside a quadrilateral.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each selected segment lies inside its quadrilateral and joins nonadjacent vertices, identifying the same diagonal role."
+}

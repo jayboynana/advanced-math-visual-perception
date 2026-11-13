@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0790",
+  "authoring_id": "V04SR040",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_axis",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "996_1",
+    "sample_index": "996_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 996,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_01846c8e63bedc6d99ceg_0043_1.jpg",
+    "sha256": "041a7106df42b52f9caa7f8786c0aa87c92f37ff87e928700eca94d232020b3e",
+    "width": 237,
+    "height": 263,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0790/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "55",
+    "sample_index": "55",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image55.png",
+    "sha256": "0eaf1a22a43a6761967f8a6ac91ca843205be7f632cb50ee0e00923cd356b43c",
+    "width": 1424,
+    "height": 1349,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0790/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x to the right of the horizontal arrow beneath the two branches",
+    "right_evidence": "x beside the arrow at the right end of the horizontal axis",
+    "left_meaning": "The symbol \"x\" labels the indicated coordinate axis.",
+    "right_meaning": "The symbol \"x\" labels the indicated coordinate axis.",
+    "same_meaning": true,
+    "reason": "The left occurrence is x to the right of the horizontal arrow beneath the two branches. The right occurrence is x beside the arrow at the right end of the horizontal axis. The placement in each image shows that the symbol labels the indicated coordinate axis."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: The symbol \"x\" labels the indicated coordinate axis. Right image: The symbol \"x\" labels the indicated coordinate axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is x to the right of the horizontal arrow beneath the two branches. The right occurrence is x beside the arrow at the right end of the horizontal axis. The placement in each image shows that the symbol labels the indicated coordinate axis."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0790",
+    "condition": "condition/symbolic_roles/AVP0790"
+  }
+}

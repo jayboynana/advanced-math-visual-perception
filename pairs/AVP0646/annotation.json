@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0646",
+  "authoring_id": "V04GM021",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "224",
+    "sample_index": "224",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_224",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "224-1.png",
+    "sha256": "26bfd0108d2d74757ee301b45c6f2982cb435b1326bd880739c6c56b663088d2",
+    "width": 567,
+    "height": 223,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0646/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "995",
+    "sample_index": "995",
+    "problem_version": "2steps_multi",
+    "image_type": "geometry",
+    "source_subject": "Southeast, Southwest, Northeast, Northwest Directions;Determining the Positions of Objects Based on Direction, Angle, and Distance",
+    "source_metadata": {
+      "upstream_group_id": "2steps_275",
+      "step_variant": "2steps_multi"
+    },
+    "original_relative_path": "275-multi.png",
+    "sha256": "15349db3913400690aeaaddc1ce079d3836d53c3756ec3836e3347a3165e564e",
+    "width": 570,
+    "height": 498,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0646/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The tilted square at C between AC and CB.",
+    "right_evidence": "The large outlined square with vertices A, B, C and D.",
+    "left_meaning": "AC is perpendicular to CB at C.",
+    "right_meaning": "It is the boundary of the square figure ABCD.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is the boundary of the square figure ABCD."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: AC is perpendicular to CB at C. Right image: It is the boundary of the square figure ABCD.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is the boundary of the square figure ABCD."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0646",
+    "condition": "condition/geometric_markers/AVP0646"
+  }
+}

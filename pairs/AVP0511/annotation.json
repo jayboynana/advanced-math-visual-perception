@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0511",
+  "authoring_id": "V04NR011",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_length_m",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "916_1",
+    "sample_index": "916_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 916,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "High",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch23-2024_06_14_0ac5a7e94a11ff9bdd63g_0055_1.jpg",
+    "sha256": "46401208a634438a27244a2d5096393dbe214de8ffa7219da71399f77b48be55",
+    "width": 668,
+    "height": 414,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0511/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "368",
+    "sample_index": "1839",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_368.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0511/right.png",
+    "width": 434,
+    "height": 351,
+    "sha256": "91a2d312351bc19553ea2c8d0cce6511dea36968d60efd88bfcf4862f28f1abf"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 1 m in both images.",
+    "left_evidence": "The 1 m between A and B along the rectangle's top edge.",
+    "right_evidence": "The 1 m above the short horizontal segment AF.",
+    "left_meaning": "The sloping strip spans one meter along AB on the top boundary.",
+    "right_meaning": "Segment AF has length one meter.",
+    "same_meaning": true,
+    "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 1 m."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 1 m in both images.",
+    "mathematical_meanings": "Left image: The sloping strip spans one meter along AB on the top boundary. Right image: Segment AF has length one meter.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 1 m."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0511",
+    "condition": "condition/numeric_representation/AVP0511"
+  }
+}

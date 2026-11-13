@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0884",
+  "authoring_id": "V04GR009",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_projection_vs_solid_height",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "626_A",
+    "sample_index": "626",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 626,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/626_A.jpg",
+    "sha256": "338719aea2224916a46ea14a8b90077f21c06f2588ba9762a95ca184677b7115",
+    "width": 84,
+    "height": 103,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/626_A.jpg",
+      "start": 14188468,
+      "length": 2343,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "8",
+    "sample_index": "8",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image8.png",
+    "sha256": "a4b9bb067e47002fd1242c0d22b2bad2b50b1c5cc445a9b5fd68fe697b2a7f5c",
+    "width": 561,
+    "height": 766,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0884/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed segment inside a mathematical diagram.",
+    "left_evidence": "The dotted vertical line beneath the upper end of the graph at x=6.",
+    "right_evidence": "The dashed segment descending from A to O in the cone.",
+    "left_meaning": "A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "right_meaning": "The height of the solid, drawn as an interior segment from its apex toward the base.",
+    "same_meaning": false,
+    "reason": "The guide reaches an input tick on an axis. The segment inside the solid joins its apex to its base level and represents a geometric height."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A vertical dashed segment inside a mathematical diagram.",
+    "mathematical_meanings": "Left image: A guide projecting a selected position on the graph down to its horizontal input coordinate. Right image: The height of the solid, drawn as an interior segment from its apex toward the base.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The guide reaches an input tick on an axis. The segment inside the solid joins its apex to its base level and represents a geometric height."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0884",
+    "condition": "condition/graphical_roles/AVP0884"
+  }
+}

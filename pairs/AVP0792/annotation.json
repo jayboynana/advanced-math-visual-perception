@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0792",
+  "authoring_id": "V04SR042",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_axis",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "95_1",
+    "sample_index": "95_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 95,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_5d227d10b18c15d49d57g_0008_1.jpg",
+    "sha256": "aa8adb26836460f1cfc69dcc073d0f922cb488a97b558a51fe8182fde1b9bc3f",
+    "width": 286,
+    "height": 331,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0792/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "994_1",
+    "sample_index": "994_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 994,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_58474443df6e195863d8g_0048_1.jpg",
+    "sha256": "30e92c86c8d83d7945ddfab3c4c90372205250b002f403b40ef7e58305ccf023",
+    "width": 262,
+    "height": 234,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0792/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter x",
+    "left_evidence": "x at the arrow between the two right-hand plotted branches",
+    "right_evidence": "x beside the arrow on the horizontal axis crossing the rising line",
+    "left_meaning": "The symbol \"x\" labels the indicated coordinate axis.",
+    "right_meaning": "The symbol \"x\" labels the indicated coordinate axis.",
+    "same_meaning": true,
+    "reason": "The left occurrence is x at the arrow between the two right-hand plotted branches. The right occurrence is x beside the arrow on the horizontal axis crossing the rising line. The placement in each image shows that the symbol labels the indicated coordinate axis."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter x",
+    "mathematical_meanings": "Left image: The symbol \"x\" labels the indicated coordinate axis. Right image: The symbol \"x\" labels the indicated coordinate axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is x at the arrow between the two right-hand plotted branches. The right occurrence is x beside the arrow on the horizontal axis crossing the rising line. The placement in each image shows that the symbol labels the indicated coordinate axis."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0792",
+    "condition": "condition/symbolic_roles/AVP0792"
+  }
+}

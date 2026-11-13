@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0681",
+  "authoring_id": "V04GM056",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dimension_arrow_same",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1524",
+    "sample_index": "1524",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Perimeter of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_114",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "114-3.png",
+    "sha256": "94e3c0b92752868f8af20a8d4836ee3f5cc907912b70708aeaa8c90832e46b9c",
+    "width": 377,
+    "height": 262,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0681/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "654",
+    "sample_index": "654",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Volume and Capacity of Cylinders",
+    "source_metadata": {
+      "upstream_group_id": "2steps_294",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "294-2.png",
+    "sha256": "efa9ccb1cf534c6d6e676c7949a98e1a34e1119142a44ccbe674a72bed6a7396",
+    "width": 673,
+    "height": 207,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0681/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrow with a head at each end of a measured span.",
+    "left_evidence": "The oblique double-ended arrow labeled 8 cm outside the left side of the triangle.",
+    "right_evidence": "The long double-ended arrow labeled 9 dm above the horizontal cylinder.",
+    "left_meaning": "It measures the length of the sloping side AB.",
+    "right_meaning": "It measures the longitudinal length of the cylinder.",
+    "same_meaning": true,
+    "reason": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrow with a head at each end of a measured span.",
+    "mathematical_meanings": "Left image: It measures the length of the sloping side AB. Right image: It measures the longitudinal length of the cylinder.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The arrowheads align with the two ends of a labeled spatial span in each drawing. The arrows share the role of specifying a finite geometric dimension."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0681",
+    "condition": "condition/geometric_markers/AVP0681"
+  }
+}

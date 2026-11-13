@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0533",
+  "authoring_id": "V04NR033",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "radian_degree_value_different_role",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1854_2",
+    "sample_index": "1854_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1854,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_198169e355ab3da4787bg_0086_2.jpg",
+    "sha256": "4ed0604c7fc7a666562bea67f60ba7b8c96bbcd73b1f89865ccbda57815cdd73",
+    "width": 365,
+    "height": 326,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0533/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "530",
+    "sample_index": "2649",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_530.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0533/right.png",
+    "width": 397,
+    "height": 404,
+    "sha256": "ac12d4c4bd8d53c82fa7760943c76ce042f6858e5e4c1a6705d978871ae0fa4a"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 45° and (1/4)π.",
+    "left_evidence": "The 45° inside the lower-right vertex B of triangle ABH.",
+    "right_evidence": "The first component (1/4)π of the upper orange point's coordinate label.",
+    "left_meaning": "The angle between BA and BH at B measures 45 degrees.",
+    "right_meaning": "The upper orange point has x-coordinate π/4.",
+    "same_meaning": false,
+    "reason": "45 degrees equals π/4 radians as an angle conversion. Here the degree label measures an angle while the π expression specifies a point’s horizontal coordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notations 45° and (1/4)π.",
+    "mathematical_meanings": "Left image: The angle between BA and BH at B measures 45 degrees. Right image: The upper orange point has x-coordinate π/4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "45 degrees equals π/4 radians as an angle conversion. Here the degree label measures an angle while the π expression specifies a point’s horizontal coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0533",
+    "condition": "condition/numeric_representation/AVP0533"
+  }
+}

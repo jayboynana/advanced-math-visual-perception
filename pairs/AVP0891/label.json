@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A vertical dashed stroke.",
+  "mathematical_meanings": "Left image: The hidden rear upright edge of the depicted solid. Right image: A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The stroke attached to a plotted trace is a coordinate guide. The other joins rear corners of a solid, where broken strokes indicate occlusion."
+}

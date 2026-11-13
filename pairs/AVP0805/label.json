@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The notation f(x)",
+  "mathematical_meanings": "Left image: The symbol \"f(x)\" denotes the value of the function at input x. Right image: The symbol \"f(x)\" denotes the value of the function at input x.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is f(x) above the target oval of the arrows from the four inputs. The right occurrence is f(x) adjacent to the descending part of the blue V-shaped graph. The placement in each image shows that the symbol denotes the value of the function at input x."
+}

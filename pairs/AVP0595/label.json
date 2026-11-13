@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
+  "mathematical_meanings": "Left image: The first branch formula uses the square of x in its quadratic term. Right image: The expression raises a to the second power.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The raised numeral or caret gives the power to which the preceding variable is raised. Both powers are 2."
+}

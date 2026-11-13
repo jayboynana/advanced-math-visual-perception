@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 10 in both images.",
+  "mathematical_meanings": "Left image: The numeral 10 identifies one outcome sector on the spinner. Right image: The number 10 is a listed element of the intersection.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of identifier of a spinner outcome, while the right context gives it the role of listed set element."
+}

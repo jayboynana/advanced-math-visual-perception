@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0702",
+  "authoring_id": "V04GM077",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "hidden_edge_dashes_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1259",
+    "sample_index": "1259",
+    "problem_version": "3steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Volume and Capacity of Rectangular Cuboids",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_14",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "14-2.png",
+    "sha256": "bb1b74e84182dea4aebfa9b69ebde999a4871ed53e974989a46aa7071c3b41f9",
+    "width": 296,
+    "height": 208,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0702/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1261",
+    "sample_index": "1261",
+    "problem_version": "3steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties of Cones",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_16",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "16-2.png",
+    "sha256": "4f5f48856e91e891b1a87d909b35f6a142412704563eea370b5bfdba3e4f9fc8",
+    "width": 325,
+    "height": 223,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0702/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Broken strokes along the rear portion of a solid boundary.",
+    "left_evidence": "The dashed horizontal edge from B to C inside the box projection.",
+    "right_evidence": "The dashed rear base arc above the solid lower arc of the cone.",
+    "left_meaning": "It represents a hidden rear bottom edge of the box.",
+    "right_meaning": "It represents the hidden rear portion of the cone base rim.",
+    "same_meaning": true,
+    "reason": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Broken strokes along the rear portion of a solid boundary.",
+    "mathematical_meanings": "Left image: It represents a hidden rear bottom edge of the box. Right image: It represents the hidden rear portion of the cone base rim.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In each solid projection the selected edge is at the back of the object. The dashes preserve its position while indicating that it is concealed in the view."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0702",
+    "condition": "condition/geometric_markers/AVP0702"
+  }
+}

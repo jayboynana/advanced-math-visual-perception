@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dashed segment ending at a right-angle box.",
+  "mathematical_meanings": "Left image: It constructs the perpendicular height from the apex to the base. Right image: It constructs the perpendicular distance from C to AD.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each dashed construction joins a vertex to a base or side and reaches it at a marked right angle. The dashes identify an auxiliary perpendicular height."
+}

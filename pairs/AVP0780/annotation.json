@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0780",
+  "authoring_id": "V04SR030",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_matrix",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "478",
+    "sample_index": "478",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image478.png",
+    "sha256": "b7aa87d8021db131acdf853a92bd077012e4d641647de2559485285aad87c0e7",
+    "width": 772,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0780/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "491",
+    "sample_index": "491",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image491.png",
+    "sha256": "e8aec24b7f9abab3493820ab11f69cd28cba83557a48fb51434feaadfeea5cd7",
+    "width": 872,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0780/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter C",
+    "left_evidence": "C before the rightmost 2 by 2 matrix",
+    "right_evidence": "C before the rightmost array, whose first row is 9, 0",
+    "left_meaning": "The symbol \"C\" names the matrix whose entries follow in brackets.",
+    "right_meaning": "The symbol \"C\" names the matrix whose entries follow in brackets.",
+    "same_meaning": true,
+    "reason": "The left occurrence is C before the rightmost 2 by 2 matrix. The right occurrence is C before the rightmost array, whose first row is 9, 0. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter C",
+    "mathematical_meanings": "Left image: The symbol \"C\" names the matrix whose entries follow in brackets. Right image: The symbol \"C\" names the matrix whose entries follow in brackets.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is C before the rightmost 2 by 2 matrix. The right occurrence is C before the rightmost array, whose first row is 9, 0. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0780",
+    "condition": "condition/symbolic_roles/AVP0780"
+  }
+}

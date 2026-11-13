@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 45° and (1/4)π.",
+  "mathematical_meanings": "Left image: The angle between BA and BH at B measures 45 degrees. Right image: The upper orange point has x-coordinate π/4.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "45 degrees equals π/4 radians as an angle conversion. Here the degree label measures an angle while the π expression specifies a point’s horizontal coordinate."
+}

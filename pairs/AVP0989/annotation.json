@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0989",
+  "authoring_id": "V04GR114",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "perspective_circular_rim",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "306_A",
+    "sample_index": "306",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 306,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/306_A.jpg",
+    "sha256": "fbf8443a86814c24f0a21b3fdc1650dc639a9aa4cf69defa349f1871ab18f1c4",
+    "width": 78,
+    "height": 90,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/306_A.jpg",
+      "start": 11031139,
+      "length": 1548,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "285_A",
+    "sample_index": "285",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 285,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/285_A.jpg",
+    "sha256": "f77ecc632b5bb48ae4407741283a365f235ae4a39e3eb8a2e2ac45b0a7c6b1af",
+    "width": 85,
+    "height": 55,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/285_A.jpg",
+      "start": 10815735,
+      "length": 1562,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A closed oval at the top of a depicted solid.",
+    "left_evidence": "The full oval forming the upper rim of the cylinder.",
+    "right_evidence": "The upper oval of the short cylinder.",
+    "left_meaning": "A circular rim shown as an ellipse in a perspective drawing of a solid.",
+    "right_meaning": "A circular rim shown as an ellipse in a perspective drawing of a solid.",
+    "same_meaning": true,
+    "reason": "Each oval meets side edges descending from its left and right extremities. This attachment identifies a circular upper rim seen in perspective."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A closed oval at the top of a depicted solid.",
+    "mathematical_meanings": "Left image: A circular rim shown as an ellipse in a perspective drawing of a solid. Right image: A circular rim shown as an ellipse in a perspective drawing of a solid.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each oval meets side edges descending from its left and right extremities. This attachment identifies a circular upper rim seen in perspective."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0989",
+    "condition": "condition/graphical_roles/AVP0989"
+  }
+}

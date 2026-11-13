@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
+  "mathematical_meanings": "Left image: The numeral 1 identifies the selected angle region. Right image: The vertical guide AB is located at x-coordinate 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of horizontal coordinate."
+}

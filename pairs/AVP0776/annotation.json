@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0776",
+  "authoring_id": "V04SR026",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_output_element",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "89",
+    "sample_index": "89",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image89.png",
+    "sha256": "ce111d319267a93d3da2b104a808134f0f435a26cad1750952cf8b9d8b919401",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "mapping_diagram",
+    "image_path": "pairs/AVP0776/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "90",
+    "sample_index": "90",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image90.png",
+    "sha256": "f809062dd5a537c89aa61961456c3fcf7aca4fb78b6642c3d865cccf1e430c25",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "mapping_diagram",
+    "image_path": "pairs/AVP0776/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A at the top of the output oval, where the arrow from 2 ends",
+    "right_evidence": "A at the top of the output oval, with incoming arrows from 1 and 4",
+    "left_meaning": "The symbol \"A\" names the output element reached by the indicated input arrows.",
+    "right_meaning": "The symbol \"A\" names the output element reached by the indicated input arrows.",
+    "same_meaning": true,
+    "reason": "The left occurrence is A at the top of the output oval, where the arrow from 2 ends. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The placement in each image shows that the symbol names the output element reached by the indicated input arrows."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names the output element reached by the indicated input arrows. Right image: The symbol \"A\" names the output element reached by the indicated input arrows.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is A at the top of the output oval, where the arrow from 2 ends. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The placement in each image shows that the symbol names the output element reached by the indicated input arrows."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0776",
+    "condition": "condition/symbolic_roles/AVP0776"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0505",
+  "authoring_id": "V04NR005",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "847_2",
+    "sample_index": "847_2",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 847,
+      "subject": "Metric Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_122c5cd69e0cbe1d0bbbg_0004_2.jpg",
+    "sha256": "24394f7d75d0d431d5db49a6622a80a3bb51d1d488513e33f23aa899a90dd6ae",
+    "width": 434,
+    "height": 362,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0505/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "523",
+    "sample_index": "523",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 179,
+      "img_width": 285,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/523.jpg",
+    "sha256": "2a6e9b87c4e152dda6c6a0aaca204867a8788f6e0fb1e890e2fa1c9ac22bfc74",
+    "width": 285,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0505/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 30° in both images.",
+    "left_evidence": "The 30° beside C between the left vertical gate edge and segment CA.",
+    "right_evidence": "The 30° above A at the left end of the horizontal ground line.",
+    "left_meaning": "The angle between the left vertical direction and CA at C measures 30 degrees.",
+    "right_meaning": "The angle between AC and the ground ray at A measures 30 degrees.",
+    "same_meaning": true,
+    "reason": "Both labels are attached to marked angle regions and give the same measure of 30°."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 30° in both images.",
+    "mathematical_meanings": "Left image: The angle between the left vertical direction and CA at C measures 30 degrees. Right image: The angle between AC and the ground ray at A measures 30 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both labels are attached to marked angle regions and give the same measure of 30°."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0505",
+    "condition": "condition/numeric_representation/AVP0505"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 13 in both images.",
+  "mathematical_meanings": "Left image: The hypotenuse has length value 13. Right image: The upper-right rectangle's top edge has length value 13.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 13."
+}

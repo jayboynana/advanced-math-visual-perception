@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter C",
+  "mathematical_meanings": "Left image: The symbol \"C\" names the matrix whose entries follow in brackets. Right image: The symbol \"C\" names the matrix whose entries follow in brackets.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The left occurrence is C before the rightmost 2 by 2 matrix. The right occurrence is C before the rightmost array, whose first row is 9, 0. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
+}

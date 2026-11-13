@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The letter b",
+  "mathematical_meanings": "Left image: The symbol \"b\" denotes the coefficient of the input in the trigonometric argument. Right image: The symbol \"b\" denotes a length or a variable in the indicated length expression.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left occurrence is b multiplying x inside the sine argument. The right occurrence is b printed on the two parts of the left slanted side. The left placement shows that the symbol denotes the coefficient of the input in the trigonometric argument, while the right placement shows that it denotes a length or a variable in the indicated length expression."
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0847",
+  "authoring_id": "V04SR097",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "center_versus_origin",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "219_1",
+    "sample_index": "219_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 219,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_b0b9f062b2d178a3a8f6g_0044_1.jpg",
+    "sha256": "08df38bbcdac59b1a4c7a0842c52588ab7c4d69780f4947952b82203a9709eac",
+    "width": 283,
+    "height": 197,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0847/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "634_1",
+    "sample_index": "634_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 634,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch8-2024_06_14_bba33c093999874a2a33g_0065_1.jpg",
+    "sha256": "b4a4abebf71b43b9782628a1407f4a78c131d9bceaeb4becc648407f25bb9b2c",
+    "width": 371,
+    "height": 392,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0847/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter O",
+    "left_evidence": "O beneath the center dot on horizontal line l",
+    "right_evidence": "O at the crossing of the solid coordinate axes",
+    "left_meaning": "The symbol \"O\" marks the center of the indicated circle.",
+    "right_meaning": "The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
+    "same_meaning": false,
+    "reason": "The left occurrence is O beneath the center dot on horizontal line l. The right occurrence is O at the crossing of the solid coordinate axes. The left placement shows that the symbol marks the center of the indicated circle, while the right placement shows that it marks the origin at the intersection of the coordinate axes."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter O",
+    "mathematical_meanings": "Left image: The symbol \"O\" marks the center of the indicated circle. Right image: The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left occurrence is O beneath the center dot on horizontal line l. The right occurrence is O at the crossing of the solid coordinate axes. The left placement shows that the symbol marks the center of the indicated circle, while the right placement shows that it marks the origin at the intersection of the coordinate axes."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/different type/AVP0847",
+    "condition": "condition/symbolic_roles/AVP0847"
+  }
+}

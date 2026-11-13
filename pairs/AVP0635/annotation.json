@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0635",
+  "authoring_id": "V04GM010",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "180",
+    "sample_index": "180",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "2steps_180",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "180-1.png",
+    "sha256": "ce0f663f9090dd1ff94c1c257c0ce830252567d62314f77e4d913f0c045ad3c6",
+    "width": 194,
+    "height": 134,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0635/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1345",
+    "sample_index": "1345",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_100",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "100-2.png",
+    "sha256": "cac87ba40dde91326a4dce04d53aab098bad6c484bb9950f0e19315c2c2b0559",
+    "width": 404,
+    "height": 233,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0635/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square placed where two segments meet.",
+    "left_evidence": "The square at B on the lower-right corner of the triangle.",
+    "right_evidence": "The square at A between the bottom horizontal side and the vertical diagonal AD.",
+    "left_meaning": "BA is perpendicular to BC at B.",
+    "right_meaning": "AD is perpendicular to AB at A.",
+    "same_meaning": true,
+    "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square placed where two segments meet.",
+    "mathematical_meanings": "Left image: BA is perpendicular to BC at B. Right image: AD is perpendicular to AB at A.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0635",
+    "condition": "condition/geometric_markers/AVP0635"
+  }
+}

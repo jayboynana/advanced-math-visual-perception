@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notation 3 in both images.",
+  "mathematical_meanings": "Left image: The coefficient of x in the lower equation is 3. Right image: The left formula raises x to the third power.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left context gives the number the role of multiplicative coefficient, while the right context gives it the role of exponent."
+}

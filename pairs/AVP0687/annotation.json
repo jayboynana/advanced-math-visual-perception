@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0687",
+  "authoring_id": "V04GM062",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "north_direction_arrow_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "43",
+    "sample_index": "43",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Determining the Positions of Objects Based on Direction, Angle, and Distance",
+    "source_metadata": {
+      "upstream_group_id": "2steps_43",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "43-1.png",
+    "sha256": "05f2f4cc29f82dcef07f2ccf20b75a4bdab609b6ec12f7e134c97c0c12b2103b",
+    "width": 510,
+    "height": 317,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0687/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1407",
+    "sample_index": "1407",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Rotation",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_162",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "162-2.png",
+    "sha256": "3e0f8aa4ea50881c2f05fa94d45563f03cd50b351cb3081d49564822eeea442f",
+    "width": 850,
+    "height": 332,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0687/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward arrow labeled North.",
+    "left_evidence": "The arrow labeled North to the right of the triangle-like route.",
+    "right_evidence": "The isolated arrow labeled North to the right of the route triangle.",
+    "left_meaning": "It identifies north as the direction of the arrow.",
+    "right_meaning": "It gives the north reference direction for the construction.",
+    "same_meaning": true,
+    "reason": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An upward arrow labeled North.",
+    "mathematical_meanings": "Left image: It identifies north as the direction of the arrow. Right image: It gives the north reference direction for the construction.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The word North next to each isolated arrow fixes a common directional reference for the surrounding geometry."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0687",
+    "condition": "condition/geometric_markers/AVP0687"
+  }
+}

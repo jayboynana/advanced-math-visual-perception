@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 1 and −1.",
+  "mathematical_meanings": "Left image: The two highlighted marks share x-coordinate 1. Right image: The left intercept has x-coordinate negative one.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The expressions 1 and −1 have opposite signs, so their complete numerical values differ."
+}

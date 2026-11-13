@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0698",
+  "authoring_id": "V04GM073",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "north_arrow_vs_axis_direction",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1574",
+    "sample_index": "1574",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Understanding and Representing Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_164",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "164-3.png",
+    "sha256": "15e10e5e59a10190425848b5d4cbe238ee51bfdf063f81700eff0343881cc865",
+    "width": 462,
+    "height": 286,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0698/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "535",
+    "sample_index": "2674",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_535.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0698/right.png",
+    "width": 267,
+    "height": 275,
+    "sha256": "c1b5f6ca197551097ed92bda0bb3856d86a10077749374bfb2a2a5e5cf3971b2"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upright arrow pointing toward the top of the diagram.",
+    "left_evidence": "The arrow labeled North in the upper-right.",
+    "right_evidence": "The black arrowhead at the top of the y-axis.",
+    "left_meaning": "It sets the upward reference direction as north.",
+    "right_meaning": "It gives the positive vertical coordinate direction.",
+    "same_meaning": false,
+    "reason": "The compass label makes the left arrow a bearing reference. The right arrow sits at the end of the y-axis, where it indicates the direction of increasing ordinate."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An upright arrow pointing toward the top of the diagram.",
+    "mathematical_meanings": "Left image: It sets the upward reference direction as north. Right image: It gives the positive vertical coordinate direction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The compass label makes the left arrow a bearing reference. The right arrow sits at the end of the y-axis, where it indicates the direction of increasing ordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0698",
+    "condition": "condition/geometric_markers/AVP0698"
+  }
+}

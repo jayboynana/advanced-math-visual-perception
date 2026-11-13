@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A hollow circular marker interrupting or ending a graph trace.",
+  "mathematical_meanings": "Left image: An open point excluded from the displayed curve or branch. Right image: An open point excluded from the displayed curve or branch.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each hollow mark excludes its indicated point from the drawn branch. This conclusion concerns the individual point, so it does not require the same horizontal or vertical coordinates across the diagrams."
+}

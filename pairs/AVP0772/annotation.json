@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0772",
+  "authoring_id": "V04SR022",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "same_matrix",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "474",
+    "sample_index": "474",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image474.png",
+    "sha256": "71fbdebc67e7b853d419723f6a638ed2b3acd0c6bd0f48d3792cee5677b9180d",
+    "width": 481,
+    "height": 150,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0772/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "481",
+    "sample_index": "481",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image481.png",
+    "sha256": "b630122824591eee82f5715809ef185ac1372f534f977da3f20c0d43e2052cc9",
+    "width": 322,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP0772/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The letter A",
+    "left_evidence": "A before the equals sign and the 3 by 3 array beginning with -0.5",
+    "right_evidence": "A before the 2 by 2 array beginning with 3.36",
+    "left_meaning": "The symbol \"A\" names the matrix whose entries follow in brackets.",
+    "right_meaning": "The symbol \"A\" names the matrix whose entries follow in brackets.",
+    "same_meaning": true,
+    "reason": "The left occurrence is A before the equals sign and the 3 by 3 array beginning with -0.5. The right occurrence is A before the 2 by 2 array beginning with 3.36. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The letter A",
+    "mathematical_meanings": "Left image: The symbol \"A\" names the matrix whose entries follow in brackets. Right image: The symbol \"A\" names the matrix whose entries follow in brackets.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The left occurrence is A before the equals sign and the 3 by 3 array beginning with -0.5. The right occurrence is A before the 2 by 2 array beginning with 3.36. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0772",
+    "condition": "condition/symbolic_roles/AVP0772"
+  }
+}

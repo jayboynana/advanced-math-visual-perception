@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0637",
+  "authoring_id": "V04GM012",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "coordinate_grid_cell_same",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1295",
+    "sample_index": "1295",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Translation",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_50",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "50-2.png",
+    "sha256": "0fe67e61806c83efbcd0d5f3cd07c65a174c4705047a3cbd5f3ea32552e89f21",
+    "width": 545,
+    "height": 437,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0637/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "118",
+    "sample_index": "118",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image118.png",
+    "sha256": "25127f14a6130b7bc6f13cf2d8304d1d594f92da67195f9436784b49db6c117a",
+    "width": 533,
+    "height": 423,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0637/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square cell inside a regular coordinate grid.",
+    "left_evidence": "A complete pale square in the lattice beneath triangle ABC.",
+    "right_evidence": "The square grid cell above and immediately to the right of the axes intersection.",
+    "left_meaning": "It is a grid cell that gives coordinate positions a common spatial scale.",
+    "right_meaning": "It is a coordinate-grid cell used to locate the arctangent trace.",
+    "same_meaning": true,
+    "reason": "The selected square is one cell of the repeated grid on each side. Its edges align with neighboring grid lines and support reading or comparing coordinates."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square cell inside a regular coordinate grid.",
+    "mathematical_meanings": "Left image: It is a grid cell that gives coordinate positions a common spatial scale. Right image: It is a coordinate-grid cell used to locate the arctangent trace.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected square is one cell of the repeated grid on each side. Its edges align with neighboring grid lines and support reading or comparing coordinates."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0637",
+    "condition": "condition/geometric_markers/AVP0637"
+  }
+}

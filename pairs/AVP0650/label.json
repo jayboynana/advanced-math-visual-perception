@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+  "mathematical_meanings": "Left image: The two oblique segments meet at a right angle at their common base point. Right image: It is a cell of the coordinate grid used to read locations on the wave plot.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a cell of the coordinate grid used to read locations on the wave plot."
+}

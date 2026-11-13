@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0696",
+  "authoring_id": "V04GM071",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dimension_arrow_vs_wave_period",
+  "type_class": "different type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1415",
+    "sample_index": "1415",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_5",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "5-3.png",
+    "sha256": "8c0f38e390ddc1991920b3fd3ec65ea78a9935ecc0747a11620130251bbe1b09",
+    "width": 432,
+    "height": 276,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0696/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "544",
+    "sample_index": "2719",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_544.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0696/right.png",
+    "width": 344,
+    "height": 356,
+    "sha256": "b9c51556150d73c295728fb47b2df50830a2def5f02061cb463600aae616f8e3"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal double-ended arrow.",
+    "left_evidence": "The bottom double-ended arrow labeled 7 cm below the whole base.",
+    "right_evidence": "The magenta double-ended arrow across the first two peaks.",
+    "left_meaning": "It measures the full horizontal span from D to C.",
+    "right_meaning": "It marks the horizontal repetition interval of the waveform.",
+    "same_meaning": false,
+    "reason": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal double-ended arrow.",
+    "mathematical_meanings": "Left image: It measures the full horizontal span from D to C. Right image: It marks the horizontal repetition interval of the waveform.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP0696",
+    "condition": "condition/geometric_markers/AVP0696"
+  }
+}

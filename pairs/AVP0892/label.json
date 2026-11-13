@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dashed curved portion of a circular rim in a drawing of a solid.",
+  "mathematical_meanings": "Left image: The occluded rear portion of a circular base rim in a solid drawing. Right image: The occluded rear portion of a circular base rim in a solid drawing.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each broken arc completes the far side of a rim whose near side is solid. The dashes specify which part of the circular rim is hidden in the depicted view."
+}

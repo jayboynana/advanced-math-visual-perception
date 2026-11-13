@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0645",
+  "authoring_id": "V04GM020",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_vs_square_component",
+  "type_class": "same type",
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1426",
+    "sample_index": "1426",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Area of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_16",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "16-3.png",
+    "sha256": "2e6f2d4490133322e6be9bd5126adac8d8c36653d4b278c96adc0c3b020c2d4d",
+    "width": 326,
+    "height": 223,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0645/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "112",
+    "sample_index": "112",
+    "problem_version": "2steps_1",
+    "image_type": "geometry",
+    "source_subject": "Axial Symmetry",
+    "source_metadata": {
+      "upstream_group_id": "2steps_112",
+      "step_variant": "2steps_1"
+    },
+    "original_relative_path": "112-1.png",
+    "sha256": "53a7ee468eb0c9e6cfb938aa515d4335b14064732dd8ce2a2c6096ba033c3ca3",
+    "width": 510,
+    "height": 441,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0645/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A square or nearly square shape with straight edges.",
+    "left_evidence": "The square where the dashed altitude meets the triangle base.",
+    "right_evidence": "The filled square labeled A in the tiled shape.",
+    "left_meaning": "The dashed altitude is perpendicular to the base.",
+    "right_meaning": "It is one square tile in the gray figure.",
+    "same_meaning": false,
+    "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one square tile in the gray figure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
+    "mathematical_meanings": "Left image: The dashed altitude is perpendicular to the base. Right image: It is one square tile in the gray figure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is one square tile in the gray figure."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP0645",
+    "condition": "condition/geometric_markers/AVP0645"
+  }
+}

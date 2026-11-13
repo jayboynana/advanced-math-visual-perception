@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The numerical notations 0.5 and −0.5.",
+  "mathematical_meanings": "Left image: The exponential function has base one half. Right image: Matrix A has entry negative one half at row 1, column 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The expressions 0.5 and −0.5 have opposite signs, so their complete numerical values differ. The left context gives it the role of exponential base, while the right context gives it the role of matrix entry."
+}

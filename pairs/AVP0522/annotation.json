@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0522",
+  "authoring_id": "V04NR022",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_z_coordinate",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "318",
+    "sample_index": "318",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image318.png",
+    "sha256": "1d631f6b08caa309863323602e840313431a69a9b4600805de380980f40c5f05",
+    "width": 1920,
+    "height": 1440,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0522/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "320",
+    "sample_index": "320",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image320.png",
+    "sha256": "bec45d4a7e7a6086f6a0cc2813391a5f3fa20da240e8057345f6ea68f3d8afc1",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP0522/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 7 in both images.",
+    "left_evidence": "The final 7 in the label (3, 10, 7) beside the blue point.",
+    "right_evidence": "The final 7 in the label (1, 6, 7) beside the blue point.",
+    "left_meaning": "The blue point's third coordinate is 7.",
+    "right_meaning": "The blue point's third coordinate is 7.",
+    "same_meaning": true,
+    "reason": "Both cues identify the same third coordinate value, 7. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The numerical notation 7 in both images.",
+    "mathematical_meanings": "Left image: The blue point's third coordinate is 7. Right image: The blue point's third coordinate is 7.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both cues identify the same third coordinate value, 7. The evidence is the selected axis position or coordinate component in each image."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
+  "views": {
+    "type": "type/same type/AVP0522",
+    "condition": "condition/numeric_representation/AVP0522"
+  }
+}
