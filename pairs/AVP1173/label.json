@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the pink Coffee crescent containing 84 and lying outside the Tea circle. On the right, use the green crescent containing 3, 8, 14, 15, 16, 17 and 19.",
+  "mathematical_meanings": "Left image: The region represents people who prefer Coffee and do not prefer Tea. Right image: It lists the elements belonging to B and outside A.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures."
+}

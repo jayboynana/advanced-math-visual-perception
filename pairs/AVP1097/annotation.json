@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1097",
+  "authoring_id": "V05EB017",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "arrangement_gap_vs_overlap",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "344_3",
+    "sample_index": "344_3",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 344,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 3
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0033_3.jpg",
+    "sha256": "aec15e0aabe4bfd12c467a6637728adf61fe506961a2981608424c6d233f4fc5",
+    "width": 343,
+    "height": 134,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1097/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "346_1",
+    "sample_index": "346_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 346,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0057_1.jpg",
+    "sha256": "3b87832841d76b0d56cfdd5edb03468758332a95c4024c0e3de3fc7ed91d54f4",
+    "width": 916,
+    "height": 171,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1097/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at 1 and 3 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
+    "left_evidence": "The raised traces extending outward from their marks at 1 and 3.",
+    "right_evidence": "The two raised traces crossing in horizontal coverage between the hollow dots at 1 and 3.",
+    "left_meaning": "One marked ray lies below 1 and the other above 3, leaving the middle gap outside both.",
+    "right_meaning": "Both strict traces admit the middle values 1 < x < 3.",
+    "same_meaning": false,
+    "reason": "The selected left cue leaves the middle interval uncovered by both traces. The selected right cue admits the middle interval in both traces, so the two constraints differ in how they admit values.",
+    "reasoning_consequence": "In the left image, reading the region between the marks as selected would wrongly admit 2. In the right image, reporting the middle as uncovered would incorrectly exclude 2 from their intersection."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at 1 and 3 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
+    "mathematical_meanings": "Left image: One marked ray lies below 1 and the other above 3, leaving the middle gap outside both. Right image: Both strict traces admit the middle values 1 < x < 3.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected left cue leaves the middle interval uncovered by both traces. The selected right cue admits the middle interval in both traces, so the two constraints differ in how they admit values."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1097",
+    "condition": "condition/domain_and_solution_constraints/AVP1097"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1124",
+  "authoring_id": "V05EB044",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "arrangement_gap",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "346_4",
+    "sample_index": "346_4",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 346,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 4
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0057_4.jpg",
+    "sha256": "e145252403a8fc74ff302d46e243a8b1a528120c44f3f65a9d7298ef51971801",
+    "width": 920,
+    "height": 160,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1124/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "344_3",
+    "sample_index": "344_3",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 344,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 3
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0033_3.jpg",
+    "sha256": "aec15e0aabe4bfd12c467a6637728adf61fe506961a2981608424c6d233f4fc5",
+    "width": 343,
+    "height": 134,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1124/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at 1 and 3 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
+    "left_evidence": "The raised traces terminating at the hollow dots at 1 and 3 and continuing outward.",
+    "right_evidence": "The raised traces extending outward from their marks at 1 and 3.",
+    "left_meaning": "The traces cover opposite sides and neither covers the middle value 2.",
+    "right_meaning": "One marked ray lies below 1 and the other above 3, leaving the middle gap outside both.",
+    "same_meaning": true,
+    "reason": "The selected cue in each image leaves the middle interval uncovered by both traces. This gives the same local constraint rule in the two contexts.",
+    "reasoning_consequence": "In the left image, reading their markings as one bounded span would incorrectly count 2 as covered. In the right image, reading the region between the marks as selected would wrongly admit 2."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at 1 and 3 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
+    "mathematical_meanings": "Left image: The traces cover opposite sides and neither covers the middle value 2. Right image: One marked ray lies below 1 and the other above 3, leaving the middle gap outside both.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected cue in each image leaves the middle interval uncovered by both traces. This gives the same local constraint rule in the two contexts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1124",
+    "condition": "condition/domain_and_solution_constraints/AVP1124"
+  }
+}

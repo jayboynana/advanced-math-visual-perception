@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1214",
+  "authoring_id": "V05EC049",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "inequality_feasibility_vs_between_curve_area",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "997",
+    "sample_index": "997",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 197,
+      "img_width": 537,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/997.jpg",
+    "sha256": "088e0385a4504a2ca31e18eef5d21825096e89a5212ca8e6b18ca3edee72153b",
+    "width": 537,
+    "height": 197,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1214/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "287",
+    "sample_index": "287",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 325,
+      "img_width": 370,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/287.jpg",
+    "sha256": "6329bfb39cfb3eb35295eac984373c43782051983f6136a6a28328877287003d",
+    "width": 370,
+    "height": 325,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1214/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region with a plotted boundary. On the left, use the hatched region below E and above the bottom of the curve labeled kx²/2. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "left_evidence": "The hatched region below E and above the bottom of the curve labeled kx²/2.",
+    "right_evidence": "The shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "left_meaning": "Its horizontal footprint identifies where kx²/2 is below E, with equality at the two crossings.",
+    "right_meaning": "It selects a region between the two functions on the displayed x-interval.",
+    "same_meaning": false,
+    "reason": "The left selection describes an allowable side or range relative to a plotted comparison. The right fill selects a gap between curves whose height is found by subtraction for an area calculation.",
+    "reasoning_consequence": "Correctly interpreting the markings means using the two crossings to delimit the x-values at which kx²/2 is less than E on the left and subtracting the lower graph from the upper graph over the displayed R2 interval on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A shaded region with a plotted boundary. On the left, use the hatched region below E and above the bottom of the curve labeled kx²/2. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "mathematical_meanings": "Left image: Its horizontal footprint identifies where kx²/2 is below E, with equality at the two crossings. Right image: It selects a region between the two functions on the displayed x-interval.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left selection describes an allowable side or range relative to a plotted comparison. The right fill selects a gap between curves whose height is found by subtraction for an area calculation."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1214",
+    "condition": "condition/domain_and_solution_constraints/AVP1214"
+  }
+}

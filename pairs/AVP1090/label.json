@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The direction of a marked trace on a number line or function graph. Compare the raised trace attached to the number-line mark at 2 in the left image with the arrow on the blue graph trace in the right image.",
+  "mathematical_meanings": "Left image: The ray selects values above 2. Right image: The last plotted branch continues toward larger x-values.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected cue in each image selects values on the larger-input side of the boundary. This gives the same local constraint rule in the two contexts."
+}

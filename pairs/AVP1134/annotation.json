@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1134",
+  "authoring_id": "V05EB054",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "endpoint_open",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1134/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "343_3",
+    "sample_index": "343_3",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 343,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 3
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0029_3.jpg",
+    "sha256": "713e1c1e410899e1ebb414995217578d4c2d9ae9066440a7daeddfc68a385168",
+    "width": 351,
+    "height": 114,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1134/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the upper marker at x = 1 in the left image with the marker at 1 beside the gray region in the right image.",
+    "left_evidence": "The hollow circle at the upper end of the oblique branch, at x = 1.",
+    "right_evidence": "The hollow dot at 1 at the right side of the shaded region.",
+    "left_meaning": "The oblique branch excludes its x = 1 endpoint.",
+    "right_meaning": "The shaded overlap excludes the upper boundary 1.",
+    "same_meaning": true,
+    "reason": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts.",
+    "reasoning_consequence": "In the left image, closing that endpoint would falsely use x + 3 at x = 1, giving 4 instead of the assigned value 1. In the right image, adding 1 would misreport the upper end of (−2, 1)."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the upper marker at x = 1 in the left image with the marker at 1 beside the gray region in the right image.",
+    "mathematical_meanings": "Left image: The oblique branch excludes its x = 1 endpoint. Right image: The shaded overlap excludes the upper boundary 1.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/different type/AVP1134",
+    "condition": "condition/domain_and_solution_constraints/AVP1134"
+  }
+}

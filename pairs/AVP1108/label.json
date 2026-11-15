@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The direction of a marked trace on a number line or function graph. Compare the arrow on the blue graph trace in the left image with the raised trace attached to the number-line mark at 3 in the right image.",
+  "mathematical_meanings": "Left image: The last plotted branch continues toward larger x-values. Right image: The marked ray admits values smaller than 3.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected left cue selects values on the larger-input side of the boundary. The selected right cue selects values on the smaller-input side of the boundary, so the two constraints differ in how they admit values."
+}

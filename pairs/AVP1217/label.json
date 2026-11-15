@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region with an adjacent unshaded interior cutout or excluded part. On the left, use the light-blue patch bounded by the larger arc, the left semicircle arc and the top side of the square. On the right, use the dark gray cap between the upper-right circular arc and the straight chord.",
+  "mathematical_meanings": "Left image: It is the part inside the quarter disk and outside the white semicircle on its left. Right image: It is the quarter-sector with the unshaded right triangle removed.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The shade identifies the remainder after leaving designated pieces out of an enclosing geometric area. Those pieces must be removed from the area computation in each panel."
+}

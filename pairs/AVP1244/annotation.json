@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1244",
+  "authoring_id": "V05EC079",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "feasible_locations_vs_geometric_area_remainder",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "512",
+    "sample_index": "2559",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_512.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1244/left.png",
+    "width": 636,
+    "height": 517,
+    "sha256": "729e4821b611e24e3919c3332a4571557b5185e7ab28da2b93503b8a01068aca"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "122",
+    "sample_index": "122",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image122.png",
+    "sha256": "e5929c0c5ac645d2fcef8ece8bf2d38aff2caf44b01ef4e8f85f873c88ae6701",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1244/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A fill selecting one side of a visible geometric or plotted boundary. On the left, use the gray half-plane to the right of the descending dashed line through the origin. On the right, use the light-blue patch inside the large semicircle and above both smaller arcs.",
+    "left_evidence": "The gray half-plane to the right of the descending dashed line through the origin.",
+    "right_evidence": "The light-blue patch inside the large semicircle and above both smaller arcs.",
+    "left_meaning": "It marks the open solution half-plane of a strict linear inequality.",
+    "right_meaning": "It comprises the large semicircle minus the two unshaded smaller semicircles.",
+    "same_meaning": false,
+    "reason": "The shaded half-plane records which coordinate pairs meet an inequality. The geometric fill delimits a measured area after removing the depicted cutout or excluded portion.",
+    "reasoning_consequence": "Correctly interpreting the markings means excluding the origin because it lies on the dashed boundary on the left and subtracting both smaller semicircle areas from the outer semicircle area on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A fill selecting one side of a visible geometric or plotted boundary. On the left, use the gray half-plane to the right of the descending dashed line through the origin. On the right, use the light-blue patch inside the large semicircle and above both smaller arcs.",
+    "mathematical_meanings": "Left image: It marks the open solution half-plane of a strict linear inequality. Right image: It comprises the large semicircle minus the two unshaded smaller semicircles.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The shaded half-plane records which coordinate pairs meet an inequality. The geometric fill delimits a measured area after removing the depicted cutout or excluded portion."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP1244",
+    "condition": "condition/domain_and_solution_constraints/AVP1244"
+  }
+}

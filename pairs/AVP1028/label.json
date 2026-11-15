@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at (5,−5) on the left with the mark at (8,6) on the right.",
+  "mathematical_meanings": "Left image: The point belongs to the plotted graph and gives h(5)=−5. Right image: The point belongs to the plotted graph and gives f(8)=6.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "On the left, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate. On the right, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate."
+}

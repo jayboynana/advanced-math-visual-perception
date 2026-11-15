@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1248",
+  "authoring_id": "V05EC083",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "measured_sector_vs_spinner_outcome",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "26",
+    "sample_index": "26",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image26.png",
+    "sha256": "50dc1aa193d648f9cfa3e95a6ea5fab9bfac1114494ca24622f27481e3188b6b",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1248/left.png"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2775",
+    "sample_index": "2775",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "combinatorics",
+    "source_metadata": {
+      "id": "2775",
+      "question": "The arrows on the two spinners shown below are spun. Let the number $N$  equal 10 times the number on Spinner $A$, added to the number on Spinner $B$. What is the probability that $N$ is a perfect square number?\n<image1>",
+      "options": [
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{2} $"
+      ],
+      "image": "images/2775.jpg",
+      "level": 2,
+      "subject": "combinatorics"
+    },
+    "original_relative_path": "images/2775.jpg",
+    "sha256": "0da670a77c31b7a313a13e2db43b954a9e87d7a9721ccca97ad8171168bb7cd4",
+    "width": 616,
+    "height": 343,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1248/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A sector of a circle bounded by two radii and a circular arc. On the left, use the dark gray sector enclosed by two radii and a circular arc, next to 120°. On the right, use the dark upper-right quarter of spinner A, labeled 6.",
+    "left_evidence": "The dark gray sector enclosed by two radii and a circular arc, next to 120°.",
+    "right_evidence": "The dark upper-right quarter of spinner A, labeled 6.",
+    "left_meaning": "It selects the 120-degree sector as a geometric area.",
+    "right_meaning": "This sector is the outcome that supplies the tens digit 6 in N.",
+    "same_meaning": false,
+    "reason": "The left sector defines a geometric area to measure. The numeral inside the right sector is an outcome of a spinner, which enters a probability calculation.",
+    "reasoning_consequence": "Correctly interpreting the markings means using the sector fraction 120°/360° when calculating the shaded part on the left and using 6 from spinner A as the tens digit in the two-spinner outcome on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A sector of a circle bounded by two radii and a circular arc. On the left, use the dark gray sector enclosed by two radii and a circular arc, next to 120°. On the right, use the dark upper-right quarter of spinner A, labeled 6.",
+    "mathematical_meanings": "Left image: It selects the 120-degree sector as a geometric area. Right image: This sector is the outcome that supplies the tens digit 6 in N.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left sector defines a geometric area to measure. The numeral inside the right sector is an outcome of a spinner, which enters a probability calculation."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1248",
+    "condition": "condition/domain_and_solution_constraints/AVP1248"
+  }
+}

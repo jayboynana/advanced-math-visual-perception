@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region adjacent to a plotted line or curve. On the left, use the gray side of the descending solid line containing the origin. On the right, use the blue-green fill under the right branch of the semicircle, to the right of x = 3.",
+  "mathematical_meanings": "Left image: It consists of coordinate pairs satisfying the indicated non-strict linear inequality. Right image: It selects the region under the arch only from x = 3 to x = 6.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left fill identifies where a plotted comparison is satisfied. The right fill selects a region from a function to its axis over a specified integration interval."
+}

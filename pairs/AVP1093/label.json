@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the circular marker at 4 beside the gray region in the left image with the marker at (0, −1) in the right image.",
+  "mathematical_meanings": "Left image: The highlighted intersection excludes 4, its right endpoint. Right image: The lower step excludes its point at x = 0.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts."
+}

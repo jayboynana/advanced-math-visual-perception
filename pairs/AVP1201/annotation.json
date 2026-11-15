@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1201",
+  "authoring_id": "V05EC036",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "area_between_curves_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "119",
+    "sample_index": "119",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image119.png",
+    "sha256": "74c6f73d3bec6faaa29e6279c9352890971009fc8e704f09319b7b94973ef575",
+    "width": 515,
+    "height": 412,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1201/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "287",
+    "sample_index": "287",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 325,
+      "img_width": 370,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/287.jpg",
+    "sha256": "6329bfb39cfb3eb35295eac984373c43782051983f6136a6a28328877287003d",
+    "width": 370,
+    "height": 325,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1201/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded patch between two curves on coordinate axes. On the left, use the gray patch enclosed by the blue cubic and orange cube-root curves between x = 0 and x = 1. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "left_evidence": "The gray patch enclosed by the blue cubic and orange cube-root curves between x = 0 and x = 1.",
+    "right_evidence": "The shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "left_meaning": "It selects the bounded area between the two function graphs.",
+    "right_meaning": "It selects a region between the two functions on the displayed x-interval.",
+    "same_meaning": true,
+    "reason": "The fill selects the gap between the two plotted functions over a specific horizontal interval. The upper value minus the lower value gives the local height of that region.",
+    "reasoning_consequence": "Correctly interpreting the markings means integrating the upper blue function minus the lower orange function over [0, 1] on the left and subtracting the lower graph from the upper graph over the displayed R2 interval on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A shaded patch between two curves on coordinate axes. On the left, use the gray patch enclosed by the blue cubic and orange cube-root curves between x = 0 and x = 1. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "mathematical_meanings": "Left image: It selects the bounded area between the two function graphs. Right image: It selects a region between the two functions on the displayed x-interval.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The fill selects the gap between the two plotted functions over a specific horizontal interval. The upper value minus the lower value gives the local height of that region."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1201",
+    "condition": "condition/domain_and_solution_constraints/AVP1201"
+  }
+}

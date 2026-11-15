@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region with an adjacent unshaded interior cutout or excluded part. On the left, use the dark gray cap between the upper-right circular arc and the straight chord. On the right, use the gray polygon inside rectangle ABDF beneath the segments AC and CE.",
+  "mathematical_meanings": "Left image: It is the quarter-sector with the unshaded right triangle removed. Right image: It selects the part of the rectangle outside the two unshaded triangular pieces.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The shade identifies the remainder after leaving designated pieces out of an enclosing geometric area. Those pieces must be removed from the area computation in each panel."
+}

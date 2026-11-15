@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1229",
+  "authoring_id": "V05EC064",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "accumulate_selected_geometric_pieces_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "153",
+    "sample_index": "153",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image153.png",
+    "sha256": "8432a4a7e0424a6531da371f8ae7dec234e9fba8793aed49870f3715ea741061",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1229/left.png"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2209",
+    "sample_index": "2209",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2209",
+      "question": "What is the area of the shaded region of the given $8 \\times 5$ rectangle?\n\n<image1>",
+      "options": [
+        "$4\\frac{3}{5}$",
+        "$5$",
+        "$5\\frac{1}{4}$",
+        "$6\\frac{1}{2}$",
+        "$8$"
+      ],
+      "image": "images/2209.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2209.jpg",
+    "sha256": "3c2fa3e147cb1cebd9789d63491db1890de509fe02378e4b3d5228bbdc511128",
+    "width": 616,
+    "height": 436,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1229/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Multiple filled pieces separated by unfilled parts of the surrounding figure. On the left, use the four light-blue sectors at the corners of the square. On the right, use the gray patches at the upper-left and lower-right corners of the rectangle.",
+    "left_evidence": "The four light-blue sectors at the corners of the square.",
+    "right_evidence": "The gray patches at the upper-left and lower-right corners of the rectangle.",
+    "left_meaning": "The coloring selects the four quarter disks while excluding the white center.",
+    "right_meaning": "The fill selects two corner regions separated by unshaded parts of the rectangle.",
+    "same_meaning": true,
+    "reason": "In each figure the fill specifies the components included in a total area. The unfilled pieces do not contribute to that total.",
+    "reasoning_consequence": "Correctly interpreting the markings means combining the four equal sector areas into one disk area on the left and adding the two gray corner areas without counting the rest of the rectangle on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Multiple filled pieces separated by unfilled parts of the surrounding figure. On the left, use the four light-blue sectors at the corners of the square. On the right, use the gray patches at the upper-left and lower-right corners of the rectangle.",
+    "mathematical_meanings": "Left image: The coloring selects the four quarter disks while excluding the white center. Right image: The fill selects two corner regions separated by unshaded parts of the rectangle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In each figure the fill specifies the components included in a total area. The unfilled pieces do not contribute to that total."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1229",
+    "condition": "condition/domain_and_solution_constraints/AVP1229"
+  }
+}

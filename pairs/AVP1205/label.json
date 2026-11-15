@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region adjacent to a plotted line or curve. On the left, use the gray side of the rising dashed line that contains the origin. On the right, use the gray positive lobe between the sine curve and the x-axis from 0 to π.",
+  "mathematical_meanings": "Left image: It marks the open half-plane of coordinate pairs satisfying the strict linear inequality. Right image: It selects the area bounded by the upper sine lobe and the horizontal axis.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left fill identifies where a plotted comparison is satisfied. The right fill selects a region from a function to its axis over a specified integration interval."
+}

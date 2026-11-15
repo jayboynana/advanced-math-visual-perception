@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded area extending from the x-axis to a function graph over a selected x-interval. On the left, use the gray area above the x-axis between the two branches of the parabola. On the right, use the larger blue region above the x-axis from the positive crossing to the right edge at x = 6.",
+  "mathematical_meanings": "Left image: The shading selects the bounded region between the parabola and the x-axis from x = −5 to x = 5, whose top extends beyond the window. Right image: It selects the portion of the area measured between the upper curve and the x-axis over the indicated interval.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The graph and axis determine the vertical extent of the area, while the edges of the shaded patch determine the horizontal interval."
+}

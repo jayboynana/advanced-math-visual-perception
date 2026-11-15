@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular sector bounded by radial edges and an arc. On the left, use the dark gray sector enclosed by two radii and a circular arc, next to 120°. On the right, use the yellow half disk to the right of diameter JL, marked 180°.",
+  "mathematical_meanings": "Left image: It selects the 120-degree sector as a geometric area. Right image: It selects half of the full disk as the area specified in the problem.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The sector label and bounded fill determine a fraction of the entire disk area on each side."
+}

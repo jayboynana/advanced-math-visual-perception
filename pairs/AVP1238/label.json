@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A gray-filled portion of a plane diagram. On the left, use the chain of six gray unit cells in the rectangular grid. On the right, use the gray positive lobe between the sine curve and the x-axis from 0 to π.",
+  "mathematical_meanings": "Left image: The six marked unit squares make up the figure available for cutting and rearrangement. Right image: It selects the area bounded by the upper sine lobe and the horizontal axis.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left fill identifies a discrete collection of movable or occupied cells. The right fill identifies a continuous region up to a plotted boundary, requiring a graph-based area calculation."
+}

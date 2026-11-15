@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled region selected by a comparison with a plotted boundary. On the left, use the gray side of the descending solid line containing the origin. On the right, use the hatched region below E and above the bottom of the curve labeled kx²/2.",
+  "mathematical_meanings": "Left image: It consists of coordinate pairs satisfying the indicated non-strict linear inequality. Right image: Its horizontal footprint identifies where kx²/2 is below E, with equality at the two crossings.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The shaded side identifies locations where the relevant comparison holds in each panel. The plotted boundary and its convention determine how equality is treated in each individual problem."
+}

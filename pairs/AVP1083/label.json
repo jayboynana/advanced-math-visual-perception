@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 1 beside the gray region in the left image with the upper of the two vertically aligned markers in the right image.",
+  "mathematical_meanings": "Left image: The shaded overlap excludes the upper boundary 1. Right image: The filled dot gives the actual function value at that shared input.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected left cue excludes the indicated boundary point. The selected right cue includes the indicated boundary point, so the two constraints differ in how they admit values."
+}

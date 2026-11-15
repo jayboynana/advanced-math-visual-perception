@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A fill selecting one side of a visible geometric or plotted boundary. On the left, use the gray side of the descending solid line containing the origin. On the right, use the shaded parts inside the circle and outside the central white diamond.",
+  "mathematical_meanings": "Left image: It consists of coordinate pairs satisfying the indicated non-strict linear inequality. Right image: The selected circular part is the disk with the inner square excluded. The additional corner shading is outside the circle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The shaded half-plane records which coordinate pairs meet an inequality. The geometric fill delimits a measured area after removing the depicted cutout or excluded portion."
+}

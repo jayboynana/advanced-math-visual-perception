@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1236",
+  "authoring_id": "V05EC071",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "triangle_height_vs_between_curve_integrand",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1247_A",
+    "sample_index": "1247",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1247,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1247_A.jpg",
+    "sha256": "5f19ba397735ead8413b0b8de6a0cd9b2e2f378dbe6ba26b287722acca2b25da",
+    "width": 100,
+    "height": 109,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1247_A.jpg",
+      "start": 2701348,
+      "length": 2625,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "287",
+    "sample_index": "287",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 325,
+      "img_width": 370,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/287.jpg",
+    "sha256": "6329bfb39cfb3eb35295eac984373c43782051983f6136a6a28328877287003d",
+    "width": 370,
+    "height": 325,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1236/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded patch beside a plotted curve. On the left, use the gray triangle bounded by the x-axis, segment ON and the vertical segment below N. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "left_evidence": "The gray triangle bounded by the x-axis, segment ON and the vertical segment below N.",
+    "right_evidence": "The shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "left_meaning": "The selected triangle has vertex N on the hyperbola, and straight boundaries to its projection and the origin.",
+    "right_meaning": "It selects a region between the two functions on the displayed x-interval.",
+    "same_meaning": false,
+    "reason": "The left fill is a straight-sided triangle with a vertex located by the curve. The two curves on the right, by contrast, provide the changing upper and lower boundaries throughout the selected interval.",
+    "reasoning_consequence": "Correctly interpreting the markings means using the coordinates of N to compute that triangle’s area on the left and subtracting the lower graph from the upper graph over the displayed R2 interval on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A shaded patch beside a plotted curve. On the left, use the gray triangle bounded by the x-axis, segment ON and the vertical segment below N. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+    "mathematical_meanings": "Left image: The selected triangle has vertex N on the hyperbola, and straight boundaries to its projection and the origin. Right image: It selects a region between the two functions on the displayed x-interval.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left fill is a straight-sided triangle with a vertex located by the curve. The two curves on the right, by contrast, provide the changing upper and lower boundaries throughout the selected interval."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/different type/AVP1236",
+    "condition": "condition/domain_and_solution_constraints/AVP1236"
+  }
+}

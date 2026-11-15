@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the right-hand mark at t=4√6/3 on the left with the right-hand mark at (3,0) on the right.",
+  "mathematical_meanings": "Left image: The displayed function has no value at t=4√6/3. Right image: The point belongs to the plotted graph and gives f(3)=0.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, the hollow marker omits the indicated point and there is no other plotted value at t=4√6/3. On the right, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate."
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1034",
+  "authoring_id": "V05EA034",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "closed_boundary_inclusion",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "491",
+    "sample_index": "2454",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_491.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1034/left.png",
+    "width": 454,
+    "height": 534,
+    "sha256": "8cd44bbbac50a19492b4c3fcc720a7ea770bf0fcfe9f5fa5c8db520da3b6c672"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "550_A",
+    "sample_index": "550",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 550,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/550_A.jpg",
+    "sha256": "01a668b067ca720cb8952ebd85695137f807de883eb496e2644b413b9646958b",
+    "width": 144,
+    "height": 44,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/550_A.jpg",
+      "start": 13442574,
+      "length": 1479,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the upper-right mark on the left with the mark at 2 on the number line on the right.",
+    "left_evidence": "The filled upper-right endpoint aligned with x=7 and y=150.",
+    "right_evidence": "The filled circular marker at 2, where the raised horizontal stroke extends right.",
+    "left_meaning": "The point belongs to the plotted graph and gives f(7)=150.",
+    "right_meaning": "The displayed set includes 2 at its lower bound.",
+    "same_meaning": true,
+    "reason": "On the left, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate. On the right, the filled endpoint marks an inclusive boundary of the marked ray.",
+    "reasoning_consequence": "A solver can read f(7)=150 from the included point on the left and can accept 2 as a member of the displayed set on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the upper-right mark on the left with the mark at 2 on the number line on the right.",
+    "mathematical_meanings": "Left image: The point belongs to the plotted graph and gives f(7)=150. Right image: The displayed set includes 2 at its lower bound.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "On the left, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate. On the right, the filled endpoint marks an inclusive boundary of the marked ray."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of both source images. For an answer-option diagram, the annotation interprets the marks in the image itself. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP1034",
+    "condition": "condition/domain_and_solution_constraints/AVP1034"
+  }
+}

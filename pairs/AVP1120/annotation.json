@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1120",
+  "authoring_id": "V05EB040",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "direction_less_vs_greater",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "475",
+    "sample_index": "2374",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_475.png",
+    "original_image_modified": false,
+    "image_type": "number_line",
+    "image_path": "pairs/AVP1120/left.png",
+    "width": 422,
+    "height": 60,
+    "sha256": "b0e3d60b6597035d7a6329f3f0a65eb378e9ada55ae6bf5c6b970e33765baa75"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "182_4",
+    "sample_index": "182_4",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 182,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 4
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch17-2024_06_14_0c602413ec66cf6e570cg_0016_4.jpg",
+    "sha256": "e7182d9b397773078373c960a97681871fa2608415f1c06d0512a122a71b327c",
+    "width": 328,
+    "height": 114,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1120/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The direction of a marked trace on a number line or function graph. Compare the blue trace attached to the number-line mark at 4 in the left image with the raised trace attached to the number-line mark at 7 in the right image.",
+    "left_evidence": "The arrow on the blue trace pointing left from the boundary at 4.",
+    "right_evidence": "The raised horizontal trace extending right away from the boundary at 7.",
+    "left_meaning": "The highlighted ray extends over values less than 4.",
+    "right_meaning": "The marked ray admits values greater than 7.",
+    "same_meaning": false,
+    "reason": "The selected left cue selects values on the smaller-input side of the boundary. The selected right cue selects values on the larger-input side of the boundary, so the two constraints differ in how they admit values.",
+    "reasoning_consequence": "In the left image, reading the black axis arrow instead of the blue trace would give the wrong side of 4. In the right image, reversing its direction would reject larger values and select values below 7."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The direction of a marked trace on a number line or function graph. Compare the blue trace attached to the number-line mark at 4 in the left image with the raised trace attached to the number-line mark at 7 in the right image.",
+    "mathematical_meanings": "Left image: The highlighted ray extends over values less than 4. Right image: The marked ray admits values greater than 7.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected left cue selects values on the smaller-input side of the boundary. The selected right cue selects values on the larger-input side of the boundary, so the two constraints differ in how they admit values."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1120",
+    "condition": "condition/domain_and_solution_constraints/AVP1120"
+  }
+}

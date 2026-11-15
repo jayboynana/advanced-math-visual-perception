@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A collection of selected square grid cells filled in gray. On the left, use the selected gray unit cells of the four-by-four grid. On the right, use the chain of six gray unit cells in the rectangular grid.",
+  "mathematical_meanings": "Left image: The cells marked gray specify a finite collection of occupied squares of the candidate shape. Right image: The six marked unit squares make up the figure available for cutting and rearrangement.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The marked cells belong to the discrete figure under consideration. Unfilled grid cells remain outside that figure for the geometry operation specified in each problem."
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1005",
+  "authoring_id": "V05EA005",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "open_boundary_exclusion",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "632_C",
+    "sample_index": "632",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 632,
+      "image_role": "C"
+    },
+    "original_relative_path": "images/632_C.jpg",
+    "sha256": "ec88b476e1a4d2d8a9ca97a37120e2d0f71689bba06812a1d93bc64369f1f650",
+    "width": 223,
+    "height": 65,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/632_C.jpg",
+      "start": 14248662,
+      "length": 2362,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1204_D",
+    "sample_index": "1204",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 1204,
+      "image_role": "D"
+    },
+    "original_relative_path": "images/1204_D.jpg",
+    "sha256": "660fd23510a57f3f77724fd733b17d138ab0cbef1140df73fe8f42aa31865f25",
+    "width": 98,
+    "height": 48,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1204_D.jpg",
+      "start": 2272441,
+      "length": 1578,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at −2 on the number line on the left with the mark at 4 on the number line on the right.",
+    "left_evidence": "The hollow circular marker at −2, at the left boundary of the shaded interval between −2 and 2.",
+    "right_evidence": "The hollow circular marker at 4, at the right boundary of the hatched interval between 3 and 4.",
+    "left_meaning": "The displayed interval excludes its boundary value −2.",
+    "right_meaning": "The displayed interval excludes its boundary value 4.",
+    "same_meaning": true,
+    "reason": "On the left, the hollow dot makes equality at −2 inadmissible for the interval. On the right, the hollow dot makes equality at 4 inadmissible for the interval.",
+    "reasoning_consequence": "A solver can reject −2 as a member of the displayed interval on the left and can reject 4 as a member of the displayed interval on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at −2 on the number line on the left with the mark at 4 on the number line on the right.",
+    "mathematical_meanings": "Left image: The displayed interval excludes its boundary value −2. Right image: The displayed interval excludes its boundary value 4.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "On the left, the hollow dot makes equality at −2 inadmissible for the interval. On the right, the hollow dot makes equality at 4 inadmissible for the interval."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of both source images. For an answer-option diagram, the annotation interprets the marks in the image itself. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP1005",
+    "condition": "condition/domain_and_solution_constraints/AVP1005"
+  }
+}

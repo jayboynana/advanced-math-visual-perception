@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled region selected by a comparison with a plotted boundary. On the left, use the gray region above the curve labeled f, with the visible text “epi f.” On the right, use the gray half-plane below the solid horizontal line.",
+  "mathematical_meanings": "Left image: It represents the epigraph, the coordinate pairs on or above f. Right image: It consists of points satisfying the lower-side inequality, including equality along the solid line.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The shaded side identifies locations where the relevant comparison holds in each panel. The plotted boundary and its convention determine how equality is treated in each individual problem."
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1129",
+  "authoring_id": "V05EB049",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "endpoint_closed",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "226_4",
+    "sample_index": "226_4",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 226,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 4
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch19-2024_05_24_c146e2aaeb1beea8235eg_0003_4.jpg",
+    "sha256": "c1dd62f1ceec0d2dac6747c9c12fc2134f405697432fdf9816ddd7683ba1cac1",
+    "width": 297,
+    "height": 97,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1129/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "487",
+    "sample_index": "2434",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_487.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1129/right.png",
+    "width": 455,
+    "height": 462,
+    "sha256": "4ce4b2cd619d1a2ff627cf6ca2df6c4f06c0495a291c9dca7fa4098469e677cb"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the circular marker at 4 beside the gray region in the left image with the marker at (−3, 0) in the right image.",
+    "left_evidence": "The filled dot at 4 on the right edge of the gray overlap.",
+    "right_evidence": "The filled dot at (−3, 0) at the left start of the blue line.",
+    "left_meaning": "The highlighted intersection includes 4, its right endpoint.",
+    "right_meaning": "The plotted piecewise function begins with an included point at x = −3.",
+    "same_meaning": true,
+    "reason": "The selected cue in each image includes the indicated boundary point. This gives the same local constraint rule in the two contexts.",
+    "reasoning_consequence": "In the left image, removing 4 would incorrectly open the upper end of the shaded interval. In the right image, removing that point would incorrectly omit the left endpoint and its output 0."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the circular marker at 4 beside the gray region in the left image with the marker at (−3, 0) in the right image.",
+    "mathematical_meanings": "Left image: The highlighted intersection includes 4, its right endpoint. Right image: The plotted piecewise function begins with an included point at x = −3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected cue in each image includes the indicated boundary point. This gives the same local constraint rule in the two contexts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/different type/AVP1129",
+    "condition": "condition/domain_and_solution_constraints/AVP1129"
+  }
+}

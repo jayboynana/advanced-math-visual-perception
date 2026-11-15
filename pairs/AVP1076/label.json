@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at 5 on the number line on the left with the mark at 5 on the number line on the right. Where two raised traces are shown, consider values satisfying both constraints.",
+  "mathematical_meanings": "Left image: The displayed set includes 5 at its lower bound. Right image: The filled dot admits 5 for its own bound, but the other constraint rejects that value.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, the filled endpoint marks an inclusive boundary of the marked ray. On the right, although the selected dot is filled, the other marked ray does not reach 5. The value is outside the intersection."
+}

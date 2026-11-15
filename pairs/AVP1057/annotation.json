@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1057",
+  "authoring_id": "V05EA057",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "strict_vs_inclusive_boundary",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1557_C",
+    "sample_index": "1557",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 1557,
+      "image_role": "C"
+    },
+    "original_relative_path": "images/1557_C.jpg",
+    "sha256": "f7348e098df00a281849d2fd53750ebec23386d069e8304e9391e6f623c9b7a9",
+    "width": 101,
+    "height": 36,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1557_C.jpg",
+      "start": 6325699,
+      "length": 1375,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "559",
+    "sample_index": "2794",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_559.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1057/right.png",
+    "width": 291,
+    "height": 292,
+    "sha256": "20cdd7b0d3bcbba715b116a92a794e49997a894d30eb502a6a8c1b994b3910d0"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at −1 on the number line on the left with the mark at (4,−4) on the right.",
+    "left_evidence": "The hollow circular marker at −1, where the raised horizontal stroke extends left.",
+    "right_evidence": "The filled point at (4,−4), at the right end of g.",
+    "left_meaning": "The displayed set excludes −1 at its upper bound.",
+    "right_meaning": "The point belongs to the plotted graph and gives g(4)=−4.",
+    "same_meaning": false,
+    "reason": "On the left, the hollow endpoint marks a strict boundary of the marked ray. On the right, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate.",
+    "reasoning_consequence": "A solver can reject −1 as a member of the displayed set on the left and can read g(4)=−4 from the included point on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at −1 on the number line on the left with the mark at (4,−4) on the right.",
+    "mathematical_meanings": "Left image: The displayed set excludes −1 at its upper bound. Right image: The point belongs to the plotted graph and gives g(4)=−4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, the hollow endpoint marks a strict boundary of the marked ray. On the right, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of both source images. For an answer-option diagram, the annotation interprets the marks in the image itself. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP1057",
+    "condition": "condition/domain_and_solution_constraints/AVP1057"
+  }
+}

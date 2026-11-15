@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region with a plotted boundary. On the left, use the gray region above the curve labeled f, with the visible text “epi f.” On the right, use the gray patch enclosed by the blue cubic and orange cube-root curves between x = 0 and x = 1.",
+  "mathematical_meanings": "Left image: It represents the epigraph, the coordinate pairs on or above f. Right image: It selects the bounded area between the two function graphs.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left selection describes an allowable side or range relative to a plotted comparison. The right fill selects a gap between curves whose height is found by subtraction for an area calculation."
+}

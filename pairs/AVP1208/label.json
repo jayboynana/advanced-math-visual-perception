@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region adjacent to a plotted line or curve. On the left, use the gray region above the curve labeled f, with the visible text “epi f.” On the right, use the blue-green fill under the right branch of the semicircle, to the right of x = 3.",
+  "mathematical_meanings": "Left image: It represents the epigraph, the coordinate pairs on or above f. Right image: It selects the region under the arch only from x = 3 to x = 6.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left fill identifies where a plotted comparison is satisfied. The right fill selects a region from a function to its axis over a specified integration interval."
+}

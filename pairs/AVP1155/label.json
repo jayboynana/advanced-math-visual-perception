@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An inequality involving x and a cutoff value beside a piecewise formula. Compare the input condition beside the curved branch in the left image with the input condition in the lower formula label in the right image.",
+  "mathematical_meanings": "Left image: The parabolic formula applies for x at least 1, including x = 1. Right image: The linear rule includes x = 1 as its left boundary.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The ≥ and >= notations both include equality at x = 1 in the stated formula’s input condition."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Multiple filled pieces separated by unfilled parts of the surrounding figure. On the left, use the two hatched triangular regions ABE and DCE. On the right, use the gray patches at the upper-left and lower-right corners of the rectangle.",
+  "mathematical_meanings": "Left image: The hatch selects two separate triangles of parallelogram ABCD. Right image: The fill selects two corner regions separated by unshaded parts of the rectangle.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In each figure the fill specifies the components included in a total area. The unfilled pieces do not contribute to that total."
+}

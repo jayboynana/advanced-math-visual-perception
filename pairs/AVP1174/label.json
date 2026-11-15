@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the green Non-Organic crescent containing 74 outside the Organic circle. On the right, use the pink crescent containing 6, 9, 16 and 18.",
+  "mathematical_meanings": "Left image: The region represents customers in the Non-Organic category only. Right image: It lists the elements belonging to A and outside B.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures."
+}

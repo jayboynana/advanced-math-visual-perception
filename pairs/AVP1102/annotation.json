@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1102",
+  "authoring_id": "V05EB022",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "region_boundary_included",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "509",
+    "sample_index": "2544",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_509.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1102/left.png",
+    "width": 652,
+    "height": 500,
+    "sha256": "ed0eeaed5fd14a6f75de86f7255dbf3899430a155a41ce69788a73724070e30f"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "513",
+    "sample_index": "2564",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_513.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1102/right.png",
+    "width": 607,
+    "height": 516,
+    "sha256": "16e3726f894428c922f380dd8013ece0585e57764c8ceb66dcf68b363de77460"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight boundary separating the shaded and unshaded parts of a coordinate plane. Compare the horizontal line between the gray and white regions in the left image with the diagonal line between the gray and white regions in the right image.",
+    "left_evidence": "The solid horizontal line at the top of the lower shaded half-plane.",
+    "right_evidence": "The solid rising diagonal where the white half-plane meets the gray shading.",
+    "left_meaning": "The horizontal equality boundary is included in the shaded solution region.",
+    "right_meaning": "The equality line belongs to the shaded solution region.",
+    "same_meaning": true,
+    "reason": "Each region has a solid boundary, so points satisfying equality belong to both depicted solution sets along their respective lines.",
+    "reasoning_consequence": "In the left image, reading it as strict would incorrectly exclude points along the top edge of the shaded region. In the right image, making the edge strict would wrongly exclude (0, 3), the marked point on the vertical axis."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight boundary separating the shaded and unshaded parts of a coordinate plane. Compare the horizontal line between the gray and white regions in the left image with the diagonal line between the gray and white regions in the right image.",
+    "mathematical_meanings": "Left image: The horizontal equality boundary is included in the shaded solution region. Right image: The equality line belongs to the shaded solution region.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each region has a solid boundary, so points satisfying equality belong to both depicted solution sets along their respective lines."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1102",
+    "condition": "condition/domain_and_solution_constraints/AVP1102"
+  }
+}

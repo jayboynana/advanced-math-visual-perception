@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1083",
+  "authoring_id": "V05EB003",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "endpoint_open_vs_closed",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "343_3",
+    "sample_index": "343_3",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 343,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 3
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0029_3.jpg",
+    "sha256": "713e1c1e410899e1ebb414995217578d4c2d9ae9066440a7daeddfc68a385168",
+    "width": 351,
+    "height": 114,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1083/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "37",
+    "sample_index": "37",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 410,
+      "img_width": 408,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/37.jpg",
+    "sha256": "27956cd805ac2460bd9ecdaf10ef34946958b1741750f7cf92f477e978210e04",
+    "width": 408,
+    "height": 410,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1083/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 1 beside the gray region in the left image with the upper of the two vertically aligned markers in the right image.",
+    "left_evidence": "The hollow dot at 1 at the right side of the shaded region.",
+    "right_evidence": "The filled blue dot directly above the hollow dot on the curve.",
+    "left_meaning": "The shaded overlap excludes the upper boundary 1.",
+    "right_meaning": "The filled dot gives the actual function value at that shared input.",
+    "same_meaning": false,
+    "reason": "The selected left cue excludes the indicated boundary point. The selected right cue includes the indicated boundary point, so the two constraints differ in how they admit values.",
+    "reasoning_consequence": "In the left image, adding 1 would misreport the upper end of (−2, 1). In the right image, dropping the filled point would falsely leave the input without an assigned function value."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 1 beside the gray region in the left image with the upper of the two vertically aligned markers in the right image.",
+    "mathematical_meanings": "Left image: The shaded overlap excludes the upper boundary 1. Right image: The filled dot gives the actual function value at that shared input.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected left cue excludes the indicated boundary point. The selected right cue includes the indicated boundary point, so the two constraints differ in how they admit values."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/different type/AVP1083",
+    "condition": "condition/domain_and_solution_constraints/AVP1083"
+  }
+}

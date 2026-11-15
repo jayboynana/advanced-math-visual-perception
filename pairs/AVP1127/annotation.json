@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1127",
+  "authoring_id": "V05EB047",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "region_boundary_included",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "510",
+    "sample_index": "2549",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_510.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1127/left.png",
+    "width": 576,
+    "height": 513,
+    "sha256": "0b382d312e7c4a7426e2b85ebef8f03ca2c929d3fb0ffb5c9f048ce88a0298ed"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "509",
+    "sample_index": "2544",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_509.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1127/right.png",
+    "width": 652,
+    "height": 500,
+    "sha256": "ed0eeaed5fd14a6f75de86f7255dbf3899430a155a41ce69788a73724070e30f"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight boundary separating the shaded and unshaded parts of a coordinate plane. Compare the diagonal line between the gray and white regions in the left image with the horizontal line between the gray and white regions in the right image.",
+    "left_evidence": "The solid descending diagonal at the edge of the shaded region.",
+    "right_evidence": "The solid horizontal line at the top of the lower shaded half-plane.",
+    "left_meaning": "Points on the descending boundary satisfy the non-strict inequality represented by the shading.",
+    "right_meaning": "The horizontal equality boundary is included in the shaded solution region.",
+    "same_meaning": true,
+    "reason": "Each region has a solid boundary, so points satisfying equality belong to both depicted solution sets along their respective lines.",
+    "reasoning_consequence": "In the left image, dropping those points would give the wrong answer to a membership check on the drawn edge. In the right image, reading it as strict would incorrectly exclude points along the top edge of the shaded region."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight boundary separating the shaded and unshaded parts of a coordinate plane. Compare the diagonal line between the gray and white regions in the left image with the horizontal line between the gray and white regions in the right image.",
+    "mathematical_meanings": "Left image: Points on the descending boundary satisfy the non-strict inequality represented by the shading. Right image: The horizontal equality boundary is included in the shaded solution region.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each region has a solid boundary, so points satisfying equality belong to both depicted solution sets along their respective lines."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1127",
+    "condition": "condition/domain_and_solution_constraints/AVP1127"
+  }
+}

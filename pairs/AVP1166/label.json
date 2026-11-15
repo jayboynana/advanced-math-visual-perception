@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "The lens-shaped region inside both circular outlines. On the left, use the narrow white lens simultaneously inside both green circles. On the right, use the central unshaded lens labeled 1001 inside both the A and B contours.",
+  "mathematical_meanings": "Left image: The lens consists of the elements common to A and B. Right image: The lens contains elements shared by A and B, with cardinality 1001.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The selected region lies within both labeled contours in each diagram, which assigns simultaneous membership in the two sets."
+}

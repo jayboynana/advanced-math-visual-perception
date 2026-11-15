@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at 3 on the number line on the left with the mark at (−1,4) on the right.",
+  "mathematical_meanings": "Left image: The displayed interval excludes its boundary value 3. Right image: The point (−1,4) is excluded while the same input is still defined by f(−1)=5.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, the hollow dot makes equality at 3 inadmissible for the interval. On the right, the hollow marker excludes its plotted height only. The filled marker vertically aligned with it supplies the actual output at that input."
+}

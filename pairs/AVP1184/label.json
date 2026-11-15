@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored region delimited by the intersecting contours of two circles. On the left, use the tan lens containing 2, 3, 4, 5 and 11. On the right, use the pink Car crescent containing 72 outside the Airplane circle.",
+  "mathematical_meanings": "Left image: The lens lists elements contained in both A and B. Right image: It represents the people in the Car category only.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The lens is inside both circle boundaries, so it requires both memberships. The crescent lies inside only one circle and excludes the shared members."
+}

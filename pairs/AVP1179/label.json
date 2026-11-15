@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A “Neither” count placed outside both circular outlines. On the left, use the text “Neither: 50” above and outside both circles. On the right, use the text “Neither: 12” outside the two circles.",
+  "mathematical_meanings": "Left image: The fifty respondents are concerned about neither issue. Right image: The twelve respondents belong to neither travel-preference set.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Placement outside both set boundaries and the Neither label identify the complement of the union in each diagram."
+}

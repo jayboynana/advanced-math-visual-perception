@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1133",
+  "authoring_id": "V05EB053",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "endpoint_open",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "342_2",
+    "sample_index": "342_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 342,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 2
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0021_2.jpg",
+    "sha256": "8cd43ae21368cf29caec575101a6ce38f12c8df97e72770902f16bb1d7a10d0c",
+    "width": 323,
+    "height": 89,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1133/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "347_1",
+    "sample_index": "347_1",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 347,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0065_1.jpg",
+    "sha256": "9f23df27475ae127ad16667ffdcd2972f1b72925d9d2d9770736dacd7bc97ebc",
+    "width": 343,
+    "height": 120,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1133/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 1 on the number line in the left image with the marker at 0 on the number line in the right image.",
+    "left_evidence": "The hollow dot at 1 under the start of the rightward raised line.",
+    "right_evidence": "The hollow dot at 0 beneath the right end of the raised trace.",
+    "left_meaning": "The interval excludes the lower boundary 1.",
+    "right_meaning": "The interval at the left of 0 excludes 0.",
+    "same_meaning": true,
+    "reason": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts.",
+    "reasoning_consequence": "In the left image, adding 1 would turn x > 1 into x ≥ 1. In the right image, adding 0 would replace x < 0 with x ≤ 0."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 1 on the number line in the left image with the marker at 0 on the number line in the right image.",
+    "mathematical_meanings": "Left image: The interval excludes the lower boundary 1. Right image: The interval at the left of 0 excludes 0.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1133",
+    "condition": "condition/domain_and_solution_constraints/AVP1133"
+  }
+}

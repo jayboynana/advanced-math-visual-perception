@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the circular marker at 4 beside the gray region in the left image with the marker at (6, 1/6) in the right image.",
+  "mathematical_meanings": "Left image: The highlighted intersection excludes 4, its right endpoint. Right image: The positive branch includes the labeled right endpoint.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The selected left cue excludes the indicated boundary point. The selected right cue includes the indicated boundary point, so the two constraints differ in how they admit values."
+}

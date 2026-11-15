@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A sector of a circle bounded by two radii and a circular arc. On the left, use the dark gray sector enclosed by two radii and a circular arc, next to 120°. On the right, use the sector labeled 1 under the arrow on the left spinner.",
+  "mathematical_meanings": "Left image: It selects the 120-degree sector as a geometric area. Right image: This sector is the spinner outcome 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left sector defines a geometric area to measure. The numeral inside the right sector is an outcome of a spinner, which enters a probability calculation."
+}

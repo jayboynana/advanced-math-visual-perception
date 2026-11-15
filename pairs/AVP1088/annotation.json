@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1088",
+  "authoring_id": "V05EB008",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "arrangement_gap_vs_overlap",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "146_2",
+    "sample_index": "146_2",
+    "problem_version": "original",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "problem_id": 146,
+      "subject": "Transformation Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 2
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch14-2024_06_15_a2af22e8ba137bc6684fg_0060_2.jpg",
+    "sha256": "8de5eefb38f177b5cda4e0feb6ecc1800a753656b6b9e27abfcf5f269e8da7c9",
+    "width": 391,
+    "height": 111,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1088/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "344_4",
+    "sample_index": "344_4",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 344,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 4
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0033_4.jpg",
+    "sha256": "b260ee206d697c9b2becb1083f0383be9bddd5ffa215909b0ff78a2602ced06c",
+    "width": 343,
+    "height": 137,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1088/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at −3 and 4 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
+    "left_evidence": "The two raised traces from the hollow endpoints −3 and 4, extending outward in opposite directions.",
+    "right_evidence": "The raised traces extending toward each other from 1 and 3, with horizontal overlap between the hollow dots.",
+    "left_meaning": "The traces select x < −3 and x > 4 on opposite sides, with none of the middle values selected.",
+    "right_meaning": "Both inequalities are satisfied for values strictly between 1 and 3.",
+    "same_meaning": false,
+    "reason": "The selected left cue leaves the middle interval uncovered by both traces. The selected right cue admits the middle interval in both traces, so the two constraints differ in how they admit values.",
+    "reasoning_consequence": "In the left image, reporting the middle as covered would admit 0 even though it lies on neither highlighted trace. In the right image, reading the traces as outward would incorrectly reject the shared value 2."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at −3 and 4 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
+    "mathematical_meanings": "Left image: The traces select x < −3 and x > 4 on opposite sides, with none of the middle values selected. Right image: Both inequalities are satisfied for values strictly between 1 and 3.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected left cue leaves the middle interval uncovered by both traces. The selected right cue admits the middle interval in both traces, so the two constraints differ in how they admit values."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1088",
+    "condition": "condition/domain_and_solution_constraints/AVP1088"
+  }
+}

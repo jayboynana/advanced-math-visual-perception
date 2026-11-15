@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An x-axis-adjacent shaded region near a plotted curve. On the left, use the gray triangle bounded by the x-axis, segment ON and the vertical segment below N. On the right, use the gray area above the x-axis between the two branches of the parabola.",
+  "mathematical_meanings": "Left image: The selected triangle has vertex N on the hyperbola, and straight boundaries to its projection and the origin. Right image: The shading selects the bounded region between the parabola and the x-axis from x = −5 to x = 5, whose top extends beyond the window.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left shaded patch is bounded by the straight segment from O to N. The right shaded patch reaches a function curve itself, which supplies an area boundary throughout its interval."
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1093",
+  "authoring_id": "V05EB013",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "endpoint_open",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "226_3",
+    "sample_index": "226_3",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 226,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 3
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch19-2024_05_24_c146e2aaeb1beea8235eg_0003_3.jpg",
+    "sha256": "d5c40b50f7d34278478bf9124607f83b2a8fc90263b2434cfb23d9736c28f669",
+    "width": 302,
+    "height": 100,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1093/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "34",
+    "sample_index": "34",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 479,
+      "img_width": 479,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/34.jpg",
+    "sha256": "a1d40252df325857990c49d1e6c6787002ef9d202856c55ca1d51f9bb2d4d7ea",
+    "width": 479,
+    "height": 479,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1093/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the circular marker at 4 beside the gray region in the left image with the marker at (0, −1) in the right image.",
+    "left_evidence": "The hollow dot at 4 on the right edge of the gray overlap.",
+    "right_evidence": "The hollow red dot at (0, −1) on the step to the right of the vertical axis.",
+    "left_meaning": "The highlighted intersection excludes 4, its right endpoint.",
+    "right_meaning": "The lower step excludes its point at x = 0.",
+    "same_meaning": true,
+    "reason": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts.",
+    "reasoning_consequence": "In the left image, including 4 would incorrectly close the upper end of the shaded interval. In the right image, including the hollow dot would incorrectly give the lower step's value −1 at x = 0."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the circular marker at 4 beside the gray region in the left image with the marker at (0, −1) in the right image.",
+    "mathematical_meanings": "Left image: The highlighted intersection excludes 4, its right endpoint. Right image: The lower step excludes its point at x = 0.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/different type/AVP1093",
+    "condition": "condition/domain_and_solution_constraints/AVP1093"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1011",
+  "authoring_id": "V05EA011",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "open_boundary_exclusion",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "360_A",
+    "sample_index": "360",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 360,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/360_A.jpg",
+    "sha256": "91f1a3f214c87ef93824d3cc563de1e98a04606306f5e1278e8164176cb631cd",
+    "width": 92,
+    "height": 39,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/360_A.jpg",
+      "start": 11666128,
+      "length": 1103,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1452_B",
+    "sample_index": "1452",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1452,
+      "image_role": "B"
+    },
+    "original_relative_path": "images/1452_B.jpg",
+    "sha256": "c6fb228ce5ed0430a7c1469e687b1e98e001d66b301eb6e677635c6e0c257d1d",
+    "width": 94,
+    "height": 85,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1452_B.jpg",
+      "start": 5082638,
+      "length": 1525,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at −1 on the number line on the left with the left-hand mark on the vertical axis on the right.",
+    "left_evidence": "The hollow circular marker at −1, where the raised horizontal stroke extends right.",
+    "right_evidence": "The hollow circle on the vertical axis, at the left end of the arch.",
+    "left_meaning": "The displayed set excludes −1 at its lower bound.",
+    "right_meaning": "The displayed function has no value at x=0.",
+    "same_meaning": true,
+    "reason": "On the left, the hollow endpoint marks a strict boundary of the marked ray. On the right, the hollow marker omits the indicated point and there is no other plotted value at x=0.",
+    "reasoning_consequence": "A solver can reject −1 as a member of the displayed set on the left and must leave x=0 outside the displayed domain on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at −1 on the number line on the left with the left-hand mark on the vertical axis on the right.",
+    "mathematical_meanings": "Left image: The displayed set excludes −1 at its lower bound. Right image: The displayed function has no value at x=0.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "On the left, the hollow endpoint marks a strict boundary of the marked ray. On the right, the hollow marker omits the indicated point and there is no other plotted value at x=0."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of both source images. For an answer-option diagram, the annotation interprets the marks in the image itself. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP1011",
+    "condition": "condition/domain_and_solution_constraints/AVP1011"
+  }
+}

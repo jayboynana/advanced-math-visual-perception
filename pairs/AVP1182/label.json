@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored region delimited by the intersecting contours of two circles. On the left, use the tan lens containing 1, 4 and 13. On the right, use the pink Programming crescent labeled 64, outside the Data Analysis circle.",
+  "mathematical_meanings": "Left image: The lens lists the elements that belong to both A and B. Right image: It represents employees with Programming only.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The lens is inside both circle boundaries, so it requires both memberships. The crescent lies inside only one circle and excludes the shared members."
+}

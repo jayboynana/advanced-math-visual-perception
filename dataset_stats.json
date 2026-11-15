@@ -1,64 +1,66 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.5.0",
   "language": "en",
   "pair_count": 1000,
   "target_count": 1000,
   "targets_per_pair": 1,
-  "preserved_pair_count": 500,
-  "added_pair_count": 500,
-  "unique_problem_count": 880,
-  "unique_image_hash_count": 876,
-  "unique_decoded_image_count": 876,
+  "preserved_pair_count": 750,
+  "added_pair_count": 250,
+  "unique_problem_count": 842,
+  "unique_image_hash_count": 839,
+  "unique_decoded_image_count": 839,
   "source_image_counts": {
-    "MathVerse": 152,
-    "MathVista": 167,
-    "MathVision": 73,
-    "MV-MATH": 74,
-    "DynaMath": 151,
+    "MathVerse": 134,
+    "MathVista": 155,
+    "MathVision": 80,
+    "MV-MATH": 107,
+    "DynaMath": 142,
     "We-Math": 124,
-    "VisioMath": 139
+    "VisioMath": 100
   },
   "source_pair_counts": {
-    "DynaMath": 260,
-    "MV-MATH": 129,
-    "MathVerse": 303,
-    "MathVision": 101,
-    "MathVista": 332,
-    "VisioMath": 124,
-    "We-Math": 125
+    "DynaMath": 286,
+    "MV-MATH": 202,
+    "MathVerse": 304,
+    "MathVision": 113,
+    "MathVista": 267,
+    "VisioMath": 86,
+    "We-Math": 127
   },
   "source_pair_combinations": {
-    "MathVerse / MathVerse": 107,
-    "MathVerse / MathVista": 112,
-    "MathVista / MathVista": 182,
+    "MathVerse / MathVerse": 93,
+    "MathVerse / MathVista": 53,
+    "MathVista / MathVista": 156,
     "MathVision / MathVision": 67,
-    "MathVerse / MathVision": 33,
-    "MV-MATH / MathVerse": 11,
-    "MV-MATH / MathVista": 8,
-    "MV-MATH / MV-MATH": 23,
-    "DynaMath / MathVista": 17,
-    "DynaMath / DynaMath": 95,
+    "MathVerse / MathVision": 35,
+    "MV-MATH / MathVerse": 58,
+    "MV-MATH / MathVista": 17,
+    "MV-MATH / MV-MATH": 40,
+    "DynaMath / MathVista": 28,
+    "DynaMath / DynaMath": 118,
     "DynaMath / MV-MATH": 87,
-    "DynaMath / MathVerse": 9,
+    "DynaMath / MathVerse": 25,
     "We-Math / We-Math": 105,
-    "DynaMath / We-Math": 3,
+    "DynaMath / We-Math": 5,
     "MathVerse / We-Math": 16,
     "MathVision / We-Math": 1,
-    "DynaMath / VisioMath": 49,
-    "VisioMath / VisioMath": 47,
-    "MathVista / VisioMath": 13,
-    "MathVerse / VisioMath": 15
+    "VisioMath / VisioMath": 36,
+    "MathVerse / VisioMath": 24,
+    "DynaMath / VisioMath": 15,
+    "MathVista / VisioMath": 11,
+    "DynaMath / MathVision": 8,
+    "MathVision / MathVista": 2
   },
-  "cross_dataset_pair_count": 374,
+  "cross_dataset_pair_count": 385,
   "type_counts": {
-    "same type": 573,
-    "different type": 427
+    "same type": 587,
+    "different type": 413
   },
   "condition_counts": {
     "numeric_representation": 250,
     "geometric_markers": 250,
     "symbolic_roles": 250,
-    "graphical_roles": 250
+    "domain_and_solution_constraints": 250
   },
   "condition_source_pair_counts": {
     "numeric_representation": {
@@ -88,25 +90,25 @@
       "VisioMath": 0,
       "We-Math": 0
     },
-    "graphical_roles": {
-      "DynaMath": 50,
-      "MV-MATH": 0,
-      "MathVerse": 111,
-      "MathVision": 0,
-      "MathVista": 113,
-      "VisioMath": 124,
-      "We-Math": 0
+    "domain_and_solution_constraints": {
+      "DynaMath": 76,
+      "MV-MATH": 73,
+      "MathVerse": 112,
+      "MathVision": 12,
+      "MathVista": 48,
+      "VisioMath": 86,
+      "We-Math": 2
     }
   },
   "semantic_counts": {
-    "same_meaning": 499,
-    "different_meaning": 501
+    "same_meaning": 500,
+    "different_meaning": 500
   },
   "joint_counts": {
-    "same type|same_meaning": 419,
-    "same type|different_meaning": 154,
-    "different type|different_meaning": 347,
-    "different type|same_meaning": 80
+    "same type|same_meaning": 395,
+    "same type|different_meaning": 192,
+    "different type|different_meaning": 308,
+    "different type|same_meaning": 105
   },
   "condition_semantic_counts": {
     "numeric_representation": {
@@ -121,13 +123,14 @@
       "same_meaning": 125,
       "different_meaning": 125
     },
-    "graphical_roles": {
-      "same_meaning": 125,
-      "different_meaning": 125
+    "domain_and_solution_constraints": {
+      "same_meaning": 126,
+      "different_meaning": 124
     }
   },
-  "max_problem_reuse": 14,
-  "max_decoded_image_reuse": 14,
+  "max_problem_reuse": 15,
+  "max_decoded_image_reuse": 15,
   "annotation_status": "ai_visually_reviewed_draft",
-  "split": "pilot_unsplit"
+  "split": "pilot_unsplit",
+  "retired_pair_count": 250
 }

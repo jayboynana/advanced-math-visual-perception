@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1250",
+  "authoring_id": "V05EC085",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "selected_components_vs_remainder",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2209",
+    "sample_index": "2209",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2209",
+      "question": "What is the area of the shaded region of the given $8 \\times 5$ rectangle?\n\n<image1>",
+      "options": [
+        "$4\\frac{3}{5}$",
+        "$5$",
+        "$5\\frac{1}{4}$",
+        "$6\\frac{1}{2}$",
+        "$8$"
+      ],
+      "image": "images/2209.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2209.jpg",
+    "sha256": "3c2fa3e147cb1cebd9789d63491db1890de509fe02378e4b3d5228bbdc511128",
+    "width": 616,
+    "height": 436,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1250/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "767",
+    "sample_index": "3834",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_767.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1250/right.png",
+    "width": 761,
+    "height": 431,
+    "sha256": "1b1afda8915a9574078d2f896af9faa52728db8ae4cd5471ab5a1aac8373ee08"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Shading restricted to parts of a figure by internal boundaries. On the left, use the gray patches at the upper-left and lower-right corners of the rectangle. On the right, use the gray polygon inside rectangle ABDF beneath the segments AC and CE.",
+    "left_evidence": "The gray patches at the upper-left and lower-right corners of the rectangle.",
+    "right_evidence": "The gray polygon inside rectangle ABDF beneath the segments AC and CE.",
+    "left_meaning": "The fill selects two corner regions separated by unshaded parts of the rectangle.",
+    "right_meaning": "It selects the part of the rectangle outside the two unshaded triangular pieces.",
+    "same_meaning": false,
+    "reason": "The left fill selects separated pieces whose areas are accumulated. The right fill selects a connected remainder after excluding the adjacent unshaded pieces.",
+    "reasoning_consequence": "Correctly interpreting the markings means adding the two gray corner areas without counting the rest of the rectangle on the left and subtracting both unshaded triangles before dividing by the area of the whole rectangle on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Shading restricted to parts of a figure by internal boundaries. On the left, use the gray patches at the upper-left and lower-right corners of the rectangle. On the right, use the gray polygon inside rectangle ABDF beneath the segments AC and CE.",
+    "mathematical_meanings": "Left image: The fill selects two corner regions separated by unshaded parts of the rectangle. Right image: It selects the part of the rectangle outside the two unshaded triangular pieces.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The left fill selects separated pieces whose areas are accumulated. The right fill selects a connected remainder after excluding the adjacent unshaded pieces."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1250",
+    "condition": "condition/domain_and_solution_constraints/AVP1250"
+  }
+}

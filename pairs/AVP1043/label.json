@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at 2 on the number line on the left with the mark at 2 on the number line on the right.",
+  "mathematical_meanings": "Left image: The displayed set excludes 2 at its upper bound. Right image: The displayed set includes 2 at its upper bound.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, the hollow endpoint marks a strict boundary of the marked ray. On the right, the filled endpoint marks an inclusive boundary of the marked ray."
+}

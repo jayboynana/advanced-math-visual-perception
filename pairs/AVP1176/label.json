@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the green Comedy crescent marked 70, outside the Action circle. On the right, use the pink Car crescent containing 72 outside the Airplane circle.",
+  "mathematical_meanings": "Left image: The region represents moviegoers who like Comedy only. Right image: It represents the people in the Car category only.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures."
+}

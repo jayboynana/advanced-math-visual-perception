@@ -56,6 +56,12 @@ if total != stats['pair_count'] or gallery.articles != total:
     errors.append('Dataset statistics, annotations and displayed pairs disagree')
 if page.count('<h3>Rationales</h3>') != total:
     errors.append('Expected one rationale per pair')
+constraint_count = stats['condition_counts'].get('domain_and_solution_constraints', 0)
+if page.count('<h3>Reasoning consequence</h3>') != constraint_count or 'graphical_roles' in page:
+    errors.append('Replacement condition or reasoning consequences differ from the active dataset')
+expected_pair_folders = {a['pair_id'] for a in annotations}
+if {p.name for p in (ROOT / 'pairs').iterdir() if p.is_dir()} != expected_pair_folders:
+    errors.append('Pair folders differ from the active dataset')
 if page.count('original image ↗') != 2 * total - archive_count or page.count('official archive ↗') != archive_count:
     errors.append('Unexpected count of original-image or source-archive links')
 for annotation in annotations:
@@ -63,6 +69,9 @@ for annotation in annotations:
     label = json.loads((ROOT / 'pairs' / pair_id / 'label.json').read_text(encoding='utf-8'))
     if annotation['label'] != label:
         errors.append(pair_id + ': label mismatch')
+    detail = json.loads((ROOT / 'pairs' / pair_id / 'annotation.json').read_text(encoding='utf-8'))
+    if detail != annotation:
+        errors.append(pair_id + ': full annotation mismatch')
     for side in ['left', 'right']:
         entity = annotation[side]
         archive = entity.get('image_archive')

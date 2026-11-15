@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1082",
+  "authoring_id": "V05EB002",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "direction_greater_vs_less",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "347_4",
+    "sample_index": "347_4",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 347,
+      "subject": "Analytic Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 4
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0065_4.jpg",
+    "sha256": "017573989b35d1a47e86d8e7da1e2770fce8d9aa25c578a1038be892d8be37f4",
+    "width": 343,
+    "height": 118,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1082/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "345_2",
+    "sample_index": "345_2",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 345,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 2
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch24-2024_06_15_1ba61d31fb821579f313g_0036_2.jpg",
+    "sha256": "7018601e99142f5b5fcfb72b79d50ee483b7e9cfa9b653ae9a4205f98d8cfa0d",
+    "width": 463,
+    "height": 112,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1082/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The direction of a marked trace on a number line or function graph. Compare the raised trace attached to the number-line mark at 2 in the left image with the raised trace attached to the number-line mark at 2 in the right image.",
+    "left_evidence": "The raised trace continuing right from the hollow dot at 2.",
+    "right_evidence": "The raised trace continuing left from the filled endpoint at 2.",
+    "left_meaning": "The ray selects values above 2.",
+    "right_meaning": "The indicated ray selects the values below its boundary.",
+    "same_meaning": false,
+    "reason": "The selected left cue selects values on the larger-input side of the boundary. The selected right cue selects values on the smaller-input side of the boundary, so the two constraints differ in how they admit values.",
+    "reasoning_consequence": "In the left image, reversing the direction would wrongly include 1 and omit 3. In the right image, taking the other direction would wrongly include 3 and exclude 1."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The direction of a marked trace on a number line or function graph. Compare the raised trace attached to the number-line mark at 2 in the left image with the raised trace attached to the number-line mark at 2 in the right image.",
+    "mathematical_meanings": "Left image: The ray selects values above 2. Right image: The indicated ray selects the values below its boundary.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The selected left cue selects values on the larger-input side of the boundary. The selected right cue selects values on the smaller-input side of the boundary, so the two constraints differ in how they admit values."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1082",
+    "condition": "condition/domain_and_solution_constraints/AVP1082"
+  }
+}

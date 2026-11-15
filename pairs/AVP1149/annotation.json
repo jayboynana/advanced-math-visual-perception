@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1149",
+  "authoring_id": "V05EB069",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "endpoint_open",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "484",
+    "sample_index": "2419",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_484.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1149/left.png",
+    "width": 461,
+    "height": 465,
+    "sha256": "5844c98a000daf3806a1c699045613c63c06ebbe30edba41f4327d3f6d6af7e8"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "289_1",
+    "sample_index": "289_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 289,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "number_line",
+    "original_relative_path": "images/batch22-2024_06_14_e70eca755418211ed19fg_0021_1.jpg",
+    "sha256": "adc30ed5fc50a5b7eecbe60ac4bcc73158e4aebed15374b31554f9e91d14e763",
+    "width": 309,
+    "height": 100,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1149/right.jpg"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at (3, 2) in the left image with the marker at −1 on the number line in the right image.",
+    "left_evidence": "The hollow circle at (3, 2) at the right end of the curve.",
+    "right_evidence": "The hollow dot at −1 under the left edge of the raised span.",
+    "left_meaning": "The plotted branch excludes the right endpoint (3, 2).",
+    "right_meaning": "The marked interval excludes its left endpoint −1.",
+    "same_meaning": true,
+    "reason": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts.",
+    "reasoning_consequence": "In the left image, closing the endpoint would incorrectly add x = 3 to the plotted domain. In the right image, including −1 would replace (−1, 2] with [−1, 2]."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at (3, 2) in the left image with the marker at −1 on the number line in the right image.",
+    "mathematical_meanings": "Left image: The plotted branch excludes the right endpoint (3, 2). Right image: The marked interval excludes its left endpoint −1.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected cue in each image excludes the indicated boundary point. This gives the same local constraint rule in the two contexts."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/different type/AVP1149",
+    "condition": "condition/domain_and_solution_constraints/AVP1149"
+  }
+}

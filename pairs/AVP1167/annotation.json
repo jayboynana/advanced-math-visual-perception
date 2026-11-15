@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1167",
+  "authoring_id": "V05EC002",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "set_intersection_region_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "464",
+    "sample_index": "464",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image464.png",
+    "sha256": "b1e4459ff7b127a51dde964791c7da2b2b46bbb2dde42017c5f3548fe76d8e5a",
+    "width": 800,
+    "height": 600,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1167/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "466",
+    "sample_index": "466",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image466.png",
+    "sha256": "fced1898559b7894ae245d6663869678df619e25495c7eeefc540de979700347",
+    "width": 800,
+    "height": 600,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1167/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lens-shaped region inside both circular outlines. On the left, use the tan lens labeled 11 between Coffee and Tea. On the right, use the tan lens labeled 9 between Climate Change and Deforestation.",
+    "left_evidence": "The tan lens labeled 11 between Coffee and Tea.",
+    "right_evidence": "The tan lens labeled 9 between Climate Change and Deforestation.",
+    "left_meaning": "The lens represents respondents who prefer both Coffee and Tea.",
+    "right_meaning": "The lens represents respondents concerned about both issues.",
+    "same_meaning": true,
+    "reason": "The selected region lies within both labeled contours in each diagram, which assigns simultaneous membership in the two sets.",
+    "reasoning_consequence": "Correctly interpreting the markings means using 11 as the count for both beverage preferences on the left and counting the nine shared respondents once when computing the union on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "The lens-shaped region inside both circular outlines. On the left, use the tan lens labeled 11 between Coffee and Tea. On the right, use the tan lens labeled 9 between Climate Change and Deforestation.",
+    "mathematical_meanings": "Left image: The lens represents respondents who prefer both Coffee and Tea. Right image: The lens represents respondents concerned about both issues.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The selected region lies within both labeled contours in each diagram, which assigns simultaneous membership in the two sets."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1167",
+    "condition": "condition/domain_and_solution_constraints/AVP1167"
+  }
+}

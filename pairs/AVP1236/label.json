@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded patch beside a plotted curve. On the left, use the gray triangle bounded by the x-axis, segment ON and the vertical segment below N. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
+  "mathematical_meanings": "Left image: The selected triangle has vertex N on the hyperbola, and straight boundaries to its projection and the origin. Right image: It selects a region between the two functions on the displayed x-interval.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left fill is a straight-sided triangle with a vertex located by the curve. The two curves on the right, by contrast, provide the changing upper and lower boundaries throughout the selected interval."
+}

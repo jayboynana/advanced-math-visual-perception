@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1103",
+  "authoring_id": "V05EB023",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "branch_inequality_inclusive_vs_strict",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "88",
+    "sample_index": "88",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image88.png",
+    "sha256": "293fe5f778d5ef3e50a14bb267d2d8d5bb685d35002eb4d2b56f9948ccf6950e",
+    "width": 533,
+    "height": 445,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1103/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "156",
+    "sample_index": "156",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 291,
+      "img_width": 327,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/156.jpg",
+    "sha256": "9e9332fb5421241d3ddd5b371ebf4be51ebf2dd99050213ca139437292761f13",
+    "width": 327,
+    "height": 291,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1103/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An inequality involving x and a cutoff value beside a piecewise formula. Compare the input condition in the lower formula label in the left image with the input condition beside the straight branch in the right image.",
+    "left_evidence": "The x >= 1 printed after y = −4x − 4 in the lower branch label.",
+    "right_evidence": "The x < 1 text directly below the line formula f(x) = x + 3.",
+    "left_meaning": "The linear branch includes input x = 1.",
+    "right_meaning": "The straight-line formula applies only to inputs less than 1.",
+    "same_meaning": false,
+    "reason": "The strict < sign in the right image excludes x = 1. The comparison in the left image includes equality, so its selected rule applies at x = 1.",
+    "reasoning_consequence": "In the left image, treating it as strict would drop the output −8 prescribed at x = 1. In the right image, allowing equality would incorrectly use the line value 4 at x = 1."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An inequality involving x and a cutoff value beside a piecewise formula. Compare the input condition in the lower formula label in the left image with the input condition beside the straight branch in the right image.",
+    "mathematical_meanings": "Left image: The linear branch includes input x = 1. Right image: The straight-line formula applies only to inputs less than 1.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The strict < sign in the right image excludes x = 1. The comparison in the left image includes equality, so its selected rule applies at x = 1."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "Visible source-image constraints checked locally. The selected cue is interpreted in its own branch or marked interval.",
+  "views": {
+    "type": "type/same type/AVP1103",
+    "condition": "condition/domain_and_solution_constraints/AVP1103"
+  }
+}

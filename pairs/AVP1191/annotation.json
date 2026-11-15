@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1191",
+  "authoring_id": "V05EC026",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "inequality_solution_region_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "235",
+    "sample_index": "235",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 266,
+      "img_width": 412,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/235.jpg",
+    "sha256": "6587ac56185796bc2592e12dd0a6f1c485f9090418dd52182dcf6cb997a89690",
+    "width": 412,
+    "height": 266,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1191/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "509",
+    "sample_index": "2544",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_509.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1191/right.png",
+    "width": 652,
+    "height": 500,
+    "sha256": "ed0eeaed5fd14a6f75de86f7255dbf3899430a155a41ce69788a73724070e30f"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled region selected by a comparison with a plotted boundary. On the left, use the gray region above the curve labeled f, with the visible text “epi f.” On the right, use the gray half-plane below the solid horizontal line.",
+    "left_evidence": "The gray region above the curve labeled f, with the visible text “epi f.”",
+    "right_evidence": "The gray half-plane below the solid horizontal line.",
+    "left_meaning": "It represents the epigraph, the coordinate pairs on or above f.",
+    "right_meaning": "It consists of points satisfying the lower-side inequality, including equality along the solid line.",
+    "same_meaning": true,
+    "reason": "The shaded side identifies locations where the relevant comparison holds in each panel. The plotted boundary and its convention determine how equality is treated in each individual problem.",
+    "reasoning_consequence": "Correctly interpreting the markings means testing whether a point has ordinate at least f evaluated at its abscissa on the left and including points on the boundary and below it in the solution set on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A filled region selected by a comparison with a plotted boundary. On the left, use the gray region above the curve labeled f, with the visible text “epi f.” On the right, use the gray half-plane below the solid horizontal line.",
+    "mathematical_meanings": "Left image: It represents the epigraph, the coordinate pairs on or above f. Right image: It consists of points satisfying the lower-side inequality, including equality along the solid line.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The shaded side identifies locations where the relevant comparison holds in each panel. The plotted boundary and its convention determine how equality is treated in each individual problem."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1191",
+    "condition": "condition/domain_and_solution_constraints/AVP1191"
+  }
+}

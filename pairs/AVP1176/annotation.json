@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1176",
+  "authoring_id": "V05EC011",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "exclusive_set_membership_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "467",
+    "sample_index": "467",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image467.png",
+    "sha256": "9bf4de61d245712d5d8961e9701c280c0c94f578e957b7652d5f829829f16122",
+    "width": 800,
+    "height": 600,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1176/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "472",
+    "sample_index": "472",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image472.png",
+    "sha256": "488a719967e65691a46b5a8d58ecc6fb44dd8a11c32f344924dfe615f8d697ad",
+    "width": 800,
+    "height": 600,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1176/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the green Comedy crescent marked 70, outside the Action circle. On the right, use the pink Car crescent containing 72 outside the Airplane circle.",
+    "left_evidence": "The green Comedy crescent marked 70, outside the Action circle.",
+    "right_evidence": "The pink Car crescent containing 72 outside the Airplane circle.",
+    "left_meaning": "The region represents moviegoers who like Comedy only.",
+    "right_meaning": "It represents the people in the Car category only.",
+    "same_meaning": true,
+    "reason": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures.",
+    "reasoning_consequence": "Correctly interpreting the markings means keeping these 70 people separate from the intersection count on the left and including these 72 people in the count for people outside the Airplane set on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the green Comedy crescent marked 70, outside the Action circle. On the right, use the pink Car crescent containing 72 outside the Airplane circle.",
+    "mathematical_meanings": "Left image: The region represents moviegoers who like Comedy only. Right image: It represents the people in the Car category only.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1176",
+    "condition": "condition/domain_and_solution_constraints/AVP1176"
+  }
+}

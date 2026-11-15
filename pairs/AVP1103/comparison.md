@@ -1,0 +1,33 @@
+# AVP1103 — Single visual target
+
+DynaMath:88 / MathVista:156 · same type · Domain and solution-set constraints
+
+![Left image](left.png)
+![Right image](right.png)
+
+## Shared or similar visual information
+
+An inequality involving x and a cutoff value beside a piecewise formula. Compare the input condition in the lower formula label in the left image with the input condition beside the straight branch in the right image.
+
+## Evidence locations
+
+- Left image: The x >= 1 printed after y = −4x − 4 in the lower branch label.
+- Right image: The x < 1 text directly below the line formula f(x) = x + 3.
+
+## Mathematical meanings
+
+Left image: The linear branch includes input x = 1. Right image: The straight-line formula applies only to inputs less than 1.
+
+## Same mathematical meanings
+
+no
+
+## Rationales
+
+The strict < sign in the right image excludes x = 1. The comparison in the left image includes equality, so its selected rule applies at x = 1.
+
+## Reasoning consequence
+
+In the left image, treating it as strict would drop the output −8 prescribed at x = 1. In the right image, allowing equality would incorrectly use the line value 4 at x = 1.
+
+Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

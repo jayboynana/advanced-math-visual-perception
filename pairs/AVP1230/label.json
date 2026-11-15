@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Multiple filled pieces separated by unfilled parts of the surrounding figure. On the left, use the gray portions of the inscribed circles near A and B, including the gray wedge at P. On the right, use the dark triangle at the left and dark parallelogram at the lower right of the tangram runner.",
+  "mathematical_meanings": "Left image: The fill picks out multiple parts of the small circles and excludes the surrounding white parts. Right image: The fill selects two separate tangram pieces for the shaded-area test.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In each figure the fill specifies the components included in a total area. The unfilled pieces do not contribute to that total."
+}

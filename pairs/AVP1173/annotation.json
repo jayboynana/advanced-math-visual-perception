@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1173",
+  "authoring_id": "V05EC008",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "exclusive_set_membership_same",
+  "type_class": "same type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "464",
+    "sample_index": "464",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image464.png",
+    "sha256": "b1e4459ff7b127a51dde964791c7da2b2b46bbb2dde42017c5f3548fe76d8e5a",
+    "width": 800,
+    "height": 600,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1173/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "473",
+    "sample_index": "473",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image473.png",
+    "sha256": "ae181702e47d697562b6a4c929588b96fd4197c977dbd76d9865199afc547635",
+    "width": 407,
+    "height": 327,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1173/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the pink Coffee crescent containing 84 and lying outside the Tea circle. On the right, use the green crescent containing 3, 8, 14, 15, 16, 17 and 19.",
+    "left_evidence": "The pink Coffee crescent containing 84 and lying outside the Tea circle.",
+    "right_evidence": "The green crescent containing 3, 8, 14, 15, 16, 17 and 19.",
+    "left_meaning": "The region represents people who prefer Coffee and do not prefer Tea.",
+    "right_meaning": "It lists the elements belonging to B and outside A.",
+    "same_meaning": true,
+    "reason": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures.",
+    "reasoning_consequence": "Correctly interpreting the markings means using 84 alone as the Coffee-only count on the left and selecting those seven elements for B only on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A colored crescent inside one set circle and outside its overlap with the other. On the left, use the pink Coffee crescent containing 84 and lying outside the Tea circle. On the right, use the green crescent containing 3, 8, 14, 15, 16, 17 and 19.",
+    "mathematical_meanings": "Left image: The region represents people who prefer Coffee and do not prefer Tea. Right image: It lists the elements belonging to B and outside A.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The outer contour and intervening overlap boundary pick out members of exactly the selected set in both figures."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of the selected regions and their visible boundaries. Independent human verification pending.",
+  "views": {
+    "type": "type/same type/AVP1173",
+    "condition": "condition/domain_and_solution_constraints/AVP1173"
+  }
+}

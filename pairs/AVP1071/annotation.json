@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.5.0",
+  "language": "en",
+  "pair_id": "AVP1071",
+  "authoring_id": "V05EA071",
+  "condition": "domain_and_solution_constraints",
+  "condition_name": "Domain and solution-set constraints",
+  "subcondition": "closed_bound_vs_failed_intersection",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "128_C",
+    "sample_index": "128",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 128,
+      "image_role": "C"
+    },
+    "original_relative_path": "images/128_C.jpg",
+    "sha256": "3205ca99f46bed57c59d5a99abcb8ebc344d656ec3f611b0e1e7298a4554dcd3",
+    "width": 95,
+    "height": 38,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/128_C.jpg",
+      "start": 3069857,
+      "length": 1303,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1541_D",
+    "sample_index": "1541",
+    "problem_version": "original",
+    "image_type": "number_line",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "upstream_question_index": 1541,
+      "image_role": "D"
+    },
+    "original_relative_path": "images/1541_D.jpg",
+    "sha256": "856dda27cb30d3aaa91e6be4e765d2b7e94aa299a13fb3d3bda15a41c336513b",
+    "width": 145,
+    "height": 33,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1541_D.jpg",
+      "start": 6169699,
+      "length": 1371,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at 2 on the number line on the left with the mark at 2 on the number line on the right. Where two raised traces are shown, consider values satisfying both constraints.",
+    "left_evidence": "The filled circular marker at 2, below the right-extending raised stroke, beyond the reach of the other marked ray.",
+    "right_evidence": "The filled circular marker at 2, where the raised horizontal stroke extends right.",
+    "left_meaning": "The filled dot admits 2 for its own bound, but the other constraint rejects that value.",
+    "right_meaning": "The displayed set includes 2 at its lower bound.",
+    "same_meaning": false,
+    "reason": "On the left, although the selected dot is filled, the other marked ray does not reach 2. The value is outside the intersection. On the right, the filled endpoint marks an inclusive boundary of the marked ray.",
+    "reasoning_consequence": "A solver must reject 2 when both marked constraints are required on the left and can accept 2 as a member of the displayed set on the right."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at 2 on the number line on the left with the mark at 2 on the number line on the right. Where two raised traces are shown, consider values satisfying both constraints.",
+    "mathematical_meanings": "Left image: The filled dot admits 2 for its own bound, but the other constraint rejects that value. Right image: The displayed set includes 2 at its lower bound.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, although the selected dot is filled, the other marked ray does not reach 2. The value is outside the intersection. On the right, the filled endpoint marks an inclusive boundary of the marked ray."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of both source images. For an answer-option diagram, the annotation interprets the marks in the image itself. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP1071",
+    "condition": "condition/domain_and_solution_constraints/AVP1071"
+  }
+}

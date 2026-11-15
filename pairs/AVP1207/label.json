@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region adjacent to a plotted line or curve. On the left, use the gray half-plane below the rising solid line. On the right, use the gray fill under the reciprocal-power curve to the right of the vertical line at x = 1, marked “area = ∞.”",
+  "mathematical_meanings": "Left image: It marks the points satisfying the non-strict linear inequality, including its boundary. Right image: It identifies an area under the curve over the unbounded interval starting at 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left fill identifies where a plotted comparison is satisfied. The right fill selects a region from a function to its axis over a specified integration interval."
+}

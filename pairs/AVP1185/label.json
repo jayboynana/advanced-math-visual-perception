@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored region delimited by the intersecting contours of two circles. On the left, use the tan lens labeled 48 between Programming and Data Analysis. On the right, use the green Comedy crescent marked 70, outside the Action circle.",
+  "mathematical_meanings": "Left image: The lens represents employees who possess both skills. Right image: The region represents moviegoers who like Comedy only.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The lens is inside both circle boundaries, so it requires both memberships. The crescent lies inside only one circle and excludes the shared members."
+}
