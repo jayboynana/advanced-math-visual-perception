@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0995",
+  "authoring_id": "V04GR120",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "perspective_rim_vs_planar_ellipse",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "176",
+    "sample_index": "176",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image176.png",
+    "sha256": "ed5c685bd41d4217ea6349e6949c80191d9b11e8fbaeed13e630b6c7d59a2f6f",
+    "width": 330,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0995/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1218_A",
+    "sample_index": "1218",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1218,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1218_A.jpg",
+    "sha256": "b8bc1055d88b114e652f87311e915e01f4764982b2d1a71c2214462fcd44d21e",
+    "width": 46,
+    "height": 72,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1218_A.jpg",
+      "start": 2424216,
+      "length": 1305,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A closed oval.",
+    "left_evidence": "The closed black ellipse centered on the axes.",
+    "right_evidence": "The oval across the upper rim of the cylinder.",
+    "left_meaning": "A closed planar locus plotted in the Cartesian coordinate plane.",
+    "right_meaning": "A circular rim shown as an ellipse in a perspective drawing of a solid.",
+    "same_meaning": false,
+    "reason": "The oval attached to the solid’s side edges depicts a circular rim in perspective. The oval through marked axis positions is a planar ellipse in a coordinate system."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A closed oval.",
+    "mathematical_meanings": "Left image: A closed planar locus plotted in the Cartesian coordinate plane. Right image: A circular rim shown as an ellipse in a perspective drawing of a solid.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The oval attached to the solid’s side edges depicts a circular rim in perspective. The oval through marked axis positions is a planar ellipse in a coordinate system."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0995",
+    "condition": "condition/graphical_roles/AVP0995"
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 7 on the number line in the left image with the marker at (1, −4) in the right image.",
-  "mathematical_meanings": "Left image: The depicted right-side interval includes its left endpoint 7. Right image: The plotted function includes (1, −4) as its right endpoint.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The selected cue in each image includes the indicated boundary point. This gives the same local constraint rule in the two contexts."
-}

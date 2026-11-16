@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight horizontal segment.",
+  "mathematical_meanings": "Left image: A portion of the plotted trace with constant output over a horizontal input interval. Right image: A horizontal boundary side of a finite geometric polygon.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The horizontal trace carries constant output over an input interval. The other stroke closes a finite polygon between its adjacent sides."
+}

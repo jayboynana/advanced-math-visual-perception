@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A vertical dashed line",
+  "mathematical_meanings": "Left image: A diagonal of a finite geometric quadrilateral. Right image: A vertical asymptote approached by the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The dashed line joins two finite vertices of a diamond as a diagonal. The other lies between curve branches as an asymptotic reference, not as a segment of a polygon."
+}

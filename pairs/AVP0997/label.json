@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A small square outline.",
+  "mathematical_meanings": "Left image: A background coordinate grid cell used to read positions on the plot. Right image: The boundary of a visible front face of one cube in the three-dimensional construction.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The square joining adjacent cube faces is a boundary of a three-dimensional object. The repeated pale square within coordinate axes is a reference cell for reading graph positions."
+}

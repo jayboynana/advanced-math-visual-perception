@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A fill selecting one side of a visible geometric or plotted boundary. On the left, use the gray half-plane to the right of the descending dashed line through the origin. On the right, use the light-blue patch inside the large semicircle and above both smaller arcs.",
-  "mathematical_meanings": "Left image: It marks the open solution half-plane of a strict linear inequality. Right image: It comprises the large semicircle minus the two unshaded smaller semicircles.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The shaded half-plane records which coordinate pairs meet an inequality. The geometric fill delimits a measured area after removing the depicted cutout or excluded portion."
-}

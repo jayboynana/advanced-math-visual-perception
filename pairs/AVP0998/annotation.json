@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0998",
+  "authoring_id": "V04GR123",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "cube_face_vs_coordinate_grid_cell",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "233_A",
+    "sample_index": "233",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 233,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/233_A.jpg",
+    "sha256": "f223eb7826ebc7fb8e85a39425ecbf50ba7ca963f15526d1aae8b656c5e1b43b",
+    "width": 176,
+    "height": 108,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/233_A.jpg",
+      "start": 10207931,
+      "length": 2417,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "46",
+    "sample_index": "46",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image46.png",
+    "sha256": "13b2c7b2b840421dc1994a309d81cf91419cb7d23d3f6391599e80eec924993f",
+    "width": 515,
+    "height": 389,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0998/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square outline.",
+    "left_evidence": "The square front face of the uppermost cube.",
+    "right_evidence": "One complete square in the background grid away from the U-shaped trace.",
+    "left_meaning": "The boundary of a visible front face of one cube in the three-dimensional construction.",
+    "right_meaning": "A background coordinate grid cell used to read positions on the plot.",
+    "same_meaning": false,
+    "reason": "The square joining adjacent cube faces is a boundary of a three-dimensional object. The repeated pale square within coordinate axes is a reference cell for reading graph positions."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A small square outline.",
+    "mathematical_meanings": "Left image: The boundary of a visible front face of one cube in the three-dimensional construction. Right image: A background coordinate grid cell used to read positions on the plot.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square joining adjacent cube faces is a boundary of a three-dimensional object. The repeated pale square within coordinate axes is a reference cell for reading graph positions."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0998",
+    "condition": "condition/graphical_roles/AVP0998"
+  }
+}

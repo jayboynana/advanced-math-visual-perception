@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Shaded region",
+  "mathematical_meanings": "Left image: Highlights the angle between two sides, annotated with its measure in degrees. Right image: Represents the half-plane solution set of an inequality delimited by a straight-line boundary.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "An angle highlight and a solution-set region have different mathematical roles, although both use color to fill a two-dimensional region."
+}

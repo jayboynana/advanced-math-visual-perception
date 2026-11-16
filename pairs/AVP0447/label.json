@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dashed line in a coordinate plot",
+  "mathematical_meanings": "Left image: A fixed vertical-level reference used to compare the curve with a selected height. Right image: The graph of a second function, distinguished by dash style.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The beta line marks one fixed ordinate for comparison, whereas the U-shaped line encodes varying values of a second function."
+}

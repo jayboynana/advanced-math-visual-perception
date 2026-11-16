@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0938",
+  "authoring_id": "V04GR063",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "function_trace",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "20_A",
+    "sample_index": "20",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 20,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/20_A.jpg",
+    "sha256": "9eca846f30b635d60ee6d592441e81b34f8d7ade0a4c41aa1f742122ed8231df",
+    "width": 135,
+    "height": 86,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/20_A.jpg",
+      "start": 9847864,
+      "length": 2047,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "1",
+    "sample_index": "1",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image1.png",
+    "sha256": "1be7064a2c9668c084b4fb52918c54c63697d5405f7321e17861bb8a1d3b3be2",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0938/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth main trace plotted against horizontal and vertical axes.",
+    "left_evidence": "The oscillating black trace with its tall central peak.",
+    "right_evidence": "The repeating blue curve crossing the horizontal axis several times.",
+    "left_meaning": "A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "right_meaning": "A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "same_meaning": true,
+    "reason": "Both traces use horizontal positions as inputs and vertical positions as outputs. The displayed function role is shared across different curve shapes and scales."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth main trace plotted against horizontal and vertical axes.",
+    "mathematical_meanings": "Left image: A plotted trace whose height gives an output for each horizontal input on the shown part. Right image: A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both traces use horizontal positions as inputs and vertical positions as outputs. The displayed function role is shared across different curve shapes and scales."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0938",
+    "condition": "condition/graphical_roles/AVP0938"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight segment inside a diagram",
+  "mathematical_meanings": "Left image: A diagonal connecting nonadjacent vertices of a geometric quadrilateral. Right image: A fixed-y horizontal comparison line across the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The first segment connects opposite vertices of a finite quadrilateral. The second is a constant-y guide crossing a function curve; it is not a polygon diagonal."
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0961",
+  "authoring_id": "V04GR086",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "linear_function_trace_vs_diagonal",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1168_A",
+    "sample_index": "1168",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1168,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1168_A.jpg",
+    "sha256": "ff075cf96fcd1e0effe3942fd661db2ba0a330a632a871bba7662667bfb244dc",
+    "width": 121,
+    "height": 183,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1168_A.jpg",
+      "start": 1689201,
+      "length": 2023,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "109",
+    "sample_index": "109",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image109.png",
+    "sha256": "2d10e7bf90980e84cdc8032c8600eb2a46b3dce9316167c61d48d8f55fb6790a",
+    "width": 533,
+    "height": 407,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0961/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A straight diagonal-looking stroke.",
+    "left_evidence": "The solid line from the upper-left to the lower-right rectangle corner.",
+    "right_evidence": "The green descending line across the coordinate grid.",
+    "left_meaning": "A diagonal connecting opposite vertices inside a quadrilateral.",
+    "right_meaning": "A sloping straight graph encoding a constant rate of change of output with input.",
+    "same_meaning": false,
+    "reason": "The plotted line expresses how output changes across an input scale. The segment through a quadrilateral connects its opposite vertices as a geometric diagonal."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A straight diagonal-looking stroke.",
+    "mathematical_meanings": "Left image: A diagonal connecting opposite vertices inside a quadrilateral. Right image: A sloping straight graph encoding a constant rate of change of output with input.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The plotted line expresses how output changes across an input scale. The segment through a quadrilateral connects its opposite vertices as a geometric diagonal."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0961",
+    "condition": "condition/graphical_roles/AVP0961"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upright double-headed arrow",
+  "mathematical_meanings": "Left image: A spatial length annotation spanning the circle diameter. Right image: The vertical excursion from the waveform midlevel to a trough, representing its amplitude.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The circle arrow measures a physical/geometric diameter in centimeters; the waveform arrow encodes amplitude relative to its middle level. The target quantities differ."
+}

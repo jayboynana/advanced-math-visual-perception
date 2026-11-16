@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 2 on the number line in the left image with the marker at (−5, 0) in the right image.",
-  "mathematical_meanings": "Left image: The interval excludes its left boundary 2. Right image: The left endpoint (−5, 0) belongs to the function's graph.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The selected left cue excludes the indicated boundary point. The selected right cue includes the indicated boundary point, so the two constraints differ in how they admit values."
-}

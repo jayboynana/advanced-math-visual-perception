@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A smooth main trace plotted against horizontal and vertical axes.",
+  "mathematical_meanings": "Left image: A plotted trace whose height gives an output for each horizontal input on the shown part. Right image: A plotted trace whose height gives an output for each horizontal input on the shown part.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both traces use horizontal positions as inputs and vertical positions as outputs. The displayed function role is shared across different curve shapes and scales."
+}

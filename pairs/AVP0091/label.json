@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Filled circular marker on a curve",
+  "mathematical_meanings": "Left image: Highlights a designated position on a geometric curve. Right image: Highlights a designated position on a function curve.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "This comparison concerns only their shared role as position markers away from endpoints; A on the circle and the waveform peak are not treated as the same object, and extremum-related meaning is not additionally compared."
+}

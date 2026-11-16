@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A shaded region with an adjacent unshaded interior cutout or excluded part. On the left, use the light-blue patch inside the large semicircle and above both smaller arcs. On the right, use the shaded parts inside the circle and outside the central white diamond.",
-  "mathematical_meanings": "Left image: It comprises the large semicircle minus the two unshaded smaller semicircles. Right image: The selected circular part is the disk with the inner square excluded. The additional corner shading is outside the circle.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The shade identifies the remainder after leaving designated pieces out of an enclosing geometric area. Those pieces must be removed from the area computation in each panel."
-}

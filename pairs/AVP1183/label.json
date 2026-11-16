@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A colored region delimited by the intersecting contours of two circles. On the left, use the tan lens containing 2, 13 and 19. On the right, use the pink Coffee crescent containing 84 and lying outside the Tea circle.",
-  "mathematical_meanings": "Left image: The lens lists the elements that belong to both A and B. Right image: The region represents people who prefer Coffee and do not prefer Tea.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The lens is inside both circle boundaries, so it requires both memberships. The crescent lies inside only one circle and excludes the shared members."
-}

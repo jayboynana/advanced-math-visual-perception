@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular plotting marker",
+  "mathematical_meanings": "Left image: A designated location on the function graph, highlighting its bottom vertex rather than a domain endpoint. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The bottom vertex is internal to an ongoing V-shaped graph, while the dot in the other image is where the curve terminates. Highlighting an interior vertex is different from encoding endpoint inclusion."
+}

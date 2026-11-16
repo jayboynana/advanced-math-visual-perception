@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight sloping line",
+  "mathematical_meanings": "Left image: A boundary side of a geometric triangle, carrying a length annotation. Right image: A straight-line graph representing a variable relationship.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The side QR is a finite edge with an algebraic length label. The coordinate-plane line is a function graph, not a side of a triangle."
+}

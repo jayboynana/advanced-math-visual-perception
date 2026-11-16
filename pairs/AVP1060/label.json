@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark on the vertical axis on the left with the mark at 5 on the number line on the right.",
-  "mathematical_meanings": "Left image: The displayed function has no value at x=0. Right image: The displayed set includes 5 at its lower bound.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "On the left, the hollow marker omits the indicated point and there is no other plotted value at x=0. On the right, the filled endpoint marks an inclusive boundary of the marked ray."
-}

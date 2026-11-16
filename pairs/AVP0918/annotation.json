@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0918",
+  "authoring_id": "V04GR043",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "excluded_graph_point_vs_circumference",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1115_A",
+    "sample_index": "1115",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1115,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1115_A.jpg",
+    "sha256": "9c174d47ec5dc85e12e486140c93ff04cceabd3df32941e9efcdc3b8b192cd31",
+    "width": 177,
+    "height": 166,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1115_A.jpg",
+      "start": 1105677,
+      "length": 3568,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1706_A",
+    "sample_index": "1706",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1706,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1706_A.jpg",
+    "sha256": "27f4f804d063ee3100a53f8a4c6d212f764feb70c5e31df2ce97a8786bae5d9e",
+    "width": 255,
+    "height": 258,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1706_A.jpg",
+      "start": 8433505,
+      "length": 6459,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled circular outline.",
+    "left_evidence": "The hollow point at the right end of the short descending piece.",
+    "right_evidence": "The circular outline passing through E, F and G.",
+    "left_meaning": "An open point excluded from the displayed curve or branch.",
+    "right_meaning": "The actual circumference of a circle within a finite geometric construction.",
+    "same_meaning": false,
+    "reason": "The little outline at the graph boundary identifies one omitted coordinate pair. The larger circle is itself a geometric boundary made up of positions on a circumference."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An unfilled circular outline.",
+    "mathematical_meanings": "Left image: An open point excluded from the displayed curve or branch. Right image: The actual circumference of a circle within a finite geometric construction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The little outline at the graph boundary identifies one omitted coordinate pair. The larger circle is itself a geometric boundary made up of positions on a circumference."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0918",
+    "condition": "condition/graphical_roles/AVP0918"
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A shaded region with an adjacent unshaded interior cutout or excluded part. On the left, use the light-blue ring between the two concentric circles. On the right, use the light-blue patch inside the large semicircle and above both smaller arcs.",
-  "mathematical_meanings": "Left image: It is the part of the disk of radius 7 outside the disk of radius 5. Right image: It comprises the large semicircle minus the two unshaded smaller semicircles.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The shade identifies the remainder after leaving designated pieces out of an enclosing geometric area. Those pieces must be removed from the area computation in each panel."
-}

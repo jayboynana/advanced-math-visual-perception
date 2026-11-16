@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded two-dimensional region",
+  "mathematical_meanings": "Left image: The interior area of the displayed geometric rectangle. Right image: A coordinate-plane solution region of a linear inequality; the dashed boundary is excluded.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The rectangle fill identifies a bounded geometric object with centimeter dimensions. The half-plane fill denotes all coordinate pairs satisfying an inequality, rather than the area of a dimensioned polygon."
+}

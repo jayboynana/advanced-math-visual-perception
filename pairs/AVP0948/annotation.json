@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0948",
+  "authoring_id": "V04GR073",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "linear_function_trace",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "107_A",
+    "sample_index": "107",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 107,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/107_A.jpg",
+    "sha256": "f074668e5cb3269d9ef016ee151be87d23a589f3c7a71793b0dd0f4fd67d75c6",
+    "width": 103,
+    "height": 106,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/107_A.jpg",
+      "start": 670151,
+      "length": 1501,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "15",
+    "sample_index": "15",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image15.png",
+    "sha256": "118bfc59101da7448916a295bbee72a9b1e73a7236fb37922501a6f1331da1fa",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0948/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A sloping straight trace on a coordinate system.",
+    "left_evidence": "The upward-sloping line crossing both Cartesian axes.",
+    "right_evidence": "The red ascending straight trace crossing the numbered coordinate axes.",
+    "left_meaning": "A sloping straight graph encoding a constant rate of change of output with input.",
+    "right_meaning": "A sloping straight graph encoding a constant rate of change of output with input.",
+    "same_meaning": true,
+    "reason": "Each straight trace plots output against input with constant slope. The visible axes separate this plotted role from a straight edge of an object."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A sloping straight trace on a coordinate system.",
+    "mathematical_meanings": "Left image: A sloping straight graph encoding a constant rate of change of output with input. Right image: A sloping straight graph encoding a constant rate of change of output with input.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each straight trace plots output against input with constant slope. The visible axes separate this plotted role from a straight edge of an object."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0948",
+    "condition": "condition/graphical_roles/AVP0948"
+  }
+}

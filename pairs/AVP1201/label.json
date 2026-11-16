@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A shaded patch between two curves on coordinate axes. On the left, use the gray patch enclosed by the blue cubic and orange cube-root curves between x = 0 and x = 1. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
-  "mathematical_meanings": "Left image: It selects the bounded area between the two function graphs. Right image: It selects a region between the two functions on the displayed x-interval.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The fill selects the gap between the two plotted functions over a specific horizontal interval. The upper value minus the lower value gives the local height of that region."
-}

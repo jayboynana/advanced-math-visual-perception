@@ -9,9 +9,7 @@
 | Numeric representation | 250 |
 | Geometric markers | 250 |
 | Symbolic roles | 250 |
-| Domain and solution-set constraints | 250 |
-
-The new constraint pairs describe a specific reasoning consequence of reading an endpoint, boundary, interval or region incorrectly. The annotation records this in `target.reasoning_consequence`.
+| Graphical roles | 250 |
 
 [Annotations](annotations.json) · [Labels](labels.jsonl) · [CSV](pairs_summary.csv)
 

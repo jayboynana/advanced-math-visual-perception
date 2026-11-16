@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Filled circular marker on a curve",
+  "mathematical_meanings": "Left image: Highlights and locates a designated position on a geometric curve. Right image: Highlights and locates a designated position on a function curve.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Only the general position-marking role is compared; the left point is not interpreted as a domain endpoint, and although the right point is at a trough, the filled marker itself still serves to locate it."
+}

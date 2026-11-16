@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0895",
+  "authoring_id": "V04GR020",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "occluded_circular_rim",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "452_A",
+    "sample_index": "452",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 452,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/452_A.jpg",
+    "sha256": "5f12cfdbdc85fd6d9a924128b6dbdf19619a34ef971e21de6d2120d6124ccbf5",
+    "width": 108,
+    "height": 144,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/452_A.jpg",
+      "start": 12514942,
+      "length": 3262,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "349_A",
+    "sample_index": "349",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 349,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/349_A.jpg",
+    "sha256": "da64ff009e7e0a6a571eb713c1891cafb8f3eb8996b5ef935f4c960a03f9afb4",
+    "width": 118,
+    "height": 139,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/349_A.jpg",
+      "start": 11536426,
+      "length": 2631,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curved portion of a circular rim in a drawing of a solid.",
+    "left_evidence": "The thick dashed arc at the rear of the cone base.",
+    "right_evidence": "The dashed arc behind the front half of the lower cylinder rim.",
+    "left_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
+    "right_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
+    "same_meaning": true,
+    "reason": "Each broken arc completes the far side of a rim whose near side is solid. The dashes specify which part of the circular rim is hidden in the depicted view."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dashed curved portion of a circular rim in a drawing of a solid.",
+    "mathematical_meanings": "Left image: The occluded rear portion of a circular base rim in a solid drawing. Right image: The occluded rear portion of a circular base rim in a solid drawing.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each broken arc completes the far side of a rim whose near side is solid. The dashes specify which part of the circular rim is hidden in the depicted view."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0895",
+    "condition": "condition/graphical_roles/AVP0895"
+  }
+}

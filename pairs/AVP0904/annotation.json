@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0904",
+  "authoring_id": "V04GR029",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hidden_rim_vs_function_trace",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1414_A",
+    "sample_index": "1414",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1414,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1414_A.jpg",
+    "sha256": "9be4969d30755265c33d9d2b3c0ff1e0e220979d7fd50e9fbaed9659cb81d285",
+    "width": 77,
+    "height": 67,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1414_A.jpg",
+      "start": 4700794,
+      "length": 1728,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "568",
+    "sample_index": "2839",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_568.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP0904/right.png",
+    "width": 276,
+    "height": 282,
+    "sha256": "1e3d232a22ba56d79145624e739075e15e878702f0840253466e0972869cea37"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A curved dashed stroke.",
+    "left_evidence": "The dashed arc on the lower base of the truncated cone.",
+    "right_evidence": "The magenta dashed U-shaped graph labeled g.",
+    "left_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
+    "right_meaning": "A function trace drawn with dashes to distinguish it from a second trace.",
+    "same_meaning": false,
+    "reason": "The ellipse uses dashes for the hidden part of a solid rim. The named graph uses a dashed stroke as the visible trace of a function."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A curved dashed stroke.",
+    "mathematical_meanings": "Left image: The occluded rear portion of a circular base rim in a solid drawing. Right image: A function trace drawn with dashes to distinguish it from a second trace.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The ellipse uses dashes for the hidden part of a solid rim. The named graph uses a dashed stroke as the visible trace of a function."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0904",
+    "condition": "condition/graphical_roles/AVP0904"
+  }
+}

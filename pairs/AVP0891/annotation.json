@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0891",
+  "authoring_id": "V04GR016",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_projection_vs_hidden_edge",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1338_A",
+    "sample_index": "1338",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1338,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1338_A.jpg",
+    "sha256": "5637250a1808d42e2632b20ea824aa5c9381461604a60ff262f2bac47f317fc0",
+    "width": 241,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1338_A.jpg",
+      "start": 3782313,
+      "length": 5361,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "577_A",
+    "sample_index": "577",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 577,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/577_A.jpg",
+    "sha256": "05056aa33dc22ff5583b6ece7fa16b7539fba8bd633a58d7050f0adbaa904123",
+    "width": 120,
+    "height": 139,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/577_A.jpg",
+      "start": 13679252,
+      "length": 2700,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed stroke.",
+    "left_evidence": "The vertical dashed edge dropping from the upper rear-left corner of the cube.",
+    "right_evidence": "The vertical dashed guide below the right endpoint at t=60.",
+    "left_meaning": "The hidden rear upright edge of the depicted solid.",
+    "right_meaning": "A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "same_meaning": false,
+    "reason": "The stroke attached to a plotted trace is a coordinate guide. The other joins rear corners of a solid, where broken strokes indicate occlusion."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A vertical dashed stroke.",
+    "mathematical_meanings": "Left image: The hidden rear upright edge of the depicted solid. Right image: A guide projecting a selected position on the graph down to its horizontal input coordinate.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The stroke attached to a plotted trace is a coordinate guide. The other joins rear corners of a solid, where broken strokes indicate occlusion."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0891",
+    "condition": "condition/graphical_roles/AVP0891"
+  }
+}

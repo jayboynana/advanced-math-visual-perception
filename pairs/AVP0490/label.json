@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight sloping line",
+  "mathematical_meanings": "Left image: A boundary side of a geometric triangle, carrying a length annotation. Right image: A straight-line graph representing a variable relationship.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The segment labeled 12 is part of a triangle boundary. The rising trace across numbered axes represents a variable correspondence. Matching straightness is insufficient for semantic equality."
+}

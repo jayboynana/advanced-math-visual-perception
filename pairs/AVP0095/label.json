@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Arrow at the end of a curved line",
+  "mathematical_meanings": "Left image: Indicates the measured length around one complete circumference. Right image: Indicates that the open function curve continues beyond the displayed area.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left arrow traces the extent around a closed circumference, whereas the right arrow shows that the function curve does not terminate at the plotting boundary."
+}

@@ -1,5 +1,5 @@
 {
-  "release": "0.5.0",
+  "release": "0.4.0",
   "acquired_date": "2026-11-09",
   "date_timezone": "Asia/Shanghai",
   "sources": [
@@ -77,6 +77,5 @@
   "image_policy": "Original upstream image payloads are retained byte for byte. Only separate browsing previews are resized/composited.",
   "annotation_status": "ai_visually_reviewed_draft",
   "source_image_groups": "review/exact_image_groups.json",
-  "expanded_date": "2026-11-13",
-  "revision_date": "2026-11-16"
+  "expanded_date": "2026-11-13"
 }

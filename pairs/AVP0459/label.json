@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An oscillating curve in a coordinate plot",
+  "mathematical_meanings": "Left image: A function graph relating vertical output to horizontal input. Right image: A function graph relating y to x.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both drawings use repeating curves to represent y-versus-x behavior; the target is the graph role, not equality of the periods or formulas."
+}

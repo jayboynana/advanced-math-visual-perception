@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Shaded region",
+  "mathematical_meanings": "Left image: Highlights the interior of the angle labeled 50 degrees. Right image: Identifies a rectangular subregion measured separately in an area model.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left shading annotates an angle, whereas the right shading partitions an area; the presence of shading alone does not imply the same mathematical role."
+}

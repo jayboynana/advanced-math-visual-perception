@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0919",
+  "authoring_id": "V04GR044",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "excluded_graph_point_vs_circumference",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "107",
+    "sample_index": "107",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image107.png",
+    "sha256": "a894505f2a800b229dcf22e67cac38b0d0d340ca2320f60c32d63117c5a59a59",
+    "width": 532,
+    "height": 543,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0919/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1452_A",
+    "sample_index": "1452",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1452,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1452_A.jpg",
+    "sha256": "6dd803bfe0fd108dbf3e9cd4e9fb400348e04727f7267c06d96d6ff33a0a4df0",
+    "width": 87,
+    "height": 85,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1452_A.jpg",
+      "start": 5081041,
+      "length": 1550,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled circular outline.",
+    "left_evidence": "The circular outline at the top-left of the square.",
+    "right_evidence": "The hollow circle at the right endpoint of the broken line.",
+    "left_meaning": "The actual circumference of a circle within a finite geometric construction.",
+    "right_meaning": "An open point excluded from the displayed curve or branch.",
+    "same_meaning": false,
+    "reason": "The little outline at the graph boundary identifies one omitted coordinate pair. The larger circle is itself a geometric boundary made up of positions on a circumference."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An unfilled circular outline.",
+    "mathematical_meanings": "Left image: The actual circumference of a circle within a finite geometric construction. Right image: An open point excluded from the displayed curve or branch.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The little outline at the graph boundary identifies one omitted coordinate pair. The larger circle is itself a geometric boundary made up of positions on a circumference."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0919",
+    "condition": "condition/graphical_roles/AVP0919"
+  }
+}

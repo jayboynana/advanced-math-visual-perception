@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled polygonal interior",
+  "mathematical_meanings": "Left image: The interior area of the displayed geometric rectangle. Right image: The interior area of the displayed geometric square.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The side-length labels and closed boundaries show that both fills identify geometric plane regions whose area can be measured; their color and shape differ."
+}

@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Two raised interval traces with circular boundary marks on a number line. Compare the traces attached to the marks at 1 and 3 in the left image with the traces attached to the marks at 1 and 3 in the right image.",
-  "mathematical_meanings": "Left image: One marked ray lies below 1 and the other above 3, leaving the middle gap outside both. Right image: Both strict traces admit the middle values 1 < x < 3.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The selected left cue leaves the middle interval uncovered by both traces. The selected right cue admits the middle interval in both traces, so the two constraints differ in how they admit values."
-}

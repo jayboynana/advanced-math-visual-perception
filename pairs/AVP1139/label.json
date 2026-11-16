@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A straight boundary separating the shaded and unshaded parts of a coordinate plane. Compare the diagonal line between the gray and white regions in the left image with the diagonal line between the gray and white regions in the right image.",
-  "mathematical_meanings": "Left image: The equality line belongs to the shaded solution region. Right image: The dashed edge excludes the equality boundary of the shaded half-plane.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The solid line in the left image admits equality. The dashed line in the right image excludes equality, even where points have been marked to locate the line."
-}

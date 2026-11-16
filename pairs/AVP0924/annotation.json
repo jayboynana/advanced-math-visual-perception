@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0924",
+  "authoring_id": "V04GR049",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "filled_geometric_region",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "241_A",
+    "sample_index": "241",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 241,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/241_A.jpg",
+    "sha256": "ff94659f1f7311d38b30efae9d8922abfd8c908acb04a744b6c398e02d7386df",
+    "width": 112,
+    "height": 68,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/241_A.jpg",
+      "start": 10283801,
+      "length": 2339,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "122",
+    "sample_index": "122",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image122.png",
+    "sha256": "e5929c0c5ac645d2fcef8ece8bf2d38aff2caf44b01ef4e8f85f873c88ae6701",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0924/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A bounded geometric patch selected with shading or hatching.",
+    "left_evidence": "The shaded triangle at the upper-left of the rectangular geometric figure.",
+    "right_evidence": "The pale-blue part of the large semicircle outside the two smaller semicircles.",
+    "left_meaning": "A selected plane region distinguished by shading within a geometric construction.",
+    "right_meaning": "A selected plane region distinguished by shading within a geometric construction.",
+    "same_meaning": true,
+    "reason": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A bounded geometric patch selected with shading or hatching.",
+    "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A selected plane region distinguished by shading within a geometric construction.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0924",
+    "condition": "condition/graphical_roles/AVP0924"
+  }
+}

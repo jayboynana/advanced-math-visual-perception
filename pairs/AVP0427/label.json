@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region bounded by a function graph",
+  "mathematical_meanings": "Left image: A selected area between the sine and cosine graphs in the region labeled R2. Right image: A selected area under a function graph over a restricted horizontal interval.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both fills select regions for graph-based area measurement. The additional graph forms the other boundary on the left, while the axis forms it on the right."
+}

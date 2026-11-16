@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A shaded region with a plotted boundary. On the left, use the gray side of the descending solid line containing the origin. On the right, use the shaded patch marked R2 between the orange sine and blue cosine traces at the right.",
-  "mathematical_meanings": "Left image: It consists of coordinate pairs satisfying the indicated non-strict linear inequality. Right image: It selects a region between the two functions on the displayed x-interval.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The left selection describes an allowable side or range relative to a plotted comparison. The right fill selects a gap between curves whose height is found by subtraction for an area calculation."
-}

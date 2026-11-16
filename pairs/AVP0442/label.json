@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal colored line crossing a function graph",
+  "mathematical_meanings": "Left image: A fixed-y horizontal comparison line across the function graph. Right image: A fixed-y horizontal comparison line across the function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images, several orange lines cut the blue curve at selected heights, so the selected line is a level comparison guide rather than the plotted f itself."
+}

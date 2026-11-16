@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular plotting marker",
+  "mathematical_meanings": "Left image: The actual function value assigned at that horizontal coordinate, separate from the nearby curve hole. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The isolated dot overrides the function value at an interior hole; the other dot closes a domain boundary of the drawn curve. The local positions distinguish value assignment from endpoint closure."
+}

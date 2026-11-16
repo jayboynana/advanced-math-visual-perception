@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0963",
+  "authoring_id": "V04GR088",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "constant_output_segment",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "223",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 776,
+      "img_width": 1430,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/223.jpg",
+    "sha256": "358189e467fadeb5d60643a543fdb132b336c210204c23d4c6357ad0773b771c",
+    "width": 1430,
+    "height": 776,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0963/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "162_A",
+    "sample_index": "162",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 162,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/162_A.jpg",
+    "sha256": "faaaff8dc8b05978e5def8ca30dbce142a596ae0c883ba96c64361bf2d7fb4e1",
+    "width": 127,
+    "height": 126,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/162_A.jpg",
+      "start": 7388026,
+      "length": 1813,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal part of a plotted graph.",
+    "left_evidence": "The purple horizontal line explicitly labeled f(x)=c.",
+    "right_evidence": "The horizontal top of the trace on the S-versus-t plot.",
+    "left_meaning": "A portion of the plotted trace with constant output over a horizontal input interval.",
+    "right_meaning": "A portion of the plotted trace with constant output over a horizontal input interval.",
+    "same_meaning": true,
+    "reason": "Both horizontal portions belong to the plotted trace itself. Their unchanging height shows that output stays constant across that portion of the horizontal input scale."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal part of a plotted graph.",
+    "mathematical_meanings": "Left image: A portion of the plotted trace with constant output over a horizontal input interval. Right image: A portion of the plotted trace with constant output over a horizontal input interval.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both horizontal portions belong to the plotted trace itself. Their unchanging height shows that output stays constant across that portion of the horizontal input scale."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0963",
+    "condition": "condition/graphical_roles/AVP0963"
+  }
+}

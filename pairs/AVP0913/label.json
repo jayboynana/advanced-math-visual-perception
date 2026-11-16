@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Small hollow circular plotting symbols.",
+  "mathematical_meanings": "Left image: A visible position in a mathematical sequence plotted with hollow point glyphs. Right image: An open point excluded from the displayed curve or branch.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The open circle attached to a branch endpoint excludes that coordinate pair. The hollow circles repeated throughout the other trace are the visible plotting marks for sampled positions."
+}

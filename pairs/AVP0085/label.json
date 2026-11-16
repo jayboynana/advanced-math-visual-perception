@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Dashed plotted line",
+  "mathematical_meanings": "Left image: The boundary of an inequality region; the dashes indicate that this boundary is excluded from the displayed solution set. Right image: The graph of a second function g, distinguished from the cyan graph of f.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The left dashes encode exclusion of a solution-set boundary, whereas the right dashes are a drawing style used to distinguish function graphs."
+}

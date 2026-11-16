@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled patch in a mathematical diagram.",
+  "mathematical_meanings": "Left image: A continuous area between a function trace and the horizontal axis. Right image: A selected cell in a discrete pattern of filled and unfilled grid squares.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The square fill selects one unit cell of a discrete pattern. The continuous graph fill occupies an interval between a curve and an axis."
+}

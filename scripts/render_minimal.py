@@ -12,7 +12,7 @@ condition_names={
     'numeric_representation':'Numeric representation',
     'geometric_markers':'Geometric markers',
     'symbolic_roles':'Symbolic roles',
-    'domain_and_solution_constraints':'Domain and solution-set constraints',
+    'graphical_roles':'Graphical roles',
 }
 cards=[]
 
@@ -41,8 +41,6 @@ for annotation in annotations:
     type_text='Same type' if annotation['type_class']=='same type' else 'Different types'
     left_panel, left_link = image_panel(annotation, 'left')
     right_panel, right_link = image_panel(annotation, 'right')
-    consequence = target.get('reasoning_consequence')
-    reasoning = f'<h3>Reasoning consequence</h3><p>{escape(consequence)}</p>' if consequence else ''
     cards.append(f'''<article id="{pid}" data-type="{annotation['type_class']}" data-condition="{annotation['condition']}" data-semantic="{annotation['semantic_relation']}" data-datasets="{datasets}">
 <h2>{pid}<span>{condition_names[annotation['condition']]}</span></h2>
 <p class="meta">{type_text} · {escape(annotation['left']['image_type'])} / {escape(annotation['right']['image_type'])}<br>{escape(sources)}</p>
@@ -52,7 +50,6 @@ for annotation in annotations:
 <p><b>Same mathematical meanings:</b> <span class="judgment">{label['same_mathematical_meanings']}</span></p>
 <p>{escape(label['mathematical_meanings'])}</p>
 <h3>Rationales</h3><p>{escape(label['Rationales'])}</p>
-{reasoning}
 <p class="evidence"><b>Left-image evidence:</b> {escape(target['left_evidence'])}<br><b>Right-image evidence:</b> {escape(target['right_evidence'])}</p>
 <p class="files">{left_link} · {right_link}<br><a href="pairs/{pid}/label.json">Label JSON</a> · <a href="pairs/{pid}/annotation.json">Full annotation</a></p>
 </details></article>''')
@@ -60,22 +57,16 @@ template=(ROOT/'scripts/minimal_template.html').read_text(encoding='utf-8')
 assert template.count('<!-- PAIRS -->')==1
 source_options = []
 source_links = []
-active_sources = {pair[side]['dataset'] for pair in annotations for side in ('left', 'right')}
 for source in registry['sources']:
-    if source['dataset'] not in active_sources:
-        continue
     name = escape(source['dataset'])
     display_name = escape(source.get('display_name', source['dataset']))
     source_options.append(f'<option value="{name}">{display_name}</option>')
     source_links.append(f'<a href="{escape(source["url"])}">{display_name}</a>')
-condition_options = ''.join(f'<option value="{escape(code)}">{escape(name)}</option>'
-                            for code, name in condition_names.items())
 page = (template.replace('PAIR_COUNT', str(len(cards)))
         .replace('PAGE_COUNT', str(math.ceil(len(cards) / 24)))
         .replace('RELEASE_VERSION', escape(registry['release']))
         .replace('<!-- SOURCE OPTIONS -->', ''.join(source_options))
         .replace('<!-- SOURCE LINKS -->', ' · '.join(source_links))
-        .replace('<!-- CONDITION OPTIONS -->', condition_options)
         .replace('<!-- PAIRS -->', '\n'.join(cards)))
 (ROOT/'index.html').write_text(page,encoding='utf-8')
 print(f'Rendered {len(cards)} dataset cards.')

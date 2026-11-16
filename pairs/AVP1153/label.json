@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the lower marker at x = 1 in the left image with the marker at 1 on the number line in the right image.",
-  "mathematical_meanings": "Left image: The parabolic branch supplies the included point at x = 1. Right image: The interval includes the lower boundary 1.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The selected cue in each image includes the indicated boundary point. This gives the same local constraint rule in the two contexts."
-}

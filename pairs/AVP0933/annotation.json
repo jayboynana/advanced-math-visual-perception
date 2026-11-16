@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0933",
+  "authoring_id": "V04GR058",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "selected_grid_cell_vs_continuous_graph_area",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "260",
+    "sample_index": "260",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 368,
+      "img_width": 412,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/260.jpg",
+    "sha256": "f578c43bd93abcfec75532e25baf7c3efa6be6f3eb52c7cffd776335568a7707",
+    "width": 412,
+    "height": 368,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0933/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1506_A",
+    "sample_index": "1506",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1506,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1506_A.jpg",
+    "sha256": "e5c3683ca93889bb96afeea69b496c0b0e1b976256fd2042b339cdeb08f66302",
+    "width": 247,
+    "height": 247,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1506_A.jpg",
+      "start": 5720912,
+      "length": 4441,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled patch in a mathematical diagram.",
+    "left_evidence": "The light blue filled region between the graph and the horizontal axis to the right of the positive zero.",
+    "right_evidence": "The shaded cell at the top end of the diagonal staircase pattern.",
+    "left_meaning": "A continuous area between a function trace and the horizontal axis.",
+    "right_meaning": "A selected cell in a discrete pattern of filled and unfilled grid squares.",
+    "same_meaning": false,
+    "reason": "The square fill selects one unit cell of a discrete pattern. The continuous graph fill occupies an interval between a curve and an axis."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A filled patch in a mathematical diagram.",
+    "mathematical_meanings": "Left image: A continuous area between a function trace and the horizontal axis. Right image: A selected cell in a discrete pattern of filled and unfilled grid squares.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The square fill selects one unit cell of a discrete pattern. The continuous graph fill occupies an interval between a curve and an axis."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0933",
+    "condition": "condition/graphical_roles/AVP0933"
+  }
+}

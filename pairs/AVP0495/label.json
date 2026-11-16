@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal colored line in a function diagram",
+  "mathematical_meanings": "Left image: A fixed-y horizontal comparison line across the function graph. Right image: A constant function graph: the output remains c as the horizontal input varies.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The orange stroke is one of several fixed-height guides cutting the parabola; the purple trace is explicitly labeled f(x)=c and is itself the function being plotted."
+}

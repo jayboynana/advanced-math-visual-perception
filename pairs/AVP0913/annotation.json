@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0913",
+  "authoring_id": "V04GR038",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "excluded_graph_point_vs_sample",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "118",
+    "sample_index": "118",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 296,
+      "img_width": 600,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/118.jpg",
+    "sha256": "6b3038db8d856d49d7bd1079feecbe7256fc7efff41103e4ac60ff35a3e598fb",
+    "width": 600,
+    "height": 296,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0913/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1563_A",
+    "sample_index": "1563",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1563,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1563_A.jpg",
+    "sha256": "826f9d75c2b39b3e98ea53082252d2e08ae5e5bf097ccf579eecfbf80a57887f",
+    "width": 111,
+    "height": 82,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1563_A.jpg",
+      "start": 6386740,
+      "length": 1611,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "Small hollow circular plotting symbols.",
+    "left_evidence": "One of the hollow circles at the crest of the dotted oscillating trace.",
+    "right_evidence": "The hollow circle at the endpoint near x=2 on the horizontal axis.",
+    "left_meaning": "A visible position in a mathematical sequence plotted with hollow point glyphs.",
+    "right_meaning": "An open point excluded from the displayed curve or branch.",
+    "same_meaning": false,
+    "reason": "The open circle attached to a branch endpoint excludes that coordinate pair. The hollow circles repeated throughout the other trace are the visible plotting marks for sampled positions."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "Small hollow circular plotting symbols.",
+    "mathematical_meanings": "Left image: A visible position in a mathematical sequence plotted with hollow point glyphs. Right image: An open point excluded from the displayed curve or branch.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The open circle attached to a branch endpoint excludes that coordinate pair. The hollow circles repeated throughout the other trace are the visible plotting marks for sampled positions."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0913",
+    "condition": "condition/graphical_roles/AVP0913"
+  }
+}

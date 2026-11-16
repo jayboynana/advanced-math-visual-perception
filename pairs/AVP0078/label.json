@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Horizontal line with arrowheads at both ends",
+  "mathematical_meanings": "Left image: Indicates an unknown length between two horizontal positions. Right image: Indicates the given length between the left and right endpoints of the semicircle.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both double-headed arrows mark length intervals; whether the length is unknown or given does not change their role as dimension annotations."
+}

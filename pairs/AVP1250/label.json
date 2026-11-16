@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Shading restricted to parts of a figure by internal boundaries. On the left, use the gray patches at the upper-left and lower-right corners of the rectangle. On the right, use the gray polygon inside rectangle ABDF beneath the segments AC and CE.",
-  "mathematical_meanings": "Left image: The fill selects two corner regions separated by unshaded parts of the rectangle. Right image: It selects the part of the rectangle outside the two unshaded triangular pieces.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The left fill selects separated pieces whose areas are accumulated. The right fill selects a connected remainder after excluding the adjacent unshaded pieces."
-}

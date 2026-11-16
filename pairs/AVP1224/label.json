@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A vertical line segment joining the x-axis to the upper edge of a shaded region. On the left, use the vertical edge of the gray triangle directly below N. On the right, use the vertical divider at x = 1 at the left edge of the shaded region labeled area = ∞.",
-  "mathematical_meanings": "Left image: This edge delimits the shaded region at the x-coordinate of N. Right image: This divider sets the horizontal starting location of the selected region.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The x-coordinate of the vertical edge sets one horizontal limit of the shaded area in both figures. A similar-looking shaded region extending past that edge would have a different area."
-}

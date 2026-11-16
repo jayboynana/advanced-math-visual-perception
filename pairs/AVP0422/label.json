@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled rectangular interior",
+  "mathematical_meanings": "Left image: The interior area of the displayed geometric rectangle. Right image: The interior area of the displayed geometric rectangle.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both fills cover the rectangle enclosed by its dimension-labeled sides, so the target is the geometric area of a rectangle in each image."
+}

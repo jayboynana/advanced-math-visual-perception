@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An unfilled circular outline",
+  "mathematical_meanings": "Left image: The circumference of the surrounding geometric circle. Right image: The straight branch excludes that endpoint, consistent with the printed restriction x<1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The enclosing circle is the boundary of a geometric figure, while the open symbol at x=1 encodes the strict domain restriction of a function branch."
+}

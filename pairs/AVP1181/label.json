@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A colored region delimited by the intersecting contours of two circles. On the left, use the tan lens labeled 37 between the Action and Comedy circles. On the right, use the pink crescent containing 5 and 10 outside circle B.",
-  "mathematical_meanings": "Left image: The lens represents moviegoers who like both genres. Right image: It lists the elements in A only.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The lens is inside both circle boundaries, so it requires both memberships. The crescent lies inside only one circle and excludes the shared members."
-}

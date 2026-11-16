@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal double-headed arrow",
+  "mathematical_meanings": "Left image: A spatial length annotation spanning two ground positions. Right image: One horizontal-coordinate repetition interval of the waveform, namely its period.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The 10 m arrow measures ground distance between A and B. The other spans adjacent peaks and identifies a repetition interval of the plotted waveform; it is not a geometric ground distance."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dark or colored filled region near geometric boundaries.",
+  "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A wedge that selects the particular angle annotated in degrees.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "One filled patch selects a planar subregion through the object’s boundaries. The wedge between two rays is attached to a degree label and identifies an angle."
+}

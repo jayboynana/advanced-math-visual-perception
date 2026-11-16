@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A straight diagonal-looking stroke.",
+  "mathematical_meanings": "Left image: A sloping straight graph encoding a constant rate of change of output with input. Right image: A diagonal connecting opposite vertices inside a quadrilateral.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The plotted line expresses how output changes across an input scale. The segment through a quadrilateral connects its opposite vertices as a geometric diagonal."
+}

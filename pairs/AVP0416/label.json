@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled point with a coordinate annotation",
+  "mathematical_meanings": "Left image: A designated point on the circle identified by its Cartesian coordinates. Right image: A designated point on the curve identified by its Cartesian coordinates.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each marker attaches an ordered pair to a designated location. One lies on a geometric circle and one on a function graph; neither selected point is a domain endpoint."
+}

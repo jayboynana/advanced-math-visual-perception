@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the marker at 0 on the number line in the left image with the upper marker at x = −1 in the right image.",
-  "mathematical_meanings": "Left image: The interval at the left of 0 excludes 0. Right image: The declining branch supplies the included point (−1, 5).",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The selected left cue excludes the indicated boundary point. The selected right cue includes the indicated boundary point, so the two constraints differ in how they admit values."
-}

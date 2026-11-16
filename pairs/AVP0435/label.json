@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored filled region",
+  "mathematical_meanings": "Left image: A selected area under a function graph over a restricted horizontal interval. Right image: A colored annotation selecting the interior of an angle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The first fill is under a function graph on an x-interval; the second identifies a 27-degree angle at a vertex. The nearby axes versus rays establish distinct roles."
+}

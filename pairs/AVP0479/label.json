@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal double-headed arrow",
+  "mathematical_meanings": "Left image: A spatial length annotation spanning the polygon width. Right image: One horizontal-coordinate repetition interval of the waveform, namely its period.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The diamond arrow measures polygon width, whereas the waveform arrow marks one period along its independent-variable axis. Similar span notation does not identify the measured quantity."
+}

@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Multiple filled pieces separated by unfilled parts of the surrounding figure. On the left, use the three gray triangles meeting the center, with white triangles between them. On the right, use the two hatched triangular regions ABE and DCE.",
-  "mathematical_meanings": "Left image: The fill selects three separate triangles whose areas contribute to the shaded fraction. Right image: The hatch selects two separate triangles of parallelogram ABCD.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "In each figure the fill specifies the components included in a total area. The unfilled pieces do not contribute to that total."
-}

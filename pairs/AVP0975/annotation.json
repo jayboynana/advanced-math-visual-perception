@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0975",
+  "authoring_id": "V04GR100",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "constant_output_vs_height_reference",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1646_A",
+    "sample_index": "1646",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1646,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1646_A.jpg",
+    "sha256": "d880f9fa0f3c3cf5580eccdb1106cb9265b98655b0a42bc4e70bdeb304cae4ab",
+    "width": 226,
+    "height": 190,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1646_A.jpg",
+      "start": 7733829,
+      "length": 3986,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1464_A",
+    "sample_index": "1464",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Descriptive Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1464,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1464_A.jpg",
+    "sha256": "2e749deffa5ea5f81bfe8ee44823d363a54bdb4eee0b65e589864ef7e57fc7b6",
+    "width": 102,
+    "height": 80,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1464_A.jpg",
+      "start": 5194208,
+      "length": 1722,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal line drawn near a plotted curve.",
+    "left_evidence": "The lower horizontal dotted guide projecting a position on the curve to the S-axis.",
+    "right_evidence": "The lower horizontal portion of the piecewise trace after the drop.",
+    "left_meaning": "A horizontal line extending from a plotted position to indicate its vertical level.",
+    "right_meaning": "A portion of the plotted trace with constant output over a horizontal input interval.",
+    "same_meaning": false,
+    "reason": "The plateau is part of the data-bearing graph over an interval. The dashed line projects a height to the vertical scale as an auxiliary reference."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A horizontal line drawn near a plotted curve.",
+    "mathematical_meanings": "Left image: A horizontal line extending from a plotted position to indicate its vertical level. Right image: A portion of the plotted trace with constant output over a horizontal input interval.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The plateau is part of the data-bearing graph over an interval. The dashed line projects a height to the vertical scale as an auxiliary reference."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0975",
+    "condition": "condition/graphical_roles/AVP0975"
+  }
+}

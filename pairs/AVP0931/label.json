@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled portion bounded partly by a circular arc.",
+  "mathematical_meanings": "Left image: A sector of a pie chart whose proportion encodes a labeled category’s share of the total. Right image: A selected plane region distinguished by shading within a geometric construction.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The geometry fill identifies a region through its arcs and other boundaries. The pie chart fill is keyed to a category and its fraction of a whole."
+}

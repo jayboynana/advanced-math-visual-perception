@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A hollow circular marker on a plotted graph",
+  "mathematical_meanings": "Left image: An excluded endpoint of that step of the function graph. Right image: An excluded point at the left boundary of the displayed graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the hollow circle removes its particular endpoint from the drawn branch; endpoint coordinates and curve shapes are irrelevant to this exclusion convention."
+}

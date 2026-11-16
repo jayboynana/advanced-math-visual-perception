@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at the origin on the left with the mark at 0 on the number line on the right.",
-  "mathematical_meanings": "Left image: The point belongs to the plotted graph and gives f(0)=0. Right image: The displayed set excludes 0 at its lower bound.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "On the left, the filled marker adds that coordinate pair to the graph and supplies the value at its horizontal coordinate. On the right, the hollow endpoint marks a strict boundary of the marked ray."
-}

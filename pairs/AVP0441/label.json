@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal dashed reference across a coordinate plot",
+  "mathematical_meanings": "Left image: A fixed-height reference against which plotted points can be compared. Right image: A fixed-y horizontal reference for locating a curve point.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The red line through 0.2 and the magenta line through the marked waveform point each establish a constant ordinate for comparison with plotted positions."
+}

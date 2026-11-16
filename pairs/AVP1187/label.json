@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A curved overlap region formed by intersecting circular outlines. On the left, use the tan lens labeled 79 inside both product-preference circles. On the right, use one of the gray curved components between the white central overlap and a pair of outer arcs.",
-  "mathematical_meanings": "Left image: The lens represents customers who prefer both product categories. Right image: The gray components consist of locations inside exactly two of the three circles. The center common to all three is unshaded.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The left lens encodes joint membership in two named sets. The right gray region selects pieces of a geometric area by circle coverage."
-}

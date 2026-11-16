@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal part of a plotted graph.",
+  "mathematical_meanings": "Left image: A portion of the plotted trace with constant output over a horizontal input interval. Right image: A portion of the plotted trace with constant output over a horizontal input interval.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both horizontal portions belong to the plotted trace itself. Their unchanging height shows that output stays constant across that portion of the horizontal input scale."
+}

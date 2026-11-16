@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dashed line in a coordinate plot",
+  "mathematical_meanings": "Left image: A fixed-height reference line in the coordinate system. Right image: The graph of a second function, distinguished by dash style.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The straight horizontal line is a constant-height guide for the main waveform; the labeled varying dashed polyline is the actual graph of g."
+}

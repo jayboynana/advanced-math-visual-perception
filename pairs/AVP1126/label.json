@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "An inequality involving x and a cutoff value beside a piecewise formula. Compare the input condition in the lower formula label in the left image with the input condition beside the straight branch in the right image.",
-  "mathematical_meanings": "Left image: The linear formula applies for x at least 1, including the boundary. Right image: The straight-line formula applies only to inputs less than 1.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The strict < sign in the right image excludes x = 1. The comparison in the left image includes equality, so its selected rule applies at x = 1."
-}

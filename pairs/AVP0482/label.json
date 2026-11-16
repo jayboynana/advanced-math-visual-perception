@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An arrowhead at the end of a plotted curve",
+  "mathematical_meanings": "Left image: Continuation of the function curve beyond the plotted window. Right image: Continuation of the function curve beyond the plotted window.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both arrowheads occur on the curve itself at the display boundary and signal continuation beyond the visible window, rather than endpoint inclusion or a length measurement."
+}

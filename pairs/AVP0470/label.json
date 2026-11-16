@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal coordinate axis",
+  "mathematical_meanings": "Left image: The horizontal coordinate axis that locates graph positions by input coordinate. Right image: The horizontal coordinate axis that locates positions by x-coordinate.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "The lines provide the same x-coordinate reference despite the different principal objects, logarithmic curve and geometric hyperbola."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal line across a coordinate plot",
+  "mathematical_meanings": "Left image: A fixed-height reference line in the coordinate system. Right image: A constant-output graph: the plotted count stays at the same level over the shown years.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The dashed orange line is a reference level for the oscillating graph; the solid line through the observations represents the constant earthquake count itself."
+}

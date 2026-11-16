@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A horizontal straight line",
+  "mathematical_meanings": "Left image: A boundary edge of a finite geometric triangle. Right image: A constant function graph: the output remains c as the horizontal input varies.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The first is a finite boundary edge of a triangle. The second is explicitly f(x)=c and represents constant function output as x varies."
+}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upright y-axis",
+  "mathematical_meanings": "Left image: The vertical coordinate axis used to read graph output coordinates. Right image: The vertical coordinate axis that locates positions by their y-coordinate.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Each upright axis locates vertical coordinates; a parabola versus a unit-circle construction does not change the reference role."
+}

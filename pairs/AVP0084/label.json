@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Vertical dashed line separate from the curve",
+  "mathematical_meanings": "Left image: Marks the vertical asymptote approached by the two branches of the function graph. Right image: Marks the vertical asymptote approached by the two branches of the function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both separate vertical dashed lines serve as vertical-asymptote references for function graphs; their horizontal coordinates need not match, and no function formula is derived."
+}

@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A shaded region adjacent to a plotted line or curve. On the left, use the gray half-plane to the right of the descending dashed line through the origin. On the right, use the larger blue region above the x-axis from the positive crossing to the right edge at x = 6.",
-  "mathematical_meanings": "Left image: It marks the open solution half-plane of a strict linear inequality. Right image: It selects the portion of the area measured between the upper curve and the x-axis over the indicated interval.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The left fill identifies where a plotted comparison is satisfied. The right fill selects a region from a function to its axis over a specified integration interval."
-}

@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored filled region",
+  "mathematical_meanings": "Left image: The interior area of the displayed geometric rectangle. Right image: A colored annotation selecting the interior of the angle between two rays.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The first patch occupies a rectangle whose sides carry length units; the second occupies only the wedge between two rays and is labeled in degrees. Area selection and angle highlighting have different mathematical roles."
+}

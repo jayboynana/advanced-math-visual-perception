@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "Small hollow circular plotting symbols",
+  "mathematical_meanings": "Left image: An excluded endpoint of that step of the function graph. Right image: A plotted sample location on the displayed mathematical relation; the hollow glyph is used throughout the sequence and does not mean that the position is excluded.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Only the first symbol is an open step endpoint. The second image uses hollow circles at every sampled position, including interior ones, so interpreting them all as excluded function values would misread the plot."
+}

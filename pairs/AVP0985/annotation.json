@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0985",
+  "authoring_id": "V04GR110",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_direction_vs_dimension",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "364",
+    "sample_index": "1819",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_364.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0985/left.png",
+    "width": 415,
+    "height": 296,
+    "sha256": "e2f956256852eb826b29b31867007dd61f60b5a742c0401ecdd225f7cef01da9"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "186_A",
+    "sample_index": "186",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 186,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/186_A.jpg",
+    "sha256": "bfa31708839a4bae628c55fcd4e903a0afed30aa7ef4243426607929dd1efc9f",
+    "width": 138,
+    "height": 134,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/186_A.jpg",
+      "start": 9699864,
+      "length": 2658,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead attached to the end of a straight line.",
+    "left_evidence": "The right arrowhead of the length dimension labeled 65.9 m.",
+    "right_evidence": "The right-pointing arrowhead at the end of the horizontal x-axis.",
+    "left_meaning": "An arrowhead at one limit of a finite spatial dimension.",
+    "right_meaning": "The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_meaning": false,
+    "reason": "The coordinate arrow orients the axis used to read values. The dimension arrow identifies one limit of a finite geometric length, as shown by its opposite arrow and length label."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead attached to the end of a straight line.",
+    "mathematical_meanings": "Left image: An arrowhead at one limit of a finite spatial dimension. Right image: The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The coordinate arrow orients the axis used to read values. The dimension arrow identifies one limit of a finite geometric length, as shown by its opposite arrow and length label."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0985",
+    "condition": "condition/graphical_roles/AVP0985"
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "A straight boundary separating the shaded and unshaded parts of a coordinate plane. Compare the diagonal line between the gray and white regions in the left image with the diagonal line between the gray and white regions in the right image.",
-  "mathematical_meanings": "Left image: Points on the descending boundary satisfy the non-strict inequality represented by the shading. Right image: The equality line belongs to the shaded solution region.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "Each region has a solid boundary, so points satisfying equality belong to both depicted solution sets along their respective lines."
-}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0928",
+  "authoring_id": "V04GR053",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "geometric_region_vs_angle_annotation",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "539_A",
+    "sample_index": "539",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 539,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/539_A.jpg",
+    "sha256": "513067e617345a83b8081e76c79fb9367879795adf2b8b8c8329adc8609518ef",
+    "width": 73,
+    "height": 69,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/539_A.jpg",
+      "start": 13348467,
+      "length": 1926,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "334",
+    "sample_index": "1669",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_334.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0928/right.png",
+    "width": 375,
+    "height": 379,
+    "sha256": "19217175a44c9c107adede704efd51918ae5bdd5e3490d3d67559d74c014a837"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dark or colored filled region near geometric boundaries.",
+    "left_evidence": "The shaded triangular part above the tilted inner square.",
+    "right_evidence": "The turquoise wedge adjacent to 28 degrees at O.",
+    "left_meaning": "A selected plane region distinguished by shading within a geometric construction.",
+    "right_meaning": "A wedge that selects the particular angle annotated in degrees.",
+    "same_meaning": false,
+    "reason": "One filled patch selects a planar subregion through the object’s boundaries. The wedge between two rays is attached to a degree label and identifies an angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dark or colored filled region near geometric boundaries.",
+    "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A wedge that selects the particular angle annotated in degrees.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "One filled patch selects a planar subregion through the object’s boundaries. The wedge between two rays is attached to a degree label and identifies an angle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0928",
+    "condition": "condition/graphical_roles/AVP0928"
+  }
+}

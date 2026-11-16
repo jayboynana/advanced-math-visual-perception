@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular point marker",
+  "mathematical_meanings": "Left image: The center of the circle from which the two blue segments extend. Right image: A designated point on the curve identified by its Cartesian coordinates.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "M is the origin of radii in the circle construction; the annotated waveform point is used for coordinate reading. Center designation and a sampled curve position are different roles."
+}

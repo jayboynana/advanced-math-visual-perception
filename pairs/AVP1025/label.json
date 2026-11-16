@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular marker at the edge of a marked interval or at a point on a plotted trace. Compare the mark at 2 on the number line on the left with the mark at 1 on the number line on the right.",
-  "mathematical_meanings": "Left image: The displayed interval includes its boundary value 2. Right image: The displayed interval includes its boundary value 1.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "On the left, the filled dot makes equality at 2 admissible for the interval. On the right, the filled dot makes equality at 1 admissible for the interval."
-}

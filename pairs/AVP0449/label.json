@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A dashed construction line",
+  "mathematical_meanings": "Left image: A geometric side extension making the larger triangle construction visible. Right image: A vertical asymptote approached by the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The sloping dashed line extends a finite triangle side; the vertical dashed line in the function plot marks limiting behavior of branches. The shared dash style does not make these roles equivalent."
+}

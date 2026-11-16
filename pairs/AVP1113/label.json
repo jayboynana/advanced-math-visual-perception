@@ -1,6 +1,0 @@
-{
-  "shared_or_similar_visual_information": "Circular markers at boundaries of marked spans or plotted branches. Compare the upper of the two vertically aligned markers in the left image with the circular marker at 3 beside the gray region in the right image.",
-  "mathematical_meanings": "Left image: The filled dot gives the actual function value at that shared input. Right image: The highlighted intersection excludes its left endpoint 3.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The selected left cue includes the indicated boundary point. The selected right cue excludes the indicated boundary point, so the two constraints differ in how they admit values."
-}

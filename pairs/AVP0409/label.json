@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular endpoint marker",
+  "mathematical_meanings": "Left image: An included endpoint of the displayed function graph. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both dots occur where the shown graph ends, so their fill specifically indicates endpoint inclusion rather than merely highlighting an interior coordinate."
+}

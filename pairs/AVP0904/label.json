@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A curved dashed stroke.",
+  "mathematical_meanings": "Left image: The occluded rear portion of a circular base rim in a solid drawing. Right image: A function trace drawn with dashes to distinguish it from a second trace.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The ellipse uses dashes for the hidden part of a solid rim. The named graph uses a dashed stroke as the visible trace of a function."
+}

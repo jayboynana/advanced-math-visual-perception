@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "An upright coordinate axis",
+  "mathematical_meanings": "Left image: The vertical coordinate axis used to read graph output coordinates. Right image: The vertical coordinate axis that locates positions by their y-coordinate.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both lines are vertical coordinate references passing through an origin in a Cartesian plane; they are not geometric altitudes or lengths."
+}

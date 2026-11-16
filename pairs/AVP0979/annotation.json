@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0979",
+  "authoring_id": "V04GR104",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "coordinate_axis_direction",
+  "type_class": "different type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "525",
+    "sample_index": "2624",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_525.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0979/left.png",
+    "width": 271,
+    "height": 281,
+    "sha256": "bc5d514fae47e0306fdf2dfbcb802aaa66336903c5b4c7083b6d1f4d2f72e814"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "28_A",
+    "sample_index": "28",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 28,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/28_A.jpg",
+    "sha256": "05cc9a3b023997318aac83ee64e654b87c8954d38701c3f2e2ab4b09714db006",
+    "width": 253,
+    "height": 239,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/28_A.jpg",
+      "start": 10709933,
+      "length": 4027,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "An arrowhead at the positive end of a coordinate axis.",
+    "left_evidence": "The upward arrowhead on the y-axis above the unit circle.",
+    "right_evidence": "The outline arrowhead at the right end of the horizontal axis.",
+    "left_meaning": "The arrowhead orienting the positive direction of a coordinate axis.",
+    "right_meaning": "The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_meaning": true,
+    "reason": "In both diagrams the arrowhead belongs to a coordinate axis and orients that reference scale. The curve or geometric figure plotted on the axes is a separate element."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "An arrowhead at the positive end of a coordinate axis.",
+    "mathematical_meanings": "Left image: The arrowhead orienting the positive direction of a coordinate axis. Right image: The arrowhead orienting the positive direction of a coordinate axis.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both diagrams the arrowhead belongs to a coordinate axis and orients that reference scale. The curve or geometric figure plotted on the axes is a separate element."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0979",
+    "condition": "condition/graphical_roles/AVP0979"
+  }
+}

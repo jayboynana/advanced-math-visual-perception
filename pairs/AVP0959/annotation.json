@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0959",
+  "authoring_id": "V04GR084",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "linear_function_trace_vs_polygon_side",
+  "type_class": "different type",
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "206",
+    "sample_index": "206",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image206.png",
+    "sha256": "e5ed14c5dcae61a8b071383279afc51812ed41c4c15e7528d4bfac4139a7e92c",
+    "width": 356,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0959/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "643_A",
+    "sample_index": "643",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 643,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/643_A.jpg",
+    "sha256": "5b00df322ee38efa862030f4c7033b20c9c3fe3869aee05e8f7ab74b10d8852c",
+    "width": 99,
+    "height": 85,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/643_A.jpg",
+      "start": 14331647,
+      "length": 1326,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid sloping line.",
+    "left_evidence": "The sloping triangle side from A down to B, beside the label 11.",
+    "right_evidence": "The black descending straight trace on the coordinate axes.",
+    "left_meaning": "A sloping outer side of a finite geometric figure.",
+    "right_meaning": "A sloping straight graph encoding a constant rate of change of output with input.",
+    "same_meaning": false,
+    "reason": "The straight trace crosses coordinate axes to give a relationship between variables. The finite side joins vertices of a closed geometric figure."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A solid sloping line.",
+    "mathematical_meanings": "Left image: A sloping outer side of a finite geometric figure. Right image: A sloping straight graph encoding a constant rate of change of output with input.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The straight trace crosses coordinate axes to give a relationship between variables. The finite side joins vertices of a closed geometric figure."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0959",
+    "condition": "condition/graphical_roles/AVP0959"
+  }
+}

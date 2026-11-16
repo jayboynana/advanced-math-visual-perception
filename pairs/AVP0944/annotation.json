@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0944",
+  "authoring_id": "V04GR069",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "function_trace_vs_geometric_boundary",
+  "type_class": "different type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1169_A",
+    "sample_index": "1169",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1169,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1169_A.jpg",
+    "sha256": "453958a2706f21bc81a0baa09b0eba28928eaa293dd536b94508c343cccb8d0a",
+    "width": 161,
+    "height": 133,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1169_A.jpg",
+      "start": 1704492,
+      "length": 2494,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "55",
+    "sample_index": "55",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image55.png",
+    "sha256": "0eaf1a22a43a6761967f8a6ac91ca843205be7f632cb50ee0e00923cd356b43c",
+    "width": 1424,
+    "height": 1349,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0944/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth curved stroke.",
+    "left_evidence": "The black curve with two crests and a trough crossing the axes.",
+    "right_evidence": "The circular outline through the labeled points on the coordinate axes.",
+    "left_meaning": "A plotted trace whose height gives an output for each horizontal input on the shown part.",
+    "right_meaning": "A curved boundary of a finite geometric figure.",
+    "same_meaning": false,
+    "reason": "The plotted trace gives outputs along a horizontal scale. The curved boundary encloses or delimits a finite geometric figure, as shown by the surrounding construction."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A smooth curved stroke.",
+    "mathematical_meanings": "Left image: A plotted trace whose height gives an output for each horizontal input on the shown part. Right image: A curved boundary of a finite geometric figure.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The plotted trace gives outputs along a horizontal scale. The curved boundary encloses or delimits a finite geometric figure, as shown by the surrounding construction."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/different type/AVP0944",
+    "condition": "condition/graphical_roles/AVP0944"
+  }
+}

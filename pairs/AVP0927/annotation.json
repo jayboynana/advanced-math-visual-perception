@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0927",
+  "authoring_id": "V04GR052",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "geometric_region_vs_angle_annotation",
+  "type_class": "same type",
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "332",
+    "sample_index": "1659",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_332.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0927/left.png",
+    "width": 229,
+    "height": 336,
+    "sha256": "a53d90ad1cba28f27d42b0d35b3e0e8ba316f50e03186ca40c786b77ddbfbf01"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "485_A",
+    "sample_index": "485",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 485,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/485_A.jpg",
+    "sha256": "d03c963db9bb877a83fd22dd263b3f5eac1bc7f05d63bd1efd8e31ae0a69301c",
+    "width": 47,
+    "height": 45,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/485_A.jpg",
+      "start": 12851607,
+      "length": 1422,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dark or colored filled region near geometric boundaries.",
+    "left_evidence": "The red wedge adjacent to 50 degrees at M.",
+    "right_evidence": "A hatched corner wedge between the outer polygon and inner polygon.",
+    "left_meaning": "A wedge that selects the particular angle annotated in degrees.",
+    "right_meaning": "A selected plane region distinguished by shading within a geometric construction.",
+    "same_meaning": false,
+    "reason": "One filled patch selects a planar subregion through the object’s boundaries. The wedge between two rays is attached to a degree label and identifies an angle."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A dark or colored filled region near geometric boundaries.",
+    "mathematical_meanings": "Left image: A wedge that selects the particular angle annotated in degrees. Right image: A selected plane region distinguished by shading within a geometric construction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "One filled patch selects a planar subregion through the object’s boundaries. The wedge between two rays is attached to a degree label and identifies an angle."
+  },
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0927",
+    "condition": "condition/graphical_roles/AVP0927"
+  }
+}

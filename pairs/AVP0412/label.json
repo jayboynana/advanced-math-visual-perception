@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A filled circular plotting marker",
+  "mathematical_meanings": "Left image: A designated interior location on the function curve, highlighting its peak. Right image: An included endpoint of the displayed function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The gray peak marker is an interior turning-point highlight, whereas the blue dot closes the end of a piecewise graph. Their identical filled form does not identify the same role."
+}

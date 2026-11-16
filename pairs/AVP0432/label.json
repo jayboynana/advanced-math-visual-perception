@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A colored filled region",
+  "mathematical_meanings": "Left image: The interior area of the displayed geometric square. Right image: A colored annotation selecting the interior of an angle between a reference ray and OA.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Filling a whole square selects a two-dimensional geometric area, whereas filling a small wedge at O selects an angle relative to a bearing reference."
+}

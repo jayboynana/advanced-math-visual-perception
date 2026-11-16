@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A shaded region between a function curve and the horizontal axis",
+  "mathematical_meanings": "Left image: A region between a function graph and the horizontal axis, selected as an area under the graph. Right image: A selected area under a function graph over a restricted horizontal interval.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "Both patches are bounded vertically by the graph and horizontal axis over a selected interval; the fill represents graph-based area, even though the curve shapes differ."
+}

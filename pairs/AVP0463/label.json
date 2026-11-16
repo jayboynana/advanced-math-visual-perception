@@ -1,0 +1,6 @@
+{
+  "shared_or_similar_visual_information": "A smooth colored curve",
+  "mathematical_meanings": "Left image: The circumference bounding the geometric circle. Right image: A function graph relating y to x.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The circle encloses a geometric object with labeled center and radii; the decaying curve is labeled g(x) and expresses an input-output relation."
+}

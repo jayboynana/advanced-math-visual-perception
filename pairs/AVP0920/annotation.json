@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.4.0",
+  "language": "en",
+  "pair_id": "AVP0920",
+  "authoring_id": "V04GR045",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "filled_geometric_region",
+  "type_class": "same type",
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "246_A",
+    "sample_index": "246",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 246,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/246_A.jpg",
+    "sha256": "146abd2491827b874744386bbafe6cbc32f16d837f2865272bb3b7d53f2461d4",
+    "width": 100,
+    "height": 107,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/246_A.jpg",
+      "start": 10368064,
+      "length": 1865,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "53",
+    "sample_index": "53",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image53.png",
+    "sha256": "76d8c41502b05aaf32f04a3892fa35cce13538ce460a36c5c91e9e1281741864",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0920/right.png"
+  },
+  "target_count": 1,
+  "target": {
+    "visual_information": "A bounded geometric patch selected with shading or hatching.",
+    "left_evidence": "The gray polygonal part beside the unshaded triangular cutout labeled 8 and 15.",
+    "right_evidence": "The blue annular band between the two concentric circles.",
+    "left_meaning": "A selected plane region distinguished by shading within a geometric construction.",
+    "right_meaning": "A selected plane region distinguished by shading within a geometric construction.",
+    "same_meaning": true,
+    "reason": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
+  },
+  "label": {
+    "shared_or_similar_visual_information": "A bounded geometric patch selected with shading or hatching.",
+    "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A selected plane region distinguished by shading within a geometric construction.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
+  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
+  "views": {
+    "type": "type/same type/AVP0920",
+    "condition": "condition/graphical_roles/AVP0920"
+  }
+}
