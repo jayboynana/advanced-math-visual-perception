@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0040",
   "authoring_id": "GM15",
@@ -64,7 +64,6 @@
     "reason": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
   },
   "label": {
-    "shared_or_similar_visual_information": "Broken straight-line strokes extending diagonally",
     "mathematical_meanings": "Left image: It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle. Right image: It is the boundary line of the gray solution region.",
     "same_mathematical_meanings": "no",
     "Rationales": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0040",
     "condition": "condition/geometric_markers/AVP0040"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Broken straight-line strokes extending diagonally\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

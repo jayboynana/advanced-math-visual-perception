@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0389",
   "authoring_id": "V03SR089",
@@ -81,7 +81,6 @@
     "reason": "On the left, attachment to a° below the base line at the lower-left crossing supports the meaning: a denotes the unknown exterior angle measure at the lower-left crossing, in degrees. On the right, the context is a in y = a^x, a > 1 to the left of the curve, where a is the fixed base parameter of the exponential function, constrained to exceed 1. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter a",
     "mathematical_meanings": "Left image: a denotes the unknown exterior angle measure at the lower-left crossing, in degrees. Right image: a is the fixed base parameter of the exponential function, constrained to exceed 1.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to a° below the base line at the lower-left crossing supports the meaning: a denotes the unknown exterior angle measure at the lower-left crossing, in degrees. On the right, the context is a in y = a^x, a > 1 to the left of the curve, where a is the fixed base parameter of the exponential function, constrained to exceed 1. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -92,5 +91,6 @@
   "views": {
     "type": "type/different type/AVP0389",
     "condition": "condition/symbolic_roles/AVP0389"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter a\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

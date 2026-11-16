@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0013",
   "authoring_id": "NR13",
@@ -64,7 +64,6 @@
     "reason": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
   },
   "label": {
-    "shared_or_similar_visual_information": "Equivalent layouts for one real number: π/4 and (1/4)π.",
     "mathematical_meanings": "Left image: The label gives the marked angle's measure in radians at the origin. Right image: The label gives the marked point's x-coordinate on the function graph.",
     "same_mathematical_meanings": "no",
     "Rationales": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0013",
     "condition": "condition/numeric_representation/AVP0013"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Equivalent layouts for one real number: π/4 and (1/4)π.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

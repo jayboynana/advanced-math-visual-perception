@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0039",
   "authoring_id": "GM14",
@@ -64,7 +64,6 @@
     "reason": "The square outlines look similar, but a local right-angle marker and a background coordinate-grid cell serve different mathematical functions."
   },
   "label": {
-    "shared_or_similar_visual_information": "A small unfilled square bounded by horizontal and vertical edges",
     "mathematical_meanings": "Left image: It indicates that the projection line forms a right angle with the horizontal axis. Right image: It represents a cell in the plotting coordinate grid, used for locating positions and reading values.",
     "same_mathematical_meanings": "no",
     "Rationales": "The square outlines look similar, but a local right-angle marker and a background coordinate-grid cell serve different mathematical functions."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0039",
     "condition": "condition/geometric_markers/AVP0039"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A small unfilled square bounded by horizontal and vertical edges\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

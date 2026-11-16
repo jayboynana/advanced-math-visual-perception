@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0429",
   "authoring_id": "V03GR029",
@@ -72,7 +72,6 @@
     "reason": "The label epi f specifies a set of points above f, while half-plane shading identifies points satisfying a linear inequality. Both fills encode an inequality-defined coordinate set; their boundary-inclusion details need not match."
   },
   "label": {
-    "shared_or_similar_visual_information": "A shaded region on one side of a graph",
     "mathematical_meanings": "Left image: The epigraph: the set of coordinate pairs on or above the function graph. Right image: A coordinate-plane solution region of a linear inequality; the dashed boundary is excluded.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The label epi f specifies a set of points above f, while half-plane shading identifies points satisfying a linear inequality. Both fills encode an inequality-defined coordinate set; their boundary-inclusion details need not match."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/same type/AVP0429",
     "condition": "condition/graphical_roles/AVP0429"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A shaded region on one side of a graph\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0527",
   "authoring_id": "V04NR027",
@@ -62,7 +62,6 @@
     "reason": "Both cues identify the same vertical coordinate value, −3. The evidence is the selected axis position or coordinate component in each image."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation −3 in both images.",
     "mathematical_meanings": "Left image: The red parabola's vertex has y-coordinate negative three. Right image: The lower vertex has y-coordinate negative three.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both cues identify the same vertical coordinate value, −3. The evidence is the selected axis position or coordinate component in each image."
@@ -73,5 +72,6 @@
   "views": {
     "type": "type/different type/AVP0527",
     "condition": "condition/numeric_representation/AVP0527"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation −3 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

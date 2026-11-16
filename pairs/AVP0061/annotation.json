@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0061",
   "authoring_id": "SR11",
@@ -64,7 +64,6 @@
     "reason": "D is a curve or function name in both images, rather than the name of a geometric vertex."
   },
   "label": {
-    "shared_or_similar_visual_information": "The uppercase letter D beside a wave-shaped curve",
     "mathematical_meanings": "Left image: D names the wave-shaped function plotted against the horizontal-axis variable. Right image: D names the wave-shaped function plotted against the horizontal-axis variable.",
     "same_mathematical_meanings": "yes",
     "Rationales": "D is a curve or function name in both images, rather than the name of a geometric vertex."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0061",
     "condition": "condition/symbolic_roles/AVP0061"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The uppercase letter D beside a wave-shaped curve\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

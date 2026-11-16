@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0698",
   "authoring_id": "V04GM073",
@@ -62,7 +62,6 @@
     "reason": "The compass label makes the left arrow a bearing reference. The right arrow sits at the end of the y-axis, where it indicates the direction of increasing ordinate."
   },
   "label": {
-    "shared_or_similar_visual_information": "An upright arrow pointing toward the top of the diagram.",
     "mathematical_meanings": "Left image: It sets the upward reference direction as north. Right image: It gives the positive vertical coordinate direction.",
     "same_mathematical_meanings": "no",
     "Rationales": "The compass label makes the left arrow a bearing reference. The right arrow sits at the end of the y-axis, where it indicates the direction of increasing ordinate."
@@ -73,5 +72,6 @@
   "views": {
     "type": "type/different type/AVP0698",
     "condition": "condition/geometric_markers/AVP0698"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: An upright arrow pointing toward the top of the diagram.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0120",
   "authoring_id": "V03NR020",
@@ -82,7 +82,6 @@
     "reason": "One yard equals three feet. Both labels give a side length and specify equal lengths after converting the displayed units."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 1 yd and 3 ft.",
     "mathematical_meanings": "Left image: The top side has length 1 yard. Right image: The top side has length 3 feet.",
     "same_mathematical_meanings": "yes",
     "Rationales": "One yard equals three feet. Both labels give a side length and specify equal lengths after converting the displayed units."
@@ -93,5 +92,6 @@
   "views": {
     "type": "type/same type/AVP0120",
     "condition": "condition/numeric_representation/AVP0120"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 1 yd and 3 ft.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

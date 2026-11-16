@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0872",
   "authoring_id": "V04SR122",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is ? between 2 and 5 in the expression. The right occurrence is ? in the last output cell, corresponding to x = 4. The left placement shows that the symbol stands for the arithmetic operation to insert between two operands, while the right placement shows that it stands for the missing numerical output or result."
   },
   "label": {
-    "shared_or_similar_visual_information": "The question mark (?)",
     "mathematical_meanings": "Left image: The symbol \"?\" stands for the arithmetic operation to insert between two operands. Right image: The symbol \"?\" stands for the missing numerical output or result.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is ? between 2 and 5 in the expression. The right occurrence is ? in the last output cell, corresponding to x = 4. The left placement shows that the symbol stands for the arithmetic operation to insert between two operands, while the right placement shows that it stands for the missing numerical output or result."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0872",
     "condition": "condition/symbolic_roles/AVP0872"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The question mark (?)\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

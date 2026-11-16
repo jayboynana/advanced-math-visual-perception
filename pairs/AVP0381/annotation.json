@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0381",
   "authoring_id": "V03SR081",
@@ -72,7 +72,6 @@
     "reason": "On the left, attachment to y on the longest horizontal dimension below the construction supports the meaning: y denotes the unknown overall width of the construction. On the right, the context is y at the top of the vertical axis, where y labels the vertical coordinate axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter y",
     "mathematical_meanings": "Left image: y denotes the unknown overall width of the construction. Right image: y labels the vertical coordinate axis.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to y on the longest horizontal dimension below the construction supports the meaning: y denotes the unknown overall width of the construction. On the right, the context is y at the top of the vertical axis, where y labels the vertical coordinate axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/different type/AVP0381",
     "condition": "condition/symbolic_roles/AVP0381"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter y\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0538",
   "authoring_id": "V04NR038",
@@ -65,7 +65,6 @@
     "reason": "The left context gives the number the role of score, while the right context gives it the role of angle measure."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notations 78 and 78°.",
     "mathematical_meanings": "Left image: The table records Student B's mathematics score as 78. Right image: The indicated angle between the interior segment and the rightward base ray measures 78 degrees.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left context gives the number the role of score, while the right context gives it the role of angle measure."
@@ -76,5 +75,6 @@
   "views": {
     "type": "type/different type/AVP0538",
     "condition": "condition/numeric_representation/AVP0538"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notations 78 and 78°.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

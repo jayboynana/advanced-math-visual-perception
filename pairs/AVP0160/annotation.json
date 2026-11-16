@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0160",
   "authoring_id": "V03NR060",
@@ -81,7 +81,6 @@
     "reason": "The selected 10 is the logarithm base in log₁₀x, whereas the triangle label 10 is a side-length value."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 10 in both images.",
     "mathematical_meanings": "Left image: The blue logarithmic curve uses logarithm base 10. Right image: The bottom side has length value 10.",
     "same_mathematical_meanings": "no",
     "Rationales": "The selected 10 is the logarithm base in log₁₀x, whereas the triangle label 10 is a side-length value."
@@ -92,5 +91,6 @@
   "views": {
     "type": "type/different type/AVP0160",
     "condition": "condition/numeric_representation/AVP0160"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 10 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

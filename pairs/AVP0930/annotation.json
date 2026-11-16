@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0930",
   "authoring_id": "V04GR055",
@@ -68,7 +68,6 @@
     "reason": "The geometry fill identifies a region through its arcs and other boundaries. The pie chart fill is keyed to a category and its fraction of a whole."
   },
   "label": {
-    "shared_or_similar_visual_information": "A filled portion bounded partly by a circular arc.",
     "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A sector of a pie chart whose proportion encodes a labeled category’s share of the total.",
     "same_mathematical_meanings": "no",
     "Rationales": "The geometry fill identifies a region through its arcs and other boundaries. The pie chart fill is keyed to a category and its fraction of a whole."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/different type/AVP0930",
     "condition": "condition/graphical_roles/AVP0930"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A filled portion bounded partly by a circular arc.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

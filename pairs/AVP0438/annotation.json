@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0438",
   "authoring_id": "V03GR038",
@@ -73,7 +73,6 @@
     "reason": "The hatched triangle is a subarea inside a parallelogram. The red wedge is an angle marker between rays. The local boundaries show area-partition and angle-selection roles respectively."
   },
   "label": {
-    "shared_or_similar_visual_information": "Hatching or color used to fill a selected region",
     "mathematical_meanings": "Left image: A selected geometric subregion whose plane area is distinguished from the unhatched parts. Right image: A colored annotation selecting the interior of the angle between two rays.",
     "same_mathematical_meanings": "no",
     "Rationales": "The hatched triangle is a subarea inside a parallelogram. The red wedge is an angle marker between rays. The local boundaries show area-partition and angle-selection roles respectively."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0438",
     "condition": "condition/graphical_roles/AVP0438"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Hatching or color used to fill a selected region\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

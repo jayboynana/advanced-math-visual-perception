@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0049",
   "authoring_id": "GM24",
@@ -64,7 +64,6 @@
     "reason": "Although one image is a unit-circle diagram and the other a function graph, the axis-end arrowheads have the same coordinate-direction meaning."
   },
   "label": {
-    "shared_or_similar_visual_information": "An upward arrowhead at the top of a vertical coordinate axis",
     "mathematical_meanings": "Left image: It indicates the positive y direction and the vertical coordinate axis continuing upward. Right image: It indicates the positive y direction and the vertical coordinate axis continuing upward.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Although one image is a unit-circle diagram and the other a function graph, the axis-end arrowheads have the same coordinate-direction meaning."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0049",
     "condition": "condition/geometric_markers/AVP0049"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: An upward arrowhead at the top of a vertical coordinate axis\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

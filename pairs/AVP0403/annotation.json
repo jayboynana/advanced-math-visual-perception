@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0403",
   "authoring_id": "V03GR003",
@@ -72,7 +72,6 @@
     "reason": "The printed x<1 restriction supports endpoint exclusion on the left, and the hollow segment endpoint encodes exclusion on the right. Both use the same open-point convention."
   },
   "label": {
-    "shared_or_similar_visual_information": "A hollow circular marker on a plotted graph",
     "mathematical_meanings": "Left image: The straight branch excludes that endpoint, consistent with the printed restriction x<1. Right image: An excluded endpoint of the displayed function segment.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The printed x<1 restriction supports endpoint exclusion on the left, and the hollow segment endpoint encodes exclusion on the right. Both use the same open-point convention."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/same type/AVP0403",
     "condition": "condition/graphical_roles/AVP0403"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A hollow circular marker on a plotted graph\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

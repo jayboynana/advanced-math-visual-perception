@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0533",
   "authoring_id": "V04NR033",
@@ -67,7 +67,6 @@
     "reason": "45 degrees equals π/4 radians as an angle conversion. Here the degree label measures an angle while the π expression specifies a point’s horizontal coordinate."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notations 45° and (1/4)π.",
     "mathematical_meanings": "Left image: The angle between BA and BH at B measures 45 degrees. Right image: The upper orange point has x-coordinate π/4.",
     "same_mathematical_meanings": "no",
     "Rationales": "45 degrees equals π/4 radians as an angle conversion. Here the degree label measures an angle while the π expression specifies a point’s horizontal coordinate."
@@ -78,5 +77,6 @@
   "views": {
     "type": "type/different type/AVP0533",
     "condition": "condition/numeric_representation/AVP0533"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notations 45° and (1/4)π.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

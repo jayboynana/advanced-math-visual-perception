@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0722",
   "authoring_id": "V04GM097",
@@ -60,7 +60,6 @@
     "reason": "The left stroke derives its role from the geometric construction. It marks the mirror line for reflecting the triangle. The right stroke is interpreted from the coordinate plot. It projects the curve endpoint to its horizontal coordinate b."
   },
   "label": {
-    "shared_or_similar_visual_information": "A broken stroke used for a line or curve in the diagram.",
     "mathematical_meanings": "Left image: It marks the mirror line for reflecting the triangle. Right image: It projects the curve endpoint to its horizontal coordinate b.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left stroke derives its role from the geometric construction. It marks the mirror line for reflecting the triangle. The right stroke is interpreted from the coordinate plot. It projects the curve endpoint to its horizontal coordinate b."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0722",
     "condition": "condition/geometric_markers/AVP0722"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A broken stroke used for a line or curve in the diagram.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

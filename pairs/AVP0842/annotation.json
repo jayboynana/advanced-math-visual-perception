@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0842",
   "authoring_id": "V04SR092",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is C next to the lower-left vertex with the 44° angle. The right occurrence is C before the rightmost 2 by 2 matrix. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter C",
     "mathematical_meanings": "Left image: The symbol \"C\" names a specific geometric point at the indicated location. Right image: The symbol \"C\" names the matrix whose entries follow in brackets.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is C next to the lower-left vertex with the 44° angle. The right occurrence is C before the rightmost 2 by 2 matrix. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0842",
     "condition": "condition/symbolic_roles/AVP0842"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter C\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

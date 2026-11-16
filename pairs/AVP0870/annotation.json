@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0870",
   "authoring_id": "V04SR120",
@@ -65,7 +65,6 @@
     "reason": "The left occurrence is b above the longer right part of the top edge. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes a length or a variable in the indicated length expression, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter b",
     "mathematical_meanings": "Left image: The symbol \"b\" denotes a length or a variable in the indicated length expression. Right image: The symbol \"b\" denotes the coefficient of the input in the trigonometric argument.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is b above the longer right part of the top edge. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes a length or a variable in the indicated length expression, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
@@ -76,5 +75,6 @@
   "views": {
     "type": "type/different type/AVP0870",
     "condition": "condition/symbolic_roles/AVP0870"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter b\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

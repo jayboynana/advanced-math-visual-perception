@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0020",
   "authoring_id": "NR20",
@@ -64,7 +64,6 @@
     "reason": "2π and −2π differ in value; one labels an arc length and the other an x-coordinate. The π in the arc-length expression is not an angular unit."
   },
   "label": {
-    "shared_or_similar_visual_information": "Multiples of π differing only by a minus sign: 2π and −2π.",
     "mathematical_meanings": "Left image: Arc JK has numerical arc-length value 2π, in cm. Right image: The peak point has x-coordinate −2π.",
     "same_mathematical_meanings": "no",
     "Rationales": "2π and −2π differ in value; one labels an arc length and the other an x-coordinate. The π in the arc-length expression is not an angular unit."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0020",
     "condition": "condition/numeric_representation/AVP0020"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Multiples of π differing only by a minus sign: 2π and −2π.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

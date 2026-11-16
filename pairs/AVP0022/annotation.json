@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0022",
   "authoring_id": "NR22",
@@ -64,7 +64,6 @@
     "reason": "Both selected values specify that a marked point has y-coordinate 3."
   },
   "label": {
-    "shared_or_similar_visual_information": "The value 3 inside parentheses",
     "mathematical_meanings": "Left image: The marked hyperbola vertex has y-coordinate 3. Right image: The marked point on the parabola has y-coordinate 3.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both selected values specify that a marked point has y-coordinate 3."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0022",
     "condition": "condition/numeric_representation/AVP0022"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The value 3 inside parentheses\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

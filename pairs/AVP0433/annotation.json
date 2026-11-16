@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0433",
   "authoring_id": "V03GR033",
@@ -73,7 +73,6 @@
     "reason": "The diamond interior is an area region, while the small wedge with a degree measure is an angle annotation; the same filling operation encodes different quantities."
   },
   "label": {
-    "shared_or_similar_visual_information": "A colored filled region",
     "mathematical_meanings": "Left image: The interior area of the displayed plane polygon. Right image: A colored annotation selecting an angle between two rays.",
     "same_mathematical_meanings": "no",
     "Rationales": "The diamond interior is an area region, while the small wedge with a degree measure is an angle annotation; the same filling operation encodes different quantities."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0433",
     "condition": "condition/graphical_roles/AVP0433"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A colored filled region\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

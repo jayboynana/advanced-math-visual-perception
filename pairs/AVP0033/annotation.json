@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0033",
   "authoring_id": "GM08",
@@ -64,7 +64,6 @@
     "reason": "Both locations use the same type of right-angle square; its placement at a triangle vertex or near a circle does not change its meaning."
   },
   "label": {
-    "shared_or_similar_visual_information": "A tilted unfilled square angle marker",
     "mathematical_meanings": "Left image: It indicates that the two slanted sides at the topmost vertex are perpendicular. Right image: It indicates that the slanted straight line at B is perpendicular to the radius BP.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both locations use the same type of right-angle square; its placement at a triangle vertex or near a circle does not change its meaning."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0033",
     "condition": "condition/geometric_markers/AVP0033"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A tilted unfilled square angle marker\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

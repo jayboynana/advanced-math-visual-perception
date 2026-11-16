@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0658",
   "authoring_id": "V04GM033",
@@ -60,7 +60,6 @@
     "reason": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
   },
   "label": {
-    "shared_or_similar_visual_information": "A short circular arc drawn between rays near their common vertex.",
     "mathematical_meanings": "Left image: It identifies the selected angle labeled 1 at the left crossing. Right image: It identifies the apex angle with measure 60 degrees.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Each short arc is placed inside the wedge it selects. This use attaches an angle label to the relevant rays or identifies the marked vertex angle."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0658",
     "condition": "condition/geometric_markers/AVP0658"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A short circular arc drawn between rays near their common vertex.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

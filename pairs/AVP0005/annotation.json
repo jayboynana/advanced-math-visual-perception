@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0005",
   "authoring_id": "NR05",
@@ -64,7 +64,6 @@
     "reason": "6.0 and 6 are exactly equal, and both labels give the length of the marked segment."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 6.0 and 6",
     "mathematical_meanings": "Left image: Segment AB has a length value of 6. Right image: Segment AB has a length value of 6.",
     "same_mathematical_meanings": "yes",
     "Rationales": "6.0 and 6 are exactly equal, and both labels give the length of the marked segment."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0005",
     "condition": "condition/numeric_representation/AVP0005"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 6.0 and 6\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

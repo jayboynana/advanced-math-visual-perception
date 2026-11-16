@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0908",
   "authoring_id": "V04GR033",
@@ -78,7 +78,6 @@
     "reason": "Each hollow mark excludes its indicated point from the drawn branch. This conclusion concerns the individual point, so it does not require the same horizontal or vertical coordinates across the diagrams."
   },
   "label": {
-    "shared_or_similar_visual_information": "A hollow circular marker interrupting or ending a graph trace.",
     "mathematical_meanings": "Left image: An open point excluded from the displayed curve or branch. Right image: An open point excluded from the displayed curve or branch.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Each hollow mark excludes its indicated point from the drawn branch. This conclusion concerns the individual point, so it does not require the same horizontal or vertical coordinates across the diagrams."
@@ -89,5 +88,6 @@
   "views": {
     "type": "type/same type/AVP0908",
     "condition": "condition/graphical_roles/AVP0908"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A hollow circular marker interrupting or ending a graph trace.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

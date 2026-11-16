@@ -45,7 +45,8 @@ for annotation in annotations:
 <h2>{pid}<span>{condition_names[annotation['condition']]}</span></h2>
 <p class="meta">{type_text} · {escape(annotation['left']['image_type'])} / {escape(annotation['right']['image_type'])}<br>{escape(sources)}</p>
 <div class="pair-images">{left_panel}{right_panel}</div>
-<p class="target"><b>Visual target</b> {escape(label['shared_or_similar_visual_information'])}</p>
+<p class="target"><b>Visual target given in the prompt</b> {escape(target['visual_information'])}</p>
+<details><summary>View model prompt</summary><p style="white-space:pre-wrap">{escape(annotation['prompt'])}</p></details>
 <details><summary>View label</summary>
 <p><b>Same mathematical meanings:</b> <span class="judgment">{label['same_mathematical_meanings']}</span></p>
 <p>{escape(label['mathematical_meanings'])}</p>

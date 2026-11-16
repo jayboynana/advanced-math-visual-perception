@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0199",
   "authoring_id": "V03NR099",
@@ -82,7 +82,6 @@
     "reason": "The selected 3 multiplies x in the angle expression 3x°; 3 cm specifies a side's length. A coefficient is not a measured side length."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 3 and 3 cm.",
     "mathematical_meanings": "Left image: The unknown x is multiplied by coefficient 3 in an angle-measure expression. Right image: The left side has length 3 centimeters.",
     "same_mathematical_meanings": "no",
     "Rationales": "The selected 3 multiplies x in the angle expression 3x°; 3 cm specifies a side's length. A coefficient is not a measured side length."
@@ -93,5 +92,6 @@
   "views": {
     "type": "type/same type/AVP0199",
     "condition": "condition/numeric_representation/AVP0199"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 3 and 3 cm.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

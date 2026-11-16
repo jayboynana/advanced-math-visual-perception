@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0844",
   "authoring_id": "V04SR094",
@@ -65,7 +65,6 @@
     "reason": "The left occurrence is O at the common start of the dotted rays on the complex plane. The right occurrence is O next to the interior point from which the radius OA extends. The left placement shows that the symbol marks the origin at the intersection of the coordinate axes, while the right placement shows that it marks the center of the indicated circle."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter O",
     "mathematical_meanings": "Left image: The symbol \"O\" marks the origin at the intersection of the coordinate axes. Right image: The symbol \"O\" marks the center of the indicated circle.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is O at the common start of the dotted rays on the complex plane. The right occurrence is O next to the interior point from which the radius OA extends. The left placement shows that the symbol marks the origin at the intersection of the coordinate axes, while the right placement shows that it marks the center of the indicated circle."
@@ -76,5 +75,6 @@
   "views": {
     "type": "type/same type/AVP0844",
     "condition": "condition/symbolic_roles/AVP0844"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter O\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

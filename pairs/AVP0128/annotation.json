@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0128",
   "authoring_id": "V03NR028",
@@ -73,7 +73,6 @@
     "reason": "Both selected superscripts 2 denote squaring of x; no equivalence is claimed for the full equations."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
     "mathematical_meanings": "Left image: The x coordinate is squared; 2 is its exponent. Right image: The variable x in the selected term is squared; 2 is its exponent.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both selected superscripts 2 denote squaring of x; no equivalence is claimed for the full equations."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/different type/AVP0128",
     "condition": "condition/numeric_representation/AVP0128"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 2 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

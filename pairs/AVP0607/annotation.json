@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0607",
   "authoring_id": "V04NR107",
@@ -76,7 +76,6 @@
     "reason": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of length with a specified unit."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notations 2 and 2 cm.",
     "mathematical_meanings": "Left image: The tick marks x-coordinate 2. Right image: The indicated rectangle side measures two centimeters.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of length with a specified unit."
@@ -87,5 +86,6 @@
   "views": {
     "type": "type/different type/AVP0607",
     "condition": "condition/numeric_representation/AVP0607"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notations 2 and 2 cm.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0889",
   "authoring_id": "V04GR014",
@@ -79,7 +79,6 @@
     "reason": "The plotted guide reads a horizontal input coordinate. The square at the foot of the other segment identifies a perpendicular construction in a finite geometric figure."
   },
   "label": {
-    "shared_or_similar_visual_information": "A vertical dashed segment meeting a horizontal baseline.",
     "mathematical_meanings": "Left image: An auxiliary segment dropping perpendicularly to a geometric baseline. Right image: A guide projecting a selected position on the graph down to its horizontal input coordinate.",
     "same_mathematical_meanings": "no",
     "Rationales": "The plotted guide reads a horizontal input coordinate. The square at the foot of the other segment identifies a perpendicular construction in a finite geometric figure."
@@ -90,5 +89,6 @@
   "views": {
     "type": "type/different type/AVP0889",
     "condition": "condition/graphical_roles/AVP0889"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A vertical dashed segment meeting a horizontal baseline.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

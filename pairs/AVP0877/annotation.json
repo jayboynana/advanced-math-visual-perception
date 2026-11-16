@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0877",
   "authoring_id": "V04GR002",
@@ -68,7 +68,6 @@
     "reason": "Each broken segment aligns a chosen position on a graph with its horizontal input. The guide is separate from the solid trace that carries the plotted values."
   },
   "label": {
-    "shared_or_similar_visual_information": "A vertical dashed segment joining a plotted trace to the horizontal axis.",
     "mathematical_meanings": "Left image: A guide projecting a selected position on the graph down to its horizontal input coordinate. Right image: A guide projecting a selected position on the graph down to its horizontal input coordinate.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Each broken segment aligns a chosen position on a graph with its horizontal input. The guide is separate from the solid trace that carries the plotted values."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/same type/AVP0877",
     "condition": "condition/graphical_roles/AVP0877"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A vertical dashed segment joining a plotted trace to the horizontal axis.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

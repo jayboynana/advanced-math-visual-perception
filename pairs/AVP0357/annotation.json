@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0357",
   "authoring_id": "V03SR057",
@@ -81,7 +81,6 @@
     "reason": "On the left, attachment to O beside the center point on the horizontal diameter supports the meaning: O names the center of the circle. On the right, the context is O beside the intersection of the two axes, where O identifies the coordinate origin where the axes intersect. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter O",
     "mathematical_meanings": "Left image: O names the center of the circle. Right image: O identifies the coordinate origin where the axes intersect.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to O beside the center point on the horizontal diameter supports the meaning: O names the center of the circle. On the right, the context is O beside the intersection of the two axes, where O identifies the coordinate origin where the axes intersect. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -92,5 +91,6 @@
   "views": {
     "type": "type/different type/AVP0357",
     "condition": "condition/symbolic_roles/AVP0357"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter O\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

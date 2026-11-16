@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0699",
   "authoring_id": "V04GM074",
@@ -64,7 +64,6 @@
     "reason": "The left arrow separates an initial construction from a changed arrangement. The repeated right chevrons sit within two geometric sides and encode their parallelism."
   },
   "label": {
-    "shared_or_similar_visual_information": "A right-pointing arrow or chevron along a horizontal direction.",
     "mathematical_meanings": "Left image: It indicates moving from the initial compass setup to the drawn trace. Right image: The paired chevrons state that SR and PQ are parallel.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left arrow separates an initial construction from a changed arrangement. The repeated right chevrons sit within two geometric sides and encode their parallelism."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0699",
     "condition": "condition/geometric_markers/AVP0699"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A right-pointing arrow or chevron along a horizontal direction.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

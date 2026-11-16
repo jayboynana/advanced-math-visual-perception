@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0995",
   "authoring_id": "V04GR120",
@@ -68,7 +68,6 @@
     "reason": "The oval attached to the solid’s side edges depicts a circular rim in perspective. The oval through marked axis positions is a planar ellipse in a coordinate system."
   },
   "label": {
-    "shared_or_similar_visual_information": "A closed oval.",
     "mathematical_meanings": "Left image: A closed planar locus plotted in the Cartesian coordinate plane. Right image: A circular rim shown as an ellipse in a perspective drawing of a solid.",
     "same_mathematical_meanings": "no",
     "Rationales": "The oval attached to the solid’s side edges depicts a circular rim in perspective. The oval through marked axis positions is a planar ellipse in a coordinate system."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/different type/AVP0995",
     "condition": "condition/graphical_roles/AVP0995"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A closed oval.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

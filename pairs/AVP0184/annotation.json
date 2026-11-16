@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0184",
   "authoring_id": "V03NR084",
@@ -73,7 +73,6 @@
     "reason": "45° and π/4 are numerically equivalent as an angle conversion, but the first is an angle measure and the second is a point's x-coordinate."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 45° and (1/4)π.",
     "mathematical_meanings": "Left image: The marked angle at A measures 45 degrees. Right image: The marked upper point has x-coordinate π/4.",
     "same_mathematical_meanings": "no",
     "Rationales": "45° and π/4 are numerically equivalent as an angle conversion, but the first is an angle measure and the second is a point's x-coordinate."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/different type/AVP0184",
     "condition": "condition/numeric_representation/AVP0184"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 45° and (1/4)π.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

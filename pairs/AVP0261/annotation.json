@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0261",
   "authoring_id": "V03GM061",
@@ -74,7 +74,6 @@
     "reason": "The arrow marks are repeated on two separate sides within each image, which is the geometric convention for parallel lines. Their purpose is a parallelism relation, irrespective of single versus double chevrons."
   },
   "label": {
-    "shared_or_similar_visual_information": "Matching chevron-shaped arrow marks drawn inside a pair of line segments.",
     "mathematical_meanings": "Left image: The matching arrow marks state that SR and PQ are parallel. Right image: The matching arrow marks state that QT and RS are parallel.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The arrow marks are repeated on two separate sides within each image, which is the geometric convention for parallel lines. Their purpose is a parallelism relation, irrespective of single versus double chevrons."
@@ -85,5 +84,6 @@
   "views": {
     "type": "type/same type/AVP0261",
     "condition": "condition/geometric_markers/AVP0261"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Matching chevron-shaped arrow marks drawn inside a pair of line segments.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

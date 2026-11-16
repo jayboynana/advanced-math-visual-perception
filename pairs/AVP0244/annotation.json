@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0244",
   "authoring_id": "V03GM044",
@@ -74,7 +74,6 @@
     "reason": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
   },
   "label": {
-    "shared_or_similar_visual_information": "Short transverse tick strokes repeated across line segments.",
     "mathematical_meanings": "Left image: It marks PQ and PR as belonging to the same equal-length group. Right image: It marks AB and AC as equal in length.",
     "same_mathematical_meanings": "yes",
     "Rationales": "On both sides matching transverse ticks group segments that have equal lengths within that diagram. A single-tick group and a double-tick group use the same equality convention; this does not assert equal numerical lengths between the two separate problems."
@@ -85,5 +84,6 @@
   "views": {
     "type": "type/same type/AVP0244",
     "condition": "condition/geometric_markers/AVP0244"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Short transverse tick strokes repeated across line segments.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

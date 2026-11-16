@@ -11,7 +11,9 @@
 | Symbolic roles | 250 |
 | Graphical roles | 250 |
 
-[Annotations](annotations.json) · [Labels](labels.jsonl) · [CSV](pairs_summary.csv)
+[Annotations](annotations.json) · [Model inputs](evaluation_inputs.jsonl) · [Reference labels](labels.jsonl) · [CSV](pairs_summary.csv)
+
+Each model input includes the two image references and a complete prompt with its specific visual feature. The three reference fields cover mathematical meanings, a yes/no judgment, and the rationale.
 
 Sources include [MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse), [MathVista](https://huggingface.co/datasets/AI4Math/MathVista), [MATH-VISION](https://huggingface.co/datasets/MathLLMs/MathVision), [MV-MATH](https://huggingface.co/datasets/PeijieWang/MV-MATH), [VisioMath](https://github.com/Nefefilibata/VisioMath), [DynaMath](https://huggingface.co/datasets/DynaMath/DynaMath_Sample), and [We-Math](https://huggingface.co/datasets/We-Math/We-Math).
 

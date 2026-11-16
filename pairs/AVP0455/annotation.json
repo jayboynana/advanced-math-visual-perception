@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0455",
   "authoring_id": "V03GR055",
@@ -72,7 +72,6 @@
     "reason": "Both principal curves are explicitly labeled exponential y-expressions; their x and y positions encode corresponding input-output values."
   },
   "label": {
-    "shared_or_similar_visual_information": "The principal smooth curve in a coordinate plot",
     "mathematical_meanings": "Left image: A function graph relating y to x. Right image: A function graph relating y to x.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both principal curves are explicitly labeled exponential y-expressions; their x and y positions encode corresponding input-output values."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/same type/AVP0455",
     "condition": "condition/graphical_roles/AVP0455"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The principal smooth curve in a coordinate plot\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

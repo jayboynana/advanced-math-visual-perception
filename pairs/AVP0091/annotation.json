@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0091",
   "authoring_id": "GR16",
@@ -64,7 +64,6 @@
     "reason": "This comparison concerns only their shared role as position markers away from endpoints; A on the circle and the waveform peak are not treated as the same object, and extremum-related meaning is not additionally compared."
   },
   "label": {
-    "shared_or_similar_visual_information": "Filled circular marker on a curve",
     "mathematical_meanings": "Left image: Highlights a designated position on a geometric curve. Right image: Highlights a designated position on a function curve.",
     "same_mathematical_meanings": "yes",
     "Rationales": "This comparison concerns only their shared role as position markers away from endpoints; A on the circle and the waveform peak are not treated as the same object, and extremum-related meaning is not additionally compared."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0091",
     "condition": "condition/graphical_roles/AVP0091"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Filled circular marker on a curve\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

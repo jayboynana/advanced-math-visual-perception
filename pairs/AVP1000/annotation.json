@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP1000",
   "authoring_id": "V04GR125",
@@ -68,7 +68,6 @@
     "reason": "The square joining adjacent cube faces is a boundary of a three-dimensional object. The repeated pale square within coordinate axes is a reference cell for reading graph positions."
   },
   "label": {
-    "shared_or_similar_visual_information": "A small square outline.",
     "mathematical_meanings": "Left image: The boundary of a visible front face of one cube in the three-dimensional construction. Right image: A background coordinate grid cell used to read positions on the plot.",
     "same_mathematical_meanings": "no",
     "Rationales": "The square joining adjacent cube faces is a boundary of a three-dimensional object. The repeated pale square within coordinate axes is a reference cell for reading graph positions."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/different type/AVP1000",
     "condition": "condition/graphical_roles/AVP1000"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A small square outline.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0154",
   "authoring_id": "V03NR054",
@@ -82,7 +82,6 @@
     "reason": "The standalone 4 numbers an angle region in the first image; 4 m quantifies a side length in the second. Angle indexing and length measurement are distinct roles."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 4 and 4 m.",
     "mathematical_meanings": "Left image: The numeral 4 identifies an angle region at T; it is an angle index, not a degree measure. Right image: The top side has length 4 meters.",
     "same_mathematical_meanings": "no",
     "Rationales": "The standalone 4 numbers an angle region in the first image; 4 m quantifies a side length in the second. Angle indexing and length measurement are distinct roles."
@@ -93,5 +92,6 @@
   "views": {
     "type": "type/same type/AVP0154",
     "condition": "condition/numeric_representation/AVP0154"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 4 and 4 m.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

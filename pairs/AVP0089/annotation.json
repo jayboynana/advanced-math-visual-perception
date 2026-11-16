@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0089",
   "authoring_id": "GR14",
@@ -64,7 +64,6 @@
     "reason": "The geometric projection line connects positions in a finite construction, whereas the function-diagram line marks asymptotic behavior; their roles differ."
   },
   "label": {
-    "shared_or_similar_visual_information": "Vertical dashed line",
     "mathematical_meanings": "Left image: Represents the airplane's height projected onto horizontal ground, serving as a geometric height auxiliary line. Right image: A vertical-asymptote reference for the function graph.",
     "same_mathematical_meanings": "no",
     "Rationales": "The geometric projection line connects positions in a finite construction, whereas the function-diagram line marks asymptotic behavior; their roles differ."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0089",
     "condition": "condition/graphical_roles/AVP0089"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Vertical dashed line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

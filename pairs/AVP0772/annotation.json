@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0772",
   "authoring_id": "V04SR022",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is A before the equals sign and the 3 by 3 array beginning with -0.5. The right occurrence is A before the 2 by 2 array beginning with 3.36. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter A",
     "mathematical_meanings": "Left image: The symbol \"A\" names the matrix whose entries follow in brackets. Right image: The symbol \"A\" names the matrix whose entries follow in brackets.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The left occurrence is A before the equals sign and the 3 by 3 array beginning with -0.5. The right occurrence is A before the 2 by 2 array beginning with 3.36. The placement in each image shows that the symbol names the matrix whose entries follow in brackets."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0772",
     "condition": "condition/symbolic_roles/AVP0772"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter A\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

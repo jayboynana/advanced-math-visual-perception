@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0179",
   "authoring_id": "V03NR079",
@@ -73,7 +73,6 @@
     "reason": "10 m measures a horizontal distance, whereas 10° measures an angle of elevation."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 10 m and 10°.",
     "mathematical_meanings": "Left image: The horizontal distance AB is 10 meters. Right image: The marked angle of elevation at that observer measures 10 degrees.",
     "same_mathematical_meanings": "no",
     "Rationales": "10 m measures a horizontal distance, whereas 10° measures an angle of elevation."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0179",
     "condition": "condition/numeric_representation/AVP0179"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 10 m and 10°.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

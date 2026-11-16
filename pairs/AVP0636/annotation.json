@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0636",
   "authoring_id": "V04GM011",
@@ -60,7 +60,6 @@
     "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
   },
   "label": {
-    "shared_or_similar_visual_information": "A small square placed where two segments meet.",
     "mathematical_meanings": "Left image: DC is perpendicular to the line through D and A. Right image: CO is perpendicular to chord AB at C.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0636",
     "condition": "condition/geometric_markers/AVP0636"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A small square placed where two segments meet.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

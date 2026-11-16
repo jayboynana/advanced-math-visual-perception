@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0517",
   "authoring_id": "V04NR017",
@@ -60,7 +60,6 @@
     "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 12 ft."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 12 ft in both images.",
     "mathematical_meanings": "Left image: The left sloping edge measures twelve feet. Right image: The top side measures twelve feet.",
     "same_mathematical_meanings": "yes",
     "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 12 ft."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0517",
     "condition": "condition/numeric_representation/AVP0517"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 12 ft in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

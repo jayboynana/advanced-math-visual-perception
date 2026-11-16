@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0826",
   "authoring_id": "V04SR076",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is A at the apex above the two horizontal segments. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the output element reached by the indicated input arrows."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter A",
     "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names the output element reached by the indicated input arrows.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is A at the apex above the two horizontal segments. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the output element reached by the indicated input arrows."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0826",
     "condition": "condition/symbolic_roles/AVP0826"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter A\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

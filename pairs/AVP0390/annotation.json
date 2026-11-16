@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0390",
   "authoring_id": "V03SR090",
@@ -72,7 +72,6 @@
     "reason": "On the left, attachment to a° beside the angle between north and the slanted route at O supports the meaning: a denotes the unknown direction angle in degrees. On the right, the context is a above its tick on the bottom horizontal axis, where a denotes a selected horizontal input-coordinate value. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter a",
     "mathematical_meanings": "Left image: a denotes the unknown direction angle in degrees. Right image: a denotes a selected horizontal input-coordinate value.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to a° beside the angle between north and the slanted route at O supports the meaning: a denotes the unknown direction angle in degrees. On the right, the context is a above its tick on the bottom horizontal axis, where a denotes a selected horizontal input-coordinate value. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/different type/AVP0390",
     "condition": "condition/symbolic_roles/AVP0390"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter a\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

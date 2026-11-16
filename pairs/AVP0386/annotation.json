@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0386",
   "authoring_id": "V03SR086",
@@ -64,7 +64,6 @@
     "reason": "On the left, attachment to t below the double-headed dimension along the whole bottom supports the meaning: t denotes the unknown total horizontal length. On the right, the context is t at the right end of the horizontal axis, where t labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter t",
     "mathematical_meanings": "Left image: t denotes the unknown total horizontal length. Right image: t labels the horizontal independent-variable axis.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to t below the double-headed dimension along the whole bottom supports the meaning: t denotes the unknown total horizontal length. On the right, the context is t at the right end of the horizontal axis, where t labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0386",
     "condition": "condition/symbolic_roles/AVP0386"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter t\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

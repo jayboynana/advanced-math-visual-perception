@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0580",
   "authoring_id": "V04NR080",
@@ -70,7 +70,6 @@
     "reason": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of horizontal coordinate."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 1 in both images.",
     "mathematical_meanings": "Left image: The numeral 1 identifies the selected angle region. Right image: The vertical guide AB is located at x-coordinate 1.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left context gives the number the role of identifier of a marked angle, while the right context gives it the role of horizontal coordinate."
@@ -81,5 +80,6 @@
   "views": {
     "type": "type/different type/AVP0580",
     "condition": "condition/numeric_representation/AVP0580"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 1 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

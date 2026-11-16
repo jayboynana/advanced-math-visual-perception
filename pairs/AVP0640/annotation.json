@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0640",
   "authoring_id": "V04GM015",
@@ -60,7 +60,6 @@
     "reason": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a grid cell that gives coordinate positions a common spatial scale."
   },
   "label": {
-    "shared_or_similar_visual_information": "A square or nearly square shape with straight edges.",
     "mathematical_meanings": "Left image: EF is perpendicular to the bottom side of the trapezoid. Right image: It is a grid cell that gives coordinate positions a common spatial scale.",
     "same_mathematical_meanings": "no",
     "Rationales": "The square at the left intersection encodes a 90-degree angle between the selected lines. The right outline belongs to the object or spatial framework. It is a grid cell that gives coordinate positions a common spatial scale."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0640",
     "condition": "condition/geometric_markers/AVP0640"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A square or nearly square shape with straight edges.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

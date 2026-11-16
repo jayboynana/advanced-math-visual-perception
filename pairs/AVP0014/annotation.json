@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0014",
   "authoring_id": "NR14",
@@ -64,7 +64,6 @@
     "reason": "The values match, but one labels a height and the other a coordinate component."
   },
   "label": {
-    "shared_or_similar_visual_information": "The decimal 1.5 in both images.",
     "mathematical_meanings": "Left image: The indicated vertical height beside the person has numerical value 1.5. Right image: The orange point has y-coordinate 1.5.",
     "same_mathematical_meanings": "no",
     "Rationales": "The values match, but one labels a height and the other a coordinate component."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0014",
     "condition": "condition/numeric_representation/AVP0014"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The decimal 1.5 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0926",
   "authoring_id": "V04GR051",
@@ -68,7 +68,6 @@
     "reason": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
   },
   "label": {
-    "shared_or_similar_visual_information": "A bounded geometric patch selected with shading or hatching.",
     "mathematical_meanings": "Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A selected plane region distinguished by shading within a geometric construction.",
     "same_mathematical_meanings": "yes",
     "Rationales": "In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/same type/AVP0926",
     "condition": "condition/graphical_roles/AVP0926"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A bounded geometric patch selected with shading or hatching.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

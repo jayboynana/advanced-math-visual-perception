@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0933",
   "authoring_id": "V04GR058",
@@ -78,7 +78,6 @@
     "reason": "The square fill selects one unit cell of a discrete pattern. The continuous graph fill occupies an interval between a curve and an axis."
   },
   "label": {
-    "shared_or_similar_visual_information": "A filled patch in a mathematical diagram.",
     "mathematical_meanings": "Left image: A continuous area between a function trace and the horizontal axis. Right image: A selected cell in a discrete pattern of filled and unfilled grid squares.",
     "same_mathematical_meanings": "no",
     "Rationales": "The square fill selects one unit cell of a discrete pattern. The continuous graph fill occupies an interval between a curve and an axis."
@@ -89,5 +88,6 @@
   "views": {
     "type": "type/different type/AVP0933",
     "condition": "condition/graphical_roles/AVP0933"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A filled patch in a mathematical diagram.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

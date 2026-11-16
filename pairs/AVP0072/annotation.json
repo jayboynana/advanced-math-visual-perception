@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0072",
   "authoring_id": "SR22",
@@ -64,7 +64,6 @@
     "reason": "A two-number coordinate pair differs from notation for a function with one input variable."
   },
   "label": {
-    "shared_or_similar_visual_information": "Parentheses in (−1, 3) and g(x)",
     "mathematical_meanings": "Left image: The two numbers in parentheses form the ordered coordinate pair of the marked upper point. Right image: The x in parentheses is the input variable of function g.",
     "same_mathematical_meanings": "no",
     "Rationales": "A two-number coordinate pair differs from notation for a function with one input variable."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0072",
     "condition": "condition/symbolic_roles/AVP0072"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Parentheses in (−1, 3) and g(x)\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

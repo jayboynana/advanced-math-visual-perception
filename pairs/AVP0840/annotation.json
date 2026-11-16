@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0840",
   "authoring_id": "V04SR090",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is C inside the large lower square. The right occurrence is C at the right endpoint of the base. The left placement shows that the symbol names the indicated square region, while the right placement shows that it names a specific geometric point at the indicated location."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter C",
     "mathematical_meanings": "Left image: The symbol \"C\" names the indicated square region. Right image: The symbol \"C\" names a specific geometric point at the indicated location.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is C inside the large lower square. The right occurrence is C at the right endpoint of the base. The left placement shows that the symbol names the indicated square region, while the right placement shows that it names a specific geometric point at the indicated location."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0840",
     "condition": "condition/symbolic_roles/AVP0840"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter C\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

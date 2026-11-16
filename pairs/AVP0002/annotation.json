@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0002",
   "authoring_id": "NR02",
@@ -64,7 +64,6 @@
     "reason": "π/5 radians equals 36 degrees; both numerical labels specify the size of an angle."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations π/5 and 36°",
     "mathematical_meanings": "Left image: The local angle at the circle's center measures π/5 radians. Right image: The local angle at A measures 36 degrees.",
     "same_mathematical_meanings": "yes",
     "Rationales": "π/5 radians equals 36 degrees; both numerical labels specify the size of an angle."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0002",
     "condition": "condition/numeric_representation/AVP0002"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations π/5 and 36°\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

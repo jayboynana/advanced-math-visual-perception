@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0890",
   "authoring_id": "V04GR015",
@@ -76,7 +76,6 @@
     "reason": "The stroke attached to a plotted trace is a coordinate guide. The other joins rear corners of a solid, where broken strokes indicate occlusion."
   },
   "label": {
-    "shared_or_similar_visual_information": "A vertical dashed stroke.",
     "mathematical_meanings": "Left image: A guide projecting a selected position on the graph down to its horizontal input coordinate. Right image: The hidden rear upright edge of the depicted solid.",
     "same_mathematical_meanings": "no",
     "Rationales": "The stroke attached to a plotted trace is a coordinate guide. The other joins rear corners of a solid, where broken strokes indicate occlusion."
@@ -87,5 +86,6 @@
   "views": {
     "type": "type/different type/AVP0890",
     "condition": "condition/graphical_roles/AVP0890"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A vertical dashed stroke.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

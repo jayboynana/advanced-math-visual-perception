@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0069",
   "authoring_id": "SR19",
@@ -64,7 +64,6 @@
     "reason": "A geometric point name and an area-function name have distinct contextual roles."
   },
   "label": {
-    "shared_or_similar_visual_information": "The uppercase letter A",
     "mathematical_meanings": "Left image: A is the name of a geometric vertex. Right image: A is the name of the area function represented by the curve; the vertical axis is explicitly labeled area.",
     "same_mathematical_meanings": "no",
     "Rationales": "A geometric point name and an area-function name have distinct contextual roles."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0069",
     "condition": "condition/symbolic_roles/AVP0069"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The uppercase letter A\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

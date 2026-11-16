@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0344",
   "authoring_id": "V03SR044",
@@ -72,7 +72,6 @@
     "reason": "The left occurrence is located at y at the positive end of its coordinate axis; the right occurrence is at y at the top of the vertical axis. Both use the selected notation for the same vertical coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter y",
     "mathematical_meanings": "Left image: y labels the vertical coordinate axis. Right image: y labels the vertical coordinate axis.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The left occurrence is located at y at the positive end of its coordinate axis; the right occurrence is at y at the top of the vertical axis. Both use the selected notation for the same vertical coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/different type/AVP0344",
     "condition": "condition/symbolic_roles/AVP0344"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter y\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

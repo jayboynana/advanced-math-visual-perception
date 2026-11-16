@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0070",
   "authoring_id": "SR20",
@@ -64,7 +64,6 @@
     "reason": "A length-dimension label differs from an independent-variable axis label. The right image does not specify a unit, so no time unit is inferred."
   },
   "label": {
-    "shared_or_similar_visual_information": "The lowercase letter t",
     "mathematical_meanings": "Left image: t denotes the unknown total horizontal length of the geometric figure. Right image: t names the independent variable on the horizontal axis.",
     "same_mathematical_meanings": "no",
     "Rationales": "A length-dimension label differs from an independent-variable axis label. The right image does not specify a unit, so no time unit is inferred."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0070",
     "condition": "condition/symbolic_roles/AVP0070"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The lowercase letter t\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0697",
   "authoring_id": "V04GM072",
@@ -62,7 +62,6 @@
     "reason": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
   },
   "label": {
-    "shared_or_similar_visual_information": "A horizontal double-ended arrow.",
     "mathematical_meanings": "Left image: It measures the diameter of the cylinder base. Right image: It marks the horizontal repetition interval of the waveform.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
@@ -73,5 +72,6 @@
   "views": {
     "type": "type/different type/AVP0697",
     "condition": "condition/geometric_markers/AVP0697"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A horizontal double-ended arrow.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

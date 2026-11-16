@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0098",
   "authoring_id": "GR23",
@@ -64,7 +64,6 @@
     "reason": "Both are horizontal coordinate axes; drawing a geometric construction on one and a function graph on the other does not change the role of the axis."
   },
   "label": {
-    "shared_or_similar_visual_information": "Horizontal coordinate axis with tick marks",
     "mathematical_meanings": "Left image: Provides a horizontal-coordinate reference through tick marks and orientation. Right image: Provides a horizontal-coordinate reference through tick marks and orientation.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both are horizontal coordinate axes; drawing a geometric construction on one and a function graph on the other does not change the role of the axis."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0098",
     "condition": "condition/graphical_roles/AVP0098"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Horizontal coordinate axis with tick marks\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

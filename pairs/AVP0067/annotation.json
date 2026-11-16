@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0067",
   "authoring_id": "SR17",
@@ -64,7 +64,6 @@
     "reason": "The selected uses are a length dimension and a function output variable."
   },
   "label": {
-    "shared_or_similar_visual_information": "The lowercase letter y",
     "mathematical_meanings": "Left image: y denotes the unknown total horizontal width of the construction. Right image: y denotes the function output determined by x.",
     "same_mathematical_meanings": "no",
     "Rationales": "The selected uses are a length dimension and a function output variable."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0067",
     "condition": "condition/symbolic_roles/AVP0067"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The lowercase letter y\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0417",
   "authoring_id": "V03GR017",
@@ -72,7 +72,6 @@
     "reason": "Both dots pick out coordinate positions on the drawn function curves; logarithmic shape versus oscillation does not change the selected marker function."
   },
   "label": {
-    "shared_or_similar_visual_information": "A filled point on a coordinate plot",
     "mathematical_meanings": "Left image: A designated coordinate position on the function graph. Right image: A designated coordinate position on the function graph.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both dots pick out coordinate positions on the drawn function curves; logarithmic shape versus oscillation does not change the selected marker function."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/same type/AVP0417",
     "condition": "condition/graphical_roles/AVP0417"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A filled point on a coordinate plot\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0093",
   "authoring_id": "GR18",
@@ -64,7 +64,6 @@
     "reason": "The left arrow measures spatial length, whereas the right arrow marks a waveform repetition interval. Their specific mathematical roles differ; a time unit is not inferred merely because the horizontal axis is labeled t."
   },
   "label": {
-    "shared_or_similar_visual_information": "Horizontal double-headed arrow",
     "mathematical_meanings": "Left image: Indicates a spatial-length interval between two horizontal positions. Right image: Indicates the interval between two adjacent peaks along the horizontal independent-variable axis, representing one repetition period of the displayed waveform.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left arrow measures spatial length, whereas the right arrow marks a waveform repetition interval. Their specific mathematical roles differ; a time unit is not inferred merely because the horizontal axis is labeled t."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0093",
     "condition": "condition/graphical_roles/AVP0093"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Horizontal double-headed arrow\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

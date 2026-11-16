@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0219",
   "authoring_id": "V03GM019",
@@ -68,7 +68,6 @@
     "reason": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
   },
   "label": {
-    "shared_or_similar_visual_information": "A small square or rotated-square angle marker where two lines meet.",
     "mathematical_meanings": "Left image: BA is perpendicular to BE at B. Right image: AB is perpendicular to BC at B.",
     "same_mathematical_meanings": "yes",
     "Rationales": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/same type/AVP0219",
     "condition": "condition/geometric_markers/AVP0219"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A small square or rotated-square angle marker where two lines meet.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

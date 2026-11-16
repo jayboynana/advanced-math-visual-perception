@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0076",
   "authoring_id": "GR01",
@@ -64,7 +64,6 @@
     "reason": "Both dashed lines serve as auxiliary lines for perpendicular projection; the particular setting and endpoint names do not change this role."
   },
   "label": {
-    "shared_or_similar_visual_information": "Vertical dashed line",
     "mathematical_meanings": "Left image: A geometric auxiliary line that projects a vertex perpendicularly onto the horizontal base. Right image: A geometric auxiliary line that projects the lower endpoint perpendicularly onto the horizontal reference line.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both dashed lines serve as auxiliary lines for perpendicular projection; the particular setting and endpoint names do not change this role."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0076",
     "condition": "condition/graphical_roles/AVP0076"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Vertical dashed line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

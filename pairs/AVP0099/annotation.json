@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0099",
   "authoring_id": "GR24",
@@ -64,7 +64,6 @@
     "reason": "An angle highlight and a solution-set region have different mathematical roles, although both use color to fill a two-dimensional region."
   },
   "label": {
-    "shared_or_similar_visual_information": "Shaded region",
     "mathematical_meanings": "Left image: Highlights the angle between two sides, annotated with its measure in degrees. Right image: Represents the half-plane solution set of an inequality delimited by a straight-line boundary.",
     "same_mathematical_meanings": "no",
     "Rationales": "An angle highlight and a solution-set region have different mathematical roles, although both use color to fill a two-dimensional region."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0099",
     "condition": "condition/graphical_roles/AVP0099"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Shaded region\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0252",
   "authoring_id": "V03GM052",
@@ -66,7 +66,6 @@
     "reason": "The matching strokes on the left encode equality of the marked segment lengths. On the right the short stroke lies on a coordinate axis and marks a reading position. Coordinate ticks do not assert that nearby graph segments have equal lengths."
   },
   "label": {
-    "shared_or_similar_visual_information": "A short stroke crossing a longer line.",
     "mathematical_meanings": "Left image: It marks AC, CD and DF as segments in the same equal-length group. Right image: It is a coordinate-axis tick marking a position at which a horizontal coordinate can be read.",
     "same_mathematical_meanings": "no",
     "Rationales": "The matching strokes on the left encode equality of the marked segment lengths. On the right the short stroke lies on a coordinate axis and marks a reading position. Coordinate ticks do not assert that nearby graph segments have equal lengths."
@@ -77,5 +76,6 @@
   "views": {
     "type": "type/different type/AVP0252",
     "condition": "condition/geometric_markers/AVP0252"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A short stroke crossing a longer line.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0518",
   "authoring_id": "V04NR018",
@@ -60,7 +60,6 @@
     "reason": "In both figures, the label is attached to the indicated span and gives the same length value, 8 ft."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 8 ft in both images.",
     "mathematical_meanings": "Left image: The front bottom edge measures eight feet. Right image: The square's bottom side measures eight feet.",
     "same_mathematical_meanings": "yes",
     "Rationales": "In both figures, the label is attached to the indicated span and gives the same length value, 8 ft."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0518",
     "condition": "condition/numeric_representation/AVP0518"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 8 ft in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0562",
   "authoring_id": "V04NR062",
@@ -70,7 +70,6 @@
     "reason": "The expressions 0.5 and −0.5 have opposite signs, so their complete numerical values differ. The left context gives it the role of exponential base, while the right context gives it the role of matrix entry."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notations 0.5 and −0.5.",
     "mathematical_meanings": "Left image: The exponential function has base one half. Right image: Matrix A has entry negative one half at row 1, column 1.",
     "same_mathematical_meanings": "no",
     "Rationales": "The expressions 0.5 and −0.5 have opposite signs, so their complete numerical values differ. The left context gives it the role of exponential base, while the right context gives it the role of matrix entry."
@@ -81,5 +80,6 @@
   "views": {
     "type": "type/different type/AVP0562",
     "condition": "condition/numeric_representation/AVP0562"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notations 0.5 and −0.5.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

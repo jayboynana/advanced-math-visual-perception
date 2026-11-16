@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0801",
   "authoring_id": "V04SR051",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is y before the equals sign in the equation above the shaded plot. The right occurrence is y at the start of each expression defining the two plotted branches. The placement in each image shows that the symbol denotes the dependent value defined by the displayed equation."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter y",
     "mathematical_meanings": "Left image: The symbol \"y\" denotes the dependent value defined by the displayed equation. Right image: The symbol \"y\" denotes the dependent value defined by the displayed equation.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The left occurrence is y before the equals sign in the equation above the shaded plot. The right occurrence is y at the start of each expression defining the two plotted branches. The placement in each image shows that the symbol denotes the dependent value defined by the displayed equation."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/same type/AVP0801",
     "condition": "condition/symbolic_roles/AVP0801"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter y\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

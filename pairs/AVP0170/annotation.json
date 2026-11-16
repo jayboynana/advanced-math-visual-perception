@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0170",
   "authoring_id": "V03NR070",
@@ -73,7 +73,6 @@
     "reason": "The numeral 21 is shared, but 21° measures an angle while 21 m measures a side length."
   },
   "label": {
-    "shared_or_similar_visual_information": "Numerical notations 21° and 21 m.",
     "mathematical_meanings": "Left image: The triangle angle at C measures 21 degrees. Right image: The lower side has length 21 meters.",
     "same_mathematical_meanings": "no",
     "Rationales": "The numeral 21 is shared, but 21° measures an angle while 21 m measures a side length."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0170",
     "condition": "condition/numeric_representation/AVP0170"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Numerical notations 21° and 21 m.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

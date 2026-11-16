@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0459",
   "authoring_id": "V03GR059",
@@ -73,7 +73,6 @@
     "reason": "Both drawings use repeating curves to represent y-versus-x behavior; the target is the graph role, not equality of the periods or formulas."
   },
   "label": {
-    "shared_or_similar_visual_information": "An oscillating curve in a coordinate plot",
     "mathematical_meanings": "Left image: A function graph relating vertical output to horizontal input. Right image: A function graph relating y to x.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both drawings use repeating curves to represent y-versus-x behavior; the target is the graph role, not equality of the periods or formulas."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0459",
     "condition": "condition/graphical_roles/AVP0459"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: An oscillating curve in a coordinate plot\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

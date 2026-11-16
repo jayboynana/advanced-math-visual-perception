@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0480",
   "authoring_id": "V03GR080",
@@ -73,7 +73,6 @@
     "reason": "The circle arrow measures a physical/geometric diameter in centimeters; the waveform arrow encodes amplitude relative to its middle level. The target quantities differ."
   },
   "label": {
-    "shared_or_similar_visual_information": "An upright double-headed arrow",
     "mathematical_meanings": "Left image: A spatial length annotation spanning the circle diameter. Right image: The vertical excursion from the waveform midlevel to a trough, representing its amplitude.",
     "same_mathematical_meanings": "no",
     "Rationales": "The circle arrow measures a physical/geometric diameter in centimeters; the waveform arrow encodes amplitude relative to its middle level. The target quantities differ."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/different type/AVP0480",
     "condition": "condition/graphical_roles/AVP0480"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: An upright double-headed arrow\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

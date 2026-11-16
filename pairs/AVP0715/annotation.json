@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0715",
   "authoring_id": "V04GM090",
@@ -60,7 +60,6 @@
     "reason": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It extends the oblique side to the apex of a larger triangle."
   },
   "label": {
-    "shared_or_similar_visual_information": "A straight line made of separated strokes.",
     "mathematical_meanings": "Left image: It represents the hidden rear bottom edge of the cube. Right image: It extends the oblique side to the apex of a larger triangle.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left dashes trace a concealed boundary of a solid. The right stroke lies in a visible construction or subdivision. It extends the oblique side to the apex of a larger triangle."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0715",
     "condition": "condition/geometric_markers/AVP0715"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A straight line made of separated strokes.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

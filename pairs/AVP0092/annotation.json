@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0092",
   "authoring_id": "GR17",
@@ -64,7 +64,6 @@
     "reason": "The position marker on a complete circle does not indicate a domain cutoff, whereas the filled style at the function endpoint encodes inclusion of that endpoint."
   },
   "label": {
-    "shared_or_similar_visual_information": "Filled circular marker",
     "mathematical_meanings": "Left image: Names and locates a designated position on the complete circle. Right image: A closed-endpoint marker indicating that the function graph includes this boundary point.",
     "same_mathematical_meanings": "no",
     "Rationales": "The position marker on a complete circle does not indicate a domain cutoff, whereas the filled style at the function endpoint encodes inclusion of that endpoint."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0092",
     "condition": "condition/graphical_roles/AVP0092"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Filled circular marker\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

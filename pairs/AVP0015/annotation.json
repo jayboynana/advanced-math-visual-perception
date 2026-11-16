@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0015",
   "authoring_id": "NR15",
@@ -64,7 +64,6 @@
     "reason": "A circle's radius length and a function point's y-coordinate have different local mathematical roles."
   },
   "label": {
-    "shared_or_similar_visual_information": "The number 8 in both images.",
     "mathematical_meanings": "Left image: The circle's radius has numerical length value 8, in cm. Right image: The left orange point has y-coordinate 8.",
     "same_mathematical_meanings": "no",
     "Rationales": "A circle's radius length and a function point's y-coordinate have different local mathematical roles."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0015",
     "condition": "condition/numeric_representation/AVP0015"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The number 8 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

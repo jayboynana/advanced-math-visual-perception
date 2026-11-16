@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0490",
   "authoring_id": "V03GR090",
@@ -81,7 +81,6 @@
     "reason": "The segment labeled 12 is part of a triangle boundary. The rising trace across numbered axes represents a variable correspondence. Matching straightness is insufficient for semantic equality."
   },
   "label": {
-    "shared_or_similar_visual_information": "A straight sloping line",
     "mathematical_meanings": "Left image: A boundary side of a geometric triangle, carrying a length annotation. Right image: A straight-line graph representing a variable relationship.",
     "same_mathematical_meanings": "no",
     "Rationales": "The segment labeled 12 is part of a triangle boundary. The rising trace across numbered axes represents a variable correspondence. Matching straightness is insufficient for semantic equality."
@@ -92,5 +91,6 @@
   "views": {
     "type": "type/different type/AVP0490",
     "condition": "condition/graphical_roles/AVP0490"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A straight sloping line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

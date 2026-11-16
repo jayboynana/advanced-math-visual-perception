@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0186",
   "authoring_id": "V03NR086",
@@ -82,7 +82,6 @@
     "reason": "25 is the constant on the right-hand side of the circle equation, whereas the other 25 gives hypotenuse PQ's length."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 25 in both images.",
     "mathematical_meanings": "Left image: The number 25 is the constant on the right-hand side of the circle equation. Right image: Segment PQ has length value 25.",
     "same_mathematical_meanings": "no",
     "Rationales": "25 is the constant on the right-hand side of the circle equation, whereas the other 25 gives hypotenuse PQ's length."
@@ -93,5 +92,6 @@
   "views": {
     "type": "type/same type/AVP0186",
     "condition": "condition/numeric_representation/AVP0186"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 25 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0988",
   "authoring_id": "V04GR113",
@@ -68,7 +68,6 @@
     "reason": "Each oval meets side edges descending from its left and right extremities. This attachment identifies a circular upper rim seen in perspective."
   },
   "label": {
-    "shared_or_similar_visual_information": "A closed oval at the top of a depicted solid.",
     "mathematical_meanings": "Left image: A circular rim shown as an ellipse in a perspective drawing of a solid. Right image: A circular rim shown as an ellipse in a perspective drawing of a solid.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Each oval meets side edges descending from its left and right extremities. This attachment identifies a circular upper rim seen in perspective."
@@ -79,5 +78,6 @@
   "views": {
     "type": "type/same type/AVP0988",
     "condition": "condition/graphical_roles/AVP0988"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A closed oval at the top of a depicted solid.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

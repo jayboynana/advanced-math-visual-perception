@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0387",
   "authoring_id": "V03SR087",
@@ -64,7 +64,6 @@
     "reason": "On the left, attachment to w beside the upper horizontal distance segment supports the meaning: w denotes the unknown length of the indicated horizontal segment. On the right, the context is w at the right end of the horizontal axis, where w labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter w",
     "mathematical_meanings": "Left image: w denotes the unknown length of the indicated horizontal segment. Right image: w labels the horizontal independent-variable axis.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to w beside the upper horizontal distance segment supports the meaning: w denotes the unknown length of the indicated horizontal segment. On the right, the context is w at the right end of the horizontal axis, where w labels the horizontal independent-variable axis. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0387",
     "condition": "condition/symbolic_roles/AVP0387"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter w\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0114",
   "authoring_id": "V03NR014",
@@ -82,7 +82,6 @@
     "reason": "Both occurrences of 6 are segment-length values. The target does not assert that the entire geometric objects are identical."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 6 in both images.",
     "mathematical_meanings": "Left image: The short hypotenuse portion between the upper-left vertex and the altitude foot has length value 6. Right image: Segment JM has length value 6.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both occurrences of 6 are segment-length values. The target does not assert that the entire geometric objects are identical."
@@ -93,5 +92,6 @@
   "views": {
     "type": "type/same type/AVP0114",
     "condition": "condition/numeric_representation/AVP0114"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 6 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

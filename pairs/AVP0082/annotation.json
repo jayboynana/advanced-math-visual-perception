@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0082",
   "authoring_id": "GR07",
@@ -64,7 +64,6 @@
     "reason": "Both hollow endpoints indicate endpoint exclusion. This does not establish that the corresponding vertical-coordinate value is absent from the range of the entire function."
   },
   "label": {
-    "shared_or_similar_visual_information": "Hollow circle at a curve endpoint",
     "mathematical_meanings": "Left image: The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint. Right image: The hollow endpoint is excluded from the displayed function graph, indicating that the shown function value is not attained at that endpoint.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both hollow endpoints indicate endpoint exclusion. This does not establish that the corresponding vertical-coordinate value is absent from the range of the entire function."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0082",
     "condition": "condition/graphical_roles/AVP0082"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Hollow circle at a curve endpoint\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

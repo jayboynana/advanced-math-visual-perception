@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0849",
   "authoring_id": "V04SR099",
@@ -65,7 +65,6 @@
     "reason": "The left occurrence is O beside the black dot on the diameter through A and B. The right occurrence is O below and to the right of the coordinate axes' crossing. The left placement shows that the symbol marks the center of the indicated circle, while the right placement shows that it marks the origin at the intersection of the coordinate axes."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter O",
     "mathematical_meanings": "Left image: The symbol \"O\" marks the center of the indicated circle. Right image: The symbol \"O\" marks the origin at the intersection of the coordinate axes.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is O beside the black dot on the diameter through A and B. The right occurrence is O below and to the right of the coordinate axes' crossing. The left placement shows that the symbol marks the center of the indicated circle, while the right placement shows that it marks the origin at the intersection of the coordinate axes."
@@ -76,5 +75,6 @@
   "views": {
     "type": "type/different type/AVP0849",
     "condition": "condition/symbolic_roles/AVP0849"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter O\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

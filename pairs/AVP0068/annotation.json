@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0068",
   "authoring_id": "SR18",
@@ -64,7 +64,6 @@
     "reason": "One occurrence names a particular side length, while the other names the vertical-coordinate quantity. No unit is inferred for the right image."
   },
   "label": {
-    "shared_or_similar_visual_information": "The lowercase letter h",
     "mathematical_meanings": "Left image: h denotes the unknown length of base BC. Right image: h names the quantity encoded vertically in the wave graph.",
     "same_mathematical_meanings": "no",
     "Rationales": "One occurrence names a particular side length, while the other names the vertical-coordinate quantity. No unit is inferred for the right image."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0068",
     "condition": "condition/symbolic_roles/AVP0068"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The lowercase letter h\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0050",
   "authoring_id": "GM25",
@@ -64,7 +64,6 @@
     "reason": "This item concerns the reading function of a short tick, rather than the specific value at its position; the two ticks have the same local function."
   },
   "label": {
-    "shared_or_similar_visual_information": "A short vertical stroke marking a reading position on the positive horizontal axis",
     "mathematical_meanings": "Left image: It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position. Right image: It is a reading tick on the horizontal coordinate axis, marking a horizontal-coordinate position.",
     "same_mathematical_meanings": "yes",
     "Rationales": "This item concerns the reading function of a short tick, rather than the specific value at its position; the two ticks have the same local function."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0050",
     "condition": "condition/geometric_markers/AVP0050"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A short vertical stroke marking a reading position on the positive horizontal axis\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

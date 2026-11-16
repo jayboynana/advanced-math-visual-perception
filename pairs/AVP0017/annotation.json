@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0017",
   "authoring_id": "NR17",
@@ -64,7 +64,6 @@
     "reason": "A length label and a y-coordinate label have different mathematical roles."
   },
   "label": {
-    "shared_or_similar_visual_information": "The number 3 in both images.",
     "mathematical_meanings": "Left image: Segment AC has a length value of 3. Right image: The magenta point has y-coordinate 3.",
     "same_mathematical_meanings": "no",
     "Rationales": "A length label and a y-coordinate label have different mathematical roles."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0017",
     "condition": "condition/numeric_representation/AVP0017"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The number 3 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

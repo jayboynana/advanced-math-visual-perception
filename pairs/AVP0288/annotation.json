@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0288",
   "authoring_id": "V03GM088",
@@ -80,7 +80,6 @@
     "reason": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashed AD segment is a planar reference across a circle, not the occluded boundary of a solid. The two stroke styles therefore encode different contextual functions."
   },
   "label": {
-    "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
     "mathematical_meanings": "Left image: They represent rear edges of the folded three-dimensional bowl that are hidden from view. Right image: It is an auxiliary chord-like reference segment within the plane circle diagram.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashed AD segment is a planar reference across a circle, not the occluded boundary of a solid. The two stroke styles therefore encode different contextual functions."
@@ -91,5 +90,6 @@
   "views": {
     "type": "type/different type/AVP0288",
     "condition": "condition/geometric_markers/AVP0288"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A line or boundary made of separated short strokes.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0859",
   "authoring_id": "V04SR109",
@@ -65,7 +65,6 @@
     "reason": "The left occurrence is y in the second term of the simultaneous equations. The right occurrence is y beside the large upward arrow above the open circle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it labels the indicated coordinate axis."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter y",
     "mathematical_meanings": "Left image: The symbol \"y\" denotes one of the unknown numbers constrained by the equations. Right image: The symbol \"y\" labels the indicated coordinate axis.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is y in the second term of the simultaneous equations. The right occurrence is y beside the large upward arrow above the open circle. The left placement shows that the symbol denotes one of the unknown numbers constrained by the equations, while the right placement shows that it labels the indicated coordinate axis."
@@ -76,5 +75,6 @@
   "views": {
     "type": "type/different type/AVP0859",
     "condition": "condition/symbolic_roles/AVP0859"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter y\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

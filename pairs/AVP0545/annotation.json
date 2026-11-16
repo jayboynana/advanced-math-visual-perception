@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0545",
   "authoring_id": "V04NR045",
@@ -71,7 +71,6 @@
     "reason": "The labels share a numeral, and the displayed units give different physical lengths of 0.9144 meters and 0.03 meters."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notations 3 ft and 3 cm.",
     "mathematical_meanings": "Left image: The triangle base measures three feet. Right image: The indicated triangle side measures three centimeters.",
     "same_mathematical_meanings": "no",
     "Rationales": "The labels share a numeral, and the displayed units give different physical lengths of 0.9144 meters and 0.03 meters."
@@ -82,5 +81,6 @@
   "views": {
     "type": "type/same type/AVP0545",
     "condition": "condition/numeric_representation/AVP0545"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notations 3 ft and 3 cm.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

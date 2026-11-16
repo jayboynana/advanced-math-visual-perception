@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0046",
   "authoring_id": "GM21",
@@ -64,7 +64,6 @@
     "reason": "Both sides contain curved dashed lines, but one belongs to a circular boundary and the other to a function graph."
   },
   "label": {
-    "shared_or_similar_visual_information": "Broken strokes following a curved path",
     "mathematical_meanings": "Left image: It represents a portion of an inner circle's circumference in the composite circular diagram. Right image: It represents the graph of function g, distinguishing it from the cyan solid graph of function f.",
     "same_mathematical_meanings": "no",
     "Rationales": "Both sides contain curved dashed lines, but one belongs to a circular boundary and the other to a function graph."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0046",
     "condition": "condition/geometric_markers/AVP0046"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Broken strokes following a curved path\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

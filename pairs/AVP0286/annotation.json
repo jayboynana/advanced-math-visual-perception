@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0286",
   "authoring_id": "V03GM086",
@@ -74,7 +74,6 @@
     "reason": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes partition the square in a before-and-after piece rearrangement diagram. The two stroke styles therefore encode different contextual functions."
   },
   "label": {
-    "shared_or_similar_visual_information": "A line or boundary made of separated short strokes.",
     "mathematical_meanings": "Left image: It represents an edge on the back of the cube, hidden in the solid view. Right image: It marks the partition of the square into the pieces used to form the rectangle.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The right dashes partition the square in a before-and-after piece rearrangement diagram. The two stroke styles therefore encode different contextual functions."
@@ -85,5 +84,6 @@
   "views": {
     "type": "type/different type/AVP0286",
     "condition": "condition/geometric_markers/AVP0286"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A line or boundary made of separated short strokes.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

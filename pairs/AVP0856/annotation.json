@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0856",
   "authoring_id": "V04SR106",
@@ -65,7 +65,6 @@
     "reason": "The left occurrence is x atop the column with inputs 0 through 3. The right occurrence is x under the left part of the triangle base. The left placement shows that the symbol denotes the independent input to the function, while the right placement shows that it denotes a length or a variable in the indicated length expression."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter x",
     "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes a length or a variable in the indicated length expression.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is x atop the column with inputs 0 through 3. The right occurrence is x under the left part of the triangle base. The left placement shows that the symbol denotes the independent input to the function, while the right placement shows that it denotes a length or a variable in the indicated length expression."
@@ -76,5 +75,6 @@
   "views": {
     "type": "type/different type/AVP0856",
     "condition": "condition/symbolic_roles/AVP0856"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter x\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

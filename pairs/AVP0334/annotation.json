@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0334",
   "authoring_id": "V03SR034",
@@ -73,7 +73,6 @@
     "reason": "The left occurrence is located at f(x) = √(9 − (x − 3)²) above the semicircular graph; the right occurrence is at f beside the solid upward parabola. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter f",
     "mathematical_meanings": "Left image: f names the function represented by the indicated curve. Right image: f names the function represented by the indicated curve.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The left occurrence is located at f(x) = √(9 − (x − 3)²) above the semicircular graph; the right occurrence is at f beside the solid upward parabola. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0334",
     "condition": "condition/symbolic_roles/AVP0334"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter f\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

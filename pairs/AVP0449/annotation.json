@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0449",
   "authoring_id": "V03GR049",
@@ -73,7 +73,6 @@
     "reason": "The sloping dashed line extends a finite triangle side; the vertical dashed line in the function plot marks limiting behavior of branches. The shared dash style does not make these roles equivalent."
   },
   "label": {
-    "shared_or_similar_visual_information": "A dashed construction line",
     "mathematical_meanings": "Left image: A geometric side extension making the larger triangle construction visible. Right image: A vertical asymptote approached by the function graph.",
     "same_mathematical_meanings": "no",
     "Rationales": "The sloping dashed line extends a finite triangle side; the vertical dashed line in the function plot marks limiting behavior of branches. The shared dash style does not make these roles equivalent."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/different type/AVP0449",
     "condition": "condition/graphical_roles/AVP0449"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A dashed construction line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0007",
   "authoring_id": "NR07",
@@ -64,7 +64,6 @@
     "reason": "1/5=0.2, but one value labels a radius length and the other an x-coordinate; their local mathematical roles differ."
   },
   "label": {
-    "shared_or_similar_visual_information": "Fractional and decimal notations for one real number: 1/5 and 0.2.",
     "mathematical_meanings": "Left image: The radius length has numerical value 1/5, in cm. Right image: The marked point has x-coordinate 0.2.",
     "same_mathematical_meanings": "no",
     "Rationales": "1/5=0.2, but one value labels a radius length and the other an x-coordinate; their local mathematical roles differ."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0007",
     "condition": "condition/numeric_representation/AVP0007"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Fractional and decimal notations for one real number: 1/5 and 0.2.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

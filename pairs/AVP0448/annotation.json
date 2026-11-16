@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0448",
   "authoring_id": "V03GR048",
@@ -73,7 +73,6 @@
     "reason": "The dashed line joins two finite vertices of a diamond as a diagonal. The other lies between curve branches as an asymptotic reference, not as a segment of a polygon."
   },
   "label": {
-    "shared_or_similar_visual_information": "A vertical dashed line",
     "mathematical_meanings": "Left image: A diagonal of a finite geometric quadrilateral. Right image: A vertical asymptote approached by the function graph.",
     "same_mathematical_meanings": "no",
     "Rationales": "The dashed line joins two finite vertices of a diamond as a diagonal. The other lies between curve branches as an asymptotic reference, not as a segment of a polygon."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/different type/AVP0448",
     "condition": "condition/graphical_roles/AVP0448"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A vertical dashed line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

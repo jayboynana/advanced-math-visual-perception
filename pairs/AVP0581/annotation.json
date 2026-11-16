@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0581",
   "authoring_id": "V04NR081",
@@ -80,7 +80,6 @@
     "reason": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of matrix entry."
   },
   "label": {
-    "shared_or_similar_visual_information": "The numerical notation 2 in both images.",
     "mathematical_meanings": "Left image: The marked peak point has y-coordinate 2. Right image: Matrix A has entry 2 at row 1, column 2.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left context gives the number the role of vertical coordinate, while the right context gives it the role of matrix entry."
@@ -91,5 +90,6 @@
   "views": {
     "type": "type/different type/AVP0581",
     "condition": "condition/numeric_representation/AVP0581"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The numerical notation 2 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

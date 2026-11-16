@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0832",
   "authoring_id": "V04SR082",
@@ -60,7 +60,6 @@
     "reason": "The left occurrence is A below the left circle listing elements 5 and 10 in its exclusive region. The right occurrence is A inside the large tilted square built on a triangle side. The left placement shows that the symbol names the set represented by the indicated circle, while the right placement shows that it names the indicated square region."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter A",
     "mathematical_meanings": "Left image: The symbol \"A\" names the set represented by the indicated circle. Right image: The symbol \"A\" names the indicated square region.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left occurrence is A below the left circle listing elements 5 and 10 in its exclusive region. The right occurrence is A inside the large tilted square built on a triangle side. The left placement shows that the symbol names the set represented by the indicated circle, while the right placement shows that it names the indicated square region."
@@ -71,5 +70,6 @@
   "views": {
     "type": "type/different type/AVP0832",
     "condition": "condition/symbolic_roles/AVP0832"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter A\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

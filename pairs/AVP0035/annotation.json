@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0035",
   "authoring_id": "GM10",
@@ -64,7 +64,6 @@
     "reason": "Both squares explicitly mark a right angle between two lines, regardless of which side of the intersection contains the square."
   },
   "label": {
-    "shared_or_similar_visual_information": "A small square at the intersection of a horizontal and a vertical line",
     "mathematical_meanings": "Left image: It indicates that k is perpendicular to ℓ. Right image: It indicates that the vertical projection line from the point to the horizontal axis is perpendicular to that axis.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both squares explicitly mark a right angle between two lines, regardless of which side of the intersection contains the square."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/same type/AVP0035",
     "condition": "condition/geometric_markers/AVP0035"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A small square at the intersection of a horizontal and a vertical line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

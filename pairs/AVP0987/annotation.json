@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0987",
   "authoring_id": "V04GR112",
@@ -76,7 +76,6 @@
     "reason": "An axis arrow gives the orientation of a coordinate scale. The arrow pointing toward a solid gives the observer’s viewing direction for a projection."
   },
   "label": {
-    "shared_or_similar_visual_information": "A pointed arrow on a straight stroke.",
     "mathematical_meanings": "Left image: An arrow showing the direction from which the solid is viewed. Right image: The arrowhead orienting the positive direction of a coordinate axis.",
     "same_mathematical_meanings": "no",
     "Rationales": "An axis arrow gives the orientation of a coordinate scale. The arrow pointing toward a solid gives the observer’s viewing direction for a projection."
@@ -87,5 +86,6 @@
   "views": {
     "type": "type/different type/AVP0987",
     "condition": "condition/graphical_roles/AVP0987"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A pointed arrow on a straight stroke.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

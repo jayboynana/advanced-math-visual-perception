@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0231",
   "authoring_id": "V03GM031",
@@ -66,7 +66,6 @@
     "reason": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a background coordinate-grid cell used as a spatial reference when reading the graph. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
   },
   "label": {
-    "shared_or_similar_visual_information": "A small square or similar rectangular outline formed by straight segments.",
     "mathematical_meanings": "Left image: PB is perpendicular to CQ at R. Right image: It is a background coordinate-grid cell used as a spatial reference when reading the graph.",
     "same_mathematical_meanings": "no",
     "Rationales": "The left square directly brackets two intersecting lines and encodes a right-angle relation. The selected right element instead has this object or subdivision role: It is a background coordinate-grid cell used as a spatial reference when reading the graph. That outline depicts a region or component; it does not function as the separate angle-relation symbol selected on the left."
@@ -77,5 +76,6 @@
   "views": {
     "type": "type/different type/AVP0231",
     "condition": "condition/geometric_markers/AVP0231"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A small square or similar rectangular outline formed by straight segments.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

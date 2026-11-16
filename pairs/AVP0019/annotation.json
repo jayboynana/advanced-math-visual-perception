@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0019",
   "authoring_id": "NR19",
@@ -64,7 +64,6 @@
     "reason": "The minus sign changes the complete numerical value; a side length and a y-coordinate also serve different roles."
   },
   "label": {
-    "shared_or_similar_visual_information": "Decimal notations differing only by a minus sign: 8.5 and −8.5.",
     "mathematical_meanings": "Left image: The corresponding triangle side has positive length value 8.5. Right image: The function's trough point has negative y-coordinate −8.5.",
     "same_mathematical_meanings": "no",
     "Rationales": "The minus sign changes the complete numerical value; a side length and a y-coordinate also serve different roles."
@@ -75,5 +74,6 @@
   "views": {
     "type": "type/different type/AVP0019",
     "condition": "condition/numeric_representation/AVP0019"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: Decimal notations differing only by a minus sign: 8.5 and −8.5.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

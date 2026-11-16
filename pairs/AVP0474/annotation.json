@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0474",
   "authoring_id": "V03GR074",
@@ -72,7 +72,6 @@
     "reason": "Both lines are vertical coordinate references passing through an origin in a Cartesian plane; they are not geometric altitudes or lengths."
   },
   "label": {
-    "shared_or_similar_visual_information": "An upright coordinate axis",
     "mathematical_meanings": "Left image: The vertical coordinate axis used to read graph output coordinates. Right image: The vertical coordinate axis that locates positions by their y-coordinate.",
     "same_mathematical_meanings": "yes",
     "Rationales": "Both lines are vertical coordinate references passing through an origin in a Cartesian plane; they are not geometric altitudes or lengths."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/different type/AVP0474",
     "condition": "condition/graphical_roles/AVP0474"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: An upright coordinate axis\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0351",
   "authoring_id": "V03SR051",
@@ -73,7 +73,6 @@
     "reason": "On the left, attachment to A at the upper endpoint of the vertical side supports the meaning: A names the indicated geometric point. On the right, the context is A beside the curve whose vertical axis is labeled area (square meters), where A names the plotted area function, with output measured in square meters. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter A",
     "mathematical_meanings": "Left image: A names the indicated geometric point. Right image: A names the plotted area function, with output measured in square meters.",
     "same_mathematical_meanings": "no",
     "Rationales": "On the left, attachment to A at the upper endpoint of the vertical side supports the meaning: A names the indicated geometric point. On the right, the context is A beside the curve whose vertical axis is labeled area (square meters), where A names the plotted area function, with output measured in square meters. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/different type/AVP0351",
     "condition": "condition/symbolic_roles/AVP0351"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter A\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

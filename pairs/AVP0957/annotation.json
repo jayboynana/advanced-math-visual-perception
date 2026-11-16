@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0957",
   "authoring_id": "V04GR082",
@@ -76,7 +76,6 @@
     "reason": "The straight trace crosses coordinate axes to give a relationship between variables. The finite side joins vertices of a closed geometric figure."
   },
   "label": {
-    "shared_or_similar_visual_information": "A solid sloping line.",
     "mathematical_meanings": "Left image: A sloping outer side of a finite geometric figure. Right image: A sloping straight graph encoding a constant rate of change of output with input.",
     "same_mathematical_meanings": "no",
     "Rationales": "The straight trace crosses coordinate axes to give a relationship between variables. The finite side joins vertices of a closed geometric figure."
@@ -87,5 +86,6 @@
   "views": {
     "type": "type/different type/AVP0957",
     "condition": "condition/graphical_roles/AVP0957"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A solid sloping line.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0441",
   "authoring_id": "V03GR041",
@@ -72,7 +72,6 @@
     "reason": "The red line through 0.2 and the magenta line through the marked waveform point each establish a constant ordinate for comparison with plotted positions."
   },
   "label": {
-    "shared_or_similar_visual_information": "A horizontal dashed reference across a coordinate plot",
     "mathematical_meanings": "Left image: A fixed-height reference against which plotted points can be compared. Right image: A fixed-y horizontal reference for locating a curve point.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The red line through 0.2 and the magenta line through the marked waveform point each establish a constant ordinate for comparison with plotted positions."
@@ -83,5 +82,6 @@
   "views": {
     "type": "type/same type/AVP0441",
     "condition": "condition/graphical_roles/AVP0441"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: A horizontal dashed reference across a coordinate plot\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }

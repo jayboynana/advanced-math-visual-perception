@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "language": "en",
   "pair_id": "AVP0350",
   "authoring_id": "V03SR050",
@@ -73,7 +73,6 @@
     "reason": "The left occurrence is located at t at the right end of the horizontal axis; the right occurrence is at t (seconds) beside the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
   },
   "label": {
-    "shared_or_similar_visual_information": "The letter t",
     "mathematical_meanings": "Left image: t labels the horizontal independent-variable axis. Right image: t labels the horizontal independent-variable axis; its displayed unit is seconds.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The left occurrence is located at t at the right end of the horizontal axis; the right occurrence is at t (seconds) beside the horizontal axis. Both use the selected notation for the same horizontal coordinate-axis role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
@@ -84,5 +83,6 @@
   "views": {
     "type": "type/same type/AVP0350",
     "condition": "condition/symbolic_roles/AVP0350"
-  }
+  },
+  "prompt": "Specified shared or similar visual feature: The letter t\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
 }
