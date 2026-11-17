@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.6.0",
+  "schema_version": "0.6.1",
   "language": "en",
   "pair_id": "AVP0465",
   "authoring_id": "V03GR065",
@@ -92,5 +92,5 @@
     "type": "type/different type/AVP0465",
     "condition": "condition/graphical_roles/AVP0465"
   },
-  "prompt": "Specified shared or similar visual feature: A smooth curved line\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
+  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A smooth curved line"
 }

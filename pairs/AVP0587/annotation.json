@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.6.0",
+  "schema_version": "0.6.1",
   "language": "en",
   "pair_id": "AVP0587",
   "authoring_id": "V04NR087",
@@ -76,5 +76,5 @@
     "type": "type/same type/AVP0587",
     "condition": "condition/numeric_representation/AVP0587"
   },
-  "prompt": "Specified shared or similar visual feature: The numerical notation 1 in both images.\n\nCompare the first (left) image and the second (right) image using only the visual feature specified below. Explain what it represents mathematically in the left image and in the right image. Decide whether those meanings are the same and justify your decision using visible evidence. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales."
+  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 1 in both images."
 }

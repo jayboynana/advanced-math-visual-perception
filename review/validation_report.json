@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.6.0",
+  "schema_version": "0.6.1",
   "language": "en",
   "pair_count": 1000,
-  "checks": 104023,
+  "checks": 104024,
   "error_count": 0,
   "errors": [],
   "status": "passed",
