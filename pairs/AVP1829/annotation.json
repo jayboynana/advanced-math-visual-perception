@@ -1,0 +1,109 @@
+{
+  "pair_id": "AVP1829",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1829",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_vs_vertical_axis",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y.",
+    "left_evidence": "y at the y° label at the upper vertex of the right triangle.",
+    "right_evidence": "y at the upper end of the vertical axis passing through points 1 and 3.",
+    "left_meaning": "y gives an unknown angle measure (the y° label at the upper vertex of the right triangle).",
+    "right_meaning": "y names the vertical coordinate axis (the upper end of the vertical axis passing through points 1 and 3).",
+    "same_meaning": false,
+    "reason": "On the left, y represents an unknown angle measure (the y° label at the upper vertex of the right triangle). On the right, y names the vertical coordinate axis (the upper end of the vertical axis passing through points 1 and 3)."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "386",
+    "sample_index": "386",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 247,
+      "img_width": 164,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/386.jpg",
+    "sha256": "09520717c4c2b7d85b9fd820cea449b248424b70094030b30d76450c215e67f4",
+    "width": 164,
+    "height": 247,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1829/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "294",
+    "sample_index": "294",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "scientific figure",
+      "grade": "college",
+      "img_height": 293,
+      "img_width": 247,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning",
+        "scientific reasoning"
+      ],
+      "source": "SciBench",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/294.jpg",
+    "sha256": "58d689e9ddc3b5f8a59beb8fb3fa50f703314a746e43d0f845fe6bac82fb867f",
+    "width": 247,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1829/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1829",
+    "condition": "condition/symbolic_roles/AVP1829"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: y gives an unknown angle measure (the y° label at the upper vertex of the right triangle). Right image: y names the vertical coordinate axis (the upper end of the vertical axis passing through points 1 and 3).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, y represents an unknown angle measure (the y° label at the upper vertex of the right triangle). On the right, y names the vertical coordinate axis (the upper end of the vertical axis passing through points 1 and 3)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter y.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "y at the y° label at the upper vertex of the right triangle. y at the upper end of the vertical axis passing through points 1 and 3.",
+    "eligible_for_strict_scoring": true
+  }
+}

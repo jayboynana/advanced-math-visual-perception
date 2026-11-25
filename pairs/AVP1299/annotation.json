@@ -1,0 +1,98 @@
+{
+  "pair_id": "AVP1299",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1299",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 6.0 (left) and 6 (right).",
+    "left_evidence": "The notation 6.0 appears under the brace spanning AB.",
+    "right_evidence": "The notation 6 appears below the horizontal axis between labels 4 and 8.",
+    "left_meaning": "6.0 gives the length of AB opposite the right angle at C.",
+    "right_meaning": "6 gives the horizontal-axis input at that tick.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a hypotenuse length. The notation on the right represents a horizontal coordinate."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "9",
+    "sample_index": "44",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GeoQA",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_9.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1299/left.png",
+    "sha256": "ba57d6cdd945f4442a77e3d33af6fd08a0e7859ed5ae3a2bf455993ac5df924e",
+    "width": 395,
+    "height": 275
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1299/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1299",
+    "condition": "condition/numeric_representation/AVP1299"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 6.0 gives the length of AB opposite the right angle at C. Right image: 6 gives the horizontal-axis input at that tick.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a hypotenuse length. The notation on the right represents a horizontal coordinate."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 6.0 (left) and 6 (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 6.0 appears under the brace spanning AB. The notation 6 appears below the horizontal axis between labels 4 and 8.",
+    "eligible_for_strict_scoring": true
+  }
+}

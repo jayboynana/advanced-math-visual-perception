@@ -7,7 +7,7 @@ MathVerse:787 / MathVerse:568 · different type · Geometric markers
 
 ## Shared or similar visual information
 
-Broken strokes following a curved path
+An upward-opening dashed curve.
 
 ## Evidence locations
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-Both sides contain curved dashed lines, but one belongs to a circular boundary and the other to a function graph.
+The dashed curve on the left represents part of the circumference of an inner circle. The dashed curve on the right represents the graph of g.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

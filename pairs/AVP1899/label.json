@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: A names a specific point in the diagram (the upper-left corner of the square). Right image: A names a state in the transition diagram (the label inside the blue node with a loop).",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, A names a specific point in the diagram (the upper-left corner of the square). On the right, A names a state in the transition diagram (the label inside the blue node with a loop)."
+}

@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0150",
-  "authoring_id": "V03NR050",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0150",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_angle_index_role",
+  "subcondition": "same_angle_index",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The bare numeral 2.",
+    "left_evidence": "The notation 2 appears beside the arc at the intersection with line a.",
+    "right_evidence": "The notation 2 appears at the upper crossing beside the arc above line a.",
+    "left_meaning": "2 names the marked angle below line a.",
+    "right_meaning": "2 names the angle marked at that crossing.",
+    "same_meaning": true,
+    "reason": "The bare numeral 2 is associated with an angle in both drawings and identifies which angle is referenced."
+  },
   "left": {
     "dataset": "MathVista",
     "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
@@ -71,27 +83,26 @@
     "original_image_modified": false,
     "image_path": "pairs/AVP0150/right.jpg"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 2 in both images.",
-    "left_evidence": "The standalone 2 below the upper line a at the upper-right crossing.",
-    "right_evidence": "The standalone 2 above line a, to the right of ray BC.",
-    "left_meaning": "The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
-    "right_meaning": "The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
-    "same_meaning": true,
-    "reason": "Both standalone 2s identify angle regions near intersecting lines, rather than supplying numerical angle measures."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure. Right image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "Both standalone 2s identify angle regions near intersecting lines, rather than supplying numerical angle measures."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
   "views": {
     "type": "type/same type/AVP0150",
     "condition": "condition/numeric_representation/AVP0150"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 2 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 2 names the marked angle below line a. Right image: 2 names the angle marked at that crossing.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The bare numeral 2 is associated with an angle in both drawings and identifies which angle is referenced."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The bare numeral 2.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 2 appears beside the arc at the intersection with line a. The notation 2 appears at the upper crossing beside the arc above line a.",
+    "eligible_for_strict_scoring": true
+  }
 }

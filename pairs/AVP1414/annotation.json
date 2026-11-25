@@ -1,0 +1,101 @@
+{
+  "pair_id": "AVP1414",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1414",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coordinate_notation",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 3 (left) and 3.000000 (right).",
+    "left_evidence": "The notation 3 appears beside the vertical dashed guide on the horizontal axis.",
+    "right_evidence": "The notation 3.000000 appears in the calculator display under the word Maximum.",
+    "left_meaning": "3 sets the horizontal coordinate of the guide.",
+    "right_meaning": "3.000000 gives the x-coordinate where the calculator finds a maximum.",
+    "same_meaning": true,
+    "reason": "3 and 3.000000 denote equal values, and both give a horizontal coordinate."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "94_1",
+    "sample_index": "94_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 94,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_58474443df6e195863d8g_0094_1.jpg",
+    "sha256": "088d00fe8e78d41a3e4536ed8feee1807e7befb15b7403cd64476368b68f8495",
+    "width": 294,
+    "height": 314,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1414/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "217",
+    "sample_index": "217",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 202,
+      "img_width": 304,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/217.jpg",
+    "sha256": "c02166f228ed923f05e15c588a575dd5f18118522a2016b6388b48f4b4587827",
+    "width": 304,
+    "height": 202,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1414/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1414",
+    "condition": "condition/numeric_representation/AVP1414"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 3 sets the horizontal coordinate of the guide. Right image: 3.000000 gives the x-coordinate where the calculator finds a maximum.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "3 and 3.000000 denote equal values, and both give a horizontal coordinate."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 3 (left) and 3.000000 (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 3 appears beside the vertical dashed guide on the horizontal axis. The notation 3.000000 appears in the calculator display under the word Maximum.",
+    "eligible_for_strict_scoring": true
+  }
+}

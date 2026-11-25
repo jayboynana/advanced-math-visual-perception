@@ -1,0 +1,94 @@
+{
+  "pair_id": "AVP1180",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1180",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dashed_curve_hidden_rim",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The dashed rear arc of the larger bottom rim.",
+    "right_evidence": "The dashed back arc of the gray lower oval.",
+    "left_meaning": "The arc depicts the hidden lower rim of the truncated cone.",
+    "right_meaning": "The arc depicts the hidden rear part of the cylinder's base rim.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the dashes trace an occluded portion of a circular rim in a solid diagram."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1414_A",
+    "sample_index": "1414",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1414,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1414_A.jpg",
+    "sha256": "9be4969d30755265c33d9d2b3c0ff1e0e220979d7fd50e9fbaed9659cb81d285",
+    "width": 77,
+    "height": 67,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1414_A.jpg",
+      "start": 4700794,
+      "length": 1728,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1422",
+    "sample_index": "1422",
+    "problem_version": "3steps_3",
+    "image_type": "solid_geometry",
+    "source_subject": "Surface Area of Cylinders",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_12",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "12-3.png",
+    "sha256": "5f1a256ae0180fb6dd7508b9774546d4de65ba1af07d3cbeabfa6cb266396458",
+    "width": 264,
+    "height": 208,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1180/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1180",
+    "condition": "condition/geometric_markers/AVP1180"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc depicts the hidden lower rim of the truncated cone. Right image: The arc depicts the hidden rear part of the cylinder's base rim.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the dashes trace an occluded portion of a circular rim in a solid diagram."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed rear arc of the larger bottom rim. The dashed back arc of the gray lower oval.",
+    "eligible_for_strict_scoring": true
+  }
+}

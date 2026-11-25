@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0555",
-  "authoring_id": "V04NR055",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0555",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "outcome_label_vs_set_element",
+  "subcondition": "numeral_role_difference",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3.",
+    "left_evidence": "The notation 3 appears inside the right-hand sector of the spinner.",
+    "right_evidence": "The notation 3 appears at the top of the B-only region.",
+    "left_meaning": "3 labels one possible spinner outcome.",
+    "right_meaning": "3 belongs to B only.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a possible spinner outcome. The notation on the right represents an element of one set."
+  },
   "left": {
     "dataset": "MV-MATH",
     "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
@@ -54,27 +66,26 @@
     "image_type": "set_diagram",
     "image_path": "pairs/AVP0555/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 10 in both images.",
-    "left_evidence": "The 10 printed inside the sector near the upper left of the spinner.",
-    "right_evidence": "The 10 in the overlapping region of the two sets.",
-    "left_meaning": "The numeral 10 identifies one outcome sector on the spinner.",
-    "right_meaning": "The number 10 is a listed element of the intersection.",
-    "same_meaning": false,
-    "reason": "The left context gives the number the role of identifier of a spinner outcome, while the right context gives it the role of listed set element."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The numeral 10 identifies one outcome sector on the spinner. Right image: The number 10 is a listed element of the intersection.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The left context gives the number the role of identifier of a spinner outcome, while the right context gives it the role of listed set element."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/different type/AVP0555",
     "condition": "condition/numeric_representation/AVP0555"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 10 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 3 labels one possible spinner outcome. Right image: 3 belongs to B only.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a possible spinner outcome. The notation on the right represents an element of one set."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 3.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 3 appears inside the right-hand sector of the spinner. The notation 3 appears at the top of the B-only region.",
+    "eligible_for_strict_scoring": true
+  }
 }

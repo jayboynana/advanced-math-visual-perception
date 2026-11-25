@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1756",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1756",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the label on the dimension arrow spanning the slanted side.",
+    "right_evidence": "x at the lower segment of the rising slanted side.",
+    "left_meaning": "x gives an unknown length (the label on the dimension arrow spanning the slanted side).",
+    "right_meaning": "x gives an unknown length (the lower segment of the rising slanted side).",
+    "same_meaning": true,
+    "reason": "In both images, x represents an unknown length. The relevant locations are the label on the dimension arrow spanning the slanted side on the left and the lower segment of the rising slanted side on the right."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "310",
+    "sample_index": "310",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 218,
+      "img_width": 350,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/310.jpg",
+    "sha256": "c1dfd288f25137df89a827c4f04268ec86ea7d5a2396d141b23447449fd75fb0",
+    "width": 350,
+    "height": 218,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1756/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "505_1",
+    "sample_index": "505_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 505,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch32-2024_06_14_0a2e4ed0bb716236d4e8g_0009_1.jpg",
+    "sha256": "e89e29c649b937cd806f87927be58cdb8ecb6cbfb868a2f4779f47fbdbae22c2",
+    "width": 286,
+    "height": 283,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1756/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1756",
+    "condition": "condition/symbolic_roles/AVP1756"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x gives an unknown length (the label on the dimension arrow spanning the slanted side). Right image: x gives an unknown length (the lower segment of the rising slanted side).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, x represents an unknown length. The relevant locations are the label on the dimension arrow spanning the slanted side on the left and the lower segment of the rising slanted side on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the label on the dimension arrow spanning the slanted side. x at the lower segment of the rising slanted side.",
+    "eligible_for_strict_scoring": true
+  }
+}

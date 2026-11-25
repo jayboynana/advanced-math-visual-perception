@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The triangle angle at C measures 21 degrees. Right image: The lower side has length 21 meters.",
+  "mathematical_meanings": "Left image: 21° measures the angle at C. Right image: 21 m measures the bottom edge.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The numeral 21 is shared, but 21° measures an angle while 21 m measures a side length."
+  "Rationales": "The notation on the left represents an angle measure. The notation on the right represents a segment length."
 }

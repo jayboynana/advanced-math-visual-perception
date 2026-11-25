@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0788",
-  "authoring_id": "V04SR038",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0788",
   "condition": "symbolic_roles",
   "condition_name": "Mathematical roles of symbols",
-  "subcondition": "same_angle_vertex",
+  "subcondition": "point_same",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter O.",
+    "left_evidence": "O at the common endpoint of the two rays at the marked angle.",
+    "right_evidence": "O at the common intersection of the horizontal and sloping lines.",
+    "left_meaning": "O names a specific point in the diagram (the common endpoint of the two rays at the marked angle).",
+    "right_meaning": "O names a specific point in the diagram (the common intersection of the horizontal and sloping lines).",
+    "same_meaning": true,
+    "reason": "In both images, O names a specific point in the diagram. The relevant locations are the common endpoint of the two rays at the marked angle on the left and the common intersection of the horizontal and sloping lines on the right."
+  },
   "left": {
     "dataset": "MV-MATH",
     "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
@@ -54,27 +66,26 @@
     "image_type": "geometry",
     "image_path": "pairs/AVP0788/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The letter O",
-    "left_evidence": "O at the left endpoint of the two rays enclosing the small arc",
-    "right_evidence": "O where the horizontal line and oblique rays meet",
-    "left_meaning": "The symbol \"O\" names the common point of the rays that form an angle.",
-    "right_meaning": "The symbol \"O\" names the common point of the rays that form an angle.",
-    "same_meaning": true,
-    "reason": "The left occurrence is O at the left endpoint of the two rays enclosing the small arc. The right occurrence is O where the horizontal line and oblique rays meet. The placement in each image shows that the symbol names the common point of the rays that form an angle."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The symbol \"O\" names the common point of the rays that form an angle. Right image: The symbol \"O\" names the common point of the rays that form an angle.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The left occurrence is O at the left endpoint of the two rays enclosing the small arc. The right occurrence is O where the horizontal line and oblique rays meet. The placement in each image shows that the symbol names the common point of the rays that form an angle."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0788",
     "condition": "condition/symbolic_roles/AVP0788"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The letter O"
+  "label": {
+    "mathematical_meanings": "Left image: O names a specific point in the diagram (the common endpoint of the two rays at the marked angle). Right image: O names a specific point in the diagram (the common intersection of the horizontal and sloping lines).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, O names a specific point in the diagram. The relevant locations are the common endpoint of the two rays at the marked angle on the left and the common intersection of the horizontal and sloping lines on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter O.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "O at the common endpoint of the two rays at the marked angle. O at the common intersection of the horizontal and sloping lines.",
+    "eligible_for_strict_scoring": true
+  }
 }

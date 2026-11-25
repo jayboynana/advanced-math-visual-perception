@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1561",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1561",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "shaded_region",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region.",
+    "left_evidence": "The dark segment enclosed by the chord and arc in the upper-right of the circle.",
+    "right_evidence": "The gray half-plane to the right of the falling dashed boundary.",
+    "left_meaning": "The shading selects the area between the chord and its circular arc.",
+    "right_meaning": "The shaded half-plane is the solution region of a strict linear inequality.",
+    "same_meaning": false,
+    "reason": "The feature selects a geometric area in the left image and selects the solution half-plane of a linear inequality in the right image. The dark segment enclosed by the chord and arc in the upper-right of the circle. The gray half-plane to the right of the falling dashed boundary."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "97",
+    "sample_index": "97",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image97.png",
+    "sha256": "65a9368756e6fb5d7afbceddfb144a9bdd133c25999921839c30894a52abdc98",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1561/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "512",
+    "sample_index": "2559",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_512.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1561/right.png",
+    "sha256": "729e4821b611e24e3919c3332a4571557b5185e7ab28da2b93503b8a01068aca",
+    "width": 636,
+    "height": 517
+  },
+  "views": {
+    "type": "type/different type/AVP1561",
+    "condition": "condition/graphical_roles/AVP1561"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The shading selects the area between the chord and its circular arc. Right image: The shaded half-plane is the solution region of a strict linear inequality.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature selects a geometric area in the left image and selects the solution half-plane of a linear inequality in the right image. The dark segment enclosed by the chord and arc in the upper-right of the circle. The gray half-plane to the right of the falling dashed boundary."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A shaded region.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dark segment enclosed by the chord and arc in the upper-right of the circle. The gray half-plane to the right of the falling dashed boundary.",
+    "eligible_for_strict_scoring": true
+  }
+}

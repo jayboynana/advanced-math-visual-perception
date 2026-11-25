@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dot specifies the actual red-graph function value at x = 1. Right image: The dot includes the right endpoint (1, −4) in the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature specifies an isolated included ordered pair off the nearby curve in the left image and marks an endpoint included in the plotted branch in the right image. The solid red point below the open point at x = 1. The filled cyan point at (1, −4), where the curve ends on the right."
+}

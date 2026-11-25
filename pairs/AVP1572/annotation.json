@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1572",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1572",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "shaded_region",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region.",
+    "left_evidence": "The gray half-plane on the right side of the solid oblique boundary.",
+    "right_evidence": "The lavender triangle with three 2 in side labels.",
+    "left_meaning": "The shaded points constitute the solution region on one side of the linear boundary.",
+    "right_meaning": "The shading designates the entire area inside the equilateral triangle.",
+    "same_meaning": false,
+    "reason": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane on the right side of the solid oblique boundary. The lavender triangle with three 2 in side labels."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "510",
+    "sample_index": "2549",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_510.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1572/left.png",
+    "sha256": "0b382d312e7c4a7426e2b85ebef8f03ca2c929d3fb0ffb5c9f048ce88a0298ed",
+    "width": 576,
+    "height": 513
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "399",
+    "sample_index": "399",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 241,
+      "img_width": 258,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/399.jpg",
+    "sha256": "1fcdd2ca23ba28706fcd8868f9369f78468df86b3299d38ec77eceb1881e7bed",
+    "width": 258,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1572/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1572",
+    "condition": "condition/graphical_roles/AVP1572"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The shaded points constitute the solution region on one side of the linear boundary. Right image: The shading designates the entire area inside the equilateral triangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane on the right side of the solid oblique boundary. The lavender triangle with three 2 in side labels."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A shaded region.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The gray half-plane on the right side of the solid oblique boundary. The lavender triangle with three 2 in side labels.",
+    "eligible_for_strict_scoring": true
+  }
+}

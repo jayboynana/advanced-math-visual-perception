@@ -7,16 +7,16 @@ DynaMath:89 / DynaMath:90 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The letter A
+The uppercase letter A.
 
 ## Evidence locations
 
-- Left image: A at the top of the output oval, where the arrow from 2 ends
-- Right image: A at the top of the output oval, with incoming arrows from 1 and 4
+- Left image: A at the top element in the f(x) oval receiving an arrow from 2.
+- Right image: A at the top element in the f(x) oval receiving arrows from 1 and 4.
 
 ## Mathematical meanings
 
-Left image: The symbol "A" names the output element reached by the indicated input arrows. Right image: The symbol "A" names the output element reached by the indicated input arrows.
+Left image: A names an element of the output set of the mapping (the top element in the f(x) oval receiving an arrow from 2). Right image: A names an element of the output set of the mapping (the top element in the f(x) oval receiving arrows from 1 and 4).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The left occurrence is A at the top of the output oval, where the arrow from 2 ends. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The placement in each image shows that the symbol names the output element reached by the indicated input arrows.
+In both images, A names an element of the output set of the mapping. The relevant locations are the top element in the f(x) oval receiving an arrow from 2 on the left and the top element in the f(x) oval receiving arrows from 1 and 4 on the right.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

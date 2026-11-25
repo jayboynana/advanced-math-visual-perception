@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1059",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1059",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "vertical_dashed_line_perpendicular_height_vs_coordinate_guide",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed line.",
+    "left_evidence": "The vertical dashed projection below the left portion of the horizontal line.",
+    "right_evidence": "The vertical dashes descending from the bend to 4.",
+    "left_meaning": "The line represents the vertical component from the lower point up to the horizontal reference.",
+    "right_meaning": "The line projects the change in slope to x = 4.",
+    "same_meaning": false,
+    "reason": "In the left image, a vertical auxiliary segment marks a perpendicular height relative to a geometric base. In the right image, the vertical dashed segment projects a plotted position to its horizontal coordinate."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "345",
+    "sample_index": "1724",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_345.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1059/left.png",
+    "sha256": "586b4a377a1b5eb7eb394367ee1aa42f4f556f88707c0afbbe16233c3b10c5c3",
+    "width": 290,
+    "height": 316
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "639_A",
+    "sample_index": "639",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 639,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/639_A.jpg",
+    "sha256": "47f143e0df0ce782435267c4af9674dd91e90aeb2ca20dea14d3045d384d2200",
+    "width": 121,
+    "height": 109,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/639_A.jpg",
+      "start": 14293879,
+      "length": 2025,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1059",
+    "condition": "condition/geometric_markers/AVP1059"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line represents the vertical component from the lower point up to the horizontal reference. Right image: The line projects the change in slope to x = 4.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, a vertical auxiliary segment marks a perpendicular height relative to a geometric base. In the right image, the vertical dashed segment projects a plotted position to its horizontal coordinate."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A vertical dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The vertical dashed projection below the left portion of the horizontal line. The vertical dashes descending from the bend to 4.",
+    "eligible_for_strict_scoring": true
+  }
+}

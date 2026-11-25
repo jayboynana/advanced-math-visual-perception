@@ -1,5 +1,0 @@
-{
-  "mathematical_meanings": "Left image: A spatial length annotation spanning a side of the triangle. Right image: The horizontal coordinate axis that locates graph positions by input coordinate.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The arrowheads outside the triangle bound a finite side-length dimension; the arrow on the logarithmic plot belongs to the horizontal coordinate axis and indicates its orientation."
-}

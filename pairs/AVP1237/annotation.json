@@ -1,0 +1,108 @@
+{
+  "pair_id": "AVP1237",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1237",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 20 (left) and 20° (right).",
+    "left_evidence": "The notation 20 appears beside the sloping side opposite the pink square.",
+    "right_evidence": "The notation 20° appears at the tip of the curved annotation near Z.",
+    "left_meaning": "20 gives the hypotenuse length.",
+    "right_meaning": "20° measures the marked angle where the long oblique line meets the baseline.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a hypotenuse length. The notation on the right represents an angle measure."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "386",
+    "sample_index": "386",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 247,
+      "img_width": 164,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/386.jpg",
+    "sha256": "09520717c4c2b7d85b9fd820cea449b248424b70094030b30d76450c215e67f4",
+    "width": 164,
+    "height": 247,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1237/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "360",
+    "sample_index": "360",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 370,
+      "img_width": 721,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/360.jpg",
+    "sha256": "6387ed1337173466d6609810f205dd8b7e5f8a590898665c7e3531ed8160a076",
+    "width": 721,
+    "height": 370,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1237/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1237",
+    "condition": "condition/numeric_representation/AVP1237"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 20 gives the hypotenuse length. Right image: 20° measures the marked angle where the long oblique line meets the baseline.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a hypotenuse length. The notation on the right represents an angle measure."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 20 (left) and 20° (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 20 appears beside the sloping side opposite the pink square. The notation 20° appears at the tip of the curved annotation near Z.",
+    "eligible_for_strict_scoring": true
+  }
+}

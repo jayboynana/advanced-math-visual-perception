@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The left side measures six feet. Right image: The curve crosses back to zero height at time six seconds.",
+  "mathematical_meanings": "Left image: 6 ft measures the slanted side. Right image: 6 s is the time at which the height returns to zero.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of length with a specified unit, while the right context gives it the role of time in seconds."
+  "Rationales": "The notation on the left represents a segment length. The notation on the right represents a time coordinate."
 }

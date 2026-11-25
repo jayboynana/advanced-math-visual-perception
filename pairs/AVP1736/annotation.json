@@ -1,0 +1,86 @@
+{
+  "pair_id": "AVP1736",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1736",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_vs_state_name",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A.",
+    "left_evidence": "A at the apex above base BC.",
+    "right_evidence": "A at the label inside the blue node with a loop.",
+    "left_meaning": "A names a specific point in the diagram (the apex above base BC).",
+    "right_meaning": "A names a state in the transition diagram (the label inside the blue node with a loop).",
+    "same_meaning": false,
+    "reason": "On the left, A names a specific point in the diagram (the apex above base BC). On the right, A names a state in the transition diagram (the label inside the blue node with a loop)."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "13",
+    "sample_index": "13",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image13.png",
+    "sha256": "2676247997574b5dd239a7eb167c17efee45e90d3830e17ad41c0a7278725e8f",
+    "width": 240,
+    "height": 166,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1736/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "72",
+    "sample_index": "72",
+    "problem_version": "sample_variant1",
+    "source_subject": "statistics",
+    "source_metadata": {
+      "subject": "statistics",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image72.png",
+    "sha256": "174cabc1dbcad56950e31d3908e52e3197d7153fce95ada9716029cfea6aa14d",
+    "width": 562,
+    "height": 559,
+    "original_image_modified": false,
+    "image_type": "network_diagram",
+    "image_path": "pairs/AVP1736/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1736",
+    "condition": "condition/symbolic_roles/AVP1736"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: A names a specific point in the diagram (the apex above base BC). Right image: A names a state in the transition diagram (the label inside the blue node with a loop).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, A names a specific point in the diagram (the apex above base BC). On the right, A names a state in the transition diagram (the label inside the blue node with a loop)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter A.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A at the apex above base BC. A at the label inside the blue node with a loop.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1622",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1622",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hollow_circle",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled circular outline.",
+    "left_evidence": "The hollow circle at the right end of the curve at (3, 2).",
+    "right_evidence": "The blue circle crossing the axes at unit distance from the origin.",
+    "left_meaning": "The open endpoint excludes (3, 2) from the function graph.",
+    "right_meaning": "The outline is the unit circle in the coordinate plane.",
+    "same_meaning": false,
+    "reason": "The feature marks an ordered pair excluded from the plotted trace in the left image and traces the circumference of a geometric circle in the right image. The hollow circle at the right end of the curve at (3, 2). The blue circle crossing the axes at unit distance from the origin."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "484",
+    "sample_index": "2419",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_484.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1622/left.png",
+    "sha256": "5844c98a000daf3806a1c699045613c63c06ebbe30edba41f4327d3f6d6af7e8",
+    "width": 461,
+    "height": 465
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "47",
+    "sample_index": "47",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image47.png",
+    "sha256": "1eb9e9ec0180feb5800a8e18ce034ebc187554c0322f194585d9542de33d4a3f",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1622/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1622",
+    "condition": "condition/graphical_roles/AVP1622"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The open endpoint excludes (3, 2) from the function graph. Right image: The outline is the unit circle in the coordinate plane.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature marks an ordered pair excluded from the plotted trace in the left image and traces the circumference of a geometric circle in the right image. The hollow circle at the right end of the curve at (3, 2). The blue circle crossing the axes at unit distance from the origin."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An unfilled circular outline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The hollow circle at the right end of the curve at (3, 2). The blue circle crossing the axes at unit distance from the origin.",
+    "eligible_for_strict_scoring": true
+  }
+}

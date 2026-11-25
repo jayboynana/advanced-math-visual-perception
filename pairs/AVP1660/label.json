@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The hollow circle marks a hole in the plotted curve. Right image: The hollow circle excludes the origin from the displayed graph.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature marks an ordered pair excluded from the plotted trace. The hollow circle on the red trace at x = 1, above the corresponding filled point. The hollow circle at the origin where the rising trace starts."
+}

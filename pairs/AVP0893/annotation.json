@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0893",
-  "authoring_id": "V04GR018",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0893",
   "condition": "graphical_roles",
   "condition_name": "Mathematical roles of graphical elements",
-  "subcondition": "occluded_circular_rim",
+  "subcondition": "dashed_curve",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The curved dashed arc at the rear of the cone base.",
+    "right_evidence": "The dashed arc on the back half of the right cylinder end.",
+    "left_meaning": "The dashed arc draws the hidden part of the circular cone base.",
+    "right_meaning": "The dashed arc represents the hidden portion of the rim of the cylinder’s right end.",
+    "same_meaning": true,
+    "reason": "In both images the feature shows the occluded part of the circular rim of a solid. The curved dashed arc at the rear of the cone base. The dashed arc on the back half of the right cylinder end."
+  },
   "left": {
     "dataset": "MathVista",
     "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
@@ -68,27 +80,26 @@
       "media_type": "image/jpeg"
     }
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "A dashed curved portion of a circular rim in a drawing of a solid.",
-    "left_evidence": "The dashed rear arc on the base of the cone to the right of the transformation arrow.",
-    "right_evidence": "The dashed arc on the inner side of the right end of the horizontal cylinder.",
-    "left_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
-    "right_meaning": "The occluded rear portion of a circular base rim in a solid drawing.",
-    "same_meaning": true,
-    "reason": "Each broken arc completes the far side of a rim whose near side is solid. The dashes specify which part of the circular rim is hidden in the depicted view."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The occluded rear portion of a circular base rim in a solid drawing. Right image: The occluded rear portion of a circular base rim in a solid drawing.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "Each broken arc completes the far side of a rim whose near side is solid. The dashes specify which part of the circular rim is hidden in the depicted view."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
   "views": {
     "type": "type/same type/AVP0893",
     "condition": "condition/graphical_roles/AVP0893"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curved portion of a circular rim in a drawing of a solid."
+  "label": {
+    "mathematical_meanings": "Left image: The dashed arc draws the hidden part of the circular cone base. Right image: The dashed arc represents the hidden portion of the rim of the cylinder’s right end.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature shows the occluded part of the circular rim of a solid. The curved dashed arc at the rear of the cone base. The dashed arc on the back half of the right cylinder end."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The curved dashed arc at the rear of the cone base. The dashed arc on the back half of the right cylinder end.",
+    "eligible_for_strict_scoring": true
+  }
 }

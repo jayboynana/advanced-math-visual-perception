@@ -1,0 +1,86 @@
+{
+  "pair_id": "AVP1144",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1144",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "vertical_upward_arrow_north_reference",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward arrow on a straight vertical line.",
+    "left_evidence": "The upward arrow under North at the upper left of the diagram.",
+    "right_evidence": "The arrow under North near the right side.",
+    "left_meaning": "The arrow gives the north reference of the construction.",
+    "right_meaning": "The arrow sets the reference direction for north.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the arrow sets the compass-north reference for the geometry."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1562",
+    "sample_index": "1562",
+    "problem_version": "3steps_3",
+    "image_type": "geometry",
+    "source_subject": "Understanding and Representing Angles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_152",
+      "step_variant": "3steps_3"
+    },
+    "original_relative_path": "152-3.png",
+    "sha256": "a64cfa3595a3b77ed71d8d4310bd52b8ef2626e171147f5b028e1260de35dc1f",
+    "width": 686,
+    "height": 326,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1144/left.jpg"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1407",
+    "sample_index": "1407",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Rotation",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_162",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "162-2.png",
+    "sha256": "3e0f8aa4ea50881c2f05fa94d45563f03cd50b351cb3081d49564822eeea442f",
+    "width": 850,
+    "height": 332,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1144/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1144",
+    "condition": "condition/geometric_markers/AVP1144"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arrow gives the north reference of the construction. Right image: The arrow sets the reference direction for north.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the arrow sets the compass-north reference for the geometry."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An upward arrow on a straight vertical line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The upward arrow under North at the upper left of the diagram. The arrow under North near the right side.",
+    "eligible_for_strict_scoring": true
+  }
+}

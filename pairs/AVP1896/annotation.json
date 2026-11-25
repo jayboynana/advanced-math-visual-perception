@@ -1,0 +1,86 @@
+{
+  "pair_id": "AVP1896",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1896",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_name_vs_point",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A.",
+    "left_evidence": "A at the upper-left corner of the rectangle.",
+    "right_evidence": "A at the angle arc above the upper horizontal line.",
+    "left_meaning": "A names a specific point in the diagram (the upper-left corner of the rectangle).",
+    "right_meaning": "A identifies the marked angle (the angle arc above the upper horizontal line).",
+    "same_meaning": false,
+    "reason": "On the left, A names a specific point in the diagram (the upper-left corner of the rectangle). On the right, A identifies the marked angle (the angle arc above the upper horizontal line)."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "281",
+    "sample_index": "281",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image281.png",
+    "sha256": "b93a430a42a30fb0e218a554679928f00fa3027e423ef4a597f908f0918f476f",
+    "width": 980,
+    "height": 639,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1896/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "184",
+    "sample_index": "184",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image184.png",
+    "sha256": "066f94d46d9de0643b89a662d672eb14362f7065876e27b4aed8979bce7a9155",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1896/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1896",
+    "condition": "condition/symbolic_roles/AVP1896"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: A names a specific point in the diagram (the upper-left corner of the rectangle). Right image: A identifies the marked angle (the angle arc above the upper horizontal line).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, A names a specific point in the diagram (the upper-left corner of the rectangle). On the right, A identifies the marked angle (the angle arc above the upper horizontal line)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter A.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A at the upper-left corner of the rectangle. A at the angle arc above the upper horizontal line.",
+    "eligible_for_strict_scoring": true
+  }
+}

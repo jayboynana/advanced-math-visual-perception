@@ -1,0 +1,86 @@
+{
+  "pair_id": "AVP1893",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1893",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "point_vs_square_region",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A.",
+    "left_evidence": "A at the apex between the sides labeled 8 and 11.",
+    "right_evidence": "A at the label inside the large tilted square.",
+    "left_meaning": "A names a specific point in the diagram (the apex between the sides labeled 8 and 11).",
+    "right_meaning": "A identifies a square region (the label inside the large tilted square).",
+    "same_meaning": false,
+    "reason": "On the left, A names a specific point in the diagram (the apex between the sides labeled 8 and 11). On the right, A identifies a square region (the label inside the large tilted square)."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "206",
+    "sample_index": "206",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image206.png",
+    "sha256": "e5ed14c5dcae61a8b071383279afc51812ed41c4c15e7528d4bfac4139a7e92c",
+    "width": 356,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1893/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "85",
+    "sample_index": "85",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image85.png",
+    "sha256": "c9e3d76b5f4ba5c87d0a17af718af61356da0c837e9bd95127383639c6f01529",
+    "width": 1181,
+    "height": 1331,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1893/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1893",
+    "condition": "condition/symbolic_roles/AVP1893"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: A names a specific point in the diagram (the apex between the sides labeled 8 and 11). Right image: A identifies a square region (the label inside the large tilted square).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, A names a specific point in the diagram (the apex between the sides labeled 8 and 11). On the right, A identifies a square region (the label inside the large tilted square)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter A.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A at the apex between the sides labeled 8 and 11. A at the label inside the large tilted square.",
+    "eligible_for_strict_scoring": true
+  }
+}

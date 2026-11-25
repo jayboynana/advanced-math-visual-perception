@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dashed trace is a cubic-shaped function graph used for comparison with the solid trace. Right image: The dashed arc shows the hidden part of the cylinder’s circular bottom rim.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots the values of a function in the left image and shows the occluded part of the circular rim of a solid in the right image. The red dashed increasing cubic-shaped curve to the right of the blue trace. The dashed arc at the rear of the lower cylinder rim."
+}

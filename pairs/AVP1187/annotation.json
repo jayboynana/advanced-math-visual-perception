@@ -1,0 +1,86 @@
+{
+  "pair_id": "AVP1187",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1187",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "horizontal_span_arrow_spatial_dimension",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal double-headed arrow separate from the coordinate axes.",
+    "left_evidence": "The long horizontal double-headed arrow above the cylinder.",
+    "right_evidence": "The horizontal double-headed arrow across the lower circular face.",
+    "left_meaning": "The arrow gives the cylinder's 9 dm axial length.",
+    "right_meaning": "The arrow gives the cylinder's base diameter, 6 dm.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the endpoints of the arrow delimit a spatial length on the construction."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "654",
+    "sample_index": "654",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Volume and Capacity of Cylinders",
+    "source_metadata": {
+      "upstream_group_id": "2steps_294",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "294-2.png",
+    "sha256": "efa9ccb1cf534c6d6e676c7949a98e1a34e1119142a44ccbe674a72bed6a7396",
+    "width": 673,
+    "height": 207,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1187/left.png"
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "442",
+    "sample_index": "442",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Surface Area of Cylinders",
+    "source_metadata": {
+      "upstream_group_id": "2steps_82",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "82-2.png",
+    "sha256": "d34680f3468cd482d9f18c65d21155961964e47c99a1b2c787905a35b6b060dd",
+    "width": 472,
+    "height": 476,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1187/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1187",
+    "condition": "condition/geometric_markers/AVP1187"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arrow gives the cylinder's 9 dm axial length. Right image: The arrow gives the cylinder's base diameter, 6 dm.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the endpoints of the arrow delimit a spatial length on the construction."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal double-headed arrow separate from the coordinate axes.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The long horizontal double-headed arrow above the cylinder. The horizontal double-headed arrow across the lower circular face.",
+    "eligible_for_strict_scoring": true
+  }
+}

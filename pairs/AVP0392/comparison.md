@@ -7,16 +7,16 @@ MathVerse:344 / MathVista:723 · different type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The letter b
+The lowercase letter b.
 
 ## Evidence locations
 
-- Left image: b° beside the angle between the downward vertical and the slanted route
-- Right image: b above its tick on the bottom horizontal axis
+- Left image: b at the b° label at O beside the dashed flight segment.
+- Right image: b at the label under the middle marked horizontal position.
 
 ## Mathematical meanings
 
-Left image: b denotes the unknown direction angle in degrees. Right image: b denotes a selected horizontal input-coordinate value.
+Left image: b gives an unknown angle measure (the b° label at O beside the dashed flight segment). Right image: b denotes a specific value on the horizontal input axis (the label under the middle marked horizontal position).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-On the left, attachment to b° beside the angle between the downward vertical and the slanted route supports the meaning: b denotes the unknown direction angle in degrees. On the right, the context is b above its tick on the bottom horizontal axis, where b denotes a selected horizontal input-coordinate value. The same visible notation is assigned to different mathematical objects or quantities in these contexts.
+On the left, b represents an unknown angle measure (the b° label at O beside the dashed flight segment). On the right, b denotes a specific value on the horizontal input axis (the label under the middle marked horizontal position).
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

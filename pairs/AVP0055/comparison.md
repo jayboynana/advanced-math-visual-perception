@@ -7,16 +7,16 @@ MathVerse:346 / MathVerse:374 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The lowercase letter x
+The lowercase letter x.
 
 ## Evidence locations
 
-- Left image: x between the slanted line and horizontal base at C
-- Right image: x below the horizontal base of the right triangle
+- Left image: x at the wedge between the base and slanted side at C.
+- Right image: x at the label below the right triangle’s base.
 
 ## Mathematical meanings
 
-Left image: x denotes the unknown angle at C. Right image: x denotes the unknown length of the horizontal base.
+Left image: x gives an unknown angle measure (the wedge between the base and slanted side at C). Right image: x gives an unknown length (the label below the right triangle’s base).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The same letter is attached to an angle in one image and a segment length in the other.
+On the left, x represents an unknown angle measure (the wedge between the base and slanted side at C). On the right, x represents an unknown length (the label below the right triangle’s base).
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

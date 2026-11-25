@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1348",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1348",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4.",
+    "left_evidence": "The notation 4 appears in the formula y = 4 − x.",
+    "right_evidence": "The notation 4 appears in 4x by chord TY.",
+    "left_meaning": "4 is the constant term of the linear expression.",
+    "right_meaning": "4 multiplies x to give chord length TY.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a constant term. The notation on the right represents a variable coefficient."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "626",
+    "sample_index": "3129",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_626.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1348/left.jpg",
+    "sha256": "7f48e246f7eeeccb7a60e8e3ff8ff3565f4263ce773daa3cc6b22259fb45e5cf",
+    "width": 777,
+    "height": 748
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "283",
+    "sample_index": "283",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 416,
+      "img_width": 559,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/283.jpg",
+    "sha256": "9de293335d92359fe2610442a97462071b79ff59bd70efecfcdb4ff6b3214103",
+    "width": 559,
+    "height": 416,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1348/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1348",
+    "condition": "condition/numeric_representation/AVP1348"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 4 is the constant term of the linear expression. Right image: 4 multiplies x to give chord length TY.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a constant term. The notation on the right represents a variable coefficient."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 4.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 4 appears in the formula y = 4 − x. The notation 4 appears in 4x by chord TY.",
+    "eligible_for_strict_scoring": true
+  }
+}

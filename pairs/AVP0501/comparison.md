@@ -7,16 +7,16 @@ MV-MATH:1854_2 / MathVerse:439 · same type · Numeric representation and conver
 
 ## Shared or similar visual information
 
-The numerical notations 45° and π/4.
+The numerical notations 45° (left) and π/4 (right).
 
 ## Evidence locations
 
-- Left image: The 45° inside the lower-right vertex B of triangle ABH.
-- Right image: The π/4 printed inside the angle arc at the origin of the quarter-circle diagram.
+- Left image: The notation 45° appears beside the angle arc at B.
+- Right image: The notation π/4 appears beside the arc at the origin.
 
 ## Mathematical meanings
 
-Left image: The angle between BA and BH at B measures 45 degrees. Right image: The indicated angle measures π/4 radians.
+Left image: 45° measures the angle between BA and BH. Right image: π/4 radians measures the angle at the origin between the positive horizontal ray and OA.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-π/4 radians equals 45 degrees. The two labels both measure an angle.
+π/4 radians equals 45°, and both notations measure the marked angle in their respective diagrams.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

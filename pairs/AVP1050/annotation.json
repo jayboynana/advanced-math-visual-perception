@@ -1,0 +1,92 @@
+{
+  "pair_id": "AVP1050",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1050",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "circular_arc_shape_boundary_vs_angle_selection",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A circular arc.",
+    "left_evidence": "The upper curved outline above the 52.72 cm dimension arrow.",
+    "right_evidence": "The arc edge of the gray wedge at D.",
+    "left_meaning": "The arc is the semicircular boundary above the diameter.",
+    "right_meaning": "The arc marks the 110-degree angle CDE.",
+    "same_meaning": false,
+    "reason": "In the left image, the arc forms a part of the boundary of a geometric figure. In the right image, the arc is drawn inside a vertex angle to show which angle is selected."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "402",
+    "sample_index": "2009",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_402.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1050/left.png",
+    "sha256": "9697e90cfeb653f6e4c21db03483e29fcf9e42d3edf41bb6bab729c4c588dc9f",
+    "width": 667,
+    "height": 354
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2231",
+    "sample_index": "2231",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "2231",
+      "question": "As shown in the figure below, point $E$ lies on the opposite half-plane determined by line $CD$ from point $A$ so that $\\angle CDE = 110^\\circ$. Point $F$ lies on $\\overline{AD}$ so that $DE=DF$, and $ABCD$ is a square. What is the degree measure of $\\angle AFE?$\n<image1>",
+      "options": [],
+      "image": "images/2231.jpg",
+      "level": 2,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/2231.jpg",
+    "sha256": "ec69b9813e8d570c3c3c495812be3af4bdc7537ac729a4117d9f137b71abede4",
+    "width": 616,
+    "height": 550,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1050/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1050",
+    "condition": "condition/geometric_markers/AVP1050"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc is the semicircular boundary above the diameter. Right image: The arc marks the 110-degree angle CDE.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the arc forms a part of the boundary of a geometric figure. In the right image, the arc is drawn inside a vertex angle to show which angle is selected."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A circular arc.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The upper curved outline above the 52.72 cm dimension arrow. The arc edge of the gray wedge at D.",
+    "eligible_for_strict_scoring": true
+  }
+}

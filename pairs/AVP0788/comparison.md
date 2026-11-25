@@ -7,16 +7,16 @@ MV-MATH:563_1 / DynaMath:11 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The letter O
+The uppercase letter O.
 
 ## Evidence locations
 
-- Left image: O at the left endpoint of the two rays enclosing the small arc
-- Right image: O where the horizontal line and oblique rays meet
+- Left image: O at the common endpoint of the two rays at the marked angle.
+- Right image: O at the common intersection of the horizontal and sloping lines.
 
 ## Mathematical meanings
 
-Left image: The symbol "O" names the common point of the rays that form an angle. Right image: The symbol "O" names the common point of the rays that form an angle.
+Left image: O names a specific point in the diagram (the common endpoint of the two rays at the marked angle). Right image: O names a specific point in the diagram (the common intersection of the horizontal and sloping lines).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The left occurrence is O at the left endpoint of the two rays enclosing the small arc. The right occurrence is O where the horizontal line and oblique rays meet. The placement in each image shows that the symbol names the common point of the rays that form an angle.
+In both images, O names a specific point in the diagram. The relevant locations are the common endpoint of the two rays at the marked angle on the left and the common intersection of the horizontal and sloping lines on the right.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

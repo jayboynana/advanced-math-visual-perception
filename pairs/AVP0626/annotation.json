@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0626",
-  "authoring_id": "V04GM001",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0626",
   "condition": "geometric_markers",
   "condition_name": "Geometric markers",
   "subcondition": "right_angle_square_same",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A small square placed where two segments meet.",
+    "left_evidence": "The small outlined square at F beside the vertical segment BF.",
+    "right_evidence": "The tilted square between AB and AC inside the circle.",
+    "left_meaning": "BF is perpendicular to the horizontal base at F.",
+    "right_meaning": "AB and AC meet at a right angle at A.",
+    "same_meaning": true,
+    "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  },
   "left": {
     "dataset": "We-Math",
     "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
@@ -49,27 +61,26 @@
     "original_image_modified": false,
     "image_path": "pairs/AVP0626/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "A small square placed where two segments meet.",
-    "left_evidence": "The small outlined square at F beside the vertical segment BF.",
-    "right_evidence": "The tilted square between AB and AC inside the circle.",
-    "left_meaning": "BF is perpendicular to the horizontal base at F.",
-    "right_meaning": "AB and AC meet at a right angle at A.",
-    "same_meaning": true,
-    "reason": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
+  "views": {
+    "type": "type/same type/AVP0626",
+    "condition": "condition/geometric_markers/AVP0626"
   },
   "label": {
     "mathematical_meanings": "Left image: BF is perpendicular to the horizontal base at F. Right image: AB and AC meet at a right angle at A.",
     "same_mathematical_meanings": "yes",
     "Rationales": "The corner box lies inside the angle between the selected segments on each side. That placement marks a perpendicular intersection in both diagrams."
   },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
-  "views": {
-    "type": "type/same type/AVP0626",
-    "condition": "condition/geometric_markers/AVP0626"
-  },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A small square placed where two segments meet."
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A small square placed where two segments meet.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The small outlined square at F beside the vertical segment BF. The tilted square between AB and AC inside the circle.",
+    "eligible_for_strict_scoring": true
+  }
 }

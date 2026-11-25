@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The segment is the diagonal joining opposite square vertices. Right image: The straight trace plots a decreasing linear function.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature connects opposite vertices of a quadrilateral in the left image and plots a linear relationship between coordinates in the right image. The descending segment joining A to B within the square. The cyan falling line crossing the y-axis at 2 and x-axis at 1."
+}

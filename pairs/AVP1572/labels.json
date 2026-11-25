@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shaded points constitute the solution region on one side of the linear boundary. Right image: The shading designates the entire area inside the equilateral triangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane on the right side of the solid oblique boundary. The lavender triangle with three 2 in side labels."
+}

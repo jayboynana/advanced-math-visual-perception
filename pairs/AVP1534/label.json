@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading selects the planar area left after removing the white triangular cutout. Right image: The shading selects the central area left outside the four corner sectors.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature selects a geometric area. The single dark polygonal patch sharing the right side of the outer figure. The pale blue central patch between four quarter-circle arcs in the square."
+}

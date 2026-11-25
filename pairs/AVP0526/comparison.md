@@ -7,16 +7,16 @@ MathVista:661 / DynaMath:12 · same type · Numeric representation and conversio
 
 ## Shared or similar visual information
 
-The numerical notation −π/2 in both images.
+The numerical notation −π.
 
 ## Evidence locations
 
-- Left image: The −π/2 beneath the first negative special-value tick of the tangent plot's horizontal axis.
-- Right image: The −π/2 below the labeled tick immediately to the left of the vertical axis.
+- Left image: The notation −π appears at the negative tangent zero on the horizontal axis.
+- Right image: The notation −π appears the x-axis tick between −3π/2 and −π/2.
 
 ## Mathematical meanings
 
-Left image: The selected horizontal tick denotes coordinate −π/2. Right image: The tick denotes horizontal coordinate negative π/2.
+Left image: −π gives the angle input at the marked negative zero. Right image: −π is the horizontal input coordinate at that tick.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both cues identify the same horizontal coordinate value, −π/2. The evidence is the selected axis position or coordinate component in each image.
+The numeral gives the same horizontal coordinate in both images.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

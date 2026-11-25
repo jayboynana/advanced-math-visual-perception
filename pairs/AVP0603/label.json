@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The angle between AH and AB at A measures 40 degrees. Right image: The selected tick marks a temperature value of 40 on the chart's vertical scale.",
+  "mathematical_meanings": "Left image: 40° gives the angle at A between AB and AH. Right image: 40 is a tick value on the temperature axis.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of temperature scale value."
+  "Rationales": "The notation on the left represents an angle measure. The notation on the right represents a temperature scale value."
 }

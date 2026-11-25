@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The angle region identifies the angle being discussed between the two rays at A, annotated as 45°. Right image: The angle region identifies the angle being discussed between the two sides at D, annotated as 45°.",
+  "mathematical_meanings": "Left image: The wedge marks the angle between the two rays at A, measuring 45°. Right image: The wedge marks the angle between the two radii of the sector, measuring 36°.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both regions bind the 45° annotation to a specific vertex angle; the different fill colors do not change this function."
+  "Rationales": "The colored wedge identifies which pair of rays bounds the labeled angle in each diagram."
 }

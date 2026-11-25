@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The horizontal piece plots constant area S = 16 over that time interval. Right image: The horizontal piece plots constant S over a time interval.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature plots a constant function output over an interval. The flat top of the plotted trace between t = 4 and t = 8, at S = 16. The horizontal piece between the rising and falling parts of the plotted trace."
+}

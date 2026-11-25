@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0697",
-  "authoring_id": "V04GM072",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0697",
   "condition": "geometric_markers",
   "condition_name": "Geometric markers",
-  "subcondition": "dimension_arrow_vs_wave_period",
+  "subcondition": "horizontal_span_arrow_spatial_dimension_vs_function_period",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal double-headed arrow separate from the coordinate axes.",
+    "left_evidence": "The lower horizontal double-headed arrow.",
+    "right_evidence": "The magenta arrow joining the first two peaks near y = 50.",
+    "left_meaning": "The arrow gives the cylinder's 20 cm base diameter.",
+    "right_meaning": "The arrow gives one period of the graph, from t = 1 to t = 5.",
+    "same_meaning": false,
+    "reason": "In the left image, the endpoints of the arrow delimit a spatial length on the construction. In the right image, the arrow spans the horizontal distance between successive peaks of a periodic graph."
+  },
   "left": {
     "dataset": "We-Math",
     "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
@@ -47,31 +59,30 @@
     "original_image_modified": false,
     "image_type": "function",
     "image_path": "pairs/AVP0697/right.png",
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe",
     "width": 292,
-    "height": 296,
-    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe"
+    "height": 296
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "A horizontal double-ended arrow.",
-    "left_evidence": "The horizontal double-ended arrow labeled 20 cm below the cylinder.",
-    "right_evidence": "The magenta double-ended arrow from one peak to the next.",
-    "left_meaning": "It measures the diameter of the cylinder base.",
-    "right_meaning": "It marks the horizontal repetition interval of the waveform.",
-    "same_meaning": false,
-    "reason": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: It measures the diameter of the cylinder base. Right image: It marks the horizontal repetition interval of the waveform.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
   "views": {
     "type": "type/different type/AVP0697",
     "condition": "condition/geometric_markers/AVP0697"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal double-ended arrow."
+  "label": {
+    "mathematical_meanings": "Left image: The arrow gives the cylinder's 20 cm base diameter. Right image: The arrow gives one period of the graph, from t = 1 to t = 5.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the endpoints of the arrow delimit a spatial length on the construction. In the right image, the arrow spans the horizontal distance between successive peaks of a periodic graph."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal double-headed arrow separate from the coordinate axes.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The lower horizontal double-headed arrow. The magenta arrow joining the first two peaks near y = 50.",
+    "eligible_for_strict_scoring": true
+  }
 }

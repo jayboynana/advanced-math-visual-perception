@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0004",
-  "authoring_id": "NR04",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0004",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_radical_length",
+  "subcondition": "radical_length_vs_scaled_radical_length",
   "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The radical length labels √3 and 4√3.",
+    "left_evidence": "√3 beside vertical leg AB.",
+    "right_evidence": "4√3 beside the vertical leg.",
+    "left_meaning": "√3 is the length of leg AB.",
+    "right_meaning": "4√3 is the length of the vertical leg.",
+    "same_meaning": false,
+    "reason": "Both labels give a right-triangle leg length, and the right value is four times the left value."
+  },
   "left": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
@@ -15,7 +27,6 @@
     "problem_index": "369",
     "sample_index": "1844",
     "problem_version": "Vision Dominant",
-    "image_type": "geometry",
     "source_subject": "Plane Geometry",
     "source_metadata": {
       "split": "testmini",
@@ -24,56 +35,56 @@
       "subfield": "Length"
     },
     "original_relative_path": "images_version_5/image_369.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
     "image_path": "pairs/AVP0004/left.png",
     "sha256": "e5031eabb94610b56b4ea8fd9e381d24b62d547331026a258b0808a34b7ef148",
     "width": 209,
-    "height": 235,
-    "original_image_modified": false
+    "height": 235
   },
   "right": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
     "config": "testmini",
     "split": "testmini",
-    "problem_index": "755",
-    "sample_index": "3774",
+    "problem_index": "375",
+    "sample_index": "1874",
     "problem_version": "Vision Dominant",
-    "image_type": "geometry",
     "source_subject": "Plane Geometry",
     "source_metadata": {
       "split": "testmini",
-      "source": "GEOS",
+      "source": "Geo2D_collected",
       "subject": "Plane Geometry",
       "subfield": "Length"
     },
-    "original_relative_path": "images_version_5/image_755.png",
+    "original_relative_path": "images_version_5/image_375.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
     "image_path": "pairs/AVP0004/right.png",
-    "sha256": "61b20e48410f4528bc8e57551a04ae3bb7b7f36b8abc94bfc0a0286db8e936af",
-    "width": 433,
-    "height": 448,
-    "original_image_modified": false
+    "sha256": "35e714d8dcc200f1acebdff51240b07c2e83d02d98f07156009ace6927dbb316",
+    "width": 242,
+    "height": 231
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The radical value √3 in both images.",
-    "left_evidence": "The label √3 beside side AB on the left of the triangle.",
-    "right_evidence": "The label √3 beside the left sloping side of the small right triangle at the top of the composite figure.",
-    "left_meaning": "The corresponding segment has length √3.",
-    "right_meaning": "The corresponding segment has length √3.",
-    "same_meaning": true,
-    "reason": "The complete radical and its role as a segment length match; the segments need not be the identical geometric object."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The corresponding segment has length √3. Right image: The corresponding segment has length √3.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The complete radical and its role as a segment length match; the segments need not be the identical geometric object."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. Only the upper-left √3 label in image 755 is selected; multiple occurrences are not combined into separate targets.",
   "views": {
     "type": "type/same type/AVP0004",
     "condition": "condition/numeric_representation/AVP0004"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The radical value √3 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: √3 is the length of leg AB. Right image: 4√3 is the length of the vertical leg.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "Both labels give a right-triangle leg length, and the right value is four times the left value."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The radical length labels √3 and 4√3.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "√3 beside vertical leg AB. 4√3 beside the vertical leg.",
+    "eligible_for_strict_scoring": true
+  }
 }

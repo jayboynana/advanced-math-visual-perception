@@ -7,16 +7,16 @@ MV-MATH:10_3 / DynaMath:489 · different type · Numeric representation and conv
 
 ## Shared or similar visual information
 
-The numerical notation 8 in both images.
+The numerical notation 8.
 
 ## Evidence locations
 
-- Left image: The 8 outside the rectangle beside its left edge.
-- Right image: The 8 in the top row and second column of matrix A.
+- Left image: The notation 8 appears beside the left side of the diagram.
+- Right image: The notation 8 appears top-right cell of matrix A.
 
 ## Mathematical meanings
 
-Left image: The rectangle's left edge has length value 8. Right image: Matrix A has entry 8 at row 1, column 2.
+Left image: 8 gives the labeled vertical extent. Right image: 8 is the top-right entry of A.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of geometric length, while the right context gives it the role of matrix entry.
+The notation on the left represents a segment length. The notation on the right represents a matrix entry.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

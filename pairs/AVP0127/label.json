@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The variable x is squared; 2 is its exponent. Right image: The expression x−2 is squared; 2 is the exponent.",
+  "mathematical_meanings": "Left image: The variable x is squared in the displayed function rule. Right image: The expression x − 2 is squared for the right-hand branch.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both selected superscripts are exponent 2 and denote squaring of their respective bases. The bases x and x−2 need not be equal."
+  "Rationales": "The exponent 2 applies squaring to the base shown in each formula."
 }

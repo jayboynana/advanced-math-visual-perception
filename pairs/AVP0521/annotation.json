@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0521",
-  "authoring_id": "V04NR021",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0521",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_x_coordinate",
+  "subcondition": "same_coordinate_notation",
   "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 5.",
+    "left_evidence": "The notation 5 appears on the x-axis beneath the second vertical guide.",
+    "right_evidence": "The notation 5 appears first entry of the orange point label (5, 2, 1).",
+    "left_meaning": "5 is the horizontal coordinate of the segment's right endpoint.",
+    "right_meaning": "5 gives the first coordinate of the orange point.",
+    "same_meaning": true,
+    "reason": "The numeral gives the same horizontal coordinate in both images."
+  },
   "left": {
     "dataset": "MV-MATH",
     "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
@@ -54,27 +66,26 @@
     "image_type": "solid_geometry",
     "image_path": "pairs/AVP0521/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 5 in both images.",
-    "left_evidence": "The 5 below the right vertical dashed guide at the second end of the segment.",
-    "right_evidence": "The initial 5 in the orange point label (5, 2, 1).",
-    "left_meaning": "The horizontal coordinate of the right segment endpoint is 5.",
-    "right_meaning": "The orange point's first coordinate is 5.",
-    "same_meaning": true,
-    "reason": "Both cues identify the same horizontal coordinate value, 5. The evidence is the selected axis position or coordinate component in each image."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The horizontal coordinate of the right segment endpoint is 5. Right image: The orange point's first coordinate is 5.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "Both cues identify the same horizontal coordinate value, 5. The evidence is the selected axis position or coordinate component in each image."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/different type/AVP0521",
     "condition": "condition/numeric_representation/AVP0521"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 5 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 5 is the horizontal coordinate of the segment's right endpoint. Right image: 5 gives the first coordinate of the orange point.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The numeral gives the same horizontal coordinate in both images."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 5.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 5 appears on the x-axis beneath the second vertical guide. The notation 5 appears first entry of the orange point label (5, 2, 1).",
+    "eligible_for_strict_scoring": true
+  }
 }

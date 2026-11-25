@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1160",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1160",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "vertical_dashed_line_perpendicular_height",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed line.",
+    "left_evidence": "The vertical dashed segment EF in the parallelogram.",
+    "right_evidence": "The vertical dashed leg below the airplane.",
+    "left_meaning": "The line represents the perpendicular height between the parallelogram bases.",
+    "right_meaning": "The line represents the vertical separation from the airplane to the lower horizontal reference.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: a vertical auxiliary segment marks a perpendicular height relative to a geometric base."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "497",
+    "sample_index": "497",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Parallelograms",
+    "source_metadata": {
+      "upstream_group_id": "2steps_137",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "137-2.png",
+    "sha256": "6aacd9327119294d8928814b0c38be3589cca1ea9c3750c7ccdf26d8008a762a",
+    "width": 266,
+    "height": 161,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1160/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "365",
+    "sample_index": "1824",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_365.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1160/right.png",
+    "sha256": "2a02911745dec6a69c756a29d3d77a7c9d3848e08866c3bebd38223dc1b8b32c",
+    "width": 419,
+    "height": 210
+  },
+  "views": {
+    "type": "type/same type/AVP1160",
+    "condition": "condition/geometric_markers/AVP1160"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line represents the perpendicular height between the parallelogram bases. Right image: The line represents the vertical separation from the airplane to the lower horizontal reference.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: a vertical auxiliary segment marks a perpendicular height relative to a geometric base."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A vertical dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The vertical dashed segment EF in the parallelogram. The vertical dashed leg below the airplane.",
+    "eligible_for_strict_scoring": true
+  }
+}

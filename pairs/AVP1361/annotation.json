@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1361",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1361",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_measure",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 60°.",
+    "left_evidence": "The notation 60° appears beside the arc left of D.",
+    "right_evidence": "The notation 60° appears beside the left base vertex.",
+    "left_meaning": "60° gives the angle between DC and DH.",
+    "right_meaning": "60° measures the inside angle at the left base vertex.",
+    "same_meaning": true,
+    "reason": "Each notation is placed next to the marked angle and specifies the same angle measure of 60°."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1855_2",
+    "sample_index": "1855_2",
+    "problem_version": "original",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "problem_id": 1855,
+      "subject": "Solid Geometry",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_198169e355ab3da4787bg_0097_2.jpg",
+    "sha256": "a741273f0f7754cab254edd36dff0ef4ec70d5604d3b6b3e103ff718d588133d",
+    "width": 431,
+    "height": 343,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1361/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "342",
+    "sample_index": "342",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 299,
+      "img_width": 405,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/342.jpg",
+    "sha256": "93e5258b782c40f8859455c43566e9cd804312a9ac3b808b281de64eb96dc793",
+    "width": 405,
+    "height": 299,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1361/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1361",
+    "condition": "condition/numeric_representation/AVP1361"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 60° gives the angle between DC and DH. Right image: 60° measures the inside angle at the left base vertex.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each notation is placed next to the marked angle and specifies the same angle measure of 60°."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 60°.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 60° appears beside the arc left of D. The notation 60° appears beside the left base vertex.",
+    "eligible_for_strict_scoring": true
+  }
+}

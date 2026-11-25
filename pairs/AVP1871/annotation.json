@@ -1,0 +1,108 @@
+{
+  "pair_id": "AVP1871",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1871",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "vertical_axis_same",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y.",
+    "left_evidence": "y at the upper end of the vertical axis passing through points 1 and 3.",
+    "right_evidence": "y at the upper arrow of the vertical axis beside g(x).",
+    "left_meaning": "y names the vertical coordinate axis (the upper end of the vertical axis passing through points 1 and 3).",
+    "right_meaning": "y names the vertical coordinate axis (the upper arrow of the vertical axis beside g(x)).",
+    "same_meaning": true,
+    "reason": "In both images, y names the vertical coordinate axis. The relevant locations are the upper end of the vertical axis passing through points 1 and 3 on the left and the upper arrow of the vertical axis beside g(x) on the right."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "294",
+    "sample_index": "294",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "scientific figure",
+      "grade": "college",
+      "img_height": 293,
+      "img_width": 247,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning",
+        "scientific reasoning"
+      ],
+      "source": "SciBench",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/294.jpg",
+    "sha256": "58d689e9ddc3b5f8a59beb8fb3fa50f703314a746e43d0f845fe6bac82fb867f",
+    "width": 247,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1871/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "37",
+    "sample_index": "37",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 410,
+      "img_width": 408,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/37.jpg",
+    "sha256": "27956cd805ac2460bd9ecdaf10ef34946958b1741750f7cf92f477e978210e04",
+    "width": 408,
+    "height": 410,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1871/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1871",
+    "condition": "condition/symbolic_roles/AVP1871"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: y names the vertical coordinate axis (the upper end of the vertical axis passing through points 1 and 3). Right image: y names the vertical coordinate axis (the upper arrow of the vertical axis beside g(x)).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, y names the vertical coordinate axis. The relevant locations are the upper end of the vertical axis passing through points 1 and 3 on the left and the upper arrow of the vertical axis beside g(x) on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter y.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "y at the upper end of the vertical axis passing through points 1 and 3. y at the upper arrow of the vertical axis beside g(x).",
+    "eligible_for_strict_scoring": true
+  }
+}

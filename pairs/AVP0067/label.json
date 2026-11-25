@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: y denotes the unknown total horizontal width of the construction. Right image: y denotes the function output determined by x.",
+  "mathematical_meanings": "Left image: y denotes the unknown total horizontal width of the construction. Right image: y names the vertical coordinate axis.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The selected uses are a length dimension and a function output variable."
+  "Rationales": "In the left image, y represents the unknown total horizontal width of the construction. In the right image, y is the name of the vertical coordinate axis."
 }

@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1680",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1680",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "circle_center_vs_origin",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter O.",
+    "left_evidence": "O at the dot on the line through the middle of the circle.",
+    "right_evidence": "O at the label at the crossing of the graph axes.",
+    "left_meaning": "O names the center of the circle (the dot on the line through the middle of the circle).",
+    "right_meaning": "O names the origin of the coordinate axes (the label at the crossing of the graph axes).",
+    "same_meaning": false,
+    "reason": "On the left, O names the center of the circle (the dot on the line through the middle of the circle). On the right, O names the origin of the coordinate axes (the label at the crossing of the graph axes)."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "219_1",
+    "sample_index": "219_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 219,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_b0b9f062b2d178a3a8f6g_0044_1.jpg",
+    "sha256": "08df38bbcdac59b1a4c7a0842c52588ab7c4d69780f4947952b82203a9709eac",
+    "width": 283,
+    "height": 197,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1680/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "963_1",
+    "sample_index": "963_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 963,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_01846c8e63bedc6d99ceg_0040_1.jpg",
+    "sha256": "658c59cf7c7e9d15bece1fe5c080c028e639df6dc9b80fc4906e5bd83ffc556e",
+    "width": 154,
+    "height": 157,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1680/right.jpg"
+  },
+  "views": {
+    "type": "type/different type/AVP1680",
+    "condition": "condition/symbolic_roles/AVP1680"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: O names the center of the circle (the dot on the line through the middle of the circle). Right image: O names the origin of the coordinate axes (the label at the crossing of the graph axes).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, O names the center of the circle (the dot on the line through the middle of the circle). On the right, O names the origin of the coordinate axes (the label at the crossing of the graph axes)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter O.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "O at the dot on the line through the middle of the circle. O at the label at the crossing of the graph axes.",
+    "eligible_for_strict_scoring": true
+  }
+}

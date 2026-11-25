@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0548",
-  "authoring_id": "V04NR048",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0548",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "student_count_vs_score",
+  "subcondition": "numeral_role_difference",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 73.",
+    "left_evidence": "The notation 73 appears inside the green Grade 3 sector.",
+    "right_evidence": "The notation 73 appears Student A row and Science column.",
+    "left_meaning": "73 is the count of Grade 3 students.",
+    "right_meaning": "73 is Student A's science score.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a group count. The notation on the right represents a tabulated score."
+  },
   "left": {
     "dataset": "DynaMath",
     "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
@@ -49,27 +61,26 @@
     "image_type": "table",
     "image_path": "pairs/AVP0548/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 73 in both images.",
-    "left_evidence": "The 73 inside the green Grade 3 slice of the pie chart.",
-    "right_evidence": "The 73 in Student A's Science cell.",
-    "left_meaning": "The pie chart reports 73 students in Grade 3.",
-    "right_meaning": "The table records Student A's science score as 73.",
-    "same_meaning": false,
-    "reason": "The left context gives the number the role of number of students, while the right context gives it the role of score."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The pie chart reports 73 students in Grade 3. Right image: The table records Student A's science score as 73.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The left context gives the number the role of number of students, while the right context gives it the role of score."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/different type/AVP0548",
     "condition": "condition/numeric_representation/AVP0548"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 73 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 73 is the count of Grade 3 students. Right image: 73 is Student A's science score.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a group count. The notation on the right represents a tabulated score."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 73.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 73 appears inside the green Grade 3 sector. The notation 73 appears Student A row and Science column.",
+    "eligible_for_strict_scoring": true
+  }
 }

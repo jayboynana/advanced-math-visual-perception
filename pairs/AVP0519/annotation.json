@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0519",
-  "authoring_id": "V04NR019",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0519",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_y_coordinate",
+  "subcondition": "same_coordinate_notation",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 12/5 (left) and 2.4 (right).",
+    "left_evidence": "The notation 12/5 appears on the vertical axis beside the lower dashed guide.",
+    "right_evidence": "The notation 2.4 appears second coordinate of the lower orange point.",
+    "left_meaning": "12/5 is the output at the right-hand end of the segment.",
+    "right_meaning": "2.4 is the vertical coordinate at the marked trough.",
+    "same_meaning": true,
+    "reason": "12/5 and 2.4 denote equal values, and both give a vertical coordinate."
+  },
   "left": {
     "dataset": "MV-MATH",
     "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
@@ -52,31 +64,30 @@
     "original_image_modified": false,
     "image_type": "function",
     "image_path": "pairs/AVP0519/right.png",
+    "sha256": "851ec5a1cada2d7b88176a8c971320da0fd5254654370206c9abd00ecb3bf12d",
     "width": 360,
-    "height": 366,
-    "sha256": "851ec5a1cada2d7b88176a8c971320da0fd5254654370206c9abd00ecb3bf12d"
+    "height": 366
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notations 12/5 and 2.4.",
-    "left_evidence": "The stacked fraction 12/5 to the left of the lower horizontal dashed guide.",
-    "right_evidence": "The second component 2.4 in the orange point label with first component −(1/2)π.",
-    "left_meaning": "The vertical coordinate of the right segment endpoint is 12/5.",
-    "right_meaning": "The selected orange point has y-coordinate 2.4.",
-    "same_meaning": true,
-    "reason": "The fraction 12/5 is exactly 2.4. Each expression gives the vertical coordinate of a marked point."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The vertical coordinate of the right segment endpoint is 12/5. Right image: The selected orange point has y-coordinate 2.4.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The fraction 12/5 is exactly 2.4. Each expression gives the vertical coordinate of a marked point."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0519",
     "condition": "condition/numeric_representation/AVP0519"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 12/5 and 2.4."
+  "label": {
+    "mathematical_meanings": "Left image: 12/5 is the output at the right-hand end of the segment. Right image: 2.4 is the vertical coordinate at the marked trough.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "12/5 and 2.4 denote equal values, and both give a vertical coordinate."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 12/5 (left) and 2.4 (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 12/5 appears on the vertical axis beside the lower dashed guide. The notation 2.4 appears second coordinate of the lower orange point.",
+    "eligible_for_strict_scoring": true
+  }
 }

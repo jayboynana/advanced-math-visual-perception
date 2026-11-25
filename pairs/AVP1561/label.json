@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading selects the area between the chord and its circular arc. Right image: The shaded half-plane is the solution region of a strict linear inequality.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and selects the solution half-plane of a linear inequality in the right image. The dark segment enclosed by the chord and arc in the upper-right of the circle. The gray half-plane to the right of the falling dashed boundary."
+}

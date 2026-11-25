@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shaded points constitute the solution region on one side of the linear boundary. Right image: The shading selects the planar area left after removing the white triangular cutout.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane on the right side of the solid oblique boundary. The single dark polygonal patch sharing the right side of the outer figure."
+}

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The line is the graph of a decreasing linear function. Right image: The segment is a diagonal within the rectangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The straight line descending across the axes through a negative y-intercept. The descending segment joining opposite corners of the rectangle."
+}

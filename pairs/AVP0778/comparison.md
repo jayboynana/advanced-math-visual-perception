@@ -7,16 +7,16 @@ DynaMath:468 / DynaMath:473 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The letter B
+The uppercase letter A.
 
 ## Evidence locations
 
-- Left image: B below the green set circle
-- Right image: B below the circle with 3 and 7 in its right-only part
+- Left image: A at the label under the left circle containing 5 and 10 in its exclusive region.
+- Right image: A at the label under the left circle containing 4, 7 and 13 in its exclusive region.
 
 ## Mathematical meanings
 
-Left image: The symbol "B" names the set represented by the indicated circle. Right image: The symbol "B" names the set represented by the indicated circle.
+Left image: A names the set represented by the circle (the label under the left circle containing 5 and 10 in its exclusive region). Right image: A names the set represented by the circle (the label under the left circle containing 4, 7 and 13 in its exclusive region).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The left occurrence is B below the green set circle. The right occurrence is B below the circle with 3 and 7 in its right-only part. The placement in each image shows that the symbol names the set represented by the indicated circle.
+In both images, A names the set represented by the circle. The relevant locations are the label under the left circle containing 5 and 10 in its exclusive region on the left and the label under the left circle containing 4, 7 and 13 in its exclusive region on the right.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

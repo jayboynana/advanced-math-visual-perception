@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dashed horizontal line depicts the hidden back edge of the box base. Right image: The dotted line supplies a comparison level of 0.2 for the plotted points.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature shows an occluded horizontal edge of a solid in the left image and marks a fixed output level for comparison in the right image. The horizontal dashed line at the bottom back of the rectangular box. The red dotted horizontal line through the 0.2 tick."
+}

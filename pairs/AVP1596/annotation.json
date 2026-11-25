@@ -1,0 +1,105 @@
+{
+  "pair_id": "AVP1596",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1596",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "shaded_region",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region.",
+    "left_evidence": "The black triangle sharing the left vertical side of rectangle ABCD.",
+    "right_evidence": "The lavender rectangle with dimensions 3 cm and 2 cm.",
+    "left_meaning": "The shading designates the area of the triangle attached to AB.",
+    "right_meaning": "The shading designates the interior area of the rectangle.",
+    "same_meaning": true,
+    "reason": "In both images the feature selects a geometric area. The black triangle sharing the left vertical side of rectangle ABCD. The lavender rectangle with dimensions 3 cm and 2 cm."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1275_A",
+    "sample_index": "1275",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Transformation Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1275,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1275_A.jpg",
+    "sha256": "aade1d70d7bfe0987908de517eb7762df4c2645a76fb081cf4b787678dc92ea1",
+    "width": 68,
+    "height": 74,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1275_A.jpg",
+      "start": 3017831,
+      "length": 1484,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "606",
+    "sample_index": "606",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 209,
+      "img_width": 335,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/606.jpg",
+    "sha256": "813f0d8ff3201893df99613f62f405bbed3945674e3077662e28e4f58ed98c4c",
+    "width": 335,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1596/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1596",
+    "condition": "condition/graphical_roles/AVP1596"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The shading designates the area of the triangle attached to AB. Right image: The shading designates the interior area of the rectangle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature selects a geometric area. The black triangle sharing the left vertical side of rectangle ABCD. The lavender rectangle with dimensions 3 cm and 2 cm."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A shaded region.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The black triangle sharing the left vertical side of rectangle ABCD. The lavender rectangle with dimensions 3 cm and 2 cm.",
+    "eligible_for_strict_scoring": true
+  }
+}

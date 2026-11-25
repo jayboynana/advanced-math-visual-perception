@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The selected tick denotes x-coordinate value −π. Right image: The selected tick denotes x-coordinate value −π.",
+  "mathematical_meanings": "Left image: π gives the horizontal coordinate at that tick. Right image: π gives the horizontal coordinate at that tick.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both complete signed expressions are −π and both denote horizontal coordinates."
+  "Rationales": "The numeral gives the same horizontal coordinate in both images."
 }

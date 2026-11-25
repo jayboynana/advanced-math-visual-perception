@@ -3,7 +3,7 @@
 MathVerse:516 / MathVerse:626 · same type · Numeric representation and conversion
 
 ![Left image](left.png)
-![Right image](right.png)
+![Right image](right.jpg)
 
 ## Shared or similar visual information
 

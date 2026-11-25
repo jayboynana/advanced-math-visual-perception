@@ -1,0 +1,94 @@
+{
+  "pair_id": "AVP1146",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1146",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_perpendicularity",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-angle square.",
+    "left_evidence": "The square at E where BE drops to AC.",
+    "right_evidence": "The square at G beside segment GO.",
+    "left_meaning": "BE is perpendicular to AC.",
+    "right_meaning": "GO meets the segment XY at 90 degrees.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2944",
+    "sample_index": "2944",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2944",
+      "question": "In right triangle $ABC$, $\\angle B = 90^\\circ$, and $D$ and $E$ lie on $AC$ such that $\\overline{BD}$ is a median and $\\overline{BE}$ is an altitude.  If $BD=2\\cdot DE$, compute $\\frac{AB}{EC}$. <image1>",
+      "options": [],
+      "image": "images/2944.jpg",
+      "level": 4,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2944.jpg",
+    "sha256": "9d2405486ae8e79fcae5d083ed2a8ac27debd7d625676c6095bc859fd38f0d38",
+    "width": 2520,
+    "height": 1312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1146/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2099",
+    "sample_index": "2099",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - angle",
+    "source_metadata": {
+      "id": "2099",
+      "question": "Let $\\triangle ABC$ be an acute triangle with circumcenter $O$ and centroid $G$. Let $X$ be the intersection of the line tangent to the circumcircle of $\\triangle ABC$ at $A$ and the line perpendicular to $GO$ at $G$. Let $Y$ be the intersection of lines $XG$ and $BC$. Given that the measures of $\\angle ABC, \\angle BCA, $ and $\\angle XOY$ are in the ratio $13 : 2 : 17, $ the degree measure of $\\angle BAC$ can be written as $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n<image1>",
+      "options": [],
+      "image": "images/2099.jpg",
+      "level": 4,
+      "subject": "metric geometry - angle"
+    },
+    "original_relative_path": "images/2099.jpg",
+    "sha256": "beba32cb5cf329b352333498d446f41de01ba1253bb7c26d1c680001cefe7b9c",
+    "width": 924,
+    "height": 970,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1146/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1146",
+    "condition": "condition/geometric_markers/AVP1146"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: BE is perpendicular to AC. Right image: GO meets the segment XY at 90 degrees.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A right-angle square.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The square at E where BE drops to AC. The square at G beside segment GO.",
+    "eligible_for_strict_scoring": true
+  }
+}

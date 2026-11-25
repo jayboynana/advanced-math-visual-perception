@@ -7,16 +7,16 @@ MathVista:767 / MathVerse:521 · different type · Numeric representation and co
 
 ## Shared or similar visual information
 
-The numerical notation 2 in both images.
+The exponent 2 in x².
 
 ## Evidence locations
 
-- Left image: The superscript 2 on x in x²+y²=25.
-- Right image: The superscript 2 on x in y=x³−x²−x below the curve.
+- Left image: The notation x² appears in the first term of the circle equation.
+- Right image: The notation x² appears in the middle term of y = x³ − x² − x.
 
 ## Mathematical meanings
 
-Left image: The x coordinate is squared; 2 is its exponent. Right image: The variable x in the selected term is squared; 2 is its exponent.
+Left image: The variable x is squared in the equation defining the circle. Right image: The variable x is squared in the quadratic term of the cubic expression.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both selected superscripts 2 denote squaring of x; no equivalence is claimed for the full equations.
+The exponent 2 applies squaring to the base shown in each formula.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

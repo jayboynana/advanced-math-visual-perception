@@ -7,16 +7,16 @@ MathVista:285 / MathVista:316 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The letter O
+The uppercase letter O.
 
 ## Evidence locations
 
-- Left image: O beside the interior point on the slanted diameter
-- Right image: O beside the interior point joined to points on the circle
+- Left image: O at the center dot on the diameter AB.
+- Right image: O at the common endpoint of the segments to A and B.
 
 ## Mathematical meanings
 
-Left image: O names the center of the circle. Right image: O names the center of the circle.
+Left image: O names the center of the circle (the center dot on the diameter AB). Right image: O names the center of the circle (the common endpoint of the segments to A and B).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The left occurrence is located at O beside the interior point on the slanted diameter; the right occurrence is at O beside the interior point joined to points on the circle. Both use the selected notation for the same circle-center naming function. This compares the local role, without asserting that the two underlying objects or unknown values are identical.
+In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the common endpoint of the segments to A and B on the right.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

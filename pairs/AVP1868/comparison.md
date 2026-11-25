@@ -1,0 +1,29 @@
+# AVP1868 — Single visual target
+
+MathVista:723 / DynaMath:346 · same type · Mathematical roles of symbols
+
+![Left image](left.png)
+![Right image](right.png)
+
+## Shared or similar visual information
+
+The lowercase letter a.
+
+## Evidence locations
+
+- Left image: a at the label under the first marked position on the horizontal axis.
+- Right image: a at the factor before cos in the formula above the graph.
+
+## Mathematical meanings
+
+Left image: a denotes a specific value on the horizontal input axis (the label under the first marked position on the horizontal axis). Right image: a scales the trigonometric output and gives the amplitude through its absolute value (the factor before cos in the formula above the graph).
+
+## Same mathematical meanings
+
+no
+
+## Rationales
+
+On the left, a denotes a specific value on the horizontal input axis (the label under the first marked position on the horizontal axis). On the right, a scales the trigonometric output and gives the amplitude through its absolute value (the factor before cos in the formula above the graph).
+
+Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

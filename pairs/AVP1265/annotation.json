@@ -1,0 +1,108 @@
+{
+  "pair_id": "AVP1265",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1265",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 12.",
+    "left_evidence": "The notation 12 appears beside the interior portion of the lower secant.",
+    "right_evidence": "The notation 12 appears in the angle expression (5x − 12)° beside C.",
+    "left_meaning": "12 gives the length of the interior secant segment.",
+    "right_meaning": "12 is subtracted in the expression for the angle at C.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a segment length. The notation on the right represents a constant term."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "757",
+    "sample_index": "757",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 165,
+      "img_width": 220,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/757.jpg",
+    "sha256": "102f0408f9c40acee5bf92aea7941e8cb28e0ab2a47110e4420fabc7e7614c57",
+    "width": 220,
+    "height": 165,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1265/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "951",
+    "sample_index": "951",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 427,
+      "img_width": 487,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/951.jpg",
+    "sha256": "72a3989a2c9b34136cb5120e29a12205d0fcfaa237550a759b11a41cc4aa21d0",
+    "width": 487,
+    "height": 427,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1265/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1265",
+    "condition": "condition/numeric_representation/AVP1265"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 12 gives the length of the interior secant segment. Right image: 12 is subtracted in the expression for the angle at C.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a segment length. The notation on the right represents a constant term."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 12.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 12 appears beside the interior portion of the lower secant. The notation 12 appears in the angle expression (5x − 12)° beside C.",
+    "eligible_for_strict_scoring": true
+  }
+}

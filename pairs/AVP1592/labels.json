@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dashed line aligns the junction with its output of 2. Right image: The dashed line projects the plateau height onto the S axis.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature connects a feature of the graph to its vertical-axis value. The dashed horizontal segment from S = 2 to the junction of the curved and sloping pieces. The horizontal dashed segment from S = 24 to the start of the plateau."
+}

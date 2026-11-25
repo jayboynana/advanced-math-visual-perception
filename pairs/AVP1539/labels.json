@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dotted line supplies a comparison level of 0.2 for the plotted points. Right image: The dashed horizontal line represents the hidden rear edge of the cube base.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks a fixed output level for comparison in the left image and shows an occluded horizontal edge of a solid in the right image. The red dotted horizontal line through the 0.2 tick. The long horizontal dashed line at the rear of the cube’s bottom face."
+}

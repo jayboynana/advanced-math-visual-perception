@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-One value labels a sloping side's length; the other marks a y-coordinate reference level.
+The numeral 35 represents the length of BD on the left. On the right, it is the y-coordinate of the dashed reference line.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

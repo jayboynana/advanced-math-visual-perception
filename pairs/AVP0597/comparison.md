@@ -7,16 +7,16 @@ DynaMath:489 / MathVista:713 · different type · Numeric representation and con
 
 ## Shared or similar visual information
 
-The numerical notation 8 in both images.
+The numerical notation 8.
 
 ## Evidence locations
 
-- Left image: The 8 in the top row and second column of matrix A.
-- Right image: The 8 above the top-right section of the inverted triangle.
+- Left image: The notation 8 appears top-right cell of matrix A.
+- Right image: The notation 8 appears above the shorter right part of the top edge.
 
 ## Mathematical meanings
 
-Left image: Matrix A has entry 8 at row 1, column 2. Right image: The top-right segment has length value 8.
+Left image: 8 is the top-right entry of A. Right image: 8 labels the right part of the split triangle side.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of matrix entry, while the right context gives it the role of geometric length.
+The notation on the left represents a matrix entry. The notation on the right represents a segment length.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The graph segment plots an interval of constant s between a decrease and an increase. Right image: The horizontal segment is the base of the right-triangle outline.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a constant function output over an interval in the left image and forms a horizontal side of a polygon in the right image. The horizontal portion at the bottom of the bent trace, above the t-axis. The lower horizontal edge of the three-sided outline."
+}

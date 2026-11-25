@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1218",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1218",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dashed_curve_hidden_rim",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The dashed curved arc near the cone base.",
+    "right_evidence": "The dashed rear arc of the cone base in the right-hand drawing.",
+    "left_meaning": "The arc depicts the hidden rear half of the cone's base rim.",
+    "right_meaning": "The arc depicts the hidden part of the cone's base rim.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the dashes trace an occluded portion of a circular rim in a solid diagram."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1261",
+    "sample_index": "1261",
+    "problem_version": "3steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties of Cones",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_16",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "16-2.png",
+    "sha256": "4f5f48856e91e891b1a87d909b35f6a142412704563eea370b5bfdba3e4f9fc8",
+    "width": 325,
+    "height": 223,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1218/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "33",
+    "sample_index": "33",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 95,
+      "img_width": 331,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/33.jpg",
+    "sha256": "1135436e8aaf138c23a8fca633dbe44327a36f7c2edfa4f4444fe6a7f1b45885",
+    "width": 331,
+    "height": 95,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1218/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1218",
+    "condition": "condition/geometric_markers/AVP1218"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc depicts the hidden rear half of the cone's base rim. Right image: The arc depicts the hidden part of the cone's base rim.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the dashes trace an occluded portion of a circular rim in a solid diagram."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed curved arc near the cone base. The dashed rear arc of the cone base in the right-hand drawing.",
+    "eligible_for_strict_scoring": true
+  }
+}

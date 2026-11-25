@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1021",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1021",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "vertical_dashed_line_asymptote_vs_perpendicular_height",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed line.",
+    "left_evidence": "The vertical dashed reference between the two black branches.",
+    "right_evidence": "The magenta dashed vertical segment from the upper-left vertex.",
+    "left_meaning": "The line marks the vertical asymptote approached by the two branches.",
+    "right_meaning": "The line represents the perpendicular height of the parallelogram.",
+    "same_meaning": false,
+    "reason": "In the left image, the dashed line marks a vertical asymptote approached by the curve. In the right image, a vertical auxiliary segment marks a perpendicular height relative to a geometric base."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "582",
+    "sample_index": "2909",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_582.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1021/left.png",
+    "sha256": "3c433c2edb8940abc63e9c63b70121759c704d49a5ebce7ade23d0e935c7debd",
+    "width": 556,
+    "height": 500
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "737",
+    "sample_index": "737",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 179,
+      "img_width": 352,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/737.jpg",
+    "sha256": "2cead9367fe92a4c54a4ac4966488db4c1468f9b4d2036a219d22e7b25f8ac68",
+    "width": 352,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1021/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1021",
+    "condition": "condition/geometric_markers/AVP1021"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line marks the vertical asymptote approached by the two branches. Right image: The line represents the perpendicular height of the parallelogram.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the dashed line marks a vertical asymptote approached by the curve. In the right image, a vertical auxiliary segment marks a perpendicular height relative to a geometric base."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A vertical dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The vertical dashed reference between the two black branches. The magenta dashed vertical segment from the upper-left vertex.",
+    "eligible_for_strict_scoring": true
+  }
+}

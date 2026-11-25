@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The selected tick marks cumulative percentage 100. Right image: The finite gray region is assigned area value 100.",
+  "mathematical_meanings": "Left image: 100 sets the 100 percent point on the cumulative scale. Right image: 100 gives the numerical area of the left shaded region.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of percentage scale value, while the right context gives it the role of area of a shaded region."
+  "Rationales": "The notation on the left represents a cumulative percentage. The notation on the right represents an area."
 }

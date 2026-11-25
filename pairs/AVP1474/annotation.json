@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1474",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1474",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "shaded_region",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region.",
+    "left_evidence": "The lavender wedge at the right-hand junction of the two radii.",
+    "right_evidence": "The gray triangle against the baseline of the partitioned rectangle.",
+    "left_meaning": "The shading highlights the 27° central angle between the radii.",
+    "right_meaning": "The shading selects the triangular subarea with an apex on the top of the rectangle.",
+    "same_meaning": false,
+    "reason": "The feature highlights the angle between two rays in the left image and selects a geometric area in the right image. The lavender wedge at the right-hand junction of the two radii. The gray triangle against the baseline of the partitioned rectangle."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "413",
+    "sample_index": "2064",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_413.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1474/left.png",
+    "sha256": "f0d8438a5e28df5102160e955da07f37a9850584b70fcbf5799baa85dbfbe9c6",
+    "width": 824,
+    "height": 490
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "413_A",
+    "sample_index": "413",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 413,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/413_A.jpg",
+    "sha256": "b9fb407cd8a7a7dd27a6b85f418bc85a0fb7b642ae9f9fb418e03d4faa6ca6cf",
+    "width": 134,
+    "height": 52,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/413_A.jpg",
+      "start": 12163118,
+      "length": 1651,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/same type/AVP1474",
+    "condition": "condition/graphical_roles/AVP1474"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The shading highlights the 27° central angle between the radii. Right image: The shading selects the triangular subarea with an apex on the top of the rectangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature highlights the angle between two rays in the left image and selects a geometric area in the right image. The lavender wedge at the right-hand junction of the two radii. The gray triangle against the baseline of the partitioned rectangle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A shaded region.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The lavender wedge at the right-hand junction of the two radii. The gray triangle against the baseline of the partitioned rectangle.",
+    "eligible_for_strict_scoring": true
+  }
+}

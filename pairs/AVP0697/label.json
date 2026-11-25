@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: It measures the diameter of the cylinder base. Right image: It marks the horizontal repetition interval of the waveform.",
+  "mathematical_meanings": "Left image: The arrow gives the cylinder's 20 cm base diameter. Right image: The arrow gives one period of the graph, from t = 1 to t = 5.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left arrow endpoints align with the bounds of a spatial object. The right endpoints align with successive peaks, so their separation is a repetition interval on the plot."
+  "Rationales": "In the left image, the endpoints of the arrow delimit a spatial length on the construction. In the right image, the arrow spans the horizontal distance between successive peaks of a periodic graph."
 }

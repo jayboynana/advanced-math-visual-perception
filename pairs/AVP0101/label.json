@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The marked angle at A measures 45 degrees. Right image: The marked angle at the origin measures π/4 radians.",
+  "mathematical_meanings": "Left image: 45° measures the indicated angle at A. Right image: π/4 radians measures the angle at the origin between the positive horizontal ray and OA.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "45 degrees equals π/4 radians. The selected labels both quantify the size of a marked angle."
+  "Rationales": "π/4 radians equals 45°, and both notations measure the marked angle in their respective diagrams."
 }

@@ -7,16 +7,16 @@ MathVista:736 / MathVista:817 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 2 in both images.
+The bare numeral 2.
 
 ## Evidence locations
 
-- Left image: The standalone 2 below the upper line a at the upper-right crossing.
-- Right image: The standalone 2 above line a, to the right of ray BC.
+- Left image: The notation 2 appears beside the arc at the intersection with line a.
+- Right image: The notation 2 appears at the upper crossing beside the arc above line a.
 
 ## Mathematical meanings
 
-Left image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure. Right image: The numeral 2 identifies the adjacent angle region; it is an angle index, not a degree measure.
+Left image: 2 names the marked angle below line a. Right image: 2 names the angle marked at that crossing.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both standalone 2s identify angle regions near intersecting lines, rather than supplying numerical angle measures.
+The bare numeral 2 is associated with an angle in both drawings and identifies which angle is referenced.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

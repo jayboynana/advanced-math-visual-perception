@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dot supplies the function value at the x-coordinate where the smooth trace has a hole. Right image: The dot highlights a particular local minimum on the continuing function curve.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature specifies an isolated included ordered pair off the nearby curve in the left image and identifies a specific point on the interior of the continuing graph in the right image. The filled red point at x = 1, above the hollow point on the curve. The orange point labeled (1, 1.5) near the bottom of a wave."
+}

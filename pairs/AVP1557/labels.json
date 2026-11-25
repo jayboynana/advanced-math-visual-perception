@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The filled dot includes the coordinate (8, 6) at the end of the graph. Right image: The dot supplies the function value at the x-coordinate where the smooth trace has a hole.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks an endpoint included in the plotted branch in the left image and specifies an isolated included ordered pair off the nearby curve in the right image. The filled cyan point at (8, 6), at the right end of the trace. The filled red point at x = 1, above the hollow point on the curve."
+}

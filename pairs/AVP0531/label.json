@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The upper formula applies on the side of the input threshold 1 with x strictly less than it. Right image: The first branch uses the input threshold 1 as its excluded right boundary.",
+  "mathematical_meanings": "Left image: The variable x is raised to the second power in the first branch formula. Right image: The variable x is squared in the first branch expression.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Each occurrence is the value 1 in x < 1, which specifies the excluded right boundary for the selected branch."
+  "Rationales": "The exponent 2 applies squaring to the base shown in each formula."
 }

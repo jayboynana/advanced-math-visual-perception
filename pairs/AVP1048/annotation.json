@@ -1,0 +1,100 @@
+{
+  "pair_id": "AVP1048",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1048",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_perpendicularity",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-angle square.",
+    "left_evidence": "The square at C where the horizontal chord meets the vertical segment.",
+    "right_evidence": "The square at E at the base of the segment labeled 8.",
+    "left_meaning": "The horizontal chord AB is perpendicular to the vertical line through C and D.",
+    "right_meaning": "BE is perpendicular to the horizontal base AD.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2147",
+    "sample_index": "2147",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2147",
+      "question": "Let $ \\overline{AB}$ be a diameter of a circle and $ C$ be a point on $ \\overline{AB}$ with $ 2 \\cdot AC = BC$. Let $ D$ and $ E$ be points on the circle such that $ \\overline{DC} \\perp \\overline{AB}$ and $ \\overline{DE}$ is a second diameter. What is the ratio of the area of $ \\triangle DCE$ to the area of $ \\triangle ABD$?\n<image1>",
+      "options": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$"
+      ],
+      "image": "images/2147.jpg",
+      "level": 4,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2147.jpg",
+    "sha256": "5d411b4e3c34c0c9a9b459bcf1c0ad1af7a9913765491ce37af1471664d357d6",
+    "width": 588,
+    "height": 568,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1048/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2530",
+    "sample_index": "2530",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2530",
+      "question": "The area of the shaded region $\\text{BEDC}$ in parallelogram $\\text{ABCD}$ is\n\n<image1>",
+      "options": [],
+      "image": "images/2530.jpg",
+      "level": 3,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2530.jpg",
+    "sha256": "66ea9cb4ab0059f24c6d1866ff21ca7484b2b24b461001351c5888e0ac95613b",
+    "width": 602,
+    "height": 401,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1048/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1048",
+    "condition": "condition/geometric_markers/AVP1048"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The horizontal chord AB is perpendicular to the vertical line through C and D. Right image: BE is perpendicular to the horizontal base AD.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A right-angle square.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The square at C where the horizontal chord meets the vertical segment. The square at E at the base of the segment labeled 8.",
+    "eligible_for_strict_scoring": true
+  }
+}

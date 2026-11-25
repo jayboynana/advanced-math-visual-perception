@@ -7,16 +7,16 @@ MathVista:587 / MathVerse:439 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-Numerical notations 45° and π/4.
+The numerical notations 45° (left) and π/4 (right).
 
 ## Evidence locations
 
-- Left image: The 45° between the north-pointing ray and ray AM, at A.
-- Right image: The π/4 beside the angle at the coordinate origin.
+- Left image: The notation 45° appears between the north direction and the line from A to M.
+- Right image: The notation π/4 appears beside the arc at the origin.
 
 ## Mathematical meanings
 
-Left image: The marked angle at A measures 45 degrees. Right image: The marked angle at the origin measures π/4 radians.
+Left image: 45° measures the indicated angle at A. Right image: π/4 radians measures the angle at the origin between the positive horizontal ray and OA.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-45 degrees equals π/4 radians. The selected labels both quantify the size of a marked angle.
+π/4 radians equals 45°, and both notations measure the marked angle in their respective diagrams.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

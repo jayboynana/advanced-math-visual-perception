@@ -1,0 +1,92 @@
+{
+  "pair_id": "AVP1118",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1118",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "horizontal_dashed_line_hidden_edge_vs_midline",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal dashed line.",
+    "left_evidence": "The dashed horizontal edge from D to C.",
+    "right_evidence": "The magenta dashed horizontal line through the lower orange point.",
+    "left_meaning": "The line depicts the hidden edge DC of the cube.",
+    "right_meaning": "The line gives the sinusoid's midline at y = 3.3.",
+    "same_meaning": false,
+    "reason": "In the left image, the dashes indicate a hidden horizontal edge of a solid. In the right image, the dashed line gives the midline about which a wave oscillates."
+  },
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2078",
+    "sample_index": "2078",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "id": "2078",
+      "question": "Cube $ABCDEFGH$, labeled as shown below, has edge length $1$ and is cut by a plane passing through vertex $D$ and the midpoints $M$ and $N$ of $\\overline{AB}$ and $\\overline{CG}$ respectively. The plane divides the cube into two solids. The volume of the larger of the two solids can be written in the form $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.\n<image1>",
+      "options": [],
+      "image": "images/2078.jpg",
+      "level": 3,
+      "subject": "solid geometry"
+    },
+    "original_relative_path": "images/2078.jpg",
+    "sha256": "155931f41edcde39547377ace93cebfdf54eb01eac9d474e2634823387cd967e",
+    "width": 545,
+    "height": 510,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1118/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "542",
+    "sample_index": "2709",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_542.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1118/right.png",
+    "sha256": "f0f9ec9c7cd61312db09be704f35d7d35020405b0dd14261098cce063299baeb",
+    "width": 405,
+    "height": 412
+  },
+  "views": {
+    "type": "type/different type/AVP1118",
+    "condition": "condition/geometric_markers/AVP1118"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line depicts the hidden edge DC of the cube. Right image: The line gives the sinusoid's midline at y = 3.3.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the dashes indicate a hidden horizontal edge of a solid. In the right image, the dashed line gives the midline about which a wave oscillates."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed horizontal edge from D to C. The magenta dashed horizontal line through the lower orange point.",
+    "eligible_for_strict_scoring": true
+  }
+}

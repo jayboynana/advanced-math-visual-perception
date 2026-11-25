@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0712",
-  "authoring_id": "V04GM087",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0712",
   "condition": "geometric_markers",
   "condition_name": "Geometric markers",
-  "subcondition": "reflection_axis_dashes_same",
+  "subcondition": "vertical_dashed_line_symmetry_reference",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed line.",
+    "left_evidence": "The vertical dashed line HG through the center of the trapezoid.",
+    "right_evidence": "The vertical dashed line marked l on the grid.",
+    "left_meaning": "The line is the symmetry axis of the trapezoid.",
+    "right_meaning": "The line is the axis of reflection for triangle ABC.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the dashed line is the axis used to reflect a geometric figure."
+  },
   "left": {
     "dataset": "We-Math",
     "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
@@ -49,27 +61,26 @@
     "original_image_modified": false,
     "image_path": "pairs/AVP0712/right.jpg"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "A vertical line drawn as a sequence of short broken strokes.",
-    "left_evidence": "The dashed vertical line crossing the two bases at H and G.",
-    "right_evidence": "The dotted vertical line labeled l beside the triangle in the square lattice.",
-    "left_meaning": "It marks the reflection axis of the symmetric trapezoid.",
-    "right_meaning": "It marks the mirror line for reflecting the triangle.",
-    "same_meaning": true,
-    "reason": "The vertical line locates the mirror axis in each reflection construction. The displayed figure may already include both halves or show the original figure beside the line."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: It marks the reflection axis of the symmetric trapezoid. Right image: It marks the mirror line for reflecting the triangle.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The vertical line locates the mirror axis in each reflection construction. The displayed figure may already include both halves or show the original figure beside the line."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of the selected marker in the original images and contact sheets. Independent human verification pending.",
   "views": {
     "type": "type/same type/AVP0712",
     "condition": "condition/geometric_markers/AVP0712"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A vertical line drawn as a sequence of short broken strokes."
+  "label": {
+    "mathematical_meanings": "Left image: The line is the symmetry axis of the trapezoid. Right image: The line is the axis of reflection for triangle ABC.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the dashed line is the axis used to reflect a geometric figure."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A vertical dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The vertical dashed line HG through the center of the trapezoid. The vertical dashed line marked l on the grid.",
+    "eligible_for_strict_scoring": true
+  }
 }

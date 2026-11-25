@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0392",
-  "authoring_id": "V03SR092",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0392",
   "condition": "symbolic_roles",
   "condition_name": "Mathematical roles of symbols",
-  "subcondition": "angle_variable_vs_input_coordinate",
+  "subcondition": "angle_vs_horizontal_coordinate",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter b.",
+    "left_evidence": "b at the b° label at O beside the dashed flight segment.",
+    "right_evidence": "b at the label under the middle marked horizontal position.",
+    "left_meaning": "b gives an unknown angle measure (the b° label at O beside the dashed flight segment).",
+    "right_meaning": "b denotes a specific value on the horizontal input axis (the label under the middle marked horizontal position).",
+    "same_meaning": false,
+    "reason": "On the left, b represents an unknown angle measure (the b° label at O beside the dashed flight segment). On the right, b denotes a specific value on the horizontal input axis (the label under the middle marked horizontal position)."
+  },
   "left": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
@@ -26,9 +38,9 @@
     "original_image_modified": false,
     "image_type": "geometry",
     "image_path": "pairs/AVP0392/left.png",
+    "sha256": "c8110abd278a6b0566a78f703338920611a1e7e7bd6f1d83a33895e5e6669b67",
     "width": 236,
-    "height": 246,
-    "sha256": "c8110abd278a6b0566a78f703338920611a1e7e7bd6f1d83a33895e5e6669b67"
+    "height": 246
   },
   "right": {
     "dataset": "MathVista",
@@ -61,27 +73,26 @@
     "original_image_modified": false,
     "image_path": "pairs/AVP0392/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The letter b",
-    "left_evidence": "b° beside the angle between the downward vertical and the slanted route",
-    "right_evidence": "b above its tick on the bottom horizontal axis",
-    "left_meaning": "b denotes the unknown direction angle in degrees.",
-    "right_meaning": "b denotes a selected horizontal input-coordinate value.",
-    "same_meaning": false,
-    "reason": "On the left, attachment to b° beside the angle between the downward vertical and the slanted route supports the meaning: b denotes the unknown direction angle in degrees. On the right, the context is b above its tick on the bottom horizontal axis, where b denotes a selected horizontal input-coordinate value. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: b denotes the unknown direction angle in degrees. Right image: b denotes a selected horizontal input-coordinate value.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "On the left, attachment to b° beside the angle between the downward vertical and the slanted route supports the meaning: b denotes the unknown direction angle in degrees. On the right, the context is b above its tick on the bottom horizontal axis, where b denotes a selected horizontal input-coordinate value. The same visible notation is assigned to different mathematical objects or quantities in these contexts."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of the source image/contact sheet. One selected symbolic role only; no original answer used. Independent human review pending.",
   "views": {
     "type": "type/different type/AVP0392",
     "condition": "condition/symbolic_roles/AVP0392"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The letter b"
+  "label": {
+    "mathematical_meanings": "Left image: b gives an unknown angle measure (the b° label at O beside the dashed flight segment). Right image: b denotes a specific value on the horizontal input axis (the label under the middle marked horizontal position).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, b represents an unknown angle measure (the b° label at O beside the dashed flight segment). On the right, b denotes a specific value on the horizontal input axis (the label under the middle marked horizontal position)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter b.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "b at the b° label at O beside the dashed flight segment. b at the label under the middle marked horizontal position.",
+    "eligible_for_strict_scoring": true
+  }
 }

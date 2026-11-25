@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1311",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1311",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coordinate_notation",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation π.",
+    "left_evidence": "The notation π appears on the positive horizontal axis below the right region.",
+    "right_evidence": "The notation π appears the x-axis tick just right of π/2.",
+    "left_meaning": "π gives the horizontal coordinate at that tick.",
+    "right_meaning": "π is the horizontal input coordinate at that tick.",
+    "same_meaning": true,
+    "reason": "The numeral gives the same horizontal coordinate in both images."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "287",
+    "sample_index": "287",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 325,
+      "img_width": 370,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/287.jpg",
+    "sha256": "6329bfb39cfb3eb35295eac984373c43782051983f6136a6a28328877287003d",
+    "width": 370,
+    "height": 325,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1311/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "14",
+    "sample_index": "14",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image14.png",
+    "sha256": "d616c492c4b63d61283c5cf496ae831fd825ca23d4f3cd0143771c6de40c3333",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1311/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1311",
+    "condition": "condition/numeric_representation/AVP1311"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: π gives the horizontal coordinate at that tick. Right image: π is the horizontal input coordinate at that tick.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The numeral gives the same horizontal coordinate in both images."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation π.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation π appears on the positive horizontal axis below the right region. The notation π appears the x-axis tick just right of π/2.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1620",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1620",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "descending_straight_line",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line descending from left to right.",
+    "left_evidence": "The green line through the marked point near (−1, 0).",
+    "right_evidence": "The cyan falling line crossing the y-axis at 2 and x-axis at 1.",
+    "left_meaning": "The straight trace plots a linear function decreasing at a constant rate.",
+    "right_meaning": "The straight trace plots a decreasing linear function.",
+    "same_meaning": true,
+    "reason": "In both images the feature plots a linear relationship between coordinates. The green line through the marked point near (−1, 0). The cyan falling line crossing the y-axis at 2 and x-axis at 1."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "109",
+    "sample_index": "109",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image109.png",
+    "sha256": "2d10e7bf90980e84cdc8032c8600eb2a46b3dce9316167c61d48d8f55fb6790a",
+    "width": 533,
+    "height": 407,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1620/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "591",
+    "sample_index": "2954",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_591.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1620/right.png",
+    "sha256": "aeffee992b482493fd3feb7aebcc4ae4c829c8cfe1003843e4fa52d0d2632820",
+    "width": 289,
+    "height": 300
+  },
+  "views": {
+    "type": "type/same type/AVP1620",
+    "condition": "condition/graphical_roles/AVP1620"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The straight trace plots a linear function decreasing at a constant rate. Right image: The straight trace plots a decreasing linear function.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature plots a linear relationship between coordinates. The green line through the marked point near (−1, 0). The cyan falling line crossing the y-axis at 2 and x-axis at 1."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line descending from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The green line through the marked point near (−1, 0). The cyan falling line crossing the y-axis at 2 and x-axis at 1.",
+    "eligible_for_strict_scoring": true
+  }
+}

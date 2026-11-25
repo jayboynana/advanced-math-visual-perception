@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The decimal values match, but one is an x-coordinate and the other a y-coordinate.
+The decimal 1.2 is the x-coordinate of the marked point on the left and the y-coordinate of the marked point on the right.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

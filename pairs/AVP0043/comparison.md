@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-Both sides contain right-pointing arrowheads, but one bounds a finite dimension and the other indicates a coordinate-axis direction.
+The left arrowhead is the right endpoint marker of the dimension line for y. The right arrowhead indicates the positive direction of the t-axis.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

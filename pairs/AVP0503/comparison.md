@@ -7,16 +7,16 @@ MV-MATH:1905_2 / MathVerse:341 · same type · Numeric representation and conver
 
 ## Shared or similar visual information
 
-The numerical notation 53° in both images.
+The numerical notation 53°.
 
 ## Evidence locations
 
-- Left image: The 53° at C on the left side of sloping segment CA.
-- Right image: The 53° in the purple angle region at B.
+- Left image: The notation 53° appears beside the arc at C.
+- Right image: The notation 53° appears beside the purple wedge at B.
 
 ## Mathematical meanings
 
-Left image: The angle between CB and CA at C measures 53 degrees. Right image: The marked angle at B measures 53 degrees.
+Left image: 53° measures the marked angle between CA and CB. Right image: 53° measures the angle between the westward ray and BC.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both labels are attached to marked angle regions and give the same measure of 53°.
+Each notation is placed next to the marked angle and specifies the same angle measure of 53°.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

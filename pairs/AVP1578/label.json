@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading designates the interior area of the square. Right image: The shaded region is the epigraph, the set of points with vertical coordinate at least f(x).",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and selects the epigraph of a function in the right image. The green square with 4 m on its sides. The gray region above the curve labeled f and marked epi f."
+}

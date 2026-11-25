@@ -1,29 +1,29 @@
 # AVP0004 — Single visual target
 
-MathVerse:369 / MathVerse:755 · same type · Numeric representation and conversion
+MathVerse:369 / MathVerse:375 · same type · Numeric representation and conversion
 
 ![Left image](left.png)
 ![Right image](right.png)
 
 ## Shared or similar visual information
 
-The radical value √3 in both images.
+The radical length labels √3 and 4√3.
 
 ## Evidence locations
 
-- Left image: The label √3 beside side AB on the left of the triangle.
-- Right image: The label √3 beside the left sloping side of the small right triangle at the top of the composite figure.
+- Left image: √3 beside vertical leg AB.
+- Right image: 4√3 beside the vertical leg.
 
 ## Mathematical meanings
 
-Left image: The corresponding segment has length √3. Right image: The corresponding segment has length √3.
+Left image: √3 is the length of leg AB. Right image: 4√3 is the length of the vertical leg.
 
 ## Same mathematical meanings
 
-yes
+no
 
 ## Rationales
 
-The complete radical and its role as a segment length match; the segments need not be the identical geometric object.
+Both labels give a right-triangle leg length, and the right value is four times the left value.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

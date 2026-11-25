@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0535",
-  "authoring_id": "V04NR035",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0535",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "angle_vs_length_m",
+  "subcondition": "numeral_role_difference",
   "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 150° (left) and 150 m (right).",
+    "left_evidence": "The notation 150° appears beside the arc at A.",
+    "right_evidence": "The notation 150 m appears inside the parabola beside the shorter vertical dimension arrow.",
+    "left_meaning": "150° measures the marked angle at A.",
+    "right_meaning": "150 m gives the height of horizontal segment CD above the base.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents an angle measure. The notation on the right represents a height."
+  },
   "left": {
     "dataset": "MV-MATH",
     "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
@@ -59,27 +71,26 @@
     "original_image_modified": false,
     "image_path": "pairs/AVP0535/right.jpg"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notations 150° and 150 m.",
-    "left_evidence": "The 150° beside the larger marked angle at A.",
-    "right_evidence": "The 150 m beside the central vertical arrow from the baseline up to CD.",
-    "left_meaning": "The indicated angle at A measures 150 degrees.",
-    "right_meaning": "The vertical distance from the baseline to chord CD is 150 meters.",
-    "same_meaning": false,
-    "reason": "The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The indicated angle at A measures 150 degrees. Right image: The vertical distance from the baseline to chord CD is 150 meters.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0535",
     "condition": "condition/numeric_representation/AVP0535"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 150° and 150 m."
+  "label": {
+    "mathematical_meanings": "Left image: 150° measures the marked angle at A. Right image: 150 m gives the height of horizontal segment CD above the base.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents an angle measure. The notation on the right represents a height."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 150° (left) and 150 m (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 150° appears beside the arc at A. The notation 150 m appears inside the parabola beside the shorter vertical dimension arrow.",
+    "eligible_for_strict_scoring": true
+  }
 }

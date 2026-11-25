@@ -1,0 +1,105 @@
+{
+  "pair_id": "AVP1030",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1030",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dashed_curve_construction_arc",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The dashed arc passing through B, D and A inside the larger circle.",
+    "right_evidence": "The dashed arc crossing the triangle side near A and the base at P.",
+    "left_meaning": "The arc joins B and A along an auxiliary curved path through D in the planar construction.",
+    "right_meaning": "The arc marks the auxiliary locus used to locate P on BC.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the dashes give an auxiliary curved locus in a planar geometric construction."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "700",
+    "sample_index": "700",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 132,
+      "img_width": 144,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/700.jpg",
+    "sha256": "71aeb42920ff290f4b1330904832fb6428c0844cb74d113d6904d4436e50f190",
+    "width": 144,
+    "height": 132,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1030/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "380_A",
+    "sample_index": "380",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Descriptive Geometry",
+    "source_metadata": {
+      "upstream_question_index": 380,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/380_A.jpg",
+    "sha256": "76c23d51bab5b5c3971afe198cb13b0aaeec454e6f37082e1f172263e6ceb1da",
+    "width": 191,
+    "height": 103,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/380_A.jpg",
+      "start": 11859707,
+      "length": 2240,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/same type/AVP1030",
+    "condition": "condition/geometric_markers/AVP1030"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc joins B and A along an auxiliary curved path through D in the planar construction. Right image: The arc marks the auxiliary locus used to locate P on BC.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the dashes give an auxiliary curved locus in a planar geometric construction."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed arc passing through B, D and A inside the larger circle. The dashed arc crossing the triangle side near A and the base at P.",
+    "eligible_for_strict_scoring": true
+  }
+}

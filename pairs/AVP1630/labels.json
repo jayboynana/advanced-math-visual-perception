@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dot highlights a particular maximum on the continuing function curve. Right image: The dot includes the endpoint of the branch defined for x ≥ 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature identifies a specific point on the interior of the continuing graph in the left image and marks an endpoint included in the plotted branch in the right image. The orange point labeled (1.2, 5.5) at the curve’s peak. The filled blue point at the start of the right-hand branch."
+}

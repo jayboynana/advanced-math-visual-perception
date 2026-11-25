@@ -1,0 +1,108 @@
+{
+  "pair_id": "AVP1321",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1321",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_measure",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 60°.",
+    "left_evidence": "The notation 60° appears beside the left base vertex.",
+    "right_evidence": "The notation 60° appears at the upper-right vertex of the printed triangle.",
+    "left_meaning": "60° measures the inside angle at the left base vertex.",
+    "right_meaning": "60° measures the angle at the top of the vertical leg x.",
+    "same_meaning": true,
+    "reason": "Each notation is placed next to the marked angle and specifies the same angle measure of 60°."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "342",
+    "sample_index": "342",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 299,
+      "img_width": 405,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/342.jpg",
+    "sha256": "93e5258b782c40f8859455c43566e9cd804312a9ac3b808b281de64eb96dc793",
+    "width": 405,
+    "height": 299,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1321/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "698",
+    "sample_index": "698",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 376,
+      "img_width": 615,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GEOS",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/698.jpg",
+    "sha256": "5160bbbfa16232a34eb8cf7cc04c9b50a3bf6a92dec798be7b8f7aba173cda17",
+    "width": 615,
+    "height": 376,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1321/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1321",
+    "condition": "condition/numeric_representation/AVP1321"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 60° measures the inside angle at the left base vertex. Right image: 60° measures the angle at the top of the vertical leg x.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each notation is placed next to the marked angle and specifies the same angle measure of 60°."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 60°.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 60° appears beside the left base vertex. The notation 60° appears at the upper-right vertex of the printed triangle.",
+    "eligible_for_strict_scoring": true
+  }
+}

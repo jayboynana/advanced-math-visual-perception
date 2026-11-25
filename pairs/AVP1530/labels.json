@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The trace plots a linear function with negative slope. Right image: The segment is a diagonal within the rectangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The straight trace descending from upper left to lower right through the axes. The descending segment joining opposite corners of the rectangle."
+}

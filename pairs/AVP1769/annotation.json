@@ -1,0 +1,91 @@
+{
+  "pair_id": "AVP1769",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1769",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "circle_center_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter O.",
+    "left_evidence": "O at the center dot on the diameter AB.",
+    "right_evidence": "O at the dot at the common endpoint of the two rays.",
+    "left_meaning": "O names the center of the circle (the center dot on the diameter AB).",
+    "right_meaning": "O names the center of the circle (the dot at the common endpoint of the two rays).",
+    "same_meaning": true,
+    "reason": "In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the dot at the common endpoint of the two rays on the right."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "81",
+    "sample_index": "81",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image81.png",
+    "sha256": "adbfff3d2a82ffd4ad1243618b4e9db94e100ee0966d55814f42f2ba6ad5002e",
+    "width": 911,
+    "height": 886,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1769/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "210_1",
+    "sample_index": "210_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 210,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Low",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_8204df6bb88539a906dfg_0013_1.jpg",
+    "sha256": "bb85207559c0ffea34f791f22dfc5613a93247b7cb00bcd271553caf6ffee2ca",
+    "width": 257,
+    "height": 242,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1769/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1769",
+    "condition": "condition/symbolic_roles/AVP1769"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: O names the center of the circle (the center dot on the diameter AB). Right image: O names the center of the circle (the dot at the common endpoint of the two rays).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the dot at the common endpoint of the two rays on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter O.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "O at the center dot on the diameter AB. O at the dot at the common endpoint of the two rays.",
+    "eligible_for_strict_scoring": true
+  }
+}

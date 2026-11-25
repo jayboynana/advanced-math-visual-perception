@@ -7,7 +7,7 @@ MathVerse:354 / MathVerse:375 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-Two 45° labels
+The 45° angle label.
 
 ## Evidence locations
 

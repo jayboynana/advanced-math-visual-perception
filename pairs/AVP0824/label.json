@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The symbol \"A\" names a specific geometric point at the indicated location. Right image: The symbol \"A\" names the matrix whose entries follow in brackets.",
+  "mathematical_meanings": "Left image: A names a specific point in the diagram (the top of the left vertical side). Right image: A names the matrix printed after the equals sign (the label before the leftmost of three matrices).",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left occurrence is A at the upper end of the vertical side. The right occurrence is A before the first of three arrays, whose first row is 3, 4. The left placement shows that the symbol names a specific geometric point at the indicated location, while the right placement shows that it names the matrix whose entries follow in brackets."
+  "Rationales": "On the left, A names a specific point in the diagram (the top of the left vertical side). On the right, A names the matrix printed after the equals sign (the label before the leftmost of three matrices)."
 }

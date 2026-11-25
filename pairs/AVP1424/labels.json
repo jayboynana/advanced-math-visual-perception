@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The axis measures the horizontal coordinate of circle points. Right image: The horizontal axis gives the input coordinate of the curve.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The horizontal coordinate line through the center of the unit circle. The numbered horizontal line touching the purple graph at its minimum."
+}

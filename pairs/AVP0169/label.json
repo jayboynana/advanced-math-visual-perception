@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The top edge has length 41 feet. Right image: The selected angle at B measures 41 degrees.",
+  "mathematical_meanings": "Left image: 41 ft gives the upper base length. Right image: 41° measures the angle between the westward ray and BC.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The numeral 41 is shared, but 41 ft is a side length and 41° is an angle measure."
+  "Rationales": "The notation on the left represents a segment length. The notation on the right represents an angle measure."
 }

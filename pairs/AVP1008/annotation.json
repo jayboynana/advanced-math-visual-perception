@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1008",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1008",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "horizontal_span_arrow_function_period_vs_spatial_dimension",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal double-headed arrow separate from the coordinate axes.",
+    "left_evidence": "The magenta arrow joining the first two peaks near y = 50.",
+    "right_evidence": "The front-facing horizontal arrow above the cube.",
+    "left_meaning": "The arrow gives one period of the graph, from t = 1 to t = 5.",
+    "right_meaning": "The arrow gives the 4 cm length of the upper rear edge.",
+    "same_meaning": false,
+    "reason": "In the left image, the arrow spans the horizontal distance between successive peaks of a periodic graph. In the right image, the endpoints of the arrow delimit a spatial length on the construction."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "546",
+    "sample_index": "2729",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_546.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1008/left.png",
+    "sha256": "53f2e293e688d277f5f6cd706966cd2944acb55d7eb030739f73a404d007ddbe",
+    "width": 292,
+    "height": 296
+  },
+  "right": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "448",
+    "sample_index": "448",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Properties and Understanding of Cubes",
+    "source_metadata": {
+      "upstream_group_id": "2steps_88",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "88-2.png",
+    "sha256": "fcdd31590a849594891c4e1babaf73595de1e4a2caeb34f99559eb508821f423",
+    "width": 780,
+    "height": 657,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1008/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1008",
+    "condition": "condition/geometric_markers/AVP1008"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arrow gives one period of the graph, from t = 1 to t = 5. Right image: The arrow gives the 4 cm length of the upper rear edge.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the arrow spans the horizontal distance between successive peaks of a periodic graph. In the right image, the endpoints of the arrow delimit a spatial length on the construction."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal double-headed arrow separate from the coordinate axes.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The magenta arrow joining the first two peaks near y = 50. The front-facing horizontal arrow above the cube.",
+    "eligible_for_strict_scoring": true
+  }
+}

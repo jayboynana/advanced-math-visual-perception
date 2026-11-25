@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role.
+The expressions π/4 and (1/4)π have equal numerical values. The left expression represents an angle measure in radians. The right expression is the x-coordinate of the marked point.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

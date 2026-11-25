@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1403",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1403",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 4.",
+    "left_evidence": "The notation 4 appears in the formula y = 4ˣ.",
+    "right_evidence": "The notation 4 appears in 4x + 1 on the left side of the triangle.",
+    "left_meaning": "4 is the base of the exponential expression.",
+    "right_meaning": "4 multiplies x in the length expression for AC.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents an exponential base. The notation on the right represents a variable coefficient."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "516",
+    "sample_index": "2579",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_516.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1403/left.png",
+    "sha256": "b52f3a7ec85e87b5ed7eb86c9c217fba6634569371806f165e47fc124f59f851",
+    "width": 565,
+    "height": 494
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "375",
+    "sample_index": "375",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 293,
+      "img_width": 703,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/375.jpg",
+    "sha256": "8757bdafdb8e4f38b9ac6d6ebbe0d8ba0f4afe1c699244aecb99640dd620f424",
+    "width": 703,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1403/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1403",
+    "condition": "condition/numeric_representation/AVP1403"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 4 is the base of the exponential expression. Right image: 4 multiplies x in the length expression for AC.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents an exponential base. The notation on the right represents a variable coefficient."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 4.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 4 appears in the formula y = 4ˣ. The notation 4 appears in 4x + 1 on the left side of the triangle.",
+    "eligible_for_strict_scoring": true
+  }
+}

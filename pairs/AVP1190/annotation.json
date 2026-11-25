@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1190",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1190",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "circular_arc_angle_selection_vs_shape_boundary",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A circular arc.",
+    "left_evidence": "The arc near B beside the 42-degree annotation.",
+    "right_evidence": "The large semicircular outline above the baseline.",
+    "left_meaning": "The arc marks the angle of 42 degrees between BA and BC.",
+    "right_meaning": "The arc is the curved boundary of the semicircular figure enclosing the rectangle.",
+    "same_meaning": false,
+    "reason": "In the left image, the arc is drawn inside a vertex angle to show which angle is selected. In the right image, the arc forms a part of the boundary of a geometric figure."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "1304",
+    "sample_index": "1304",
+    "problem_version": "3steps_2",
+    "image_type": "geometry",
+    "source_subject": "Properties and Understanding of Triangles",
+    "source_metadata": {
+      "upstream_group_id": "3stpes_59",
+      "step_variant": "3steps_2"
+    },
+    "original_relative_path": "59-2.png",
+    "sha256": "8efe37b16eee2000f73e228449198813d95d1c7fc77b43a29d44e00ecf3c41bb",
+    "width": 238,
+    "height": 193,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1190/left.png"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "1434",
+    "sample_index": "1434",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "1434",
+      "question": "Two vertices of a square lie on a semi-circle as shown, while the other two lie on its diameter. The radius of the circle is $1 \\mathrm{~cm}$. How big is the area of the square?\n<image1>",
+      "options": [
+        "$\\frac{4}{5} \\mathrm{~cm}^{2}$",
+        "$\\frac{\\pi}{4} \\mathrm{~cm}^{2}$",
+        "$1 \\mathrm{~cm}^{2}$",
+        "$\\frac{4}{3} \\mathrm{~cm}^{2}$",
+        "$\\frac{2}{\\sqrt{3}} \\mathrm{~cm}^{2}$"
+      ],
+      "image": "images/1434.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/1434.jpg",
+    "sha256": "6ee86827439d37dfd2cbbe5b0159c418175a8a8ea8b4fab234c445f2f94e0a75",
+    "width": 559,
+    "height": 313,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1190/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1190",
+    "condition": "condition/geometric_markers/AVP1190"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc marks the angle of 42 degrees between BA and BC. Right image: The arc is the curved boundary of the semicircular figure enclosing the rectangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the arc is drawn inside a vertex angle to show which angle is selected. In the right image, the arc forms a part of the boundary of a geometric figure."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A circular arc.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The arc near B beside the 42-degree annotation. The large semicircular outline above the baseline.",
+    "eligible_for_strict_scoring": true
+  }
+}

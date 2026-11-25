@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0109",
-  "authoring_id": "V03NR009",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0109",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_value_same_role",
+  "subcondition": "same_angle_measure",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 38°.",
+    "left_evidence": "The notation 38° appears beside the diagonal near the bottom-left vertex.",
+    "right_evidence": "The notation 38° appears beside the cyan wedge at A.",
+    "left_meaning": "38° measures the angle at Y between YW and YX.",
+    "right_meaning": "38° measures the angle between the eastward ray and AC.",
+    "same_meaning": true,
+    "reason": "Each notation is placed next to the marked angle and specifies the same angle measure of 38°."
+  },
   "left": {
     "dataset": "MathVista",
     "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
@@ -58,31 +70,30 @@
     "original_image_modified": false,
     "image_type": "geometry",
     "image_path": "pairs/AVP0109/right.png",
+    "sha256": "257cfbd729eed24a92addba4d20dd8a6e747698426283e1289dc8ff322f47d0e",
     "width": 346,
-    "height": 232,
-    "sha256": "257cfbd729eed24a92addba4d20dd8a6e747698426283e1289dc8ff322f47d0e"
+    "height": 232
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 38° in both images.",
-    "left_evidence": "The 38° at Y between diagonal YW and the bottom edge YX.",
-    "right_evidence": "The 38° in the small colored angle region at A.",
-    "left_meaning": "The angle WYX measures 38 degrees.",
-    "right_meaning": "The selected angle at A measures 38 degrees.",
-    "same_meaning": true,
-    "reason": "Both selected labels specify an angle of 38 degrees; the distinct reference rays do not alter the selected numerical angle-measure role."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The angle WYX measures 38 degrees. Right image: The selected angle at A measures 38 degrees.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "Both selected labels specify an angle of 38 degrees; the distinct reference rays do not alter the selected numerical angle-measure role."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of the selected original image cues; one numerical occurrence per image is selected. Pending independent human review.",
   "views": {
     "type": "type/same type/AVP0109",
     "condition": "condition/numeric_representation/AVP0109"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 38° in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 38° measures the angle at Y between YW and YX. Right image: 38° measures the angle between the eastward ray and AC.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each notation is placed next to the marked angle and specifies the same angle measure of 38°."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 38°.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 38° appears beside the diagonal near the bottom-left vertex. The notation 38° appears beside the cyan wedge at A.",
+    "eligible_for_strict_scoring": true
+  }
 }

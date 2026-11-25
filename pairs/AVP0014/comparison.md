@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The values match, but one labels a height and the other a coordinate component.
+The decimal 1.5 represents the indicated height on the left. On the right, it is the y-coordinate of the marked trough.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

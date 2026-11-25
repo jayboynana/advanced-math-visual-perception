@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-1/5=0.2, but one value labels a radius length and the other an x-coordinate; their local mathematical roles differ.
+The numerical values 1/5 and 0.2 are equal. The left notation represents the radius in centimeters. The right notation is the x-coordinate of the marked point.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

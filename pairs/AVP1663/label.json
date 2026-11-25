@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The horizontal edge is one leg and the base of the right triangle. Right image: The horizontal piece plots constant area S = 16 over that time interval.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature forms a horizontal side of a polygon in the left image and plots a constant function output over an interval in the right image. The horizontal blue edge meeting the leg labeled 4 at the square marker. The flat top of the plotted trace between t = 4 and t = 8, at S = 16."
+}

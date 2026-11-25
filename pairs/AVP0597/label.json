@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: Matrix A has entry 8 at row 1, column 2. Right image: The top-right segment has length value 8.",
+  "mathematical_meanings": "Left image: 8 is the top-right entry of A. Right image: 8 labels the right part of the split triangle side.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of matrix entry, while the right context gives it the role of geometric length."
+  "Rationales": "The notation on the left represents a matrix entry. The notation on the right represents a segment length."
 }

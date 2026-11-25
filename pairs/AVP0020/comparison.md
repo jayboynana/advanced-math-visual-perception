@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-2π and −2π differ in value; one labels an arc length and the other an x-coordinate. The π in the arc-length expression is not an angular unit.
+The left notation 2π cm represents the length of arc JK. The right notation −2π is the x-coordinate of the peak. The two values have opposite signs and describe different quantities.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

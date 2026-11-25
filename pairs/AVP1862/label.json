@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: A names the set represented by the circle (the label under the left circle containing 5 and 10 in its exclusive region). Right image: A names a state in the transition diagram (the label inside the blue node with a loop).",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, A names the set represented by the circle (the label under the left circle containing 5 and 10 in its exclusive region). On the right, A names a state in the transition diagram (the label inside the blue node with a loop)."
+}

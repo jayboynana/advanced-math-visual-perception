@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading selects the area of the parallelogram after removing the disk. Right image: The shading highlights the angle between the downward reference direction and OA.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and highlights the angle between two rays in the right image. The gray parallelogram interior surrounding the white circular cutout. The cyan wedge next to 32° at O."
+}

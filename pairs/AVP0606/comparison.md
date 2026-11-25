@@ -7,16 +7,16 @@ MathVista:990 / MV-MATH:624_1 · different type · Numeric representation and co
 
 ## Shared or similar visual information
 
-The numerical notation 6 in both images.
+The numerical notation 6.
 
 ## Evidence locations
 
-- Left image: The 6 beside chord portion TR to the right of the vertical diameter.
-- Right image: The 6 on the t/s axis beneath the curve's positive horizontal-axis crossing.
+- Left image: The notation 6 appears below TR in the circle.
+- Right image: The notation 6 appears below the right intercept.
 
 ## Mathematical meanings
 
-Left image: Segment TR has length value 6. Right image: The curve crosses back to zero height at time six seconds.
+Left image: 6 gives the length of the right part of chord PR. Right image: 6 s is the time at which the height returns to zero.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of geometric length, while the right context gives it the role of time in seconds.
+The notation on the left represents a segment length. The notation on the right represents a time coordinate.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1407",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1407",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 1.",
+    "left_evidence": "The notation 1 appears at the foot of the dashed guide on the horizontal axis labeled l/m.",
+    "right_evidence": "The notation 1 appears beside the upper-left arc of the parallelogram.",
+    "left_meaning": "1 m is the length input corresponding to the indicated force.",
+    "right_meaning": "1 names the marked upper-left angle.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a length input in meters. The notation on the right represents an angle identifier."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "79_1",
+    "sample_index": "79_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 79,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_21ae9a88b517218f12e9g_0026_1.jpg",
+    "sha256": "ef79a9297f6afc0b4ab3ebbc94ec272be5233370b3559b05ae7e36b8f6ec1ee6",
+    "width": 308,
+    "height": 277,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1407/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1027_1",
+    "sample_index": "1027_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 1027,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_da259e8c8bb047f1aad6g_0031_1.jpg",
+    "sha256": "029bf99c9b4c4a380dd3ffcb3ed7c613024a2072a4d03b8fcb7103c9066a211a",
+    "width": 169,
+    "height": 105,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1407/right.jpg"
+  },
+  "views": {
+    "type": "type/different type/AVP1407",
+    "condition": "condition/numeric_representation/AVP1407"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 1 m is the length input corresponding to the indicated force. Right image: 1 names the marked upper-left angle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a length input in meters. The notation on the right represents an angle identifier."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 1.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 1 appears at the foot of the dashed guide on the horizontal axis labeled l/m. The notation 1 appears beside the upper-left arc of the parallelogram.",
+    "eligible_for_strict_scoring": true
+  }
+}

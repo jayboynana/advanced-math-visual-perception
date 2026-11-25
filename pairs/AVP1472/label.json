@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The segment is a diagonal between opposite vertices A and C. Right image: The straight trace graphs a negative-slope linear function.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature connects opposite vertices of a quadrilateral in the left image and plots a linear relationship between coordinates in the right image. The downward sloping segment AC inside the parallelogram. The falling line crossing each axis at its mark labeled 1."
+}

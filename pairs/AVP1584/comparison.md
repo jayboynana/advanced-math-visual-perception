@@ -1,0 +1,29 @@
+# AVP1584 — Single visual target
+
+VisioMath:496_A / MathVista:678 · same type · Mathematical roles of graphical elements
+
+[Left image in official archive](https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip) · `images/496_A.jpg`
+![Right image](right.png)
+
+## Shared or similar visual information
+
+A solid horizontal segment distinct from any axis or gridline.
+
+## Evidence locations
+
+- Left image: The horizontal line closing the bottom of the triangle.
+- Right image: The bottom blue side joining the two lower vertices.
+
+## Mathematical meanings
+
+Left image: The horizontal segment is the base of the geometric triangle. Right image: The horizontal segment is the base and hypotenuse of the displayed right triangle.
+
+## Same mathematical meanings
+
+yes
+
+## Rationales
+
+In both images the feature forms a horizontal side of a polygon. The horizontal line closing the bottom of the triangle. The bottom blue side joining the two lower vertices.
+
+Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

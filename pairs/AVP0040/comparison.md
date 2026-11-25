@@ -7,7 +7,7 @@ MathVerse:433 / MathVerse:511 · different type · Geometric markers
 
 ## Shared or similar visual information
 
-Broken straight-line strokes extending diagonally
+An upward-sloping dashed straight line.
 
 ## Evidence locations
 

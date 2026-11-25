@@ -7,16 +7,16 @@ MathVista:369 / MathVerse:521 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 3 in both images.
+The exponent 3 in x³.
 
 ## Evidence locations
 
-- Left image: The superscript 3 in f(x)=x³ at the upper right.
-- Right image: The superscript 3 in y=x³−x²−x below the curve.
+- Left image: The notation x³ appears in the blue formula f(x) = x³.
+- Right image: The notation x³ appears in the leading term of y = x³ − x² − x.
 
 ## Mathematical meanings
 
-Left image: The variable x is cubed; 3 is its exponent. Right image: The variable x in the selected term is cubed; 3 is its exponent.
+Left image: The variable x is cubed in the displayed function rule. Right image: The variable x is cubed in the leading term of the cubic expression.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both selected superscripts 3 denote cubing of x; the complete functions are not asserted to coincide.
+The exponent 3 applies cubing to the base shown in each formula.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1637",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1637",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hollow_circle",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled circular outline.",
+    "left_evidence": "The hollow circle on the red trace at x = 1, above the corresponding filled point.",
+    "right_evidence": "The single outer circle passing through all four corners of the tilted square.",
+    "left_meaning": "The hollow circle marks a hole in the plotted curve.",
+    "right_meaning": "The outline is the circumcircle of the inscribed square.",
+    "same_meaning": false,
+    "reason": "The feature marks an ordered pair excluded from the plotted trace in the left image and traces the circumference of a geometric circle in the right image. The hollow circle on the red trace at x = 1, above the corresponding filled point. The single outer circle passing through all four corners of the tilted square."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "102",
+    "sample_index": "102",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image102.png",
+    "sha256": "1c3eb76ac722bb31a554fc9e05cc5c414359d542ec7cfb22ccb5dccde3304882",
+    "width": 515,
+    "height": 389,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1637/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "82",
+    "sample_index": "82",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 202,
+      "img_width": 200,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/82.jpg",
+    "sha256": "955d298fcd837fd4fa8144e68fe413b1d015a3f48796eed670d41955abbaa9ae",
+    "width": 200,
+    "height": 202,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1637/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1637",
+    "condition": "condition/graphical_roles/AVP1637"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The hollow circle marks a hole in the plotted curve. Right image: The outline is the circumcircle of the inscribed square.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature marks an ordered pair excluded from the plotted trace in the left image and traces the circumference of a geometric circle in the right image. The hollow circle on the red trace at x = 1, above the corresponding filled point. The single outer circle passing through all four corners of the tilted square."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An unfilled circular outline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The hollow circle on the red trace at x = 1, above the corresponding filled point. The single outer circle passing through all four corners of the tilted square.",
+    "eligible_for_strict_scoring": true
+  }
+}

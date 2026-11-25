@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1248",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1248",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations π/5 (left) and 36 (right).",
+    "left_evidence": "The notation π/5 appears beside the marked opening from the negative horizontal ray to OA.",
+    "right_evidence": "The notation 36 appears above PM.",
+    "left_meaning": "π/5 radians measures the indicated angle at the origin.",
+    "right_meaning": "36 gives the length of the horizontal leg PM.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents an angle measure. The notation on the right represents a segment length."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "527",
+    "sample_index": "2634",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_527.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1248/left.png",
+    "sha256": "b8ed656f5d23397031df45213b28c3198483bd4035965000c4c628d46455bcfe",
+    "width": 270,
+    "height": 282
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "388",
+    "sample_index": "388",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 209,
+      "img_width": 342,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/388.jpg",
+    "sha256": "0d8adba525ddfa2f4c062be642d3ced1037511353428cfd964eed8770e85b177",
+    "width": 342,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1248/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1248",
+    "condition": "condition/numeric_representation/AVP1248"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: π/5 radians measures the indicated angle at the origin. Right image: 36 gives the length of the horizontal leg PM.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents an angle measure. The notation on the right represents a segment length."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations π/5 (left) and 36 (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation π/5 appears beside the marked opening from the negative horizontal ray to OA. The notation 36 appears above PM.",
+    "eligible_for_strict_scoring": true
+  }
+}

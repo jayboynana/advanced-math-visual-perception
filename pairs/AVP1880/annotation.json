@@ -1,0 +1,91 @@
+{
+  "pair_id": "AVP1880",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1880",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "circle_center_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter O.",
+    "left_evidence": "O at the center dot on the diameter AB.",
+    "right_evidence": "O at the dot on the line through the middle of the circle.",
+    "left_meaning": "O names the center of the circle (the center dot on the diameter AB).",
+    "right_meaning": "O names the center of the circle (the dot on the line through the middle of the circle).",
+    "same_meaning": true,
+    "reason": "In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the dot on the line through the middle of the circle on the right."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "81",
+    "sample_index": "81",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image81.png",
+    "sha256": "adbfff3d2a82ffd4ad1243618b4e9db94e100ee0966d55814f42f2ba6ad5002e",
+    "width": 911,
+    "height": 886,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1880/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "219_1",
+    "sample_index": "219_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 219,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch19-2024_05_24_b0b9f062b2d178a3a8f6g_0044_1.jpg",
+    "sha256": "08df38bbcdac59b1a4c7a0842c52588ab7c4d69780f4947952b82203a9709eac",
+    "width": 283,
+    "height": 197,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1880/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1880",
+    "condition": "condition/symbolic_roles/AVP1880"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: O names the center of the circle (the center dot on the diameter AB). Right image: O names the center of the circle (the dot on the line through the middle of the circle).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the dot on the line through the middle of the circle on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter O.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "O at the center dot on the diameter AB. O at the dot on the line through the middle of the circle.",
+    "eligible_for_strict_scoring": true
+  }
+}

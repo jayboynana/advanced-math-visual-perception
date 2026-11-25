@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1359",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1359",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 13.",
+    "left_evidence": "The notation 13 appears inside the A-only region.",
+    "right_evidence": "The notation 13 appears next to the sloping edge.",
+    "left_meaning": "13 belongs to A only.",
+    "right_meaning": "13 gives the hypotenuse length.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents an element of one set. The notation on the right represents a hypotenuse length."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "473",
+    "sample_index": "473",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image473.png",
+    "sha256": "ae181702e47d697562b6a4c929588b96fd4197c977dbd76d9865199afc547635",
+    "width": 407,
+    "height": 327,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1359/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "333",
+    "sample_index": "333",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 149,
+      "img_width": 297,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/333.jpg",
+    "sha256": "524151cc378a4a8c07bbe7036630c6eb243b8a84ad5887895c65f995f64622e5",
+    "width": 297,
+    "height": 149,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1359/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1359",
+    "condition": "condition/numeric_representation/AVP1359"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 13 belongs to A only. Right image: 13 gives the hypotenuse length.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents an element of one set. The notation on the right represents a hypotenuse length."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 13.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 13 appears inside the A-only region. The notation 13 appears next to the sloping edge.",
+    "eligible_for_strict_scoring": true
+  }
+}

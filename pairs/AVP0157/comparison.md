@@ -7,16 +7,16 @@ MathVista:154 / MathVista:308 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 0.5 in both images.
+The numerical notation 0.5.
 
 ## Evidence locations
 
-- Left image: The 0.5 in g(x)=0.5ˣ beside the green curve.
-- Right image: The tick label 0.5 halfway up the positive vertical scale.
+- Left image: The notation 0.5 appears in g(x) = 0.5ˣ.
+- Right image: The notation 0.5 appears at the vertical-axis tick midway above the x-axis.
 
 ## Mathematical meanings
 
-Left image: The exponential function has base one half. Right image: The selected tick denotes y-coordinate value 0.5.
+Left image: 0.5 is the base raised to x in the exponential function. Right image: 0.5 is a vertical-axis coordinate.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-0.5 is an exponential base in the function formula, whereas 0.5 is a vertical coordinate-scale value in the oscillating graph.
+The notation on the left represents an exponential base. The notation on the right represents a vertical coordinate.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

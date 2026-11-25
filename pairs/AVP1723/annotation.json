@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1723",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1723",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "circle_center_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter O.",
+    "left_evidence": "O at the center dot on the diameter AB.",
+    "right_evidence": "O at the center dot on the diameter AB.",
+    "left_meaning": "O names the center of the circle (the center dot on the diameter AB).",
+    "right_meaning": "O names the center of the circle (the center dot on the diameter AB).",
+    "same_meaning": true,
+    "reason": "In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the center dot on the diameter AB on the right."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "59",
+    "sample_index": "59",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 146,
+      "img_width": 157,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/59.jpg",
+    "sha256": "c0d01f8b60fa7080ea4f173df5e32c3ab02fff26681dbf92aa19b31d09e0f100",
+    "width": 157,
+    "height": 146,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1723/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "81",
+    "sample_index": "81",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image81.png",
+    "sha256": "adbfff3d2a82ffd4ad1243618b4e9db94e100ee0966d55814f42f2ba6ad5002e",
+    "width": 911,
+    "height": 886,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1723/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1723",
+    "condition": "condition/symbolic_roles/AVP1723"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: O names the center of the circle (the center dot on the diameter AB). Right image: O names the center of the circle (the center dot on the diameter AB).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, O names the center of the circle. The relevant locations are the center dot on the diameter AB on the left and the center dot on the diameter AB on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter O.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "O at the center dot on the diameter AB. O at the center dot on the diameter AB.",
+    "eligible_for_strict_scoring": true
+  }
+}

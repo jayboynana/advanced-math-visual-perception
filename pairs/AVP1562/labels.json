@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dot includes the endpoint of the branch defined for x ≥ 1. Right image: The dot supplies the actual function value at the input whose smooth trace has a hole.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks an endpoint included in the plotted branch in the left image and specifies an isolated included ordered pair off the nearby curve in the right image. The filled blue point at the start of the right-hand branch. The filled blue point above the open point along the smooth trace."
+}

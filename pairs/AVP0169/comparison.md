@@ -7,16 +7,16 @@ MathVista:318 / MathVerse:339 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-Numerical notations 41 ft and 41°.
+The numerical notations 41 ft (left) and 41° (right).
 
 ## Evidence locations
 
-- Left image: The 41 ft above the trapezoid's top edge.
-- Right image: The 41° in the small angle region at B.
+- Left image: The notation 41 ft appears above the trapezoid.
+- Right image: The notation 41° appears beside the purple wedge at B.
 
 ## Mathematical meanings
 
-Left image: The top edge has length 41 feet. Right image: The selected angle at B measures 41 degrees.
+Left image: 41 ft gives the upper base length. Right image: 41° measures the angle between the westward ray and BC.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The numeral 41 is shared, but 41 ft is a side length and 41° is an angle measure.
+The notation on the left represents a segment length. The notation on the right represents an angle measure.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

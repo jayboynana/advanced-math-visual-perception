@@ -7,16 +7,16 @@ MV-MATH:96_1 / DynaMath:320 · different type · Numeric representation and conv
 
 ## Shared or similar visual information
 
-The numerical notation 5 in both images.
+The numerical notation 5.
 
 ## Evidence locations
 
-- Left image: The 5 below the right vertical dashed guide at the second end of the segment.
-- Right image: The initial 5 in the orange point label (5, 2, 1).
+- Left image: The notation 5 appears on the x-axis beneath the second vertical guide.
+- Right image: The notation 5 appears first entry of the orange point label (5, 2, 1).
 
 ## Mathematical meanings
 
-Left image: The horizontal coordinate of the right segment endpoint is 5. Right image: The orange point's first coordinate is 5.
+Left image: 5 is the horizontal coordinate of the segment's right endpoint. Right image: 5 gives the first coordinate of the orange point.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both cues identify the same horizontal coordinate value, 5. The evidence is the selected axis position or coordinate component in each image.
+The numeral gives the same horizontal coordinate in both images.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

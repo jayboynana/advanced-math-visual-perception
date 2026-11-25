@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading selects the area bounded by the three semicircular arcs. Right image: The shaded half-plane is the solution region of a strict linear inequality.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and selects the solution half-plane of a linear inequality in the right image. The pale blue patch inside the large semicircle and above the two smaller ones. The gray half-plane to the right of the rising dashed boundary."
+}

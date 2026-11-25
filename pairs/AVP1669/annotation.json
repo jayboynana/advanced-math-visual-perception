@@ -1,0 +1,108 @@
+{
+  "pair_id": "AVP1669",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1669",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "circle_center_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter O.",
+    "left_evidence": "O at the common endpoint of the radii to B and C.",
+    "right_evidence": "O at the center dot on the diameter AB.",
+    "left_meaning": "O names the center of the circle (the common endpoint of the radii to B and C).",
+    "right_meaning": "O names the center of the circle (the center dot on the diameter AB).",
+    "same_meaning": true,
+    "reason": "In both images, O names the center of the circle. The relevant locations are the common endpoint of the radii to B and C on the left and the center dot on the diameter AB on the right."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "270",
+    "sample_index": "270",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 114,
+      "img_width": 102,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/270.jpg",
+    "sha256": "681205579f9792ec32780185b5e0abda7d2375d39c04d34f26e4e8945d4a291a",
+    "width": 102,
+    "height": 114,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1669/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "285",
+    "sample_index": "285",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 110,
+      "img_width": 100,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "UniGeo",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/285.jpg",
+    "sha256": "6efc8f4e3264cf54a863c5c34fd334468478c544503ae772a767059f7982b552",
+    "width": 100,
+    "height": 110,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1669/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1669",
+    "condition": "condition/symbolic_roles/AVP1669"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: O names the center of the circle (the common endpoint of the radii to B and C). Right image: O names the center of the circle (the center dot on the diameter AB).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, O names the center of the circle. The relevant locations are the common endpoint of the radii to B and C on the left and the center dot on the diameter AB on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter O.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "O at the common endpoint of the radii to B and C. O at the center dot on the diameter AB.",
+    "eligible_for_strict_scoring": true
+  }
+}

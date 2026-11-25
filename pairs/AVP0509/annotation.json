@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0509",
-  "authoring_id": "V04NR009",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0509",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_angle",
+  "subcondition": "same_angle_measure",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 120°.",
+    "left_evidence": "The notation 120° appears beside the arc at the sector vertex.",
+    "right_evidence": "The notation 120° appears inside the circle below the shaded wedge.",
+    "left_meaning": "120° gives the angle between the sector radii.",
+    "right_meaning": "120° measures the central angle of the gray sector.",
+    "same_meaning": true,
+    "reason": "Each notation is placed next to the marked angle and specifies the same angle measure of 120°."
+  },
   "left": {
     "dataset": "DynaMath",
     "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
@@ -49,27 +61,26 @@
     "image_type": "geometry",
     "image_path": "pairs/AVP0509/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 120° in both images.",
-    "left_evidence": "The 120° below the sector vertex between the two radii.",
-    "right_evidence": "The 120° near the center of the circle beside the shaded sector.",
-    "left_meaning": "The marked central angle of the sector measures 120 degrees.",
-    "right_meaning": "The marked central angle measures 120 degrees.",
-    "same_meaning": true,
-    "reason": "Both labels are attached to marked angle regions and give the same measure of 120°."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The marked central angle of the sector measures 120 degrees. Right image: The marked central angle measures 120 degrees.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "Both labels are attached to marked angle regions and give the same measure of 120°."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0509",
     "condition": "condition/numeric_representation/AVP0509"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 120° in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 120° gives the angle between the sector radii. Right image: 120° measures the central angle of the gray sector.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each notation is placed next to the marked angle and specifies the same angle measure of 120°."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 120°.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 120° appears beside the arc at the sector vertex. The notation 120° appears inside the circle below the shaded wedge.",
+    "eligible_for_strict_scoring": true
+  }
 }

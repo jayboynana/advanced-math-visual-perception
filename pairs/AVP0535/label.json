@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The indicated angle at A measures 150 degrees. Right image: The vertical distance from the baseline to chord CD is 150 meters.",
+  "mathematical_meanings": "Left image: 150° measures the marked angle at A. Right image: 150 m gives the height of horizontal segment CD above the base.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit."
+  "Rationales": "The notation on the left represents an angle measure. The notation on the right represents a height."
 }

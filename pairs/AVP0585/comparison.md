@@ -7,16 +7,16 @@ MV-MATH:500_1 / MV-MATH:1086_1 · same type · Numeric representation and conver
 
 ## Shared or similar visual information
 
-The numerical notation 2 in both images.
+The bare numeral 2.
 
 ## Evidence locations
 
-- Left image: The standalone 2 above the arc marking the upper angle at the crossing.
-- Right image: The standalone 2 inside the marked angle at the lower line crossing.
+- Left image: The notation 2 appears beside the arc above the line intersection.
+- Right image: The notation 2 appears right of the lower crossing.
 
 ## Mathematical meanings
 
-Left image: The numeral 2 identifies the upper angle region. Right image: The numeral 2 identifies the selected angle at the lower crossing.
+Left image: 2 names the marked upper vertical angle. Right image: 2 names the marked angle above the lower horizontal line.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The numeral 2 appears next to an angle arc in both diagrams and identifies the marked angle region in each.
+The bare numeral 2 is associated with an angle in both drawings and identifies which angle is referenced.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

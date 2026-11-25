@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1435",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1435",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "oval_outline",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An oval drawn with an unbroken outline.",
+    "left_evidence": "The continuous oval at the top of the short cylinder above the dashed contour.",
+    "right_evidence": "The continuous oval at the top of the squat cylinder.",
+    "left_meaning": "The oval depicts the upper circular rim in the drawing of the cylinder.",
+    "right_meaning": "The oval is the perspective drawing of the top circular rim.",
+    "same_meaning": true,
+    "reason": "In both images the feature shows a circular rim of a solid in perspective. The continuous oval at the top of the short cylinder above the dashed contour. The continuous oval at the top of the squat cylinder."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "322_A",
+    "sample_index": "322",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 322,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/322_A.jpg",
+    "sha256": "52f9ff3f8b6a7f31e6b4ba814e249667fb8bb7c09afb76364bffb789273f025f",
+    "width": 108,
+    "height": 58,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/322_A.jpg",
+      "start": 11196087,
+      "length": 1847,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "285_A",
+    "sample_index": "285",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 285,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/285_A.jpg",
+    "sha256": "f77ecc632b5bb48ae4407741283a365f235ae4a39e3eb8a2e2ac45b0a7c6b1af",
+    "width": 85,
+    "height": 55,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/285_A.jpg",
+      "start": 10815735,
+      "length": 1562,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/same type/AVP1435",
+    "condition": "condition/graphical_roles/AVP1435"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The oval depicts the upper circular rim in the drawing of the cylinder. Right image: The oval is the perspective drawing of the top circular rim.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature shows a circular rim of a solid in perspective. The continuous oval at the top of the short cylinder above the dashed contour. The continuous oval at the top of the squat cylinder."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An oval drawn with an unbroken outline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The continuous oval at the top of the short cylinder above the dashed contour. The continuous oval at the top of the squat cylinder.",
+    "eligible_for_strict_scoring": true
+  }
+}

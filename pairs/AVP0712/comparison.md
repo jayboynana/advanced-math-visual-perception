@@ -7,16 +7,16 @@ We-Math:117 / We-Math:392 · same type · Geometric markers
 
 ## Shared or similar visual information
 
-A vertical line drawn as a sequence of short broken strokes.
+A vertical dashed line.
 
 ## Evidence locations
 
-- Left image: The dashed vertical line crossing the two bases at H and G.
-- Right image: The dotted vertical line labeled l beside the triangle in the square lattice.
+- Left image: The vertical dashed line HG through the center of the trapezoid.
+- Right image: The vertical dashed line marked l on the grid.
 
 ## Mathematical meanings
 
-Left image: It marks the reflection axis of the symmetric trapezoid. Right image: It marks the mirror line for reflecting the triangle.
+Left image: The line is the symmetry axis of the trapezoid. Right image: The line is the axis of reflection for triangle ABC.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The vertical line locates the mirror axis in each reflection construction. The displayed figure may already include both halves or show the original figure beside the line.
+Both images use the mark in the same way: the dashed line is the axis used to reflect a geometric figure.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The line plots a positive-slope linear function. Right image: The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising diagonal crossing the x-axis left of O. The rising straight line inside the rectangle."
+}

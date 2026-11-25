@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: f names the function represented by the indicated curve. Right image: f names the function represented by the indicated curve.",
+  "mathematical_meanings": "Left image: f names the plotted function (the f in the formula f(x) = x³). Right image: f names the plotted function (the f in the exponential formula).",
   "same_mathematical_meanings": "yes",
-  "Rationales": "The left occurrence is located at f(x) = x³ above the cubic curve; the right occurrence is at f(x) = 2^x beside the green curve. Both use the selected notation for the same function-naming role. This compares the local role, without asserting that the two underlying objects or unknown values are identical."
+  "Rationales": "In both images, f names the plotted function. The relevant locations are the f in the formula f(x) = x³ on the left and the f in the exponential formula on the right."
 }

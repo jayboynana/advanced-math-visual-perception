@@ -7,16 +7,16 @@ MV-MATH:59_1 / MV-MATH:103_1 · different type · Numeric representation and con
 
 ## Shared or similar visual information
 
-The numerical notation 8 in both images.
+The numerical notation 8.
 
 ## Evidence locations
 
-- Left image: The 8 beside the right sloping side of the triangle.
-- Right image: The 8 beneath the dashed vertical guide that drops from the upper endpoint of the sloping line.
+- Left image: The notation 8 appears by the right slanted edge.
+- Right image: The notation 8 appears beneath the vertical dashed projection.
 
 ## Mathematical meanings
 
-Left image: The right sloping side has length value 8. Right image: The marked line endpoint has x-coordinate 8.
+Left image: 8 is the right slanted side length of the triangle. Right image: 8 is the horizontal coordinate of the line segment's upper endpoint.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of geometric length, while the right context gives it the role of horizontal coordinate.
+The notation on the left represents a segment length. The notation on the right represents a horizontal coordinate.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

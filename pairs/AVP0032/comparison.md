@@ -7,7 +7,7 @@ MathVerse:369 / MathVerse:371 · same type · Geometric markers
 
 ## Shared or similar visual information
 
-A small square angle marker inside a triangle vertex
+A right-angle square.
 
 ## Evidence locations
 

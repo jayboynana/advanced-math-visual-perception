@@ -7,16 +7,16 @@ DynaMath:88 / DynaMath:87 · same type · Numeric representation and conversion
 
 ## Shared or similar visual information
 
-The numerical notation 1 in both images.
+The exponent 2 in x^2.
 
 ## Evidence locations
 
-- Left image: The 1 in the restriction x < 1 in the upper formula.
-- Right image: The 1 in the restriction x < 1 on the first branch formula.
+- Left image: The notation x^2 appears in the first branch formula with coefficient 2.
+- Right image: The notation x^2 appears in the first branch formula with coefficient −2.
 
 ## Mathematical meanings
 
-Left image: The first branch is restricted to x-values strictly below the threshold 1. Right image: The first branch uses the input threshold 1 as its excluded right boundary.
+Left image: The variable x is squared in the first branch expression. Right image: The variable x is squared in the first branch expression.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Each occurrence is the value 1 in x < 1, which specifies the excluded right boundary for the selected branch.
+The exponent 2 applies squaring to the base shown in each formula.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

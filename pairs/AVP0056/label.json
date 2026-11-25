@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: y denotes an unknown angle measure at B. Right image: y denotes the overall height indicated by the longer vertical dimension line.",
+  "mathematical_meanings": "Left image: y gives an unknown angle measure (the wedge between BA and BC). Right image: y gives an unknown length (the label beside the longest vertical dimension arrow at the lighthouse).",
   "same_mathematical_meanings": "no",
-  "Rationales": "The letter is attached to an angle arc on the left and a vertical height dimension on the right."
+  "Rationales": "On the left, y represents an unknown angle measure (the wedge between BA and BC). On the right, y represents an unknown length (the label beside the longest vertical dimension arrow at the lighthouse)."
 }

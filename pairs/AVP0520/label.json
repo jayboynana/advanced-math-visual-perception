@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The blue point's first coordinate is 3. Right image: The horizontal coordinate of the left segment endpoint is 3.",
+  "mathematical_meanings": "Left image: 3 gives the first coordinate of the blue point. Right image: 3 is the horizontal coordinate of the segment's left endpoint.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both cues identify the same horizontal coordinate value, 3. The evidence is the selected axis position or coordinate component in each image."
+  "Rationales": "The numeral gives the same horizontal coordinate in both images."
 }

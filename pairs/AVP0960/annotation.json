@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0960",
-  "authoring_id": "V04GR085",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0960",
   "condition": "graphical_roles",
   "condition_name": "Mathematical roles of graphical elements",
-  "subcondition": "linear_function_trace_vs_diagonal",
+  "subcondition": "ascending_straight_line",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line rising from left to right.",
+    "left_evidence": "The rising diagonal crossing the x-axis left of O.",
+    "right_evidence": "The rising straight line inside the rectangle.",
+    "left_meaning": "The line plots a positive-slope linear function.",
+    "right_meaning": "The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+    "same_meaning": false,
+    "reason": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising diagonal crossing the x-axis left of O. The rising straight line inside the rectangle."
+  },
   "left": {
     "dataset": "VisioMath",
     "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
@@ -65,27 +77,26 @@
       "media_type": "image/jpeg"
     }
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "A straight diagonal-looking stroke.",
-    "left_evidence": "The black rising trace across the coordinate axes.",
-    "right_evidence": "The rising line connecting the lower-left and upper-right corners of the rectangle.",
-    "left_meaning": "A sloping straight graph encoding a constant rate of change of output with input.",
-    "right_meaning": "A diagonal connecting opposite vertices inside a quadrilateral.",
-    "same_meaning": false,
-    "reason": "The plotted line expresses how output changes across an input scale. The segment through a quadrilateral connects its opposite vertices as a geometric diagonal."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: A sloping straight graph encoding a constant rate of change of output with input. Right image: A diagonal connecting opposite vertices inside a quadrilateral.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The plotted line expresses how output changes across an input scale. The segment through a quadrilateral connects its opposite vertices as a geometric diagonal."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of source diagrams. The cue is interpreted from the depicted local context. Pending independent human verification.",
   "views": {
     "type": "type/different type/AVP0960",
     "condition": "condition/graphical_roles/AVP0960"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A straight diagonal-looking stroke."
+  "label": {
+    "mathematical_meanings": "Left image: The line plots a positive-slope linear function. Right image: The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising diagonal crossing the x-axis left of O. The rising straight line inside the rectangle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line rising from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The rising diagonal crossing the x-axis left of O. The rising straight line inside the rectangle.",
+    "eligible_for_strict_scoring": true
+  }
 }

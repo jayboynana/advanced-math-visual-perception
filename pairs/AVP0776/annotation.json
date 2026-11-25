@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0776",
-  "authoring_id": "V04SR026",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0776",
   "condition": "symbolic_roles",
   "condition_name": "Mathematical roles of symbols",
-  "subcondition": "same_output_element",
+  "subcondition": "output_element_same",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A.",
+    "left_evidence": "A at the top element in the f(x) oval receiving an arrow from 2.",
+    "right_evidence": "A at the top element in the f(x) oval receiving arrows from 1 and 4.",
+    "left_meaning": "A names an element of the output set of the mapping (the top element in the f(x) oval receiving an arrow from 2).",
+    "right_meaning": "A names an element of the output set of the mapping (the top element in the f(x) oval receiving arrows from 1 and 4).",
+    "same_meaning": true,
+    "reason": "In both images, A names an element of the output set of the mapping. The relevant locations are the top element in the f(x) oval receiving an arrow from 2 on the left and the top element in the f(x) oval receiving arrows from 1 and 4 on the right."
+  },
   "left": {
     "dataset": "DynaMath",
     "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
@@ -49,27 +61,26 @@
     "image_type": "mapping_diagram",
     "image_path": "pairs/AVP0776/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The letter A",
-    "left_evidence": "A at the top of the output oval, where the arrow from 2 ends",
-    "right_evidence": "A at the top of the output oval, with incoming arrows from 1 and 4",
-    "left_meaning": "The symbol \"A\" names the output element reached by the indicated input arrows.",
-    "right_meaning": "The symbol \"A\" names the output element reached by the indicated input arrows.",
-    "same_meaning": true,
-    "reason": "The left occurrence is A at the top of the output oval, where the arrow from 2 ends. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The placement in each image shows that the symbol names the output element reached by the indicated input arrows."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The symbol \"A\" names the output element reached by the indicated input arrows. Right image: The symbol \"A\" names the output element reached by the indicated input arrows.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The left occurrence is A at the top of the output oval, where the arrow from 2 ends. The right occurrence is A at the top of the output oval, with incoming arrows from 1 and 4. The placement in each image shows that the symbol names the output element reached by the indicated input arrows."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0776",
     "condition": "condition/symbolic_roles/AVP0776"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The letter A"
+  "label": {
+    "mathematical_meanings": "Left image: A names an element of the output set of the mapping (the top element in the f(x) oval receiving an arrow from 2). Right image: A names an element of the output set of the mapping (the top element in the f(x) oval receiving arrows from 1 and 4).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, A names an element of the output set of the mapping. The relevant locations are the top element in the f(x) oval receiving an arrow from 2 on the left and the top element in the f(x) oval receiving arrows from 1 and 4 on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter A.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A at the top element in the f(x) oval receiving an arrow from 2. A at the top element in the f(x) oval receiving arrows from 1 and 4.",
+    "eligible_for_strict_scoring": true
+  }
 }

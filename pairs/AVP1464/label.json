@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading designates the entire planar rectangle whose area is specified by its side lengths. Right image: The shaded region is the epigraph, the set of points with vertical coordinate at least f(x).",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and selects the epigraph of a function in the right image. The orange interior of the rectangle labeled 1 yd by 2 yd. The gray region above the curve labeled f and marked epi f."
+}

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The axis measures the horizontal Cartesian input to the curve. Right image: The axis measures the horizontal coordinates of the ellipse vertices.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The x-axis labeled with −π and π. The numbered horizontal line through A1 and A2."
+}

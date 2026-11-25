@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1847",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1847",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "horizontal_axis_vs_length",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the label on the dimension arrow spanning the slanted side.",
+    "right_evidence": "x at the right tip of the horizontal axis beside the descending line.",
+    "left_meaning": "x gives an unknown length (the label on the dimension arrow spanning the slanted side).",
+    "right_meaning": "x names the horizontal coordinate axis (the right tip of the horizontal axis beside the descending line).",
+    "same_meaning": false,
+    "reason": "On the left, x represents an unknown length (the label on the dimension arrow spanning the slanted side). On the right, x names the horizontal coordinate axis (the right tip of the horizontal axis beside the descending line)."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "310",
+    "sample_index": "310",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 218,
+      "img_width": 350,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/310.jpg",
+    "sha256": "c1dfd288f25137df89a827c4f04268ec86ea7d5a2396d141b23447449fd75fb0",
+    "width": 350,
+    "height": 218,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1847/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "591",
+    "sample_index": "2954",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_591.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1847/right.png",
+    "sha256": "aeffee992b482493fd3feb7aebcc4ae4c829c8cfe1003843e4fa52d0d2632820",
+    "width": 289,
+    "height": 300
+  },
+  "views": {
+    "type": "type/different type/AVP1847",
+    "condition": "condition/symbolic_roles/AVP1847"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x gives an unknown length (the label on the dimension arrow spanning the slanted side). Right image: x names the horizontal coordinate axis (the right tip of the horizontal axis beside the descending line).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, x represents an unknown length (the label on the dimension arrow spanning the slanted side). On the right, x names the horizontal coordinate axis (the right tip of the horizontal axis beside the descending line)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the label on the dimension arrow spanning the slanted side. x at the right tip of the horizontal axis beside the descending line.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The line plots a linear relation between the two coordinates. Right image: The segment is a diagonal connecting opposite vertices of the quadrilateral.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The black straight line rising from the lower left to the upper right across the axes. The rising straight segment from A to C inside ABCD."
+}

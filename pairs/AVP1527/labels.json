@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The graph segment indicates that the temperature remains 100 °C during that time interval. Right image: The graph segment plots constant S = 4 between those times.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature plots a constant function output over an interval. The solid flat part of the temperature trace at 100 °C. The flat graph segment from t = 2 to t = 4 at S = 4."
+}

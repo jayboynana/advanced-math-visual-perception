@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1331",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1331",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 14.",
+    "left_evidence": "The notation 14 appears beside JK.",
+    "right_evidence": "The notation 14 appears inside circle A outside the overlap.",
+    "left_meaning": "14 is the length of the hypotenuse JK.",
+    "right_meaning": "14 belongs to A only.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a hypotenuse length. The notation on the right represents an element of one set."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "897",
+    "sample_index": "897",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 223,
+      "img_width": 352,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/897.jpg",
+    "sha256": "e3034c6ed6e5c700a8e31e9e04d676e91c4ad9b2f18d1dc0bc5bb6b37639c951",
+    "width": 352,
+    "height": 223,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1331/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "469",
+    "sample_index": "469",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image469.png",
+    "sha256": "2b8863315a9098dae7ffcbb20d92183d58a70f44e7af6ea5fe7fe89294b2cbdc",
+    "width": 407,
+    "height": 324,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1331/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1331",
+    "condition": "condition/numeric_representation/AVP1331"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 14 is the length of the hypotenuse JK. Right image: 14 belongs to A only.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a hypotenuse length. The notation on the right represents an element of one set."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 14.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 14 appears beside JK. The notation 14 appears inside circle A outside the overlap.",
+    "eligible_for_strict_scoring": true
+  }
+}

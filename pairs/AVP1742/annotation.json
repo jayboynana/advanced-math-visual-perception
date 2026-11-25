@@ -1,0 +1,98 @@
+{
+  "pair_id": "AVP1742",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1742",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "horizontal_axis_same",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the right arrow of the axis passing through the hyperbola center.",
+    "right_evidence": "x at the right end of the horizontal axis on the red stair-step plot.",
+    "left_meaning": "x names the horizontal coordinate axis (the right arrow of the axis passing through the hyperbola center).",
+    "right_meaning": "x names the horizontal coordinate axis (the right end of the horizontal axis on the red stair-step plot).",
+    "same_meaning": true,
+    "reason": "In both images, x names the horizontal coordinate axis. The relevant locations are the right arrow of the axis passing through the hyperbola center on the left and the right end of the horizontal axis on the red stair-step plot on the right."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "437",
+    "sample_index": "2184",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Analytic"
+    },
+    "original_relative_path": "images_version_5/image_437.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1742/left.png",
+    "sha256": "3d91a2cf6769d1182d205fd7c6abe6ea825b8d64f93594e89e40e76d97146920",
+    "width": 500,
+    "height": 547
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "34",
+    "sample_index": "34",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 479,
+      "img_width": 479,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/34.jpg",
+    "sha256": "a1d40252df325857990c49d1e6c6787002ef9d202856c55ca1d51f9bb2d4d7ea",
+    "width": 479,
+    "height": 479,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1742/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1742",
+    "condition": "condition/symbolic_roles/AVP1742"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x names the horizontal coordinate axis (the right arrow of the axis passing through the hyperbola center). Right image: x names the horizontal coordinate axis (the right end of the horizontal axis on the red stair-step plot).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, x names the horizontal coordinate axis. The relevant locations are the right arrow of the axis passing through the hyperbola center on the left and the right end of the horizontal axis on the red stair-step plot on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the right arrow of the axis passing through the hyperbola center. x at the right end of the horizontal axis on the red stair-step plot.",
+    "eligible_for_strict_scoring": true
+  }
+}

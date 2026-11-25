@@ -7,16 +7,16 @@ MathVerse:349 / MathVerse:366 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The lowercase letter y
+The lowercase letter y.
 
 ## Evidence locations
 
-- Left image: y beside the angle arc between the left vertical side and diagonal at B
-- Right image: y beside the longer vertical dimension line on the right of the lighthouse diagram
+- Left image: y at the wedge between BA and BC.
+- Right image: y at the label beside the longest vertical dimension arrow at the lighthouse.
 
 ## Mathematical meanings
 
-Left image: y denotes an unknown angle measure at B. Right image: y denotes the overall height indicated by the longer vertical dimension line.
+Left image: y gives an unknown angle measure (the wedge between BA and BC). Right image: y gives an unknown length (the label beside the longest vertical dimension arrow at the lighthouse).
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The letter is attached to an angle arc on the left and a vertical height dimension on the right.
+On the left, y represents an unknown angle measure (the wedge between BA and BC). On the right, y represents an unknown length (the label beside the longest vertical dimension arrow at the lighthouse).
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

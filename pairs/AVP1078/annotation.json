@@ -1,0 +1,107 @@
+{
+  "pair_id": "AVP1078",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1078",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "vertical_dashed_line_hidden_edge_vs_perpendicular_height",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A vertical dashed line.",
+    "left_evidence": "The vertical dashed segment from the rear top corner to the junction of the three dashed edges.",
+    "right_evidence": "The magenta dashed vertical segment from the upper-left vertex.",
+    "left_meaning": "The line depicts the cuboid's hidden rear vertical edge.",
+    "right_meaning": "The line represents the perpendicular height of the parallelogram.",
+    "same_meaning": false,
+    "reason": "In the left image, the dashed vertical segment depicts an occluded edge of a solid. In the right image, a vertical auxiliary segment marks a perpendicular height relative to a geometric base."
+  },
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2206",
+    "sample_index": "2206",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "id": "2206",
+      "question": "The centers of the faces of the right rectangular prism shown below are joined to create an octahedron, What is the volume of the octahedron?\n\n<image1>",
+      "options": [
+        "$\\frac{75}{12}$",
+        "$10$",
+        "$12$",
+        "$10\\sqrt{2}$",
+        "$15$"
+      ],
+      "image": "images/2206.jpg",
+      "level": 2,
+      "subject": "solid geometry"
+    },
+    "original_relative_path": "images/2206.jpg",
+    "sha256": "190a100f7df4d46aaa16bd0cfcca26b6240a4fe0d72d290f9876485308d33e92",
+    "width": 508,
+    "height": 455,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1078/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "737",
+    "sample_index": "737",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 179,
+      "img_width": 352,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/737.jpg",
+    "sha256": "2cead9367fe92a4c54a4ac4966488db4c1468f9b4d2036a219d22e7b25f8ac68",
+    "width": 352,
+    "height": 179,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1078/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1078",
+    "condition": "condition/geometric_markers/AVP1078"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line depicts the cuboid's hidden rear vertical edge. Right image: The line represents the perpendicular height of the parallelogram.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the dashed vertical segment depicts an occluded edge of a solid. In the right image, a vertical auxiliary segment marks a perpendicular height relative to a geometric base."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A vertical dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The vertical dashed segment from the rear top corner to the junction of the three dashed edges. The magenta dashed vertical segment from the upper-left vertex.",
+    "eligible_for_strict_scoring": true
+  }
+}

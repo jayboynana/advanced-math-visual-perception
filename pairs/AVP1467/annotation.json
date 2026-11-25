@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1467",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1467",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "wave_curve",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A smooth oscillating curve.",
+    "left_evidence": "The blue oscillation of repeated peaks near y = 2.",
+    "right_evidence": "The cyan wave with the labeled trough (4.75, −6.25).",
+    "left_meaning": "The line is the graph of a periodic function repeating the same heights and depths across the x-axis.",
+    "right_meaning": "The line is a periodic graph, with the labeled coordinates fixing positions on its cycle.",
+    "same_meaning": true,
+    "reason": "In both images the feature traces a repeating function graph. The blue oscillation of repeated peaks near y = 2. The cyan wave with the labeled trough (4.75, −6.25)."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "1",
+    "sample_index": "1",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image1.png",
+    "sha256": "1be7064a2c9668c084b4fb52918c54c63697d5405f7321e17861bb8a1d3b3be2",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1467/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "540",
+    "sample_index": "2699",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_540.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1467/right.png",
+    "sha256": "1b903026d49ef55fd6547601ffb43775b480c5b8147d0e82572b821338d7b30c",
+    "width": 425,
+    "height": 429
+  },
+  "views": {
+    "type": "type/same type/AVP1467",
+    "condition": "condition/graphical_roles/AVP1467"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line is the graph of a periodic function repeating the same heights and depths across the x-axis. Right image: The line is a periodic graph, with the labeled coordinates fixing positions on its cycle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature traces a repeating function graph. The blue oscillation of repeated peaks near y = 2. The cyan wave with the labeled trough (4.75, −6.25)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A smooth oscillating curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The blue oscillation of repeated peaks near y = 2. The cyan wave with the labeled trough (4.75, −6.25).",
+    "eligible_for_strict_scoring": true
+  }
+}

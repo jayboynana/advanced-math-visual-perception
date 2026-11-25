@@ -7,16 +7,16 @@ VisioMath:246_A / DynaMath:53 · same type · Mathematical roles of graphical el
 
 ## Shared or similar visual information
 
-A bounded geometric patch selected with shading or hatching.
+A shaded region.
 
 ## Evidence locations
 
-- Left image: The gray polygonal part beside the unshaded triangular cutout labeled 8 and 15.
-- Right image: The blue annular band between the two concentric circles.
+- Left image: The single dark polygonal patch sharing the right side of the outer figure.
+- Right image: The light-blue ring between the circles marked R = 7 and r = 5.
 
 ## Mathematical meanings
 
-Left image: A selected plane region distinguished by shading within a geometric construction. Right image: A selected plane region distinguished by shading within a geometric construction.
+Left image: The shading selects the planar area left after removing the white triangular cutout. Right image: The shading designates the annular area inside the outer circle and outside the inner circle.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-In both diagrams the fill selects a bounded planar part of a larger geometric construction. Its extent follows the visible object boundaries rather than coordinate values or a chart legend.
+In both images the feature selects a geometric area. The single dark polygonal patch sharing the right side of the outer figure. The light-blue ring between the circles marked R = 7 and r = 5.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

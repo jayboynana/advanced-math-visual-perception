@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading selects the area inside the arc and outside the semicircle within the square. Right image: The shading highlights the 50° angle between MP and MS.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and highlights the angle between two rays in the right image. The pale blue patch between the semicircle and the arc inside the square. The red wedge at M between MP and MS."
+}

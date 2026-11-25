@@ -7,16 +7,16 @@ MathVision:2063 / MathVision:2226 · same type · Geometric markers
 
 ## Shared or similar visual information
 
-A small square or rotated-square angle marker where two lines meet.
+A right-angle square.
 
 ## Evidence locations
 
-- Left image: The small outlined square at B, where AB meets BC.
-- Right image: The tilted small square where UC crosses MV inside the triangle.
+- Left image: The square at B between the vertical side and the horizontal base.
+- Right image: The tilted square at the crossing of the two inner diagonals.
 
 ## Mathematical meanings
 
-Left image: AB is perpendicular to BC at B. Right image: UC is perpendicular to MV at their intersection.
+Left image: AB is perpendicular to BC. Right image: UC and VM are perpendicular.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning.
+Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

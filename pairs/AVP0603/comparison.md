@@ -7,16 +7,16 @@ MV-MATH:1855_2 / DynaMath:380 · different type · Numeric representation and co
 
 ## Shared or similar visual information
 
-The numerical notations 40° and 40.
+The numerical notations 40° (left) and 40 (right).
 
 ## Evidence locations
 
-- Left image: The 40° inside the large triangle at A.
-- Right image: The 40 at the top of the vertical axis labeled Temperature.
+- Left image: The notation 40° appears beside the arc at A.
+- Right image: The notation 40 appears at the top of the vertical scale.
 
 ## Mathematical meanings
 
-Left image: The angle between AH and AB at A measures 40 degrees. Right image: The selected tick marks a temperature value of 40 on the chart's vertical scale.
+Left image: 40° gives the angle at A between AB and AH. Right image: 40 is a tick value on the temperature axis.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of angle measure, while the right context gives it the role of temperature scale value.
+The notation on the left represents an angle measure. The notation on the right represents a temperature scale value.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

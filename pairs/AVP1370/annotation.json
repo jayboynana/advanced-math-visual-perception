@@ -1,0 +1,98 @@
+{
+  "pair_id": "AVP1370",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1370",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_exponent",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The exponent 3 in x³.",
+    "left_evidence": "The notation x³ appears in the formula h: y = x³ in the color legend.",
+    "right_evidence": "The notation x³ appears in the leading term of y = x³ − x² − x.",
+    "left_meaning": "The variable x is cubed in the rule for the trace h.",
+    "right_meaning": "The variable x is cubed in the leading term of the cubic expression.",
+    "same_meaning": true,
+    "reason": "The exponent 3 applies cubing to the base shown in each formula."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "991",
+    "sample_index": "991",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 383,
+      "img_width": 616,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/991.jpg",
+    "sha256": "a43587d1eb3b7f79512ba494843dc11062cf8c360afc48cda3dc394474e31365",
+    "width": 616,
+    "height": 383,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1370/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "521",
+    "sample_index": "2604",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_521.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1370/right.png",
+    "sha256": "e8c9dc0fa535cd66aff2ebb5d8adc4cbfad187603881f024736bf1df1bae6393",
+    "width": 1908,
+    "height": 1960
+  },
+  "views": {
+    "type": "type/same type/AVP1370",
+    "condition": "condition/numeric_representation/AVP1370"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The variable x is cubed in the rule for the trace h. Right image: The variable x is cubed in the leading term of the cubic expression.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The exponent 3 applies cubing to the base shown in each formula."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The exponent 3 in x³.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation x³ appears in the formula h: y = x³ in the color legend. The notation x³ appears in the leading term of y = x³ − x² − x.",
+    "eligible_for_strict_scoring": true
+  }
+}

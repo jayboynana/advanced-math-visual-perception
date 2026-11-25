@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1520",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1520",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The horizontal coordinate axis.",
+    "left_evidence": "The numbered line below the red increasing curve.",
+    "right_evidence": "The horizontal line through C and A and the center of the unit circle.",
+    "left_meaning": "The horizontal axis gives the input coordinate for the function graph.",
+    "right_meaning": "The axis is the horizontal coordinate reference for the geometry diagram.",
+    "same_meaning": true,
+    "reason": "In both images the feature measures the horizontal Cartesian coordinate. The numbered line below the red increasing curve. The horizontal line through C and A and the center of the unit circle."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "198",
+    "sample_index": "198",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image198.png",
+    "sha256": "fb633225ffc9a0cdbaad89ceb41701478be78965316a8356d705c6bc0b6c73b8",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1520/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "528",
+    "sample_index": "2639",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Coordinate"
+    },
+    "original_relative_path": "images_version_5/image_528.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1520/right.png",
+    "sha256": "e6b197b10a3a48f311e1feb1a6b1e1c4ad12247d438de1859a4ecc70702b29a7",
+    "width": 269,
+    "height": 276
+  },
+  "views": {
+    "type": "type/different type/AVP1520",
+    "condition": "condition/graphical_roles/AVP1520"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The horizontal axis gives the input coordinate for the function graph. Right image: The axis is the horizontal coordinate reference for the geometry diagram.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The numbered line below the red increasing curve. The horizontal line through C and A and the center of the unit circle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The horizontal coordinate axis.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The numbered line below the red increasing curve. The horizontal line through C and A and the center of the unit circle.",
+    "eligible_for_strict_scoring": true
+  }
+}

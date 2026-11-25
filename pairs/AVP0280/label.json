@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: It represents a hidden rear bottom edge of the cube. Right image: The dashed curve is the plotted graph of function g, distinguished from the solid graph f.",
+  "mathematical_meanings": "Left image: The arc traces the hidden portion of the circular base rim. Right image: The curve traces the graph of function g.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left dashes convey occlusion in a three-dimensional wireframe. The g label identifies the right magenta dashes as a plotted function, not an invisible edge. The two stroke styles therefore encode different contextual functions."
+  "Rationales": "The dashed arc denotes occlusion in the solid drawing. The dashed parabola depicts a function and its style distinguishes it from f."
 }

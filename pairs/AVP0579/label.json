@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The right sloping side has length value 8. Right image: The marked line endpoint has x-coordinate 8.",
+  "mathematical_meanings": "Left image: 8 is the right slanted side length of the triangle. Right image: 8 is the horizontal coordinate of the line segment's upper endpoint.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of geometric length, while the right context gives it the role of horizontal coordinate."
+  "Rationales": "The notation on the left represents a segment length. The notation on the right represents a horizontal coordinate."
 }

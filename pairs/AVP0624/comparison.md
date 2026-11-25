@@ -7,16 +7,16 @@ DynaMath:41 / MV-MATH:624_1 · different type · Numeric representation and conv
 
 ## Shared or similar visual information
 
-The numerical notations 6 ft and 6.
+The numerical notations 6 ft (left) and 6 (right).
 
 ## Evidence locations
 
-- Left image: The 6ft beside the left sloping side of the orange parallelogram.
-- Right image: The 6 on the t/s axis beneath the curve's positive horizontal-axis crossing.
+- Left image: The notation 6 ft appears beside the left slanted side.
+- Right image: The notation 6 appears below the right intercept.
 
 ## Mathematical meanings
 
-Left image: The left side measures six feet. Right image: The curve crosses back to zero height at time six seconds.
+Left image: 6 ft measures the slanted side. Right image: 6 s is the time at which the height returns to zero.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of length with a specified unit, while the right context gives it the role of time in seconds.
+The notation on the left represents a segment length. The notation on the right represents a time coordinate.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

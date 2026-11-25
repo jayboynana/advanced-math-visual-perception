@@ -1,22 +1,22 @@
 # AVP0029 — Single visual target
 
-MathVerse:358 / MathVerse:360 · same type · Geometric markers
+We-Math:1415 / MathVerse:360 · same type · Geometric markers
 
 ![Left image](left.png)
 ![Right image](right.png)
 
 ## Shared or similar visual information
 
-A small square where a vertical line meets a horizontal base
+A right-angle square where a vertical segment meets the horizontal base.
 
 ## Evidence locations
 
-- Left image: The lower end of the central vertical dashed line meets the black base; a small unfilled square sits above and to the left of the intersection.
-- Right image: CE meets AB at its lower endpoint E; a small light-purple filled square sits above and to the left of E.
+- Left image: The square at F between BF and the horizontal base.
+- Right image: The square at E between CE and the horizontal base AB.
 
 ## Mathematical meanings
 
-Left image: It marks the central vertical auxiliary line as perpendicular to the horizontal base. Right image: It marks CE as perpendicular to AB, with E as the foot of the perpendicular.
+Left image: BF is perpendicular to the horizontal base at F. Right image: CE is perpendicular to AB at E.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both small squares directly mark the right angle formed where an auxiliary line meets the base.
+Each square marks the vertical auxiliary segment as perpendicular to the base.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

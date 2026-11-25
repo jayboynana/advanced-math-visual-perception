@@ -1,0 +1,90 @@
+{
+  "pair_id": "AVP1720",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1720",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the label below the right triangle’s base.",
+    "right_evidence": "x at the label along the horizontal distance AB to the first pole.",
+    "left_meaning": "x gives an unknown length (the label below the right triangle’s base).",
+    "right_meaning": "x gives an unknown length (the label along the horizontal distance AB to the first pole).",
+    "same_meaning": true,
+    "reason": "In both images, x represents an unknown length. The relevant locations are the label below the right triangle’s base on the left and the label along the horizontal distance AB to the first pole on the right."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "374",
+    "sample_index": "1869",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_374.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1720/left.png",
+    "sha256": "18fe241509ad0d319c4d314578a19c0755433d15c9c099f3cfcc2a82f8399e44",
+    "width": 260,
+    "height": 179
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "351",
+    "sample_index": "1754",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_351.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1720/right.png",
+    "sha256": "3251a6ac940771d0bc0ec4b686ed3bdb42b3f58a4c7451950800bacfd8afa2b1",
+    "width": 1280,
+    "height": 1150
+  },
+  "views": {
+    "type": "type/same type/AVP1720",
+    "condition": "condition/symbolic_roles/AVP1720"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x gives an unknown length (the label below the right triangle’s base). Right image: x gives an unknown length (the label along the horizontal distance AB to the first pole).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, x represents an unknown length. The relevant locations are the label below the right triangle’s base on the left and the label along the horizontal distance AB to the first pole on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the label below the right triangle’s base. x at the label along the horizontal distance AB to the first pole.",
+    "eligible_for_strict_scoring": true
+  }
+}

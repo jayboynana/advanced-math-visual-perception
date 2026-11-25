@@ -1,0 +1,100 @@
+{
+  "pair_id": "AVP1060",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1060",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "right_angle_square_perpendicularity",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A right-angle square.",
+    "left_evidence": "The square at B between the vertical side and the horizontal base.",
+    "right_evidence": "The square at D on the diagonal through A and C.",
+    "left_meaning": "AB is perpendicular to BC.",
+    "right_meaning": "BD is perpendicular to AC.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "left": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2063",
+    "sample_index": "2063",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2063",
+      "question": "In the diagram below, angle $ABC$ is a right angle.  Point $D$ is on $\\overline{BC}$, and $\\overline{AD}$ bisects angle $CAB$.  Points $E$ and $F$ are on $\\overline{AB}$ and $\\overline{AC}$, respectively, so that $AE=3$ and $AF=10$.  Given that $EB=9$ and $FC=27$, find the integer closest to the area of quadrilateral $DCFG$.\n\n<image1>",
+      "options": [],
+      "image": "images/2063.jpg",
+      "level": 5,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2063.jpg",
+    "sha256": "bb9e20ce6b5294a334d3415eace3a05104c3a2a6b67827512a9c396429f706f1",
+    "width": 897,
+    "height": 410,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1060/left.jpg"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2166",
+    "sample_index": "2166",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - area",
+    "source_metadata": {
+      "id": "2166",
+      "question": "Triangle $ ABC$ has a right angle at $ B$. Point $ D$ is the foot of the altitude from $ B$, $ AD=3$, and $ DC=4$. What is the area of $ \\triangle{ABC}$?\n<image1>",
+      "options": [
+        "$4\\sqrt{3}$",
+        "$7\\sqrt{3}$",
+        "$21$",
+        "$14\\sqrt{3}$",
+        "$42$"
+      ],
+      "image": "images/2166.jpg",
+      "level": 4,
+      "subject": "metric geometry - area"
+    },
+    "original_relative_path": "images/2166.jpg",
+    "sha256": "5f167b20faf95a41b14b9b2447fd52d084dc72701aa466f5d54446dea0549861",
+    "width": 343,
+    "height": 303,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1060/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1060",
+    "condition": "condition/geometric_markers/AVP1060"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: AB is perpendicular to BC. Right image: BD is perpendicular to AC.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A right-angle square.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The square at B between the vertical side and the horizontal base. The square at D on the diagonal through A and C.",
+    "eligible_for_strict_scoring": true
+  }
+}

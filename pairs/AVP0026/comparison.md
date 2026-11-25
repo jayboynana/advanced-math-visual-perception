@@ -7,7 +7,7 @@ MathVerse:439 / MathVerse:354 · same type · Geometric markers
 
 ## Shared or similar visual information
 
-A small square angle marker at the intersection of two lines
+A right-angle square.
 
 ## Evidence locations
 

@@ -1,0 +1,29 @@
+# AVP1889 — Single visual target
+
+DynaMath:80 / DynaMath:181 · same type · Mathematical roles of symbols
+
+![Left image](left.png)
+![Right image](right.png)
+
+## Shared or similar visual information
+
+The uppercase letter A.
+
+## Evidence locations
+
+- Left image: A at the black point at the upper-left corner of the square.
+- Right image: A at the angle arc below the upper horizontal line.
+
+## Mathematical meanings
+
+Left image: A names a specific point in the diagram (the black point at the upper-left corner of the square). Right image: A identifies the marked angle (the angle arc below the upper horizontal line).
+
+## Same mathematical meanings
+
+no
+
+## Rationales
+
+On the left, A names a specific point in the diagram (the black point at the upper-left corner of the square). On the right, A identifies the marked angle (the angle arc below the upper horizontal line).
+
+Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -52,7 +52,7 @@ for annotation in annotations:
 <p>{escape(label['mathematical_meanings'])}</p>
 <h3>Rationales</h3><p>{escape(label['Rationales'])}</p>
 <p class="evidence"><b>Left-image evidence:</b> {escape(target['left_evidence'])}<br><b>Right-image evidence:</b> {escape(target['right_evidence'])}</p>
-<p class="files">{left_link} · {right_link}<br><a href="pairs/{pid}/label.json">Label JSON</a> · <a href="pairs/{pid}/annotation.json">Full annotation</a></p>
+<p class="files">{left_link} · {right_link}<br><a href="pairs/{pid}/prompt.json">Prompt JSON</a> · <a href="pairs/{pid}/labels.json">Label JSON</a> · <a href="pairs/{pid}/annotation.json">Full annotation</a></p>
 </details></article>''')
 template=(ROOT/'scripts/minimal_template.html').read_text(encoding='utf-8')
 assert template.count('<!-- PAIRS -->')==1

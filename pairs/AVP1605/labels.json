@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The graph segment shows that height h stays constant during that interval. Right image: The horizontal segment is the base of a triangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a constant function output over an interval in the left image and forms a horizontal side of a polygon in the right image. The flat middle part of the h-versus-t trace. The unlabelled horizontal side of the triangular outline."
+}

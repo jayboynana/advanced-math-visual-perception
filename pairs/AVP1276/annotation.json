@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1276",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1276",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 7.",
+    "left_evidence": "The notation 7 appears below the right-hand horizontal dimension arrow.",
+    "right_evidence": "The notation 7 appears on the right of a + b = 7.",
+    "left_meaning": "7 gives the indicated base distance.",
+    "right_meaning": "7 is the value of the sum a + b.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a segment length. The notation on the right represents a value on the right of an equation."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "575",
+    "sample_index": "575",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 287,
+      "img_width": 509,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/575.jpg",
+    "sha256": "b3308aec2f09e045fcbd9b464ad20ff71ab30cf8d7354ca423dea357541036ee",
+    "width": 509,
+    "height": 287,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1276/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "499",
+    "sample_index": "499",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image499.png",
+    "sha256": "0bcdf491496cf0b48981a89ea4418e3a131da3abcc66bfba2b0d40021b06062f",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP1276/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1276",
+    "condition": "condition/numeric_representation/AVP1276"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 7 gives the indicated base distance. Right image: 7 is the value of the sum a + b.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a segment length. The notation on the right represents a value on the right of an equation."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 7.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 7 appears below the right-hand horizontal dimension arrow. The notation 7 appears on the right of a + b = 7.",
+    "eligible_for_strict_scoring": true
+  }
+}

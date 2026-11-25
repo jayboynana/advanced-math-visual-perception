@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1378",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1378",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_exponent",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The exponent 2 in the expressions (x − 3)² and x².",
+    "left_evidence": "The notation (x − 3)² appears within the radical in the formula above the semicircle.",
+    "right_evidence": "The notation x² appears in the formula y = 36 − x².",
+    "left_meaning": "The difference x − 3 is squared under the radical.",
+    "right_meaning": "The variable x is squared in the term subtracted from 36.",
+    "same_meaning": true,
+    "reason": "The exponent 2 applies squaring to the base shown in each formula."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "671",
+    "sample_index": "671",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 312,
+      "img_width": 433,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/671.jpg",
+    "sha256": "7245fe43908438bc56c258cccdd82f1ef2e4ee28a25f18354f74a23a0b6e76bf",
+    "width": 433,
+    "height": 312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1378/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "600",
+    "sample_index": "2999",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_600.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1378/right.png",
+    "sha256": "c8646403da405ab70b067bacb6471a061668d051e2c99d5ab8284e72b9602bc8",
+    "width": 1678,
+    "height": 1189
+  },
+  "views": {
+    "type": "type/same type/AVP1378",
+    "condition": "condition/numeric_representation/AVP1378"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The difference x − 3 is squared under the radical. Right image: The variable x is squared in the term subtracted from 36.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The exponent 2 applies squaring to the base shown in each formula."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The exponent 2 in the expressions (x − 3)² and x².",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation (x − 3)² appears within the radical in the formula above the semicircle. The notation x² appears in the formula y = 36 − x².",
+    "eligible_for_strict_scoring": true
+  }
+}

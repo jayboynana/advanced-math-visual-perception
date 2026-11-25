@@ -1,0 +1,93 @@
+{
+  "pair_id": "AVP1402",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1402",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_measure",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 30°.",
+    "left_evidence": "The notation 30° appears beside the upper-right corner.",
+    "right_evidence": "The notation 30° appears beside the arc at A.",
+    "left_meaning": "30° measures the acute angle at that corner.",
+    "right_meaning": "30° gives the measure of the angle between AB and AH.",
+    "same_meaning": true,
+    "reason": "Each notation is placed next to the marked angle and specifies the same angle measure of 30°."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "373",
+    "sample_index": "1864",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_373.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1402/left.png",
+    "sha256": "e27143dc5dd2b42ecffeaa6f506263275e05570344f05de17e6536aed8fee1e6",
+    "width": 202,
+    "height": 119
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1874_2",
+    "sample_index": "1874_2",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 1874,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_2b988f01d3dfec88a9c4g_0038_2.jpg",
+    "sha256": "a0a7b348674a37e175eac3f4f810fd1c28b1b697aab5dc845499bb0c72a22b40",
+    "width": 551,
+    "height": 337,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1402/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1402",
+    "condition": "condition/numeric_representation/AVP1402"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 30° measures the acute angle at that corner. Right image: 30° gives the measure of the angle between AB and AH.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Each notation is placed next to the marked angle and specifies the same angle measure of 30°."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 30°.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 30° appears beside the upper-right corner. The notation 30° appears beside the arc at A.",
+    "eligible_for_strict_scoring": true
+  }
+}

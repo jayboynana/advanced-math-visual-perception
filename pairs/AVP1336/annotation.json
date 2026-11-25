@@ -1,0 +1,91 @@
+{
+  "pair_id": "AVP1336",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1336",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 9° (left) and 9 ft (right).",
+    "left_evidence": "The notation 9° appears beside the small arc at D next to the baseline.",
+    "right_evidence": "The notation 9 ft appears beside the front bottom edge.",
+    "left_meaning": "9° measures the lower marked angle at D.",
+    "right_meaning": "9 ft gives the front width of the rectangular prism.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents an angle measure. The notation on the right represents a segment length."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1889_2",
+    "sample_index": "1889_2",
+    "problem_version": "original",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "problem_id": 1889,
+      "subject": "Analytic Geometry",
+      "grade": "Senior",
+      "difficulty": "High",
+      "image_relavance": "1",
+      "answer_type": "single-step",
+      "image_index": 2
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_4379ad893b2f21a86d58g_0078_2.jpg",
+    "sha256": "7b33f90cddbc7144934478dcc6214fffd3063fffd46085c28ad8993e29079b8e",
+    "width": 631,
+    "height": 334,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1336/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "60",
+    "sample_index": "60",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image60.png",
+    "sha256": "3dcb0884e3c090249c9f9f93c8c237ad128121b2abc1c4bf7708f0426937ace0",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP1336/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1336",
+    "condition": "condition/numeric_representation/AVP1336"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 9° measures the lower marked angle at D. Right image: 9 ft gives the front width of the rectangular prism.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents an angle measure. The notation on the right represents a segment length."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 9° (left) and 9 ft (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 9° appears beside the small arc at D next to the baseline. The notation 9 ft appears beside the front bottom edge.",
+    "eligible_for_strict_scoring": true
+  }
+}

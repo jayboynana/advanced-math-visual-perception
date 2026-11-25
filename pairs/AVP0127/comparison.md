@@ -7,16 +7,16 @@ MathVista:137 / MathVista:156 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 2 in both images.
+The exponent 2 in the expressions x² and (x − 2)².
 
 ## Evidence locations
 
-- Left image: The superscript 2 in f(x)=x² at the upper right.
-- Right image: The superscript 2 on (x−2) in the upper piecewise-function formula.
+- Left image: The notation x² appears in the blue expression f(x) = x².
+- Right image: The notation (x − 2)² appears next to the upper-right branch formula.
 
 ## Mathematical meanings
 
-Left image: The variable x is squared; 2 is its exponent. Right image: The expression x−2 is squared; 2 is the exponent.
+Left image: The variable x is squared in the displayed function rule. Right image: The expression x − 2 is squared for the right-hand branch.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both selected superscripts are exponent 2 and denote squaring of their respective bases. The bases x and x−2 need not be equal.
+The exponent 2 applies squaring to the base shown in each formula.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1420",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1420",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 5.",
+    "left_evidence": "The notation 5 appears first entry of the orange point label (5, 2, 1).",
+    "right_evidence": "The notation 5 appears beside diagonal BC.",
+    "left_meaning": "5 gives the first coordinate of the orange point.",
+    "right_meaning": "5 measures BC, the hypotenuse of right triangle ABC.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a horizontal coordinate. The notation on the right represents a hypotenuse length."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "320",
+    "sample_index": "320",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image320.png",
+    "sha256": "bec45d4a7e7a6086f6a0cc2813391a5f3fa20da240e8057345f6ea68f3d8afc1",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP1420/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "349",
+    "sample_index": "1744",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_349.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1420/right.png",
+    "sha256": "a2c284843ff486e48ee39f96bd4eb03735b0ca8937bfa37ad0ada5c5eab3fab9",
+    "width": 162,
+    "height": 246
+  },
+  "views": {
+    "type": "type/different type/AVP1420",
+    "condition": "condition/numeric_representation/AVP1420"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 5 gives the first coordinate of the orange point. Right image: 5 measures BC, the hypotenuse of right triangle ABC.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a horizontal coordinate. The notation on the right represents a hypotenuse length."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 5.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 5 appears first entry of the orange point label (5, 2, 1). The notation 5 appears beside diagonal BC.",
+    "eligible_for_strict_scoring": true
+  }
+}

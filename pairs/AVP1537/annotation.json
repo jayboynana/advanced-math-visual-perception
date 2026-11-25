@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1537",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1537",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The horizontal coordinate axis.",
+    "left_evidence": "The horizontal numbered axis through the leftmost marked point.",
+    "right_evidence": "The horizontal axis running through the blue unit circle.",
+    "left_meaning": "The axis measures the input coordinate of the logarithmic plot.",
+    "right_meaning": "The axis gives the horizontal Cartesian coordinate.",
+    "same_meaning": true,
+    "reason": "In both images the feature measures the horizontal Cartesian coordinate. The horizontal numbered axis through the leftmost marked point. The horizontal axis running through the blue unit circle."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "223",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 776,
+      "img_width": 1430,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/223.jpg",
+    "sha256": "358189e467fadeb5d60643a543fdb132b336c210204c23d4c6357ad0773b771c",
+    "width": 1430,
+    "height": 776,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1537/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "47",
+    "sample_index": "47",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image47.png",
+    "sha256": "1eb9e9ec0180feb5800a8e18ce034ebc187554c0322f194585d9542de33d4a3f",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1537/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1537",
+    "condition": "condition/graphical_roles/AVP1537"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The axis measures the input coordinate of the logarithmic plot. Right image: The axis gives the horizontal Cartesian coordinate.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The horizontal numbered axis through the leftmost marked point. The horizontal axis running through the blue unit circle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The horizontal coordinate axis.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The horizontal numbered axis through the leftmost marked point. The horizontal axis running through the blue unit circle.",
+    "eligible_for_strict_scoring": true
+  }
+}

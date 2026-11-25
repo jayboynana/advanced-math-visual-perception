@@ -7,16 +7,16 @@ DynaMath:424 / MV-MATH:526_1 · different type · Numeric representation and con
 
 ## Shared or similar visual information
 
-The numerical notations 78 and 78°.
+The numerical notations 78 (left) and 78° (right).
 
 ## Evidence locations
 
-- Left image: The 78 in Student B's Math cell.
-- Right image: The 78° next to the angle arc where the interior segment meets base BC.
+- Left image: The notation 78 appears Student B row and Math column.
+- Right image: The notation 78° appears beside the arc where the interior segment meets BC.
 
 ## Mathematical meanings
 
-Left image: The table records Student B's mathematics score as 78. Right image: The indicated angle between the interior segment and the rightward base ray measures 78 degrees.
+Left image: 78 is Student B's math score. Right image: 78° measures the marked angle at the foot of the interior segment.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of score, while the right context gives it the role of angle measure.
+The notation on the left represents a tabulated score. The notation on the right represents an angle measure.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

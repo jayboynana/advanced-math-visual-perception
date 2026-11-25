@@ -1,10 +1,7 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
-  "pair_count": 1000,
-  "checks": 104024,
-  "error_count": 0,
-  "errors": [],
   "status": "passed",
-  "scope": "structure, single-target label alignment, original-1000 preservation, fixed provenance, native image integrity and exact decoded-pair deduplication; not independent human semantic certification"
+  "schema_version": "0.8.0",
+  "pair_count": 1000,
+  "verified_prompt_and_label_folders": 3000,
+  "verified_image_files": 6000
 }

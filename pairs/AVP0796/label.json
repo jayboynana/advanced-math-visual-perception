@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The symbol \"x\" denotes the independent input to the function. Right image: The symbol \"x\" denotes the independent input to the function.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The left occurrence is x inside the term kx of the displayed straight-line equation. The right occurrence is x inside the cosine argument over the plotted green curve. The placement in each image shows that the symbol denotes the independent input to the function."
+  "mathematical_meanings": "Left image: b gives the additive constant and vertical intercept of the line (the final term in y = kx + b). Right image: b scales the input of the trigonometric function and controls the period (the factor multiplying x inside the cosine argument).",
+  "same_mathematical_meanings": "no",
+  "Rationales": "On the left, b gives the additive constant and vertical intercept of the line (the final term in y = kx + b). On the right, b scales the input of the trigonometric function and controls the period (the factor multiplying x inside the cosine argument)."
 }

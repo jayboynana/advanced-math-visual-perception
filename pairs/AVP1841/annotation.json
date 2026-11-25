@@ -1,0 +1,90 @@
+{
+  "pair_id": "AVP1841",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1841",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "horizontal_axis_vs_length",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the label under the span between the two vertical projections.",
+    "right_evidence": "x at the right tip of the horizontal axis beside the V-shaped graph.",
+    "left_meaning": "x gives an unknown length (the label under the span between the two vertical projections).",
+    "right_meaning": "x names the horizontal coordinate axis (the right tip of the horizontal axis beside the V-shaped graph).",
+    "same_meaning": false,
+    "reason": "On the left, x represents an unknown length (the label under the span between the two vertical projections). On the right, x names the horizontal coordinate axis (the right tip of the horizontal axis beside the V-shaped graph)."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "359",
+    "sample_index": "1794",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Length"
+    },
+    "original_relative_path": "images_version_5/image_359.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1841/left.png",
+    "sha256": "318ad4b420718b97b23b96207bb1b6e36304b6c1c9d2197dab6eee0889d8abd8",
+    "width": 310,
+    "height": 262
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "493",
+    "sample_index": "2464",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_493.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1841/right.png",
+    "sha256": "2d2b8586bb1185d67f835db1ae4071e0378dc7e2dcb81e09dae968c00abfbb5d",
+    "width": 382,
+    "height": 391
+  },
+  "views": {
+    "type": "type/different type/AVP1841",
+    "condition": "condition/symbolic_roles/AVP1841"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x gives an unknown length (the label under the span between the two vertical projections). Right image: x names the horizontal coordinate axis (the right tip of the horizontal axis beside the V-shaped graph).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, x represents an unknown length (the label under the span between the two vertical projections). On the right, x names the horizontal coordinate axis (the right tip of the horizontal axis beside the V-shaped graph)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the label under the span between the two vertical projections. x at the right tip of the horizontal axis beside the V-shaped graph.",
+    "eligible_for_strict_scoring": true
+  }
+}

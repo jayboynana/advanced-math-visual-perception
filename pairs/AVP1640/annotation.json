@@ -1,0 +1,94 @@
+{
+  "pair_id": "AVP1640",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1640",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "hollow_circle",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled circular outline.",
+    "left_evidence": "The hollow circle on the vertical axis between the two curved branches.",
+    "right_evidence": "The hollow circle on the purple curve at x = 1, below the filled point.",
+    "left_meaning": "The hollow circle leaves the meeting point of the traces excluded.",
+    "right_meaning": "The hollow circle marks an omitted ordered pair on the purple curve.",
+    "same_meaning": true,
+    "reason": "In both images the feature marks an ordered pair excluded from the plotted trace. The hollow circle on the vertical axis between the two curved branches. The hollow circle on the purple curve at x = 1, below the filled point."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "210_A",
+    "sample_index": "210",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 210,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/210_A.jpg",
+    "sha256": "dcd611bd955889ede573b9ed63016ac8fa3d75e344f21ad5fa8628cb2d30aaf9",
+    "width": 184,
+    "height": 183,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/210_A.jpg",
+      "start": 9949235,
+      "length": 4295,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "143",
+    "sample_index": "143",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image143.png",
+    "sha256": "77edd6e4aa784bf641b41d3a5f854947565699def563122f66a836121a706b0c",
+    "width": 515,
+    "height": 389,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1640/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1640",
+    "condition": "condition/graphical_roles/AVP1640"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The hollow circle leaves the meeting point of the traces excluded. Right image: The hollow circle marks an omitted ordered pair on the purple curve.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature marks an ordered pair excluded from the plotted trace. The hollow circle on the vertical axis between the two curved branches. The hollow circle on the purple curve at x = 1, below the filled point."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An unfilled circular outline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The hollow circle on the vertical axis between the two curved branches. The hollow circle on the purple curve at x = 1, below the filled point.",
+    "eligible_for_strict_scoring": true
+  }
+}

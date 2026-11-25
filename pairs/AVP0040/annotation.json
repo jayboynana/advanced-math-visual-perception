@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0040",
-  "authoring_id": "GM15",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0040",
   "condition": "geometric_markers",
   "condition_name": "Geometric markers",
   "subcondition": "diagonal_dash_vs_region_boundary_dash",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward-sloping dashed straight line.",
+    "left_evidence": "A red dashed line inside the rectangle runs from the lower-left vertex (-6,-1) to the upper-right vertex (10,5).",
+    "right_evidence": "The left boundary of the gray region is a black dashed line extending from the lower left toward the upper right, with two filled points on it.",
+    "left_meaning": "It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle.",
+    "right_meaning": "It is the boundary line of the gray solution region.",
+    "same_meaning": false,
+    "reason": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
+  },
   "left": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
@@ -15,7 +27,6 @@
     "problem_index": "433",
     "sample_index": "2164",
     "problem_version": "Vision Dominant",
-    "image_type": "geometry",
     "source_subject": "Plane Geometry",
     "source_metadata": {
       "split": "testmini",
@@ -24,11 +35,12 @@
       "subfield": "Analytic"
     },
     "original_relative_path": "images_version_5/image_433.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
     "image_path": "pairs/AVP0040/left.png",
     "sha256": "6d88e6d1823e2a53e9c7a7586cb1d9ee90bbdc70d0c5195b92f1654bec473bdd",
     "width": 514,
-    "height": 294,
-    "original_image_modified": false
+    "height": 294
   },
   "right": {
     "dataset": "MathVerse",
@@ -38,7 +50,6 @@
     "problem_index": "511",
     "sample_index": "2554",
     "problem_version": "Vision Dominant",
-    "image_type": "function",
     "source_subject": "Functions",
     "source_metadata": {
       "split": "testmini",
@@ -47,33 +58,33 @@
       "subfield": "Expression"
     },
     "original_relative_path": "images_version_5/image_511.png",
+    "original_image_modified": false,
+    "image_type": "function",
     "image_path": "pairs/AVP0040/right.png",
     "sha256": "109efb1e544885f2857b69fd2bd851fa40e597078fac7d12c41fd0892c1f95ce",
     "width": 656,
-    "height": 506,
-    "original_image_modified": false
+    "height": 506
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "Broken straight-line strokes extending diagonally",
-    "left_evidence": "A red dashed line inside the rectangle runs from the lower-left vertex (-6,-1) to the upper-right vertex (10,5).",
-    "right_evidence": "The left boundary of the gray region is a black dashed line extending from the lower left toward the upper right, with two filled points on it.",
-    "left_meaning": "It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle.",
-    "right_meaning": "It is the boundary line of the gray solution region.",
-    "same_meaning": false,
-    "reason": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
+  "views": {
+    "type": "type/different type/AVP0040",
+    "condition": "condition/geometric_markers/AVP0040"
   },
   "label": {
     "mathematical_meanings": "Left image: It is an auxiliary diagonal connecting a pair of opposite vertices of the rectangle. Right image: It is the boundary line of the gray solution region.",
     "same_mathematical_meanings": "no",
     "Rationales": "The same diagonal dashed style represents an auxiliary connection inside a rectangle and a region boundary, respectively."
   },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review; both original images were reviewed again. Image 433 is classified as geometry based on the visible rectangle and its diagonals.",
-  "views": {
-    "type": "type/different type/AVP0040",
-    "condition": "condition/geometric_markers/AVP0040"
-  },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: Broken straight-line strokes extending diagonally"
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An upward-sloping dashed straight line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A red dashed line inside the rectangle runs from the lower-left vertex (-6,-1) to the upper-right vertex (10,5). The left boundary of the gray region is a black dashed line extending from the lower left toward the upper right, with two filled points on it.",
+    "eligible_for_strict_scoring": true
+  }
 }

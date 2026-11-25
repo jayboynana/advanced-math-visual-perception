@@ -7,16 +7,16 @@ MathVista:48 / MathVerse:342 · same type · Numeric representation and conversi
 
 ## Shared or similar visual information
 
-The numerical notation 38° in both images.
+The numerical notation 38°.
 
 ## Evidence locations
 
-- Left image: The 38° at Y between diagonal YW and the bottom edge YX.
-- Right image: The 38° in the small colored angle region at A.
+- Left image: The notation 38° appears beside the diagonal near the bottom-left vertex.
+- Right image: The notation 38° appears beside the cyan wedge at A.
 
 ## Mathematical meanings
 
-Left image: The angle WYX measures 38 degrees. Right image: The selected angle at A measures 38 degrees.
+Left image: 38° measures the angle at Y between YW and YX. Right image: 38° measures the angle between the eastward ray and AC.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both selected labels specify an angle of 38 degrees; the distinct reference rays do not alter the selected numerical angle-measure role.
+Each notation is placed next to the marked angle and specifies the same angle measure of 38°.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

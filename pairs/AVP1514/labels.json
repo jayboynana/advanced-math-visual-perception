@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shading designates the interior area of the rectangle. Right image: The shaded points constitute the solution region on one side of the linear boundary.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects a geometric area in the left image and selects the solution half-plane of a linear inequality in the right image. The lavender rectangle with dimensions 3 cm and 2 cm. The gray half-plane on the right side of the solid oblique boundary."
+}

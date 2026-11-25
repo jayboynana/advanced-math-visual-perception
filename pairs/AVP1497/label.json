@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The shaded half-plane is the solution region of a strict linear inequality. Right image: The shading selects the area of the triangle drawn across the assembly.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane to the right of the rising dashed boundary. The dark triangular patch crossing the lines of the square assembly."
+}

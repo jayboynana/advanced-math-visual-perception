@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1203",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1203",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dashed_curve_hidden_rim_vs_function_trace",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The dashed back curve bordering the shaded bottom oval.",
+    "right_evidence": "The dashed magenta parabola below the other parabola near the vertical axis.",
+    "left_meaning": "The arc traces the hidden rear part of the cylinder base rim.",
+    "right_meaning": "The curve is the second function graph, distinguished by its dashed treatment.",
+    "same_meaning": false,
+    "reason": "In the left image, the dashes trace an occluded portion of a circular rim in a solid diagram. In the right image, the dashed curve itself plots a function."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "366",
+    "sample_index": "366",
+    "problem_version": "2steps_2",
+    "image_type": "solid_geometry",
+    "source_subject": "Expanded View of Cylinders",
+    "source_metadata": {
+      "upstream_group_id": "2steps_6",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "6-2.png",
+    "sha256": "8b8b40d32a5ac9f5bb58f8c2bf3f6b77e1b9d9d0e0200647e300a76ac959df90",
+    "width": 191,
+    "height": 169,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1203/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "569",
+    "sample_index": "2844",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_569.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1203/right.png",
+    "sha256": "9bf6498534b35a913a4812ba5fffcf129be125cd9133910e625801cdca1bdc6e",
+    "width": 280,
+    "height": 284
+  },
+  "views": {
+    "type": "type/different type/AVP1203",
+    "condition": "condition/geometric_markers/AVP1203"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc traces the hidden rear part of the cylinder base rim. Right image: The curve is the second function graph, distinguished by its dashed treatment.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the dashes trace an occluded portion of a circular rim in a solid diagram. In the right image, the dashed curve itself plots a function."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed back curve bordering the shaded bottom oval. The dashed magenta parabola below the other parabola near the vertical axis.",
+    "eligible_for_strict_scoring": true
+  }
+}

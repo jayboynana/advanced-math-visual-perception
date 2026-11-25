@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0868",
-  "authoring_id": "V04SR118",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0868",
   "condition": "symbolic_roles",
   "condition_name": "Mathematical roles of symbols",
-  "subcondition": "endpoint_value_versus_frequency_parameter",
+  "subcondition": "horizontal_coordinate_vs_trig_amplitude_parameter",
   "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter a.",
+    "left_evidence": "a at the label beneath the left endpoint of the curve.",
+    "right_evidence": "a at the factor before cos in the formula above the graph.",
+    "left_meaning": "a denotes a specific value on the horizontal input axis (the label beneath the left endpoint of the curve).",
+    "right_meaning": "a scales the trigonometric output and gives the amplitude through its absolute value (the factor before cos in the formula above the graph).",
+    "same_meaning": false,
+    "reason": "On the left, a denotes a specific value on the horizontal input axis (the label beneath the left endpoint of the curve). On the right, a scales the trigonometric output and gives the amplitude through its absolute value (the factor before cos in the formula above the graph)."
+  },
   "left": {
     "dataset": "DynaMath",
     "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
@@ -49,27 +61,26 @@
     "image_type": "function",
     "image_path": "pairs/AVP0868/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The letter b",
-    "left_evidence": "b below the right dashed projection from the curve",
-    "right_evidence": "b multiplying x inside the cosine argument",
-    "left_meaning": "The symbol \"b\" denotes the horizontal coordinate of the indicated interval endpoint.",
-    "right_meaning": "The symbol \"b\" denotes the coefficient of the input in the trigonometric argument.",
-    "same_meaning": false,
-    "reason": "The left occurrence is b below the right dashed projection from the curve. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The symbol \"b\" denotes the horizontal coordinate of the indicated interval endpoint. Right image: The symbol \"b\" denotes the coefficient of the input in the trigonometric argument.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The left occurrence is b below the right dashed projection from the curve. The right occurrence is b multiplying x inside the cosine argument. The left placement shows that the symbol denotes the horizontal coordinate of the indicated interval endpoint, while the right placement shows that it denotes the coefficient of the input in the trigonometric argument."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0868",
     "condition": "condition/symbolic_roles/AVP0868"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The letter b"
+  "label": {
+    "mathematical_meanings": "Left image: a denotes a specific value on the horizontal input axis (the label beneath the left endpoint of the curve). Right image: a scales the trigonometric output and gives the amplitude through its absolute value (the factor before cos in the formula above the graph).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, a denotes a specific value on the horizontal input axis (the label beneath the left endpoint of the curve). On the right, a scales the trigonometric output and gives the amplitude through its absolute value (the factor before cos in the formula above the graph)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter a.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "a at the label beneath the left endpoint of the curve. a at the factor before cos in the formula above the graph.",
+    "eligible_for_strict_scoring": true
+  }
 }

@@ -7,23 +7,23 @@ MV-MATH:950_1 / DynaMath:346 · same type · Mathematical roles of symbols
 
 ## Shared or similar visual information
 
-The letter x
+The lowercase letter b.
 
 ## Evidence locations
 
-- Left image: x inside the term kx of the displayed straight-line equation
-- Right image: x inside the cosine argument over the plotted green curve
+- Left image: b at the final term in y = kx + b.
+- Right image: b at the factor multiplying x inside the cosine argument.
 
 ## Mathematical meanings
 
-Left image: The symbol "x" denotes the independent input to the function. Right image: The symbol "x" denotes the independent input to the function.
+Left image: b gives the additive constant and vertical intercept of the line (the final term in y = kx + b). Right image: b scales the input of the trigonometric function and controls the period (the factor multiplying x inside the cosine argument).
 
 ## Same mathematical meanings
 
-yes
+no
 
 ## Rationales
 
-The left occurrence is x inside the term kx of the displayed straight-line equation. The right occurrence is x inside the cosine argument over the plotted green curve. The placement in each image shows that the symbol denotes the independent input to the function.
+On the left, b gives the additive constant and vertical intercept of the line (the final term in y = kx + b). On the right, b scales the input of the trigonometric function and controls the period (the factor multiplying x inside the cosine argument).
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

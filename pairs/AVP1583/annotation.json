@@ -1,0 +1,104 @@
+{
+  "pair_id": "AVP1583",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1583",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_dashed_line",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal dashed line.",
+    "left_evidence": "The horizontal dashed line at the bottom back of the rectangular box.",
+    "right_evidence": "The red dotted horizontal line through the 0.2 tick.",
+    "left_meaning": "The dashed horizontal line depicts the hidden back edge of the box base.",
+    "right_meaning": "The dotted line supplies a comparison level of 0.2 for the plotted points.",
+    "same_meaning": false,
+    "reason": "The feature shows an occluded horizontal edge of a solid in the left image and marks a fixed output level for comparison in the right image. The horizontal dashed line at the bottom back of the rectangular box. The red dotted horizontal line through the 0.2 tick."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "505_A",
+    "sample_index": "505",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 505,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/505_A.jpg",
+    "sha256": "5fb4cdc7d8b05812fe8f58efce91c3e8f10c8eb9463abb44b356016f18a825be",
+    "width": 121,
+    "height": 106,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/505_A.jpg",
+      "start": 13041341,
+      "length": 2464,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "738",
+    "sample_index": "738",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 268,
+      "img_width": 383,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/738.jpg",
+    "sha256": "a807b556cca8276d9aec6d50020ccdf9061601c83e93430b1d0c43e88b2a9ae7",
+    "width": 383,
+    "height": 268,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1583/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1583",
+    "condition": "condition/graphical_roles/AVP1583"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The dashed horizontal line depicts the hidden back edge of the box base. Right image: The dotted line supplies a comparison level of 0.2 for the plotted points.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature shows an occluded horizontal edge of a solid in the left image and marks a fixed output level for comparison in the right image. The horizontal dashed line at the bottom back of the rectangular box. The red dotted horizontal line through the 0.2 tick."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The horizontal dashed line at the bottom back of the rectangular box. The red dotted horizontal line through the 0.2 tick.",
+    "eligible_for_strict_scoring": true
+  }
+}

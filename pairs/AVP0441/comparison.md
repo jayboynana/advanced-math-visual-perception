@@ -7,16 +7,16 @@ MathVista:738 / MathVerse:535 · same type · Mathematical roles of graphical el
 
 ## Shared or similar visual information
 
-A horizontal dashed reference across a coordinate plot
+A horizontal dashed line.
 
 ## Evidence locations
 
-- Left image: The red horizontal dashed reference line through the tick 0.2.
-- Right image: The magenta horizontal dashed line through the marked point on the descending waveform.
+- Left image: The red dotted horizontal line through the 0.2 tick.
+- Right image: The magenta dashed horizontal line through the upper marked point.
 
 ## Mathematical meanings
 
-Left image: A fixed-height reference against which plotted points can be compared. Right image: A fixed-y horizontal reference for locating a curve point.
+Left image: The dotted line supplies a comparison level of 0.2 for the plotted points. Right image: The dashed line shows the fixed output level y = 1.2.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The red line through 0.2 and the magenta line through the marked waveform point each establish a constant ordinate for comparison with plotted positions.
+In both images the feature marks a fixed output level for comparison. The red dotted horizontal line through the 0.2 tick. The magenta dashed horizontal line through the upper marked point.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The pie chart reports 73 students in Grade 3. Right image: The table records Student A's science score as 73.",
+  "mathematical_meanings": "Left image: 73 is the count of Grade 3 students. Right image: 73 is Student A's science score.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of number of students, while the right context gives it the role of score."
+  "Rationales": "The notation on the left represents a group count. The notation on the right represents a tabulated score."
 }

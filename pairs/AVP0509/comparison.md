@@ -7,16 +7,16 @@ DynaMath:123 / DynaMath:26 · same type · Numeric representation and conversion
 
 ## Shared or similar visual information
 
-The numerical notation 120° in both images.
+The numerical notation 120°.
 
 ## Evidence locations
 
-- Left image: The 120° below the sector vertex between the two radii.
-- Right image: The 120° near the center of the circle beside the shaded sector.
+- Left image: The notation 120° appears beside the arc at the sector vertex.
+- Right image: The notation 120° appears inside the circle below the shaded wedge.
 
 ## Mathematical meanings
 
-Left image: The marked central angle of the sector measures 120 degrees. Right image: The marked central angle measures 120 degrees.
+Left image: 120° gives the angle between the sector radii. Right image: 120° measures the central angle of the gray sector.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both labels are attached to marked angle regions and give the same measure of 120°.
+Each notation is placed next to the marked angle and specifies the same angle measure of 120°.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

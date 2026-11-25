@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1247",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1247",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "signed_value_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 6 (left) and −6 (right).",
+    "left_evidence": "The notation 6 appears below the horizontal axis between labels 4 and 8.",
+    "right_evidence": "The notation −6 appears at the foot of the dashed vertical projection.",
+    "left_meaning": "6 gives the horizontal-axis input at that tick.",
+    "right_meaning": "−6 is the horizontal coordinate of the blue point.",
+    "same_meaning": false,
+    "reason": "The numeric forms have opposite signs (6 and −6), so they denote different values in the same mathematical role."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "329",
+    "sample_index": "329",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 2039,
+      "img_width": 2560,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/329.jpg",
+    "sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+    "width": 2560,
+    "height": 2039,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1247/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "363",
+    "sample_index": "363",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image363.png",
+    "sha256": "cd2f0519a0cbe55defc8bfdd520317d613085cd99fd2afc068dff19e2b845858",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1247/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1247",
+    "condition": "condition/numeric_representation/AVP1247"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 6 gives the horizontal-axis input at that tick. Right image: −6 is the horizontal coordinate of the blue point.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The numeric forms have opposite signs (6 and −6), so they denote different values in the same mathematical role."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 6 (left) and −6 (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 6 appears below the horizontal axis between labels 4 and 8. The notation −6 appears at the foot of the dashed vertical projection.",
+    "eligible_for_strict_scoring": true
+  }
+}

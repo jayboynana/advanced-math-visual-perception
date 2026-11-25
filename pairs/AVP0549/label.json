@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The directed connection from B to A is labeled with weight 0.2. Right image: The marked point has x-coordinate 0.2.",
+  "mathematical_meanings": "Left image: 0.2 is the transition probability from B to A. Right image: 0.2 is the horizontal coordinate of the marked unit-circle point.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of weight on a directed edge, while the right context gives it the role of horizontal coordinate."
+  "Rationales": "The notation on the left represents a transition probability. The notation on the right represents a horizontal coordinate."
 }

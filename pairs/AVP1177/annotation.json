@@ -1,0 +1,98 @@
+{
+  "pair_id": "AVP1177",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1177",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "dashed_curve_hidden_rim",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The dashed arc crossing the interior of the dome drawing.",
+    "right_evidence": "The dashed back portion of the ellipse drawn across the sphere.",
+    "left_meaning": "The arc depicts the rear portion of the hemisphere's base rim.",
+    "right_meaning": "The arc represents the hidden half of the circular cross-section drawn on the sphere.",
+    "same_meaning": true,
+    "reason": "Both images use the mark in the same way: the dashes trace an occluded portion of a circular rim in a solid diagram."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1226_A",
+    "sample_index": "1226",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1226,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1226_A.jpg",
+    "sha256": "d5dea71db27e41e503e4b096e967b2c42a3952087fdc848fe823f3b50a744c12",
+    "width": 64,
+    "height": 45,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1226_A.jpg",
+      "start": 2499816,
+      "length": 1412,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2942",
+    "sample_index": "2942",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "id": "2942",
+      "question": "The length of the diameter of this spherical ball is equal to the height of the box in which it is placed. The box is a cube and has an edge length of 30 cm. How many cubic centimeters of the box are not occupied by the solid sphere? Express your answer in terms of $\\pi$. <image1>",
+      "options": [],
+      "image": "images/2942.jpg",
+      "level": 1,
+      "subject": "solid geometry"
+    },
+    "original_relative_path": "images/2942.jpg",
+    "sha256": "f1bc738db56a3e8851af7a5db05891b7c35205bb1740e8a7ecc6dff3d48489d5",
+    "width": 2520,
+    "height": 2520,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1177/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1177",
+    "condition": "condition/geometric_markers/AVP1177"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arc depicts the rear portion of the hemisphere's base rim. Right image: The arc represents the hidden half of the circular cross-section drawn on the sphere.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "Both images use the mark in the same way: the dashes trace an occluded portion of a circular rim in a solid diagram."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed arc crossing the interior of the dome drawing. The dashed back portion of the ellipse drawn across the sphere.",
+    "eligible_for_strict_scoring": true
+  }
+}

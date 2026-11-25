@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1411",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1411",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 6.",
+    "left_evidence": "The notation 6 appears top-right cell of matrix A.",
+    "right_evidence": "The notation 6 appears beside AB.",
+    "left_meaning": "6 is the top-right entry of A.",
+    "right_meaning": "6 gives AB, the hypotenuse of right triangle ADB.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a matrix entry. The notation on the right represents a hypotenuse length."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "487",
+    "sample_index": "487",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image487.png",
+    "sha256": "de0e3cf1576d711db5d78925f7098743a8781202887e421072c983a1e3d0f134",
+    "width": 958,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP1411/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "758",
+    "sample_index": "3789",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "GEOS",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_758.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1411/right.png",
+    "sha256": "80da398db3aac598c6471ecb9ace33213309c04da6d16f595c80427ef5047389",
+    "width": 480,
+    "height": 337
+  },
+  "views": {
+    "type": "type/different type/AVP1411",
+    "condition": "condition/numeric_representation/AVP1411"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 6 is the top-right entry of A. Right image: 6 gives AB, the hypotenuse of right triangle ADB.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a matrix entry. The notation on the right represents a hypotenuse length."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 6.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 6 appears top-right cell of matrix A. The notation 6 appears beside AB.",
+    "eligible_for_strict_scoring": true
+  }
+}

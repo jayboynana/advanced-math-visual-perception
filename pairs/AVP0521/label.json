@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The horizontal coordinate of the right segment endpoint is 5. Right image: The orange point's first coordinate is 5.",
+  "mathematical_meanings": "Left image: 5 is the horizontal coordinate of the segment's right endpoint. Right image: 5 gives the first coordinate of the orange point.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both cues identify the same horizontal coordinate value, 5. The evidence is the selected axis position or coordinate component in each image."
+  "Rationales": "The numeral gives the same horizontal coordinate in both images."
 }

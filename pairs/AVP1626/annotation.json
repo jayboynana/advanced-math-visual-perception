@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1626",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1626",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "ascending_straight_line",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line rising from left to right.",
+    "left_evidence": "The rising line crossing the axes at the marks −1 and 1.",
+    "right_evidence": "The rising straight line inside the rectangle.",
+    "left_meaning": "The line plots a positive-slope linear function with x-intercept −1 and y-intercept 1.",
+    "right_meaning": "The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+    "same_meaning": false,
+    "reason": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising line crossing the axes at the marks −1 and 1. The rising straight line inside the rectangle."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "457_A",
+    "sample_index": "457",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 457,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/457_A.jpg",
+    "sha256": "fc52e5ee222811ec6d67d44354d14500b6d1e368f61a04d452074fd51169ff07",
+    "width": 122,
+    "height": 115,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/457_A.jpg",
+      "start": 12603838,
+      "length": 1692,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1336_A",
+    "sample_index": "1336",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1336,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1336_A.jpg",
+    "sha256": "80e2f6802f39390a2abd08fff3b32aff8be89c7b9d1ea5322405ac67b7146445",
+    "width": 143,
+    "height": 95,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1336_A.jpg",
+      "start": 3764333,
+      "length": 1603,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1626",
+    "condition": "condition/graphical_roles/AVP1626"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line plots a positive-slope linear function with x-intercept −1 and y-intercept 1. Right image: The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising line crossing the axes at the marks −1 and 1. The rising straight line inside the rectangle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line rising from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The rising line crossing the axes at the marks −1 and 1. The rising straight line inside the rectangle.",
+    "eligible_for_strict_scoring": true
+  }
+}

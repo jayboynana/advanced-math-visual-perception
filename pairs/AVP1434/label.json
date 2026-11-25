@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The axis measures the input coordinate of the logarithmic plot. Right image: The axis is the horizontal coordinate reference for the geometry diagram.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The horizontal numbered axis through the leftmost marked point. The horizontal line through C and A and the center of the unit circle."
+}

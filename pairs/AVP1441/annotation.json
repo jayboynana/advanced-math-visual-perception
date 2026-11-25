@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1441",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1441",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "filled_point",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A filled circular point marker.",
+    "left_evidence": "The filled blue dot at (1, 0), where the trace ends on the right.",
+    "right_evidence": "The solid red point below the open point at x = 1.",
+    "left_meaning": "The dot includes the terminal x-intercept (1, 0) in the function graph.",
+    "right_meaning": "The dot specifies the actual red-graph function value at x = 1.",
+    "same_meaning": false,
+    "reason": "The feature marks an endpoint included in the plotted branch in the left image and specifies an isolated included ordered pair off the nearby curve in the right image. The filled blue dot at (1, 0), where the trace ends on the right. The solid red point below the open point at x = 1."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "485",
+    "sample_index": "2424",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_485.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1441/left.png",
+    "sha256": "a41c9d6134507aebf1817590222f52260935475a66a8a35cc6a8baceb3bb226c",
+    "width": 462,
+    "height": 466
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "102",
+    "sample_index": "102",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image102.png",
+    "sha256": "1c3eb76ac722bb31a554fc9e05cc5c414359d542ec7cfb22ccb5dccde3304882",
+    "width": 515,
+    "height": 389,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1441/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1441",
+    "condition": "condition/graphical_roles/AVP1441"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The dot includes the terminal x-intercept (1, 0) in the function graph. Right image: The dot specifies the actual red-graph function value at x = 1.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature marks an endpoint included in the plotted branch in the left image and specifies an isolated included ordered pair off the nearby curve in the right image. The filled blue dot at (1, 0), where the trace ends on the right. The solid red point below the open point at x = 1."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A filled circular point marker.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The filled blue dot at (1, 0), where the trace ends on the right. The solid red point below the open point at x = 1.",
+    "eligible_for_strict_scoring": true
+  }
+}

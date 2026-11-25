@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1654",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1654",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_dashed_line",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal dashed line.",
+    "left_evidence": "The long horizontal dashed line at the rear of the cube’s bottom face.",
+    "right_evidence": "The horizontal dashed segment from 78 to the graph’s left plateau corner.",
+    "left_meaning": "The dashed horizontal line represents the hidden rear edge of the cube base.",
+    "right_meaning": "The dashed segment projects the plateau height of 78 onto the vertical axis.",
+    "same_meaning": false,
+    "reason": "The feature shows an occluded horizontal edge of a solid in the left image and connects a feature of the graph to its vertical-axis value in the right image. The long horizontal dashed line at the rear of the cube’s bottom face. The horizontal dashed segment from 78 to the graph’s left plateau corner."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1338_A",
+    "sample_index": "1338",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1338,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1338_A.jpg",
+    "sha256": "5637250a1808d42e2632b20ea824aa5c9381461604a60ff262f2bac47f317fc0",
+    "width": 241,
+    "height": 241,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1338_A.jpg",
+      "start": 3782313,
+      "length": 5361,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1655_A",
+    "sample_index": "1655",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1655,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1655_A.jpg",
+    "sha256": "ad97b140b07d680bc9118fe26c0bef86acbb7844ce377f1d569377e1999166ec",
+    "width": 255,
+    "height": 188,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1655_A.jpg",
+      "start": 7837667,
+      "length": 3762,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1654",
+    "condition": "condition/graphical_roles/AVP1654"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The dashed horizontal line represents the hidden rear edge of the cube base. Right image: The dashed segment projects the plateau height of 78 onto the vertical axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature shows an occluded horizontal edge of a solid in the left image and connects a feature of the graph to its vertical-axis value in the right image. The long horizontal dashed line at the rear of the cube’s bottom face. The horizontal dashed segment from 78 to the graph’s left plateau corner."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The long horizontal dashed line at the rear of the cube’s bottom face. The horizontal dashed segment from 78 to the graph’s left plateau corner.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1558",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1558",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "ascending_straight_line",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line rising from left to right.",
+    "left_evidence": "The steep rising straight line through O.",
+    "right_evidence": "The black straight line crossing the axes and rising to the right.",
+    "left_meaning": "The line plots a proportional relationship between the coordinates.",
+    "right_meaning": "The line is the graph of a positive-slope linear function.",
+    "same_meaning": true,
+    "reason": "In both images the feature plots a linear relationship between coordinates. The steep rising straight line through O. The black straight line crossing the axes and rising to the right."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "538_A",
+    "sample_index": "538",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 538,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/538_A.jpg",
+    "sha256": "bf463503c4544f79e0d332d7b6f3f9074e98c3212f2db7a3e4778080877bd879",
+    "width": 126,
+    "height": 146,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/538_A.jpg",
+      "start": 13340226,
+      "length": 1981,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "507",
+    "sample_index": "2534",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_507.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1558/right.png",
+    "sha256": "80428d02fc6a5585ce727e1d1717ccd3c4fea159c4f2139cd62a36052437f57e",
+    "width": 583,
+    "height": 504
+  },
+  "views": {
+    "type": "type/same type/AVP1558",
+    "condition": "condition/graphical_roles/AVP1558"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line plots a proportional relationship between the coordinates. Right image: The line is the graph of a positive-slope linear function.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature plots a linear relationship between coordinates. The steep rising straight line through O. The black straight line crossing the axes and rising to the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line rising from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The steep rising straight line through O. The black straight line crossing the axes and rising to the right.",
+    "eligible_for_strict_scoring": true
+  }
+}

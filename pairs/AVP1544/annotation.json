@@ -1,0 +1,104 @@
+{
+  "pair_id": "AVP1544",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1544",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "ascending_straight_line",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line rising from left to right.",
+    "left_evidence": "The rising trace through the origin from the lower-left to the upper-right of the plot.",
+    "right_evidence": "The rising straight line inside the rectangle.",
+    "left_meaning": "The trace represents a linear relation assigning equal coordinates along the trace.",
+    "right_meaning": "The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+    "same_meaning": false,
+    "reason": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising trace through the origin from the lower-left to the upper-right of the plot. The rising straight line inside the rectangle."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "962",
+    "sample_index": "962",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 301,
+      "img_width": 387,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/962.jpg",
+    "sha256": "928c1a6242822f7e9a785ef29bb4a7df3127704ed8d38eba679d65c411454a98",
+    "width": 387,
+    "height": 301,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1544/left.jpg"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1336_A",
+    "sample_index": "1336",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1336,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1336_A.jpg",
+    "sha256": "80e2f6802f39390a2abd08fff3b32aff8be89c7b9d1ea5322405ac67b7146445",
+    "width": 143,
+    "height": 95,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1336_A.jpg",
+      "start": 3764333,
+      "length": 1603,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1544",
+    "condition": "condition/graphical_roles/AVP1544"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The trace represents a linear relation assigning equal coordinates along the trace. Right image: The straight segment is the diagonal connecting the lower-left and upper-right corners.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The rising trace through the origin from the lower-left to the upper-right of the plot. The rising straight line inside the rectangle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line rising from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The rising trace through the origin from the lower-left to the upper-right of the plot. The rising straight line inside the rectangle.",
+    "eligible_for_strict_scoring": true
+  }
+}

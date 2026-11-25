@@ -1,0 +1,86 @@
+{
+  "pair_id": "AVP1250",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1250",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "signed_value_difference",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations −2 (left) and 2 (right).",
+    "left_evidence": "The notation −2 appears top-right cell of matrix A.",
+    "right_evidence": "The notation 2 appears bottom-right cell of matrix A.",
+    "left_meaning": "−2 is the top-right entry of A.",
+    "right_meaning": "2 is the bottom-right entry of A.",
+    "same_meaning": false,
+    "reason": "The numeric forms have opposite signs (−2 and 2), so they denote different values in the same mathematical role."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "488",
+    "sample_index": "488",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image488.png",
+    "sha256": "62e7462a05c0b72878e9f97616e088840768248cf8aa65432b188c8541ca0966",
+    "width": 610,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP1250/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "489",
+    "sample_index": "489",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image489.png",
+    "sha256": "b41c7ac82c4211d12cb99d4c25d5b5a22c5089a8dad51a73c5d0664644e6d7c9",
+    "width": 886,
+    "height": 101,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP1250/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1250",
+    "condition": "condition/numeric_representation/AVP1250"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: −2 is the top-right entry of A. Right image: 2 is the bottom-right entry of A.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The numeric forms have opposite signs (−2 and 2), so they denote different values in the same mathematical role."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations −2 (left) and 2 (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation −2 appears top-right cell of matrix A. The notation 2 appears bottom-right cell of matrix A.",
+    "eligible_for_strict_scoring": true
+  }
+}

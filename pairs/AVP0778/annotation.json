@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0778",
-  "authoring_id": "V04SR028",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0778",
   "condition": "symbolic_roles",
   "condition_name": "Mathematical roles of symbols",
-  "subcondition": "same_set",
+  "subcondition": "set_name_same",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The uppercase letter A.",
+    "left_evidence": "A at the label under the left circle containing 5 and 10 in its exclusive region.",
+    "right_evidence": "A at the label under the left circle containing 4, 7 and 13 in its exclusive region.",
+    "left_meaning": "A names the set represented by the circle (the label under the left circle containing 5 and 10 in its exclusive region).",
+    "right_meaning": "A names the set represented by the circle (the label under the left circle containing 4, 7 and 13 in its exclusive region).",
+    "same_meaning": true,
+    "reason": "In both images, A names the set represented by the circle. The relevant locations are the label under the left circle containing 5 and 10 in its exclusive region on the left and the label under the left circle containing 4, 7 and 13 in its exclusive region on the right."
+  },
   "left": {
     "dataset": "DynaMath",
     "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
@@ -49,27 +61,26 @@
     "image_type": "set_diagram",
     "image_path": "pairs/AVP0778/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The letter B",
-    "left_evidence": "B below the green set circle",
-    "right_evidence": "B below the circle with 3 and 7 in its right-only part",
-    "left_meaning": "The symbol \"B\" names the set represented by the indicated circle.",
-    "right_meaning": "The symbol \"B\" names the set represented by the indicated circle.",
-    "same_meaning": true,
-    "reason": "The left occurrence is B below the green set circle. The right occurrence is B below the circle with 3 and 7 in its right-only part. The placement in each image shows that the symbol names the set represented by the indicated circle."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The symbol \"B\" names the set represented by the indicated circle. Right image: The symbol \"B\" names the set represented by the indicated circle.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The left occurrence is B below the green set circle. The right occurrence is B below the circle with 3 and 7 in its right-only part. The placement in each image shows that the symbol names the set represented by the indicated circle."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review of original-image contact sheets. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0778",
     "condition": "condition/symbolic_roles/AVP0778"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The letter B"
+  "label": {
+    "mathematical_meanings": "Left image: A names the set represented by the circle (the label under the left circle containing 5 and 10 in its exclusive region). Right image: A names the set represented by the circle (the label under the left circle containing 4, 7 and 13 in its exclusive region).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, A names the set represented by the circle. The relevant locations are the label under the left circle containing 5 and 10 in its exclusive region on the left and the label under the left circle containing 4, 7 and 13 in its exclusive region on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The uppercase letter A.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A at the label under the left circle containing 5 and 10 in its exclusive region. A at the label under the left circle containing 4, 7 and 13 in its exclusive region.",
+    "eligible_for_strict_scoring": true
+  }
 }

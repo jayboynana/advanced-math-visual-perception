@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0532",
-  "authoring_id": "V04NR032",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0532",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "same_set_element",
+  "subcondition": "same_intersection_element",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 2.",
+    "left_evidence": "The notation 2 appears at the top of the overlap.",
+    "right_evidence": "The notation 2 appears inside the overlap of circles A and B.",
+    "left_meaning": "2 is an element common to sets A and B.",
+    "right_meaning": "2 is an element common to sets A and B.",
+    "same_meaning": true,
+    "reason": "2 is written inside the overlap of circles A and B in both diagrams, so it belongs to both sets in each."
+  },
   "left": {
     "dataset": "DynaMath",
     "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
@@ -49,27 +61,26 @@
     "image_type": "set_diagram",
     "image_path": "pairs/AVP0532/right.png"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 2 in both images.",
-    "left_evidence": "The 2 at the top of the overlapping portion of the circles A and B.",
-    "right_evidence": "The 2 printed in the overlap of the sets A and B.",
-    "left_meaning": "The number 2 is listed as an element of the intersection of the two sets.",
-    "right_meaning": "The number 2 is a listed member of both sets.",
-    "same_meaning": true,
-    "reason": "The number 2 is printed inside the overlapping portions of the two sets in both diagrams, indicating membership in both sets."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The number 2 is listed as an element of the intersection of the two sets. Right image: The number 2 is a listed member of both sets.",
-    "same_mathematical_meanings": "yes",
-    "Rationales": "The number 2 is printed inside the overlapping portions of the two sets in both diagrams, indicating membership in both sets."
-  },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0532",
     "condition": "condition/numeric_representation/AVP0532"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 2 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 2 is an element common to sets A and B. Right image: 2 is an element common to sets A and B.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "2 is written inside the overlap of circles A and B in both diagrams, so it belongs to both sets in each."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 2.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 2 appears at the top of the overlap. The notation 2 appears inside the overlap of circles A and B.",
+    "eligible_for_strict_scoring": true
+  }
 }

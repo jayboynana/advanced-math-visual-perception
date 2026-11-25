@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The hollow circle marks a hole in the plotted curve. Right image: The outline is the circumcircle of the inscribed square.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks an ordered pair excluded from the plotted trace in the left image and traces the circumference of a geometric circle in the right image. The hollow circle on the red trace at x = 1, above the corresponding filled point. The single outer circle passing through all four corners of the tilted square."
+}

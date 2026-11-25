@@ -7,16 +7,16 @@ MathVista:360 / MathVerse:407 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 20° in both images.
+The numerical notation 20°.
 
 ## Evidence locations
 
-- Left image: The 20° with a leader pointing to the small angle at Y.
-- Right image: The 20° in the small angle region at the sector's right-hand vertex.
+- Left image: The notation 20° appears at the tip of the curved annotation near Z.
+- Right image: The notation 20° appears next to the purple wedge at the sector vertex.
 
 ## Mathematical meanings
 
-Left image: The selected angle at Y measures 20 degrees. Right image: The marked central angle measures 20 degrees.
+Left image: 20° measures the marked angle where the long oblique line meets the baseline. Right image: 20° measures the angle between the two radii.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both selected degree labels assign angle measure 20 degrees.
+Each notation is placed next to the marked angle and specifies the same angle measure of 20°.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

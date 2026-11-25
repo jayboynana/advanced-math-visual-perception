@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The hollow circle excludes the ordered pair at the right endpoint of the segment. Right image: The outline is the circumference of the circle whose diameter is AB.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks an ordered pair excluded from the plotted trace in the left image and traces the circumference of a geometric circle in the right image. The hollow circle at the lower right end of the short descending segment. The circular outline through A, B and C."
+}

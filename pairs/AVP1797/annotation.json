@@ -1,0 +1,108 @@
+{
+  "pair_id": "AVP1797",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1797",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "length_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the label beside the lower leg of the right triangle.",
+    "right_evidence": "x at the label beside the perpendicular from the lower-left vertex to the hypotenuse.",
+    "left_meaning": "x gives an unknown length (the label beside the lower leg of the right triangle).",
+    "right_meaning": "x gives an unknown length (the label beside the perpendicular from the lower-left vertex to the hypotenuse).",
+    "same_meaning": true,
+    "reason": "In both images, x represents an unknown length. The relevant locations are the label beside the lower leg of the right triangle on the left and the label beside the perpendicular from the lower-left vertex to the hypotenuse on the right."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "160",
+    "sample_index": "160",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 227,
+      "img_width": 270,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/160.jpg",
+    "sha256": "dc80c9abe9f04514ee8709f3bd1a861c57abfe09cb07142763d26540623e9dbc",
+    "width": 270,
+    "height": 227,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1797/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "408",
+    "sample_index": "408",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 238,
+      "img_width": 362,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/408.jpg",
+    "sha256": "f01f4efccceedf972c2c0ea5242d5881406e87c1af760b46639c91d325a88958",
+    "width": 362,
+    "height": 238,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1797/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1797",
+    "condition": "condition/symbolic_roles/AVP1797"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x gives an unknown length (the label beside the lower leg of the right triangle). Right image: x gives an unknown length (the label beside the perpendicular from the lower-left vertex to the hypotenuse).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, x represents an unknown length. The relevant locations are the label beside the lower leg of the right triangle on the left and the label beside the perpendicular from the lower-left vertex to the hypotenuse on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the label beside the lower leg of the right triangle. x at the label beside the perpendicular from the lower-left vertex to the hypotenuse.",
+    "eligible_for_strict_scoring": true
+  }
+}

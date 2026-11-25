@@ -1,58 +1,14 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0034",
-  "authoring_id": "GM09",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0034",
   "condition": "geometric_markers",
   "condition_name": "Geometric markers",
   "subcondition": "filled_acute_angle_arc_same",
   "type_class": "same type",
-  "left": {
-    "dataset": "MathVerse",
-    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
-    "config": "testmini",
-    "split": "testmini",
-    "problem_index": "343",
-    "sample_index": "1714",
-    "problem_version": "Vision Dominant",
-    "image_type": "geometry",
-    "source_subject": "Plane Geometry",
-    "source_metadata": {
-      "split": "testmini",
-      "source": "Geo2D_collected",
-      "subject": "Plane Geometry",
-      "subfield": "Angle"
-    },
-    "original_relative_path": "images_version_5/image_343.png",
-    "image_path": "pairs/AVP0034/left.png",
-    "sha256": "4d9ef4aef05695fb26da16edf12c7e949c48805e540c625004a0754d273e0709",
-    "width": 250,
-    "height": 249,
-    "original_image_modified": false
-  },
-  "right": {
-    "dataset": "MathVerse",
-    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
-    "config": "testmini",
-    "split": "testmini",
-    "problem_index": "357",
-    "sample_index": "1784",
-    "problem_version": "Vision Dominant",
-    "image_type": "geometry",
-    "source_subject": "Plane Geometry",
-    "source_metadata": {
-      "split": "testmini",
-      "source": "Geo2D_collected",
-      "subject": "Plane Geometry",
-      "subfield": "Angle"
-    },
-    "original_relative_path": "images_version_5/image_357.png",
-    "image_path": "pairs/AVP0034/right.png",
-    "sha256": "25bb0ad82c4c7addf6269e2cfe791fe4bb517655518f10eb5589f80e6e4c3254",
-    "width": 316,
-    "height": 216,
-    "original_image_modified": false
-  },
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
   "target_count": 1,
   "target": {
     "visual_information": "A purple shaded acute-angle arc at a vertex",
@@ -63,17 +19,72 @@
     "same_meaning": true,
     "reason": "This item concerns the arc's function of identifying an angle, rather than the numerical value in the adjacent annotation; it does not assert equal angle values."
   },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "343",
+    "sample_index": "1714",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_343.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0034/left.png",
+    "sha256": "4d9ef4aef05695fb26da16edf12c7e949c48805e540c625004a0754d273e0709",
+    "width": 250,
+    "height": 249
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "357",
+    "sample_index": "1784",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_357.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP0034/right.png",
+    "sha256": "25bb0ad82c4c7addf6269e2cfe791fe4bb517655518f10eb5589f80e6e4c3254",
+    "width": 316,
+    "height": 216
+  },
+  "views": {
+    "type": "type/same type/AVP0034",
+    "condition": "condition/geometric_markers/AVP0034"
+  },
   "label": {
     "mathematical_meanings": "Left image: The shaded angle arc identifies the angle being discussed between the two sides at O. Right image: The shaded angle arc identifies the angle being discussed between the two sides at B.",
     "same_mathematical_meanings": "yes",
     "Rationales": "This item concerns the arc's function of identifying an angle, rather than the numerical value in the adjacent annotation; it does not assert equal angle values."
   },
-  "semantic_relation": "same_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review; both original images were reviewed again. The angle-marker function is compared; a° is not assumed to equal 35°.",
-  "views": {
-    "type": "type/same type/AVP0034",
-    "condition": "condition/geometric_markers/AVP0034"
-  },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A purple shaded acute-angle arc at a vertex"
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A purple shaded acute-angle arc at a vertex",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "A purple angle arc lies at O between the upward vertical direction and the slanted line extending toward the upper right, beside the annotation a°. A purple angle arc lies at B in the lower left between horizontal BA and BC extending toward the upper right, beside the annotation 35°.",
+    "eligible_for_strict_scoring": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: AB is perpendicular to BC at B. Right image: UC is perpendicular to MV at their intersection.",
+  "mathematical_meanings": "Left image: AB is perpendicular to BC. Right image: UC and VM are perpendicular.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "In both locations the square is attached to the angle between the intersecting lines, so the conventional symbol asserts perpendicularity. Rotation, fill and the surrounding construction do not change the right-angle meaning."
+  "Rationales": "Both images use the mark in the same way: a square placed in the angle between two segments marks those segments as perpendicular."
 }

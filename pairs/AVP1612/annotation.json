@@ -1,0 +1,98 @@
+{
+  "pair_id": "AVP1612",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1612",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_dashed_line",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A horizontal dashed line.",
+    "left_evidence": "The red dotted horizontal line through the 0.2 tick.",
+    "right_evidence": "The pink dashed horizontal line through the marked point of height 3.3.",
+    "left_meaning": "The dotted line supplies a comparison level of 0.2 for the plotted points.",
+    "right_meaning": "The dashed line shows the fixed output level y = 3.3.",
+    "same_meaning": true,
+    "reason": "In both images the feature marks a fixed output level for comparison. The red dotted horizontal line through the 0.2 tick. The pink dashed horizontal line through the marked point of height 3.3."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "738",
+    "sample_index": "738",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 268,
+      "img_width": 383,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/738.jpg",
+    "sha256": "a807b556cca8276d9aec6d50020ccdf9061601c83e93430b1d0c43e88b2a9ae7",
+    "width": 383,
+    "height": 268,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1612/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "542",
+    "sample_index": "2709",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_542.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1612/right.png",
+    "sha256": "f0f9ec9c7cd61312db09be704f35d7d35020405b0dd14261098cce063299baeb",
+    "width": 405,
+    "height": 412
+  },
+  "views": {
+    "type": "type/same type/AVP1612",
+    "condition": "condition/graphical_roles/AVP1612"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The dotted line supplies a comparison level of 0.2 for the plotted points. Right image: The dashed line shows the fixed output level y = 3.3.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature marks a fixed output level for comparison. The red dotted horizontal line through the 0.2 tick. The pink dashed horizontal line through the marked point of height 3.3."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A horizontal dashed line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The red dotted horizontal line through the 0.2 tick. The pink dashed horizontal line through the marked point of height 3.3.",
+    "eligible_for_strict_scoring": true
+  }
+}

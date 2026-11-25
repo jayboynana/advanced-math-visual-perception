@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1352",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1352",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_coordinate_notation",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −1.",
+    "left_evidence": "The notation −1 appears at the left intercept.",
+    "right_evidence": "The notation −1 appears beside the tick to the left of the origin.",
+    "left_meaning": "−1 is the horizontal coordinate of the left zero.",
+    "right_meaning": "−1 is the indicated horizontal coordinate to the left of the origin.",
+    "same_meaning": true,
+    "reason": "The numeral gives the same horizontal coordinate in both images."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "85_1",
+    "sample_index": "85_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 85,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_24af9853dd19771e4af2g_0099_1.jpg",
+    "sha256": "ab43885bd513c31ac14a8a7f380c9989499a4ce616ebc8c17bbb1f829c6da8e6",
+    "width": 329,
+    "height": 286,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1352/left.jpg"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "91_1",
+    "sample_index": "91_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 91,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "High",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_4193f00ebf98327944fdg_0069_1.jpg",
+    "sha256": "4c8f672934d1538ceafa452919149db6ecf489cb68307e9459d6836bb8196494",
+    "width": 374,
+    "height": 419,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1352/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1352",
+    "condition": "condition/numeric_representation/AVP1352"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: −1 is the horizontal coordinate of the left zero. Right image: −1 is the indicated horizontal coordinate to the left of the origin.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The numeral gives the same horizontal coordinate in both images."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation −1.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation −1 appears at the left intercept. The notation −1 appears beside the tick to the left of the origin.",
+    "eligible_for_strict_scoring": true
+  }
+}

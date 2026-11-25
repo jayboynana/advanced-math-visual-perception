@@ -1,0 +1,93 @@
+{
+  "pair_id": "AVP1879",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1879",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "angle_vs_length",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter a.",
+    "left_evidence": "a at the a° label on the wedge at O.",
+    "right_evidence": "a at the label under the left portion of the triangle base.",
+    "left_meaning": "a gives an unknown angle measure (the a° label on the wedge at O).",
+    "right_meaning": "a gives an unknown length (the label under the left portion of the triangle base).",
+    "same_meaning": false,
+    "reason": "On the left, a represents an unknown angle measure (the a° label on the wedge at O). On the right, a represents an unknown length (the label under the left portion of the triangle base)."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "343",
+    "sample_index": "1714",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Angle"
+    },
+    "original_relative_path": "images_version_5/image_343.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1879/left.png",
+    "sha256": "4d9ef4aef05695fb26da16edf12c7e949c48805e540c625004a0754d273e0709",
+    "width": 250,
+    "height": 249
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "505_1",
+    "sample_index": "505_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
+    "source_metadata": {
+      "problem_id": 505,
+      "subject": "Algebra",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch32-2024_06_14_0a2e4ed0bb716236d4e8g_0009_1.jpg",
+    "sha256": "e89e29c649b937cd806f87927be58cdb8ecb6cbfb868a2f4779f47fbdbae22c2",
+    "width": 286,
+    "height": 283,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1879/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1879",
+    "condition": "condition/symbolic_roles/AVP1879"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: a gives an unknown angle measure (the a° label on the wedge at O). Right image: a gives an unknown length (the label under the left portion of the triangle base).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, a represents an unknown angle measure (the a° label on the wedge at O). On the right, a represents an unknown length (the label under the left portion of the triangle base)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter a.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "a at the a° label on the wedge at O. a at the label under the left portion of the triangle base.",
+    "eligible_for_strict_scoring": true
+  }
+}

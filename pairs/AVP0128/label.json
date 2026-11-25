@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The x coordinate is squared; 2 is its exponent. Right image: The variable x in the selected term is squared; 2 is its exponent.",
+  "mathematical_meanings": "Left image: The variable x is squared in the equation defining the circle. Right image: The variable x is squared in the quadratic term of the cubic expression.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both selected superscripts 2 denote squaring of x; no equivalence is claimed for the full equations."
+  "Rationales": "The exponent 2 applies squaring to the base shown in each formula."
 }

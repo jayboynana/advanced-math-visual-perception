@@ -1,0 +1,29 @@
+# AVP1814 — Single visual target
+
+DynaMath:206 / DynaMath:184 · same type · Mathematical roles of symbols
+
+![Left image](left.png)
+![Right image](right.png)
+
+## Shared or similar visual information
+
+The uppercase letter A.
+
+## Evidence locations
+
+- Left image: A at the apex between the sides labeled 8 and 11.
+- Right image: A at the angle arc above the upper horizontal line.
+
+## Mathematical meanings
+
+Left image: A names a specific point in the diagram (the apex between the sides labeled 8 and 11). Right image: A identifies the marked angle (the angle arc above the upper horizontal line).
+
+## Same mathematical meanings
+
+no
+
+## Rationales
+
+On the left, A names a specific point in the diagram (the apex between the sides labeled 8 and 11). On the right, A identifies the marked angle (the angle arc above the upper horizontal line).
+
+Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

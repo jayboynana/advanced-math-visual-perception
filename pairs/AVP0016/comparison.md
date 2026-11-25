@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The integer values match, but one labels a side length and the other a y-coordinate.
+The numeral 13 represents the length of the marked side in meters on the left. On the right, it is the y-coordinate of the marked point.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

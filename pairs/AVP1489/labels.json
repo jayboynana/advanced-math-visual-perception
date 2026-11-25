@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The line plots a linear function with positive slope and negative vertical intercept. Right image: The line segment forms the sloping side of the triangle.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots a linear relationship between coordinates in the left image and forms the sloping boundary of a polygon in the right image. The rising diagonal that crosses the y-axis below the origin. The sloping side rising between the lower-left and upper-right vertices."
+}

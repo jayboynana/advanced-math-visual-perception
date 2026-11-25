@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The hollow circle excludes the origin from the displayed graph. Right image: The hollow circle excludes the ordered pair at the right endpoint of the segment.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature marks an ordered pair excluded from the plotted trace. The hollow circle at the origin where the rising trace starts. The hollow circle at the lower right end of the short descending segment."
+}

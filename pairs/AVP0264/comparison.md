@@ -7,16 +7,16 @@ MathVision:2958 / MathVerse:449 · same type · Geometric markers
 
 ## Shared or similar visual information
 
-A right-pointing arrowhead at the far end of a horizontal coordinate axis.
+An upward arrow on a straight vertical line.
 
 ## Evidence locations
 
-- Left image: The arrowhead at the far-right end of the x-axis, beyond B.
-- Right image: The arrowhead at the far-right end of the x-axis, beyond the 1.5 tick.
+- Left image: The upward arrow above Q on the line labeled y.
+- Right image: The upward arrow at the top of the thin vertical axis through the circle center.
 
 ## Mathematical meanings
 
-Left image: It indicates the positive x direction and continuation of the coordinate axis. Right image: It indicates the positive x direction and continuation of the coordinate axis.
+Left image: The arrow indicates the positive direction of the y-axis. Right image: The arrow indicates the positive vertical-coordinate direction.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both arrowheads are attached to the positive end of an x-axis and indicate its positive direction and continuation. A quadrilateral drawing and a unit-circle diagram use that same coordinate convention.
+Both images use the mark in the same way: the arrow indicates the increasing direction of the vertical coordinate.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

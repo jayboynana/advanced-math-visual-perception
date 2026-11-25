@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The occluded rear portion of a circular base rim in a solid drawing. Right image: The occluded rear portion of a circular base rim in a solid drawing.",
+  "mathematical_meanings": "Left image: The dashed arc draws the hidden part of the circular cone base. Right image: The dashed arc represents the hidden portion of the rim of the cylinder’s right end.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Each broken arc completes the far side of a rim whose near side is solid. The dashes specify which part of the circular rim is hidden in the depicted view."
+  "Rationales": "In both images the feature shows the occluded part of the circular rim of a solid. The curved dashed arc at the rear of the cone base. The dashed arc on the back half of the right cylinder end."
 }

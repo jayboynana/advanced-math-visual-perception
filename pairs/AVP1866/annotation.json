@@ -1,0 +1,91 @@
+{
+  "pair_id": "AVP1866",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1866",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "horizontal_coordinate_vs_length",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter a.",
+    "left_evidence": "a at the label along the left side of the triangle.",
+    "right_evidence": "a at the label beneath the left dashed projection.",
+    "left_meaning": "a gives an unknown length (the label along the left side of the triangle).",
+    "right_meaning": "a denotes a specific value on the horizontal input axis (the label beneath the left dashed projection).",
+    "same_meaning": false,
+    "reason": "On the left, a represents an unknown length (the label along the left side of the triangle). On the right, a denotes a specific value on the horizontal input axis (the label beneath the left dashed projection)."
+  },
+  "left": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "973_1",
+    "sample_index": "973_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 973,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch10-2024_06_14_234bba88fa4a56aa2b46g_0049_1.jpg",
+    "sha256": "35ac6ce62075c8b4f6814b3f8f58e08b9330e72a644820caaf0d16d066820f7d",
+    "width": 254,
+    "height": 271,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1866/left.jpg"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "203",
+    "sample_index": "203",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image203.png",
+    "sha256": "e2a922afe3e6304dbadc420931026235f38e4955d7f0b47534705c316cd3aaf3",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1866/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1866",
+    "condition": "condition/symbolic_roles/AVP1866"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: a gives an unknown length (the label along the left side of the triangle). Right image: a denotes a specific value on the horizontal input axis (the label beneath the left dashed projection).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "On the left, a represents an unknown length (the label along the left side of the triangle). On the right, a denotes a specific value on the horizontal input axis (the label beneath the left dashed projection)."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter a.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "a at the label along the left side of the triangle. a at the label beneath the left dashed projection.",
+    "eligible_for_strict_scoring": true
+  }
+}

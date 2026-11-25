@@ -1,5 +1,5 @@
 {
   "mathematical_meanings": "Left image: The orange peak point has x-coordinate 1.2. Right image: The corresponding orange point has y-coordinate 1.2.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The decimal values match, but one is an x-coordinate and the other a y-coordinate."
+  "Rationales": "The decimal 1.2 is the x-coordinate of the marked point on the left and the y-coordinate of the marked point on the right."
 }

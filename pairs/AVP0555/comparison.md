@@ -7,16 +7,16 @@ MV-MATH:510_1 / DynaMath:473 · different type · Numeric representation and con
 
 ## Shared or similar visual information
 
-The numerical notation 10 in both images.
+The numerical notation 3.
 
 ## Evidence locations
 
-- Left image: The 10 printed inside the sector near the upper left of the spinner.
-- Right image: The 10 in the overlapping region of the two sets.
+- Left image: The notation 3 appears inside the right-hand sector of the spinner.
+- Right image: The notation 3 appears at the top of the B-only region.
 
 ## Mathematical meanings
 
-Left image: The numeral 10 identifies one outcome sector on the spinner. Right image: The number 10 is a listed element of the intersection.
+Left image: 3 labels one possible spinner outcome. Right image: 3 belongs to B only.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of identifier of a spinner outcome, while the right context gives it the role of listed set element.
+The notation on the left represents a possible spinner outcome. The notation on the right represents an element of one set.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

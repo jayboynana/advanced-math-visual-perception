@@ -1,0 +1,99 @@
+{
+  "pair_id": "AVP1766",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1766",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "horizontal_axis_same",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter x.",
+    "left_evidence": "x at the right tip of the horizontal axis under graph h.",
+    "right_evidence": "x at the right tip of the horizontal axis through the blue circle.",
+    "left_meaning": "x names the horizontal coordinate axis (the right tip of the horizontal axis under graph h).",
+    "right_meaning": "x names the horizontal coordinate axis (the right tip of the horizontal axis through the blue circle).",
+    "same_meaning": true,
+    "reason": "In both images, x names the horizontal coordinate axis. The relevant locations are the right tip of the horizontal axis under graph h on the left and the right tip of the horizontal axis through the blue circle on the right."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "558",
+    "sample_index": "2789",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Property"
+    },
+    "original_relative_path": "images_version_5/image_558.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1766/left.png",
+    "sha256": "dbb9ec91a196cfc13cf15d674d4d36532132ef9ea3ddec83cbbad540820cce4c",
+    "width": 289,
+    "height": 291
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "409",
+    "sample_index": "409",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 356,
+      "img_width": 358,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/409.jpg",
+    "sha256": "66ef4a559e6a91d48cc28ffb85ddba90038658af0c8f43a5c6d8e9fbacdd86bf",
+    "width": 358,
+    "height": 356,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1766/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1766",
+    "condition": "condition/symbolic_roles/AVP1766"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: x names the horizontal coordinate axis (the right tip of the horizontal axis under graph h). Right image: x names the horizontal coordinate axis (the right tip of the horizontal axis through the blue circle).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, x names the horizontal coordinate axis. The relevant locations are the right tip of the horizontal axis under graph h on the left and the right tip of the horizontal axis through the blue circle on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter x.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "x at the right tip of the horizontal axis under graph h. x at the right tip of the horizontal axis through the blue circle.",
+    "eligible_for_strict_scoring": true
+  }
+}

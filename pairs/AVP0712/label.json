@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: It marks the reflection axis of the symmetric trapezoid. Right image: It marks the mirror line for reflecting the triangle.",
+  "mathematical_meanings": "Left image: The line is the symmetry axis of the trapezoid. Right image: The line is the axis of reflection for triangle ABC.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "The vertical line locates the mirror axis in each reflection construction. The displayed figure may already include both halves or show the original figure beside the line."
+  "Rationales": "Both images use the mark in the same way: the dashed line is the axis used to reflect a geometric figure."
 }

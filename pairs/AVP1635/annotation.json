@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1635",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1635",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "dashed_curve",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A dashed curve.",
+    "left_evidence": "The dashed arc on the back half of the right cylinder end.",
+    "right_evidence": "The dashed magenta downward-opening parabola labeled g.",
+    "left_meaning": "The dashed arc represents the hidden portion of the rim of the cylinder’s right end.",
+    "right_meaning": "The dashed trace is the graph of g with a marked point at (2, −4).",
+    "same_meaning": false,
+    "reason": "The feature shows the occluded part of the circular rim of a solid in the left image and plots the values of a function in the right image. The dashed arc on the back half of the right cylinder end. The dashed magenta downward-opening parabola labeled g."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "59_A",
+    "sample_index": "59",
+    "problem_version": "original",
+    "image_type": "solid_geometry",
+    "source_subject": "Solid Geometry",
+    "source_metadata": {
+      "upstream_question_index": 59,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/59_A.jpg",
+    "sha256": "651cf426dba382219b262f594b11d9cd0cab386ef89b113bb4d13f9777f79dd9",
+    "width": 98,
+    "height": 44,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/59_A.jpg",
+      "start": 13827487,
+      "length": 1371,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "571",
+    "sample_index": "2854",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_571.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1635/right.png",
+    "sha256": "295b49adabe60d01c3ab452e58cf6b9f52e0e4a0362379c29b0cd1a1f3ffcd8f",
+    "width": 276,
+    "height": 281
+  },
+  "views": {
+    "type": "type/different type/AVP1635",
+    "condition": "condition/graphical_roles/AVP1635"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The dashed arc represents the hidden portion of the rim of the cylinder’s right end. Right image: The dashed trace is the graph of g with a marked point at (2, −4).",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature shows the occluded part of the circular rim of a solid in the left image and plots the values of a function in the right image. The dashed arc on the back half of the right cylinder end. The dashed magenta downward-opening parabola labeled g."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A dashed curve.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The dashed arc on the back half of the right cylinder end. The dashed magenta downward-opening parabola labeled g.",
+    "eligible_for_strict_scoring": true
+  }
+}

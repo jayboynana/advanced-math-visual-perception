@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1270",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1270",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation −0.5.",
+    "left_evidence": "The notation −0.5 appears first row and first column of matrix A.",
+    "right_evidence": "The notation −0.5 appears in 5x − 0.5 on the right side of the triangle.",
+    "left_meaning": "−0.5 is the top-left entry of A.",
+    "right_meaning": "0.5 is subtracted in the length expression for BC.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a matrix entry. The notation on the right represents a constant term."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "474",
+    "sample_index": "474",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "undergraduate"
+    },
+    "original_relative_path": "image/image474.png",
+    "sha256": "71fbdebc67e7b853d419723f6a638ed2b3acd0c6bd0f48d3792cee5677b9180d",
+    "width": 481,
+    "height": 150,
+    "original_image_modified": false,
+    "image_type": "symbolic_expression",
+    "image_path": "pairs/AVP1270/left.png"
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "375",
+    "sample_index": "375",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 293,
+      "img_width": 703,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/375.jpg",
+    "sha256": "8757bdafdb8e4f38b9ac6d6ebbe0d8ba0f4afe1c699244aecb99640dd620f424",
+    "width": 703,
+    "height": 293,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1270/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1270",
+    "condition": "condition/numeric_representation/AVP1270"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: −0.5 is the top-left entry of A. Right image: 0.5 is subtracted in the length expression for BC.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a matrix entry. The notation on the right represents a constant term."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation −0.5.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation −0.5 appears first row and first column of matrix A. The notation −0.5 appears in 5x − 0.5 on the right side of the triangle.",
+    "eligible_for_strict_scoring": true
+  }
+}

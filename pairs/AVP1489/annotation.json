@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1489",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1489",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "ascending_straight_line",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line rising from left to right.",
+    "left_evidence": "The rising diagonal that crosses the y-axis below the origin.",
+    "right_evidence": "The sloping side rising between the lower-left and upper-right vertices.",
+    "left_meaning": "The line plots a linear function with positive slope and negative vertical intercept.",
+    "right_meaning": "The line segment forms the sloping side of the triangle.",
+    "same_meaning": false,
+    "reason": "The feature plots a linear relationship between coordinates in the left image and forms the sloping boundary of a polygon in the right image. The rising diagonal that crosses the y-axis below the origin. The sloping side rising between the lower-left and upper-right vertices."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "277_A",
+    "sample_index": "277",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 277,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/277_A.jpg",
+    "sha256": "511cf437fb545c7f43cdf3ff225cbf53c080fb821f03eaba990400606bb6e284",
+    "width": 181,
+    "height": 167,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/277_A.jpg",
+      "start": 10683123,
+      "length": 2027,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1095_A",
+    "sample_index": "1095",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Descriptive Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1095,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1095_A.jpg",
+    "sha256": "8ac5a6b92158bf14d386a078139ba6c07467a9d1b0d83c7f4210a7a3e754fd5e",
+    "width": 104,
+    "height": 99,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1095_A.jpg",
+      "start": 918007,
+      "length": 1466,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1489",
+    "condition": "condition/graphical_roles/AVP1489"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line plots a linear function with positive slope and negative vertical intercept. Right image: The line segment forms the sloping side of the triangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature plots a linear relationship between coordinates in the left image and forms the sloping boundary of a polygon in the right image. The rising diagonal that crosses the y-axis below the origin. The sloping side rising between the lower-left and upper-right vertices."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line rising from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The rising diagonal that crosses the y-axis below the origin. The sloping side rising between the lower-left and upper-right vertices.",
+    "eligible_for_strict_scoring": true
+  }
+}

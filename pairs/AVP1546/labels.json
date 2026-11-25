@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dashed trace is the graph of g. Right image: The dashed arc draws the occluded part of the cylinder’s lower circular rim.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature plots the values of a function in the left image and shows the occluded part of the circular rim of a solid in the right image. The dashed magenta parabola labeled g, with its vertex below the origin. The dashed rear part of the lower ellipse of the upright cylinder."
+}

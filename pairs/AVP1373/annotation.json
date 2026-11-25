@@ -1,0 +1,91 @@
+{
+  "pair_id": "AVP1373",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1373",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 5.",
+    "left_evidence": "The notation 5 appears in d = 5 at the right end of the horizontal base.",
+    "right_evidence": "The notation 5 appears on the y₁-axis at the lower dashed level.",
+    "left_meaning": "5 is the diameter indicated by d.",
+    "right_meaning": "5 is the output shared by the first and last points.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a diameter length. The notation on the right represents a vertical coordinate."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "122",
+    "sample_index": "122",
+    "problem_version": "sample_variant1",
+    "source_subject": "plane geometry",
+    "source_metadata": {
+      "subject": "plane geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image122.png",
+    "sha256": "e5929c0c5ac645d2fcef8ece8bf2d38aff2caf44b01ef4e8f85f873c88ae6701",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1373/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "101_1",
+    "sample_index": "101_1",
+    "problem_version": "original",
+    "source_subject": "Statistics",
+    "source_metadata": {
+      "problem_id": 101,
+      "subject": "Statistics",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_8ff8ea6aee1f816a0b95g_0046_1.jpg",
+    "sha256": "2ebf3668bf06dadd54d0157466f2aba5f5e336d063b59069624d67840769b4cc",
+    "width": 603,
+    "height": 332,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1373/right.jpg"
+  },
+  "views": {
+    "type": "type/different type/AVP1373",
+    "condition": "condition/numeric_representation/AVP1373"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 5 is the diameter indicated by d. Right image: 5 is the output shared by the first and last points.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a diameter length. The notation on the right represents a vertical coordinate."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 5.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 5 appears in d = 5 at the right end of the horizontal base. The notation 5 appears on the y₁-axis at the lower dashed level.",
+    "eligible_for_strict_scoring": true
+  }
+}

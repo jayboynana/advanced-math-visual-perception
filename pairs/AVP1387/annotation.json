@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1387",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1387",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "same_angle_index",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The bare numeral 1.",
+    "left_evidence": "The notation 1 appears beside the arc at A below the transversal.",
+    "right_evidence": "The notation 1 appears beside the upper intersection arc.",
+    "left_meaning": "1 names the marked angle at A.",
+    "right_meaning": "1 names the marked angle at the upper crossing.",
+    "same_meaning": true,
+    "reason": "The bare numeral 1 is associated with an angle in both drawings and identifies which angle is referenced."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "290",
+    "sample_index": "290",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 119,
+      "img_width": 132,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/290.jpg",
+    "sha256": "c3c40cd49dbaeb1e1b5e46044e8954e675873779e541306d37238763ebe1b898",
+    "width": 132,
+    "height": 119,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1387/left.png"
+  },
+  "right": {
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "464_1",
+    "sample_index": "464_1",
+    "problem_version": "original",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "problem_id": 464,
+      "subject": "Metric Geometry",
+      "grade": "Junior",
+      "difficulty": "Medium",
+      "image_relavance": "1",
+      "answer_type": "choice",
+      "image_index": 1
+    },
+    "image_type": "geometry",
+    "original_relative_path": "images/batch29-2024_06_14_1342a555d4b736320128g_0025_1.jpg",
+    "sha256": "40fa8365fdf5afe5a69c921fd7f0c7e3c2b49395961155bc6a266f38d47d5551",
+    "width": 346,
+    "height": 271,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1387/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1387",
+    "condition": "condition/numeric_representation/AVP1387"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 1 names the marked angle at A. Right image: 1 names the marked angle at the upper crossing.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The bare numeral 1 is associated with an angle in both drawings and identifies which angle is referenced."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The bare numeral 1.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 1 appears beside the arc at A below the transversal. The notation 1 appears beside the upper intersection arc.",
+    "eligible_for_strict_scoring": true
+  }
+}

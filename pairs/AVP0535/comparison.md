@@ -7,16 +7,16 @@ MV-MATH:1889_2 / MV-MATH:628_2 · same type · Numeric representation and conver
 
 ## Shared or similar visual information
 
-The numerical notations 150° and 150 m.
+The numerical notations 150° (left) and 150 m (right).
 
 ## Evidence locations
 
-- Left image: The 150° beside the larger marked angle at A.
-- Right image: The 150 m beside the central vertical arrow from the baseline up to CD.
+- Left image: The notation 150° appears beside the arc at A.
+- Right image: The notation 150 m appears inside the parabola beside the shorter vertical dimension arrow.
 
 ## Mathematical meanings
 
-Left image: The indicated angle at A measures 150 degrees. Right image: The vertical distance from the baseline to chord CD is 150 meters.
+Left image: 150° measures the marked angle at A. Right image: 150 m gives the height of horizontal segment CD above the base.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of angle measure, while the right context gives it the role of length with a specified unit.
+The notation on the left represents an angle measure. The notation on the right represents a height.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

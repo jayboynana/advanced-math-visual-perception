@@ -7,16 +7,16 @@ MV-MATH:951_1 / MV-MATH:481_1 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 1 in both images.
+The bare numeral 1.
 
 ## Evidence locations
 
-- Left image: The standalone 1 above the baseline on the left side of the central ray.
-- Right image: The standalone 1 below the horizontal line at the left intersection.
+- Left image: The notation 1 appears beside the left wedge at the common vertex.
+- Right image: The notation 1 appears under the horizontal line at the left intersection.
 
 ## Mathematical meanings
 
-Left image: The numeral 1 identifies the left-hand angle region. Right image: The numeral 1 identifies the lower-left marked angle.
+Left image: 1 names the left marked angle. Right image: 1 names the marked left angle.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-The numeral 1 appears next to an angle arc in both diagrams and identifies the marked angle region in each.
+The bare numeral 1 is associated with an angle in both drawings and identifies which angle is referenced.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

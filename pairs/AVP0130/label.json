@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The variable x is cubed; 3 is its exponent. Right image: The variable x in the selected term is cubed; 3 is its exponent.",
+  "mathematical_meanings": "Left image: The variable x is cubed in the displayed function rule. Right image: The variable x is cubed in the leading term of the cubic expression.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both selected superscripts 3 denote cubing of x; the complete functions are not asserted to coincide."
+  "Rationales": "The exponent 3 applies cubing to the base shown in each formula."
 }

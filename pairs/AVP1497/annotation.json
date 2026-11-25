@@ -1,0 +1,96 @@
+{
+  "pair_id": "AVP1497",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1497",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "shaded_region",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region.",
+    "left_evidence": "The gray half-plane to the right of the rising dashed boundary.",
+    "right_evidence": "The dark triangular patch crossing the lines of the square assembly.",
+    "left_meaning": "The shaded half-plane is the solution region of a strict linear inequality.",
+    "right_meaning": "The shading selects the area of the triangle drawn across the assembly.",
+    "same_meaning": false,
+    "reason": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane to the right of the rising dashed boundary. The dark triangular patch crossing the lines of the square assembly."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "511",
+    "sample_index": "2554",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_511.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1497/left.png",
+    "sha256": "109efb1e544885f2857b69fd2bd851fa40e597078fac7d12c41fd0892c1f95ce",
+    "width": 656,
+    "height": 506
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "612_A",
+    "sample_index": "612",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 612,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/612_A.jpg",
+    "sha256": "2e00c3a77bb77e2536979a37bdc45f0cc5bded9e3286931101a8c9ef30fb579e",
+    "width": 88,
+    "height": 86,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/612_A.jpg",
+      "start": 14060143,
+      "length": 1885,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1497",
+    "condition": "condition/graphical_roles/AVP1497"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The shaded half-plane is the solution region of a strict linear inequality. Right image: The shading selects the area of the triangle drawn across the assembly.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature selects the solution half-plane of a linear inequality in the left image and selects a geometric area in the right image. The gray half-plane to the right of the rising dashed boundary. The dark triangular patch crossing the lines of the square assembly."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A shaded region.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The gray half-plane to the right of the rising dashed boundary. The dark triangular patch crossing the lines of the square assembly.",
+    "eligible_for_strict_scoring": true
+  }
+}

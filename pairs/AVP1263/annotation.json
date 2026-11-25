@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1263",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1263",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 2 (left) and 2 cm (right).",
+    "left_evidence": "The notation 2 appears the third data row of the x column.",
+    "right_evidence": "The notation 2 cm appears beside the vertical radius.",
+    "left_meaning": "2 is the input at which the table gives f(x) = 83.",
+    "right_meaning": "2 cm is the radius of the circular outline.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a tabulated input value. The notation on the right represents a radius length in centimeters."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "108",
+    "sample_index": "108",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image108.png",
+    "sha256": "1172bd945482b79675475e1f867a5a89a0e8a14a6992a13b4cf12a100911f705",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "table",
+    "image_path": "pairs/AVP1263/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "394",
+    "sample_index": "1969",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Plane Geometry",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Geo2D_collected",
+      "subject": "Plane Geometry",
+      "subfield": "Area"
+    },
+    "original_relative_path": "images_version_5/image_394.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1263/right.png",
+    "sha256": "fd7c142a7cc6b6c08897a6afb455531d074105bd53cdb786c1fa76aba3b98211",
+    "width": 614,
+    "height": 500
+  },
+  "views": {
+    "type": "type/different type/AVP1263",
+    "condition": "condition/numeric_representation/AVP1263"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 2 is the input at which the table gives f(x) = 83. Right image: 2 cm is the radius of the circular outline.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a tabulated input value. The notation on the right represents a radius length in centimeters."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 2 (left) and 2 cm (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 2 appears the third data row of the x column. The notation 2 cm appears beside the vertical radius.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dot includes the terminal x-intercept (1, 0) in the function graph. Right image: The dot highlights a particular maximum on the continuing function curve.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks an endpoint included in the plotted branch in the left image and identifies a specific point on the interior of the continuing graph in the right image. The filled blue dot at (1, 0), where the trace ends on the right. The orange point labeled (1.2, 5.5) at the curve’s peak."
+}

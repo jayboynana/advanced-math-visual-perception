@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: 8 is the top-right entry of A. Right image: 8 labels the right part of the split triangle side.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The notation on the left represents a matrix entry. The notation on the right represents a segment length."
+}

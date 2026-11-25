@@ -7,16 +7,16 @@ MathVista:287 / MathVista:592 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation −π in both images.
+The numerical notation π.
 
 ## Evidence locations
 
-- Left image: The tick label −π on the negative horizontal axis, between −2π and the origin.
-- Right image: The tick label −π on the negative horizontal axis, between −3π/2 and −π/2.
+- Left image: The notation π appears on the positive horizontal axis below the right region.
+- Right image: The notation π appears at the horizontal-axis tick between π/2 and 3π/2.
 
 ## Mathematical meanings
 
-Left image: The selected tick denotes x-coordinate value −π. Right image: The selected tick denotes x-coordinate value −π.
+Left image: π gives the horizontal coordinate at that tick. Right image: π gives the horizontal coordinate at that tick.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both complete signed expressions are −π and both denote horizontal coordinates.
+The numeral gives the same horizontal coordinate in both images.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

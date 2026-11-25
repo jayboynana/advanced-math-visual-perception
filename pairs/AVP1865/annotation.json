@@ -1,0 +1,98 @@
+{
+  "pair_id": "AVP1865",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1865",
+  "condition": "symbolic_roles",
+  "condition_name": "Mathematical roles of symbols",
+  "subcondition": "function_name_same",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter f.",
+    "left_evidence": "f at the label beside the cyan parabola.",
+    "right_evidence": "f at the f in the formula f(x) = x³.",
+    "left_meaning": "f names the plotted function (the label beside the cyan parabola).",
+    "right_meaning": "f names the plotted function (the f in the formula f(x) = x³).",
+    "same_meaning": true,
+    "reason": "In both images, f names the plotted function. The relevant locations are the label beside the cyan parabola on the left and the f in the formula f(x) = x³ on the right."
+  },
+  "left": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "519",
+    "sample_index": "2594",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Applied"
+    },
+    "original_relative_path": "images_version_5/image_519.png",
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1865/left.png",
+    "sha256": "882ab1de0c3a84562e2b473bf15c4f7ff6efdedb31900d75c336c010315428c3",
+    "width": 1597,
+    "height": 1633
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "369",
+    "sample_index": "369",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "function plot",
+      "grade": "college",
+      "img_height": 331,
+      "img_width": 266,
+      "language": "english",
+      "skills": [
+        "algebraic reasoning"
+      ],
+      "source": "FunctionQA",
+      "split": "testmini",
+      "task": "textbook question answering"
+    },
+    "original_relative_path": "images/369.jpg",
+    "sha256": "9e8c48d50de0ddf0ebef050612e9a73d9ce81d3d54ace53fd5b9fa83a9d55f18",
+    "width": 266,
+    "height": 331,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1865/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1865",
+    "condition": "condition/symbolic_roles/AVP1865"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: f names the plotted function (the label beside the cyan parabola). Right image: f names the plotted function (the f in the formula f(x) = x³).",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images, f names the plotted function. The relevant locations are the label beside the cyan parabola on the left and the f in the formula f(x) = x³ on the right."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter f.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "f at the label beside the cyan parabola. f at the f in the formula f(x) = x³.",
+    "eligible_for_strict_scoring": true
+  }
+}

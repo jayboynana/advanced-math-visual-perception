@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dot includes the terminal x-intercept (1, 0) in the function graph. Right image: The dot specifies the actual red-graph function value at x = 1.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature marks an endpoint included in the plotted branch in the left image and specifies an isolated included ordered pair off the nearby curve in the right image. The filled blue dot at (1, 0), where the trace ends on the right. The solid red point below the open point at x = 1."
+}

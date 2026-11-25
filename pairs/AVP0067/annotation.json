@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0067",
-  "authoring_id": "SR17",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0067",
   "condition": "symbolic_roles",
   "condition_name": "Mathematical roles of symbols",
   "subcondition": "width_vs_function_output",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The lowercase letter y.",
+    "left_evidence": "y on the longest horizontal dimension line below the geometric construction",
+    "right_evidence": "The single y label beside the arrowhead at the top of the vertical axis.",
+    "left_meaning": "y denotes the unknown total horizontal width of the construction.",
+    "right_meaning": "y names the vertical coordinate axis.",
+    "same_meaning": false,
+    "reason": "In the left image, y represents the unknown total horizontal width of the construction. In the right image, y is the name of the vertical coordinate axis."
+  },
   "left": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
@@ -15,7 +27,6 @@
     "problem_index": "358",
     "sample_index": "1789",
     "problem_version": "Vision Dominant",
-    "image_type": "geometry",
     "source_subject": "Plane Geometry",
     "source_metadata": {
       "split": "testmini",
@@ -24,56 +35,59 @@
       "subfield": "Length"
     },
     "original_relative_path": "images_version_5/image_358.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
     "image_path": "pairs/AVP0067/left.png",
     "sha256": "d1f3f04ff55352a0669c69d313ea380616babd052f8b5c9fe0ccd4870741b4d7",
     "width": 324,
-    "height": 310,
-    "original_image_modified": false
+    "height": 310
   },
   "right": {
-    "dataset": "MathVerse",
-    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
-    "config": "testmini",
-    "split": "testmini",
-    "problem_index": "521",
-    "sample_index": "2604",
-    "problem_version": "Vision Dominant",
-    "image_type": "function",
-    "source_subject": "Functions",
+    "dataset": "MV-MATH",
+    "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
+    "config": "official_json",
+    "split": "benchmark",
+    "problem_index": "1047_1",
+    "sample_index": "1047_1",
+    "problem_version": "original",
+    "source_subject": "Algebra",
     "source_metadata": {
-      "split": "testmini",
-      "source": "Functions_collected",
-      "subject": "Functions",
-      "subfield": "Property"
+      "problem_id": 1047,
+      "subject": "Algebra",
+      "grade": "Senior",
+      "difficulty": "Medium",
+      "image_relavance": "0",
+      "answer_type": "choice",
+      "image_index": 1
     },
-    "original_relative_path": "images_version_5/image_521.png",
-    "image_path": "pairs/AVP0067/right.png",
-    "sha256": "e8c9dc0fa535cd66aff2ebb5d8adc4cbfad187603881f024736bf1df1bae6393",
-    "width": 1908,
-    "height": 1960,
-    "original_image_modified": false
+    "image_type": "function",
+    "original_relative_path": "images/batch13-2024_06_15_0d127fe92d0406a038c0g_0043_1.jpg",
+    "sha256": "c6850800966c18c2d3f0d97a5e4197a96f842da4d9dd8045b6f2d04e5a3c21d2",
+    "width": 362,
+    "height": 340,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP0067/right.jpg"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The lowercase letter y",
-    "left_evidence": "y on the longest horizontal dimension line below the geometric construction",
-    "right_evidence": "y on the left-hand side of the formula y = x³ − x² − x",
-    "left_meaning": "y denotes the unknown total horizontal width of the construction.",
-    "right_meaning": "y denotes the function output determined by x.",
-    "same_meaning": false,
-    "reason": "The selected uses are a length dimension and a function output variable."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: y denotes the unknown total horizontal width of the construction. Right image: y denotes the function output determined by x.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The selected uses are a length dimension and a function output variable."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review. The label concerns only the selected local role or meaning, rather than all content in both images.",
   "views": {
     "type": "type/different type/AVP0067",
     "condition": "condition/symbolic_roles/AVP0067"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter y"
+  "label": {
+    "mathematical_meanings": "Left image: y denotes the unknown total horizontal width of the construction. Right image: y names the vertical coordinate axis.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, y represents the unknown total horizontal width of the construction. In the right image, y is the name of the vertical coordinate axis."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The lowercase letter y.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "y on the longest horizontal dimension line below the geometric construction The single y label beside the arrowhead at the top of the vertical axis.",
+    "eligible_for_strict_scoring": true
+  }
 }

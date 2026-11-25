@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The dashed line aligns the peak with its output value of 900. Right image: The dashed line reads off the output 12 at x = 5.",
+  "same_mathematical_meanings": "yes",
+  "Rationales": "In both images the feature connects a feature of the graph to its vertical-axis value. The dashed horizontal segment from 900 to the graph’s peak. The dashed horizontal segment joining the sloped graph to the y-axis at 12."
+}

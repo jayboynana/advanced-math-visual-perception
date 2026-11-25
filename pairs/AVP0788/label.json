@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The symbol \"O\" names the common point of the rays that form an angle. Right image: The symbol \"O\" names the common point of the rays that form an angle.",
+  "mathematical_meanings": "Left image: O names a specific point in the diagram (the common endpoint of the two rays at the marked angle). Right image: O names a specific point in the diagram (the common intersection of the horizontal and sloping lines).",
   "same_mathematical_meanings": "yes",
-  "Rationales": "The left occurrence is O at the left endpoint of the two rays enclosing the small arc. The right occurrence is O where the horizontal line and oblique rays meet. The placement in each image shows that the symbol names the common point of the rays that form an angle."
+  "Rationales": "In both images, O names a specific point in the diagram. The relevant locations are the common endpoint of the two rays at the marked angle on the left and the common intersection of the horizontal and sloping lines on the right."
 }

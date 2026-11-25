@@ -1,0 +1,105 @@
+{
+  "pair_id": "AVP1483",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1483",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "ascending_straight_line",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid straight line rising from left to right.",
+    "left_evidence": "The black straight line rising from the lower left to the upper right across the axes.",
+    "right_evidence": "The rising straight segment from A to C inside ABCD.",
+    "left_meaning": "The line plots a linear relation between the two coordinates.",
+    "right_meaning": "The segment is a diagonal connecting opposite vertices of the quadrilateral.",
+    "same_meaning": false,
+    "reason": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The black straight line rising from the lower left to the upper right across the axes. The rising straight segment from A to C inside ABCD."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "223_A",
+    "sample_index": "223",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 223,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/223_A.jpg",
+    "sha256": "103e1e1b609e0221789211cb3da5c4e1672911beee1099b75ee42e639ffeafdf",
+    "width": 173,
+    "height": 174,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/223_A.jpg",
+      "start": 10085717,
+      "length": 2627,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "32",
+    "sample_index": "32",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 100,
+      "img_width": 168,
+      "language": "chinese",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "GeoQA+",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/32.jpg",
+    "sha256": "03e8b022e35a71f1a888cc29dfa4f4a9bb371e77f6fad806aea30f1851936cdd",
+    "width": 168,
+    "height": 100,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1483/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1483",
+    "condition": "condition/graphical_roles/AVP1483"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The line plots a linear relation between the two coordinates. Right image: The segment is a diagonal connecting opposite vertices of the quadrilateral.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature plots a linear relationship between coordinates in the left image and connects opposite vertices of a quadrilateral in the right image. The black straight line rising from the lower left to the upper right across the axes. The rising straight segment from A to C inside ABCD."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid straight line rising from left to right.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The black straight line rising from the lower left to the upper right across the axes. The rising straight segment from A to C inside ABCD.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1623",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1623",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_solid_segment",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid horizontal segment distinct from any axis or gridline.",
+    "left_evidence": "The flat part of the trace at y = 3 before the rising portion.",
+    "right_evidence": "The bottom side marked a.",
+    "left_meaning": "The horizontal piece plots a constant output before the rising portion of the graph.",
+    "right_meaning": "The horizontal segment is the designated base of the triangle.",
+    "same_meaning": false,
+    "reason": "The feature plots a constant function output over an interval in the left image and forms a horizontal side of a polygon in the right image. The flat part of the trace at y = 3 before the rising portion. The bottom side marked a."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "639_A",
+    "sample_index": "639",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 639,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/639_A.jpg",
+    "sha256": "47f143e0df0ce782435267c4af9674dd91e90aeb2ca20dea14d3045d384d2200",
+    "width": 121,
+    "height": 109,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/639_A.jpg",
+      "start": 14293879,
+      "length": 2025,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "435_A",
+    "sample_index": "435",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 435,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/435_A.jpg",
+    "sha256": "8f7f2695b873d577e3ccea3a2046066d69eb22dc36010e401b2ddadf0d5586bb",
+    "width": 76,
+    "height": 74,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/435_A.jpg",
+      "start": 12368786,
+      "length": 1514,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1623",
+    "condition": "condition/graphical_roles/AVP1623"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The horizontal piece plots a constant output before the rising portion of the graph. Right image: The horizontal segment is the designated base of the triangle.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The feature plots a constant function output over an interval in the left image and forms a horizontal side of a polygon in the right image. The flat part of the trace at y = 3 before the rising portion. The bottom side marked a."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid horizontal segment distinct from any axis or gridline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The flat part of the trace at y = 3 before the rising portion. The bottom side marked a.",
+    "eligible_for_strict_scoring": true
+  }
+}

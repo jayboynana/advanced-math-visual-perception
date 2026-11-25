@@ -1,0 +1,94 @@
+{
+  "pair_id": "AVP1442",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1442",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The horizontal coordinate axis.",
+    "left_evidence": "The x-axis labeled with −π and π.",
+    "right_evidence": "The numbered horizontal line through A1 and A2.",
+    "left_meaning": "The axis measures the horizontal Cartesian input to the curve.",
+    "right_meaning": "The axis measures the horizontal coordinates of the ellipse vertices.",
+    "same_meaning": true,
+    "reason": "In both images the feature measures the horizontal Cartesian coordinate. The x-axis labeled with −π and π. The numbered horizontal line through A1 and A2."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "1187_A",
+    "sample_index": "1187",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 1187,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/1187_A.jpg",
+    "sha256": "d33e435115b0b64a51f91ef81e4423b3f1e10cd51e77bc0329b1293ce2fb9941",
+    "width": 528,
+    "height": 271,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/1187_A.jpg",
+      "start": 2042493,
+      "length": 7219,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "175",
+    "sample_index": "175",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image175.png",
+    "sha256": "4aa049999a62270422d8b77709c1434bc29738f8186c86dd13ae86ad33bbc8e0",
+    "width": 330,
+    "height": 328,
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1442/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1442",
+    "condition": "condition/graphical_roles/AVP1442"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The axis measures the horizontal Cartesian input to the curve. Right image: The axis measures the horizontal coordinates of the ellipse vertices.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The x-axis labeled with −π and π. The numbered horizontal line through A1 and A2."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The horizontal coordinate axis.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The x-axis labeled with −π and π. The numbered horizontal line through A1 and A2.",
+    "eligible_for_strict_scoring": true
+  }
+}

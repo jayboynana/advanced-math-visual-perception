@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0016",
-  "authoring_id": "NR16",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0016",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
   "subcondition": "same_integer_side_length_vs_ordinate",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The integer 13 in both images.",
+    "left_evidence": "The 13 in the label 13 m beside the quadrilateral's left vertical side.",
+    "right_evidence": "The second component, 13, of the upper orange point's coordinate label ((3/2)π,13).",
+    "left_meaning": "The quadrilateral's left side has numerical length value 13, in m.",
+    "right_meaning": "The function point has y-coordinate 13.",
+    "same_meaning": false,
+    "reason": "The numeral 13 represents the length of the marked side in meters on the left. On the right, it is the y-coordinate of the marked point."
+  },
   "left": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
@@ -15,7 +27,6 @@
     "problem_index": "363",
     "sample_index": "1814",
     "problem_version": "Vision Dominant",
-    "image_type": "geometry",
     "source_subject": "Plane Geometry",
     "source_metadata": {
       "split": "testmini",
@@ -24,11 +35,12 @@
       "subfield": "Applied"
     },
     "original_relative_path": "images_version_5/image_363.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
     "image_path": "pairs/AVP0016/left.png",
     "sha256": "38697bbecfa94edd11a39de9f487ba590f4fd124f39326f12079aacf46555c51",
     "width": 269,
-    "height": 184,
-    "original_image_modified": false
+    "height": 184
   },
   "right": {
     "dataset": "MathVerse",
@@ -38,7 +50,6 @@
     "problem_index": "532",
     "sample_index": "2659",
     "problem_version": "Vision Dominant",
-    "image_type": "function",
     "source_subject": "Functions",
     "source_metadata": {
       "split": "testmini",
@@ -47,33 +58,33 @@
       "subfield": "Expression"
     },
     "original_relative_path": "images_version_5/image_532.png",
+    "original_image_modified": false,
+    "image_type": "function",
     "image_path": "pairs/AVP0016/right.png",
     "sha256": "851ec5a1cada2d7b88176a8c971320da0fd5254654370206c9abd00ecb3bf12d",
     "width": 360,
-    "height": 366,
-    "original_image_modified": false
+    "height": 366
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The integer 13 in both images.",
-    "left_evidence": "The 13 in the label 13 m beside the quadrilateral's left vertical side.",
-    "right_evidence": "The second component, 13, of the upper orange point's coordinate label ((3/2)π,13).",
-    "left_meaning": "The quadrilateral's left side has numerical length value 13, in m.",
-    "right_meaning": "The function point has y-coordinate 13.",
-    "same_meaning": false,
-    "reason": "The integer values match, but one labels a side length and the other a y-coordinate."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The quadrilateral's left side has numerical length value 13, in m. Right image: The function point has y-coordinate 13.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The integer values match, but one labels a side length and the other a y-coordinate."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review.",
   "views": {
     "type": "type/different type/AVP0016",
     "condition": "condition/numeric_representation/AVP0016"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The integer 13 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: The quadrilateral's left side has numerical length value 13, in m. Right image: The function point has y-coordinate 13.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The numeral 13 represents the length of the marked side in meters on the left. On the right, it is the y-coordinate of the marked point."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The integer 13 in both images.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The 13 in the label 13 m beside the quadrilateral's left vertical side. The second component, 13, of the upper orange point's coordinate label ((3/2)π,13).",
+    "eligible_for_strict_scoring": true
+  }
 }

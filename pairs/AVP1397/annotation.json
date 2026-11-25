@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1397",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1397",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 9.",
+    "left_evidence": "The notation 9 appears next to QM.",
+    "right_evidence": "The notation 9 appears inside the central overlap.",
+    "left_meaning": "9 gives the perpendicular distance from Q to side NL.",
+    "right_meaning": "9 belongs to both A and B.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a segment length. The notation on the right represents an element of both sets."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "776",
+    "sample_index": "776",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 424,
+      "img_width": 589,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/776.jpg",
+    "sha256": "3fc4608e6ff78b5c5636a5081db02d4107ec81e0399dc249892a915ee15b6c4a",
+    "width": 589,
+    "height": 424,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1397/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "473",
+    "sample_index": "473",
+    "problem_version": "sample_variant1",
+    "source_subject": "algebra",
+    "source_metadata": {
+      "subject": "algebra",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image473.png",
+    "sha256": "ae181702e47d697562b6a4c929588b96fd4197c977dbd76d9865199afc547635",
+    "width": 407,
+    "height": 327,
+    "original_image_modified": false,
+    "image_type": "set_diagram",
+    "image_path": "pairs/AVP1397/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1397",
+    "condition": "condition/numeric_representation/AVP1397"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 9 gives the perpendicular distance from Q to side NL. Right image: 9 belongs to both A and B.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a segment length. The notation on the right represents an element of both sets."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 9.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 9 appears next to QM. The notation 9 appears inside the central overlap.",
+    "eligible_for_strict_scoring": true
+  }
+}

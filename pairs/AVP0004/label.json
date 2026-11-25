@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The corresponding segment has length √3. Right image: The corresponding segment has length √3.",
-  "same_mathematical_meanings": "yes",
-  "Rationales": "The complete radical and its role as a segment length match; the segments need not be the identical geometric object."
+  "mathematical_meanings": "Left image: √3 is the length of leg AB. Right image: 4√3 is the length of the vertical leg.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "Both labels give a right-triangle leg length, and the right value is four times the left value."
 }

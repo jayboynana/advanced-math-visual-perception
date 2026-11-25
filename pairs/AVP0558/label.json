@@ -1,5 +1,0 @@
-{
-  "mathematical_meanings": "Left image: The indicated horizontal-axis intercept has x-coordinate 4. Right image: The left segment endpoint has vertical coordinate 4.",
-  "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate."
-}

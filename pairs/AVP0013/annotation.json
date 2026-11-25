@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0013",
-  "authoring_id": "NR13",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0013",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
   "subcondition": "same_pi_value_angle_vs_abscissa",
   "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "Equivalent layouts for one real number: π/4 and (1/4)π.",
+    "left_evidence": "The angle label π/4 at the origin.",
+    "right_evidence": "The first component, (1/4)π, of the upper orange point's coordinate label ((1/4)π,−2.2).",
+    "left_meaning": "The label gives the marked angle's measure in radians at the origin.",
+    "right_meaning": "The label gives the marked point's x-coordinate on the function graph.",
+    "same_meaning": false,
+    "reason": "The expressions π/4 and (1/4)π have equal numerical values. The left expression represents an angle measure in radians. The right expression is the x-coordinate of the marked point."
+  },
   "left": {
     "dataset": "MathVerse",
     "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
@@ -15,7 +27,6 @@
     "problem_index": "439",
     "sample_index": "2194",
     "problem_version": "Vision Dominant",
-    "image_type": "geometry",
     "source_subject": "Plane Geometry",
     "source_metadata": {
       "split": "testmini",
@@ -24,11 +35,12 @@
       "subfield": "Analytic"
     },
     "original_relative_path": "images_version_5/image_439.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
     "image_path": "pairs/AVP0013/left.png",
     "sha256": "23fafaf74b08d6d9e8b5c4b65e3feb3bb19e7c8444d49be70c26bd196a824056",
     "width": 254,
-    "height": 259,
-    "original_image_modified": false
+    "height": 259
   },
   "right": {
     "dataset": "MathVerse",
@@ -38,7 +50,6 @@
     "problem_index": "530",
     "sample_index": "2649",
     "problem_version": "Vision Dominant",
-    "image_type": "function",
     "source_subject": "Functions",
     "source_metadata": {
       "split": "testmini",
@@ -47,33 +58,33 @@
       "subfield": "Property"
     },
     "original_relative_path": "images_version_5/image_530.png",
+    "original_image_modified": false,
+    "image_type": "function",
     "image_path": "pairs/AVP0013/right.png",
     "sha256": "ac12d4c4bd8d53c82fa7760943c76ce042f6858e5e4c1a6705d978871ae0fa4a",
     "width": 397,
-    "height": 404,
-    "original_image_modified": false
+    "height": 404
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "Equivalent layouts for one real number: π/4 and (1/4)π.",
-    "left_evidence": "The angle label π/4 at the origin.",
-    "right_evidence": "The first component, (1/4)π, of the upper orange point's coordinate label ((1/4)π,−2.2).",
-    "left_meaning": "The label gives the marked angle's measure in radians at the origin.",
-    "right_meaning": "The label gives the marked point's x-coordinate on the function graph.",
-    "same_meaning": false,
-    "reason": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The label gives the marked angle's measure in radians at the origin. Right image: The label gives the marked point's x-coordinate on the function graph.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "π/4=(1/4)π, but one is an angle measure and the other an x-coordinate; numerical equivalence does not establish the same local mathematical role."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "AI visual review; both images_version_5 originals were re-examined in the annotation review. The user's central example is retained; only the numerical target π/4 is selected.",
   "views": {
     "type": "type/different type/AVP0013",
     "condition": "condition/numeric_representation/AVP0013"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: Equivalent layouts for one real number: π/4 and (1/4)π."
+  "label": {
+    "mathematical_meanings": "Left image: The label gives the marked angle's measure in radians at the origin. Right image: The label gives the marked point's x-coordinate on the function graph.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The expressions π/4 and (1/4)π have equal numerical values. The left expression represents an angle measure in radians. The right expression is the x-coordinate of the marked point."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: Equivalent layouts for one real number: π/4 and (1/4)π.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The angle label π/4 at the origin. The first component, (1/4)π, of the upper orange point's coordinate label ((1/4)π,−2.2).",
+    "eligible_for_strict_scoring": true
+  }
 }

@@ -1,0 +1,5 @@
+{
+  "mathematical_meanings": "Left image: The outline is the circumference of the circle plotted around the origin. Right image: The open endpoint excludes (−3, 0) from the function graph.",
+  "same_mathematical_meanings": "no",
+  "Rationales": "The feature traces the circumference of a geometric circle in the left image and marks an ordered pair excluded from the plotted trace in the right image. The cyan circle centered where the two axes meet. The hollow circle at the left end of the curve at (−3, 0)."
+}

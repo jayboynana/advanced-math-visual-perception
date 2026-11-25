@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The rectangle's left edge has length value 8. Right image: Matrix A has entry 8 at row 1, column 2.",
+  "mathematical_meanings": "Left image: 8 gives the labeled vertical extent. Right image: 8 is the top-right entry of A.",
   "same_mathematical_meanings": "no",
-  "Rationales": "The left context gives the number the role of geometric length, while the right context gives it the role of matrix entry."
+  "Rationales": "The notation on the left represents a segment length. The notation on the right represents a matrix entry."
 }

@@ -1,0 +1,102 @@
+{
+  "pair_id": "AVP1465",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1465",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_solid_segment",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A solid horizontal segment distinct from any axis or gridline.",
+    "left_evidence": "The flat top of the plotted piecewise trace.",
+    "right_evidence": "The flat center of the three-piece trace at positive height.",
+    "left_meaning": "The graph segment gives an interval of constant positive output.",
+    "right_meaning": "The plotted horizontal segment means the position in meters remains constant over that interval.",
+    "same_meaning": true,
+    "reason": "In both images the feature plots a constant function output over an interval. The flat top of the plotted piecewise trace. The flat center of the three-piece trace at positive height."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "30_A",
+    "sample_index": "30",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 30,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/30_A.jpg",
+    "sha256": "8d36b1a91d3ed2d199e497894a60eda710af291f7186abb1e67ffd455b683717",
+    "width": 160,
+    "height": 124,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/30_A.jpg",
+      "start": 10974985,
+      "length": 2410,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "109_A",
+    "sample_index": "109",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Descriptive Geometry",
+    "source_metadata": {
+      "upstream_question_index": 109,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/109_A.jpg",
+    "sha256": "e0d84204a4f2e539b8b609a12635563260bbdd4dd616a2c626fe8e5c2ca30b40",
+    "width": 119,
+    "height": 115,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/109_A.jpg",
+      "start": 863070,
+      "length": 2527,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/same type/AVP1465",
+    "condition": "condition/graphical_roles/AVP1465"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The graph segment gives an interval of constant positive output. Right image: The plotted horizontal segment means the position in meters remains constant over that interval.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature plots a constant function output over an interval. The flat top of the plotted piecewise trace. The flat center of the three-piece trace at positive height."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A solid horizontal segment distinct from any axis or gridline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The flat top of the plotted piecewise trace. The flat center of the three-piece trace at positive height.",
+    "eligible_for_strict_scoring": true
+  }
+}

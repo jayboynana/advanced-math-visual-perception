@@ -1,5 +1,5 @@
 {
-  "mathematical_meanings": "Left image: The variable x is squared; 2 is its exponent. Right image: The expression x−3 is squared; 2 is its exponent.",
+  "mathematical_meanings": "Left image: The variable x is squared in the expression listed for the blue trace. Right image: The difference x − 3 is squared under the radical.",
   "same_mathematical_meanings": "yes",
-  "Rationales": "Both selected superscripts 2 denote squaring. The entire functions and bases are outside the selected exponent target."
+  "Rationales": "The exponent 2 applies squaring to the base shown in each formula."
 }

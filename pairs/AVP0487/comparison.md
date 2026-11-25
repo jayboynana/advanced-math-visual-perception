@@ -7,16 +7,16 @@ MathVista:962 / MathVerse:507 · same type · Mathematical roles of graphical el
 
 ## Shared or similar visual information
 
-A straight line across a coordinate plot
+A solid straight line rising from left to right.
 
 ## Evidence locations
 
-- Left image: The straight increasing trace across the plotted x-y square.
-- Right image: The straight rising black line across the coordinate grid.
+- Left image: The rising trace through the origin from the lower-left to the upper-right of the plot.
+- Right image: The black straight line crossing the axes and rising to the right.
 
 ## Mathematical meanings
 
-Left image: A straight-line graph representing a variable relationship. Right image: A straight-line graph representing a variable relationship.
+Left image: The trace represents a linear relation assigning equal coordinates along the trace. Right image: The line is the graph of a positive-slope linear function.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both traces encode an input-output relation by Cartesian positions. The comparison concerns their function-graph role, without asserting equal slopes or intercepts.
+In both images the feature plots a linear relationship between coordinates. The rising trace through the origin from the lower-left to the upper-right of the plot. The black straight line crossing the axes and rising to the right.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

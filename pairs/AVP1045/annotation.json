@@ -1,0 +1,94 @@
+{
+  "pair_id": "AVP1045",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1045",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "vertical_upward_arrow_north_reference_vs_positive_vertical_axis",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An upward arrow on a straight vertical line.",
+    "left_evidence": "The arrow under North to the left of the route segments.",
+    "right_evidence": "The upward arrow at the top of the y-axis, above the 12 label.",
+    "left_meaning": "The arrow gives compass north for the diagram.",
+    "right_meaning": "The arrow marks the increasing y direction.",
+    "same_meaning": false,
+    "reason": "In the left image, the arrow sets the compass-north reference for the geometry. In the right image, the arrow indicates the increasing direction of the vertical coordinate."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "411",
+    "sample_index": "411",
+    "problem_version": "2steps_2",
+    "image_type": "geometry",
+    "source_subject": "Determining the Positions of Objects Based on Direction, Angle, and Distance",
+    "source_metadata": {
+      "upstream_group_id": "2steps_51",
+      "step_variant": "2steps_2"
+    },
+    "original_relative_path": "51-2.png",
+    "sha256": "58814b20b46818103f7c405861b2402f4084328589d5fb34438c704952927bf4",
+    "width": 365,
+    "height": 235,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1045/left.png"
+  },
+  "right": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "591_A",
+    "sample_index": "591",
+    "problem_version": "original",
+    "image_type": "function",
+    "source_subject": "Analytic Geometry",
+    "source_metadata": {
+      "upstream_question_index": 591,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/591_A.jpg",
+    "sha256": "370d5095868dc075656d95c7c109a01d804cdcbf36011f933d2c759d8baccb40",
+    "width": 126,
+    "height": 118,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/591_A.jpg",
+      "start": 13840369,
+      "length": 2563,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "views": {
+    "type": "type/different type/AVP1045",
+    "condition": "condition/geometric_markers/AVP1045"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The arrow gives compass north for the diagram. Right image: The arrow marks the increasing y direction.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the arrow sets the compass-north reference for the geometry. In the right image, the arrow indicates the increasing direction of the vertical coordinate."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An upward arrow on a straight vertical line.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The arrow under North to the left of the route segments. The upward arrow at the top of the y-axis, above the 12 label.",
+    "eligible_for_strict_scoring": true
+  }
+}

@@ -1,12 +1,24 @@
 {
-  "schema_version": "0.6.1",
-  "language": "en",
   "pair_id": "AVP0557",
-  "authoring_id": "V04NR057",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP0557",
   "condition": "numeric_representation",
   "condition_name": "Numeric representation and conversion",
-  "subcondition": "x_coordinate_vs_y_coordinate",
+  "subcondition": "same_coordinate_notation",
   "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notation 3.",
+    "left_evidence": "The notation 3 appears at the x-axis tick to the right of the segment endpoint.",
+    "right_evidence": "The notation 3 appears beside the vertical dashed guide on the horizontal axis.",
+    "left_meaning": "3 gives the horizontal-axis coordinate of that tick.",
+    "right_meaning": "3 sets the horizontal coordinate of the guide.",
+    "same_meaning": true,
+    "reason": "The numeral gives the same horizontal coordinate in both images."
+  },
   "left": {
     "dataset": "MV-MATH",
     "source_revision": "b22144b7d9315ce30c7ee8ce1bbaaa7b52fa8674",
@@ -59,27 +71,26 @@
     "original_image_modified": false,
     "image_path": "pairs/AVP0557/right.jpg"
   },
-  "target_count": 1,
-  "target": {
-    "visual_information": "The numerical notation 2 in both images.",
-    "left_evidence": "The 2 under the horizontal-axis tick where the sloping segment ends.",
-    "right_evidence": "The 2 beside the upper labeled tick on the vertical axis.",
-    "left_meaning": "The sloping segment meets the horizontal axis at x-coordinate 2.",
-    "right_meaning": "The tick marks y-coordinate 2.",
-    "same_meaning": false,
-    "reason": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate."
-  },
-  "label": {
-    "mathematical_meanings": "Left image: The sloping segment meets the horizontal axis at x-coordinate 2. Right image: The tick marks y-coordinate 2.",
-    "same_mathematical_meanings": "no",
-    "Rationales": "The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate."
-  },
-  "semantic_relation": "different_meaning",
-  "annotation_status": "ai_visually_reviewed_draft",
-  "review_notes": "Original image cues reviewed for the selected numeric notation. Independent human review pending.",
   "views": {
     "type": "type/same type/AVP0557",
     "condition": "condition/numeric_representation/AVP0557"
   },
-  "prompt": "Use the context in the first (left) and second (right) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 2 in both images."
+  "label": {
+    "mathematical_meanings": "Left image: 3 gives the horizontal-axis coordinate of that tick. Right image: 3 sets the horizontal coordinate of the guide.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "The numeral gives the same horizontal coordinate in both images."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notation 3.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 3 appears at the x-axis tick to the right of the segment endpoint. The notation 3 appears beside the vertical dashed guide on the horizontal axis.",
+    "eligible_for_strict_scoring": true
+  }
 }

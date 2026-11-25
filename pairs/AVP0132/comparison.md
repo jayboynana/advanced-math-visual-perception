@@ -7,16 +7,16 @@ MathVista:302 / MathVista:671 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 2 in both images.
+The exponent 2 in the expressions x^2 and (x − 3)².
 
 ## Evidence locations
 
-- Left image: The superscript 2 in the blue x² item of the graph heading.
-- Right image: The superscript 2 on (x−3) inside the square-root formula.
+- Left image: The notation x^2 appears in the graph title naming the blue trace.
+- Right image: The notation (x − 3)² appears within the radical in the formula above the semicircle.
 
 ## Mathematical meanings
 
-Left image: The variable x is squared; 2 is its exponent. Right image: The expression x−3 is squared; 2 is its exponent.
+Left image: The variable x is squared in the expression listed for the blue trace. Right image: The difference x − 3 is squared under the radical.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both selected superscripts 2 denote squaring. The entire functions and bases are outside the selected exponent target.
+The exponent 2 applies squaring to the base shown in each formula.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

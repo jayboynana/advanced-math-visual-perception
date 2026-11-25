@@ -7,16 +7,16 @@ MathVista:698 / MathVista:815 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 60° in both images.
+The numerical notation 60°.
 
 ## Evidence locations
 
-- Left image: The 60° at the upper-right vertex of the small triangle above the question.
-- Right image: The 60° inside the circle, between radii CM and CN.
+- Left image: The notation 60° appears at the upper-right vertex of the printed triangle.
+- Right image: The notation 60° appears between radii CM and CN.
 
 ## Mathematical meanings
 
-Left image: The marked triangle angle measures 60 degrees. Right image: The central angle MCN measures 60 degrees.
+Left image: 60° measures the angle at the top of the vertical leg x. Right image: 60° measures the indicated central angle.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ yes
 
 ## Rationales
 
-Both labels quantify an angle as 60 degrees. One angle is at a triangle vertex and the other at a circle center; the numerical angle measure is the selected target.
+Each notation is placed next to the marked angle and specifies the same angle measure of 60°.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

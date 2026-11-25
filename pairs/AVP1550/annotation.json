@@ -1,0 +1,88 @@
+{
+  "pair_id": "AVP1550",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1550",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "horizontal_coordinate_axis",
+  "type_class": "different type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The horizontal coordinate axis.",
+    "left_evidence": "The numbered line below the red increasing curve.",
+    "right_evidence": "The x-axis crossing the middle of the unit circle.",
+    "left_meaning": "The horizontal axis gives the input coordinate for the function graph.",
+    "right_meaning": "The axis measures the first coordinate of points, including the annotated circle point.",
+    "same_meaning": true,
+    "reason": "In both images the feature measures the horizontal Cartesian coordinate. The numbered line below the red increasing curve. The x-axis crossing the middle of the unit circle."
+  },
+  "left": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "198",
+    "sample_index": "198",
+    "problem_version": "sample_variant1",
+    "source_subject": "analytic geometry",
+    "source_metadata": {
+      "subject": "analytic geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image198.png",
+    "sha256": "fb633225ffc9a0cdbaad89ceb41701478be78965316a8356d705c6bc0b6c73b8",
+    "width": 640,
+    "height": 480,
+    "original_image_modified": false,
+    "image_type": "function",
+    "image_path": "pairs/AVP1550/left.png"
+  },
+  "right": {
+    "dataset": "MathVerse",
+    "source_revision": "3bc86196678bad115a923d2851c6821dbe235939",
+    "config": "testmini",
+    "split": "testmini",
+    "problem_index": "556",
+    "sample_index": "2779",
+    "problem_version": "Vision Dominant",
+    "source_subject": "Functions",
+    "source_metadata": {
+      "split": "testmini",
+      "source": "Functions_collected",
+      "subject": "Functions",
+      "subfield": "Expression"
+    },
+    "original_relative_path": "images_version_5/image_556.png",
+    "original_image_modified": false,
+    "image_type": "geometry",
+    "image_path": "pairs/AVP1550/right.png",
+    "sha256": "84de7b1fcd4c9e5b7cc6e9e9d1384b501b13c3b4d637eea1f136075aef73fe55",
+    "width": 284,
+    "height": 295
+  },
+  "views": {
+    "type": "type/different type/AVP1550",
+    "condition": "condition/graphical_roles/AVP1550"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The horizontal axis gives the input coordinate for the function graph. Right image: The axis measures the first coordinate of points, including the annotated circle point.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature measures the horizontal Cartesian coordinate. The numbered line below the red increasing curve. The x-axis crossing the middle of the unit circle."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The horizontal coordinate axis.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The numbered line below the red increasing curve. The x-axis crossing the middle of the unit circle.",
+    "eligible_for_strict_scoring": true
+  }
+}

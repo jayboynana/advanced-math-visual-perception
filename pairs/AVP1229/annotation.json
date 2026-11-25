@@ -1,0 +1,90 @@
+{
+  "pair_id": "AVP1229",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1229",
+  "condition": "geometric_markers",
+  "condition_name": "Geometric markers",
+  "subcondition": "square_outline_standalone_polygon_vs_perpendicularity",
+  "type_class": "same type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "An unfilled square outline.",
+    "left_evidence": "The four-sided outline labeled A, B, C and D.",
+    "right_evidence": "The square at E where BE drops to AC.",
+    "left_meaning": "The outline represents the square ABCD as the geometric object.",
+    "right_meaning": "BE is perpendicular to AC.",
+    "same_meaning": false,
+    "reason": "In the left image, the outline itself bounds a square polygon. In the right image, a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "left": {
+    "dataset": "We-Math",
+    "source_revision": "527c44d4d94c4e3c7c98157460146a8b18c8420a",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "995",
+    "sample_index": "995",
+    "problem_version": "2steps_multi",
+    "image_type": "geometry",
+    "source_subject": "Southeast, Southwest, Northeast, Northwest Directions;Determining the Positions of Objects Based on Direction, Angle, and Distance",
+    "source_metadata": {
+      "upstream_group_id": "2steps_275",
+      "step_variant": "2steps_multi"
+    },
+    "original_relative_path": "275-multi.png",
+    "sha256": "15349db3913400690aeaaddc1ce079d3836d53c3756ec3836e3347a3165e564e",
+    "width": 570,
+    "height": 498,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1229/left.png"
+  },
+  "right": {
+    "dataset": "MathVision",
+    "source_revision": "2837ddb3f13abaf6b3997c12d80753e5470bd46a",
+    "config": "default",
+    "split": "test",
+    "problem_index": "2944",
+    "sample_index": "2944",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "metric geometry - length",
+    "source_metadata": {
+      "id": "2944",
+      "question": "In right triangle $ABC$, $\\angle B = 90^\\circ$, and $D$ and $E$ lie on $AC$ such that $\\overline{BD}$ is a median and $\\overline{BE}$ is an altitude.  If $BD=2\\cdot DE$, compute $\\frac{AB}{EC}$. <image1>",
+      "options": [],
+      "image": "images/2944.jpg",
+      "level": 4,
+      "subject": "metric geometry - length"
+    },
+    "original_relative_path": "images/2944.jpg",
+    "sha256": "9d2405486ae8e79fcae5d083ed2a8ac27debd7d625676c6095bc859fd38f0d38",
+    "width": 2520,
+    "height": 1312,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1229/right.jpg"
+  },
+  "views": {
+    "type": "type/same type/AVP1229",
+    "condition": "condition/geometric_markers/AVP1229"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The outline represents the square ABCD as the geometric object. Right image: BE is perpendicular to AC.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "In the left image, the outline itself bounds a square polygon. In the right image, a square placed in the angle between two segments marks those segments as perpendicular."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: An unfilled square outline.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The four-sided outline labeled A, B, C and D. The square at E where BE drops to AC.",
+    "eligible_for_strict_scoring": true
+  }
+}

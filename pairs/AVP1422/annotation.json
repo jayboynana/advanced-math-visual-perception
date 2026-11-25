@@ -1,0 +1,105 @@
+{
+  "pair_id": "AVP1422",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1422",
+  "condition": "graphical_roles",
+  "condition_name": "Mathematical roles of graphical elements",
+  "subcondition": "shaded_region",
+  "type_class": "same type",
+  "semantic_relation": "same_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "A shaded region.",
+    "left_evidence": "The gray triangle against the baseline of the partitioned rectangle.",
+    "right_evidence": "The lavender rectangle with dimensions 3 cm and 2 cm.",
+    "left_meaning": "The shading selects the triangular subarea with an apex on the top of the rectangle.",
+    "right_meaning": "The shading designates the interior area of the rectangle.",
+    "same_meaning": true,
+    "reason": "In both images the feature selects a geometric area. The gray triangle against the baseline of the partitioned rectangle. The lavender rectangle with dimensions 3 cm and 2 cm."
+  },
+  "left": {
+    "dataset": "VisioMath",
+    "source_revision": "4a912153e110001da261917902e1d3cc163b7c6a",
+    "config": "default",
+    "split": "benchmark",
+    "problem_index": "413_A",
+    "sample_index": "413",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "Metric Geometry",
+    "source_metadata": {
+      "upstream_question_index": 413,
+      "image_role": "A"
+    },
+    "original_relative_path": "images/413_A.jpg",
+    "sha256": "b9fb407cd8a7a7dd27a6b85f418bc85a0fb7b642ae9f9fb418e03d4faa6ca6cf",
+    "width": 134,
+    "height": 52,
+    "original_image_modified": false,
+    "image_path": null,
+    "image_archive": {
+      "url": "https://raw.githubusercontent.com/Nefefilibata/VisioMath/4a912153e110001da261917902e1d3cc163b7c6a/data/images.zip",
+      "member": "images/413_A.jpg",
+      "start": 12163118,
+      "length": 1651,
+      "method": 8,
+      "media_type": "image/jpeg"
+    }
+  },
+  "right": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "606",
+    "sample_index": "606",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "elementary school",
+      "img_height": 209,
+      "img_width": 335,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "arithmetic reasoning"
+      ],
+      "source": "IconQA",
+      "split": "testmini",
+      "task": "math word problem"
+    },
+    "original_relative_path": "images/606.jpg",
+    "sha256": "813f0d8ff3201893df99613f62f405bbed3945674e3077662e28e4f58ed98c4c",
+    "width": 335,
+    "height": 209,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1422/right.png"
+  },
+  "views": {
+    "type": "type/same type/AVP1422",
+    "condition": "condition/graphical_roles/AVP1422"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: The shading selects the triangular subarea with an apex on the top of the rectangle. Right image: The shading designates the interior area of the rectangle.",
+    "same_mathematical_meanings": "yes",
+    "Rationales": "In both images the feature selects a geometric area. The gray triangle against the baseline of the partitioned rectangle. The lavender rectangle with dimensions 3 cm and 2 cm."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: A shaded region.",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The gray triangle against the baseline of the partitioned rectangle. The lavender rectangle with dimensions 3 cm and 2 cm.",
+    "eligible_for_strict_scoring": true
+  }
+}

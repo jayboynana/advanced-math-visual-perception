@@ -1,0 +1,97 @@
+{
+  "pair_id": "AVP1260",
+  "schema_version": "0.8.0",
+  "language": "en",
+  "authoring_id": "v08_AVP1260",
+  "condition": "numeric_representation",
+  "condition_name": "Numeric representation and conversion",
+  "subcondition": "numeral_role_difference",
+  "type_class": "different type",
+  "semantic_relation": "different_meaning",
+  "annotation_status": "ai_visually_reviewed_draft",
+  "target_count": 1,
+  "target": {
+    "visual_information": "The numerical notations 8 (left) and 8 ft (right).",
+    "left_evidence": "The notation 8 appears in the angle expression (8x + 1)°.",
+    "right_evidence": "The notation 8 ft appears beside the bottom front edge.",
+    "left_meaning": "8 multiplies x in the algebraic expression for the marked angle.",
+    "right_meaning": "8 ft gives the front width of the rectangular prism.",
+    "same_meaning": false,
+    "reason": "The notation on the left represents a variable coefficient. The notation on the right represents a segment length."
+  },
+  "left": {
+    "dataset": "MathVista",
+    "source_revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747",
+    "config": "default",
+    "split": "testmini",
+    "problem_index": "855",
+    "sample_index": "855",
+    "problem_version": "original",
+    "image_type": "geometry",
+    "source_subject": "math-targeted-vqa",
+    "source_metadata": {
+      "category": "math-targeted-vqa",
+      "context": "geometry diagram",
+      "grade": "high school",
+      "img_height": 250,
+      "img_width": 536,
+      "language": "english",
+      "skills": [
+        "geometry reasoning",
+        "algebraic reasoning"
+      ],
+      "source": "Geometry3K",
+      "split": "testmini",
+      "task": "geometry problem solving"
+    },
+    "original_relative_path": "images/855.jpg",
+    "sha256": "fd69240bccc06979a56e9f1d977a5ecfabfd8816686e58d0f5f761847884ba60",
+    "width": 536,
+    "height": 250,
+    "original_image_modified": false,
+    "image_path": "pairs/AVP1260/left.png"
+  },
+  "right": {
+    "dataset": "DynaMath",
+    "source_revision": "bc7fcd1ae58caa445d61f6dc0c241b0bb8a7f4c6",
+    "config": "default",
+    "split": "sample_variant1",
+    "problem_index": "36",
+    "sample_index": "36",
+    "problem_version": "sample_variant1",
+    "source_subject": "solid geometry",
+    "source_metadata": {
+      "subject": "solid geometry",
+      "knowledge_level": "high school"
+    },
+    "original_relative_path": "image/image36.png",
+    "sha256": "46f48fdd3dc6a2905b2d7a4dafadf6c0a831714c3d2f81dfc0838e74a7920a94",
+    "width": 400,
+    "height": 400,
+    "original_image_modified": false,
+    "image_type": "solid_geometry",
+    "image_path": "pairs/AVP1260/right.png"
+  },
+  "views": {
+    "type": "type/different type/AVP1260",
+    "condition": "condition/numeric_representation/AVP1260"
+  },
+  "label": {
+    "mathematical_meanings": "Left image: 8 multiplies x in the algebraic expression for the marked angle. Right image: 8 ft gives the front width of the rectangular prism.",
+    "same_mathematical_meanings": "no",
+    "Rationales": "The notation on the left represents a variable coefficient. The notation on the right represents a segment length."
+  },
+  "prompt": "Use the context in the left (first) and right (second) images to explain what the shared or similar visual feature listed below represents mathematically in each image. Answer \"yes\" if the feature has the same mathematical meaning in both images, or \"no\" if its meanings differ. Justify your judgment using evidence visible in the images. Return one English JSON object with exactly three string fields: mathematical_meanings (format: Left image: ... Right image: ...), same_mathematical_meanings (\"yes\" or \"no\"), and Rationales.\n\nShared or similar visual feature: The numerical notations 8 (left) and 8 ft (right).",
+  "quality_review": {
+    "status": "gpt_review_passed",
+    "reviewer": "GPT-6.2",
+    "method": "Direct source-image inspection and pairing by visual form and contextual role",
+    "occurrence_count": {
+      "left": 1,
+      "right": 1
+    },
+    "semantic_scope_status": "specific_roles_checked",
+    "finding": "The notation 8 appears in the angle expression (8x + 1)°. The notation 8 ft appears beside the bottom front edge.",
+    "eligible_for_strict_scoring": true
+  }
+}

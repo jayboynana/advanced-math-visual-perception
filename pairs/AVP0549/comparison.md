@@ -7,16 +7,16 @@ DynaMath:72 / MathVerse:556 · different type · Numeric representation and conv
 
 ## Shared or similar visual information
 
-The numerical notation 0.2 in both images.
+The numerical notation 0.2.
 
 ## Evidence locations
 
-- Left image: The 0.2 beside the lower curved arrow from B toward A.
-- Right image: The first component 0.2 in the coordinate label (0.2,0.98) of the marked unit-circle point.
+- Left image: The notation 0.2 appears on the lower arrow from node B to node A.
+- Right image: The notation 0.2 appears first coordinate of the marked point (0.2, 0.98).
 
 ## Mathematical meanings
 
-Left image: The directed connection from B to A is labeled with weight 0.2. Right image: The marked point has x-coordinate 0.2.
+Left image: 0.2 is the transition probability from B to A. Right image: 0.2 is the horizontal coordinate of the marked unit-circle point.
 
 ## Same mathematical meanings
 
@@ -24,6 +24,6 @@ no
 
 ## Rationales
 
-The left context gives the number the role of weight on a directed edge, while the right context gives it the role of horizontal coordinate.
+The notation on the left represents a transition probability. The notation on the right represents a horizontal coordinate.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.

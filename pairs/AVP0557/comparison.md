@@ -7,23 +7,23 @@ MV-MATH:1999_1 / MV-MATH:94_1 · same type · Numeric representation and convers
 
 ## Shared or similar visual information
 
-The numerical notation 2 in both images.
+The numerical notation 3.
 
 ## Evidence locations
 
-- Left image: The 2 under the horizontal-axis tick where the sloping segment ends.
-- Right image: The 2 beside the upper labeled tick on the vertical axis.
+- Left image: The notation 3 appears at the x-axis tick to the right of the segment endpoint.
+- Right image: The notation 3 appears beside the vertical dashed guide on the horizontal axis.
 
 ## Mathematical meanings
 
-Left image: The sloping segment meets the horizontal axis at x-coordinate 2. Right image: The tick marks y-coordinate 2.
+Left image: 3 gives the horizontal-axis coordinate of that tick. Right image: 3 sets the horizontal coordinate of the guide.
 
 ## Same mathematical meanings
 
-no
+yes
 
 ## Rationales
 
-The left context gives the number the role of horizontal coordinate, while the right context gives it the role of vertical coordinate.
+The numeral gives the same horizontal coordinate in both images.
 
 Only the selected target is annotated. AI visual-review draft; not independently double-annotated by humans.
